@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetReveseDeploy",
+    ["SetReveseDeploy"] = {
         params = {
             {param = "set", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSailForce",
+    ["SetSailForce"] = {
         params = {
             {param = "set", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcSailForce",
+    ["CalcSailForce"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcMaxVelocity",
+    ["CalcMaxVelocity"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetVelocityMod",
+    ["SetVelocityMod"] = {
         params = {
             {param = "set", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBoat",
+    ["SetBoat"] = {
         params = {
             {param = "boat", explain = "", type = ""},
 
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRudder",
+    ["SetRudder"] = {
         params = {
             {param = "obj", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDeath",
+    ["OnDeath"] = {
         params = {
 
         },
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddSailFurler",
+    ["AddSailFurler"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "strength", explain = "", type = ""},
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveSailFurler",
+    ["RemoveSailFurler"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentFurlUnits",
+    ["GetCurrentFurlUnits"] = {
         params = {
 
         },
@@ -164,8 +151,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnfurlSail",
+    ["UnfurlSail"] = {
         params = {
 
         },
@@ -176,8 +162,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SailFurled",
+    ["SailFurled"] = {
         params = {
 
         },
@@ -188,8 +173,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SailUnfurled",
+    ["SailUnfurled"] = {
         params = {
 
         },
@@ -200,8 +184,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CloseSail",
+    ["CloseSail"] = {
         params = {
 
         },
@@ -212,8 +195,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFurled0to1",
+    ["GetFurled0to1"] = {
         params = {
 
         },
@@ -224,8 +206,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRudderDirection",
+    ["SetRudderDirection"] = {
         params = {
             {param = "rudder_direction_x", explain = "", type = ""},
             {param = "rudder_direction_z", explain = "", type = ""},
@@ -238,8 +219,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -252,3 +232,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetSpellCooldownPercent",
+    ["GetSpellCooldownPercent"] = {
         params = {
             {param = "spellname", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RegisterSpellbookCooldown",
+    ["RegisterSpellbookCooldown"] = {
         params = {
             {param = "cd", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RestartSpellCooldown",
+    ["RestartSpellCooldown"] = {
         params = {
             {param = "spellname", explain = "", type = ""},
             {param = "duration", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopSpellCooldown",
+    ["StopSpellCooldown"] = {
         params = {
             {param = "spellname", explain = "", type = ""},
 
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -66,3 +61,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetCalcAvailableSlotsForInspirationFn",
+    ["SetCalcAvailableSlotsForInspirationFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxInspiration",
+    ["SetMaxInspiration"] = {
         params = {
             {param = "max", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaxInspiration",
+    ["GetMaxInspiration"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetInspiration",
+    ["SetInspiration"] = {
         params = {
             {param = "value", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "percent", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDetachRadius",
+    ["GetDetachRadius"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSongActive",
+    ["IsSongActive"] = {
         params = {
             {param = "songdata", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetActiveSong",
+    ["GetActiveSong"] = {
         params = {
             {param = "slot_num", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSinging",
+    ["IsSinging"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnAttacked",
+    ["OnAttacked"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnHitOther",
+    ["OnHitOther"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRidingTick",
+    ["OnRidingTick"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "delta", explain = "", type = ""},
             {param = "forceupdate", explain = "", type = ""},
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanAddSong",
+    ["CanAddSong"] = {
         params = {
             {param = "songdata", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -193,8 +178,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DisplayFx",
+    ["DisplayFx"] = {
         params = {
 
         },
@@ -205,8 +189,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnAddInstantSong",
+    ["OnAddInstantSong"] = {
         params = {
             {param = "songdata", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -219,8 +202,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddSong",
+    ["AddSong"] = {
         params = {
             {param = "songdata", explain = "", type = ""},
             {param = "skip_inspire", explain = "", type = ""},
@@ -234,8 +216,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PopSong",
+    ["PopSong"] = {
         params = {
 
         },
@@ -246,8 +227,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InstantInspire",
+    ["InstantInspire"] = {
         params = {
             {param = "songdata", explain = "", type = ""},
 
@@ -259,8 +239,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Inspire",
+    ["Inspire"] = {
         params = {
 
         },
@@ -271,8 +250,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetValidVictimFn",
+    ["SetValidVictimFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -284,8 +262,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -297,8 +274,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -309,8 +285,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -322,8 +297,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -335,3 +309,4 @@ data = {
     },
         
 }
+return data

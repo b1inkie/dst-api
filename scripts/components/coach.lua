@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Disable",
+    ["Disable"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartInspiring",
+    ["StartInspiring"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopInspiring",
+    ["StopInspiring"] = {
         params = {
 
         },
@@ -49,3 +45,4 @@ data = {
     },
         
 }
+return data

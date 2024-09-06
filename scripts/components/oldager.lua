@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddValidHealingCause",
+    ["AddValidHealingCause"] = {
         params = {
             {param = "cause_name", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnTakeDamage",
+    ["OnTakeDamage"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "overtime", explain = "", type = ""},
@@ -31,8 +29,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -44,8 +41,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopDamageOverTime",
+    ["StopDamageOverTime"] = {
         params = {
 
         },
@@ -56,8 +52,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentYearPercent",
+    ["GetCurrentYearPercent"] = {
         params = {
 
         },
@@ -68,8 +63,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -81,8 +75,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -94,3 +87,4 @@ data = {
     },
         
 }
+return data

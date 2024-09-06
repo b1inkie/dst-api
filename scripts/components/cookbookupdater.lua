@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "LearnRecipe",
+    ["LearnRecipe"] = {
         params = {
             {param = "product", explain = "", type = ""},
             {param = "ingredients", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LearnFoodStats",
+    ["LearnFoodStats"] = {
         params = {
             {param = "product", explain = "", type = ""},
 
@@ -28,3 +26,4 @@ data = {
     },
         
 }
+return data

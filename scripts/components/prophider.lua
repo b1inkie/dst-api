@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetPropCreationFn",
+    ["SetPropCreationFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnVisibleFn",
+    ["SetOnVisibleFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWillUnhideFn",
+    ["SetWillUnhideFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnUnhideFn",
+    ["SetOnUnhideFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnHideFn",
+    ["SetOnHideFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GenerateHideTime",
+    ["GenerateHideTime"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearHideTask",
+    ["ClearHideTask"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HideWithProp",
+    ["HideWithProp"] = {
         params = {
             {param = "duration", explain = "", type = ""},
             {param = "counter", explain = "", type = ""},
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShowFromProp",
+    ["ShowFromProp"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -165,3 +152,4 @@ data = {
     },
         
 }
+return data

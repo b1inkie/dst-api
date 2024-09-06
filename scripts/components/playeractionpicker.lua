@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "RegisterContainer",
+    ["RegisterContainer"] = {
         params = {
             {param = "container", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnregisterContainer",
+    ["UnregisterContainer"] = {
         params = {
             {param = "container", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasContainerWidgetAction",
+    ["HasContainerWidgetAction"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdateActionFilterStack",
+    ["OnUpdateActionFilterStack"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushActionFilter",
+    ["PushActionFilter"] = {
         params = {
             {param = "filterfn", explain = "", type = ""},
             {param = "priority", explain = "", type = ""},
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PopActionFilter",
+    ["PopActionFilter"] = {
         params = {
             {param = "filterfn", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSceneActions",
+    ["GetSceneActions"] = {
         params = {
             {param = "useitem", explain = "", type = ""},
             {param = "right", explain = "", type = ""},
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetUseItemActions",
+    ["GetUseItemActions"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "useitem", explain = "", type = ""},
@@ -106,8 +98,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSteeringActions",
+    ["GetSteeringActions"] = {
         params = {
             {param = "inst", explain = "", type = ""},
             {param = "pos", explain = "", type = ""},
@@ -121,8 +112,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCannonAimActions",
+    ["GetCannonAimActions"] = {
         params = {
             {param = "inst", explain = "", type = ""},
             {param = "pos", explain = "", type = ""},
@@ -136,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPointActions",
+    ["GetPointActions"] = {
         params = {
             {param = "pos", explain = "", type = ""},
             {param = "useitem", explain = "", type = ""},
@@ -152,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPointSpecialActions",
+    ["GetPointSpecialActions"] = {
         params = {
             {param = "pos", explain = "", type = ""},
             {param = "useitem", explain = "", type = ""},
@@ -168,8 +156,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEquippedItemActions",
+    ["GetEquippedItemActions"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "useitem", explain = "", type = ""},
@@ -183,8 +170,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetInventoryActions",
+    ["GetInventoryActions"] = {
         params = {
             {param = "useitem", explain = "", type = ""},
             {param = "right", explain = "", type = ""},
@@ -197,8 +183,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLeftClickActions",
+    ["GetLeftClickActions"] = {
         params = {
             {param = "position", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -211,8 +196,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRightClickActions",
+    ["GetRightClickActions"] = {
         params = {
             {param = "position", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -226,8 +210,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoGetMouseActions",
+    ["DoGetMouseActions"] = {
         params = {
             {param = "position", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -242,3 +225,4 @@ data = {
     },
         
 }
+return data

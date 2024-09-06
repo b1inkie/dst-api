@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropToolOnStop",
+    ["DropToolOnStop"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUsingTool",
+    ["StartUsingTool"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopUsing",
+    ["StopUsing"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -75,3 +69,4 @@ data = {
     },
         
 }
+return data

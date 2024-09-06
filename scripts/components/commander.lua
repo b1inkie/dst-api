@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumSoldiers",
+    ["GetNumSoldiers"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAllSoldiers",
+    ["GetAllSoldiers"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSoldier",
+    ["IsSoldier"] = {
         params = {
             {param = "ent", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShareTargetToAllSoldiers",
+    ["ShareTargetToAllSoldiers"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropAllSoldierTargets",
+    ["DropAllSoldierTargets"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAnySoldierNotAlert",
+    ["IsAnySoldierNotAlert"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AlertAllSoldiers",
+    ["AlertAllSoldiers"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushEventToAllSoldiers",
+    ["PushEventToAllSoldiers"] = {
         params = {
             {param = "ev", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddSoldier",
+    ["AddSoldier"] = {
         params = {
             {param = "ent", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveSoldier",
+    ["RemoveSoldier"] = {
         params = {
             {param = "ent", explain = "", type = ""},
 
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTrackingDistance",
+    ["SetTrackingDistance"] = {
         params = {
             {param = "dist", explain = "", type = ""},
 
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTrackingDistance",
+    ["StartTrackingDistance"] = {
         params = {
 
         },
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTrackingDistance",
+    ["StopTrackingDistance"] = {
         params = {
 
         },
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -190,3 +175,4 @@ data = {
     },
         
 }
+return data

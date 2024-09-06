@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "CreateReticule",
+    ["CreateReticule"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DestroyReticule",
+    ["DestroyReticule"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PingReticuleAt",
+    ["PingReticuleAt"] = {
         params = {
             {param = "pos", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Blip",
+    ["Blip"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateColour",
+    ["UpdateColour"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdatePosition",
+    ["UpdatePosition"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnCameraUpdate",
+    ["OnCameraUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateTwinStickMode1",
+    ["UpdateTwinStickMode1"] = {
         params = {
 
         },
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateTwinStickMode2",
+    ["UpdateTwinStickMode2"] = {
         params = {
 
         },
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearTwinStickOverrides",
+    ["ClearTwinStickOverrides"] = {
         params = {
 
         },
@@ -136,8 +125,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldHide",
+    ["ShouldHide"] = {
         params = {
 
         },
@@ -149,3 +137,4 @@ data = {
     },
         
 }
+return data

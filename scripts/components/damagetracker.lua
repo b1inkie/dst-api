@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Start",
+    ["Start"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnHealthDelta",
+    ["OnHealthDelta"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -38,3 +35,4 @@ data = {
     },
         
 }
+return data

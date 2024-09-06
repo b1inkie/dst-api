@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddRecipeFilter",
+    ["AddRecipeFilter"] = {
         params = {
             {param = "recipename", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddKeyFilter",
+    ["AddKeyFilter"] = {
         params = {
             {param = "key", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartHelper",
+    ["StartHelper"] = {
         params = {
             {param = "recipename", explain = "", type = ""},
             {param = "placerinst", explain = "", type = ""},
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopHelper",
+    ["StopHelper"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnWallUpdate",
+    ["OnWallUpdate"] = {
         params = {
 
         },
@@ -89,3 +82,4 @@ data = {
     },
         
 }
+return data

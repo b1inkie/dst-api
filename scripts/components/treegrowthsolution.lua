@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GrowTarget",
+    ["GrowTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -14,3 +13,4 @@ data = {
     },
         
 }
+return data

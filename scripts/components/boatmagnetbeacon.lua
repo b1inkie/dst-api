@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBoat",
+    ["GetBoat"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBoat",
+    ["SetBoat"] = {
         params = {
             {param = "boat", explain = "", type = ""},
 
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDeath",
+    ["OnDeath"] = {
         params = {
 
         },
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PairedMagnet",
+    ["PairedMagnet"] = {
         params = {
 
         },
@@ -98,8 +90,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PairWithMagnet",
+    ["PairWithMagnet"] = {
         params = {
             {param = "magnet", explain = "", type = ""},
 
@@ -111,8 +102,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnpairWithMagnet",
+    ["UnpairWithMagnet"] = {
         params = {
 
         },
@@ -123,8 +113,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTurnedOff",
+    ["IsTurnedOff"] = {
         params = {
 
         },
@@ -135,8 +124,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TurnOnBeacon",
+    ["TurnOnBeacon"] = {
         params = {
 
         },
@@ -147,8 +135,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TurnOffBeacon",
+    ["TurnOffBeacon"] = {
         params = {
 
         },
@@ -159,8 +146,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPickedUp",
+    ["IsPickedUp"] = {
         params = {
 
         },
@@ -171,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIsPickedUp",
+    ["SetIsPickedUp"] = {
         params = {
             {param = "pickedup", explain = "", type = ""},
 
@@ -184,8 +169,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -197,3 +181,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetRowForceMultiplier",
+    ["GetRowForceMultiplier"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRowForceMultiplier",
+    ["SetRowForceMultiplier"] = {
         params = {
             {param = "force", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRowExtraMaxVelocity",
+    ["GetRowExtraMaxVelocity"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRowExtraMaxVelocity",
+    ["SetRowExtraMaxVelocity"] = {
         params = {
             {param = "vel", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAnchorRaisingSpeed",
+    ["GetAnchorRaisingSpeed"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAnchorRaisingSpeed",
+    ["SetAnchorRaisingSpeed"] = {
         params = {
             {param = "speed", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLowerSailStrength",
+    ["GetLowerSailStrength"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLowerSailStrength",
+    ["SetLowerSailStrength"] = {
         params = {
             {param = "strength", explain = "", type = ""},
 
@@ -101,3 +93,4 @@ data = {
     },
         
 }
+return data

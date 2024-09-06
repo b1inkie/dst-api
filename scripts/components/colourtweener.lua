@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "EndTween",
+    ["EndTween"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoUpdate",
+    ["DoUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -26,3 +24,4 @@ data = {
     },
         
 }
+return data

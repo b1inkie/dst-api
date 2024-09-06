@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Extend",
+    ["Extend"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Retract",
+    ["Retract"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MountPlank",
+    ["MountPlank"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopMounting",
+    ["StopMounting"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AbandonShip",
+    ["AbandonShip"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -75,3 +69,4 @@ data = {
     },
         
 }
+return data

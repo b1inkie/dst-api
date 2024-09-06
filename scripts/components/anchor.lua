@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetVelocityMod",
+    ["SetVelocityMod"] = {
         params = {
             {param = "set", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentDepth",
+    ["GetCurrentDepth"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBoat",
+    ["GetBoat"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIsAnchorLowered",
+    ["SetIsAnchorLowered"] = {
         params = {
             {param = "is_lowered", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartRaisingAnchor",
+    ["StartRaisingAnchor"] = {
         params = {
 
         },
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartLoweringAnchor",
+    ["StartLoweringAnchor"] = {
         params = {
 
         },
@@ -111,8 +102,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddAnchorRaiser",
+    ["AddAnchorRaiser"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveAnchorRaiser",
+    ["RemoveAnchorRaiser"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -137,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AnchorRaised",
+    ["AnchorRaised"] = {
         params = {
 
         },
@@ -149,8 +137,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AnchorLowered",
+    ["AnchorLowered"] = {
         params = {
 
         },
@@ -161,8 +148,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -174,8 +160,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -187,3 +172,4 @@ data = {
     },
         
 }
+return data

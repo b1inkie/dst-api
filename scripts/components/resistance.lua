@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddResistance",
+    ["AddResistance"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveResistance",
+    ["RemoveResistance"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasResistance",
+    ["HasResistance"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
             {param = "weapon", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasResistanceToTag",
+    ["HasResistanceToTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnResistDamageFn",
+    ["SetOnResistDamageFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShouldResistFn",
+    ["SetShouldResistFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldResistDamage",
+    ["ShouldResistDamage"] = {
         params = {
 
         },
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResistDamage",
+    ["ResistDamage"] = {
         params = {
             {param = "damage_amount", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -117,3 +108,4 @@ data = {
     },
         
 }
+return data

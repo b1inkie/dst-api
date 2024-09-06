@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnTakenFn",
+    ["SetOnTakenFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Taken",
+    ["Taken"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -39,3 +36,4 @@ data = {
     },
         
 }
+return data

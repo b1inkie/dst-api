@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRaceDistance",
+    ["GetRaceDistance"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRaceBegunFn",
+    ["SetRaceBegunFn"] = {
         params = {
             {param = "race_begun_fn", explain = "", type = ""},
 
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRaceFinishedFn",
+    ["SetRaceFinishedFn"] = {
         params = {
             {param = "race_finished_fn", explain = "", type = ""},
 
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRaceOverFn",
+    ["SetRaceOverFn"] = {
         params = {
             {param = "race_over_fn", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_SetCheckPoint",
+    ["_SetCheckPoint"] = {
         params = {
             {param = "checkpoint", explain = "", type = ""},
             {param = "is_starting_line", explain = "", type = ""},
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartRace",
+    ["StartRace"] = {
         params = {
             {param = "delay", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FinishRace",
+    ["FinishRace"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AbortRace",
+    ["AbortRace"] = {
         params = {
             {param = "prize_table", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnAllRacersFinished",
+    ["OnAllRacersFinished"] = {
         params = {
             {param = "prize_table", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRaceStartPoint",
+    ["SetRaceStartPoint"] = {
         params = {
             {param = "start_point_entity", explain = "", type = ""},
 
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_FindNextCheckPoint",
+    ["_FindNextCheckPoint"] = {
         params = {
 
         },
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -190,8 +175,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsStartingLate",
+    ["IsStartingLate"] = {
         params = {
 
         },
@@ -202,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsExhausted",
+    ["IsExhausted"] = {
         params = {
 
         },
@@ -214,8 +197,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RecoverStamina",
+    ["RecoverStamina"] = {
         params = {
 
         },
@@ -226,8 +208,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CollectPrize",
+    ["CollectPrize"] = {
         params = {
 
         },
@@ -238,8 +219,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -251,3 +231,4 @@ data = {
     },
         
 }
+return data

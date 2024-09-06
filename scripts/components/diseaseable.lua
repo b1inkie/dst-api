@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDiseased",
+    ["IsDiseased"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBecomingDiseased",
+    ["IsBecomingDiseased"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDiseasedFn",
+    ["SetDiseasedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Disease",
+    ["Disease"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Spread",
+    ["Spread"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RestartNearbySpread",
+    ["RestartNearbySpread"] = {
         params = {
 
         },
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -97,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -110,8 +101,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -123,3 +113,4 @@ data = {
     },
         
 }
+return data

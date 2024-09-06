@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetBundlingPrefabs",
+    ["SetBundlingPrefabs"] = {
         params = {
             {param = "bundling", explain = "", type = ""},
             {param = "bundled", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSkinData",
+    ["SetSkinData"] = {
         params = {
             {param = "skinname", explain = "", type = ""},
             {param = "skin_id", explain = "", type = ""},
@@ -28,8 +26,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStartBundlingFn",
+    ["SetOnStartBundlingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStartBundling",
+    ["OnStartBundling"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -55,3 +51,4 @@ data = {
     },
         
 }
+return data

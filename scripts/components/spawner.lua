@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnOccupiedFn",
+    ["SetOnOccupiedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnVacateFn",
+    ["SetOnVacateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWaterSpawning",
+    ["SetWaterSpawning"] = {
         params = {
             {param = "spawn_in_water", explain = "", type = ""},
             {param = "spawn_on_boats", explain = "", type = ""},
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnlySpawnOffscreen",
+    ["SetOnlySpawnOffscreen"] = {
         params = {
             {param = "offscreen", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Configure",
+    ["Configure"] = {
         params = {
             {param = "childname", explain = "", type = ""},
             {param = "delay", explain = "", type = ""},
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnWithDelay",
+    ["SpawnWithDelay"] = {
         params = {
             {param = "delay", explain = "", type = ""},
 
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSpawnPending",
+    ["IsSpawnPending"] = {
         params = {
 
         },
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetQueueSpawning",
+    ["SetQueueSpawning"] = {
         params = {
             {param = "queued", explain = "", type = ""},
             {param = "retryperiod", explain = "", type = ""},
@@ -131,8 +121,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelSpawning",
+    ["CancelSpawning"] = {
         params = {
 
         },
@@ -143,8 +132,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -155,8 +143,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "newents", explain = "", type = ""},
@@ -169,8 +156,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeOwnership",
+    ["TakeOwnership"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -182,8 +168,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -196,8 +181,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOccupied",
+    ["IsOccupied"] = {
         params = {
 
         },
@@ -208,8 +192,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReleaseChild",
+    ["ReleaseChild"] = {
         params = {
 
         },
@@ -220,8 +203,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GoHome",
+    ["GoHome"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -233,8 +215,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnChildKilled",
+    ["OnChildKilled"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -247,3 +228,4 @@ data = {
     },
         
 }
+return data

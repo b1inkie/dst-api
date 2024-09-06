@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetParryArc",
+    ["SetParryArc"] = {
         params = {
             {param = "arc", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPreParryFn",
+    ["SetOnPreParryFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnParryFn",
+    ["SetOnParryFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPreParry",
+    ["OnPreParry"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnterParryState",
+    ["EnterParryState"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "rot", explain = "", type = ""},
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryParry",
+    ["TryParry"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "attacker", explain = "", type = ""},
@@ -97,3 +90,4 @@ data = {
     },
         
 }
+return data

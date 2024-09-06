@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRadius",
+    ["SetRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnExplodeFn",
+    ["SetOnExplodeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnSprungFn",
+    ["SetOnSprungFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnResetFn",
+    ["SetOnResetFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnDeactivateFn",
+    ["SetOnDeactivateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTestTimeFn",
+    ["SetTestTimeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAlignment",
+    ["SetAlignment"] = {
         params = {
             {param = "alignment", explain = "", type = ""},
 
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetReusable",
+    ["SetReusable"] = {
         params = {
             {param = "reusable", explain = "", type = ""},
 
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
 
         },
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTesting",
+    ["StartTesting"] = {
         params = {
 
         },
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTesting",
+    ["StopTesting"] = {
         params = {
 
         },
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -164,8 +151,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -176,8 +162,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Deactivate",
+    ["Deactivate"] = {
         params = {
 
         },
@@ -188,8 +173,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Spring",
+    ["Spring"] = {
         params = {
 
         },
@@ -200,8 +184,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTarget",
+    ["GetTarget"] = {
         params = {
 
         },
@@ -212,8 +195,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Explode",
+    ["Explode"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -225,8 +207,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -237,8 +218,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -251,3 +231,4 @@ data = {
     },
         
 }
+return data

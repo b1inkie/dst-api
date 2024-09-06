@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableGrowth",
+    ["EnableGrowth"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetInsulation",
+    ["GetInsulation"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldTryToShave",
+    ["ShouldTryToShave"] = {
         params = {
             {param = "who", explain = "", type = ""},
             {param = "whithwhat", explain = "", type = ""},
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Shave",
+    ["Shave"] = {
         params = {
             {param = "who", explain = "", type = ""},
             {param = "withwhat", explain = "", type = ""},
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddCallback",
+    ["AddCallback"] = {
         params = {
             {param = "day", explain = "", type = ""},
             {param = "cb", explain = "", type = ""},
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
 
         },
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -130,8 +120,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSkin",
+    ["SetSkin"] = {
         params = {
             {param = "skinname", explain = "", type = ""},
 
@@ -143,8 +132,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -155,8 +143,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBeardSkinAndLength",
+    ["GetBeardSkinAndLength"] = {
         params = {
 
         },
@@ -167,8 +154,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateBeardInventory",
+    ["UpdateBeardInventory"] = {
         params = {
 
         },
@@ -180,3 +166,4 @@ data = {
     },
         
 }
+return data

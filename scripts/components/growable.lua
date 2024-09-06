@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartGrowing",
+    ["StartGrowing"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNextStage",
+    ["GetNextStage"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoMagicGrowth",
+    ["DoMagicGrowth"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoGrowth",
+    ["DoGrowth"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsGrowing",
+    ["IsGrowing"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopGrowing",
+    ["StopGrowing"] = {
         params = {
 
         },
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Pause",
+    ["Pause"] = {
         params = {
             {param = "reason", explain = "", type = ""},
 
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Resume",
+    ["Resume"] = {
         params = {
             {param = "reason", explain = "", type = ""},
 
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ExtendGrowTime",
+    ["ExtendGrowTime"] = {
         params = {
             {param = "extra_time", explain = "", type = ""},
 
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetStage",
+    ["GetStage"] = {
         params = {
 
         },
@@ -137,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStage",
+    ["SetStage"] = {
         params = {
             {param = "stage", explain = "", type = ""},
 
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentStageData",
+    ["GetCurrentStageData"] = {
         params = {
 
         },
@@ -162,8 +149,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -175,8 +161,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -188,8 +173,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -200,8 +184,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -213,3 +196,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLureData",
+    ["SetLureData"] = {
         params = {
             {param = "lure_data", explain = "", type = ""},
             {param = "lure_fns", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_ClacCharm",
+    ["_ClacCharm"] = {
         params = {
             {param = "fish", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasLostInterest",
+    ["HasLostInterest"] = {
         params = {
             {param = "fish", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLostInterest",
+    ["SetLostInterest"] = {
         params = {
             {param = "fish", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearLostInterestList",
+    ["ClearLostInterestList"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateInterestForFishable",
+    ["UpdateInterestForFishable"] = {
         params = {
             {param = "fish", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TestInterest",
+    ["TestInterest"] = {
         params = {
             {param = "fish", explain = "", type = ""},
 
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnWallUpdate",
+    ["OnWallUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -142,3 +131,4 @@ data = {
     },
         
 }
+return data

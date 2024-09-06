@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetCanDodgeFn",
+    ["SetCanDodgeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCooldownTime",
+    ["SetCooldownTime"] = {
         params = {
             {param = "n", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDodge",
+    ["CanDodge"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Dodge",
+    ["Dodge"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -65,3 +60,4 @@ data = {
     },
         
 }
+return data

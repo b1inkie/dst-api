@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetupItem",
+    ["SetupItem"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "start_restock_timer", explain = "", type = ""},
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveAllStock",
+    ["RemoveAllStock"] = {
         params = {
             {param = "allow_restock", explain = "", type = ""},
 
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveStock",
+    ["RemoveStock"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
             {param = "allow_restock", explain = "", type = ""},
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FullyRestockItem",
+    ["FullyRestockItem"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
 
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasAnyStock",
+    ["HasAnyStock"] = {
         params = {
 
         },
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnItemCrafted",
+    ["OnItemCrafted"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
 
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -130,3 +120,4 @@ data = {
     },
         
 }
+return data

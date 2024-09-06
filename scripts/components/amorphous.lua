@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentForm",
+    ["GetCurrentForm"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddForm",
+    ["AddForm"] = {
         params = {
             {param = "form", explain = "", type = ""},
 
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindForm",
+    ["FindForm"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MorphToForm",
+    ["MorphToForm"] = {
         params = {
             {param = "form", explain = "", type = ""},
             {param = "instant", explain = "", type = ""},
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckForMorph",
+    ["CheckForMorph"] = {
         params = {
 
         },
@@ -114,3 +105,4 @@ data = {
     },
         
 }
+return data

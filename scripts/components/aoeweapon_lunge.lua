@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetSideRange",
+    ["SetSideRange"] = {
         params = {
             {param = "range", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPreLungeFn",
+    ["SetOnPreLungeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnLungedFn",
+    ["SetOnLungedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTrailFX",
+    ["SetTrailFX"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "spacing", explain = "", type = ""},
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSound",
+    ["SetSound"] = {
         params = {
             {param = "path", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoLunge",
+    ["DoLunge"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "startingpos", explain = "", type = ""},
@@ -82,3 +76,4 @@ data = {
     },
         
 }
+return data

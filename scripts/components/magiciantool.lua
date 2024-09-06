@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStartUsingFn",
+    ["SetOnStartUsingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStopUsingFn",
+    ["SetOnStopUsingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStartUsing",
+    ["OnStartUsing"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStopUsing",
+    ["OnStopUsing"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopUsing",
+    ["StopUsing"] = {
         params = {
 
         },
@@ -89,3 +82,4 @@ data = {
     },
         
 }
+return data

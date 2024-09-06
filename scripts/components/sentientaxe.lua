@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOwner",
+    ["SetOwner"] = {
         params = {
             {param = "owner", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnBuildItem",
+    ["OnBuildItem"] = {
         params = {
             {param = "recipename", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnFinishedWork",
+    ["OnFinishedWork"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "action", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnWereEaterChanged",
+    ["OnWereEaterChanged"] = {
         params = {
             {param = "old", explain = "", type = ""},
             {param = "new", explain = "", type = ""},
@@ -55,8 +51,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnBecomeHuman",
+    ["OnBecomeHuman"] = {
         params = {
 
         },
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnBecomeWere",
+    ["OnBecomeWere"] = {
         params = {
 
         },
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Say",
+    ["Say"] = {
         params = {
             {param = "list", explain = "", type = ""},
             {param = "sound_override", explain = "", type = ""},
@@ -94,8 +87,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldMakeConversation",
+    ["ShouldMakeConversation"] = {
         params = {
 
         },
@@ -106,8 +98,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ScheduleConversation",
+    ["ScheduleConversation"] = {
         params = {
             {param = "delay", explain = "", type = ""},
 
@@ -119,8 +110,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeConversation",
+    ["MakeConversation"] = {
         params = {
 
         },
@@ -132,3 +122,4 @@ data = {
     },
         
 }
+return data

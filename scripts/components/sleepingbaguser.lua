@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetHungerBonusMult",
+    ["SetHungerBonusMult"] = {
         params = {
             {param = "bonus", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHealthBonusMult",
+    ["SetHealthBonusMult"] = {
         params = {
             {param = "bonus", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSanityBonusMult",
+    ["SetSanityBonusMult"] = {
         params = {
             {param = "bonus", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanSleepFn",
+    ["SetCanSleepFn"] = {
         params = {
             {param = "cansleepfn", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoSleep",
+    ["DoSleep"] = {
         params = {
             {param = "bed", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoWakeUp",
+    ["DoWakeUp"] = {
         params = {
             {param = "nostatechange", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldSleep",
+    ["ShouldSleep"] = {
         params = {
 
         },
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SleepTick",
+    ["SleepTick"] = {
         params = {
 
         },
@@ -103,3 +95,4 @@ data = {
     },
         
 }
+return data

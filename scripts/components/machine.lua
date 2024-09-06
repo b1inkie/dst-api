@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGroundOnlyMachine",
+    ["SetGroundOnlyMachine"] = {
         params = {
             {param = "groundonly", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TurnOn",
+    ["TurnOn"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanInteract",
+    ["CanInteract"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TurnOff",
+    ["TurnOff"] = {
         params = {
 
         },
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOn",
+    ["IsOn"] = {
         params = {
 
         },
@@ -98,8 +90,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -111,3 +102,4 @@ data = {
     },
         
 }
+return data

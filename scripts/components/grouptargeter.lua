@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTracking",
+    ["StartTracking"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTracking",
+    ["StopTracking"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTotalWeight",
+    ["GetTotalWeight"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPickTarget",
+    ["OnPickTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddTarget",
+    ["AddTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveTarget",
+    ["RemoveTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTargets",
+    ["GetTargets"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTargeting",
+    ["IsTargeting"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryGetNewTarget",
+    ["TryGetNewTarget"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SelectTarget",
+    ["SelectTarget"] = {
         params = {
 
         },
@@ -139,3 +128,4 @@ data = {
     },
         
 }
+return data

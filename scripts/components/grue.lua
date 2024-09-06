@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Start",
+    ["Start"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSounds",
+    ["SetSounds"] = {
         params = {
             {param = "warn", explain = "", type = ""},
             {param = "attack", explain = "", type = ""},
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetResistance",
+    ["SetResistance"] = {
         params = {
             {param = "resistance", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddImmunity",
+    ["AddImmunity"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveImmunity",
+    ["RemoveImmunity"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSleeping",
+    ["SetSleeping"] = {
         params = {
             {param = "asleep", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Attack",
+    ["Attack"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -140,3 +129,4 @@ data = {
     },
         
 }
+return data

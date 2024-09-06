@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTracking",
+    ["StartTracking"] = {
         params = {
             {param = "mount", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTracking",
+    ["StopTracking"] = {
         params = {
             {param = "mount", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSaddle",
+    ["GetSaddle"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Mount",
+    ["Mount"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "instant", explain = "", type = ""},
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Dismount",
+    ["Dismount"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ActualDismount",
+    ["ActualDismount"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsRiding",
+    ["IsRiding"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMount",
+    ["GetMount"] = {
         params = {
 
         },
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -138,3 +127,4 @@ data = {
     },
         
 }
+return data

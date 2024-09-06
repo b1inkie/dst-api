@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "vanish",
+    ["vanish"] = {
         params = {
 
         },
@@ -37,3 +34,4 @@ data = {
     },
         
 }
+return data

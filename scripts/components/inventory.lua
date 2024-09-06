@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "EnableDropOnDeath",
+    ["EnableDropOnDeath"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DisableDropOnDeath",
+    ["DisableDropOnDeath"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NumItems",
+    ["NumItems"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NumStackedItems",
+    ["NumStackedItems"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferInventory",
+    ["TransferInventory"] = {
         params = {
             {param = "receiver", explain = "", type = ""},
 
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SwapEquipment",
+    ["SwapEquipment"] = {
         params = {
             {param = "other", explain = "", type = ""},
             {param = "equipslot_to_swap", explain = "", type = ""},
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanTakeItemInSlot",
+    ["CanTakeItemInSlot"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "slot", explain = "", type = ""},
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AcceptsStacks",
+    ["AcceptsStacks"] = {
         params = {
 
         },
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IgnoresCanGoInContainer",
+    ["IgnoresCanGoInContainer"] = {
         params = {
 
         },
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "newents", explain = "", type = ""},
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropActiveItem",
+    ["DropActiveItem"] = {
         params = {
 
         },
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReturnActiveActionItem",
+    ["ReturnActiveActionItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "instant", explain = "", type = ""},
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasAnyEquipment",
+    ["HasAnyEquipment"] = {
         params = {
 
         },
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsWearingArmor",
+    ["IsWearingArmor"] = {
         params = {
 
         },
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ArmorHasTag",
+    ["ArmorHasTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -202,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EquipHasTag",
+    ["EquipHasTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -215,8 +198,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EquipHasSpDefenseForType",
+    ["EquipHasSpDefenseForType"] = {
         params = {
             {param = "sptype", explain = "", type = ""},
 
@@ -228,8 +210,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsHeavyLifting",
+    ["IsHeavyLifting"] = {
         params = {
 
         },
@@ -240,8 +221,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplyDamage",
+    ["ApplyDamage"] = {
         params = {
             {param = "damage", explain = "", type = ""},
             {param = "attacker", explain = "", type = ""},
@@ -256,8 +236,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetActiveItem",
+    ["GetActiveItem"] = {
         params = {
 
         },
@@ -268,8 +247,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsItemEquipped",
+    ["IsItemEquipped"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -281,8 +259,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SelectActiveItemFromEquipSlot",
+    ["SelectActiveItemFromEquipSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -294,8 +271,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CombineActiveStackWithSlot",
+    ["CombineActiveStackWithSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "stack_mod", explain = "", type = ""},
@@ -308,8 +284,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SelectActiveItemFromSlot",
+    ["SelectActiveItemFromSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -321,8 +296,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReturnActiveItem",
+    ["ReturnActiveItem"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "stack_mod", explain = "", type = ""},
@@ -335,8 +309,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumSlots",
+    ["GetNumSlots"] = {
         params = {
 
         },
@@ -347,8 +320,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetItemSlot",
+    ["GetItemSlot"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -360,8 +332,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsHolding",
+    ["IsHolding"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "checkcontainer", explain = "", type = ""},
@@ -374,8 +345,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindItem",
+    ["FindItem"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -387,8 +357,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindItems",
+    ["FindItems"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -400,8 +369,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForEachItem",
+    ["ForEachItem"] = {
         params = {
             {param = "fn", explain = "", type = ""},
             {param = "...", explain = "", type = ""},
@@ -414,8 +382,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForEachWetableItem",
+    ["ForEachWetableItem"] = {
         params = {
             {param = "fn", explain = "", type = ""},
             {param = "...", explain = "", type = ""},
@@ -428,8 +395,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForEachEquipment",
+    ["ForEachEquipment"] = {
         params = {
             {param = "fn", explain = "", type = ""},
             {param = "...", explain = "", type = ""},
@@ -442,8 +408,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveItemBySlot",
+    ["RemoveItemBySlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "keepoverstacked", explain = "", type = ""},
@@ -456,8 +421,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropItem",
+    ["DropItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "wholestack", explain = "", type = ""},
@@ -473,8 +437,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInsulated",
+    ["IsInsulated"] = {
         params = {
 
         },
@@ -485,8 +448,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEquippedItem",
+    ["GetEquippedItem"] = {
         params = {
             {param = "eslot", explain = "", type = ""},
 
@@ -498,8 +460,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetItemInSlot",
+    ["GetItemInSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -511,8 +472,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFirstItemInAnySlot",
+    ["GetFirstItemInAnySlot"] = {
         params = {
 
         },
@@ -523,8 +483,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFull",
+    ["IsFull"] = {
         params = {
 
         },
@@ -535,8 +494,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNextAvailableSlot",
+    ["GetNextAvailableSlot"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -548,8 +506,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanAcceptCount",
+    ["CanAcceptCount"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "maxcount", explain = "", type = ""},
@@ -562,8 +519,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GiveActiveItem",
+    ["GiveActiveItem"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -575,8 +531,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GiveItem",
+    ["GiveItem"] = {
         params = {
             {param = "inst", explain = "", type = ""},
             {param = "slot", explain = "", type = ""},
@@ -590,8 +545,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Unequip",
+    ["Unequip"] = {
         params = {
             {param = "equipslot", explain = "", type = ""},
             {param = "slip", explain = "", type = ""},
@@ -604,8 +558,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetActiveItem",
+    ["SetActiveItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -617,8 +570,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Equip",
+    ["Equip"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "old_to_active", explain = "", type = ""},
@@ -633,8 +585,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveItem",
+    ["RemoveItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "wholestack", explain = "", type = ""},
@@ -649,8 +600,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOverflowContainer",
+    ["GetOverflowContainer"] = {
         params = {
 
         },
@@ -661,8 +611,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Has",
+    ["Has"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -676,8 +625,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasItemThatMatches",
+    ["HasItemThatMatches"] = {
         params = {
             {param = "fn", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -690,8 +638,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasItemWithTag",
+    ["HasItemWithTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -704,8 +651,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetItemsWithTag",
+    ["GetItemsWithTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -717,8 +663,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetItemByName",
+    ["GetItemByName"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -732,8 +677,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ConsumeByName",
+    ["ConsumeByName"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -746,8 +690,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropEverythingWithTag",
+    ["DropEverythingWithTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -759,8 +702,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropEverything",
+    ["DropEverything"] = {
         params = {
             {param = "ondeath", explain = "", type = ""},
             {param = "keepequip", explain = "", type = ""},
@@ -773,8 +715,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropEquipped",
+    ["DropEquipped"] = {
         params = {
             {param = "keepBackpack", explain = "", type = ""},
 
@@ -786,8 +727,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BurnNonpotatableInContainer",
+    ["BurnNonpotatableInContainer"] = {
         params = {
             {param = "container", explain = "", type = ""},
 
@@ -799,8 +739,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReferenceAllItems",
+    ["ReferenceAllItems"] = {
         params = {
 
         },
@@ -811,8 +750,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -823,8 +761,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOpenedBy",
+    ["IsOpenedBy"] = {
         params = {
             {param = "guy", explain = "", type = ""},
 
@@ -836,8 +773,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Show",
+    ["Show"] = {
         params = {
 
         },
@@ -848,8 +784,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Open",
+    ["Open"] = {
         params = {
 
         },
@@ -860,8 +795,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Hide",
+    ["Hide"] = {
         params = {
 
         },
@@ -872,8 +806,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Close",
+    ["Close"] = {
         params = {
             {param = "keepactiveitem", explain = "", type = ""},
 
@@ -885,8 +818,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CloseAllChestContainers",
+    ["CloseAllChestContainers"] = {
         params = {
 
         },
@@ -897,8 +829,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PutOneOfActiveItemInSlot",
+    ["PutOneOfActiveItemInSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -910,8 +841,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PutAllOfActiveItemInSlot",
+    ["PutAllOfActiveItemInSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -923,8 +853,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeActiveItemFromHalfOfSlot",
+    ["TakeActiveItemFromHalfOfSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -936,8 +865,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeActiveItemFromAllOfSlot",
+    ["TakeActiveItemFromAllOfSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -949,8 +877,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddOneOfActiveItemToSlot",
+    ["AddOneOfActiveItemToSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -962,8 +889,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddAllOfActiveItemToSlot",
+    ["AddAllOfActiveItemToSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -975,8 +901,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SwapActiveItemWithSlot",
+    ["SwapActiveItemWithSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -988,8 +913,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanAccessItem",
+    ["CanAccessItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -1001,8 +925,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UseItemFromInvTile",
+    ["UseItemFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "actioncode", explain = "", type = ""},
@@ -1016,8 +939,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ControllerUseItemOnItemFromInvTile",
+    ["ControllerUseItemOnItemFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "active_item", explain = "", type = ""},
@@ -1032,8 +954,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ControllerUseItemOnSelfFromInvTile",
+    ["ControllerUseItemOnSelfFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "actioncode", explain = "", type = ""},
@@ -1047,8 +968,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ControllerUseItemOnSceneFromInvTile",
+    ["ControllerUseItemOnSceneFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -1063,8 +983,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InspectItemFromInvTile",
+    ["InspectItemFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -1076,8 +995,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropItemFromInvTile",
+    ["DropItemFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "single", explain = "", type = ""},
@@ -1090,8 +1008,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CastSpellBookFromInv",
+    ["CastSpellBookFromInv"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "spell_id", explain = "", type = ""},
@@ -1104,8 +1021,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EquipActiveItem",
+    ["EquipActiveItem"] = {
         params = {
 
         },
@@ -1116,8 +1032,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EquipActionItem",
+    ["EquipActionItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -1129,8 +1044,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SwapEquipWithActiveItem",
+    ["SwapEquipWithActiveItem"] = {
         params = {
 
         },
@@ -1141,8 +1055,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeActiveItemFromEquipSlot",
+    ["TakeActiveItemFromEquipSlot"] = {
         params = {
             {param = "eslot", explain = "", type = ""},
 
@@ -1154,8 +1067,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeActiveItemFromEquipSlotID",
+    ["TakeActiveItemFromEquipSlotID"] = {
         params = {
             {param = "eslotid", explain = "", type = ""},
 
@@ -1167,8 +1079,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MoveItemFromAllOfSlot",
+    ["MoveItemFromAllOfSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "container", explain = "", type = ""},
@@ -1181,8 +1092,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MoveItemFromHalfOfSlot",
+    ["MoveItemFromHalfOfSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "container", explain = "", type = ""},
@@ -1195,8 +1105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEquippedMoistureRate",
+    ["GetEquippedMoistureRate"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -1208,8 +1117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWaterproofness",
+    ["GetWaterproofness"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -1221,8 +1129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsWaterproof",
+    ["IsWaterproof"] = {
         params = {
 
         },
@@ -1233,8 +1140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -1246,8 +1152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOpenContainerProxyFor",
+    ["GetOpenContainerProxyFor"] = {
         params = {
             {param = "master", explain = "", type = ""},
 
@@ -1260,3 +1165,4 @@ data = {
     },
         
 }
+return data

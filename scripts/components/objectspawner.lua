@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeOwnership",
+    ["TakeOwnership"] = {
         params = {
             {param = "obj", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnObject",
+    ["SpawnObject"] = {
         params = {
             {param = "obj", explain = "", type = ""},
             {param = "linked_skinname", explain = "", type = ""},
@@ -55,3 +51,4 @@ data = {
     },
         
 }
+return data

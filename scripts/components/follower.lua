@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLeader",
+    ["GetLeader"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartLeashing",
+    ["StartLeashing"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopLeashing",
+    ["StopLeashing"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CachePlayerLeader",
+    ["CachePlayerLeader"] = {
         params = {
             {param = "userid", explain = "", type = ""},
             {param = "timeleft", explain = "", type = ""},
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearCachedPlayerLeader",
+    ["ClearCachedPlayerLeader"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLeader",
+    ["SetLeader"] = {
         params = {
             {param = "new_leader", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLoyaltyPercent",
+    ["GetLoyaltyPercent"] = {
         params = {
 
         },
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddLoyaltyTime",
+    ["AddLoyaltyTime"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelLoyaltyTask",
+    ["CancelLoyaltyTask"] = {
         params = {
 
         },
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopFollowing",
+    ["StopFollowing"] = {
         params = {
 
         },
@@ -136,8 +125,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsNearLeader",
+    ["IsNearLeader"] = {
         params = {
             {param = "dist", explain = "", type = ""},
 
@@ -149,8 +137,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -161,8 +148,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -174,8 +160,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLeaderSame",
+    ["IsLeaderSame"] = {
         params = {
             {param = "otherfollower", explain = "", type = ""},
 
@@ -187,8 +172,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "KeepLeaderOnAttacked",
+    ["KeepLeaderOnAttacked"] = {
         params = {
 
         },
@@ -199,8 +183,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoseLeaderOnAttacked",
+    ["LoseLeaderOnAttacked"] = {
         params = {
 
         },
@@ -211,8 +194,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -224,8 +206,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -237,3 +218,4 @@ data = {
     },
         
 }
+return data

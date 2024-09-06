@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnHarvestFn",
+    ["SetOnHarvestFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnSpringFn",
+    ["SetOnSpringFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnBaitedFn",
+    ["SetOnBaitedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFree",
+    ["IsFree"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBaited",
+    ["IsBaited"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasLoot",
+    ["HasLoot"] = {
         params = {
 
         },
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
             {param = "sprung", explain = "", type = ""},
 
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Set",
+    ["Set"] = {
         params = {
 
         },
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopUpdating",
+    ["StopUpdating"] = {
         params = {
 
         },
@@ -136,8 +125,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUpdate",
+    ["StartUpdate"] = {
         params = {
 
         },
@@ -148,8 +136,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -160,8 +147,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -172,8 +158,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -185,8 +170,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnTrappedStarve",
+    ["OnTrappedStarve"] = {
         params = {
 
         },
@@ -197,8 +181,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartStarvation",
+    ["StartStarvation"] = {
         params = {
 
         },
@@ -209,8 +192,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopStarvation",
+    ["StopStarvation"] = {
         params = {
 
         },
@@ -221,8 +203,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoSpring",
+    ["DoSpring"] = {
         params = {
 
         },
@@ -233,8 +214,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSprung",
+    ["IsSprung"] = {
         params = {
 
         },
@@ -245,8 +225,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Harvest",
+    ["Harvest"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -258,8 +237,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveBait",
+    ["RemoveBait"] = {
         params = {
 
         },
@@ -270,8 +248,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBait",
+    ["SetBait"] = {
         params = {
             {param = "bait", explain = "", type = ""},
 
@@ -283,8 +260,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BaitTaken",
+    ["BaitTaken"] = {
         params = {
             {param = "eater", explain = "", type = ""},
 
@@ -296,8 +272,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AcceptingBait",
+    ["AcceptingBait"] = {
         params = {
 
         },
@@ -308,8 +283,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -320,8 +294,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -333,8 +306,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -348,3 +320,4 @@ data = {
     },
         
 }
+return data

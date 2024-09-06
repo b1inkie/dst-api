@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetIsSpray",
+    ["SetIsSpray"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetIsSpray",
+    ["GetIsSpray"] = {
         params = {
 
         },
@@ -25,3 +23,4 @@ data = {
     },
         
 }
+return data

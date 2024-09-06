@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NumModules",
+    ["NumModules"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetModuleInSlot",
+    ["GetModuleInSlot"] = {
         params = {
             {param = "slotnum", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetModuleTypeCount",
+    ["GetModuleTypeCount"] = {
         params = {
             {param = "moduletype", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UsedSlotCount",
+    ["UsedSlotCount"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanUpgrade",
+    ["CanUpgrade"] = {
         params = {
             {param = "module_instance", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateActivatedModules",
+    ["UpdateActivatedModules"] = {
         params = {
             {param = "isloading", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushModule",
+    ["PushModule"] = {
         params = {
             {param = "module", explain = "", type = ""},
             {param = "isloading", explain = "", type = ""},
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PopModule",
+    ["PopModule"] = {
         params = {
             {param = "index", explain = "", type = ""},
 
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PopAllModules",
+    ["PopAllModules"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PopOneModule",
+    ["PopOneModule"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetChargeLevel",
+    ["SetChargeLevel"] = {
         params = {
             {param = "new_level", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddCharge",
+    ["AddCharge"] = {
         params = {
             {param = "n", explain = "", type = ""},
 
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ChargeIsMaxed",
+    ["ChargeIsMaxed"] = {
         params = {
 
         },
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsChargeEmpty",
+    ["IsChargeEmpty"] = {
         params = {
 
         },
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -201,8 +185,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "newents", explain = "", type = ""},
@@ -215,8 +198,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -228,3 +210,4 @@ data = {
     },
         
 }
+return data

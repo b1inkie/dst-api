@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "CanProduce",
+    ["CanProduce"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryProduce",
+    ["TryProduce"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoProduce",
+    ["DoProduce"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -49,3 +45,4 @@ data = {
     },
         
 }
+return data

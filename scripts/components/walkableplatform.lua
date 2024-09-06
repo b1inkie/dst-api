@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetUID",
+    ["GetUID"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUpdating",
+    ["StartUpdating"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopUpdating",
+    ["StopUpdating"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DestroyObjectsOnPlatform",
+    ["DestroyObjectsOnPlatform"] = {
         params = {
 
         },
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEntitiesOnPlatform",
+    ["GetEntitiesOnPlatform"] = {
         params = {
 
         },
@@ -97,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPlayersOnPlatform",
+    ["GetPlayersOnPlatform"] = {
         params = {
 
         },
@@ -109,8 +100,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddPlayerOnPlatform",
+    ["AddPlayerOnPlatform"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -122,8 +112,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemovePlayerOnPlatform",
+    ["RemovePlayerOnPlatform"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -135,8 +124,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEmbarkPosition",
+    ["GetEmbarkPosition"] = {
         params = {
             {param = "embarker_x", explain = "", type = ""},
             {param = "embarker_z", explain = "", type = ""},
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddEntityToPlatform",
+    ["AddEntityToPlatform"] = {
         params = {
             {param = "ent", explain = "", type = ""},
 
@@ -163,8 +150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEntitiesOnPlatform",
+    ["SetEntitiesOnPlatform"] = {
         params = {
 
         },
@@ -175,8 +161,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveObject",
+    ["RemoveObject"] = {
         params = {
             {param = "obj", explain = "", type = ""},
 
@@ -188,8 +173,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnPlayerCollision",
+    ["SpawnPlayerCollision"] = {
         params = {
 
         },
@@ -200,8 +184,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DespawnPlayerCollision",
+    ["DespawnPlayerCollision"] = {
         params = {
 
         },
@@ -212,8 +195,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CommitPlayersOnPlatform",
+    ["CommitPlayersOnPlatform"] = {
         params = {
 
         },
@@ -225,3 +207,4 @@ data = {
     },
         
 }
+return data

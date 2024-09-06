@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "ApplyCurse",
+    ["ApplyCurse"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "curse", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveCurse",
+    ["RemoveCurse"] = {
         params = {
             {param = "curse", explain = "", type = ""},
             {param = "numofitems", explain = "", type = ""},
@@ -29,8 +27,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsCursable",
+    ["IsCursable"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -42,8 +39,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceOntoOwner",
+    ["ForceOntoOwner"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -55,8 +51,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Died",
+    ["Died"] = {
         params = {
 
         },
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -93,3 +86,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "IsInSquad",
+    ["IsInSquad"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSquadName",
+    ["GetSquadName"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOtherMembers",
+    ["GetOtherMembers"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "JoinSquad",
+    ["JoinSquad"] = {
         params = {
             {param = "squadname", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LeaveSquad",
+    ["LeaveSquad"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -74,3 +68,4 @@ data = {
     },
         
 }
+return data

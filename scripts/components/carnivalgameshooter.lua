@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Initialize",
+    ["Initialize"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateAiming",
+    ["UpdateAiming"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAim",
+    ["SetAim"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Shoot",
+    ["Shoot"] = {
         params = {
 
         },
@@ -50,3 +46,4 @@ data = {
     },
         
 }
+return data

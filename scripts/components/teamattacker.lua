@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SearchForTeam",
+    ["SearchForTeam"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldGoHome",
+    ["ShouldGoHome"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LeaveTeam",
+    ["LeaveTeam"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LeaveFormation",
+    ["LeaveFormation"] = {
         params = {
 
         },
@@ -84,8 +77,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "JoinFormation",
+    ["JoinFormation"] = {
         params = {
 
         },
@@ -96,8 +88,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOrders",
+    ["GetOrders"] = {
         params = {
 
         },
@@ -108,8 +99,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -122,3 +112,4 @@ data = {
     },
         
 }
+return data

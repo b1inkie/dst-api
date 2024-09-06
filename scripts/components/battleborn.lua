@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetTriggerThreshold",
+    ["SetTriggerThreshold"] = {
         params = {
             {param = "threshold", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDecayTime",
+    ["SetDecayTime"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStoreTime",
+    ["SetStoreTime"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnTriggerFn",
+    ["SetOnTriggerFn"] = {
         params = {
             {param = "ontriggerfn", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBattlebornBonus",
+    ["SetBattlebornBonus"] = {
         params = {
             {param = "bonus", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSanityEnabled",
+    ["SetSanityEnabled"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHealthEnabled",
+    ["SetHealthEnabled"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetClampMin",
+    ["SetClampMin"] = {
         params = {
             {param = "min", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetClampMax",
+    ["SetClampMax"] = {
         params = {
             {param = "max", explain = "", type = ""},
 
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetValidVictimFn",
+    ["SetValidVictimFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -130,8 +120,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnAttack",
+    ["OnAttack"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -143,8 +132,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDeath",
+    ["OnDeath"] = {
         params = {
 
         },
@@ -156,3 +144,4 @@ data = {
     },
         
 }
+return data

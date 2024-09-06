@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetUseAmount",
+    ["SetUseAmount"] = {
         params = {
             {param = "use_amount", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanBedazzle",
+    ["CanBedazzle"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Bedazzle",
+    ["Bedazzle"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -40,3 +37,4 @@ data = {
     },
         
 }
+return data

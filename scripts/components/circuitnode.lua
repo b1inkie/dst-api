@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEnabled",
+    ["IsEnabled"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsConnected",
+    ["IsConnected"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NumConnectedNodes",
+    ["NumConnectedNodes"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ConnectTo",
+    ["ConnectTo"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Disconnect",
+    ["Disconnect"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRange",
+    ["SetRange"] = {
         params = {
             {param = "range", explain = "", type = ""},
 
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFootprint",
+    ["SetFootprint"] = {
         params = {
             {param = "footprint", explain = "", type = ""},
 
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnConnectFn",
+    ["SetOnConnectFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnDisconnectFn",
+    ["SetOnDisconnectFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddNode",
+    ["AddNode"] = {
         params = {
             {param = "node", explain = "", type = ""},
 
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveNode",
+    ["RemoveNode"] = {
         params = {
             {param = "node", explain = "", type = ""},
 
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForEachNode",
+    ["ForEachNode"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -165,3 +152,4 @@ data = {
     },
         
 }
+return data

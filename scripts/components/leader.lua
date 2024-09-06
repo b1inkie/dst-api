@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFollower",
+    ["IsFollower"] = {
         params = {
             {param = "guy", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnAttacked",
+    ["OnAttacked"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CountFollowers",
+    ["CountFollowers"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTargetedByFollowers",
+    ["IsTargetedByFollowers"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnNewTarget",
+    ["OnNewTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveFollower",
+    ["RemoveFollower"] = {
         params = {
             {param = "follower", explain = "", type = ""},
             {param = "invalid", explain = "", type = ""},
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddFollower",
+    ["AddFollower"] = {
         params = {
             {param = "follower", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveFollowersByTag",
+    ["RemoveFollowersByTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
             {param = "validateremovefn", explain = "", type = ""},
@@ -118,8 +109,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveAllFollowers",
+    ["RemoveAllFollowers"] = {
         params = {
 
         },
@@ -130,8 +120,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveAllFollowersOnDeath",
+    ["RemoveAllFollowersOnDeath"] = {
         params = {
 
         },
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HaveFollowersCachePlayerLeader",
+    ["HaveFollowersCachePlayerLeader"] = {
         params = {
 
         },
@@ -154,8 +142,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBeingFollowedBy",
+    ["IsBeingFollowedBy"] = {
         params = {
             {param = "prefabName", explain = "", type = ""},
 
@@ -167,8 +154,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -193,8 +178,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -206,3 +190,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetName",
+    ["SetName"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetScript",
+    ["SetScript"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetInit",
+    ["SetInit"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCancel",
+    ["SetCancel"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnFinish",
+    ["OnFinish"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Cancel",
+    ["Cancel"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnClick",
+    ["OnClick"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Play",
+    ["Play"] = {
         params = {
             {param = "lines", explain = "", type = ""},
 
@@ -114,3 +105,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetColourChangedFn",
+    ["SetColourChangedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SyncColour",
+    ["SyncColour"] = {
         params = {
             {param = "r", explain = "", type = ""},
             {param = "g", explain = "", type = ""},
@@ -30,3 +28,4 @@ data = {
     },
         
 }
+return data

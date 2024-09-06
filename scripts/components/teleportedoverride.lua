@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDestTarget",
+    ["GetDestTarget"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDestTargetFn",
+    ["SetDestTargetFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDestPosition",
+    ["GetDestPosition"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDestPositionFn",
+    ["SetDestPositionFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,3 +47,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnSetInvincible",
+    ["OnSetInvincible"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetState",
+    ["GetState"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetScale",
+    ["GetScale"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsMighty",
+    ["IsMighty"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsNormal",
+    ["IsNormal"] = {
         params = {
 
         },
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsWimpy",
+    ["IsWimpy"] = {
         params = {
 
         },
@@ -98,8 +90,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -111,8 +102,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Pause",
+    ["Pause"] = {
         params = {
 
         },
@@ -123,8 +113,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Resume",
+    ["Resume"] = {
         params = {
 
         },
@@ -135,8 +124,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPaused",
+    ["IsPaused"] = {
         params = {
 
         },
@@ -147,8 +135,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DelayDrain",
+    ["DelayDrain"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -160,8 +147,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -172,8 +158,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMax",
+    ["SetMax"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -185,8 +170,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMax",
+    ["GetMax"] = {
         params = {
 
         },
@@ -197,8 +181,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrent",
+    ["GetCurrent"] = {
         params = {
 
         },
@@ -209,8 +192,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOverMax",
+    ["SetOverMax"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -222,8 +204,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOverMax",
+    ["GetOverMax"] = {
         params = {
 
         },
@@ -234,8 +215,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "delta", explain = "", type = ""},
             {param = "force_update", explain = "", type = ""},
@@ -251,8 +231,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -263,8 +242,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "percent", explain = "", type = ""},
             {param = "force_update", explain = "", type = ""},
@@ -279,8 +257,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDec",
+    ["DoDec"] = {
         params = {
             {param = "dt", explain = "", type = ""},
             {param = "ignore_damage", explain = "", type = ""},
@@ -293,8 +270,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRate",
+    ["SetRate"] = {
         params = {
             {param = "rate", explain = "", type = ""},
 
@@ -306,8 +282,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanTransform",
+    ["CanTransform"] = {
         params = {
             {param = "state", explain = "", type = ""},
 
@@ -319,8 +294,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateSkinMode",
+    ["UpdateSkinMode"] = {
         params = {
             {param = "skin_data", explain = "", type = ""},
             {param = "delay", explain = "", type = ""},
@@ -333,8 +307,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BecomeState",
+    ["BecomeState"] = {
         params = {
             {param = "state", explain = "", type = ""},
             {param = "silent", explain = "", type = ""},
@@ -349,8 +322,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnHungerDelta",
+    ["OnHungerDelta"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -362,8 +334,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRateScale",
+    ["GetRateScale"] = {
         params = {
 
         },
@@ -374,8 +345,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRateScale",
+    ["SetRateScale"] = {
         params = {
             {param = "ratescale", explain = "", type = ""},
 
@@ -387,8 +357,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSkinMode",
+    ["GetSkinMode"] = {
         params = {
 
         },
@@ -400,3 +369,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnScannedFn",
+    ["SetOnScannedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Scan",
+    ["Scan"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -40,3 +37,4 @@ data = {
     },
         
 }
+return data

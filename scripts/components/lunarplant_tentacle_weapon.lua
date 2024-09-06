@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOwner",
+    ["SetOwner"] = {
         params = {
             {param = "owner", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnAttack",
+    ["OnAttack"] = {
         params = {
             {param = "owner", explain = "", type = ""},
             {param = "attack_data", explain = "", type = ""},
@@ -40,3 +37,4 @@ data = {
     },
         
 }
+return data

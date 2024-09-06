@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsActive",
+    ["IsActive"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBusy",
+    ["IsBusy"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTargetBusy",
+    ["IsTargetBusy"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RegisterTeleportee",
+    ["RegisterTeleportee"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnregisterTeleportee",
+    ["UnregisterTeleportee"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UseTemporaryExit",
+    ["UseTemporaryExit"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "temporaryexit", explain = "", type = ""},
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Activate",
+    ["Activate"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Teleport",
+    ["Teleport"] = {
         params = {
             {param = "obj", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushDoneTeleporting",
+    ["PushDoneTeleporting"] = {
         params = {
             {param = "obj", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReceiveItem",
+    ["ReceiveItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "source", explain = "", type = ""},
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReceivePlayer",
+    ["ReceivePlayer"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "source", explain = "", type = ""},
@@ -155,8 +143,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Target",
+    ["Target"] = {
         params = {
             {param = "otherTeleporter", explain = "", type = ""},
 
@@ -168,8 +155,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MigrationTarget",
+    ["MigrationTarget"] = {
         params = {
             {param = "worldid", explain = "", type = ""},
             {param = "x", explain = "", type = ""},
@@ -184,8 +170,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTarget",
+    ["GetTarget"] = {
         params = {
 
         },
@@ -196,8 +181,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEnabled",
+    ["SetEnabled"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -209,8 +193,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEnabled",
+    ["GetEnabled"] = {
         params = {
 
         },
@@ -221,8 +204,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -233,8 +215,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "newents", explain = "", type = ""},
@@ -247,8 +228,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -261,8 +241,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -274,3 +253,4 @@ data = {
     },
         
 }
+return data

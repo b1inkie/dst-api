@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetValue",
+    ["SetValue"] = {
         params = {
             {param = "percent", explain = "", type = ""},
 
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

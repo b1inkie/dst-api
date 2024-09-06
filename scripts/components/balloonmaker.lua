@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "MakeBalloon",
+    ["MakeBalloon"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -16,3 +15,4 @@ data = {
     },
         
 }
+return data

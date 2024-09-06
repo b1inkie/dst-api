@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnStart",
+    ["OnStart"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnFinish",
+    ["OnFinish"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnTarget",
+    ["OnTarget"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartSpell",
+    ["StartSpell"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResumeSpell",
+    ["ResumeSpell"] = {
         params = {
 
         },
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetVariables",
+    ["SetVariables"] = {
         params = {
             {param = "variables", explain = "", type = ""},
 
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTarget",
+    ["SetTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -139,3 +128,4 @@ data = {
     },
         
 }
+return data

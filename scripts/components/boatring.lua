@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetRadius",
+    ["GetRadius"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumSegments",
+    ["GetNumSegments"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRotationDirection",
+    ["SetRotationDirection"] = {
         params = {
             {param = "dir", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRotationDirection",
+    ["GetRotationDirection"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddBumper",
+    ["AddBumper"] = {
         params = {
             {param = "bumper", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveBumper",
+    ["RemoveBumper"] = {
         params = {
             {param = "bumper", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddRotator",
+    ["AddRotator"] = {
         params = {
             {param = "rotator", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveRotator",
+    ["RemoveRotator"] = {
         params = {
             {param = "rotator", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBumperAtPoint",
+    ["GetBumperAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDeath",
+    ["OnDeath"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -166,3 +153,4 @@ data = {
     },
         
 }
+return data

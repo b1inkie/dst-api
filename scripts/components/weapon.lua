@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDamage",
+    ["SetDamage"] = {
         params = {
             {param = "dmg", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRange",
+    ["SetRange"] = {
         params = {
             {param = "attack", explain = "", type = ""},
             {param = "hit", explain = "", type = ""},
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnAttack",
+    ["SetOnAttack"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnProjectileLaunch",
+    ["SetOnProjectileLaunch"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnProjectileLaunched",
+    ["SetOnProjectileLaunched"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetProjectile",
+    ["SetProjectile"] = {
         params = {
             {param = "projectile", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetProjectileOffset",
+    ["SetProjectileOffset"] = {
         params = {
             {param = "offset", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetElectric",
+    ["SetElectric"] = {
         params = {
             {param = "damage_mult", explain = "", type = ""},
             {param = "wet_damage_mult", explain = "", type = ""},
@@ -118,8 +109,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOverrideStimuliFn",
+    ["SetOverrideStimuliFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -131,8 +121,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanRangedAttack",
+    ["CanRangedAttack"] = {
         params = {
 
         },
@@ -143,8 +132,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAttackCallback",
+    ["SetAttackCallback"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -156,8 +144,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDamage",
+    ["GetDamage"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -170,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnAttack",
+    ["OnAttack"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -185,8 +171,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LaunchProjectile",
+    ["LaunchProjectile"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -200,3 +185,4 @@ data = {
     },
         
 }
+return data

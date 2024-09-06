@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetTargetWeight",
+    ["GetTargetWeight"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsHoundThief",
+    ["IsHoundThief"] = {
         params = {
 
         },
@@ -25,3 +23,4 @@ data = {
     },
         
 }
+return data

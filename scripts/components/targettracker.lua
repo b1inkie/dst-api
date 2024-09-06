@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnResetTarget",
+    ["SetOnResetTarget"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPauseFn",
+    ["SetOnPauseFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnResumeFn",
+    ["SetOnResumeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnTimeUpdateFn",
+    ["SetOnTimeUpdateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShouldKeepTrackingFn",
+    ["SetShouldKeepTrackingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasTarget",
+    ["HasTarget"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTracking",
+    ["IsTracking"] = {
         params = {
             {param = "testtarget", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPaused",
+    ["IsPaused"] = {
         params = {
 
         },
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsCloningTarget",
+    ["IsCloningTarget"] = {
         params = {
 
         },
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeTracking",
+    ["GetTimeTracking"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTimeTracking",
+    ["SetTimeTracking"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CloneTargetFrom",
+    ["CloneTargetFrom"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "pausetime", explain = "", type = ""},
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TrackTarget",
+    ["TrackTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTracking",
+    ["StopTracking"] = {
         params = {
             {param = "reset", explain = "", type = ""},
 
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Pause",
+    ["Pause"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -192,8 +177,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -205,8 +189,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -218,3 +201,4 @@ data = {
     },
         
 }
+return data

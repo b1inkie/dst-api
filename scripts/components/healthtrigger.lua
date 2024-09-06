@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddTrigger",
+    ["AddTrigger"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "fn", explain = "", type = ""},
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

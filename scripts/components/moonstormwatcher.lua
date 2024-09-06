@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ToggleMoonstorms",
+    ["ToggleMoonstorms"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMoonstormSpeedMultiplier",
+    ["SetMoonstormSpeedMultiplier"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateMoonstormLevel",
+    ["UpdateMoonstormLevel"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateMoonstormWalkSpeed",
+    ["UpdateMoonstormWalkSpeed"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateMoonstormWalkSpeed_Internal",
+    ["UpdateMoonstormWalkSpeed_Internal"] = {
         params = {
             {param = "level", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMoonStormLevel",
+    ["GetMoonStormLevel"] = {
         params = {
 
         },
@@ -88,3 +81,4 @@ data = {
     },
         
 }
+return data

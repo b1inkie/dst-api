@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnLight",
+    ["SpawnLight"] = {
         params = {
             {param = "location", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnAllLights",
+    ["SpawnAllLights"] = {
         params = {
 
         },
@@ -65,3 +60,4 @@ data = {
     },
         
 }
+return data

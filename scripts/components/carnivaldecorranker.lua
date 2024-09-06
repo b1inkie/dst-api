@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "UpdateDecorValue",
+    ["UpdateDecorValue"] = {
         params = {
             {param = "snap", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddDecor",
+    ["AddDecor"] = {
         params = {
             {param = "decor", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveDecor",
+    ["RemoveDecor"] = {
         params = {
             {param = "decor", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -52,3 +48,4 @@ data = {
     },
         
 }
+return data

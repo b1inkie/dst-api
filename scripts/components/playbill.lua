@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetCurrentAct",
+    ["SetCurrentAct"] = {
         params = {
             {param = "act", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -39,3 +36,4 @@ data = {
     },
         
 }
+return data

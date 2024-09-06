@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDefaultRewards",
+    ["SetDefaultRewards"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLevelRewards",
+    ["SetLevelRewards"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFriendlyTasks",
+    ["SetFriendlyTasks"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoRewards",
+    ["DoRewards"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CompleteTask",
+    ["CompleteTask"] = {
         params = {
             {param = "task", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLevel",
+    ["GetLevel"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaxLevel",
+    ["GetMaxLevel"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -155,3 +143,4 @@ data = {
     },
         
 }
+return data

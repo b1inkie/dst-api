@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "LearnPlantStage",
+    ["LearnPlantStage"] = {
         params = {
             {param = "plant", explain = "", type = ""},
             {param = "stage", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LearnFertilizer",
+    ["LearnFertilizer"] = {
         params = {
             {param = "fertilizer", explain = "", type = ""},
 
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeOversizedPicture",
+    ["TakeOversizedPicture"] = {
         params = {
             {param = "plant", explain = "", type = ""},
             {param = "weight", explain = "", type = ""},
@@ -44,3 +41,4 @@ data = {
     },
         
 }
+return data

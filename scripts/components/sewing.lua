@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "DoSewing",
+    ["DoSewing"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -15,3 +14,4 @@ data = {
     },
         
 }
+return data

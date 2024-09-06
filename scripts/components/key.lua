@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnUsedFn",
+    ["SetOnUsedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnRemovedFn",
+    ["SetOnRemovedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUsed",
+    ["OnUsed"] = {
         params = {
             {param = "lock", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoved",
+    ["OnRemoved"] = {
         params = {
             {param = "lock", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -67,3 +62,4 @@ data = {
     },
         
 }
+return data

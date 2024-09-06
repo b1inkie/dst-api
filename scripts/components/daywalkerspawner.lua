@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "UnregisterDayWalkerSpawningPoint",
+    ["UnregisterDayWalkerSpawningPoint"] = {
         params = {
             {param = "spawnpoint", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RegisterDayWalkerSpawningPoint",
+    ["RegisterDayWalkerSpawningPoint"] = {
         params = {
             {param = "spawnpoint", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryToRegisterSpawningPoint",
+    ["TryToRegisterSpawningPoint"] = {
         params = {
             {param = "spawnpoint", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IncrementPowerLevel",
+    ["IncrementPowerLevel"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPowerLevel",
+    ["GetPowerLevel"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsValidSpawningPoint",
+    ["IsValidSpawningPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnDayWalkerArena",
+    ["SpawnDayWalkerArena"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -93,8 +86,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindBestSpawningPoint",
+    ["FindBestSpawningPoint"] = {
         params = {
 
         },
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryToSpawnDayWalkerArena",
+    ["TryToSpawnDayWalkerArena"] = {
         params = {
 
         },
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDayChange",
+    ["OnDayChange"] = {
         params = {
 
         },
@@ -129,8 +119,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WatchDaywalker",
+    ["WatchDaywalker"] = {
         params = {
             {param = "daywalker", explain = "", type = ""},
 
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPostInit",
+    ["OnPostInit"] = {
         params = {
 
         },
@@ -154,8 +142,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "ents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -194,3 +179,4 @@ data = {
     },
         
 }
+return data

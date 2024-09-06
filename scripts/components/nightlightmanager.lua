@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsNightLightDataInAnyTag",
+    ["IsNightLightDataInAnyTag"] = {
         params = {
             {param = "nightlightdata", explain = "", type = ""},
             {param = "tags", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNightLightsWithFilter",
+    ["GetNightLightsWithFilter"] = {
         params = {
             {param = "filterfn", explain = "", type = ""},
             {param = "...", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindClosestNightLightFromListToInst",
+    ["FindClosestNightLightFromListToInst"] = {
         params = {
             {param = "nightlights", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateNightLightPosition",
+    ["UpdateNightLightPosition"] = {
         params = {
             {param = "nightlight", explain = "", type = ""},
 
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRegisterNightLight",
+    ["OnRegisterNightLight"] = {
         params = {
             {param = "nightlight", explain = "", type = ""},
 
@@ -81,3 +75,4 @@ data = {
     },
         
 }
+return data

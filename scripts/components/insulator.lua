@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetSummer",
+    ["SetSummer"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWinter",
+    ["SetWinter"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetType",
+    ["GetType"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsType",
+    ["IsType"] = {
         params = {
             {param = "type", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetInsulation",
+    ["SetInsulation"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetInsulation",
+    ["GetInsulation"] = {
         params = {
 
         },
@@ -75,3 +69,4 @@ data = {
     },
         
 }
+return data

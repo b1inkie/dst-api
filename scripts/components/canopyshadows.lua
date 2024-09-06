@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GenerateCanopyShadowPositions",
+    ["GenerateCanopyShadowPositions"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveCanopyShadowPositions",
+    ["RemoveCanopyShadowPositions"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnShadows",
+    ["SpawnShadows"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DespawnShadows",
+    ["DespawnShadows"] = {
         params = {
             {param = "ignore_entity_sleep", explain = "", type = ""},
 
@@ -86,3 +79,4 @@ data = {
     },
         
 }
+return data

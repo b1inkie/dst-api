@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnWrappedFn",
+    ["SetOnWrappedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnUnwrappedFn",
+    ["SetOnUnwrappedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WrapItems",
+    ["WrapItems"] = {
         params = {
             {param = "items", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Unwrap",
+    ["Unwrap"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -79,3 +73,4 @@ data = {
     },
         
 }
+return data

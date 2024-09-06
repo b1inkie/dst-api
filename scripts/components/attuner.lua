@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "IsAttunedTo",
+    ["IsAttunedTo"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasAttunement",
+    ["HasAttunement"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAttunedTarget",
+    ["GetAttunedTarget"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RegisterAttunedSource",
+    ["RegisterAttunedSource"] = {
         params = {
             {param = "proxy", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnregisterAttunedSource",
+    ["UnregisterAttunedSource"] = {
         params = {
             {param = "proxy", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -91,3 +84,4 @@ data = {
     },
         
 }
+return data

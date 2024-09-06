@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetThermics",
+    ["SetThermics"] = {
         params = {
             {param = "exo", explain = "", type = ""},
             {param = "endo", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEndothermic",
+    ["IsEndothermic"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsExothermic",
+    ["IsExothermic"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShouldFalloff",
+    ["SetShouldFalloff"] = {
         params = {
             {param = "should_falloff", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldFalloff",
+    ["ShouldFalloff"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHeatRadiusCutoff",
+    ["SetHeatRadiusCutoff"] = {
         params = {
             {param = "radius_cutoff", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHeatRadiusCutoff",
+    ["GetHeatRadiusCutoff"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHeat",
+    ["GetHeat"] = {
         params = {
             {param = "observer", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEquippedHeat",
+    ["GetEquippedHeat"] = {
         params = {
             {param = "observer", explain = "", type = ""},
 
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCarriedHeat",
+    ["GetCarriedHeat"] = {
         params = {
             {param = "observer", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -152,3 +140,4 @@ data = {
     },
         
 }
+return data

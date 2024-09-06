@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "WaitForPlayer",
+    ["WaitForPlayer"] = {
         params = {
             {param = "userid", explain = "", type = ""},
             {param = "delay", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopWaitingForPlayer",
+    ["StopWaitingForPlayer"] = {
         params = {
 
         },
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LinkToPlayer",
+    ["LinkToPlayer"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Drop",
+    ["Drop"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Revert",
+    ["Revert"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -101,3 +93,4 @@ data = {
     },
         
 }
+return data

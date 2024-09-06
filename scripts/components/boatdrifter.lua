@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsMoving",
+    ["IsMoving"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDrifting",
+    ["IsDrifting"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartBoatPhysics",
+    ["StartBoatPhysics"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopBoatPhysics",
+    ["StopBoatPhysics"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartWakeTests",
+    ["StartWakeTests"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopWakeTests",
+    ["StopWakeTests"] = {
         params = {
 
         },
@@ -84,8 +77,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStartDrifting",
+    ["OnStartDrifting"] = {
         params = {
 
         },
@@ -96,8 +88,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStopDrifting",
+    ["OnStopDrifting"] = {
         params = {
 
         },
@@ -108,8 +99,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStopMoving",
+    ["OnStopMoving"] = {
         params = {
 
         },
@@ -120,8 +110,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStartMoving",
+    ["OnStartMoving"] = {
         params = {
 
         },
@@ -132,8 +121,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -144,8 +132,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -157,3 +144,4 @@ data = {
     },
         
 }
+return data

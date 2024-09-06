@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetHealthRepairable",
+    ["SetHealthRepairable"] = {
         params = {
             {param = "repairable", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWorkRepairable",
+    ["SetWorkRepairable"] = {
         params = {
             {param = "repairable", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFiniteUsesRepairable",
+    ["SetFiniteUsesRepairable"] = {
         params = {
             {param = "repairable", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NeedsRepairs",
+    ["NeedsRepairs"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Repair",
+    ["Repair"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "repair_item", explain = "", type = ""},
@@ -78,3 +72,4 @@ data = {
     },
         
 }
+return data

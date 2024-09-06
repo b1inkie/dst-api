@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnBathBombedFn",
+    ["SetOnBathBombedFn"] = {
         params = {
             {param = "new_fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnBathBombed",
+    ["OnBathBombed"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DisableBathBombing",
+    ["DisableBathBombing"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
 
         },
@@ -64,3 +59,4 @@ data = {
     },
         
 }
+return data

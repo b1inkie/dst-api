@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetAllowEmptyName",
+    ["SetAllowEmptyName"] = {
         params = {
             {param = "allow", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAllowBurnt",
+    ["SetAllowBurnt"] = {
         params = {
             {param = "allow", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddNameData",
+    ["AddNameData"] = {
         params = {
             {param = "save", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddBaseSkinData",
+    ["AddBaseSkinData"] = {
         params = {
             {param = "save", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddClothingData",
+    ["AddClothingData"] = {
         params = {
             {param = "save", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddAgeData",
+    ["AddAgeData"] = {
         params = {
             {param = "save", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddEquipData",
+    ["AddEquipData"] = {
         params = {
             {param = "save", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddPlayerData",
+    ["AddPlayerData"] = {
         params = {
             {param = "save", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetData",
+    ["GetData"] = {
         params = {
 
         },
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetData",
+    ["SetData"] = {
         params = {
             {param = "client_obj", explain = "", type = ""},
 
@@ -129,8 +119,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -155,3 +143,4 @@ data = {
     },
         
 }
+return data

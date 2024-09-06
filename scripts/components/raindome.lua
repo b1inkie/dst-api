@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetActiveRadius",
+    ["GetActiveRadius"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRadius",
+    ["SetRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Disable",
+    ["Disable"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetActiveRadius_Internal",
+    ["SetActiveRadius_Internal"] = {
         params = {
             {param = "new", explain = "", type = ""},
             {param = "old", explain = "", type = ""},
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -101,3 +93,4 @@ data = {
     },
         
 }
+return data

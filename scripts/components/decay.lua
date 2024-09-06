@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTimeDelta",
+    ["SetTimeDelta"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "pause", explain = "", type = ""},
@@ -29,3 +27,4 @@ data = {
     },
         
 }
+return data

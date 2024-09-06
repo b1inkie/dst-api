@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "TryDigest",
+    ["TryDigest"] = {
         params = {
 
         },
@@ -13,3 +12,4 @@ data = {
     },
         
 }
+return data

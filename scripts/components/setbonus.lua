@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnEnabledFn",
+    ["SetOnEnabledFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnDisabledFn",
+    ["SetOnDisabledFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_HasSetBonus",
+    ["_HasSetBonus"] = {
         params = {
             {param = "inventory", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateSetBonus",
+    ["UpdateSetBonus"] = {
         params = {
             {param = "inventory", explain = "", type = ""},
             {param = "isequipping", explain = "", type = ""},
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEnabled",
+    ["IsEnabled"] = {
         params = {
             {param = "setname", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -91,3 +84,4 @@ data = {
     },
         
 }
+return data

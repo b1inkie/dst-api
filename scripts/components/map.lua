@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetTile",
+    ["SetTile"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -16,8 +15,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RegisterDeployExtraSpacing",
+    ["RegisterDeployExtraSpacing"] = {
         params = {
             {param = "spacing", explain = "", type = ""},
 
@@ -29,8 +27,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RegisterDeploySmartRadius",
+    ["RegisterDeploySmartRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -42,8 +39,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RegisterTerraformExtraSpacing",
+    ["RegisterTerraformExtraSpacing"] = {
         params = {
             {param = "spacing", explain = "", type = ""},
 
@@ -55,8 +51,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RegisterGroundTargetBlocker",
+    ["RegisterGroundTargetBlocker"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -68,8 +63,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPassableAtPoint",
+    ["IsPassableAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -85,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPassableAtPointWithPlatformRadiusBias",
+    ["IsPassableAtPointWithPlatformRadiusBias"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -104,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAboveGroundAtPoint",
+    ["IsAboveGroundAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -120,8 +112,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLandTileAtPoint",
+    ["IsLandTileAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -135,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOceanTileAtPoint",
+    ["IsOceanTileAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -150,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTemporaryTileAtPoint",
+    ["IsTemporaryTileAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -165,8 +154,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOceanAtPoint",
+    ["IsOceanAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -181,8 +169,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsValidTileAtPoint",
+    ["IsValidTileAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -196,8 +183,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanTerraformAtPoint",
+    ["CanTerraformAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -211,8 +197,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTerraformingBlockedByAnObject",
+    ["IsTerraformingBlockedByAnObject"] = {
         params = {
             {param = "tile_x", explain = "", type = ""},
             {param = "tile_y", explain = "", type = ""},
@@ -225,8 +210,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanPlowAtPoint",
+    ["CanPlowAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -240,8 +224,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanPlaceTurfAtPoint",
+    ["CanPlaceTurfAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -255,8 +238,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanPlantAtPoint",
+    ["CanPlantAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -270,8 +252,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CollapseSoilAtPoint",
+    ["CollapseSoilAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -285,8 +266,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFarmableSoilAtPoint",
+    ["IsFarmableSoilAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -300,8 +280,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanTillSoilAtPoint",
+    ["CanTillSoilAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -316,8 +295,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPointNearHole",
+    ["IsPointNearHole"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "range", explain = "", type = ""},
@@ -330,8 +308,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsGroundTargetBlocked",
+    ["IsGroundTargetBlocked"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "range", explain = "", type = ""},
@@ -344,8 +321,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDeployPointClear",
+    ["IsDeployPointClear"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -363,8 +339,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDeployPointClear2",
+    ["IsDeployPointClear2"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -382,8 +357,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDeployAtPoint",
+    ["CanDeployAtPoint"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -397,8 +371,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDeployPlantAtPoint",
+    ["CanDeployPlantAtPoint"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -411,8 +384,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDeployWallAtPoint",
+    ["CanDeployWallAtPoint"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -425,8 +397,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDeployAtPointInWater",
+    ["CanDeployAtPointInWater"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -441,8 +412,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDeployMastAtPoint",
+    ["CanDeployMastAtPoint"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -456,8 +426,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDeployWalkablePeripheralAtPoint",
+    ["CanDeployWalkablePeripheralAtPoint"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -470,8 +439,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasAdjacentLandTile",
+    ["HasAdjacentLandTile"] = {
         params = {
             {param = "tx", explain = "", type = ""},
             {param = "ty", explain = "", type = ""},
@@ -484,8 +452,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDeployDockAtPoint",
+    ["CanDeployDockAtPoint"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -499,8 +466,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDockAtPoint",
+    ["IsDockAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -514,8 +480,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOceanIceAtPoint",
+    ["IsOceanIceAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -529,8 +494,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDeployBoatAtPointInWater",
+    ["CanDeployBoatAtPointInWater"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "inst", explain = "", type = ""},
@@ -545,8 +509,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanPlacePrefabFilteredAtPoint",
+    ["CanPlacePrefabFilteredAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -561,8 +524,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDeployRecipeAtPoint",
+    ["CanDeployRecipeAtPoint"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "recipe", explain = "", type = ""},
@@ -576,8 +538,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSurroundedByWater",
+    ["IsSurroundedByWater"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -592,8 +553,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSurroundedByLand",
+    ["IsSurroundedByLand"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -608,8 +568,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNearestPointOnWater",
+    ["GetNearestPointOnWater"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -624,8 +583,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InternalIsPointOnWater",
+    ["InternalIsPointOnWater"] = {
         params = {
             {param = "test_x", explain = "", type = ""},
             {param = "test_y", explain = "", type = ""},
@@ -639,8 +597,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPlatformAtPoint",
+    ["GetPlatformAtPoint"] = {
         params = {
             {param = "pos_x", explain = "", type = ""},
             {param = "pos_y", explain = "", type = ""},
@@ -655,8 +612,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindRandomPointWithFilter",
+    ["FindRandomPointWithFilter"] = {
         params = {
             {param = "max_tries", explain = "", type = ""},
             {param = "filterfn", explain = "", type = ""},
@@ -669,8 +625,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindRandomPointInOcean",
+    ["FindRandomPointInOcean"] = {
         params = {
             {param = "max_tries", explain = "", type = ""},
 
@@ -682,8 +637,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindRandomPointOnLand",
+    ["FindRandomPointOnLand"] = {
         params = {
             {param = "max_tries", explain = "", type = ""},
 
@@ -695,8 +649,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTopologyIDAtPoint",
+    ["GetTopologyIDAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -710,8 +663,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindNodeAtPoint",
+    ["FindNodeAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -725,8 +677,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NodeAtPointHasTag",
+    ["NodeAtPointHasTag"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -741,8 +692,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanAreaTagsHaveAcidRain",
+    ["CanAreaTagsHaveAcidRain"] = {
         params = {
             {param = "tags", explain = "", type = ""},
 
@@ -754,8 +704,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanPointHaveAcidRain",
+    ["CanPointHaveAcidRain"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -769,8 +718,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRandomPointClustersForNodePrefix",
+    ["GetRandomPointClustersForNodePrefix"] = {
         params = {
             {param = "prefixes", explain = "", type = ""},
             {param = "countpernode", explain = "", type = ""},
@@ -783,8 +731,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInLunacyArea",
+    ["IsInLunacyArea"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -798,8 +745,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanCastAtPoint",
+    ["CanCastAtPoint"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "alwayspassable", explain = "", type = ""},
@@ -814,8 +760,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTileLandNoDocks",
+    ["IsTileLandNoDocks"] = {
         params = {
             {param = "tile", explain = "", type = ""},
 
@@ -827,8 +772,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTileOcean",
+    ["IsTileOcean"] = {
         params = {
             {param = "tile", explain = "", type = ""},
 
@@ -840,8 +784,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAboveGroundInSquare",
+    ["IsAboveGroundInSquare"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -857,8 +800,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearGoodArenaPoints",
+    ["ClearGoodArenaPoints"] = {
         params = {
 
         },
@@ -869,8 +811,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetGoodArenaPoints",
+    ["GetGoodArenaPoints"] = {
         params = {
 
         },
@@ -881,8 +822,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckForBadThingsInArena",
+    ["CheckForBadThingsInArena"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "badthingsatspawnpoints", explain = "", type = ""},
@@ -895,8 +835,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartFindingGoodArenaPoints",
+    ["StartFindingGoodArenaPoints"] = {
         params = {
 
         },
@@ -907,8 +846,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopFindingGoodArenaPoints",
+    ["StopFindingGoodArenaPoints"] = {
         params = {
 
         },
@@ -919,8 +857,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindBestSpawningPointForArena",
+    ["FindBestSpawningPointForArena"] = {
         params = {
             {param = "CustomAllowTest", explain = "", type = ""},
             {param = "perfect_only", explain = "", type = ""},
@@ -934,8 +871,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearGoodOceanArenaPoints",
+    ["ClearGoodOceanArenaPoints"] = {
         params = {
 
         },
@@ -946,8 +882,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetGoodOceanArenaPoints",
+    ["GetGoodOceanArenaPoints"] = {
         params = {
 
         },
@@ -958,8 +893,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckForBadThingsInOceanArena",
+    ["CheckForBadThingsInOceanArena"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "badthingsatspawnpoints", explain = "", type = ""},
@@ -972,8 +906,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartFindingGoodOceanArenaPoints",
+    ["StartFindingGoodOceanArenaPoints"] = {
         params = {
 
         },
@@ -984,8 +917,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopFindingGoodOceanArenaPoints",
+    ["StopFindingGoodOceanArenaPoints"] = {
         params = {
 
         },
@@ -996,8 +928,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindBestSpawningPointForOceanArena",
+    ["FindBestSpawningPointForOceanArena"] = {
         params = {
             {param = "CustomAllowTest", explain = "", type = ""},
             {param = "perfect_only", explain = "", type = ""},
@@ -1011,8 +942,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPointInSharkBoiArena",
+    ["IsPointInSharkBoiArena"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -1027,3 +957,4 @@ data = {
     },
         
 }
+return data

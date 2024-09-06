@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsWildfireStarter",
+    ["IsWildfireStarter"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FinishGrowing",
+    ["FinishGrowing"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Resume",
+    ["Resume"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Pause",
+    ["Pause"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUp",
+    ["SetUp"] = {
         params = {
             {param = "product", explain = "", type = ""},
             {param = "regen", explain = "", type = ""},
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPickedFn",
+    ["SetOnPickedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnRegenFn",
+    ["SetOnRegenFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMakeBarrenFn",
+    ["SetMakeBarrenFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMakeEmptyFn",
+    ["SetMakeEmptyFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanBeFertilized",
+    ["CanBeFertilized"] = {
         params = {
 
         },
@@ -164,8 +151,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ChangeProduct",
+    ["ChangeProduct"] = {
         params = {
             {param = "newProduct", explain = "", type = ""},
 
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Fertilize",
+    ["Fertilize"] = {
         params = {
             {param = "fertilizer", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -191,8 +176,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -203,8 +187,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -216,8 +199,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBarren",
+    ["IsBarren"] = {
         params = {
 
         },
@@ -228,8 +210,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanBePicked",
+    ["CanBePicked"] = {
         params = {
 
         },
@@ -240,8 +221,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Regen",
+    ["Regen"] = {
         params = {
 
         },
@@ -252,8 +232,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeBarren",
+    ["MakeBarren"] = {
         params = {
 
         },
@@ -264,8 +243,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnTransplant",
+    ["OnTransplant"] = {
         params = {
 
         },
@@ -276,8 +254,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeEmpty",
+    ["MakeEmpty"] = {
         params = {
 
         },
@@ -288,8 +265,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Pick",
+    ["Pick"] = {
         params = {
             {param = "picker", explain = "", type = ""},
 
@@ -301,8 +277,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ConsumeCycles",
+    ["ConsumeCycles"] = {
         params = {
             {param = "cycles", explain = "", type = ""},
 
@@ -315,3 +290,4 @@ data = {
     },
         
 }
+return data

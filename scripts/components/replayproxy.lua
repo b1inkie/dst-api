@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetRealEntityGUID",
+    ["SetRealEntityGUID"] = {
         params = {
             {param = "guid", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRealEntityGUID",
+    ["GetRealEntityGUID"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRealEntityPrefabName",
+    ["SetRealEntityPrefabName"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRealEntityPrefabName",
+    ["GetRealEntityPrefabName"] = {
         params = {
 
         },
@@ -51,3 +47,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetCanAcceptFn",
+    ["SetCanAcceptFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnAcceptFn",
+    ["SetOnAcceptFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AcceptOffering",
+    ["AcceptOffering"] = {
         params = {
             {param = "giver", explain = "", type = ""},
             {param = "item", explain = "", type = ""},
@@ -41,3 +38,4 @@ data = {
     },
         
 }
+return data

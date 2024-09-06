@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetData",
+    ["SetData"] = {
         params = {
             {param = "build", explain = "", type = ""},
             {param = "symbol", explain = "", type = ""},
@@ -15,8 +14,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -28,3 +26,4 @@ data = {
     },
         
 }
+return data

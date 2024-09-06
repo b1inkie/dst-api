@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SpawnEffectPrefab",
+    ["SpawnEffectPrefab"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -17,8 +16,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -31,3 +29,4 @@ data = {
     },
         
 }
+return data

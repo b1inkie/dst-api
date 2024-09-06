@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnWrittenFn",
+    ["SetOnWrittenFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnWritingEndedFn",
+    ["SetOnWritingEndedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetText",
+    ["GetText"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetText",
+    ["SetText"] = {
         params = {
             {param = "text", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAutomaticDescriptionEnabled",
+    ["SetAutomaticDescriptionEnabled"] = {
         params = {
             {param = "ad_enabled", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDefaultWriteable",
+    ["SetDefaultWriteable"] = {
         params = {
             {param = "writeable_by_default", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWriteableDistance",
+    ["SetWriteableDistance"] = {
         params = {
             {param = "dist", explain = "", type = ""},
 
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BeginWriting",
+    ["BeginWriting"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsWritten",
+    ["IsWritten"] = {
         params = {
 
         },
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBeingWritten",
+    ["IsBeingWritten"] = {
         params = {
 
         },
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Write",
+    ["Write"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "text", explain = "", type = ""},
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EndWriting",
+    ["EndWriting"] = {
         params = {
 
         },
@@ -178,8 +164,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -191,8 +176,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -204,3 +188,4 @@ data = {
     },
         
 }
+return data

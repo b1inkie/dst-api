@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPlayerNear",
+    ["SetOnPlayerNear"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPlayerFar",
+    ["SetOnPlayerFar"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPlayerClose",
+    ["IsPlayerClose"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDist",
+    ["SetDist"] = {
         params = {
             {param = "near", explain = "", type = ""},
             {param = "far", explain = "", type = ""},
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLostTargetFn",
+    ["SetLostTargetFn"] = {
         params = {
             {param = "func", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPlayerAliveMode",
+    ["SetPlayerAliveMode"] = {
         params = {
             {param = "alivemode", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Schedule",
+    ["Schedule"] = {
         params = {
             {param = "new_period", explain = "", type = ""},
 
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceUpdate",
+    ["ForceUpdate"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTargetMode",
+    ["SetTargetMode"] = {
         params = {
             {param = "mode", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTarget",
+    ["SetTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -180,3 +166,4 @@ data = {
     },
         
 }
+return data

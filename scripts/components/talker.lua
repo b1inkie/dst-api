@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOffsetFn",
+    ["SetOffsetFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeChatter",
+    ["MakeChatter"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Chatter",
+    ["Chatter"] = {
         params = {
             {param = "strtbl", explain = "", type = ""},
             {param = "strid", explain = "", type = ""},
@@ -42,8 +39,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IgnoreAll",
+    ["IgnoreAll"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopIgnoringAll",
+    ["StopIgnoringAll"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -80,8 +74,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Say",
+    ["Say"] = {
         params = {
             {param = "script", explain = "", type = ""},
             {param = "time", explain = "", type = ""},
@@ -102,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShutUp",
+    ["ShutUp"] = {
         params = {
 
         },
@@ -115,3 +107,4 @@ data = {
     },
         
 }
+return data

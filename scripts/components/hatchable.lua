@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnState",
+    ["SetOnState"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCrackTime",
+    ["SetCrackTime"] = {
         params = {
             {param = "t", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHatchTime",
+    ["SetHatchTime"] = {
         params = {
             {param = "t", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHatchFailTime",
+    ["SetHatchFailTime"] = {
         params = {
             {param = "t", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnState",
+    ["OnState"] = {
         params = {
             {param = "state", explain = "", type = ""},
             {param = "forcestateupdate", explain = "", type = ""},
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Delay",
+    ["Delay"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopUpdating",
+    ["StopUpdating"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUpdating",
+    ["StartUpdating"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHeaterPrefs",
+    ["SetHeaterPrefs"] = {
         params = {
             {param = "day", explain = "", type = ""},
             {param = "dusk", explain = "", type = ""},
@@ -130,8 +120,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetChillerPrefs",
+    ["SetChillerPrefs"] = {
         params = {
             {param = "day", explain = "", type = ""},
             {param = "dusk", explain = "", type = ""},
@@ -145,8 +134,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHeaterPref",
+    ["GetHeaterPref"] = {
         params = {
             {param = "phase", explain = "", type = ""},
 
@@ -158,8 +146,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetChillerPref",
+    ["GetChillerPref"] = {
         params = {
             {param = "phase", explain = "", type = ""},
 
@@ -171,8 +158,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -184,8 +170,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -196,8 +181,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -210,3 +194,4 @@ data = {
     },
         
 }
+return data

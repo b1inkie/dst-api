@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBlockRange",
+    ["SetBlockRange"] = {
         params = {
             {param = "newrange", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnLightningStrike",
+    ["SetOnLightningStrike"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoLightningStrike",
+    ["DoLightningStrike"] = {
         params = {
             {param = "pos", explain = "", type = ""},
 
@@ -52,3 +48,4 @@ data = {
     },
         
 }
+return data

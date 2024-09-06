@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetMultiplier",
+    ["SetMultiplier"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoCastingDelta",
+    ["DoCastingDelta"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTryingToTradeWithMe",
+    ["IsTryingToTradeWithMe"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAcceptingStacks",
+    ["IsAcceptingStacks"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Disable",
+    ["Disable"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAcceptTest",
+    ["SetAcceptTest"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAbleToAcceptTest",
+    ["SetAbleToAcceptTest"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnAccept",
+    ["SetOnAccept"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnRefuse",
+    ["SetOnRefuse"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAcceptStacks",
+    ["SetAcceptStacks"] = {
         params = {
 
         },
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AbleToAccept",
+    ["AbleToAccept"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "giver", explain = "", type = ""},
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WantsToAccept",
+    ["WantsToAccept"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "giver", explain = "", type = ""},
@@ -155,8 +143,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AcceptGift",
+    ["AcceptGift"] = {
         params = {
             {param = "giver", explain = "", type = ""},
             {param = "item", explain = "", type = ""},
@@ -170,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -183,3 +169,4 @@ data = {
     },
         
 }
+return data

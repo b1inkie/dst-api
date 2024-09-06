@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Disable",
+    ["Disable"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -51,3 +47,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "UseRingMode",
+    ["UseRingMode"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPoints",
+    ["GetPoints"] = {
         params = {
             {param = "pt", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DestroyPoints",
+    ["DestroyPoints"] = {
         params = {
             {param = "points", explain = "", type = ""},
             {param = "breakobjects", explain = "", type = ""},
@@ -43,8 +40,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DestroyRing",
+    ["DestroyRing"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "radius", explain = "", type = ""},
@@ -65,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GroundPound",
+    ["GroundPound"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "ents_hit", explain = "", type = ""},
@@ -79,8 +74,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GroundPound_Offscreen",
+    ["GroundPound_Offscreen"] = {
         params = {
             {param = "position", explain = "", type = ""},
 
@@ -92,8 +86,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -105,3 +98,4 @@ data = {
     },
         
 }
+return data

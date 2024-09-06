@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AttachChild",
+    ["AttachChild"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DetachChild",
+    ["DetachChild"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentFX",
+    ["GetCurrentFX"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentFxAndPriority",
+    ["GetCurrentFxAndPriority"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSetBloomEffectHandle",
+    ["OnSetBloomEffectHandle"] = {
         params = {
             {param = "fx", explain = "", type = ""},
             {param = "priority", explain = "", type = ""},
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnClearBloomEffectHandle",
+    ["OnClearBloomEffectHandle"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushBloom",
+    ["PushBloom"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "fx", explain = "", type = ""},
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PopBloom",
+    ["PopBloom"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -129,3 +119,4 @@ data = {
     },
         
 }
+return data

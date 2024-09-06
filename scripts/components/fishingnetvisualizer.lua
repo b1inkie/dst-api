@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "BeginCast",
+    ["BeginCast"] = {
         params = {
             {param = "thrower", explain = "", type = ""},
             {param = "target_x", explain = "", type = ""},
@@ -15,8 +14,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateWhenMovingToTarget",
+    ["UpdateWhenMovingToTarget"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -28,8 +26,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalculateY",
+    ["CalculateY"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "x_span", explain = "", type = ""},
@@ -43,8 +40,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateWhenOpening",
+    ["UpdateWhenOpening"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -56,8 +52,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BeginOpening",
+    ["BeginOpening"] = {
         params = {
 
         },
@@ -68,8 +63,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropItem",
+    ["DropItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "last_dir_x", explain = "", type = ""},
@@ -84,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BeginRetrieving",
+    ["BeginRetrieving"] = {
         params = {
 
         },
@@ -96,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BeginFinalPickup",
+    ["BeginFinalPickup"] = {
         params = {
 
         },
@@ -108,8 +100,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateWhenRetrieving",
+    ["UpdateWhenRetrieving"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -122,3 +113,4 @@ data = {
     },
         
 }
+return data

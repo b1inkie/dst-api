@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetReflectDamageFn",
+    ["SetReflectDamageFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDefaultDamage",
+    ["SetDefaultDamage"] = {
         params = {
             {param = "value", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetReflectedDamage",
+    ["GetReflectedDamage"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
             {param = "damage", explain = "", type = ""},
@@ -44,3 +41,4 @@ data = {
     },
         
 }
+return data

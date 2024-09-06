@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnUnlockedFn",
+    ["SetOnUnlockedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnLockedFn",
+    ["SetOnLockedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CompatableKey",
+    ["CompatableKey"] = {
         params = {
             {param = "keytype", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsStuck",
+    ["IsStuck"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLocked",
+    ["IsLocked"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Unlock",
+    ["Unlock"] = {
         params = {
             {param = "key", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Lock",
+    ["Lock"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetKey",
+    ["SetKey"] = {
         params = {
             {param = "key", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TestForUnlock",
+    ["TestForUnlock"] = {
         params = {
             {param = "key", explain = "", type = ""},
 
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLocked",
+    ["SetLocked"] = {
         params = {
             {param = "locked", explain = "", type = ""},
 
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -178,8 +164,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -193,3 +178,4 @@ data = {
     },
         
 }
+return data

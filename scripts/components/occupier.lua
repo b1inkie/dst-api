@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetOwner",
+    ["GetOwner"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOwner",
+    ["SetOwner"] = {
         params = {
             {param = "owner", explain = "", type = ""},
 
@@ -26,3 +24,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnToggleFn",
+    ["SetOnToggleFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanInteract",
+    ["CanInteract"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ToggleItem",
+    ["ToggleItem"] = {
         params = {
 
         },
@@ -39,3 +36,4 @@ data = {
     },
         
 }
+return data

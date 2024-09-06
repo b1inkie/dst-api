@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnFinished",
+    ["SetOnFinished"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetKeepOnFinished",
+    ["SetKeepOnFinished"] = {
         params = {
             {param = "keep", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InitCondition",
+    ["InitCondition"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "absorb_percent", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InitIndestructible",
+    ["InitIndestructible"] = {
         params = {
             {param = "absorb_percent", explain = "", type = ""},
 
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsIndestructible",
+    ["IsIndestructible"] = {
         params = {
 
         },
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDamaged",
+    ["IsDamaged"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTags",
+    ["SetTags"] = {
         params = {
             {param = "tags", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddWeakness",
+    ["AddWeakness"] = {
         params = {
             {param = "tag", explain = "", type = ""},
             {param = "bonus_damage", explain = "", type = ""},
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveWeakness",
+    ["RemoveWeakness"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -129,8 +119,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAbsorption",
+    ["SetAbsorption"] = {
         params = {
             {param = "absorb_percent", explain = "", type = ""},
 
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -155,8 +143,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCondition",
+    ["SetCondition"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -168,8 +155,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -180,8 +166,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -193,8 +178,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanResist",
+    ["CanResist"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
             {param = "weapon", explain = "", type = ""},
@@ -207,8 +191,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAbsorption",
+    ["GetAbsorption"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
             {param = "weapon", explain = "", type = ""},
@@ -221,8 +204,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBonusDamage",
+    ["GetBonusDamage"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
             {param = "weapon", explain = "", type = ""},
@@ -235,8 +217,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeDamage",
+    ["TakeDamage"] = {
         params = {
             {param = "damage_amount", explain = "", type = ""},
 
@@ -248,8 +229,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Repair",
+    ["Repair"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -261,8 +241,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -274,3 +253,4 @@ data = {
     },
         
 }
+return data

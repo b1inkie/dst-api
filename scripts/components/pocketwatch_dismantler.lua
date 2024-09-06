@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "CanDismantle",
+    ["CanDismantle"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Dismantle",
+    ["Dismantle"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -29,3 +27,4 @@ data = {
     },
         
 }
+return data

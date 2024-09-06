@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsActive",
+    ["IsActive"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Abort",
+    ["Abort"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_HideAndSeekOver",
+    ["_HideAndSeekOver"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddSeeker",
+    ["AddSeeker"] = {
         params = {
             {param = "seeker", explain = "", type = ""},
             {param = "started_game", explain = "", type = ""},
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RegisterHidingSpot",
+    ["RegisterHidingSpot"] = {
         params = {
             {param = "hiding_spot", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnregisterHidingSpot",
+    ["UnregisterHidingSpot"] = {
         params = {
             {param = "hiding_spot", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumHiding",
+    ["GetNumHiding"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumSeekers",
+    ["GetNumSeekers"] = {
         params = {
 
         },
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumFound",
+    ["GetNumFound"] = {
         params = {
 
         },
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -136,8 +125,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -163,3 +150,4 @@ data = {
     },
         
 }
+return data

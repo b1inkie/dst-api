@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Stun",
+    ["Stun"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeDamage",
+    ["TakeDamage"] = {
         params = {
             {param = "damage", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDamageInPeriod",
+    ["GetDamageInPeriod"] = {
         params = {
 
         },
@@ -38,3 +35,4 @@ data = {
     },
         
 }
+return data

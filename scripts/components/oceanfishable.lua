@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnReelingIn",
+    ["OnReelingIn"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnReelingInPst",
+    ["OnReelingInPst"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WasEatenByA",
+    ["WasEatenByA"] = {
         params = {
             {param = "tunafish", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeProjectile",
+    ["MakeProjectile"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StrugglingSetup",
+    ["StrugglingSetup"] = {
         params = {
             {param = "walk_speed", explain = "", type = ""},
             {param = "run_speed", explain = "", type = ""},
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRod",
+    ["SetRod"] = {
         params = {
             {param = "rod", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRod",
+    ["GetRod"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsStruggling",
+    ["IsStruggling"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateRunSpeed",
+    ["UpdateRunSpeed"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcStaminaDrainRate",
+    ["CalcStaminaDrainRate"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResetStruggling",
+    ["ResetStruggling"] = {
         params = {
 
         },
@@ -164,8 +151,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcStruggleDuration",
+    ["CalcStruggleDuration"] = {
         params = {
 
         },
@@ -176,8 +162,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateStruggleState",
+    ["UpdateStruggleState"] = {
         params = {
 
         },
@@ -188,8 +173,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcLineUnreelRate",
+    ["CalcLineUnreelRate"] = {
         params = {
             {param = "rod", explain = "", type = ""},
 
@@ -201,8 +185,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -214,3 +197,4 @@ data = {
     },
         
 }
+return data

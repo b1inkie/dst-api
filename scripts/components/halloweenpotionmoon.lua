@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnUseFn",
+    ["SetOnUseFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Use",
+    ["Use"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -28,3 +26,4 @@ data = {
     },
         
 }
+return data

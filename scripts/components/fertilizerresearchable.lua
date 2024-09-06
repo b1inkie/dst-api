@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetResearchFn",
+    ["SetResearchFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetResearchInfo",
+    ["GetResearchInfo"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LearnFertilizer",
+    ["LearnFertilizer"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -39,3 +36,4 @@ data = {
     },
         
 }
+return data

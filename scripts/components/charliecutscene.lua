@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "ClientLockCamera",
+    ["ClientLockCamera"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClientUnlockCamera",
+    ["ClientUnlockCamera"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Start",
+    ["Start"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Finish",
+    ["Finish"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CollectAtriumPillarsData",
+    ["CollectAtriumPillarsData"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindSceneCameraAngle",
+    ["FindSceneCameraAngle"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartRepairingGateWithDelay",
+    ["StartRepairingGateWithDelay"] = {
         params = {
             {param = "delay", explain = "", type = ""},
             {param = "delay_to_fix", explain = "", type = ""},
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RepairGate",
+    ["RepairGate"] = {
         params = {
 
         },
@@ -98,8 +90,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindCharlieSpawnPoint",
+    ["FindCharlieSpawnPoint"] = {
         params = {
 
         },
@@ -110,8 +101,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnCharlieWithDelay",
+    ["SpawnCharlieWithDelay"] = {
         params = {
             {param = "delay", explain = "", type = ""},
 
@@ -123,8 +113,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindCharlieHandSpawnPoint",
+    ["FindCharlieHandSpawnPoint"] = {
         params = {
 
         },
@@ -135,8 +124,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnCharlieHand",
+    ["SpawnCharlieHand"] = {
         params = {
 
         },
@@ -147,8 +135,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsGateRepaired",
+    ["IsGateRepaired"] = {
         params = {
 
         },
@@ -159,8 +146,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -171,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -185,3 +170,4 @@ data = {
     },
         
 }
+return data

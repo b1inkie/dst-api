@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "StartBoatMusicTest",
+    ["StartBoatMusicTest"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopBoatMusicTest",
+    ["StopBoatMusicTest"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartBoatCamera",
+    ["StartBoatCamera"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopBoatCamera",
+    ["StopBoatCamera"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartBoatCameraZooms",
+    ["StartBoatCameraZooms"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopBoatCameraZooms",
+    ["StopBoatCameraZooms"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOnPlatform",
+    ["GetOnPlatform"] = {
         params = {
             {param = "platform", explain = "", type = ""},
 
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOffPlatform",
+    ["GetOffPlatform"] = {
         params = {
 
         },
@@ -97,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TestForPlatform",
+    ["TestForPlatform"] = {
         params = {
 
         },
@@ -109,8 +100,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -122,3 +112,4 @@ data = {
     },
         
 }
+return data

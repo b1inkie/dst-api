@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetLastTarget",
+    ["SetLastTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAttackPeriod",
+    ["SetAttackPeriod"] = {
         params = {
             {param = "period", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TargetIs",
+    ["TargetIs"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InCooldown",
+    ["InCooldown"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCooldown",
+    ["GetCooldown"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResetCooldown",
+    ["ResetCooldown"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RestartCooldown",
+    ["RestartCooldown"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OverrideCooldown",
+    ["OverrideCooldown"] = {
         params = {
             {param = "cd", explain = "", type = ""},
 
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRange",
+    ["SetRange"] = {
         params = {
             {param = "attack", explain = "", type = ""},
             {param = "hit", explain = "", type = ""},
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPlayerStunlock",
+    ["SetPlayerStunlock"] = {
         params = {
             {param = "stunlock", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAreaDamage",
+    ["SetAreaDamage"] = {
         params = {
             {param = "range", explain = "", type = ""},
             {param = "percent", explain = "", type = ""},
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableAreaDamage",
+    ["EnableAreaDamage"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -155,8 +143,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShareTarget",
+    ["ShareTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "range", explain = "", type = ""},
@@ -172,8 +159,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDefaultDamage",
+    ["SetDefaultDamage"] = {
         params = {
             {param = "damage", explain = "", type = ""},
 
@@ -185,8 +171,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnHit",
+    ["SetOnHit"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -198,8 +183,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SuggestTarget",
+    ["SuggestTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -211,8 +195,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetKeepTargetFunction",
+    ["SetKeepTargetFunction"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -224,8 +207,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryRetarget",
+    ["TryRetarget"] = {
         params = {
 
         },
@@ -236,8 +218,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRetargetFunction",
+    ["SetRetargetFunction"] = {
         params = {
             {param = "period", explain = "", type = ""},
             {param = "fn", explain = "", type = ""},
@@ -250,8 +231,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -262,8 +242,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -274,8 +253,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -287,8 +265,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsRecentTarget",
+    ["IsRecentTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -300,8 +277,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTrackingTarget",
+    ["StartTrackingTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -313,8 +289,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTrackingTarget",
+    ["StopTrackingTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -326,8 +301,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropTarget",
+    ["DropTarget"] = {
         params = {
             {param = "hasnexttarget", explain = "", type = ""},
 
@@ -339,8 +313,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EngageTarget",
+    ["EngageTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -352,8 +325,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShouldAggroFn",
+    ["SetShouldAggroFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -365,8 +337,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShouldAvoidAggro",
+    ["SetShouldAvoidAggro"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -378,8 +349,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveShouldAvoidAggro",
+    ["RemoveShouldAvoidAggro"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -391,8 +361,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldAggro",
+    ["ShouldAggro"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "ignore_forbidden", explain = "", type = ""},
@@ -405,8 +374,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddNoAggroTag",
+    ["AddNoAggroTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -418,8 +386,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveNoAggroTag",
+    ["RemoveNoAggroTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -431,8 +398,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNoAggroTags",
+    ["SetNoAggroTags"] = {
         params = {
             {param = "tags", explain = "", type = ""},
 
@@ -444,8 +410,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTarget",
+    ["SetTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -457,8 +422,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsValidTarget",
+    ["IsValidTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -470,8 +434,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ValidateTarget",
+    ["ValidateTarget"] = {
         params = {
 
         },
@@ -482,8 +445,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -494,8 +456,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetGiveUpString",
+    ["GetGiveUpString"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -507,8 +468,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GiveUp",
+    ["GiveUp"] = {
         params = {
 
         },
@@ -519,8 +479,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBattleCryString",
+    ["GetBattleCryString"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -532,8 +491,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResetBattleCryCooldown",
+    ["ResetBattleCryCooldown"] = {
         params = {
             {param = "t", explain = "", type = ""},
 
@@ -545,8 +503,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BattleCry",
+    ["BattleCry"] = {
         params = {
 
         },
@@ -557,8 +514,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHurtSound",
+    ["SetHurtSound"] = {
         params = {
             {param = "sound", explain = "", type = ""},
 
@@ -570,8 +526,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAttacked",
+    ["GetAttacked"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
             {param = "damage", explain = "", type = ""},
@@ -587,8 +542,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetImpactSound",
+    ["GetImpactSound"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "weapon", explain = "", type = ""},
@@ -601,8 +555,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartAttack",
+    ["StartAttack"] = {
         params = {
 
         },
@@ -613,8 +566,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelAttack",
+    ["CancelAttack"] = {
         params = {
 
         },
@@ -625,8 +577,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanTarget",
+    ["CanTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -638,8 +589,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasTarget",
+    ["HasTarget"] = {
         params = {
 
         },
@@ -650,8 +600,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanAttack",
+    ["CanAttack"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -663,8 +612,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LocomotorCanAttack",
+    ["LocomotorCanAttack"] = {
         params = {
             {param = "reached_dest", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -677,8 +625,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryAttack",
+    ["TryAttack"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -690,8 +637,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceAttack",
+    ["ForceAttack"] = {
         params = {
 
         },
@@ -702,8 +648,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWeapon",
+    ["GetWeapon"] = {
         params = {
 
         },
@@ -714,8 +659,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLastAttackedTime",
+    ["GetLastAttackedTime"] = {
         params = {
 
         },
@@ -726,8 +670,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcDamage",
+    ["CalcDamage"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "weapon", explain = "", type = ""},
@@ -741,8 +684,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcReflectedDamage",
+    ["CalcReflectedDamage"] = {
         params = {
             {param = "targ", explain = "", type = ""},
             {param = "dmg", explain = "", type = ""},
@@ -759,8 +701,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAttackRange",
+    ["GetAttackRange"] = {
         params = {
 
         },
@@ -771,8 +712,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcAttackRangeSq",
+    ["CalcAttackRangeSq"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -784,8 +724,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHitRange",
+    ["GetHitRange"] = {
         params = {
 
         },
@@ -796,8 +735,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcHitRangeSq",
+    ["CalcHitRangeSq"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -809,8 +747,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanExtinguishTarget",
+    ["CanExtinguishTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "weapon", explain = "", type = ""},
@@ -823,8 +760,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanLightTarget",
+    ["CanLightTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "weapon", explain = "", type = ""},
@@ -837,8 +773,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanHitTarget",
+    ["CanHitTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "weapon", explain = "", type = ""},
@@ -851,8 +786,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearAttackTemps",
+    ["ClearAttackTemps"] = {
         params = {
 
         },
@@ -863,8 +797,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoAttack",
+    ["DoAttack"] = {
         params = {
             {param = "targ", explain = "", type = ""},
             {param = "weapon", explain = "", type = ""},
@@ -882,8 +815,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDamageReflect",
+    ["GetDamageReflect"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "damage", explain = "", type = ""},
@@ -898,8 +830,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoAreaAttack",
+    ["DoAreaAttack"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "range", explain = "", type = ""},
@@ -916,8 +847,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAlly",
+    ["IsAlly"] = {
         params = {
             {param = "guy", explain = "", type = ""},
 
@@ -929,8 +859,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TargetHasFriendlyLeader",
+    ["TargetHasFriendlyLeader"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -942,8 +871,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanBeAttacked",
+    ["CanBeAttacked"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
 
@@ -955,8 +883,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -968,3 +895,4 @@ data = {
     },
         
 }
+return data

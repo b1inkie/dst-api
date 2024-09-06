@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetDelay",
+    ["SetDelay"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDelayTicks",
+    ["SetDelayTicks"] = {
         params = {
             {param = "ticks", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDelayTicks",
+    ["GetDelayTicks"] = {
         params = {
 
         },
@@ -39,3 +36,4 @@ data = {
     },
         
 }
+return data

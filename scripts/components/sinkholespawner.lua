@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "StopSinkholes",
+    ["StopSinkholes"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateTarget",
+    ["UpdateTarget"] = {
         params = {
             {param = "targetinfo", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoTargetWarning",
+    ["DoTargetWarning"] = {
         params = {
             {param = "targetinfo", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoTargetAttack",
+    ["DoTargetAttack"] = {
         params = {
             {param = "targetinfo", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnSinkhole",
+    ["SpawnSinkhole"] = {
         params = {
             {param = "spawnpt", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushRemoteTargets",
+    ["PushRemoteTargets"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -127,3 +117,4 @@ data = {
     },
         
 }
+return data

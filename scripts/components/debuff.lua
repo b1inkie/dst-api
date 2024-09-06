@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetAttachedFn",
+    ["SetAttachedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDetachedFn",
+    ["SetDetachedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetExtendedFn",
+    ["SetExtendedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetChangeFollowSymbolFn",
+    ["SetChangeFollowSymbolFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
 
         },
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AttachTo",
+    ["AttachTo"] = {
         params = {
             {param = "name", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -81,8 +75,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDetach",
+    ["OnDetach"] = {
         params = {
 
         },
@@ -93,8 +86,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Extend",
+    ["Extend"] = {
         params = {
             {param = "followsymbol", explain = "", type = ""},
             {param = "followoffset", explain = "", type = ""},
@@ -108,8 +100,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ChangeFollowSymbol",
+    ["ChangeFollowSymbol"] = {
         params = {
             {param = "followsymbol", explain = "", type = ""},
             {param = "followoffset", explain = "", type = ""},
@@ -123,3 +114,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetCurrentAngle",
+    ["GetCurrentAngle"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentSpeed",
+    ["GetCurrentSpeed"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentVec3",
+    ["GetCurrentVec3"] = {
         params = {
 
         },
@@ -37,3 +34,4 @@ data = {
     },
         
 }
+return data

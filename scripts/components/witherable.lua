@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsWithered",
+    ["IsWithered"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsProtected",
+    ["IsProtected"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanWither",
+    ["CanWither"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanRejuvenate",
+    ["CanRejuvenate"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceWither",
+    ["ForceWither"] = {
         params = {
 
         },
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceRejuvenate",
+    ["ForceRejuvenate"] = {
         params = {
 
         },
@@ -97,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DelayWither",
+    ["DelayWither"] = {
         params = {
             {param = "delay", explain = "", type = ""},
 
@@ -110,8 +101,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DelayRejuvenate",
+    ["DelayRejuvenate"] = {
         params = {
             {param = "delay", explain = "", type = ""},
 
@@ -123,8 +113,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Start",
+    ["Start"] = {
         params = {
 
         },
@@ -135,8 +124,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
 
         },
@@ -147,8 +135,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -159,8 +146,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -172,8 +158,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -185,3 +170,4 @@ data = {
     },
         
 }
+return data

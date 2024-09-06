@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnCyclesChanged",
+    ["OnCyclesChanged"] = {
         params = {
             {param = "cycles", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnClockTick",
+    ["OnClockTick"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RecordPlayerJoined",
+    ["RecordPlayerJoined"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RecordPlayerLeft",
+    ["RecordPlayerLeft"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcIndividualPlayerStats",
+    ["CalcIndividualPlayerStats"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcPlayerStats",
+    ["CalcPlayerStats"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DumpIndividualPlayerStats",
+    ["DumpIndividualPlayerStats"] = {
         params = {
             {param = "stat", explain = "", type = ""},
             {param = "event", explain = "", type = ""},
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DumpPlayerStats",
+    ["DumpPlayerStats"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPlayerDeath",
+    ["OnPlayerDeath"] = {
         params = {
             {param = "player", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPlayerChangedSkin",
+    ["OnPlayerChangedSkin"] = {
         params = {
             {param = "player", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -131,8 +121,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnItemCrafted",
+    ["OnItemCrafted"] = {
         params = {
             {param = "player", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -145,8 +134,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEquipSkinnedItem",
+    ["OnEquipSkinnedItem"] = {
         params = {
             {param = "player", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -159,8 +147,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUnequipSkinnedItem",
+    ["OnUnequipSkinnedItem"] = {
         params = {
             {param = "player", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -173,8 +160,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWorldRecipeItems",
+    ["GetWorldRecipeItems"] = {
         params = {
 
         },
@@ -185,8 +171,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DumpSessionStats",
+    ["DumpSessionStats"] = {
         params = {
 
         },
@@ -197,8 +182,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPlayerJoined",
+    ["OnPlayerJoined"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "player", explain = "", type = ""},
@@ -211,8 +195,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPlayerLeft",
+    ["OnPlayerLeft"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "player", explain = "", type = ""},
@@ -225,8 +208,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Heartbeat",
+    ["Heartbeat"] = {
         params = {
 
         },
@@ -237,8 +219,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HeartbeatPoll",
+    ["HeartbeatPoll"] = {
         params = {
 
         },
@@ -249,8 +230,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "QuitAll",
+    ["QuitAll"] = {
         params = {
 
         },
@@ -261,8 +241,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SendClientJoin",
+    ["SendClientJoin"] = {
         params = {
             {param = "userid", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -275,8 +254,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SendClientHeartBeat",
+    ["SendClientHeartBeat"] = {
         params = {
             {param = "userid", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -289,8 +267,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SendClientQuit",
+    ["SendClientQuit"] = {
         params = {
             {param = "userid", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -304,3 +281,4 @@ data = {
     },
         
 }
+return data

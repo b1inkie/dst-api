@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnHauntFn",
+    ["SetOnHauntFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnUnHauntFn",
+    ["SetOnUnHauntFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHauntValue",
+    ["SetHauntValue"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Panic",
+    ["Panic"] = {
         params = {
             {param = "panictime", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartFX",
+    ["StartFX"] = {
         params = {
             {param = "noflicker", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AdvanceFlickerState",
+    ["AdvanceFlickerState"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopFX",
+    ["StopFX"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoHaunt",
+    ["DoHaunt"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartShaderFx",
+    ["StartShaderFx"] = {
         params = {
 
         },
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopShaderFX",
+    ["StopShaderFX"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -152,3 +140,4 @@ data = {
     },
         
 }
+return data

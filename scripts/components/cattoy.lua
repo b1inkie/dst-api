@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnPlay",
+    ["SetOnPlay"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Play",
+    ["Play"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "is_airborne", explain = "", type = ""},
@@ -28,3 +26,4 @@ data = {
     },
         
 }
+return data

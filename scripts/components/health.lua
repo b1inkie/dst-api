@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RecalculatePenalty",
+    ["RecalculatePenalty"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceUpdateHUD",
+    ["ForceUpdateHUD"] = {
         params = {
             {param = "overtime", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFireDamageScale",
+    ["GetFireDamageScale"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoFireDamage",
+    ["DoFireDamage"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartRegen",
+    ["StartRegen"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "period", explain = "", type = ""},
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddRegenSource",
+    ["AddRegenSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -133,8 +123,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveRegenSource",
+    ["RemoveRegenSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -147,8 +136,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAbsorptionAmount",
+    ["SetAbsorptionAmount"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -160,8 +148,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAbsorptionAmountFromPlayer",
+    ["SetAbsorptionAmountFromPlayer"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -173,8 +160,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopRegen",
+    ["StopRegen"] = {
         params = {
 
         },
@@ -185,8 +171,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPenalty",
+    ["SetPenalty"] = {
         params = {
             {param = "penalty", explain = "", type = ""},
 
@@ -198,8 +183,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DeltaPenalty",
+    ["DeltaPenalty"] = {
         params = {
             {param = "delta", explain = "", type = ""},
 
@@ -211,8 +195,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPenaltyPercent",
+    ["GetPenaltyPercent"] = {
         params = {
 
         },
@@ -223,8 +206,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -235,8 +217,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercentWithPenalty",
+    ["GetPercentWithPenalty"] = {
         params = {
 
         },
@@ -247,8 +228,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInvincible",
+    ["IsInvincible"] = {
         params = {
 
         },
@@ -259,8 +239,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -271,8 +250,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCurrentHealth",
+    ["SetCurrentHealth"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -284,8 +262,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxHealth",
+    ["SetMaxHealth"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -297,8 +274,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMinHealth",
+    ["SetMinHealth"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -310,8 +286,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxDamageTakenPerHit",
+    ["SetMaxDamageTakenPerHit"] = {
         params = {
             {param = "maxdamagetakenperhit", explain = "", type = ""},
 
@@ -323,8 +298,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsHurt",
+    ["IsHurt"] = {
         params = {
 
         },
@@ -335,8 +309,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaxWithPenalty",
+    ["GetMaxWithPenalty"] = {
         params = {
 
         },
@@ -347,8 +320,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Kill",
+    ["Kill"] = {
         params = {
 
         },
@@ -359,8 +331,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDead",
+    ["IsDead"] = {
         params = {
 
         },
@@ -371,8 +342,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "percent", explain = "", type = ""},
             {param = "overtime", explain = "", type = ""},
@@ -386,8 +356,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetVal",
+    ["SetVal"] = {
         params = {
             {param = "val", explain = "", type = ""},
             {param = "cause", explain = "", type = ""},
@@ -401,8 +370,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "overtime", explain = "", type = ""},
@@ -419,8 +387,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -433,3 +400,4 @@ data = {
     },
         
 }
+return data

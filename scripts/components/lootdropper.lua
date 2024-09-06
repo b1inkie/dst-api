@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetLoot",
+    ["SetLoot"] = {
         params = {
             {param = "loots", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLootSetupFn",
+    ["SetLootSetupFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddRandomLoot",
+    ["AddRandomLoot"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "weight", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearRandomLoot",
+    ["ClearRandomLoot"] = {
         params = {
 
         },
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddRandomHauntedLoot",
+    ["AddRandomHauntedLoot"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "weight", explain = "", type = ""},
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddChanceLoot",
+    ["AddChanceLoot"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "chance", explain = "", type = ""},
@@ -80,8 +74,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddIfNotChanceLoot",
+    ["AddIfNotChanceLoot"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -93,8 +86,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PickRandomLoot",
+    ["PickRandomLoot"] = {
         params = {
 
         },
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFullRecipeLoot",
+    ["GetFullRecipeLoot"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
 
@@ -118,8 +109,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRecipeLoot",
+    ["GetRecipeLoot"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
 
@@ -131,8 +121,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GenerateLoot",
+    ["GenerateLoot"] = {
         params = {
 
         },
@@ -143,8 +132,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAllPossibleLoot",
+    ["GetAllPossibleLoot"] = {
         params = {
             {param = "setuploot", explain = "", type = ""},
 
@@ -156,8 +144,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFlingTarget",
+    ["SetFlingTarget"] = {
         params = {
             {param = "pos", explain = "", type = ""},
             {param = "variance", explain = "", type = ""},
@@ -170,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FlingItem",
+    ["FlingItem"] = {
         params = {
             {param = "loot", explain = "", type = ""},
             {param = "pt", explain = "", type = ""},
@@ -184,8 +170,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnLootPrefab",
+    ["SpawnLootPrefab"] = {
         params = {
             {param = "lootprefab", explain = "", type = ""},
             {param = "pt", explain = "", type = ""},
@@ -201,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropLoot",
+    ["DropLoot"] = {
         params = {
             {param = "pt", explain = "", type = ""},
 
@@ -215,3 +199,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetFormationSize",
+    ["GetFormationSize"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUp",
+    ["SetUp"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "first_member", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OrganizeFormations",
+    ["OrganizeFormations"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFormationFull",
+    ["IsFormationFull"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ValidMember",
+    ["ValidMember"] = {
         params = {
             {param = "member", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DisbandFormation",
+    ["DisbandFormation"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FormationSizeControl",
+    ["FormationSizeControl"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NewFormationMember",
+    ["NewFormationMember"] = {
         params = {
             {param = "member", explain = "", type = ""},
 
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLostFormationMember",
+    ["OnLostFormationMember"] = {
         params = {
             {param = "member", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFormationPositions",
+    ["GetFormationPositions"] = {
         params = {
 
         },
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFormationEmpty",
+    ["IsFormationEmpty"] = {
         params = {
 
         },
@@ -137,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTheta",
+    ["GetTheta"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ValidateFormation",
+    ["ValidateFormation"] = {
         params = {
 
         },
@@ -162,8 +149,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -176,3 +162,4 @@ data = {
     },
         
 }
+return data

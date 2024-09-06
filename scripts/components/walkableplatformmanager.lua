@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetNewUID",
+    ["GetNewUID"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnregisterPlatform",
+    ["UnregisterPlatform"] = {
         params = {
             {param = "platform", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RegisterPlatform",
+    ["RegisterPlatform"] = {
         params = {
             {param = "platform", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPlatformWithUID",
+    ["GetPlatformWithUID"] = {
         params = {
             {param = "uid", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddPlatform",
+    ["AddPlatform"] = {
         params = {
             {param = "platform", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemovePlatform",
+    ["RemovePlatform"] = {
         params = {
             {param = "platform", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PostUpdate",
+    ["PostUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -116,3 +107,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "ActivateCurrentResearchMachine",
+    ["ActivateCurrentResearchMachine"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBuildBuffered",
+    ["IsBuildBuffered"] = {
         params = {
             {param = "recname", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GiveAllRecipes",
+    ["GiveAllRecipes"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTechBonuses",
+    ["GetTechBonuses"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTempTechBonuses",
+    ["GetTempTechBonuses"] = {
         params = {
 
         },
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GiveTempTechBonus",
+    ["GiveTempTechBonus"] = {
         params = {
             {param = "tech", explain = "", type = ""},
 
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ConsumeTempTechBonuses",
+    ["ConsumeTempTechBonuses"] = {
         params = {
 
         },
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UsePrototyper",
+    ["UsePrototyper"] = {
         params = {
             {param = "prototyper", explain = "", type = ""},
 
@@ -137,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddRecipe",
+    ["AddRecipe"] = {
         params = {
             {param = "recname", explain = "", type = ""},
 
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveRecipe",
+    ["RemoveRecipe"] = {
         params = {
             {param = "recname", explain = "", type = ""},
 
@@ -163,8 +150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnlockRecipe",
+    ["UnlockRecipe"] = {
         params = {
             {param = "recname", explain = "", type = ""},
 
@@ -176,8 +162,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetIngredientWetness",
+    ["GetIngredientWetness"] = {
         params = {
             {param = "ingredients", explain = "", type = ""},
 
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetIngredients",
+    ["GetIngredients"] = {
         params = {
             {param = "recname", explain = "", type = ""},
 
@@ -202,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveIngredients",
+    ["RemoveIngredients"] = {
         params = {
             {param = "ingredients", explain = "", type = ""},
             {param = "recname", explain = "", type = ""},
@@ -217,8 +200,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasCharacterIngredient",
+    ["HasCharacterIngredient"] = {
         params = {
             {param = "ingredient", explain = "", type = ""},
 
@@ -230,8 +212,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasTechIngredient",
+    ["HasTechIngredient"] = {
         params = {
             {param = "ingredient", explain = "", type = ""},
 
@@ -243,8 +224,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeRecipe",
+    ["MakeRecipe"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
             {param = "pt", explain = "", type = ""},
@@ -260,8 +240,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoBuild",
+    ["DoBuild"] = {
         params = {
             {param = "recname", explain = "", type = ""},
             {param = "pt", explain = "", type = ""},
@@ -276,8 +255,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "KnowsRecipe",
+    ["KnowsRecipe"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
             {param = "ignore_tempbonus", explain = "", type = ""},
@@ -290,8 +268,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasIngredients",
+    ["HasIngredients"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
 
@@ -303,8 +280,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanBuild",
+    ["CanBuild"] = {
         params = {
             {param = "recipe_name", explain = "", type = ""},
 
@@ -316,8 +292,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanLearn",
+    ["CanLearn"] = {
         params = {
             {param = "recname", explain = "", type = ""},
 
@@ -329,8 +304,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -342,8 +316,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeRecipeFromMenu",
+    ["MakeRecipeFromMenu"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
             {param = "skin", explain = "", type = ""},
@@ -356,8 +329,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeRecipeAtPoint",
+    ["MakeRecipeAtPoint"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
             {param = "pt", explain = "", type = ""},
@@ -372,8 +344,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BufferBuild",
+    ["BufferBuild"] = {
         params = {
             {param = "recname", explain = "", type = ""},
 
@@ -386,3 +357,4 @@ data = {
     },
         
 }
+return data

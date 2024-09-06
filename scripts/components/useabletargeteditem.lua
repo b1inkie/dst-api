@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTargetPrefab",
+    ["SetTargetPrefab"] = {
         params = {
             {param = "prefab_name", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnUseFn",
+    ["SetOnUseFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStopUseFn",
+    ["SetOnStopUseFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetInventoryDisable",
+    ["SetInventoryDisable"] = {
         params = {
             {param = "value", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanInteract",
+    ["CanInteract"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUsingItem",
+    ["StartUsingItem"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopUsingItem",
+    ["StopUsingItem"] = {
         params = {
 
         },
@@ -103,3 +95,4 @@ data = {
     },
         
 }
+return data

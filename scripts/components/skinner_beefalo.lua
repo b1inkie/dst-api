@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetClothing",
+    ["SetClothing"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetClothing",
+    ["GetClothing"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HideAllClothing",
+    ["HideAllClothing"] = {
         params = {
             {param = "anim_state", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearAllClothing",
+    ["ClearAllClothing"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearClothing",
+    ["ClearClothing"] = {
         params = {
             {param = "type", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplyTargetSkins",
+    ["ApplyTargetSkins"] = {
         params = {
             {param = "skins", explain = "", type = ""},
             {param = "player", explain = "", type = ""},
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "reloadclothing",
+    ["reloadclothing"] = {
         params = {
             {param = "clothing", explain = "", type = ""},
 
@@ -103,3 +95,4 @@ data = {
     },
         
 }
+return data

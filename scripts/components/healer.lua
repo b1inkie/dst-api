@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetHealthAmount",
+    ["SetHealthAmount"] = {
         params = {
             {param = "health", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnHealFn",
+    ["SetOnHealFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanHealFn",
+    ["SetCanHealFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Heal",
+    ["Heal"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -54,3 +50,4 @@ data = {
     },
         
 }
+return data

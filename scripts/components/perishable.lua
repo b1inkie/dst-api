@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFresh",
+    ["IsFresh"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsStale",
+    ["IsStale"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSpoiled",
+    ["IsSpoiled"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Dilute",
+    ["Dilute"] = {
         params = {
             {param = "number", explain = "", type = ""},
             {param = "timeleft", explain = "", type = ""},
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddTime",
+    ["AddTime"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPerishTime",
+    ["SetPerishTime"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLocalMultiplier",
+    ["SetLocalMultiplier"] = {
         params = {
             {param = "newMult", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLocalMultiplier",
+    ["GetLocalMultiplier"] = {
         params = {
 
         },
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNewMaxPerishTime",
+    ["SetNewMaxPerishTime"] = {
         params = {
             {param = "newtime", explain = "", type = ""},
 
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPerishFn",
+    ["SetOnPerishFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -163,8 +150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "percent", explain = "", type = ""},
 
@@ -176,8 +162,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReducePercent",
+    ["ReducePercent"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -201,8 +185,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -214,8 +197,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartPerishing",
+    ["StartPerishing"] = {
         params = {
 
         },
@@ -226,8 +208,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPerishing",
+    ["IsPerishing"] = {
         params = {
 
         },
@@ -238,8 +219,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Perish",
+    ["Perish"] = {
         params = {
 
         },
@@ -250,8 +230,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopPerishing",
+    ["StopPerishing"] = {
         params = {
 
         },
@@ -262,8 +241,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -274,8 +252,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -288,3 +265,4 @@ data = {
     },
         
 }
+return data

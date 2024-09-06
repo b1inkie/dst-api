@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetLastDomesticator",
+    ["SetLastDomesticator"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLastDomesticator",
+    ["GetLastDomesticator"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -51,3 +47,4 @@ data = {
     },
         
 }
+return data

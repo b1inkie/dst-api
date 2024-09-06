@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "IsPointNearPreviousSpawn",
+    ["IsPointNearPreviousSpawn"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRiftRemoved",
+    ["OnRiftRemoved"] = {
         params = {
             {param = "rift", explain = "", type = ""},
 
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddRiftToPool",
+    ["AddRiftToPool"] = {
         params = {
             {param = "rift", explain = "", type = ""},
             {param = "rift_prefab", explain = "", type = ""},
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnRift",
+    ["SpawnRift"] = {
         params = {
             {param = "forced_pos", explain = "", type = ""},
 
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryToSpawnRift",
+    ["TryToSpawnRift"] = {
         params = {
             {param = "forced_pos", explain = "", type = ""},
 
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRiftTimerDone",
+    ["OnRiftTimerDone"] = {
         params = {
 
         },
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDifficulty",
+    ["SetDifficulty"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "difficulty", explain = "", type = ""},
@@ -93,8 +86,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryToStartTimer",
+    ["TryToStartTimer"] = {
         params = {
             {param = "src", explain = "", type = ""},
 
@@ -106,8 +98,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableLunarRifts",
+    ["EnableLunarRifts"] = {
         params = {
             {param = "src", explain = "", type = ""},
 
@@ -119,8 +110,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableShadowRifts",
+    ["EnableShadowRifts"] = {
         params = {
             {param = "src", explain = "", type = ""},
 
@@ -132,8 +122,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableXRifts",
+    ["EnableXRifts"] = {
         params = {
             {param = "src", explain = "", type = ""},
 
@@ -145,8 +134,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLunarRiftMaxSize",
+    ["OnLunarRiftMaxSize"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "rift", explain = "", type = ""},
@@ -159,8 +147,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnShadowRiftMaxSize",
+    ["OnShadowRiftMaxSize"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "rift", explain = "", type = ""},
@@ -173,8 +160,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEnabledSetting",
+    ["SetEnabledSetting"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "enabled_difficulty", explain = "", type = ""},
@@ -187,8 +173,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEnabledSettingCave",
+    ["SetEnabledSettingCave"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "enabled_difficulty", explain = "", type = ""},
@@ -201,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRifts",
+    ["GetRifts"] = {
         params = {
 
         },
@@ -213,8 +197,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRiftsOfPrefab",
+    ["GetRiftsOfPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -226,8 +209,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEnabled",
+    ["GetEnabled"] = {
         params = {
 
         },
@@ -238,8 +220,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLunarRiftsEnabled",
+    ["GetLunarRiftsEnabled"] = {
         params = {
 
         },
@@ -250,8 +231,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetShadowRiftsEnabled",
+    ["GetShadowRiftsEnabled"] = {
         params = {
 
         },
@@ -262,8 +242,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetXRiftsEnabled",
+    ["GetXRiftsEnabled"] = {
         params = {
 
         },
@@ -274,8 +253,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLunarPortalActive",
+    ["IsLunarPortalActive"] = {
         params = {
 
         },
@@ -286,8 +264,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsShadowPortalActive",
+    ["IsShadowPortalActive"] = {
         params = {
 
         },
@@ -298,8 +275,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsXPortalActive",
+    ["IsXPortalActive"] = {
         params = {
 
         },
@@ -310,8 +286,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNextRiftPrefab",
+    ["GetNextRiftPrefab"] = {
         params = {
 
         },
@@ -322,8 +297,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -334,8 +308,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -347,8 +320,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -361,8 +333,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -373,8 +344,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugRiftString",
+    ["GetDebugRiftString"] = {
         params = {
 
         },
@@ -385,8 +355,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DebugHighlightRifts",
+    ["DebugHighlightRifts"] = {
         params = {
 
         },
@@ -398,3 +367,4 @@ data = {
     },
         
 }
+return data

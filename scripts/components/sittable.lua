@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOccupier",
+    ["SetOccupier"] = {
         params = {
             {param = "occupier", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOccupied",
+    ["IsOccupied"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOccupiedBy",
+    ["IsOccupiedBy"] = {
         params = {
             {param = "occupier", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -51,3 +47,4 @@ data = {
     },
         
 }
+return data

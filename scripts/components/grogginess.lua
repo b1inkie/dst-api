@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpeedModMultiplier",
+    ["SetSpeedModMultiplier"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDefaultTests",
+    ["SetDefaultTests"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetComeToTest",
+    ["SetComeToTest"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetKnockOutTest",
+    ["SetKnockOutTest"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetResistance",
+    ["SetResistance"] = {
         params = {
             {param = "resist", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetResistance",
+    ["GetResistance"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDecayRate",
+    ["SetDecayRate"] = {
         params = {
             {param = "rate", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWearOffDuration",
+    ["SetWearOffDuration"] = {
         params = {
             {param = "duration", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEnableSpeedMod",
+    ["SetEnableSpeedMod"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsKnockedOut",
+    ["IsKnockedOut"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsGroggy",
+    ["IsGroggy"] = {
         params = {
 
         },
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasGrogginess",
+    ["HasGrogginess"] = {
         params = {
 
         },
@@ -163,8 +150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -175,8 +161,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddGrogginess",
+    ["AddGrogginess"] = {
         params = {
             {param = "grogginess", explain = "", type = ""},
             {param = "knockoutduration", explain = "", type = ""},
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MaximizeGrogginess",
+    ["MaximizeGrogginess"] = {
         params = {
 
         },
@@ -201,8 +185,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "percent", explain = "", type = ""},
 
@@ -214,8 +197,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeGrogginessAtLeast",
+    ["MakeGrogginessAtLeast"] = {
         params = {
             {param = "min", explain = "", type = ""},
 
@@ -227,8 +209,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SubtractGrogginess",
+    ["SubtractGrogginess"] = {
         params = {
             {param = "grogginess", explain = "", type = ""},
 
@@ -240,8 +221,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResetGrogginess",
+    ["ResetGrogginess"] = {
         params = {
 
         },
@@ -252,8 +232,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CapToResistance",
+    ["CapToResistance"] = {
         params = {
 
         },
@@ -264,8 +243,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ExtendKnockout",
+    ["ExtendKnockout"] = {
         params = {
             {param = "knockoutduration", explain = "", type = ""},
 
@@ -277,8 +255,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "KnockOut",
+    ["KnockOut"] = {
         params = {
 
         },
@@ -289,8 +266,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ComeTo",
+    ["ComeTo"] = {
         params = {
 
         },
@@ -301,8 +277,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddResistanceSource",
+    ["AddResistanceSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "resistance", explain = "", type = ""},
@@ -315,8 +290,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveResistanceSource",
+    ["RemoveResistanceSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -328,8 +302,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -341,8 +314,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -355,3 +327,4 @@ data = {
     },
         
 }
+return data

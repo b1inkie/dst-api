@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "IsPlaying",
+    ["IsPlaying"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsHidden",
+    ["IsHidden"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GoHide",
+    ["GoHide"] = {
         params = {
             {param = "hiding_spot", explain = "", type = ""},
             {param = "timeout_time", explain = "", type = ""},
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanPlayHideAndSeek",
+    ["CanPlayHideAndSeek"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Found",
+    ["Found"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Abort",
+    ["Abort"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -115,3 +106,4 @@ data = {
     },
         
 }
+return data

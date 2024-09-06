@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnCycleFn",
+    ["SetOnCycleFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStep",
+    ["SetStep"] = {
         params = {
             {param = "step", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -28,8 +26,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Cycle",
+    ["Cycle"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "negative", explain = "", type = ""},
@@ -42,8 +39,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -68,3 +63,4 @@ data = {
     },
         
 }
+return data

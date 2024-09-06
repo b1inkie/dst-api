@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Ink",
+    ["Ink"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -39,3 +36,4 @@ data = {
     },
         
 }
+return data

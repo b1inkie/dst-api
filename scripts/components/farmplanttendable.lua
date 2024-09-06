@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetTendable",
+    ["SetTendable"] = {
         params = {
             {param = "tendable", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TendTo",
+    ["TendTo"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -52,3 +48,4 @@ data = {
     },
         
 }
+return data

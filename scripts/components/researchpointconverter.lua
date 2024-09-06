@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "TurnOn",
+    ["TurnOn"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TurnOff",
+    ["TurnOff"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Activate",
+    ["Activate"] = {
         params = {
 
         },
@@ -37,3 +34,4 @@ data = {
     },
         
 }
+return data

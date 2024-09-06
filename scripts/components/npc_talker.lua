@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Say",
+    ["Say"] = {
         params = {
             {param = "lines", explain = "", type = ""},
             {param = "override", explain = "", type = ""},
@@ -16,8 +15,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Chatter",
+    ["Chatter"] = {
         params = {
             {param = "strtbl", explain = "", type = ""},
             {param = "index", explain = "", type = ""},
@@ -34,8 +32,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "haslines",
+    ["haslines"] = {
         params = {
 
         },
@@ -46,8 +43,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "resetqueue",
+    ["resetqueue"] = {
         params = {
 
         },
@@ -58,8 +54,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "donextline",
+    ["donextline"] = {
         params = {
 
         },
@@ -71,3 +66,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetDestinationWorld",
+    ["SetDestinationWorld"] = {
         params = {
             {param = "world", explain = "", type = ""},
             {param = "permanent", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEnabled",
+    ["SetEnabled"] = {
         params = {
             {param = "t", explain = "", type = ""},
 
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetReceivedPortal",
+    ["SetReceivedPortal"] = {
         params = {
             {param = "fromworld", explain = "", type = ""},
             {param = "fromportal", explain = "", type = ""},
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetStatusString",
+    ["GetStatusString"] = {
         params = {
 
         },
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ValidateAndPushEvents",
+    ["ValidateAndPushEvents"] = {
         params = {
 
         },
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBound",
+    ["IsBound"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetID",
+    ["SetID"] = {
         params = {
             {param = "id", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDestinationForPortal",
+    ["IsDestinationForPortal"] = {
         params = {
             {param = "otherWorld", explain = "", type = ""},
             {param = "otherPortal", explain = "", type = ""},
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAvailableForLinking",
+    ["IsAvailableForLinking"] = {
         params = {
 
         },
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLinked",
+    ["IsLinked"] = {
         params = {
 
         },
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsActive",
+    ["IsActive"] = {
         params = {
 
         },
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFull",
+    ["IsFull"] = {
         params = {
 
         },
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Activate",
+    ["Activate"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ActivatedByOther",
+    ["ActivatedByOther"] = {
         params = {
 
         },
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -202,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -215,3 +198,4 @@ data = {
     },
         
 }
+return data

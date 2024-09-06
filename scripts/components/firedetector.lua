@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnFindFireFn",
+    ["SetOnFindFireFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnBeginEmergencyFn",
+    ["SetOnBeginEmergencyFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnEndEmergencyFn",
+    ["SetOnEndEmergencyFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnBeginWarningFn",
+    ["SetOnBeginWarningFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnUpdateWarningFn",
+    ["SetOnUpdateWarningFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnEndWarningFn",
+    ["SetOnEndWarningFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Activate",
+    ["Activate"] = {
         params = {
             {param = "randomizedStartTime", explain = "", type = ""},
 
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ActivateEmergencyMode",
+    ["ActivateEmergencyMode"] = {
         params = {
             {param = "randomizedStartTime", explain = "", type = ""},
 
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEmergency",
+    ["IsEmergency"] = {
         params = {
 
         },
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEmergencyLevel",
+    ["GetEmergencyLevel"] = {
         params = {
 
         },
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaxEmergencyLevel",
+    ["GetMaxEmergencyLevel"] = {
         params = {
 
         },
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResetEmergencyCooldown",
+    ["ResetEmergencyCooldown"] = {
         params = {
 
         },
@@ -164,8 +151,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RaiseEmergencyLevel",
+    ["RaiseEmergencyLevel"] = {
         params = {
             {param = "numlevels", explain = "", type = ""},
 
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LowerEmergencyLevel",
+    ["LowerEmergencyLevel"] = {
         params = {
             {param = "numlevels", explain = "", type = ""},
 
@@ -190,8 +175,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Deactivate",
+    ["Deactivate"] = {
         params = {
 
         },
@@ -202,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DetectFire",
+    ["DetectFire"] = {
         params = {
 
         },
@@ -214,8 +197,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -227,3 +209,4 @@ data = {
     },
         
 }
+return data

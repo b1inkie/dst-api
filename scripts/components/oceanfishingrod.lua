@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "_LaunchCastingProjectile",
+    ["_LaunchCastingProjectile"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "targetpos", explain = "", type = ""},
@@ -15,8 +14,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_LaunchFishProjectile",
+    ["_LaunchFishProjectile"] = {
         params = {
             {param = "projectile", explain = "", type = ""},
             {param = "srcpos", explain = "", type = ""},
@@ -30,8 +28,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDefaults",
+    ["SetDefaults"] = {
         params = {
             {param = "default_projectile_prefab", explain = "", type = ""},
             {param = "default_casting_tuning", explain = "", type = ""},
@@ -46,8 +43,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLureData",
+    ["GetLureData"] = {
         params = {
 
         },
@@ -58,8 +54,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLureFunctions",
+    ["GetLureFunctions"] = {
         params = {
 
         },
@@ -70,8 +65,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateClientMaxCastDistance",
+    ["UpdateClientMaxCastDistance"] = {
         params = {
 
         },
@@ -82,8 +76,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_CacheTackleData",
+    ["_CacheTackleData"] = {
         params = {
             {param = "bobber", explain = "", type = ""},
             {param = "lure", explain = "", type = ""},
@@ -96,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_CalcCastDest",
+    ["_CalcCastDest"] = {
         params = {
             {param = "src_pos", explain = "", type = ""},
             {param = "dest_pos", explain = "", type = ""},
@@ -110,8 +102,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Cast",
+    ["Cast"] = {
         params = {
             {param = "fisher", explain = "", type = ""},
             {param = "targetpos", explain = "", type = ""},
@@ -124,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTensionRating",
+    ["GetTensionRating"] = {
         params = {
 
         },
@@ -136,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLineTensionHigh",
+    ["IsLineTensionHigh"] = {
         params = {
 
         },
@@ -148,8 +137,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLineTensionGood",
+    ["IsLineTensionGood"] = {
         params = {
 
         },
@@ -160,8 +148,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLineTensionLow",
+    ["IsLineTensionLow"] = {
         params = {
 
         },
@@ -172,8 +159,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateTensionRating",
+    ["UpdateTensionRating"] = {
         params = {
 
         },
@@ -184,8 +170,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reel",
+    ["Reel"] = {
         params = {
 
         },
@@ -196,8 +181,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTarget",
+    ["SetTarget"] = {
         params = {
             {param = "new_target", explain = "", type = ""},
 
@@ -209,8 +193,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -222,8 +205,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcCatchDest",
+    ["CalcCatchDest"] = {
         params = {
             {param = "src_pos", explain = "", type = ""},
             {param = "dest_pos", explain = "", type = ""},
@@ -237,8 +219,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CatchFish",
+    ["CatchFish"] = {
         params = {
 
         },
@@ -249,8 +230,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopFishing",
+    ["StopFishing"] = {
         params = {
             {param = "reason", explain = "", type = ""},
             {param = "lost_tackle", explain = "", type = ""},
@@ -263,8 +243,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetExtraStaminaDrain",
+    ["GetExtraStaminaDrain"] = {
         params = {
 
         },
@@ -275,8 +254,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -288,3 +266,4 @@ data = {
     },
         
 }
+return data

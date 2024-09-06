@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInsulated",
+    ["IsInsulated"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnEquip",
+    ["SetOnEquip"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPocket",
+    ["SetOnPocket"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnUnequip",
+    ["SetOnUnequip"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDappernessFn",
+    ["SetDappernessFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnEquipToModel",
+    ["SetOnEquipToModel"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEquipped",
+    ["IsEquipped"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Equip",
+    ["Equip"] = {
         params = {
             {param = "owner", explain = "", type = ""},
             {param = "from_ground", explain = "", type = ""},
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ToPocket",
+    ["ToPocket"] = {
         params = {
             {param = "owner", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Unequip",
+    ["Unequip"] = {
         params = {
             {param = "owner", explain = "", type = ""},
 
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWalkSpeedMult",
+    ["GetWalkSpeedMult"] = {
         params = {
 
         },
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsRestricted",
+    ["IsRestricted"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsRestricted_FromLoad",
+    ["IsRestricted_FromLoad"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldPreventUnequipping",
+    ["ShouldPreventUnequipping"] = {
         params = {
 
         },
@@ -191,8 +176,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPreventUnequipping",
+    ["SetPreventUnequipping"] = {
         params = {
             {param = "shouldprevent", explain = "", type = ""},
 
@@ -204,8 +188,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDapperness",
+    ["GetDapperness"] = {
         params = {
             {param = "owner", explain = "", type = ""},
             {param = "ignore_wetness", explain = "", type = ""},
@@ -218,8 +201,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEquippedMoisture",
+    ["GetEquippedMoisture"] = {
         params = {
 
         },
@@ -231,3 +213,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnIsDay",
+    ["OnIsDay"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPlayerJoined",
+    ["OnPlayerJoined"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPlayerLeft",
+    ["OnPlayerLeft"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GenerateCrumbPoints",
+    ["GenerateCrumbPoints"] = {
         params = {
             {param = "origin_pt", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnCrumbTrail",
+    ["SpawnCrumbTrail"] = {
         params = {
             {param = "killtime", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Load",
+    ["Load"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "ents", explain = "", type = ""},
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -106,3 +98,4 @@ data = {
     },
         
 }
+return data

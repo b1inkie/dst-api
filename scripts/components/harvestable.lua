@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUp",
+    ["SetUp"] = {
         params = {
             {param = "product", explain = "", type = ""},
             {param = "max", explain = "", type = ""},
@@ -29,8 +27,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDoMagicGrowthFn",
+    ["SetDoMagicGrowthFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -42,8 +39,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsMagicGrowable",
+    ["IsMagicGrowable"] = {
         params = {
 
         },
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoMagicGrowth",
+    ["DoMagicGrowth"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnGrowFn",
+    ["SetOnGrowFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -80,8 +74,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnHarvestFn",
+    ["SetOnHarvestFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -93,8 +86,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetProduct",
+    ["SetProduct"] = {
         params = {
             {param = "product", explain = "", type = ""},
             {param = "max", explain = "", type = ""},
@@ -107,8 +99,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGrowTime",
+    ["SetGrowTime"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -120,8 +111,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanBeHarvested",
+    ["CanBeHarvested"] = {
         params = {
 
         },
@@ -132,8 +122,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanHarvestFn",
+    ["SetCanHarvestFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -145,8 +134,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Disable",
+    ["Disable"] = {
         params = {
 
         },
@@ -157,8 +145,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
 
         },
@@ -169,8 +156,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -181,8 +167,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -194,8 +179,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -206,8 +190,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Grow",
+    ["Grow"] = {
         params = {
 
         },
@@ -218,8 +201,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartGrowing",
+    ["StartGrowing"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -231,8 +213,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PauseGrowing",
+    ["PauseGrowing"] = {
         params = {
 
         },
@@ -243,8 +224,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopGrowing",
+    ["StopGrowing"] = {
         params = {
 
         },
@@ -255,8 +235,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Harvest",
+    ["Harvest"] = {
         params = {
             {param = "picker", explain = "", type = ""},
 
@@ -269,3 +248,4 @@ data = {
     },
         
 }
+return data

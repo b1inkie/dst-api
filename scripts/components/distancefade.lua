@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Setup",
+    ["Setup"] = {
         params = {
             {param = "range", explain = "", type = ""},
             {param = "fadedist", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetExtraFn",
+    ["SetExtraFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -65,3 +60,4 @@ data = {
     },
         
 }
+return data

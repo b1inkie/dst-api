@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetSpeedModifier",
+    ["GetSpeedModifier"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDirectionModifier",
+    ["GetDirectionModifier"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetReactionModifier",
+    ["GetReactionModifier"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetStaminaModifier",
+    ["GetStaminaModifier"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ModifySpeed",
+    ["ModifySpeed"] = {
         params = {
             {param = "point_mod", explain = "", type = ""},
 
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ModifyDirection",
+    ["ModifyDirection"] = {
         params = {
             {param = "point_mod", explain = "", type = ""},
 
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ModifyReaction",
+    ["ModifyReaction"] = {
         params = {
             {param = "point_mod", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ModifyStamina",
+    ["ModifyStamina"] = {
         params = {
             {param = "point_mod", explain = "", type = ""},
 
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBestStats",
+    ["GetBestStats"] = {
         params = {
 
         },
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumStatPoints",
+    ["GetNumStatPoints"] = {
         params = {
 
         },
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddRandomPointSpread",
+    ["AddRandomPointSpread"] = {
         params = {
             {param = "num_points", explain = "", type = ""},
 
@@ -137,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DegradePoints",
+    ["DegradePoints"] = {
         params = {
             {param = "num_points", explain = "", type = ""},
 
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SaveCurrentStatsAsBaseline",
+    ["SaveCurrentStatsAsBaseline"] = {
         params = {
 
         },
@@ -162,8 +149,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -174,8 +160,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -187,8 +172,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -200,3 +184,4 @@ data = {
     },
         
 }
+return data

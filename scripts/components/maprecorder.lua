@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnDataChangedFn",
+    ["SetOnDataChangedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasData",
+    ["HasData"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsCurrentWorld",
+    ["IsCurrentWorld"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearMap",
+    ["ClearMap"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RecordMap",
+    ["RecordMap"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TeachMap",
+    ["TeachMap"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -101,3 +93,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEnabled",
+    ["SetEnabled"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AbleToAcceptDecor",
+    ["AbleToAcceptDecor"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "giver", explain = "", type = ""},
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AcceptDecor",
+    ["AcceptDecor"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "giver", explain = "", type = ""},
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeItem",
+    ["TakeItem"] = {
         params = {
 
         },
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "ents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -104,3 +96,4 @@ data = {
     },
         
 }
+return data

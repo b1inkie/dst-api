@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasPendingReward",
+    ["HasPendingReward"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnAccept",
+    ["OnAccept"] = {
         params = {
             {param = "value", explain = "", type = ""},
             {param = "tributer", explain = "", type = ""},
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRefuse",
+    ["OnRefuse"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -76,3 +70,4 @@ data = {
     },
         
 }
+return data

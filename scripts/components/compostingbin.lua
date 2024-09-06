@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaterialTotal",
+    ["GetMaterialTotal"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFull",
+    ["IsFull"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Refresh",
+    ["Refresh"] = {
         params = {
             {param = "cycle_completed", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddCompostable",
+    ["AddCompostable"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddMaterials",
+    ["AddMaterials"] = {
         params = {
             {param = "greens", explain = "", type = ""},
             {param = "browns", explain = "", type = ""},
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsComposting",
+    ["IsComposting"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -114,3 +105,4 @@ data = {
     },
         
 }
+return data

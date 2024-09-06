@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetSpawnPeriod",
+    ["SetSpawnPeriod"] = {
         params = {
             {param = "period", explain = "", type = ""},
             {param = "variance", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUpdate",
+    ["StartUpdate"] = {
         params = {
 
         },
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartSpawning",
+    ["StartSpawning"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopSpawning",
+    ["StopSpawning"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOccupiedFn",
+    ["SetOccupiedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpawnedFn",
+    ["SetSpawnedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGoHomeFn",
+    ["SetGoHomeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetVacateFn",
+    ["SetVacateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "newents", explain = "", type = ""},
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -155,8 +143,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoReleaseChild",
+    ["DoReleaseChild"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "child", explain = "", type = ""},
@@ -170,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReleaseChild",
+    ["ReleaseChild"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "prefab", explain = "", type = ""},
@@ -185,8 +171,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GoHome",
+    ["GoHome"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -198,8 +183,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanRelease",
+    ["CanRelease"] = {
         params = {
 
         },
@@ -210,8 +194,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReleaseAllChildren",
+    ["ReleaseAllChildren"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "prefab", explain = "", type = ""},
@@ -224,8 +207,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -237,8 +219,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -250,3 +231,4 @@ data = {
     },
         
 }
+return data

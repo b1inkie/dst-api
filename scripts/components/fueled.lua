@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeEmpty",
+    ["MakeEmpty"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSectionCallback",
+    ["SetSectionCallback"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDepletedFn",
+    ["SetDepletedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEmpty",
+    ["IsEmpty"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFull",
+    ["IsFull"] = {
         params = {
 
         },
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSections",
+    ["SetSections"] = {
         params = {
             {param = "num", explain = "", type = ""},
 
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMultiplierFn",
+    ["SetMultiplierFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanAcceptFuelItem",
+    ["CanAcceptFuelItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentSection",
+    ["GetCurrentSection"] = {
         params = {
 
         },
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ChangeSection",
+    ["ChangeSection"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -163,8 +150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanTakeFuelItemFn",
+    ["SetCanTakeFuelItemFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -176,8 +162,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTakeFuelItemFn",
+    ["SetTakeFuelItemFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTakeFuelFn",
+    ["SetTakeFuelFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -202,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeFuelItem",
+    ["TakeFuelItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -216,8 +199,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUpdateFn",
+    ["SetUpdateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -229,8 +211,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -241,8 +222,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddThreshold",
+    ["AddThreshold"] = {
         params = {
             {param = "percent", explain = "", type = ""},
             {param = "fn", explain = "", type = ""},
@@ -255,8 +235,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSectionPercent",
+    ["GetSectionPercent"] = {
         params = {
 
         },
@@ -267,8 +246,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -279,8 +257,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -292,8 +269,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFirstPeriod",
+    ["SetFirstPeriod"] = {
         params = {
             {param = "firstperiod", explain = "", type = ""},
             {param = "firstperiodfull", explain = "", type = ""},
@@ -306,8 +282,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartConsuming",
+    ["StartConsuming"] = {
         params = {
 
         },
@@ -318,8 +293,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnWallUpdate",
+    ["OnWallUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -331,8 +305,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InitializeFuelLevel",
+    ["InitializeFuelLevel"] = {
         params = {
             {param = "fuel", explain = "", type = ""},
 
@@ -344,8 +317,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -358,8 +330,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoUpdate",
+    ["DoUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -371,8 +342,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopConsuming",
+    ["StopConsuming"] = {
         params = {
 
         },
@@ -384,3 +354,4 @@ data = {
     },
         
 }
+return data

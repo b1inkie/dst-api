@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanCook",
+    ["CanCook"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "chef", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CookItem",
+    ["CookItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "chef", explain = "", type = ""},
@@ -41,3 +38,4 @@ data = {
     },
         
 }
+return data

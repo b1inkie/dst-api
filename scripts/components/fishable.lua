@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddFish",
+    ["AddFish"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGetFishFn",
+    ["SetGetFishFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRespawnTime",
+    ["SetRespawnTime"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HookFish",
+    ["HookFish"] = {
         params = {
             {param = "fisherman", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReleaseFish",
+    ["ReleaseFish"] = {
         params = {
             {param = "fish", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveFish",
+    ["RemoveFish"] = {
         params = {
             {param = "fish", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFrozenOver",
+    ["IsFrozenOver"] = {
         params = {
 
         },
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Freeze",
+    ["Freeze"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Unfreeze",
+    ["Unfreeze"] = {
         params = {
 
         },
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RefreshFish",
+    ["RefreshFish"] = {
         params = {
 
         },
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFishPercent",
+    ["GetFishPercent"] = {
         params = {
 
         },
@@ -162,8 +149,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -174,8 +160,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -188,3 +173,4 @@ data = {
     },
         
 }
+return data

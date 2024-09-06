@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetPerishRateMultiplier",
+    ["SetPerishRateMultiplier"] = {
         params = {
             {param = "rate", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPerishRateMultiplier",
+    ["GetPerishRateMultiplier"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

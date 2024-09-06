@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Rotate",
+    ["Rotate"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "delta", explain = "", type = ""},
@@ -15,3 +14,4 @@ data = {
     },
         
 }
+return data

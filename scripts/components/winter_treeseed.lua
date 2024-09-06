@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetTree",
+    ["SetTree"] = {
         params = {
             {param = "tree", explain = "", type = ""},
 
@@ -14,3 +13,4 @@ data = {
     },
         
 }
+return data

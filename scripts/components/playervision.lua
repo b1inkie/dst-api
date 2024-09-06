@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "HasGhostVision",
+    ["HasGhostVision"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasNightmareVision",
+    ["HasNightmareVision"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasNightVision",
+    ["HasNightVision"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasGoggleVision",
+    ["HasGoggleVision"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasNutrientsVision",
+    ["HasNutrientsVision"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasScrapMonoleVision",
+    ["HasScrapMonoleVision"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasInspectaclesVision",
+    ["HasInspectaclesVision"] = {
         params = {
 
         },
@@ -84,8 +77,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasRoseGlassesVision",
+    ["HasRoseGlassesVision"] = {
         params = {
 
         },
@@ -96,8 +88,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCCPhaseFn",
+    ["GetCCPhaseFn"] = {
         params = {
 
         },
@@ -108,8 +99,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCCTable",
+    ["GetCCTable"] = {
         params = {
 
         },
@@ -120,8 +110,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateCCTable",
+    ["UpdateCCTable"] = {
         params = {
 
         },
@@ -132,8 +121,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGhostVision",
+    ["SetGhostVision"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -145,8 +133,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNightmareVision",
+    ["SetNightmareVision"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -158,8 +145,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceNightVision",
+    ["ForceNightVision"] = {
         params = {
             {param = "force", explain = "", type = ""},
 
@@ -171,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushForcedNightVision",
+    ["PushForcedNightVision"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "priority", explain = "", type = ""},
@@ -187,8 +172,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PopForcedNightVision",
+    ["PopForcedNightVision"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -200,8 +184,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceGoggleVision",
+    ["ForceGoggleVision"] = {
         params = {
             {param = "force", explain = "", type = ""},
 
@@ -213,8 +196,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceNutrientVision",
+    ["ForceNutrientVision"] = {
         params = {
             {param = "force", explain = "", type = ""},
 
@@ -226,8 +208,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceScrapMonoleVision",
+    ["ForceScrapMonoleVision"] = {
         params = {
             {param = "force", explain = "", type = ""},
 
@@ -239,8 +220,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceInspectaclesVision",
+    ["ForceInspectaclesVision"] = {
         params = {
             {param = "force", explain = "", type = ""},
 
@@ -252,8 +232,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceRoseGlassesVision",
+    ["ForceRoseGlassesVision"] = {
         params = {
             {param = "force", explain = "", type = ""},
 
@@ -265,8 +244,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCustomCCTable",
+    ["SetCustomCCTable"] = {
         params = {
             {param = "cctable", explain = "", type = ""},
             {param = "blend", explain = "", type = ""},
@@ -280,3 +258,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnRemoveTraineeFn",
+    ["SetOnRemoveTraineeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveTrainee",
+    ["RemoveTrainee"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTrainee",
+    ["SetTrainee"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTrainFn",
+    ["SetTrainFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushMontage",
+    ["PushMontage"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTraining",
+    ["StartTraining"] = {
         params = {
             {param = "inst", explain = "", type = ""},
             {param = "time", explain = "", type = ""},
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTraining",
+    ["StopTraining"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckPerish",
+    ["CheckPerish"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnTimerDone",
+    ["OnTimerDone"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Train",
+    ["Train"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "checktraineesleep",
+    ["checktraineesleep"] = {
         params = {
             {param = "phase", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -178,3 +164,4 @@ data = {
     },
         
 }
+return data

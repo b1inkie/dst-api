@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "StartReplenish",
+    ["StartReplenish"] = {
         params = {
             {param = "replenish_rate", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopReplenish",
+    ["StopReplenish"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNettedPrefab",
+    ["SetNettedPrefab"] = {
         params = {
             {param = "fishing_net_prefab", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPreNet",
+    ["OnPreNet"] = {
         params = {
             {param = "net", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Replenish",
+    ["Replenish"] = {
         params = {
 
         },
@@ -64,3 +59,4 @@ data = {
     },
         
 }
+return data

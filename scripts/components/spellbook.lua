@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetRequiredTag",
+    ["SetRequiredTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRadius",
+    ["SetRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFocusRadius",
+    ["SetFocusRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBgData",
+    ["SetBgData"] = {
         params = {
             {param = "bgdata", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetItems",
+    ["SetItems"] = {
         params = {
             {param = "items", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnOpenFn",
+    ["SetOnOpenFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnCloseFn",
+    ["SetOnCloseFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanBeUsedBy",
+    ["CanBeUsedBy"] = {
         params = {
             {param = "user", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OpenSpellBook",
+    ["OpenSpellBook"] = {
         params = {
             {param = "user", explain = "", type = ""},
 
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SelectSpell",
+    ["SelectSpell"] = {
         params = {
             {param = "id", explain = "", type = ""},
 
@@ -130,8 +120,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSelectedSpell",
+    ["GetSelectedSpell"] = {
         params = {
 
         },
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpellName",
+    ["SetSpellName"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -155,8 +143,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSpellName",
+    ["GetSpellName"] = {
         params = {
 
         },
@@ -167,8 +154,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpellFn",
+    ["SetSpellFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -180,8 +166,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasSpellFn",
+    ["HasSpellFn"] = {
         params = {
 
         },
@@ -192,8 +177,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CastSpell",
+    ["CastSpell"] = {
         params = {
             {param = "user", explain = "", type = ""},
 
@@ -206,3 +190,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldShowIndicator",
+    ["ShouldShowIndicator"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldRemoveIndicator",
+    ["ShouldRemoveIndicator"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
 
         },
@@ -51,3 +47,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddBonus",
+    ["AddBonus"] = {
         params = {
             {param = "tag", explain = "", type = ""},
             {param = "src", explain = "", type = ""},
@@ -16,8 +15,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveBonus",
+    ["RemoveBonus"] = {
         params = {
             {param = "tag", explain = "", type = ""},
             {param = "src", explain = "", type = ""},
@@ -31,8 +29,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBonus",
+    ["GetBonus"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -44,8 +41,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -57,3 +53,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AttachChild",
+    ["AttachChild"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DetachChild",
+    ["DetachChild"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentColour",
+    ["GetCurrentColour"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalculateCurrentColour",
+    ["CalculateCurrentColour"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSetColour",
+    ["OnSetColour"] = {
         params = {
             {param = "r", explain = "", type = ""},
             {param = "g", explain = "", type = ""},
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushColour",
+    ["PushColour"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "r", explain = "", type = ""},
@@ -95,8 +88,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PopColour",
+    ["PopColour"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -108,8 +100,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -121,3 +112,4 @@ data = {
     },
         
 }
+return data

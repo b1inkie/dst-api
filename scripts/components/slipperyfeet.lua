@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartSlipperySource",
+    ["StartSlipperySource"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopSlipperySource",
+    ["StopSlipperySource"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSlipperyAndNearbyEnts",
+    ["GetSlipperyAndNearbyEnts"] = {
         params = {
 
         },
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Start_Internal",
+    ["Start_Internal"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop_Internal",
+    ["Stop_Internal"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAccumulating_Internal",
+    ["SetAccumulating_Internal"] = {
         params = {
             {param = "accumulating", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCurrent",
+    ["SetCurrent"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "delta", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcAccumulatingSpeed",
+    ["CalcAccumulatingSpeed"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUpdating_Internal",
+    ["StartUpdating_Internal"] = {
         params = {
             {param = "reason", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopUpdating_Internal",
+    ["StopUpdating_Internal"] = {
         params = {
             {param = "reason", explain = "", type = ""},
 
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDecay",
+    ["DoDecay"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -178,8 +164,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -191,8 +176,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -204,8 +188,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -217,3 +200,4 @@ data = {
     },
         
 }
+return data

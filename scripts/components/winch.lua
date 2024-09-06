@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLoweringSpeedMultiplier",
+    ["SetLoweringSpeedMultiplier"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRaisingSpeedMultiplier",
+    ["SetRaisingSpeedMultiplier"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnFullyLoweredFn",
+    ["SetOnFullyLoweredFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnFullyRaisedFn",
+    ["SetOnFullyRaisedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStartRaisingFn",
+    ["SetOnStartRaisingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStartLoweringFn",
+    ["SetOnStartLoweringFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOverrideGetCurrentDepthFn",
+    ["SetOverrideGetCurrentDepthFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUnloadFn",
+    ["SetUnloadFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentDepth",
+    ["GetCurrentDepth"] = {
         params = {
 
         },
@@ -178,8 +164,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartRaising",
+    ["StartRaising"] = {
         params = {
             {param = "loading_in", explain = "", type = ""},
 
@@ -191,8 +176,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartLowering",
+    ["StartLowering"] = {
         params = {
             {param = "loading_in", explain = "", type = ""},
 
@@ -204,8 +188,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FullyRaised",
+    ["FullyRaised"] = {
         params = {
 
         },
@@ -216,8 +199,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FullyLowered",
+    ["FullyLowered"] = {
         params = {
 
         },
@@ -228,8 +210,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartDepthTesting",
+    ["StartDepthTesting"] = {
         params = {
             {param = "is_raising", explain = "", type = ""},
 
@@ -241,8 +222,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopDepthTesting",
+    ["StopDepthTesting"] = {
         params = {
 
         },
@@ -253,8 +233,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -266,8 +245,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -279,3 +257,4 @@ data = {
     },
         
 }
+return data

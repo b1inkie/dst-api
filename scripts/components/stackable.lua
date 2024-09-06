@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetIgnoreMaxSize",
+    ["SetIgnoreMaxSize"] = {
         params = {
             {param = "ignoremaxsize", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsStack",
+    ["IsStack"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StackSize",
+    ["StackSize"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFull",
+    ["IsFull"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOverStacked",
+    ["IsOverStacked"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnDeStack",
+    ["SetOnDeStack"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStackSize",
+    ["SetStackSize"] = {
         params = {
             {param = "sz", explain = "", type = ""},
 
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Get",
+    ["Get"] = {
         params = {
             {param = "num", explain = "", type = ""},
 
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RoomLeft",
+    ["RoomLeft"] = {
         params = {
 
         },
@@ -137,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Put",
+    ["Put"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "source_pos", explain = "", type = ""},
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -164,3 +151,4 @@ data = {
     },
         
 }
+return data

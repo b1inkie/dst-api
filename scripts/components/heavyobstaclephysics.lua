@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRadius",
+    ["SetRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeSmallObstacle",
+    ["MakeSmallObstacle"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddFallingStates",
+    ["AddFallingStates"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPhysicsState",
+    ["GetPhysicsState"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsItem",
+    ["IsItem"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsObstacle",
+    ["IsObstacle"] = {
         params = {
 
         },
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFalling",
+    ["IsFalling"] = {
         params = {
 
         },
@@ -97,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPhysicsStateChangedFn",
+    ["SetOnPhysicsStateChangedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -110,8 +101,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnChangeToItemFn",
+    ["SetOnChangeToItemFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -123,8 +113,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnChangeToObstacleFn",
+    ["SetOnChangeToObstacleFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -136,8 +125,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStartFallingFn",
+    ["SetOnStartFallingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -149,8 +137,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStopFallingFn",
+    ["SetOnStopFallingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -163,3 +150,4 @@ data = {
     },
         
 }
+return data

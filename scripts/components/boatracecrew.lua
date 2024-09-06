@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetTarget",
+    ["SetTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddMemberListeners",
+    ["AddMemberListeners"] = {
         params = {
             {param = "member", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveMemberListeners",
+    ["RemoveMemberListeners"] = {
         params = {
             {param = "member", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCaptain",
+    ["SetCaptain"] = {
         params = {
             {param = "captain", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddMember",
+    ["AddMember"] = {
         params = {
             {param = "new_member", explain = "", type = ""},
             {param = "is_captain", explain = "", type = ""},
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveMember",
+    ["RemoveMember"] = {
         params = {
             {param = "member", explain = "", type = ""},
 
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
 
         },
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHeadingNormal",
+    ["GetHeadingNormal"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -154,3 +142,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
             {param = "no_snap", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartFocusSource",
+    ["StartFocusSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "id", explain = "", type = ""},
@@ -32,8 +30,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopFocusSource",
+    ["StopFocusSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "id", explain = "", type = ""},
@@ -46,8 +43,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveAllFocusSources",
+    ["RemoveAllFocusSources"] = {
         params = {
             {param = "no_snap", explain = "", type = ""},
 
@@ -59,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushTempFocus",
+    ["PushTempFocus"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "minrange", explain = "", type = ""},
@@ -75,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CameraUpdate",
+    ["CameraUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -88,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -101,3 +94,4 @@ data = {
     },
         
 }
+return data

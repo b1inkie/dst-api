@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddGeneralScript",
+    ["AddGeneralScript"] = {
         params = {
             {param = "script_name", explain = "", type = ""},
             {param = "script_content", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddPlay",
+    ["AddPlay"] = {
         params = {
             {param = "playdata", explain = "", type = ""},
 
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableProp",
+    ["EnableProp"] = {
         params = {
 
         },
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DisableProp",
+    ["DisableProp"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEnabledFn",
+    ["SetEnabledFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDisabledFn",
+    ["SetDisabledFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindCostume",
+    ["FindCostume"] = {
         params = {
             {param = "head", explain = "", type = ""},
             {param = "body", explain = "", type = ""},
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckCostume",
+    ["CheckCostume"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CollectCast",
+    ["CollectCast"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -118,8 +109,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindScript",
+    ["FindScript"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -131,8 +121,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EndPerformance",
+    ["EndPerformance"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -144,8 +133,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearPerformance",
+    ["ClearPerformance"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -157,8 +145,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoPerformance",
+    ["DoPerformance"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -170,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FinishAct",
+    ["FinishAct"] = {
         params = {
             {param = "next_act", explain = "", type = ""},
 
@@ -183,8 +169,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnBirds",
+    ["SpawnBirds"] = {
         params = {
             {param = "arch", explain = "", type = ""},
 
@@ -196,8 +181,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -209,8 +193,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -222,8 +205,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -234,8 +216,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -248,8 +229,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -261,3 +241,4 @@ data = {
     },
         
 }
+return data

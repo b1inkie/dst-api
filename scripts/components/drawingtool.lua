@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnDrawFn",
+    ["SetOnDrawFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetImageToDraw",
+    ["GetImageToDraw"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Draw",
+    ["Draw"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "image", explain = "", type = ""},
@@ -45,3 +42,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableToughWork",
+    ["EnableToughWork"] = {
         params = {
             {param = "tough", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDoToughWork",
+    ["CanDoToughWork"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEffectiveness",
+    ["GetEffectiveness"] = {
         params = {
             {param = "action", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAction",
+    ["SetAction"] = {
         params = {
             {param = "action", explain = "", type = ""},
             {param = "effectiveness", explain = "", type = ""},
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDoAction",
+    ["CanDoAction"] = {
         params = {
             {param = "action", explain = "", type = ""},
 
@@ -78,3 +72,4 @@ data = {
     },
         
 }
+return data

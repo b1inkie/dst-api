@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnDismantleFn",
+    ["SetOnDismantleFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Dismantle",
+    ["Dismantle"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

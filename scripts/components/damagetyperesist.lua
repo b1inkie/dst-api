@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddResist",
+    ["AddResist"] = {
         params = {
             {param = "tag", explain = "", type = ""},
             {param = "src", explain = "", type = ""},
@@ -16,8 +15,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveResist",
+    ["RemoveResist"] = {
         params = {
             {param = "tag", explain = "", type = ""},
             {param = "src", explain = "", type = ""},
@@ -31,8 +29,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetResist",
+    ["GetResist"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
             {param = "weapon", explain = "", type = ""},
@@ -45,8 +42,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -58,3 +54,4 @@ data = {
     },
         
 }
+return data

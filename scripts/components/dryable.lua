@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetProduct",
+    ["SetProduct"] = {
         params = {
             {param = "product", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetProduct",
+    ["GetProduct"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDryTime",
+    ["SetDryTime"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDryTime",
+    ["GetDryTime"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBuildFile",
+    ["SetBuildFile"] = {
         params = {
             {param = "buildfile", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBuildFile",
+    ["GetBuildFile"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDriedBuildFile",
+    ["SetDriedBuildFile"] = {
         params = {
             {param = "dried_buildfile", explain = "", type = ""},
 
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDriedBuildFile",
+    ["GetDriedBuildFile"] = {
         params = {
 
         },
@@ -113,3 +104,4 @@ data = {
     },
         
 }
+return data

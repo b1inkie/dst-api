@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "ShouldSpook",
+    ["ShouldSpook"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Spook",
+    ["Spook"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -38,3 +35,4 @@ data = {
     },
         
 }
+return data

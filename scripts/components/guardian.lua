@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGuardian",
+    ["SetGuardian"] = {
         params = {
             {param = "guardian", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "d", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SummonsAtMax",
+    ["SummonsAtMax"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SummonsAtMin",
+    ["SummonsAtMin"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Call",
+    ["Call"] = {
         params = {
             {param = "d", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Decay",
+    ["Decay"] = {
         params = {
             {param = "d", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartDecay",
+    ["StartDecay"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SummonGuardian",
+    ["SummonGuardian"] = {
         params = {
             {param = "override", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnGuardianDeath",
+    ["OnGuardianDeath"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DismissGuardian",
+    ["DismissGuardian"] = {
         params = {
 
         },
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasGuardian",
+    ["HasGuardian"] = {
         params = {
 
         },
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -162,8 +149,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -175,8 +161,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "ents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -190,3 +175,4 @@ data = {
     },
         
 }
+return data

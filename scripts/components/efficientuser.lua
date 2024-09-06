@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetMultiplier",
+    ["GetMultiplier"] = {
         params = {
             {param = "action", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddMultiplier",
+    ["AddMultiplier"] = {
         params = {
             {param = "action", explain = "", type = ""},
             {param = "multiplier", explain = "", type = ""},
@@ -28,8 +26,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveMultiplier",
+    ["RemoveMultiplier"] = {
         params = {
             {param = "action", explain = "", type = ""},
             {param = "source", explain = "", type = ""},
@@ -43,3 +40,4 @@ data = {
     },
         
 }
+return data

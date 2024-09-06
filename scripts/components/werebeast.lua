@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnWereFn",
+    ["SetOnWereFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnNormalFn",
+    ["SetOnNormalFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTriggerLimit",
+    ["SetTriggerLimit"] = {
         params = {
             {param = "limit", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TriggerDelta",
+    ["TriggerDelta"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResetTriggers",
+    ["ResetTriggers"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWere",
+    ["SetWere"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNormal",
+    ["SetNormal"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInWereState",
+    ["IsInWereState"] = {
         params = {
 
         },
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -151,3 +139,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpellFn",
+    ["SetSpellFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnSpellCastFn",
+    ["SetOnSpellCastFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanCastFn",
+    ["SetCanCastFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpellType",
+    ["SetSpellType"] = {
         params = {
             {param = "type", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CastSpell",
+    ["CastSpell"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "pos", explain = "", type = ""},
@@ -80,3 +74,4 @@ data = {
     },
         
 }
+return data

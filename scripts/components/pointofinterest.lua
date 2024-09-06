@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "TryStartUpdating",
+    ["TryStartUpdating"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShouldShowFn",
+    ["SetShouldShowFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHeight",
+    ["SetHeight"] = {
         params = {
             {param = "height", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveHudIndicator",
+    ["RemoveHudIndicator"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CreateWorldIndicator",
+    ["CreateWorldIndicator"] = {
         params = {
 
         },
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TriggerPulse",
+    ["TriggerPulse"] = {
         params = {
 
         },
@@ -98,8 +90,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TriggerRemove",
+    ["TriggerRemove"] = {
         params = {
 
         },
@@ -110,8 +101,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveEverything",
+    ["RemoveEverything"] = {
         params = {
 
         },
@@ -122,8 +112,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldShowHudIndicator",
+    ["ShouldShowHudIndicator"] = {
         params = {
             {param = "distsq", explain = "", type = ""},
 
@@ -135,8 +124,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateRing",
+    ["UpdateRing"] = {
         params = {
             {param = "ring", explain = "", type = ""},
             {param = "dt", explain = "", type = ""},
@@ -149,8 +137,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateRemovePulse",
+    ["UpdateRemovePulse"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -162,8 +149,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -175,8 +161,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -187,8 +172,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DebugForceShowIndicator",
+    ["DebugForceShowIndicator"] = {
         params = {
 
         },
@@ -200,3 +184,4 @@ data = {
     },
         
 }
+return data

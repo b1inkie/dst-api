@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetComparePostFn",
+    ["SetComparePostFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnSpawnItemFromDataFn",
+    ["SetOnSpawnItemFromDataFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTakeItemTestFn",
+    ["SetTakeItemTestFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnItemTakenFn",
+    ["SetOnItemTakenFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetItemData",
+    ["GetItemData"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Compare",
+    ["Compare"] = {
         params = {
             {param = "inst_compare", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearItemData",
+    ["ClearItemData"] = {
         params = {
 
         },
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnItemFromData",
+    ["SpawnItemFromData"] = {
         params = {
             {param = "override_data", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetItemCanBeTaken",
+    ["SetItemCanBeTaken"] = {
         params = {
             {param = "can_be_taken", explain = "", type = ""},
 
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeItem",
+    ["TakeItem"] = {
         params = {
             {param = "receiver", explain = "", type = ""},
 
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -179,3 +165,4 @@ data = {
     },
         
 }
+return data

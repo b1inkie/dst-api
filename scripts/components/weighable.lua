@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "CopyWeighable",
+    ["CopyWeighable"] = {
         params = {
             {param = "src_weighable", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWeight",
+    ["GetWeight"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWeightPercent",
+    ["GetWeightPercent"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Initialize",
+    ["Initialize"] = {
         params = {
             {param = "min_weight", explain = "", type = ""},
             {param = "max_weight", explain = "", type = ""},
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWeight",
+    ["SetWeight"] = {
         params = {
             {param = "weight", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPlayerAsOwner",
+    ["SetPlayerAsOwner"] = {
         params = {
             {param = "owner", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -115,3 +106,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWoodiness",
+    ["GetWoodiness"] = {
         params = {
             {param = "eater", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSanity",
+    ["GetSanity"] = {
         params = {
             {param = "eater", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHunger",
+    ["GetHunger"] = {
         params = {
             {param = "eater", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHealth",
+    ["GetHealth"] = {
         params = {
             {param = "eater", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnEatenFn",
+    ["SetOnEatenFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGetHealthFn",
+    ["SetGetHealthFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGetSanityFn",
+    ["SetGetSanityFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEaten",
+    ["OnEaten"] = {
         params = {
             {param = "eater", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddChill",
+    ["AddChill"] = {
         params = {
             {param = "delta", explain = "", type = ""},
 
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DiluteChill",
+    ["DiluteChill"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "count", explain = "", type = ""},
@@ -155,8 +143,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -167,8 +154,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -181,3 +167,4 @@ data = {
     },
         
 }
+return data

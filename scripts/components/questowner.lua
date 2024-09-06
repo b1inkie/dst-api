@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnBeginQuest",
+    ["SetOnBeginQuest"] = {
         params = {
             {param = "on_begin_quest", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnAbandonQuest",
+    ["SetOnAbandonQuest"] = {
         params = {
             {param = "on_abandon_quest", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnCompleteQuest",
+    ["SetOnCompleteQuest"] = {
         params = {
             {param = "on_complete_quest", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanBeginQuest",
+    ["CanBeginQuest"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BeginQuest",
+    ["BeginQuest"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanAbandonQuest",
+    ["CanAbandonQuest"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AbandonQuest",
+    ["AbandonQuest"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CompleteQuest",
+    ["CompleteQuest"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -141,3 +130,4 @@ data = {
     },
         
 }
+return data

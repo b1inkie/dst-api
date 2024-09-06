@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Setup",
+    ["Setup"] = {
         params = {
             {param = "dir_x", explain = "", type = ""},
             {param = "dir_z", explain = "", type = ""},
@@ -16,8 +15,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -30,3 +28,4 @@ data = {
     },
         
 }
+return data

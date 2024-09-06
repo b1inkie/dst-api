@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetBuilder",
+    ["SetBuilder"] = {
         params = {
             {param = "builder", explain = "", type = ""},
             {param = "recipe", explain = "", type = ""},
@@ -15,8 +14,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LinkEntity",
+    ["LinkEntity"] = {
         params = {
             {param = "ent", explain = "", type = ""},
             {param = "lightoverride", explain = "", type = ""},
@@ -29,8 +27,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDeployAction",
+    ["GetDeployAction"] = {
         params = {
 
         },
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TestCanBuild",
+    ["TestCanBuild"] = {
         params = {
 
         },
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnWallUpdate",
+    ["OnWallUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -80,3 +74,4 @@ data = {
     },
         
 }
+return data

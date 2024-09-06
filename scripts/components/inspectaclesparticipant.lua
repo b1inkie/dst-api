@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnClosePopup",
+    ["OnClosePopup"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalculateGamePuzzle",
+    ["CalculateGamePuzzle"] = {
         params = {
             {param = "gameid", explain = "", type = ""},
             {param = "posx", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPuzzleData",
+    ["GetPuzzleData"] = {
         params = {
             {param = "puzzle", explain = "", type = ""},
 
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckGameSolution",
+    ["CheckGameSolution"] = {
         params = {
             {param = "solution", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnInspectaclesGameChanged",
+    ["OnInspectaclesGameChanged"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSignalPulse",
+    ["OnSignalPulse"] = {
         params = {
 
         },
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsParticipantClose",
+    ["IsParticipantClose"] = {
         params = {
             {param = "range", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCLIENTDetails",
+    ["GetCLIENTDetails"] = {
         params = {
 
         },
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSERVERDetails",
+    ["GetSERVERDetails"] = {
         params = {
 
         },
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFreeGame",
+    ["IsFreeGame"] = {
         params = {
             {param = "game", explain = "", type = ""},
 
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NetworkCurrentGame",
+    ["NetworkCurrentGame"] = {
         params = {
 
         },
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldStopGameInteractions",
+    ["ShouldStopGameInteractions"] = {
         params = {
 
         },
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCurrentGame",
+    ["SetCurrentGame"] = {
         params = {
             {param = "gameid", explain = "", type = ""},
             {param = "posx", explain = "", type = ""},
@@ -180,8 +166,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindGameLocation",
+    ["FindGameLocation"] = {
         params = {
             {param = "gameid", explain = "", type = ""},
 
@@ -193,8 +178,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CreateBox",
+    ["CreateBox"] = {
         params = {
 
         },
@@ -205,8 +189,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanCreateGameInWorld",
+    ["CanCreateGameInWorld"] = {
         params = {
 
         },
@@ -217,8 +200,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CreateNewAndOrShowCurrentGame",
+    ["CreateNewAndOrShowCurrentGame"] = {
         params = {
 
         },
@@ -229,8 +211,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FinishCurrentGame",
+    ["FinishCurrentGame"] = {
         params = {
 
         },
@@ -241,8 +222,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateBox",
+    ["UpdateBox"] = {
         params = {
 
         },
@@ -253,8 +233,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GrantRewards",
+    ["GrantRewards"] = {
         params = {
 
         },
@@ -265,8 +244,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateInspectacles",
+    ["UpdateInspectacles"] = {
         params = {
 
         },
@@ -277,8 +255,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HideCurrentGame",
+    ["HideCurrentGame"] = {
         params = {
 
         },
@@ -289,8 +266,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShowCurrentGame",
+    ["ShowCurrentGame"] = {
         params = {
 
         },
@@ -301,8 +277,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnCooldownFinished",
+    ["OnCooldownFinished"] = {
         params = {
 
         },
@@ -313,8 +288,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplyCooldown",
+    ["ApplyCooldown"] = {
         params = {
             {param = "overridetime", explain = "", type = ""},
 
@@ -326,8 +300,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInCooldown",
+    ["IsInCooldown"] = {
         params = {
 
         },
@@ -338,8 +311,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsUpgradedBox",
+    ["IsUpgradedBox"] = {
         params = {
 
         },
@@ -350,8 +322,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -363,8 +334,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -375,8 +345,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -388,8 +357,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -401,8 +369,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -414,3 +381,4 @@ data = {
     },
         
 }
+return data

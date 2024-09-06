@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetIgnoreMovingFast",
+    ["SetIgnoreMovingFast"] = {
         params = {
             {param = "ignorespeedcheck", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanSelfStack",
+    ["CanSelfStack"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindItemToStackWith",
+    ["FindItemToStackWith"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoStack",
+    ["DoStack"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -74,3 +68,4 @@ data = {
     },
         
 }
+return data

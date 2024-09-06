@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoErase",
+    ["DoErase"] = {
         params = {
             {param = "paper", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

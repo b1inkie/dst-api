@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetBonusMult",
+    ["SetBonusMult"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBonusFn",
+    ["SetBonusFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBonusMult",
+    ["GetBonusMult"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -41,3 +38,4 @@ data = {
     },
         
 }
+return data

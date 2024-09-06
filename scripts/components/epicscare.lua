@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetRange",
+    ["SetRange"] = {
         params = {
             {param = "range", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDefaultDuration",
+    ["SetDefaultDuration"] = {
         params = {
             {param = "duration", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Scare",
+    ["Scare"] = {
         params = {
             {param = "duration", explain = "", type = ""},
 
@@ -40,3 +37,4 @@ data = {
     },
         
 }
+return data

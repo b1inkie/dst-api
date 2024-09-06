@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnHeardFn",
+    ["SetOnHeardFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPlayedFn",
+    ["SetOnPlayedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Play",
+    ["Play"] = {
         params = {
             {param = "musician", explain = "", type = ""},
 
@@ -40,3 +37,4 @@ data = {
     },
         
 }
+return data

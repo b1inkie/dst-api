@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "CastNet",
+    ["CastNet"] = {
         params = {
             {param = "pos_x", explain = "", type = ""},
             {param = "pos_z", explain = "", type = ""},
@@ -16,3 +15,4 @@ data = {
     },
         
 }
+return data

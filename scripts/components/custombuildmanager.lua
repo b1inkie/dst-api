@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "refreshart",
+    ["refreshart"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGroups",
+    ["SetGroups"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanSwapSymbol",
+    ["SetCanSwapSymbol"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ChangeGroup",
+    ["ChangeGroup"] = {
         params = {
             {param = "group", explain = "", type = ""},
             {param = "build", explain = "", type = ""},
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -79,3 +73,4 @@ data = {
     },
         
 }
+return data

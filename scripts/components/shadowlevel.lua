@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDefaultLevel",
+    ["SetDefaultLevel"] = {
         params = {
             {param = "level", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLevelFn",
+    ["SetLevelFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentLevel",
+    ["GetCurrentLevel"] = {
         params = {
 
         },
@@ -51,3 +47,4 @@ data = {
     },
         
 }
+return data

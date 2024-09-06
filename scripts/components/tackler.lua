@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnStartTackleFn",
+    ["SetOnStartTackleFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTackle",
+    ["StartTackle"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDistance",
+    ["SetDistance"] = {
         params = {
             {param = "distance", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRadius",
+    ["SetRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStructureDamageMultiplier",
+    ["SetStructureDamageMultiplier"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddWorkAction",
+    ["AddWorkAction"] = {
         params = {
             {param = "action", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnCollideFn",
+    ["SetOnCollideFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnTrampleFn",
+    ["SetOnTrampleFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckCollision",
+    ["CheckCollision"] = {
         params = {
             {param = "ignores", explain = "", type = ""},
 
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEdgeDistance",
+    ["SetEdgeDistance"] = {
         params = {
             {param = "distance", explain = "", type = ""},
 
@@ -130,8 +120,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckEdge",
+    ["CheckEdge"] = {
         params = {
 
         },
@@ -143,3 +132,4 @@ data = {
     },
         
 }
+return data

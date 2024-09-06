@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "DoFeed",
+    ["DoFeed"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "item", explain = "", type = ""},
@@ -15,3 +14,4 @@ data = {
     },
         
 }
+return data

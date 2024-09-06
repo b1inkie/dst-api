@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetDamage",
+    ["SetDamage"] = {
         params = {
             {param = "dmg", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStimuli",
+    ["SetStimuli"] = {
         params = {
             {param = "stimuli", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWorkActions",
+    ["SetWorkActions"] = {
         params = {
             {param = "...", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTags",
+    ["SetTags"] = {
         params = {
             {param = "...", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_CombineTags",
+    ["_CombineTags"] = {
         params = {
 
         },
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNoTags",
+    ["SetNoTags"] = {
         params = {
             {param = "...", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPreHitFn",
+    ["SetOnPreHitFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnHitFn",
+    ["SetOnHitFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnMissFn",
+    ["SetOnMissFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnHit",
+    ["OnHit"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -130,8 +120,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnToss",
+    ["OnToss"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -148,3 +137,4 @@ data = {
     },
         
 }
+return data

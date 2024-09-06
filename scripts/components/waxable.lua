@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetWaxfn",
+    ["SetWaxfn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNeedsSpray",
+    ["SetNeedsSpray"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NeedsSpray",
+    ["NeedsSpray"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Wax",
+    ["Wax"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "waxitem", explain = "", type = ""},
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -65,3 +60,4 @@ data = {
     },
         
 }
+return data

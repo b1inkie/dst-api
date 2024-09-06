@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AttachClassified",
+    ["AttachClassified"] = {
         params = {
             {param = "classified", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DetachClassified",
+    ["DetachClassified"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCannon",
+    ["GetCannon"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAimPos",
+    ["GetAimPos"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetReticule",
+    ["GetReticule"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnCannonChanged",
+    ["OnCannonChanged"] = {
         params = {
             {param = "cannon", explain = "", type = ""},
 
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnWallUpdate",
+    ["OnWallUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetClassified",
+    ["SetClassified"] = {
         params = {
             {param = "classified", explain = "", type = ""},
 
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCannon",
+    ["SetCannon"] = {
         params = {
             {param = "cannon", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelAimingStateInternal",
+    ["CancelAimingStateInternal"] = {
         params = {
 
         },
@@ -126,3 +116,4 @@ data = {
     },
         
 }
+return data

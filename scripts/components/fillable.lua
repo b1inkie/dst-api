@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Fill",
+    ["Fill"] = {
         params = {
             {param = "from_object", explain = "", type = ""},
 
@@ -14,3 +13,4 @@ data = {
     },
         
 }
+return data

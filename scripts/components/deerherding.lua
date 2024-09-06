@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetValidAareaCheckFn",
+    ["SetValidAareaCheckFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcHerdCenterPoint",
+    ["CalcHerdCenterPoint"] = {
         params = {
             {param = "detailedinfo", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateHerdLocation",
+    ["UpdateHerdLocation"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsActiveInHerd",
+    ["IsActiveInHerd"] = {
         params = {
             {param = "deer", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateDeerHerdingStatus",
+    ["UpdateDeerHerdingStatus"] = {
         params = {
 
         },
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcIsHerdSpooked",
+    ["CalcIsHerdSpooked"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAnyEntityAsleep",
+    ["IsAnyEntityAsleep"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsGrazing",
+    ["IsGrazing"] = {
         params = {
 
         },
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHerdAlertTarget",
+    ["SetHerdAlertTarget"] = {
         params = {
             {param = "deer", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetClosestHerdAlertTarget",
+    ["GetClosestHerdAlertTarget"] = {
         params = {
             {param = "deer", explain = "", type = ""},
 
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HerdHasAlertTarget",
+    ["HerdHasAlertTarget"] = {
         params = {
 
         },
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAHerdAlertTarget",
+    ["IsAHerdAlertTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -190,8 +175,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -204,8 +188,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -217,3 +200,4 @@ data = {
     },
         
 }
+return data

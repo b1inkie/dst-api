@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableMoisture",
+    ["EnableMoisture"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMoisture",
+    ["GetMoisture"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsWet",
+    ["IsWet"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAcidSizzling",
+    ["IsAcidSizzling"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InheritMoisture",
+    ["InheritMoisture"] = {
         params = {
             {param = "moisture", explain = "", type = ""},
             {param = "iswet", explain = "", type = ""},
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InheritWorldWetnessAtXZ",
+    ["InheritWorldWetnessAtXZ"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InheritWorldWetnessAtTarget",
+    ["InheritWorldWetnessAtTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DiluteMoisture",
+    ["DiluteMoisture"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "count", explain = "", type = ""},
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddMoisture",
+    ["AddMoisture"] = {
         params = {
             {param = "delta", explain = "", type = ""},
 
@@ -129,8 +119,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeMoistureAtLeast",
+    ["MakeMoistureAtLeast"] = {
         params = {
             {param = "min", explain = "", type = ""},
 
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DryMoisture",
+    ["DryMoisture"] = {
         params = {
 
         },
@@ -154,8 +142,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOwner",
+    ["SetOwner"] = {
         params = {
             {param = "owner", explain = "", type = ""},
 
@@ -167,8 +154,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearOwner",
+    ["ClearOwner"] = {
         params = {
 
         },
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnDroppedFn",
+    ["SetOnDroppedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -192,8 +177,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnActiveItemFn",
+    ["SetOnActiveItemFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -205,8 +189,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPickupFn",
+    ["SetOnPickupFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -218,8 +201,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPutInInventoryFn",
+    ["SetOnPutInInventoryFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -231,8 +213,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSinks",
+    ["SetSinks"] = {
         params = {
             {param = "should_sink", explain = "", type = ""},
 
@@ -244,8 +225,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSlotNum",
+    ["GetSlotNum"] = {
         params = {
 
         },
@@ -256,8 +236,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetContainer",
+    ["GetContainer"] = {
         params = {
 
         },
@@ -268,8 +247,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HibernateLivingItem",
+    ["HibernateLivingItem"] = {
         params = {
 
         },
@@ -280,8 +258,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WakeLivingItem",
+    ["WakeLivingItem"] = {
         params = {
 
         },
@@ -292,8 +269,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPutInInventory",
+    ["OnPutInInventory"] = {
         params = {
             {param = "owner", explain = "", type = ""},
 
@@ -305,8 +281,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoved",
+    ["OnRemoved"] = {
         params = {
 
         },
@@ -317,8 +292,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDropped",
+    ["OnDropped"] = {
         params = {
             {param = "randomdir", explain = "", type = ""},
             {param = "speedmult", explain = "", type = ""},
@@ -331,8 +305,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDropPhysics",
+    ["DoDropPhysics"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -348,8 +321,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsHeld",
+    ["IsHeld"] = {
         params = {
 
         },
@@ -360,8 +332,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsHeldBy",
+    ["IsHeldBy"] = {
         params = {
             {param = "guy", explain = "", type = ""},
 
@@ -373,8 +344,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ChangeImageName",
+    ["ChangeImageName"] = {
         params = {
             {param = "newname", explain = "", type = ""},
 
@@ -386,8 +356,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveFromOwner",
+    ["RemoveFromOwner"] = {
         params = {
             {param = "wholestack", explain = "", type = ""},
             {param = "keepoverstacked", explain = "", type = ""},
@@ -400,8 +369,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -412,8 +380,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetGrandOwner",
+    ["GetGrandOwner"] = {
         params = {
 
         },
@@ -424,8 +391,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSheltered",
+    ["IsSheltered"] = {
         params = {
 
         },
@@ -436,8 +402,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLanded",
+    ["SetLanded"] = {
         params = {
             {param = "is_landed", explain = "", type = ""},
             {param = "should_poll_for_landing", explain = "", type = ""},
@@ -450,8 +415,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldSink",
+    ["ShouldSink"] = {
         params = {
 
         },
@@ -462,8 +426,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryToSink",
+    ["TryToSink"] = {
         params = {
 
         },
@@ -474,8 +437,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -488,3 +450,4 @@ data = {
     },
         
 }
+return data

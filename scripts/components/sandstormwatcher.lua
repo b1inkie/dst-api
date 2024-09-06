@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ToggleSandstorms",
+    ["ToggleSandstorms"] = {
         params = {
             {param = "active", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSandstormSpeedMultiplier",
+    ["SetSandstormSpeedMultiplier"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateSandstormLevel",
+    ["UpdateSandstormLevel"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateSandstormWalkSpeed",
+    ["UpdateSandstormWalkSpeed"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateSandstormWalkSpeed_Internal",
+    ["UpdateSandstormWalkSpeed_Internal"] = {
         params = {
             {param = "level", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSandstormLevel",
+    ["GetSandstormLevel"] = {
         params = {
 
         },
@@ -88,3 +81,4 @@ data = {
     },
         
 }
+return data

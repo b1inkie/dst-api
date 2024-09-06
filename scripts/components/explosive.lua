@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnExplodeFn",
+    ["SetOnExplodeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAttacker",
+    ["SetAttacker"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPvpAttacker",
+    ["SetPvpAttacker"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnBurnt",
+    ["OnBurnt"] = {
         params = {
 
         },
@@ -52,3 +48,4 @@ data = {
     },
         
 }
+return data

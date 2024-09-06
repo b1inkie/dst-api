@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AttachReplica",
+    ["AttachReplica"] = {
         params = {
             {param = "replica", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InheritMoisture",
+    ["InheritMoisture"] = {
         params = {
             {param = "moisture", explain = "", type = ""},
             {param = "iswet", explain = "", type = ""},
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DiluteMoisture",
+    ["DiluteMoisture"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "count", explain = "", type = ""},
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeMoistureAtLeast",
+    ["MakeMoistureAtLeast"] = {
         params = {
             {param = "min", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "delta", explain = "", type = ""},
 
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMoisture",
+    ["SetMoisture"] = {
         params = {
             {param = "moisture", explain = "", type = ""},
 
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTargetMoisture",
+    ["GetTargetMoisture"] = {
         params = {
 
         },
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateMoisture",
+    ["UpdateMoisture"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -179,3 +165,4 @@ data = {
     },
         
 }
+return data

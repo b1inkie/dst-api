@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Repair",
+    ["Repair"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "patch_item", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ChangeToRepaired",
+    ["ChangeToRepaired"] = {
         params = {
             {param = "repair_build_name", explain = "", type = ""},
             {param = "sndoverride", explain = "", type = ""},
@@ -28,8 +26,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRepairedTime",
+    ["SetRepairedTime"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRemainingRepairedTime",
+    ["GetRemainingRepairedTime"] = {
         params = {
 
         },
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPlugged",
+    ["SetPlugged"] = {
         params = {
             {param = "setting", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetState",
+    ["SetState"] = {
         params = {
             {param = "state", explain = "", type = ""},
             {param = "skip_open", explain = "", type = ""},
@@ -80,8 +74,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBoat",
+    ["SetBoat"] = {
         params = {
             {param = "boat", explain = "", type = ""},
 
@@ -93,8 +86,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFinishedSpawning",
+    ["IsFinishedSpawning"] = {
         params = {
 
         },
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -118,8 +109,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -131,8 +121,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -145,3 +134,4 @@ data = {
     },
         
 }
+return data

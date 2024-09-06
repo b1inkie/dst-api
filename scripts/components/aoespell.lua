@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetSpellFn",
+    ["SetSpellFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CastSpell",
+    ["CastSpell"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "pos", explain = "", type = ""},
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanCast",
+    ["CanCast"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "pos", explain = "", type = ""},
@@ -42,3 +39,4 @@ data = {
     },
         
 }
+return data

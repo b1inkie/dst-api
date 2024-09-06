@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "UpdateEmbarkingPos",
+    ["UpdateEmbarkingPos"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEmbarkable",
+    ["SetEmbarkable"] = {
         params = {
             {param = "embarkable", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDisembarkPos",
+    ["SetDisembarkPos"] = {
         params = {
             {param = "pos_x", explain = "", type = ""},
             {param = "pos_z", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDisembarkActionPos",
+    ["SetDisembarkActionPos"] = {
         params = {
             {param = "pos_x", explain = "", type = ""},
             {param = "pos_z", explain = "", type = ""},
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartMoving",
+    ["StartMoving"] = {
         params = {
 
         },
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasDestination",
+    ["HasDestination"] = {
         params = {
 
         },
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEmbarkPosition",
+    ["GetEmbarkPosition"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Embark",
+    ["Embark"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Cancel",
+    ["Cancel"] = {
         params = {
 
         },
@@ -128,3 +118,4 @@ data = {
     },
         
 }
+return data

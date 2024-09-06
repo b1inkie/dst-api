@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnThroneDestroyed",
+    ["OnThroneDestroyed"] = {
         params = {
             {param = "throne", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CreateMermKing",
+    ["CreateMermKing"] = {
         params = {
             {param = "candidate", explain = "", type = ""},
             {param = "throne", explain = "", type = ""},
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindMermCandidate",
+    ["FindMermCandidate"] = {
         params = {
             {param = "throne", explain = "", type = ""},
 
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldGoToThrone",
+    ["ShouldGoToThrone"] = {
         params = {
             {param = "merm", explain = "", type = ""},
             {param = "throne", explain = "", type = ""},
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsCandidateAtThrone",
+    ["IsCandidateAtThrone"] = {
         params = {
             {param = "candidate", explain = "", type = ""},
             {param = "throne", explain = "", type = ""},
@@ -68,8 +63,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldTransform",
+    ["ShouldTransform"] = {
         params = {
             {param = "merm", explain = "", type = ""},
 
@@ -81,8 +75,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsThroneValid",
+    ["IsThroneValid"] = {
         params = {
             {param = "throne", explain = "", type = ""},
 
@@ -94,8 +87,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetKing",
+    ["GetKing"] = {
         params = {
 
         },
@@ -106,8 +98,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCandidate",
+    ["GetCandidate"] = {
         params = {
             {param = "throne", explain = "", type = ""},
 
@@ -119,8 +110,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsThroneCandidate",
+    ["IsThroneCandidate"] = {
         params = {
             {param = "merm", explain = "", type = ""},
             {param = "throne", explain = "", type = ""},
@@ -133,8 +123,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsCandidate",
+    ["IsCandidate"] = {
         params = {
             {param = "merm", explain = "", type = ""},
 
@@ -146,8 +135,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetThrone",
+    ["GetThrone"] = {
         params = {
             {param = "merm", explain = "", type = ""},
 
@@ -159,8 +147,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMainThrone",
+    ["GetMainThrone"] = {
         params = {
 
         },
@@ -171,8 +158,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsThrone",
+    ["IsThrone"] = {
         params = {
             {param = "throne", explain = "", type = ""},
 
@@ -184,8 +170,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasKingLocal",
+    ["HasKingLocal"] = {
         params = {
 
         },
@@ -196,8 +181,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasKingAnywhere",
+    ["HasKingAnywhere"] = {
         params = {
 
         },
@@ -208,8 +192,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasKing",
+    ["HasKing"] = {
         params = {
 
         },
@@ -220,8 +203,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasTridentLocal",
+    ["HasTridentLocal"] = {
         params = {
 
         },
@@ -232,8 +214,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasTridentAnywhere",
+    ["HasTridentAnywhere"] = {
         params = {
 
         },
@@ -244,8 +225,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasCrownLocal",
+    ["HasCrownLocal"] = {
         params = {
 
         },
@@ -256,8 +236,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasCrownAnywhere",
+    ["HasCrownAnywhere"] = {
         params = {
 
         },
@@ -268,8 +247,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasPauldronLocal",
+    ["HasPauldronLocal"] = {
         params = {
 
         },
@@ -280,8 +258,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasPauldronAnywhere",
+    ["HasPauldronAnywhere"] = {
         params = {
 
         },
@@ -292,8 +269,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -304,8 +280,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -319,3 +294,4 @@ data = {
     },
         
 }
+return data

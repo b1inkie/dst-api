@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnPeruse",
+    ["SetOnPeruse"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnRead",
+    ["SetOnRead"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetReadSanity",
+    ["SetReadSanity"] = {
         params = {
             {param = "sanity", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPeruseSanity",
+    ["SetPeruseSanity"] = {
         params = {
             {param = "sanity", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFx",
+    ["SetFx"] = {
         params = {
             {param = "fx", explain = "", type = ""},
             {param = "fxmount", explain = "", type = ""},
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ConsumeUse",
+    ["ConsumeUse"] = {
         params = {
 
         },
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Interact",
+    ["Interact"] = {
         params = {
             {param = "fn", explain = "", type = ""},
             {param = "reader", explain = "", type = ""},
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPeruse",
+    ["OnPeruse"] = {
         params = {
             {param = "reader", explain = "", type = ""},
 
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRead",
+    ["OnRead"] = {
         params = {
             {param = "reader", explain = "", type = ""},
 
@@ -119,3 +110,4 @@ data = {
     },
         
 }
+return data

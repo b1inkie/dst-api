@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDefaultWearOffTime",
+    ["SetDefaultWearOffTime"] = {
         params = {
             {param = "wearofftime", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnShatterFX",
+    ["SpawnShatterFX"] = {
         params = {
             {param = "ratio", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsStuck",
+    ["IsStuck"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsValidPinTarget",
+    ["IsValidPinTarget"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartWearingOff",
+    ["StartWearingOff"] = {
         params = {
             {param = "wearofftime", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stick",
+    ["Stick"] = {
         params = {
             {param = "goo_build", explain = "", type = ""},
             {param = "splashfxlist", explain = "", type = ""},
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateStuckStatus",
+    ["UpdateStuckStatus"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemainingRatio",
+    ["RemainingRatio"] = {
         params = {
 
         },
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Unstick",
+    ["Unstick"] = {
         params = {
 
         },
@@ -126,3 +116,4 @@ data = {
     },
         
 }
+return data

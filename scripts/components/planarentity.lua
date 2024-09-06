@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AbsorbDamage",
+    ["AbsorbDamage"] = {
         params = {
             {param = "damage", explain = "", type = ""},
             {param = "attacker", explain = "", type = ""},
@@ -16,8 +15,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnResistNonPlanarAttack",
+    ["OnResistNonPlanarAttack"] = {
         params = {
             {param = "attacker", explain = "", type = ""},
 
@@ -29,8 +27,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPlanarAttackUndefended",
+    ["OnPlanarAttackUndefended"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -43,3 +40,4 @@ data = {
     },
         
 }
+return data

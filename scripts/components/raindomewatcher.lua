@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "IsUnderRainDome",
+    ["IsUnderRainDome"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -26,3 +24,4 @@ data = {
     },
         
 }
+return data

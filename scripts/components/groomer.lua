@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOccupant",
+    ["SetOccupant"] = {
         params = {
             {param = "occupant", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanUseAction",
+    ["SetCanUseAction"] = {
         params = {
             {param = "canuseaction", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanBeDressed",
+    ["SetCanBeDressed"] = {
         params = {
             {param = "canbedressed", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanBeShared",
+    ["SetCanBeShared"] = {
         params = {
             {param = "canbeshared", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRange",
+    ["SetRange"] = {
         params = {
             {param = "range", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetChangeInDelay",
+    ["SetChangeInDelay"] = {
         params = {
             {param = "delay", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanBeginChanging",
+    ["CanBeginChanging"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BeginChanging",
+    ["BeginChanging"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EndChanging",
+    ["EndChanging"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -130,8 +120,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EndAllChanging",
+    ["EndAllChanging"] = {
         params = {
 
         },
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ActivateChanging",
+    ["ActivateChanging"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "skins", explain = "", type = ""},
@@ -156,8 +144,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplyTargetSkins",
+    ["ApplyTargetSkins"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -171,8 +158,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplySkins",
+    ["ApplySkins"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "diff", explain = "", type = ""},
@@ -185,8 +171,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSkinCategory",
+    ["GetSkinCategory"] = {
         params = {
             {param = "skin", explain = "", type = ""},
 
@@ -198,8 +183,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -210,8 +194,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -223,8 +206,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -236,8 +218,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -249,3 +230,4 @@ data = {
     },
         
 }
+return data

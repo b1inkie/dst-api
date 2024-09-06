@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddCalories",
+    ["AddCalories"] = {
         params = {
             {param = "food", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResetCalories",
+    ["ResetCalories"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldTransform",
+    ["ShouldTransform"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -63,3 +58,4 @@ data = {
     },
         
 }
+return data

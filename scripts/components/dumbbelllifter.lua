@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "CanLift",
+    ["CanLift"] = {
         params = {
             {param = "dumbbell", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLiftingAny",
+    ["IsLiftingAny"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLifting",
+    ["IsLifting"] = {
         params = {
             {param = "dumbbell", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartLifting",
+    ["StartLifting"] = {
         params = {
             {param = "dumbbell", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopLifting",
+    ["StopLifting"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Lift",
+    ["Lift"] = {
         params = {
 
         },
@@ -76,3 +70,4 @@ data = {
     },
         
 }
+return data

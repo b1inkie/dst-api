@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CopyFrom",
+    ["CopyFrom"] = {
         params = {
             {param = "rhs", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateMoistureTime",
+    ["UpdateMoistureTime"] = {
         params = {
             {param = "is_soil_moist", explain = "", type = ""},
             {param = "was_soil_moist", explain = "", type = ""},
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcPercentTimeHydrated",
+    ["CalcPercentTimeHydrated"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMoistureRate",
+    ["GetMoistureRate"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSoilMoistureStateChange",
+    ["OnSoilMoistureStateChange"] = {
         params = {
             {param = "cur_state", explain = "", type = ""},
             {param = "prev_state", explain = "", type = ""},
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -127,3 +117,4 @@ data = {
     },
         
 }
+return data

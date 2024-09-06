@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "EnableHopDelay",
+    ["EnableHopDelay"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUpdatingInternal",
+    ["StartUpdatingInternal"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopUpdatingInternal",
+    ["StopUpdatingInternal"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeMoving",
+    ["GetTimeMoving"] = {
         params = {
 
         },
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartMoveTimerInternal",
+    ["StartMoveTimerInternal"] = {
         params = {
 
         },
@@ -97,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopMoveTimerInternal",
+    ["StopMoveTimerInternal"] = {
         params = {
 
         },
@@ -109,8 +100,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RestartPredictMoveTimer",
+    ["RestartPredictMoveTimer"] = {
         params = {
 
         },
@@ -121,8 +111,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelPredictMoveTimer",
+    ["CancelPredictMoveTimer"] = {
         params = {
 
         },
@@ -133,8 +122,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopMoving",
+    ["StopMoving"] = {
         params = {
 
         },
@@ -145,8 +133,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RecalculateExternalSpeedMultiplier",
+    ["RecalculateExternalSpeedMultiplier"] = {
         params = {
             {param = "sources", explain = "", type = ""},
 
@@ -158,8 +145,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetExternalSpeedMultiplier",
+    ["SetExternalSpeedMultiplier"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -173,8 +159,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveExternalSpeedMultiplier",
+    ["RemoveExternalSpeedMultiplier"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -187,8 +172,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetExternalSpeedMultiplier",
+    ["GetExternalSpeedMultiplier"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -201,8 +185,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPredictExternalSpeedMultiplier",
+    ["SetPredictExternalSpeedMultiplier"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -216,8 +199,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemovePredictExternalSpeedMultiplier",
+    ["RemovePredictExternalSpeedMultiplier"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -230,8 +212,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPredictExternalSpeedMultipler",
+    ["GetPredictExternalSpeedMultipler"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -244,8 +225,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSlowMultiplier",
+    ["SetSlowMultiplier"] = {
         params = {
             {param = "m", explain = "", type = ""},
 
@@ -257,8 +237,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTriggersCreep",
+    ["SetTriggersCreep"] = {
         params = {
             {param = "triggers", explain = "", type = ""},
 
@@ -270,8 +249,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFasterOnCreep",
+    ["SetFasterOnCreep"] = {
         params = {
             {param = "faster", explain = "", type = ""},
 
@@ -283,8 +261,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableGroundSpeedMultiplier",
+    ["EnableGroundSpeedMultiplier"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -296,8 +273,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWalkSpeed",
+    ["GetWalkSpeed"] = {
         params = {
 
         },
@@ -308,8 +284,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRunSpeed",
+    ["GetRunSpeed"] = {
         params = {
 
         },
@@ -320,8 +295,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFasterOnGroundTile",
+    ["SetFasterOnGroundTile"] = {
         params = {
             {param = "ground_tile", explain = "", type = ""},
             {param = "is_faster", explain = "", type = ""},
@@ -334,8 +308,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateGroundSpeedMultiplier",
+    ["UpdateGroundSpeedMultiplier"] = {
         params = {
 
         },
@@ -346,8 +319,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushTempGroundSpeedMultiplier",
+    ["PushTempGroundSpeedMultiplier"] = {
         params = {
             {param = "mult", explain = "", type = ""},
             {param = "tile", explain = "", type = ""},
@@ -360,8 +332,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TempGroundSpeedMultiplier",
+    ["TempGroundSpeedMultiplier"] = {
         params = {
 
         },
@@ -372,8 +343,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TempGroundTile",
+    ["TempGroundTile"] = {
         params = {
 
         },
@@ -384,8 +354,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartStrafing",
+    ["StartStrafing"] = {
         params = {
 
         },
@@ -396,8 +365,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopStrafing",
+    ["StopStrafing"] = {
         params = {
 
         },
@@ -408,8 +376,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStrafing",
+    ["SetStrafing"] = {
         params = {
             {param = "strafing", explain = "", type = ""},
 
@@ -421,8 +388,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMoveDir",
+    ["SetMoveDir"] = {
         params = {
             {param = "dir", explain = "", type = ""},
 
@@ -434,8 +400,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FaceMovePoint",
+    ["FaceMovePoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -449,8 +414,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMotorSpeed",
+    ["SetMotorSpeed"] = {
         params = {
             {param = "speed", explain = "", type = ""},
 
@@ -462,8 +426,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStrafeFacingChanged",
+    ["OnStrafeFacingChanged"] = {
         params = {
             {param = "dir", explain = "", type = ""},
 
@@ -475,8 +438,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WalkForward",
+    ["WalkForward"] = {
         params = {
             {param = "direct", explain = "", type = ""},
 
@@ -488,8 +450,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RunForward",
+    ["RunForward"] = {
         params = {
             {param = "direct", explain = "", type = ""},
 
@@ -501,8 +462,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Clear",
+    ["Clear"] = {
         params = {
 
         },
@@ -513,8 +473,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResetPath",
+    ["ResetPath"] = {
         params = {
 
         },
@@ -525,8 +484,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "KillPathSearch",
+    ["KillPathSearch"] = {
         params = {
 
         },
@@ -537,8 +495,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetReachDestinationCallback",
+    ["SetReachDestinationCallback"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -550,8 +507,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PreviewAction",
+    ["PreviewAction"] = {
         params = {
             {param = "bufferedaction", explain = "", type = ""},
             {param = "run", explain = "", type = ""},
@@ -565,8 +521,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PushAction",
+    ["PushAction"] = {
         params = {
             {param = "bufferedaction", explain = "", type = ""},
             {param = "run", explain = "", type = ""},
@@ -580,8 +535,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GoToEntity",
+    ["GoToEntity"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "bufferedaction", explain = "", type = ""},
@@ -595,8 +549,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GoToPoint",
+    ["GoToPoint"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "bufferedaction", explain = "", type = ""},
@@ -611,8 +564,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBufferedAction",
+    ["SetBufferedAction"] = {
         params = {
             {param = "act", explain = "", type = ""},
 
@@ -624,8 +576,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
             {param = "sgparams", explain = "", type = ""},
 
@@ -637,8 +588,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WalkInDirection",
+    ["WalkInDirection"] = {
         params = {
             {param = "direction", explain = "", type = ""},
             {param = "should_run", explain = "", type = ""},
@@ -651,8 +601,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RunInDirection",
+    ["RunInDirection"] = {
         params = {
             {param = "direction", explain = "", type = ""},
             {param = "throttle", explain = "", type = ""},
@@ -665,8 +614,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -677,8 +625,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasDestination",
+    ["HasDestination"] = {
         params = {
 
         },
@@ -689,8 +636,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShouldRun",
+    ["SetShouldRun"] = {
         params = {
             {param = "should_run", explain = "", type = ""},
 
@@ -702,8 +648,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WantsToRun",
+    ["WantsToRun"] = {
         params = {
 
         },
@@ -714,8 +659,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WantsToMoveForward",
+    ["WantsToMoveForward"] = {
         params = {
 
         },
@@ -726,8 +670,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WaitingForPathSearch",
+    ["WaitingForPathSearch"] = {
         params = {
 
         },
@@ -738,8 +681,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateHopping",
+    ["UpdateHopping"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -751,8 +693,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FinishHopping",
+    ["FinishHopping"] = {
         params = {
 
         },
@@ -763,8 +704,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAllowPlatformHopping",
+    ["SetAllowPlatformHopping"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -776,8 +716,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckEdge",
+    ["CheckEdge"] = {
         params = {
             {param = "my_platform", explain = "", type = ""},
             {param = "map", explain = "", type = ""},
@@ -795,8 +734,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAtEdge",
+    ["IsAtEdge"] = {
         params = {
             {param = "my_platform", explain = "", type = ""},
             {param = "map", explain = "", type = ""},
@@ -813,8 +751,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHopDistance",
+    ["GetHopDistance"] = {
         params = {
             {param = "speed_mult", explain = "", type = ""},
 
@@ -826,8 +763,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ScanForPlatformInDir",
+    ["ScanForPlatformInDir"] = {
         params = {
             {param = "my_platform", explain = "", type = ""},
             {param = "map", explain = "", type = ""},
@@ -846,8 +782,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TestForBlocked",
+    ["TestForBlocked"] = {
         params = {
             {param = "my_x", explain = "", type = ""},
             {param = "my_z", explain = "", type = ""},
@@ -864,8 +799,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ScanForPlatform",
+    ["ScanForPlatform"] = {
         params = {
             {param = "my_platform", explain = "", type = ""},
             {param = "target_x", explain = "", type = ""},
@@ -880,8 +814,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartHopping",
+    ["StartHopping"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -895,8 +828,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
             {param = "arrive_check_only", explain = "", type = ""},
@@ -909,8 +841,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAquatic",
+    ["IsAquatic"] = {
         params = {
 
         },
@@ -921,8 +852,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanPathfindOnWater",
+    ["CanPathfindOnWater"] = {
         params = {
 
         },
@@ -933,8 +863,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTerrestrial",
+    ["IsTerrestrial"] = {
         params = {
 
         },
@@ -945,8 +874,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanPathfindOnLand",
+    ["CanPathfindOnLand"] = {
         params = {
 
         },
@@ -957,8 +885,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindPath",
+    ["FindPath"] = {
         params = {
 
         },
@@ -970,3 +897,4 @@ data = {
     },
         
 }
+return data

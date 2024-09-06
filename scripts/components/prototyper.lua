@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TurnOn",
+    ["TurnOn"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TurnOff",
+    ["TurnOff"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTechTrees",
+    ["GetTechTrees"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Activate",
+    ["Activate"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "recipe", explain = "", type = ""},
@@ -65,3 +60,4 @@ data = {
     },
         
 }
+return data

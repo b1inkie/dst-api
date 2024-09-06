@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetBaseDefense",
+    ["SetBaseDefense"] = {
         params = {
             {param = "defense", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBaseDefense",
+    ["GetBaseDefense"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDefense",
+    ["GetDefense"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddMultiplier",
+    ["AddMultiplier"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "mult", explain = "", type = ""},
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveMultiplier",
+    ["RemoveMultiplier"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMultiplier",
+    ["GetMultiplier"] = {
         params = {
 
         },
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddBonus",
+    ["AddBonus"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "bonus", explain = "", type = ""},
@@ -93,8 +86,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveBonus",
+    ["RemoveBonus"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -107,8 +99,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBonus",
+    ["GetBonus"] = {
         params = {
 
         },
@@ -119,8 +110,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -132,3 +122,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAspiringBookworm",
+    ["SetAspiringBookworm"] = {
         params = {
             {param = "bookworm", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAspiringBookworm",
+    ["IsAspiringBookworm"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSanityPenaltyMultiplier",
+    ["SetSanityPenaltyMultiplier"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSanityPenaltyMultiplier",
+    ["GetSanityPenaltyMultiplier"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnReadFn",
+    ["SetOnReadFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Read",
+    ["Read"] = {
         params = {
             {param = "book", explain = "", type = ""},
 
@@ -89,3 +82,4 @@ data = {
     },
         
 }
+return data

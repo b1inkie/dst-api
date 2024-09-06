@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBanks",
+    ["SetBanks"] = {
         params = {
             {param = "land", explain = "", type = ""},
             {param = "ocean", explain = "", type = ""},
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldTransition",
+    ["ShouldTransition"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEnterOcean",
+    ["OnEnterOcean"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnExitOcean",
+    ["OnExitOcean"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEnterWaterFn",
+    ["SetEnterWaterFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetExitWaterFn",
+    ["SetExitWaterFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -128,3 +118,4 @@ data = {
     },
         
 }
+return data

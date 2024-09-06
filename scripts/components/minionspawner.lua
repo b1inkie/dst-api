@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemovePosition",
+    ["RemovePosition"] = {
         params = {
             {param = "num", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddPosition",
+    ["AddPosition"] = {
         params = {
             {param = "num", explain = "", type = ""},
             {param = "tbl", explain = "", type = ""},
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeOwnership",
+    ["TakeOwnership"] = {
         params = {
             {param = "minion", explain = "", type = ""},
 
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLostMinion",
+    ["OnLostMinion"] = {
         params = {
             {param = "minion", explain = "", type = ""},
 
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeMinion",
+    ["MakeMinion"] = {
         params = {
 
         },
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckTileCompatibility",
+    ["CheckTileCompatibility"] = {
         params = {
             {param = "tile", explain = "", type = ""},
 
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeSpawnLocations",
+    ["MakeSpawnLocations"] = {
         params = {
 
         },
@@ -129,8 +119,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSpawnLocation",
+    ["GetSpawnLocation"] = {
         params = {
             {param = "num", explain = "", type = ""},
 
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNextSpawnTime",
+    ["GetNextSpawnTime"] = {
         params = {
 
         },
@@ -154,8 +142,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "KillAllMinions",
+    ["KillAllMinions"] = {
         params = {
 
         },
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnNewMinion",
+    ["SpawnNewMinion"] = {
         params = {
 
         },
@@ -178,8 +164,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MaxedMinions",
+    ["MaxedMinions"] = {
         params = {
 
         },
@@ -190,8 +175,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpawnInfo",
+    ["SetSpawnInfo"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -203,8 +187,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartNextSpawn",
+    ["StartNextSpawn"] = {
         params = {
 
         },
@@ -215,8 +198,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResumeSpawn",
+    ["ResumeSpawn"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -228,8 +210,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -242,3 +223,4 @@ data = {
     },
         
 }
+return data

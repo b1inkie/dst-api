@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEmpty",
+    ["IsEmpty"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFullFertile",
+    ["IsFullFertile"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFertilePercent",
+    ["GetFertilePercent"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFertile",
+    ["IsFertile"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Fertilize",
+    ["Fertilize"] = {
         params = {
             {param = "obj", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "newents", explain = "", type = ""},
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PlantItem",
+    ["PlantItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveCrop",
+    ["RemoveCrop"] = {
         params = {
             {param = "crop", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
             {param = "reason", explain = "", type = ""},
 
@@ -153,3 +141,4 @@ data = {
     },
         
 }
+return data

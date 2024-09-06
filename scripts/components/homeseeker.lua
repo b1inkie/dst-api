@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "HasHome",
+    ["HasHome"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHome",
+    ["GetHome"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHome",
+    ["SetHome"] = {
         params = {
             {param = "home", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GoHome",
+    ["GoHome"] = {
         params = {
             {param = "shouldrun", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHomePos",
+    ["GetHomePos"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHomeDirectTravelTime",
+    ["GetHomeDirectTravelTime"] = {
         params = {
 
         },
@@ -87,3 +80,4 @@ data = {
     },
         
 }
+return data

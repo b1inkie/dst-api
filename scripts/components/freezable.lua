@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetResistance",
+    ["SetResistance"] = {
         params = {
             {param = "resist", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDefaultWearOffTime",
+    ["SetDefaultWearOffTime"] = {
         params = {
             {param = "wearofftime", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddShatterFX",
+    ["AddShatterFX"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "offset", explain = "", type = ""},
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShatterFXLevel",
+    ["SetShatterFXLevel"] = {
         params = {
             {param = "level", explain = "", type = ""},
             {param = "percent", explain = "", type = ""},
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnShatterFX",
+    ["SpawnShatterFX"] = {
         params = {
 
         },
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFrozen",
+    ["IsFrozen"] = {
         params = {
 
         },
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsThawing",
+    ["IsThawing"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRedirectFn",
+    ["SetRedirectFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddColdness",
+    ["AddColdness"] = {
         params = {
             {param = "coldness", explain = "", type = ""},
             {param = "freezetime", explain = "", type = ""},
@@ -143,8 +132,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartWearingOff",
+    ["StartWearingOff"] = {
         params = {
             {param = "wearofftime", explain = "", type = ""},
 
@@ -156,8 +144,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeToWearOff",
+    ["GetTimeToWearOff"] = {
         params = {
 
         },
@@ -168,8 +155,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateTint",
+    ["UpdateTint"] = {
         params = {
 
         },
@@ -180,8 +166,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetExtraResist",
+    ["SetExtraResist"] = {
         params = {
             {param = "resist", explain = "", type = ""},
 
@@ -193,8 +178,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResolveResistance",
+    ["ResolveResistance"] = {
         params = {
 
         },
@@ -205,8 +189,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResolveWearOffTime",
+    ["ResolveWearOffTime"] = {
         params = {
             {param = "t", explain = "", type = ""},
 
@@ -218,8 +201,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Freeze",
+    ["Freeze"] = {
         params = {
             {param = "freezetime", explain = "", type = ""},
 
@@ -231,8 +213,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Unfreeze",
+    ["Unfreeze"] = {
         params = {
 
         },
@@ -243,8 +224,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Thaw",
+    ["Thaw"] = {
         params = {
             {param = "thawtime", explain = "", type = ""},
 
@@ -256,8 +236,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
 
         },
@@ -268,8 +247,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -280,8 +258,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -294,3 +271,4 @@ data = {
     },
         
 }
+return data

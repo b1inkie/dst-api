@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddKitcoon",
+    ["AddKitcoon"] = {
         params = {
             {param = "kitcoon", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveKitcoon",
+    ["RemoveKitcoon"] = {
         params = {
             {param = "kitcoon", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveAllKitcoons",
+    ["RemoveAllKitcoons"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -64,3 +59,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "IsEnabled",
+    ["IsEnabled"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEnabled",
+    ["SetEnabled"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTargetFX",
+    ["SetTargetFX"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAlwaysValid",
+    ["SetAlwaysValid"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAllowWater",
+    ["SetAllowWater"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAllowRiding",
+    ["SetAllowRiding"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRange",
+    ["SetRange"] = {
         params = {
             {param = "range", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRange",
+    ["GetRange"] = {
         params = {
 
         },
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDeployRadius",
+    ["SetDeployRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShouldRepeatCastFn",
+    ["SetShouldRepeatCastFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanRepeatCast",
+    ["CanRepeatCast"] = {
         params = {
 
         },
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldRepeatCast",
+    ["ShouldRepeatCast"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTargeting",
+    ["StartTargeting"] = {
         params = {
 
         },
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTargeting",
+    ["StopTargeting"] = {
         params = {
 
         },
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnTargetFXAt",
+    ["SpawnTargetFXAt"] = {
         params = {
             {param = "pos", explain = "", type = ""},
 
@@ -191,3 +176,4 @@ data = {
     },
         
 }
+return data

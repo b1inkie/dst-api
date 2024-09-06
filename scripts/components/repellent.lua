@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddRepelTag",
+    ["AddRepelTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveRepelTag",
+    ["RemoveRepelTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddIgnoreTag",
+    ["AddIgnoreTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveIgnoreTag",
+    ["RemoveIgnoreTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRadius",
+    ["SetRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUseAmount",
+    ["SetUseAmount"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnRepelFollowerFn",
+    ["SetOnRepelFollowerFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnlyRepelsFollowers",
+    ["SetOnlyRepelsFollowers"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Repel",
+    ["Repel"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -118,3 +109,4 @@ data = {
     },
         
 }
+return data

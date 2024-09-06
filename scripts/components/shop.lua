@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetStartTab",
+    ["SetStartTab"] = {
         params = {
             {param = "tab", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTitle",
+    ["SetTitle"] = {
         params = {
             {param = "title", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DeliverItems",
+    ["DeliverItems"] = {
         params = {
             {param = "items", explain = "", type = ""},
 
@@ -40,3 +37,4 @@ data = {
     },
         
 }
+return data

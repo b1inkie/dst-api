@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnMatureFn",
+    ["SetOnMatureFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnWitheredFn",
+    ["SetOnWitheredFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnHarvestFn",
+    ["SetOnHarvestFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Fertilize",
+    ["Fertilize"] = {
         params = {
             {param = "fertilizer", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWorldGrowthRateMultiplier",
+    ["GetWorldGrowthRateMultiplier"] = {
         params = {
 
         },
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoGrow",
+    ["DoGrow"] = {
         params = {
             {param = "dt", explain = "", type = ""},
             {param = "nowither", explain = "", type = ""},
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Resume",
+    ["Resume"] = {
         params = {
 
         },
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartGrowing",
+    ["StartGrowing"] = {
         params = {
             {param = "prod", explain = "", type = ""},
             {param = "grow_time", explain = "", type = ""},
@@ -168,8 +155,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Harvest",
+    ["Harvest"] = {
         params = {
             {param = "harvester", explain = "", type = ""},
 
@@ -181,8 +167,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Mature",
+    ["Mature"] = {
         params = {
 
         },
@@ -193,8 +178,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeWithered",
+    ["MakeWithered"] = {
         params = {
 
         },
@@ -205,8 +189,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsReadyForHarvest",
+    ["IsReadyForHarvest"] = {
         params = {
 
         },
@@ -217,8 +200,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -231,3 +213,4 @@ data = {
     },
         
 }
+return data

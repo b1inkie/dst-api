@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "checkplayersinventoryforspace",
+    ["checkplayersinventoryforspace"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "lookforplayer",
+    ["lookforplayer"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckForOwner",
+    ["CheckForOwner"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Given",
+    ["Given"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -65,3 +60,4 @@ data = {
     },
         
 }
+return data

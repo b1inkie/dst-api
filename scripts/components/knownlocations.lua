@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SerializeLocations",
+    ["SerializeLocations"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DeserializeLocations",
+    ["DeserializeLocations"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RememberLocation",
+    ["RememberLocation"] = {
         params = {
             {param = "name", explain = "", type = ""},
             {param = "pos", explain = "", type = ""},
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLocation",
+    ["GetLocation"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForgetLocation",
+    ["ForgetLocation"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -104,3 +96,4 @@ data = {
     },
         
 }
+return data

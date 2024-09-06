@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetMutationTarget",
+    ["SetMutationTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanMutate",
+    ["CanMutate"] = {
         params = {
             {param = "spider", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Mutate",
+    ["Mutate"] = {
         params = {
             {param = "spider", explain = "", type = ""},
             {param = "skip_event", explain = "", type = ""},
@@ -42,3 +39,4 @@ data = {
     },
         
 }
+return data

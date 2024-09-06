@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Plant",
+    ["Plant"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "planter", explain = "", type = ""},
@@ -15,3 +14,4 @@ data = {
     },
         
 }
+return data

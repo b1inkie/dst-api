@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetLoot",
+    ["GetLoot"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -38,3 +35,4 @@ data = {
     },
         
 }
+return data

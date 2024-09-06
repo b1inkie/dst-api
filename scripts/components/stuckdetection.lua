@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetTimeToStuck",
+    ["SetTimeToStuck"] = {
         params = {
             {param = "t", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsStuck",
+    ["IsStuck"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
 
         },
@@ -38,3 +35,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRepairMaterial",
+    ["SetRepairMaterial"] = {
         params = {
             {param = "material", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRepairable",
+    ["SetRepairable"] = {
         params = {
             {param = "repairable", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnRepaired",
+    ["SetOnRepaired"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Repair",
+    ["Repair"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "repair_item", explain = "", type = ""},
@@ -66,3 +61,4 @@ data = {
     },
         
 }
+return data

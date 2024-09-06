@@ -18,8 +18,7 @@ ps: 由于都是批量处理,难免会有些问题,可以向我反馈
 `scripts/components/finiteuses.lua`
 这是耐久度组件的其中一个方法:
 ```lua
-    {
-        method = "SetConsumption", -- 方法名:已自动生成,请勿改动
+    ["SetConsumption"] = { -- 方法名:已自动生成,请勿改动
         params = {
             -- param: 参数名(自动生成) explain: 参数说明(万能的群友们,请帮我注释吧) type: 参数类型
             {param = "action", explain = "动作id", type = "全局变量"}, 

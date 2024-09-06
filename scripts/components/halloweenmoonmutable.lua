@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPrefabMutated",
+    ["SetPrefabMutated"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnMutateFn",
+    ["SetOnMutateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetConversionOverrideFn",
+    ["SetConversionOverrideFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Mutate",
+    ["Mutate"] = {
         params = {
             {param = "overrideprefab", explain = "", type = ""},
 
@@ -65,3 +60,4 @@ data = {
     },
         
 }
+return data

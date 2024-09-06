@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetSteeringWheel",
+    ["SetSteeringWheel"] = {
         params = {
             {param = "steering_wheel", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Steer",
+    ["Steer"] = {
         params = {
             {param = "pos_x", explain = "", type = ""},
             {param = "pos_z", explain = "", type = ""},
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SteerInDir",
+    ["SteerInDir"] = {
         params = {
             {param = "dir_x", explain = "", type = ""},
             {param = "dir_z", explain = "", type = ""},
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBoat",
+    ["GetBoat"] = {
         params = {
 
         },
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -67,3 +62,4 @@ data = {
     },
         
 }
+return data

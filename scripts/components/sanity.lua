@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "IsSane",
+    ["IsSane"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInsane",
+    ["IsInsane"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEnlightened",
+    ["IsEnlightened"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsCrazy",
+    ["IsCrazy"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSanityMode",
+    ["SetSanityMode"] = {
         params = {
             {param = "mode", explain = "", type = ""},
 
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInsanityMode",
+    ["IsInsanityMode"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLunacyMode",
+    ["IsLunacyMode"] = {
         params = {
 
         },
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSanityMode",
+    ["GetSanityMode"] = {
         params = {
 
         },
@@ -97,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableLunacy",
+    ["EnableLunacy"] = {
         params = {
             {param = "enable", explain = "", type = ""},
             {param = "source", explain = "", type = ""},
@@ -111,8 +102,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddSanityPenalty",
+    ["AddSanityPenalty"] = {
         params = {
             {param = "key", explain = "", type = ""},
             {param = "mod", explain = "", type = ""},
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveSanityPenalty",
+    ["RemoveSanityPenalty"] = {
         params = {
             {param = "key", explain = "", type = ""},
 
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RecalculatePenalty",
+    ["RecalculatePenalty"] = {
         params = {
 
         },
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddSanityAuraImmunity",
+    ["AddSanityAuraImmunity"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -163,8 +150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveSanityAuraImmunity",
+    ["RemoveSanityAuraImmunity"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -176,8 +162,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFullAuraImmunity",
+    ["SetFullAuraImmunity"] = {
         params = {
             {param = "immunity", explain = "", type = ""},
 
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNegativeAuraImmunity",
+    ["SetNegativeAuraImmunity"] = {
         params = {
             {param = "immunity", explain = "", type = ""},
 
@@ -202,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPlayerGhostImmunity",
+    ["SetPlayerGhostImmunity"] = {
         params = {
             {param = "immunity", explain = "", type = ""},
 
@@ -215,8 +198,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLightDrainImmune",
+    ["SetLightDrainImmune"] = {
         params = {
             {param = "immunity", explain = "", type = ""},
 
@@ -228,8 +210,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -240,8 +221,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -253,8 +233,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPenaltyPercent",
+    ["GetPenaltyPercent"] = {
         params = {
 
         },
@@ -265,8 +244,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRealPercent",
+    ["GetRealPercent"] = {
         params = {
 
         },
@@ -277,8 +255,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -289,8 +266,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercentWithPenalty",
+    ["GetPercentWithPenalty"] = {
         params = {
 
         },
@@ -301,8 +277,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "per", explain = "", type = ""},
             {param = "overtime", explain = "", type = ""},
@@ -315,8 +290,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -327,8 +301,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMax",
+    ["SetMax"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -340,8 +313,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaxWithPenalty",
+    ["GetMaxWithPenalty"] = {
         params = {
 
         },
@@ -352,8 +324,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRateScale",
+    ["GetRateScale"] = {
         params = {
 
         },
@@ -364,8 +335,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetInducedInsanity",
+    ["SetInducedInsanity"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "val", explain = "", type = ""},
@@ -378,8 +348,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "delta", explain = "", type = ""},
             {param = "overtime", explain = "", type = ""},
@@ -392,8 +361,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -405,8 +373,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RecalcGhostDrain",
+    ["RecalcGhostDrain"] = {
         params = {
 
         },
@@ -417,8 +384,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAuraMultipliers",
+    ["GetAuraMultipliers"] = {
         params = {
 
         },
@@ -429,8 +395,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Recalc",
+    ["Recalc"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -442,8 +407,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -456,3 +420,4 @@ data = {
     },
         
 }
+return data

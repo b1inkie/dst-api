@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "CanWorkout",
+    ["CanWorkout"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsWorkingOut",
+    ["IsWorkingOut"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckEfficiency",
+    ["CheckEfficiency"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckAttackEfficiency",
+    ["CheckAttackEfficiency"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartWorkout",
+    ["StartWorkout"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopWorkout",
+    ["StopWorkout"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetConsumption",
+    ["SetConsumption"] = {
         params = {
             {param = "consumption", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEfficiency",
+    ["SetEfficiency"] = {
         params = {
             {param = "wimpy", explain = "", type = ""},
             {param = "normal", explain = "", type = ""},
@@ -106,8 +98,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoAttackWorkout",
+    ["DoAttackWorkout"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -119,8 +110,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoWorkout",
+    ["DoWorkout"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -133,3 +123,4 @@ data = {
     },
         
 }
+return data

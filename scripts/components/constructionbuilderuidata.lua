@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetContainer",
+    ["SetContainer"] = {
         params = {
             {param = "containerinst", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetContainer",
+    ["GetContainer"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTarget",
+    ["SetTarget"] = {
         params = {
             {param = "targetinst", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTarget",
+    ["GetTarget"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetConstructionSite",
+    ["GetConstructionSite"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetIngredientForSlot",
+    ["GetIngredientForSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSlotForIngredient",
+    ["GetSlotForIngredient"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -89,3 +82,4 @@ data = {
     },
         
 }
+return data

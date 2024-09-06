@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AttachClassified",
+    ["AttachClassified"] = {
         params = {
             {param = "classified", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DetachClassified",
+    ["DetachClassified"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Activate",
+    ["Activate"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Deactivate",
+    ["Deactivate"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ToggleController",
+    ["ToggleController"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableMapControls",
+    ["EnableMapControls"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanUseMap",
+    ["SetCanUseMap"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMapTarget",
+    ["GetMapTarget"] = {
         params = {
             {param = "act", explain = "", type = ""},
 
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEnabled",
+    ["IsEnabled"] = {
         params = {
 
         },
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsMapControlsEnabled",
+    ["IsMapControlsEnabled"] = {
         params = {
 
         },
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsControlPressed",
+    ["IsControlPressed"] = {
         params = {
             {param = "control", explain = "", type = ""},
 
@@ -163,8 +150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAnyOfControlsPressed",
+    ["IsAnyOfControlsPressed"] = {
         params = {
             {param = "...", explain = "", type = ""},
 
@@ -176,8 +162,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CooldownRemoteController",
+    ["CooldownRemoteController"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CooldownHeldAction",
+    ["CooldownHeldAction"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -202,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteStopControl",
+    ["OnRemoteStopControl"] = {
         params = {
             {param = "control", explain = "", type = ""},
 
@@ -215,8 +198,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteStopAllControls",
+    ["OnRemoteStopAllControls"] = {
         params = {
 
         },
@@ -227,8 +209,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteStopControl",
+    ["RemoteStopControl"] = {
         params = {
             {param = "control", explain = "", type = ""},
 
@@ -240,8 +221,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteStopAllControls",
+    ["RemoteStopAllControls"] = {
         params = {
 
         },
@@ -252,8 +232,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemotePausePrediction",
+    ["RemotePausePrediction"] = {
         params = {
             {param = "frames", explain = "", type = ""},
 
@@ -265,8 +244,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnControl",
+    ["OnControl"] = {
         params = {
             {param = "control", explain = "", type = ""},
             {param = "down", explain = "", type = ""},
@@ -279,8 +257,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EncodeControlMods",
+    ["EncodeControlMods"] = {
         params = {
 
         },
@@ -291,8 +268,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DecodeControlMods",
+    ["DecodeControlMods"] = {
         params = {
             {param = "code", explain = "", type = ""},
 
@@ -304,8 +280,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearControlMods",
+    ["ClearControlMods"] = {
         params = {
 
         },
@@ -316,8 +291,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanLocomote",
+    ["CanLocomote"] = {
         params = {
 
         },
@@ -328,8 +302,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBusy",
+    ["IsBusy"] = {
         params = {
 
         },
@@ -340,8 +313,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCursorInventoryObject",
+    ["GetCursorInventoryObject"] = {
         params = {
 
         },
@@ -352,8 +324,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCursorInventorySlotAndContainer",
+    ["GetCursorInventorySlotAndContainer"] = {
         params = {
 
         },
@@ -364,8 +335,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoControllerActionButton",
+    ["DoControllerActionButton"] = {
         params = {
 
         },
@@ -376,8 +346,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteControllerActionButton",
+    ["OnRemoteControllerActionButton"] = {
         params = {
             {param = "actioncode", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -393,8 +362,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteControllerActionButtonPoint",
+    ["OnRemoteControllerActionButtonPoint"] = {
         params = {
             {param = "actioncode", explain = "", type = ""},
             {param = "position", explain = "", type = ""},
@@ -413,8 +381,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteControllerActionButtonDeploy",
+    ["OnRemoteControllerActionButtonDeploy"] = {
         params = {
             {param = "invobject", explain = "", type = ""},
             {param = "position", explain = "", type = ""},
@@ -429,8 +396,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoControllerAltActionButton",
+    ["DoControllerAltActionButton"] = {
         params = {
 
         },
@@ -441,8 +407,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteControllerAltActionButton",
+    ["OnRemoteControllerAltActionButton"] = {
         params = {
             {param = "actioncode", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -458,8 +423,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteControllerAltActionButtonPoint",
+    ["OnRemoteControllerAltActionButtonPoint"] = {
         params = {
             {param = "actioncode", explain = "", type = ""},
             {param = "position", explain = "", type = ""},
@@ -476,8 +440,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoControllerAttackButton",
+    ["DoControllerAttackButton"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -489,8 +452,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteControllerAttackButton",
+    ["OnRemoteControllerAttackButton"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "isreleased", explain = "", type = ""},
@@ -504,8 +466,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoControllerDropItemFromInvTile",
+    ["DoControllerDropItemFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "single", explain = "", type = ""},
@@ -518,8 +479,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoControllerInspectItemFromInvTile",
+    ["DoControllerInspectItemFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -531,8 +491,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoControllerUseItemOnSelfFromInvTile",
+    ["DoControllerUseItemOnSelfFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -544,8 +503,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoControllerUseItemOnSceneFromInvTile",
+    ["DoControllerUseItemOnSceneFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -557,8 +515,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RotLeft",
+    ["RotLeft"] = {
         params = {
 
         },
@@ -569,8 +526,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RotRight",
+    ["RotRight"] = {
         params = {
 
         },
@@ -581,8 +537,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHoverTextOverride",
+    ["GetHoverTextOverride"] = {
         params = {
 
         },
@@ -593,8 +548,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelPlacement",
+    ["CancelPlacement"] = {
         params = {
             {param = "cache", explain = "", type = ""},
 
@@ -606,8 +560,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelDeployPlacement",
+    ["CancelDeployPlacement"] = {
         params = {
 
         },
@@ -618,8 +571,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartBuildPlacementMode",
+    ["StartBuildPlacementMode"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
             {param = "skin", explain = "", type = ""},
@@ -632,8 +584,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAOETargetingPos",
+    ["GetAOETargetingPos"] = {
         params = {
 
         },
@@ -644,8 +595,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAOETargeting",
+    ["IsAOETargeting"] = {
         params = {
 
         },
@@ -656,8 +606,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasAOETargeting",
+    ["HasAOETargeting"] = {
         params = {
 
         },
@@ -668,8 +617,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryAOETargeting",
+    ["TryAOETargeting"] = {
         params = {
 
         },
@@ -680,8 +628,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartAOETargetingUsing",
+    ["StartAOETargetingUsing"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -693,8 +640,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetActiveSpellBook",
+    ["GetActiveSpellBook"] = {
         params = {
 
         },
@@ -705,8 +651,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelAOETargeting",
+    ["CancelAOETargeting"] = {
         params = {
 
         },
@@ -717,8 +662,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EchoReticuleAt",
+    ["EchoReticuleAt"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -732,8 +676,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RefreshReticule",
+    ["RefreshReticule"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -745,8 +688,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAttackTarget",
+    ["GetAttackTarget"] = {
         params = {
             {param = "force_attack", explain = "", type = ""},
             {param = "force_target", explain = "", type = ""},
@@ -761,8 +703,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoAttackButton",
+    ["DoAttackButton"] = {
         params = {
             {param = "retarget", explain = "", type = ""},
 
@@ -774,8 +715,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteAttackButton",
+    ["OnRemoteAttackButton"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "force_attack", explain = "", type = ""},
@@ -789,8 +729,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteAttackButton",
+    ["RemoteAttackButton"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "force_attack", explain = "", type = ""},
@@ -803,8 +742,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDoingOrWorking",
+    ["IsDoingOrWorking"] = {
         params = {
 
         },
@@ -815,8 +753,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetActionButtonAction",
+    ["GetActionButtonAction"] = {
         params = {
             {param = "force_target", explain = "", type = ""},
 
@@ -828,8 +765,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoActionButton",
+    ["DoActionButton"] = {
         params = {
 
         },
@@ -840,8 +776,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteActionButton",
+    ["OnRemoteActionButton"] = {
         params = {
             {param = "actioncode", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -857,8 +792,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteActionButton",
+    ["RemoteActionButton"] = {
         params = {
             {param = "action", explain = "", type = ""},
             {param = "isreleased", explain = "", type = ""},
@@ -871,8 +805,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetInspectButtonAction",
+    ["GetInspectButtonAction"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -884,8 +817,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoInspectButton",
+    ["DoInspectButton"] = {
         params = {
 
         },
@@ -896,8 +828,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteInspectButton",
+    ["OnRemoteInspectButton"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -909,8 +840,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteInspectButton",
+    ["RemoteInspectButton"] = {
         params = {
             {param = "action", explain = "", type = ""},
 
@@ -922,8 +852,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetResurrectButtonAction",
+    ["GetResurrectButtonAction"] = {
         params = {
 
         },
@@ -934,8 +863,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoResurrectButton",
+    ["DoResurrectButton"] = {
         params = {
 
         },
@@ -946,8 +874,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteResurrectButton",
+    ["OnRemoteResurrectButton"] = {
         params = {
 
         },
@@ -958,8 +885,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteResurrectButton",
+    ["RemoteResurrectButton"] = {
         params = {
 
         },
@@ -970,8 +896,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UsingMouse",
+    ["UsingMouse"] = {
         params = {
 
         },
@@ -982,8 +907,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearActionHold",
+    ["ClearActionHold"] = {
         params = {
 
         },
@@ -994,8 +918,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RepeatHeldAction",
+    ["RepeatHeldAction"] = {
         params = {
 
         },
@@ -1006,8 +929,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnWallUpdate",
+    ["OnWallUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -1019,8 +941,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCombatRetarget",
+    ["GetCombatRetarget"] = {
         params = {
 
         },
@@ -1031,8 +952,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCombatTarget",
+    ["GetCombatTarget"] = {
         params = {
 
         },
@@ -1043,8 +963,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -1056,8 +975,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateControllerTargets",
+    ["UpdateControllerTargets"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -1069,8 +987,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetControllerTarget",
+    ["GetControllerTarget"] = {
         params = {
 
         },
@@ -1081,8 +998,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetControllerAttackTarget",
+    ["GetControllerAttackTarget"] = {
         params = {
 
         },
@@ -1093,8 +1009,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsControllerTargetingModifierDown",
+    ["IsControllerTargetingModifierDown"] = {
         params = {
 
         },
@@ -1105,8 +1020,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsControllerTargetLockEnabled",
+    ["IsControllerTargetLockEnabled"] = {
         params = {
 
         },
@@ -1117,8 +1031,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsControllerTargetLocked",
+    ["IsControllerTargetLocked"] = {
         params = {
 
         },
@@ -1129,8 +1042,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ControllerTargetLock",
+    ["ControllerTargetLock"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -1142,8 +1054,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CycleControllerAttackTargetForward",
+    ["CycleControllerAttackTargetForward"] = {
         params = {
 
         },
@@ -1154,8 +1065,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CycleControllerAttackTargetBack",
+    ["CycleControllerAttackTargetBack"] = {
         params = {
 
         },
@@ -1166,8 +1076,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRemoteDirectVector",
+    ["GetRemoteDirectVector"] = {
         params = {
 
         },
@@ -1178,8 +1087,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRemoteDragPosition",
+    ["GetRemoteDragPosition"] = {
         params = {
 
         },
@@ -1190,8 +1098,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRemotePredictPosition",
+    ["GetRemotePredictPosition"] = {
         params = {
 
         },
@@ -1202,8 +1109,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteDirectWalking",
+    ["OnRemoteDirectWalking"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -1216,8 +1122,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteDragWalking",
+    ["OnRemoteDragWalking"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -1230,8 +1135,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemotePredictWalking",
+    ["OnRemotePredictWalking"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -1246,8 +1150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemotePredictOverrideLocomote",
+    ["OnRemotePredictOverrideLocomote"] = {
         params = {
             {param = "dir", explain = "", type = ""},
 
@@ -1259,8 +1162,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteStartHop",
+    ["OnRemoteStartHop"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -1274,8 +1176,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteStopWalking",
+    ["OnRemoteStopWalking"] = {
         params = {
 
         },
@@ -1286,8 +1187,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteStopHopping",
+    ["OnRemoteStopHopping"] = {
         params = {
 
         },
@@ -1298,8 +1198,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteDirectWalking",
+    ["RemoteDirectWalking"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -1312,8 +1211,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteDragWalking",
+    ["RemoteDragWalking"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -1326,8 +1224,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemotePredictWalking",
+    ["RemotePredictWalking"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "z", explain = "", type = ""},
@@ -1341,8 +1238,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemotePredictOverrideLocomote",
+    ["RemotePredictOverrideLocomote"] = {
         params = {
 
         },
@@ -1353,8 +1249,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteStopWalking",
+    ["RemoteStopWalking"] = {
         params = {
 
         },
@@ -1365,8 +1260,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoPredictHopping",
+    ["DoPredictHopping"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -1378,8 +1272,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLocalOrRemoteHopping",
+    ["IsLocalOrRemoteHopping"] = {
         params = {
 
         },
@@ -1390,8 +1283,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoClientBusyOverrideLocomote",
+    ["DoClientBusyOverrideLocomote"] = {
         params = {
 
         },
@@ -1402,8 +1294,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoPredictWalking",
+    ["DoPredictWalking"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -1415,8 +1306,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDragWalking",
+    ["DoDragWalking"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -1428,8 +1318,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoBoatSteering",
+    ["DoBoatSteering"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -1441,8 +1330,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDirectWalking",
+    ["DoDirectWalking"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -1454,8 +1342,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoCameraControl",
+    ["DoCameraControl"] = {
         params = {
 
         },
@@ -1466,8 +1353,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLeftUp",
+    ["OnLeftUp"] = {
         params = {
 
         },
@@ -1478,8 +1364,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoAction",
+    ["DoAction"] = {
         params = {
             {param = "buffaction", explain = "", type = ""},
             {param = "spellbook", explain = "", type = ""},
@@ -1492,8 +1377,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoActionAutoEquip",
+    ["DoActionAutoEquip"] = {
         params = {
             {param = "buffaction", explain = "", type = ""},
 
@@ -1505,8 +1389,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLeftClick",
+    ["OnLeftClick"] = {
         params = {
             {param = "down", explain = "", type = ""},
 
@@ -1518,8 +1401,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteLeftClick",
+    ["OnRemoteLeftClick"] = {
         params = {
             {param = "actioncode", explain = "", type = ""},
             {param = "position", explain = "", type = ""},
@@ -1539,8 +1421,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPlatformRelativePosition",
+    ["GetPlatformRelativePosition"] = {
         params = {
             {param = "absolute_x", explain = "", type = ""},
             {param = "absolute_z", explain = "", type = ""},
@@ -1553,8 +1434,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRightClick",
+    ["OnRightClick"] = {
         params = {
             {param = "down", explain = "", type = ""},
 
@@ -1566,8 +1446,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteRightClick",
+    ["OnRemoteRightClick"] = {
         params = {
             {param = "actioncode", explain = "", type = ""},
             {param = "position", explain = "", type = ""},
@@ -1586,8 +1465,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemapMapAction",
+    ["RemapMapAction"] = {
         params = {
             {param = "act", explain = "", type = ""},
             {param = "position", explain = "", type = ""},
@@ -1600,8 +1478,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMapActions",
+    ["GetMapActions"] = {
         params = {
             {param = "position", explain = "", type = ""},
             {param = "maptarget", explain = "", type = ""},
@@ -1614,8 +1491,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateActionsToMapActions",
+    ["UpdateActionsToMapActions"] = {
         params = {
             {param = "position", explain = "", type = ""},
             {param = "maptarget", explain = "", type = ""},
@@ -1628,8 +1504,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnMapAction",
+    ["OnMapAction"] = {
         params = {
             {param = "actioncode", explain = "", type = ""},
             {param = "position", explain = "", type = ""},
@@ -1643,8 +1518,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLeftMouseAction",
+    ["GetLeftMouseAction"] = {
         params = {
 
         },
@@ -1655,8 +1529,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRightMouseAction",
+    ["GetRightMouseAction"] = {
         params = {
 
         },
@@ -1667,8 +1540,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetItemSelfAction",
+    ["GetItemSelfAction"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -1680,8 +1552,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSceneItemControllerAction",
+    ["GetSceneItemControllerAction"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -1693,8 +1564,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetGroundUseAction",
+    ["GetGroundUseAction"] = {
         params = {
             {param = "position", explain = "", type = ""},
             {param = "spellbook", explain = "", type = ""},
@@ -1707,8 +1577,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetGroundUseSpecialAction",
+    ["GetGroundUseSpecialAction"] = {
         params = {
             {param = "position", explain = "", type = ""},
             {param = "right", explain = "", type = ""},
@@ -1721,8 +1590,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasGroundUseSpecialAction",
+    ["HasGroundUseSpecialAction"] = {
         params = {
             {param = "right", explain = "", type = ""},
 
@@ -1734,8 +1602,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteUseItemFromInvTile",
+    ["RemoteUseItemFromInvTile"] = {
         params = {
             {param = "buffaction", explain = "", type = ""},
             {param = "item", explain = "", type = ""},
@@ -1748,8 +1615,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteControllerUseItemOnItemFromInvTile",
+    ["RemoteControllerUseItemOnItemFromInvTile"] = {
         params = {
             {param = "buffaction", explain = "", type = ""},
             {param = "item", explain = "", type = ""},
@@ -1763,8 +1629,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteControllerUseItemOnSelfFromInvTile",
+    ["RemoteControllerUseItemOnSelfFromInvTile"] = {
         params = {
             {param = "buffaction", explain = "", type = ""},
             {param = "item", explain = "", type = ""},
@@ -1777,8 +1642,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteControllerUseItemOnSceneFromInvTile",
+    ["RemoteControllerUseItemOnSceneFromInvTile"] = {
         params = {
             {param = "buffaction", explain = "", type = ""},
             {param = "item", explain = "", type = ""},
@@ -1791,8 +1655,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteInspectItemFromInvTile",
+    ["RemoteInspectItemFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -1804,8 +1667,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteDropItemFromInvTile",
+    ["RemoteDropItemFromInvTile"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "single", explain = "", type = ""},
@@ -1818,8 +1680,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteCastSpellBookFromInv",
+    ["RemoteCastSpellBookFromInv"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "spell_id", explain = "", type = ""},
@@ -1832,8 +1693,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteMakeRecipeFromMenu",
+    ["RemoteMakeRecipeFromMenu"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
             {param = "skin", explain = "", type = ""},
@@ -1846,8 +1706,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteMakeRecipeAtPoint",
+    ["RemoteMakeRecipeAtPoint"] = {
         params = {
             {param = "recipe", explain = "", type = ""},
             {param = "pt", explain = "", type = ""},
@@ -1862,8 +1721,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoteBufferedAction",
+    ["RemoteBufferedAction"] = {
         params = {
             {param = "buffaction", explain = "", type = ""},
 
@@ -1875,8 +1733,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteBufferedAction",
+    ["OnRemoteBufferedAction"] = {
         params = {
 
         },
@@ -1887,8 +1744,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLocomotorBufferedAction",
+    ["OnLocomotorBufferedAction"] = {
         params = {
             {param = "act", explain = "", type = ""},
 
@@ -1900,8 +1756,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoteToggleMovementPrediction",
+    ["OnRemoteToggleMovementPrediction"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -1914,3 +1769,4 @@ data = {
     },
         
 }
+return data

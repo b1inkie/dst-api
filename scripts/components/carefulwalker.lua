@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCarefulWalkingSpeedMultiplier",
+    ["SetCarefulWalkingSpeedMultiplier"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TrackTarget",
+    ["TrackTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "radius", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsCarefulWalking",
+    ["IsCarefulWalking"] = {
         params = {
 
         },
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ToggleCareful",
+    ["ToggleCareful"] = {
         params = {
             {param = "careful", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -79,3 +73,4 @@ data = {
     },
         
 }
+return data

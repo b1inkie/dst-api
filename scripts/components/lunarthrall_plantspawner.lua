@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "MoveGestaltToPlant",
+    ["MoveGestaltToPlant"] = {
         params = {
             {param = "thrall", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnGestalt",
+    ["SpawnGestalt"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "rift", explain = "", type = ""},
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnPlant",
+    ["SpawnPlant"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindHerd",
+    ["FindHerd"] = {
         params = {
 
         },
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindPlant",
+    ["FindPlant"] = {
         params = {
 
         },
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InvadeTarget",
+    ["InvadeTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveWave",
+    ["RemoveWave"] = {
         params = {
 
         },
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "setHerdsOnPlantable",
+    ["setHerdsOnPlantable"] = {
         params = {
             {param = "plantable", explain = "", type = ""},
 
@@ -167,3 +154,4 @@ data = {
     },
         
 }
+return data

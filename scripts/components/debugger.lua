@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOrigin",
+    ["SetOrigin"] = {
         params = {
             {param = "key", explain = "", type = ""},
             {param = "x", explain = "", type = ""},
@@ -15,8 +14,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTarget",
+    ["SetTarget"] = {
         params = {
             {param = "key", explain = "", type = ""},
             {param = "x", explain = "", type = ""},
@@ -30,8 +28,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetColour",
+    ["SetColour"] = {
         params = {
             {param = "key", explain = "", type = ""},
             {param = "r", explain = "", type = ""},
@@ -47,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAll",
+    ["SetAll"] = {
         params = {
             {param = "key", explain = "", type = ""},
             {param = "origin", explain = "", type = ""},
@@ -63,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetZ",
+    ["SetZ"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -76,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
 
         },
@@ -89,3 +83,4 @@ data = {
     },
         
 }
+return data

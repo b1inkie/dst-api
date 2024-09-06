@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "MakeOpaque",
+    ["MakeOpaque"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDecayTime",
+    ["SetDecayTime"] = {
         params = {
             {param = "duration", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetConstructTime",
+    ["SetConstructTime"] = {
         params = {
             {param = "duration", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCutoffHeight",
+    ["SetCutoffHeight"] = {
         params = {
             {param = "cutoffheight", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIntensity",
+    ["SetIntensity"] = {
         params = {
             {param = "intensity", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnConstructCallback",
+    ["SetOnConstructCallback"] = {
         params = {
             {param = "callback", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnDecayCallback",
+    ["SetOnDecayCallback"] = {
         params = {
             {param = "callback", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Construct",
+    ["Construct"] = {
         params = {
 
         },
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Decay",
+    ["Decay"] = {
         params = {
             {param = "permanent", explain = "", type = ""},
 
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LockDecay",
+    ["LockDecay"] = {
         params = {
             {param = "locked", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPaused",
+    ["SetPaused"] = {
         params = {
             {param = "paused", explain = "", type = ""},
 
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -155,3 +143,4 @@ data = {
     },
         
 }
+return data

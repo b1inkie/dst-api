@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "ForceStopConstruction",
+    ["ForceStopConstruction"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Disable",
+    ["Disable"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEnabled",
+    ["IsEnabled"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetConstructionPrefab",
+    ["SetConstructionPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStartConstructionFn",
+    ["SetOnStartConstructionFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStopConstructionFn",
+    ["SetOnStopConstructionFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnConstructedFn",
+    ["SetOnConstructedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStartConstruction",
+    ["OnStartConstruction"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStopConstruction",
+    ["OnStopConstruction"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnConstruct",
+    ["OnConstruct"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "items", explain = "", type = ""},
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasBuilder",
+    ["HasBuilder"] = {
         params = {
 
         },
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBuilder",
+    ["IsBuilder"] = {
         params = {
             {param = "guy", explain = "", type = ""},
 
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddMaterial",
+    ["AddMaterial"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "num", explain = "", type = ""},
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveMaterial",
+    ["RemoveMaterial"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "num", explain = "", type = ""},
@@ -193,8 +178,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropAllMaterials",
+    ["DropAllMaterials"] = {
         params = {
             {param = "drop_pos", explain = "", type = ""},
 
@@ -206,8 +190,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaterialCount",
+    ["GetMaterialCount"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -219,8 +202,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSlotCount",
+    ["GetSlotCount"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -232,8 +214,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsComplete",
+    ["IsComplete"] = {
         params = {
 
         },
@@ -244,8 +225,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -256,8 +236,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -269,8 +248,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -282,3 +260,4 @@ data = {
     },
         
 }
+return data

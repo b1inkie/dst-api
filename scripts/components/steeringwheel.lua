@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnStartSteeringFn",
+    ["SetOnStartSteeringFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStopSteeringFn",
+    ["SetOnStopSteeringFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartSteering",
+    ["StartSteering"] = {
         params = {
             {param = "sailor", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopSteering",
+    ["StopSteering"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -76,3 +70,4 @@ data = {
     },
         
 }
+return data

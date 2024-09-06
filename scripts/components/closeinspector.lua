@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetInspectTargetFn",
+    ["SetInspectTargetFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetInspectPointFn",
+    ["SetInspectPointFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CloseInspectTarget",
+    ["CloseInspectTarget"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CloseInspectPoint",
+    ["CloseInspectPoint"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "pt", explain = "", type = ""},
@@ -67,3 +62,4 @@ data = {
     },
         
 }
+return data

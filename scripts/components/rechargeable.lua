@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnDischargedFn",
+    ["SetOnDischargedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnChargedFn",
+    ["SetOnChargedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxCharge",
+    ["SetMaxCharge"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetChargeTime",
+    ["SetChargeTime"] = {
         params = {
             {param = "t", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetChargeTimeMod",
+    ["SetChargeTimeMod"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveChargeTimeMod",
+    ["RemoveChargeTimeMod"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -106,8 +98,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsCharged",
+    ["IsCharged"] = {
         params = {
 
         },
@@ -118,8 +109,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCharge",
+    ["SetCharge"] = {
         params = {
             {param = "val", explain = "", type = ""},
             {param = "overtime", explain = "", type = ""},
@@ -132,8 +122,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetChargeTime",
+    ["GetChargeTime"] = {
         params = {
 
         },
@@ -144,8 +133,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCharge",
+    ["GetCharge"] = {
         params = {
 
         },
@@ -156,8 +144,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Discharge",
+    ["Discharge"] = {
         params = {
             {param = "chargetime", explain = "", type = ""},
 
@@ -169,8 +156,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -181,8 +167,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "pct", explain = "", type = ""},
 
@@ -194,8 +179,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRechargeTime",
+    ["GetRechargeTime"] = {
         params = {
 
         },
@@ -206,8 +190,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeToCharge",
+    ["GetTimeToCharge"] = {
         params = {
 
         },
@@ -218,8 +201,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -230,8 +212,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -243,8 +224,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -256,3 +236,4 @@ data = {
     },
         
 }
+return data

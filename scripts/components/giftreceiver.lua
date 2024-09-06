@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasGift",
+    ["HasGift"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RefreshGiftCount",
+    ["RefreshGiftCount"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGiftMachine",
+    ["SetGiftMachine"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OpenNextGift",
+    ["OpenNextGift"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStartOpenGift",
+    ["OnStartOpenGift"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStopOpenGift",
+    ["OnStopOpenGift"] = {
         params = {
             {param = "usewardrobe", explain = "", type = ""},
 
@@ -87,3 +80,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMoodTimeInDays",
+    ["SetMoodTimeInDays"] = {
         params = {
             {param = "length", explain = "", type = ""},
             {param = "wait", explain = "", type = ""},
@@ -43,8 +40,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ValidateMood",
+    ["ValidateMood"] = {
         params = {
 
         },
@@ -55,8 +51,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMoodSeason",
+    ["SetMoodSeason"] = {
         params = {
             {param = "activeseason", explain = "", type = ""},
 
@@ -68,8 +63,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckForMoodChange",
+    ["CheckForMoodChange"] = {
         params = {
 
         },
@@ -80,8 +74,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetInMoodFn",
+    ["SetInMoodFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -93,8 +86,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLeaveMoodFn",
+    ["SetLeaveMoodFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -106,8 +98,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResetMood",
+    ["ResetMood"] = {
         params = {
 
         },
@@ -118,8 +109,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInMood",
+    ["IsInMood"] = {
         params = {
 
         },
@@ -130,8 +120,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -156,3 +144,4 @@ data = {
     },
         
 }
+return data

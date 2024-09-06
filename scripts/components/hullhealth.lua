@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "UpdateHealth",
+    ["UpdateHealth"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLeakPosition",
+    ["GetLeakPosition"] = {
         params = {
             {param = "idx", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLeakAngle",
+    ["GetLeakAngle"] = {
         params = {
             {param = "idx", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RefreshLeakIndicator",
+    ["RefreshLeakIndicator"] = {
         params = {
             {param = "leak_idx", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnCollide",
+    ["OnCollide"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSelfDegrading",
+    ["SetSelfDegrading"] = {
         params = {
             {param = "stat", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnDegadeDebris",
+    ["SpawnDegadeDebris"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -129,3 +119,4 @@ data = {
     },
         
 }
+return data

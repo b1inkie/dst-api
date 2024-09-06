@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnCancel",
+    ["OnCancel"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnClick",
+    ["OnClick"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTalking",
+    ["StopTalking"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Initialize",
+    ["Initialize"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTalking",
+    ["IsTalking"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoTalk",
+    ["DoTalk"] = {
         params = {
 
         },
@@ -84,8 +77,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpeech",
+    ["SetSpeech"] = {
         params = {
             {param = "speech", explain = "", type = ""},
 
@@ -98,3 +90,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpawnTimes",
+    ["SetSpawnTimes"] = {
         params = {
             {param = "times", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxBats",
+    ["SetMaxBats"] = {
         params = {
             {param = "max", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTracking",
+    ["StartTracking"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSpawnPoint",
+    ["GetSpawnPoint"] = {
         params = {
             {param = "pt", explain = "", type = ""},
 
@@ -65,3 +60,4 @@ data = {
     },
         
 }
+return data

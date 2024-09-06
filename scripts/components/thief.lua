@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnStolenFn",
+    ["SetOnStolenFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StealItem",
+    ["StealItem"] = {
         params = {
             {param = "victim", explain = "", type = ""},
             {param = "itemtosteal", explain = "", type = ""},
@@ -29,3 +27,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetAllowedTags",
+    ["SetAllowedTags"] = {
         params = {
             {param = "tags", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnItemGivenFn",
+    ["SetOnItemGivenFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnItemTakenFn",
+    ["SetOnItemTakenFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsHolding",
+    ["IsHolding"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanGive",
+    ["CanGive"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "giver", explain = "", type = ""},
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanTake",
+    ["CanTake"] = {
         params = {
             {param = "taker", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GiveItem",
+    ["GiveItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "giver", explain = "", type = ""},
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeItem",
+    ["TakeItem"] = {
         params = {
             {param = "taker", explain = "", type = ""},
 
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "newents", explain = "", type = ""},
@@ -131,8 +121,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -143,8 +132,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -156,3 +144,4 @@ data = {
     },
         
 }
+return data

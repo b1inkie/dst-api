@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStartRace",
+    ["OnStartRace"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnFinishRace",
+    ["OnFinishRace"] = {
         params = {
 
         },
@@ -37,3 +34,4 @@ data = {
     },
         
 }
+return data

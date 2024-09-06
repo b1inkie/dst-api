@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetCanHerdFn",
+    ["SetCanHerdFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnHerdFn",
+    ["SetOnHerdFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUseAmount",
+    ["SetUseAmount"] = {
         params = {
             {param = "use_amount", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanHerd",
+    ["CanHerd"] = {
         params = {
             {param = "leader", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Herd",
+    ["Herd"] = {
         params = {
             {param = "leader", explain = "", type = ""},
 
@@ -66,3 +61,4 @@ data = {
     },
         
 }
+return data

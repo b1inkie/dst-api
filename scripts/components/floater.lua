@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetIsObstacle",
+    ["SetIsObstacle"] = {
         params = {
             {param = "bool", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSize",
+    ["SetSize"] = {
         params = {
             {param = "size", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetVerticalOffset",
+    ["SetVerticalOffset"] = {
         params = {
             {param = "offset", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetScale",
+    ["SetScale"] = {
         params = {
             {param = "scale", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBankSwapOnFloat",
+    ["SetBankSwapOnFloat"] = {
         params = {
             {param = "should_bank_swap", explain = "", type = ""},
             {param = "float_index", explain = "", type = ""},
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSwapData",
+    ["SetSwapData"] = {
         params = {
             {param = "swap_data", explain = "", type = ""},
 
@@ -80,8 +74,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldShowEffect",
+    ["ShouldShowEffect"] = {
         params = {
 
         },
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AttachEffect",
+    ["AttachEffect"] = {
         params = {
             {param = "effect", explain = "", type = ""},
 
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFloating",
+    ["IsFloating"] = {
         params = {
 
         },
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SwitchToFloatAnim",
+    ["SwitchToFloatAnim"] = {
         params = {
 
         },
@@ -129,8 +119,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLandedServer",
+    ["OnLandedServer"] = {
         params = {
 
         },
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLandedClient",
+    ["OnLandedClient"] = {
         params = {
 
         },
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SwitchToDefaultAnim",
+    ["SwitchToDefaultAnim"] = {
         params = {
             {param = "force_switch", explain = "", type = ""},
 
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Erode",
+    ["Erode"] = {
         params = {
             {param = "erode_time", explain = "", type = ""},
 
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnNoLongerLandedServer",
+    ["OnNoLongerLandedServer"] = {
         params = {
 
         },
@@ -191,8 +176,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnNoLongerLandedClient",
+    ["OnNoLongerLandedClient"] = {
         params = {
 
         },
@@ -204,3 +188,4 @@ data = {
     },
         
 }
+return data

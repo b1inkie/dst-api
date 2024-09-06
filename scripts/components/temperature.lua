@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetFreezingHurtRate",
+    ["SetFreezingHurtRate"] = {
         params = {
             {param = "rate", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOverheatHurtRate",
+    ["SetOverheatHurtRate"] = {
         params = {
             {param = "rate", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "delta", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTemperatureInBelly",
+    ["SetTemperatureInBelly"] = {
         params = {
             {param = "delta", explain = "", type = ""},
             {param = "duration", explain = "", type = ""},
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrent",
+    ["GetCurrent"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMax",
+    ["GetMax"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IgnoreTags",
+    ["IgnoreTags"] = {
         params = {
             {param = "...", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTemp",
+    ["SetTemp"] = {
         params = {
             {param = "temp", explain = "", type = ""},
 
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTemperature",
+    ["SetTemperature"] = {
         params = {
             {param = "value", explain = "", type = ""},
 
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFreezing",
+    ["IsFreezing"] = {
         params = {
 
         },
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOverheating",
+    ["IsOverheating"] = {
         params = {
 
         },
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetModifier",
+    ["SetModifier"] = {
         params = {
             {param = "name", explain = "", type = ""},
             {param = "value", explain = "", type = ""},
@@ -203,8 +187,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveModifier",
+    ["RemoveModifier"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -216,8 +199,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetInsulation",
+    ["GetInsulation"] = {
         params = {
 
         },
@@ -228,8 +210,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMoisturePenalty",
+    ["GetMoisturePenalty"] = {
         params = {
 
         },
@@ -240,8 +221,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
             {param = "applyhealthdelta", explain = "", type = ""},
@@ -254,8 +234,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -268,3 +247,4 @@ data = {
     },
         
 }
+return data

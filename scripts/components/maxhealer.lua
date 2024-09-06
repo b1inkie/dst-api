@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetHealthAmount",
+    ["SetHealthAmount"] = {
         params = {
             {param = "health", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Heal",
+    ["Heal"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

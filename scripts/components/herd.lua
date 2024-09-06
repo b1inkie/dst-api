@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMemberTag",
+    ["SetMemberTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGatherRange",
+    ["SetGatherRange"] = {
         params = {
             {param = "range", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUpdateRange",
+    ["SetUpdateRange"] = {
         params = {
             {param = "range", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxSize",
+    ["SetMaxSize"] = {
         params = {
             {param = "size", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnEmptyFn",
+    ["SetOnEmptyFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnFullFn",
+    ["SetOnFullFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAddMemberFn",
+    ["SetAddMemberFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRemoveMemberFn",
+    ["SetRemoveMemberFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFull",
+    ["IsFull"] = {
         params = {
 
         },
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddMember",
+    ["AddMember"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveMember",
+    ["RemoveMember"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -178,8 +164,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GatherNearbyMembers",
+    ["GatherNearbyMembers"] = {
         params = {
 
         },
@@ -190,8 +175,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MergeNearbyHerds",
+    ["MergeNearbyHerds"] = {
         params = {
 
         },
@@ -202,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
 
         },
@@ -214,8 +197,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -226,8 +208,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -241,3 +222,4 @@ data = {
     },
         
 }
+return data

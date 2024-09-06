@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetCanActivateFn",
+    ["SetCanActivateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCheckDestinationFn",
+    ["SetCheckDestinationFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStartTeleportFn",
+    ["SetOnStartTeleportFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnTeleportedFn",
+    ["SetOnTeleportedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStopTeleportFn",
+    ["SetOnStopTeleportFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetItemTeleportRadius",
+    ["SetItemTeleportRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanActivate",
+    ["CanActivate"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Teleport_GetNearbyItems",
+    ["Teleport_GetNearbyItems"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNearbyItems",
+    ["SetNearbyItems"] = {
         params = {
             {param = "nearbyitems", explain = "", type = ""},
 
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Teleport_Internal",
+    ["Teleport_Internal"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "from_x", explain = "", type = ""},
@@ -135,8 +125,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Teleport",
+    ["Teleport"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -148,8 +137,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStartTeleport",
+    ["OnStartTeleport"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -161,8 +149,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStopTeleport",
+    ["OnStopTeleport"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "success", explain = "", type = ""},
@@ -176,3 +163,4 @@ data = {
     },
         
 }
+return data

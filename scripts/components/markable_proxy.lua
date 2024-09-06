@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Mark",
+    ["Mark"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMarkable",
+    ["SetMarkable"] = {
         params = {
             {param = "markable", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasMarked",
+    ["HasMarked"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -40,3 +37,4 @@ data = {
     },
         
 }
+return data

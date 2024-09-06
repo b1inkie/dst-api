@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBoat",
+    ["SetBoat"] = {
         params = {
             {param = "boat", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsActivated",
+    ["IsActivated"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PairedBeacon",
+    ["PairedBeacon"] = {
         params = {
 
         },
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBeaconOnSameBoat",
+    ["IsBeaconOnSameBoat"] = {
         params = {
             {param = "beacon", explain = "", type = ""},
 
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindNearestBeacon",
+    ["FindNearestBeacon"] = {
         params = {
 
         },
@@ -111,8 +102,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PairWithBeacon",
+    ["PairWithBeacon"] = {
         params = {
             {param = "beacon", explain = "", type = ""},
 
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnpairWithBeacon",
+    ["UnpairWithBeacon"] = {
         params = {
 
         },
@@ -136,8 +125,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFollowTarget",
+    ["GetFollowTarget"] = {
         params = {
 
         },
@@ -148,8 +136,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcMaxVelocity",
+    ["CalcMaxVelocity"] = {
         params = {
 
         },
@@ -160,8 +147,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcMagnetDirection",
+    ["CalcMagnetDirection"] = {
         params = {
 
         },
@@ -172,8 +158,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcMagnetForce",
+    ["CalcMagnetForce"] = {
         params = {
 
         },
@@ -184,8 +169,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -197,8 +181,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -210,3 +193,4 @@ data = {
     },
         
 }
+return data

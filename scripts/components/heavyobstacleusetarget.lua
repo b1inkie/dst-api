@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "UseHeavyObstacle",
+    ["UseHeavyObstacle"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "heavy_obstacle", explain = "", type = ""},
@@ -15,3 +14,4 @@ data = {
     },
         
 }
+return data

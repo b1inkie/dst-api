@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDamageMultiplier",
+    ["SetDamageMultiplier"] = {
         params = {
             {param = "n", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDamageTakenMultiplier",
+    ["SetDamageTakenMultiplier"] = {
         params = {
             {param = "n", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpeedMultiplier",
+    ["SetSpeedMultiplier"] = {
         params = {
             {param = "n", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMultipliers",
+    ["SetMultipliers"] = {
         params = {
             {param = "tuning", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnInfuseFn",
+    ["SetOnInfuseFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnUninfuseFn",
+    ["SetOnUninfuseFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUseRainImmunity",
+    ["SetUseRainImmunity"] = {
         params = {
             {param = "userainimmunity", explain = "", type = ""},
 
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFXLevel",
+    ["SetFXLevel"] = {
         params = {
             {param = "level", explain = "", type = ""},
 
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInfused",
+    ["IsInfused"] = {
         params = {
 
         },
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnInfuse",
+    ["OnInfuse"] = {
         params = {
 
         },
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUninfuse",
+    ["OnUninfuse"] = {
         params = {
 
         },
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnInfusedDirty",
+    ["OnInfusedDirty"] = {
         params = {
             {param = "acidraining", explain = "", type = ""},
             {param = "hasrainimmunity", explain = "", type = ""},
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnFX",
+    ["SpawnFX"] = {
         params = {
 
         },
@@ -178,8 +164,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "KillFX",
+    ["KillFX"] = {
         params = {
 
         },
@@ -190,8 +175,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -203,3 +187,4 @@ data = {
     },
         
 }
+return data

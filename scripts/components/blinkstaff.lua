@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetFX",
+    ["SetFX"] = {
         params = {
             {param = "front", explain = "", type = ""},
             {param = "back", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResetSoundFX",
+    ["ResetSoundFX"] = {
         params = {
 
         },
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSoundFX",
+    ["SetSoundFX"] = {
         params = {
             {param = "presound", explain = "", type = ""},
             {param = "postsound", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnEffect",
+    ["SpawnEffect"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Blink",
+    ["Blink"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "caster", explain = "", type = ""},
@@ -68,3 +63,4 @@ data = {
     },
         
 }
+return data

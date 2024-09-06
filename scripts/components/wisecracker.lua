@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -14,3 +13,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "DoWorkout",
+    ["DoWorkout"] = {
         params = {
             {param = "gym", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopWorkout",
+    ["StopWorkout"] = {
         params = {
 
         },
@@ -26,3 +24,4 @@ data = {
     },
         
 }
+return data

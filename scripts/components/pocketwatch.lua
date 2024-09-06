@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanCast",
+    ["CanCast"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CastSpell",
+    ["CastSpell"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -43,3 +40,4 @@ data = {
     },
         
 }
+return data

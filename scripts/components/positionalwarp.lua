@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_MakeMarker",
+    ["_MakeMarker"] = {
         params = {
             {param = "i", explain = "", type = ""},
             {param = "prefab", explain = "", type = ""},
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMarker",
+    ["SetMarker"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWarpBackDist",
+    ["SetWarpBackDist"] = {
         params = {
             {param = "num_cache_points", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateMarker",
+    ["UpdateMarker"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CachePosition",
+    ["CachePosition"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHistoryPosition",
+    ["GetHistoryPosition"] = {
         params = {
             {param = "rewind", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
 
         },
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableMarker",
+    ["EnableMarker"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -164,3 +151,4 @@ data = {
     },
         
 }
+return data

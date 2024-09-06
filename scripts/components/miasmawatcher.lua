@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddMiasmaSource",
+    ["AddMiasmaSource"] = {
         params = {
             {param = "src", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveMiasmaSource",
+    ["RemoveMiasmaSource"] = {
         params = {
             {param = "src", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInMiasma",
+    ["IsInMiasma"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ToggleMiasma",
+    ["ToggleMiasma"] = {
         params = {
             {param = "active", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMiasmaSpeedMultiplier",
+    ["SetMiasmaSpeedMultiplier"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateMiasmaWalkSpeed",
+    ["UpdateMiasmaWalkSpeed"] = {
         params = {
 
         },
@@ -89,3 +82,4 @@ data = {
     },
         
 }
+return data

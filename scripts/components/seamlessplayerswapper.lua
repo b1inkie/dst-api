@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "_StartSwap",
+    ["_StartSwap"] = {
         params = {
             {param = "new_prefab", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoMonkeyChange",
+    ["DoMonkeyChange"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SwapBackToMainCharacter",
+    ["SwapBackToMainCharacter"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSeamlessCharacterSwap",
+    ["OnSeamlessCharacterSwap"] = {
         params = {
             {param = "old_player", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PostTransformSetup",
+    ["PostTransformSetup"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SaveForReroll",
+    ["SaveForReroll"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -100,3 +92,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Pop",
+    ["Pop"] = {
         params = {
 
         },
@@ -13,3 +12,4 @@ data = {
     },
         
 }
+return data

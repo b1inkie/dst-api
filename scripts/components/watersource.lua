@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Use",
+    ["Use"] = {
         params = {
 
         },
@@ -25,3 +23,4 @@ data = {
     },
         
 }
+return data

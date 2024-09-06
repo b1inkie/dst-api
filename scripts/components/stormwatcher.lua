@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetStormLevel",
+    ["GetStormLevel"] = {
         params = {
             {param = "stormtype", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentStorm",
+    ["GetCurrentStorm"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckStorms",
+    ["CheckStorms"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateStorms",
+    ["UpdateStorms"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateStormLevel",
+    ["UpdateStormLevel"] = {
         params = {
 
         },
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -78,3 +72,4 @@ data = {
     },
         
 }
+return data

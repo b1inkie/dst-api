@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RevealMapToPlayer",
+    ["RevealMapToPlayer"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -26,3 +24,4 @@ data = {
     },
         
 }
+return data

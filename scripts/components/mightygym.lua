@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetLevelArt",
+    ["SetLevelArt"] = {
         params = {
             {param = "level", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcWeight",
+    ["CalcWeight"] = {
         params = {
 
         },
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckForWeight",
+    ["CheckForWeight"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SwapWeight",
+    ["SwapWeight"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "swapitem", explain = "", type = ""},
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWeightSymbol",
+    ["SetWeightSymbol"] = {
         params = {
             {param = "weight", explain = "", type = ""},
             {param = "slot", explain = "", type = ""},
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadWeight",
+    ["LoadWeight"] = {
         params = {
             {param = "weight", explain = "", type = ""},
             {param = "slot", explain = "", type = ""},
@@ -80,8 +74,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnloadWeight",
+    ["UnloadWeight"] = {
         params = {
 
         },
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanWorkout",
+    ["CanWorkout"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalculateMightiness",
+    ["CalculateMightiness"] = {
         params = {
             {param = "perfect", explain = "", type = ""},
 
@@ -118,8 +109,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSkinModeOnGym",
+    ["SetSkinModeOnGym"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "skin_mode", explain = "", type = ""},
@@ -132,8 +122,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartWorkout",
+    ["StartWorkout"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -145,8 +134,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopWorkout",
+    ["StopWorkout"] = {
         params = {
 
         },
@@ -157,8 +145,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InUse",
+    ["InUse"] = {
         params = {
 
         },
@@ -169,8 +156,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CharacterEnterGym",
+    ["CharacterEnterGym"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -182,8 +168,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CharacterExitGym",
+    ["CharacterExitGym"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -196,3 +181,4 @@ data = {
     },
         
 }
+return data

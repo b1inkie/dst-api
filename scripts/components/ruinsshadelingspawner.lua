@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "TrySpawnShadeling",
+    ["TrySpawnShadeling"] = {
         params = {
             {param = "chair", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddStressCategory",
+    ["AddStressCategory"] = {
         params = {
             {param = "name", explain = "", type = ""},
             {param = "testfn", explain = "", type = ""},
@@ -15,8 +14,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CopyFrom",
+    ["CopyFrom"] = {
         params = {
             {param = "rhs", explain = "", type = ""},
 
@@ -28,8 +26,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
 
         },
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStressed",
+    ["SetStressed"] = {
         params = {
             {param = "name", explain = "", type = ""},
             {param = "stressed", explain = "", type = ""},
@@ -55,8 +51,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeCheckpoint",
+    ["MakeCheckpoint"] = {
         params = {
 
         },
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalcFinalStressState",
+    ["CalcFinalStressState"] = {
         params = {
 
         },
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFinalStressState",
+    ["GetFinalStressState"] = {
         params = {
 
         },
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnInteractWith",
+    ["OnInteractWith"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetStressDescription",
+    ["GetStressDescription"] = {
         params = {
             {param = "viewer", explain = "", type = ""},
 
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -129,8 +119,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -155,3 +143,4 @@ data = {
     },
         
 }
+return data

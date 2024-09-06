@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetShouldTrackFunction",
+    ["SetShouldTrackFunction"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldTrack",
+    ["ShouldTrack"] = {
         params = {
             {param = "viewer", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnRegisterWithWorldComponent",
+    ["UnRegisterWithWorldComponent"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RegisterWithWorldComponent",
+    ["RegisterWithWorldComponent"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -63,3 +58,4 @@ data = {
     },
         
 }
+return data

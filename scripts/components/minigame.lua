@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnActivatedFn",
+    ["SetOnActivatedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnDeactivatedFn",
+    ["SetOnDeactivatedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsActive",
+    ["IsActive"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Activate",
+    ["Activate"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Deactivate",
+    ["Deactivate"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddSpectator",
+    ["AddSpectator"] = {
         params = {
             {param = "spectator", explain = "", type = ""},
 
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddParticipator",
+    ["AddParticipator"] = {
         params = {
             {param = "participator", explain = "", type = ""},
             {param = "notimeout", explain = "", type = ""},
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoActivePulse",
+    ["DoActivePulse"] = {
         params = {
 
         },
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIsIntro",
+    ["SetIsIntro"] = {
         params = {
 
         },
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetIsIntro",
+    ["GetIsIntro"] = {
         params = {
 
         },
@@ -137,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIsPlaying",
+    ["SetIsPlaying"] = {
         params = {
 
         },
@@ -149,8 +137,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetIsPlaying",
+    ["GetIsPlaying"] = {
         params = {
 
         },
@@ -161,8 +148,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIsOutro",
+    ["SetIsOutro"] = {
         params = {
 
         },
@@ -173,8 +159,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetIsOutro",
+    ["GetIsOutro"] = {
         params = {
 
         },
@@ -185,8 +170,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RecordExcitement",
+    ["RecordExcitement"] = {
         params = {
 
         },
@@ -197,8 +181,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TimeSinceLastExcitement",
+    ["TimeSinceLastExcitement"] = {
         params = {
 
         },
@@ -209,8 +192,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsExciting",
+    ["IsExciting"] = {
         params = {
 
         },
@@ -221,8 +203,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -234,3 +215,4 @@ data = {
     },
         
 }
+return data

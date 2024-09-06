@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetPetFn",
+    ["SetPetFn"] = {
         params = {
             {param = "petfn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPet",
+    ["GetPet"] = {
         params = {
 
         },
@@ -26,3 +24,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetLevel",
+    ["SetLevel"] = {
         params = {
             {param = "level", explain = "", type = ""},
 
@@ -14,3 +13,4 @@ data = {
     },
         
 }
+return data

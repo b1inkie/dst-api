@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetPetPrefab",
+    ["SetPetPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnSpawnFn",
+    ["SetOnSpawnFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnDespawnFn",
+    ["SetOnDespawnFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnRemovedFn",
+    ["SetOnRemovedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxPets",
+    ["SetMaxPets"] = {
         params = {
             {param = "num", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaxPets",
+    ["GetMaxPets"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumPets",
+    ["GetNumPets"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFull",
+    ["IsFull"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPetAPrefabLimitedOne",
+    ["IsPetAPrefabLimitedOne"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxPetsForPrefab",
+    ["SetMaxPetsForPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "maxpets", explain = "", type = ""},
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaxPetsForPrefab",
+    ["GetMaxPetsForPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumPetsForPrefab",
+    ["GetNumPetsForPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -154,8 +142,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPetsWithPrefab",
+    ["GetPetsWithPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -167,8 +154,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFullForPrefab",
+    ["IsFullForPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -180,8 +166,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasPetWithTag",
+    ["HasPetWithTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -193,8 +178,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPets",
+    ["GetPets"] = {
         params = {
 
         },
@@ -205,8 +189,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPet",
+    ["IsPet"] = {
         params = {
             {param = "pet", explain = "", type = ""},
 
@@ -218,8 +201,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnPetAt",
+    ["SpawnPetAt"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -235,8 +217,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DespawnPet",
+    ["DespawnPet"] = {
         params = {
             {param = "pet", explain = "", type = ""},
 
@@ -248,8 +229,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DespawnAllPets",
+    ["DespawnAllPets"] = {
         params = {
 
         },
@@ -260,8 +240,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -272,8 +251,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -285,8 +263,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -297,8 +274,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -311,3 +287,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetSymbol",
+    ["GetSymbol"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaxHealth",
+    ["GetMaxHealth"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOverTime",
+    ["GetOverTime"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPulse",
+    ["GetPulse"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResetPulse",
+    ["ResetPulse"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSymbol",
+    ["SetSymbol"] = {
         params = {
             {param = "symbol", explain = "", type = ""},
 
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxHealth",
+    ["SetMaxHealth"] = {
         params = {
             {param = "max_health", explain = "", type = ""},
 
@@ -98,8 +90,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPetSkin",
+    ["SetPetSkin"] = {
         params = {
             {param = "petskin", explain = "", type = ""},
 
@@ -111,8 +102,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPet",
+    ["SetPet"] = {
         params = {
             {param = "pet", explain = "", type = ""},
             {param = "symbol", explain = "", type = ""},
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -152,3 +140,4 @@ data = {
     },
         
 }
+return data

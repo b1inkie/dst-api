@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "StartMonster",
+    ["StartMonster"] = {
         params = {
             {param = "starttime", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopMonster",
+    ["StopMonster"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnIgniteWave",
+    ["SpawnIgniteWave"] = {
         params = {
 
         },
@@ -75,3 +69,4 @@ data = {
     },
         
 }
+return data

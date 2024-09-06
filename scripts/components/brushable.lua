@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetBrushable",
+    ["SetBrushable"] = {
         params = {
             {param = "brushable", explain = "", type = ""},
             {param = "reset", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnBrushed",
+    ["SetOnBrushed"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalculateNumPrizes",
+    ["CalculateNumPrizes"] = {
         params = {
 
         },
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Brush",
+    ["Brush"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "brush", explain = "", type = ""},
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -91,3 +84,4 @@ data = {
     },
         
 }
+return data

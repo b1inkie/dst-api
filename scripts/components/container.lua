@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "WidgetSetup",
+    ["WidgetSetup"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWidget",
+    ["GetWidget"] = {
         params = {
 
         },
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NumItems",
+    ["NumItems"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFull",
+    ["IsFull"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEmpty",
+    ["IsEmpty"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNumSlots",
+    ["SetNumSlots"] = {
         params = {
             {param = "numslots", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropItemBySlot",
+    ["DropItemBySlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "drop_pos", explain = "", type = ""},
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropEverythingWithTag",
+    ["DropEverythingWithTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
             {param = "drop_pos", explain = "", type = ""},
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropEverything",
+    ["DropEverything"] = {
         params = {
             {param = "drop_pos", explain = "", type = ""},
             {param = "keepoverstacked", explain = "", type = ""},
@@ -119,8 +110,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropEverythingUpToMaxStacks",
+    ["DropEverythingUpToMaxStacks"] = {
         params = {
             {param = "maxstacks", explain = "", type = ""},
             {param = "drop_pos", explain = "", type = ""},
@@ -133,8 +123,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropItem",
+    ["DropItem"] = {
         params = {
             {param = "itemtodrop", explain = "", type = ""},
 
@@ -146,8 +135,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropOverstackedExcess",
+    ["DropOverstackedExcess"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -159,8 +147,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropItemAt",
+    ["DropItemAt"] = {
         params = {
             {param = "itemtodrop", explain = "", type = ""},
             {param = "x", explain = "", type = ""},
@@ -175,8 +162,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanTakeItemInSlot",
+    ["CanTakeItemInSlot"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "slot", explain = "", type = ""},
@@ -189,8 +175,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSpecificSlotForItem",
+    ["GetSpecificSlotForItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -202,8 +187,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldPrioritizeContainer",
+    ["ShouldPrioritizeContainer"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -215,8 +199,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AcceptsStacks",
+    ["AcceptsStacks"] = {
         params = {
 
         },
@@ -227,8 +210,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSideWidget",
+    ["IsSideWidget"] = {
         params = {
 
         },
@@ -239,8 +221,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DestroyContents",
+    ["DestroyContents"] = {
         params = {
             {param = "onpredestroyitemcallbackfn", explain = "", type = ""},
 
@@ -252,8 +233,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DestroyContentsConditionally",
+    ["DestroyContentsConditionally"] = {
         params = {
             {param = "filterfn", explain = "", type = ""},
             {param = "onpredestroyitemcallbackfn", explain = "", type = ""},
@@ -266,8 +246,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanAcceptCount",
+    ["CanAcceptCount"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "maxcount", explain = "", type = ""},
@@ -280,8 +259,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GiveItem",
+    ["GiveItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "slot", explain = "", type = ""},
@@ -296,8 +274,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveItemBySlot",
+    ["RemoveItemBySlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "keepoverstacked", explain = "", type = ""},
@@ -310,8 +287,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveAllItems",
+    ["RemoveAllItems"] = {
         params = {
 
         },
@@ -322,8 +298,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumSlots",
+    ["GetNumSlots"] = {
         params = {
 
         },
@@ -334,8 +309,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetItemInSlot",
+    ["GetItemInSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
 
@@ -347,8 +321,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetItemSlot",
+    ["GetItemSlot"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -360,8 +333,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAllItems",
+    ["GetAllItems"] = {
         params = {
 
         },
@@ -372,8 +344,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Open",
+    ["Open"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -385,8 +356,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Close",
+    ["Close"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -398,8 +368,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOpen",
+    ["IsOpen"] = {
         params = {
 
         },
@@ -410,8 +379,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOpenedBy",
+    ["IsOpenedBy"] = {
         params = {
             {param = "guy", explain = "", type = ""},
 
@@ -423,8 +391,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOpenedByOthers",
+    ["IsOpenedByOthers"] = {
         params = {
             {param = "guy", explain = "", type = ""},
 
@@ -436,8 +403,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanOpen",
+    ["CanOpen"] = {
         params = {
 
         },
@@ -448,8 +414,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOpeners",
+    ["GetOpeners"] = {
         params = {
 
         },
@@ -460,8 +425,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsHolding",
+    ["IsHolding"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "checkcontainer", explain = "", type = ""},
@@ -474,8 +438,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindItem",
+    ["FindItem"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -487,8 +450,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindItems",
+    ["FindItems"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -500,8 +462,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForEachItem",
+    ["ForEachItem"] = {
         params = {
             {param = "fn", explain = "", type = ""},
             {param = "...", explain = "", type = ""},
@@ -514,8 +475,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Has",
+    ["Has"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -529,8 +489,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasItemThatMatches",
+    ["HasItemThatMatches"] = {
         params = {
             {param = "fn", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -543,8 +502,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasItemWithTag",
+    ["HasItemWithTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -557,8 +515,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetItemsWithTag",
+    ["GetItemsWithTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -570,8 +527,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetItemByName",
+    ["GetItemByName"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -584,8 +540,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ConsumeByName",
+    ["ConsumeByName"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "amount", explain = "", type = ""},
@@ -598,8 +553,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -610,8 +564,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "newents", explain = "", type = ""},
@@ -624,8 +577,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveItem",
+    ["RemoveItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "wholestack", explain = "", type = ""},
@@ -640,8 +592,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveItem_Internal",
+    ["RemoveItem_Internal"] = {
         params = {
             {param = "item", explain = "", type = ""},
             {param = "slot", explain = "", type = ""},
@@ -656,8 +607,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -669,8 +619,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PutOneOfActiveItemInSlot",
+    ["PutOneOfActiveItemInSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "opener", explain = "", type = ""},
@@ -683,8 +632,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PutAllOfActiveItemInSlot",
+    ["PutAllOfActiveItemInSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "opener", explain = "", type = ""},
@@ -697,8 +645,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeActiveItemFromHalfOfSlot",
+    ["TakeActiveItemFromHalfOfSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "opener", explain = "", type = ""},
@@ -711,8 +658,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeActiveItemFromAllOfSlot",
+    ["TakeActiveItemFromAllOfSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "opener", explain = "", type = ""},
@@ -725,8 +671,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddOneOfActiveItemToSlot",
+    ["AddOneOfActiveItemToSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "opener", explain = "", type = ""},
@@ -739,8 +684,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddAllOfActiveItemToSlot",
+    ["AddAllOfActiveItemToSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "opener", explain = "", type = ""},
@@ -753,8 +697,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SwapActiveItemWithSlot",
+    ["SwapActiveItemWithSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "opener", explain = "", type = ""},
@@ -767,8 +710,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SwapOneOfActiveItemWithSlot",
+    ["SwapOneOfActiveItemWithSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "opener", explain = "", type = ""},
@@ -781,8 +723,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MoveItemFromAllOfSlot",
+    ["MoveItemFromAllOfSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "container", explain = "", type = ""},
@@ -796,8 +737,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MoveItemFromHalfOfSlot",
+    ["MoveItemFromHalfOfSlot"] = {
         params = {
             {param = "slot", explain = "", type = ""},
             {param = "container", explain = "", type = ""},
@@ -811,8 +751,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReferenceAllItems",
+    ["ReferenceAllItems"] = {
         params = {
 
         },
@@ -823,8 +762,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableInfiniteStackSize",
+    ["EnableInfiniteStackSize"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -837,3 +775,4 @@ data = {
     },
         
 }
+return data

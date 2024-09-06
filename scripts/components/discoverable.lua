@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Discover",
+    ["Discover"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Hide",
+    ["Hide"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIcons",
+    ["SetIcons"] = {
         params = {
             {param = "undiscovered", explain = "", type = ""},
             {param = "discovered", explain = "", type = ""},
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -65,3 +60,4 @@ data = {
     },
         
 }
+return data

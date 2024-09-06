@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetRadius",
+    ["GetRadius"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRadius",
+    ["SetRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumSegments",
+    ["GetNumSegments"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNumSegments",
+    ["SetNumSegments"] = {
         params = {
             {param = "segments", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsRotating",
+    ["IsRotating"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIsRotating",
+    ["SetIsRotating"] = {
         params = {
             {param = "isrotating", explain = "", type = ""},
 
@@ -76,3 +70,4 @@ data = {
     },
         
 }
+return data

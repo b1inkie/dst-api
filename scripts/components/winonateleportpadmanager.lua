@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAllWinonaTeleportPads",
+    ["GetAllWinonaTeleportPads"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRegisterWinonaTeleportPad",
+    ["OnRegisterWinonaTeleportPad"] = {
         params = {
             {param = "winonateleportpad", explain = "", type = ""},
 
@@ -38,3 +35,4 @@ data = {
     },
         
 }
+return data

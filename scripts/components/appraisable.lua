@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "CanAppraise",
+    ["CanAppraise"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Appraise",
+    ["Appraise"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

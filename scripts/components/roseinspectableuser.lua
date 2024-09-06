@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCooldownTime",
+    ["SetCooldownTime"] = {
         params = {
             {param = "cooldowntime", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GoOnCooldown",
+    ["GoOnCooldown"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnCharlieResidueActivated",
+    ["OnCharlieResidueActivated"] = {
         params = {
             {param = "residue", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRoseInpectionOnTarget",
+    ["SetRoseInpectionOnTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRoseInpectionOnPoint",
+    ["SetRoseInpectionOnPoint"] = {
         params = {
             {param = "point", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceDecayResidue",
+    ["ForceDecayResidue"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnResidue",
+    ["SpawnResidue"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoRoseInspectionOnPoint",
+    ["DoRoseInspectionOnPoint"] = {
         params = {
 
         },
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoQuip",
+    ["DoQuip"] = {
         params = {
             {param = "reason", explain = "", type = ""},
             {param = "failed", explain = "", type = ""},
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryToDoRoseInspectionOnTarget",
+    ["TryToDoRoseInspectionOnTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryToDoRoseInspectionOnPoint",
+    ["TryToDoRoseInspectionOnPoint"] = {
         params = {
             {param = "pt", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplyCooldown",
+    ["ApplyCooldown"] = {
         params = {
             {param = "duration", explain = "", type = ""},
 
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnCooldown",
+    ["OnCooldown"] = {
         params = {
 
         },
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInCooldown",
+    ["IsInCooldown"] = {
         params = {
 
         },
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -201,8 +185,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -214,8 +197,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -227,8 +209,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -240,3 +221,4 @@ data = {
     },
         
 }
+return data

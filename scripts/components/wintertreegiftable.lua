@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDaysSinceLastGift",
+    ["GetDaysSinceLastGift"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnGiftGiven",
+    ["OnGiftGiven"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -50,3 +46,4 @@ data = {
     },
         
 }
+return data

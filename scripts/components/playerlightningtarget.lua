@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetHitChance",
+    ["SetHitChance"] = {
         params = {
             {param = "chance", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHitChance",
+    ["GetHitChance"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStrikeFn",
+    ["SetOnStrikeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoStrike",
+    ["DoStrike"] = {
         params = {
 
         },
@@ -51,3 +47,4 @@ data = {
     },
         
 }
+return data

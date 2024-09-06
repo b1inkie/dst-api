@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnAddProjectileFn",
+    ["SetOnAddProjectileFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddProjectile",
+    ["AddProjectile"] = {
         params = {
 
         },
@@ -26,3 +24,4 @@ data = {
     },
         
 }
+return data

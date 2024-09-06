@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,22 +11,20 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetConsumption",
+    ["SetConsumption"] = {
         params = {
-            {param = "action", explain = "动作id", type = "全局变量"},
-            {param = "uses", explain = "剩余使用次数", type = "number"},
+            {param = "action", explain = "", type = ""},
+            {param = "uses", explain = "", type = ""},
 
         },
         returns = {
             
         },
-        tips = "设置对应动作的消耗次数",
-        author = "lan",
+        tips = "",
+        author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDoesNotStartFull",
+    ["SetDoesNotStartFull"] = {
         params = {
             {param = "enabled", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxUses",
+    ["SetMaxUses"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUses",
+    ["SetUses"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetUses",
+    ["GetUses"] = {
         params = {
 
         },
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Use",
+    ["Use"] = {
         params = {
             {param = "num", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IgnoresCombatDurabilityLoss",
+    ["IgnoresCombatDurabilityLoss"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIgnoreCombatDurabilityLoss",
+    ["SetIgnoreCombatDurabilityLoss"] = {
         params = {
             {param = "value", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUsedAsItem",
+    ["OnUsedAsItem"] = {
         params = {
             {param = "action", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -167,8 +154,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -192,8 +177,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnFinished",
+    ["SetOnFinished"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -205,8 +189,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Repair",
+    ["Repair"] = {
         params = {
             {param = "repairvalue", explain = "", type = ""},
 
@@ -219,3 +202,4 @@ data = {
     },
         
 }
+return data

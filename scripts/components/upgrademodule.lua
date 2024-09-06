@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetRequiredSlots",
+    ["SetRequiredSlots"] = {
         params = {
             {param = "slots", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTarget",
+    ["SetTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryActivate",
+    ["TryActivate"] = {
         params = {
             {param = "isloading", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryDeactivate",
+    ["TryDeactivate"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveFromOwner",
+    ["RemoveFromOwner"] = {
         params = {
 
         },
@@ -64,3 +59,4 @@ data = {
     },
         
 }
+return data

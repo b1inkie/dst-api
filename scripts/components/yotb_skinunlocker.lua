@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetSkin",
+    ["SetSkin"] = {
         params = {
             {param = "skin", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSkin",
+    ["GetSkin"] = {
         params = {
 
         },
@@ -26,3 +24,4 @@ data = {
     },
         
 }
+return data

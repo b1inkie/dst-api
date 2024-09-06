@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnResidueActivated",
+    ["SetOnResidueActivated"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnResidueCreated",
+    ["SetOnResidueCreated"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanResidueBeSpawnedBy",
+    ["SetCanResidueBeSpawnedBy"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanResidueBeSpawnedBy",
+    ["CanResidueBeSpawnedBy"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetForcedInduceCooldownOnActivate",
+    ["SetForcedInduceCooldownOnActivate"] = {
         params = {
             {param = "bool", explain = "", type = ""},
 
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWillInduceCooldownOnActivate",
+    ["SetWillInduceCooldownOnActivate"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WillInduceCooldownOnActivate",
+    ["WillInduceCooldownOnActivate"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HookupResidue",
+    ["HookupResidue"] = {
         params = {
             {param = "residueowner", explain = "", type = ""},
             {param = "residue", explain = "", type = ""},
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoRoseInspection",
+    ["DoRoseInspection"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -119,3 +110,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "FinishRemovingEntity",
+    ["FinishRemovingEntity"] = {
         params = {
             {param = "entity", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AttachEntityToBoat",
+    ["AttachEntityToBoat"] = {
         params = {
             {param = "obj", explain = "", type = ""},
             {param = "offset_x", explain = "", type = ""},
@@ -29,8 +27,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPlank",
+    ["SetPlank"] = {
         params = {
             {param = "obj", explain = "", type = ""},
 
@@ -42,8 +39,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBoatLip",
+    ["SetBoatLip"] = {
         params = {
             {param = "obj", explain = "", type = ""},
             {param = "scale", explain = "", type = ""},
@@ -56,8 +52,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRadius",
+    ["SetRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -69,8 +64,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRadius",
+    ["GetRadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -82,8 +76,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDeployed",
+    ["OnDeployed"] = {
         params = {
 
         },
@@ -94,8 +87,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -106,8 +98,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "ents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -121,3 +112,4 @@ data = {
     },
         
 }
+return data

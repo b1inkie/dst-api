@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddAnchorCmp",
+    ["AddAnchorCmp"] = {
         params = {
             {param = "anchor", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveAnchorCmp",
+    ["RemoveAnchorCmp"] = {
         params = {
             {param = "anchor", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddBoatDrag",
+    ["AddBoatDrag"] = {
         params = {
             {param = "boatdraginst", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveBoatDrag",
+    ["RemoveBoatDrag"] = {
         params = {
             {param = "boatdraginst", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTargetRudderDirection",
+    ["SetTargetRudderDirection"] = {
         params = {
             {param = "dir_x", explain = "", type = ""},
             {param = "dir_z", explain = "", type = ""},
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTargetRudderDirection",
+    ["GetTargetRudderDirection"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRudderDirection",
+    ["GetRudderDirection"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddMast",
+    ["AddMast"] = {
         params = {
             {param = "mast", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveMast",
+    ["RemoveMast"] = {
         params = {
             {param = "mast", explain = "", type = ""},
 
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddMagnet",
+    ["AddMagnet"] = {
         params = {
             {param = "magnet", explain = "", type = ""},
 
@@ -154,8 +142,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveMagnet",
+    ["RemoveMagnet"] = {
         params = {
             {param = "magnet", explain = "", type = ""},
 
@@ -167,8 +154,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDeath",
+    ["OnDeath"] = {
         params = {
 
         },
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMoveDirection",
+    ["GetMoveDirection"] = {
         params = {
 
         },
@@ -191,8 +176,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNormalizedVelocities",
+    ["GetNormalizedVelocities"] = {
         params = {
 
         },
@@ -203,8 +187,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetVelocity",
+    ["GetVelocity"] = {
         params = {
 
         },
@@ -215,8 +198,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetForceDampening",
+    ["GetForceDampening"] = {
         params = {
 
         },
@@ -227,8 +209,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoApplyForce",
+    ["DoApplyForce"] = {
         params = {
             {param = "dir_x", explain = "", type = ""},
             {param = "dir_z", explain = "", type = ""},
@@ -242,8 +223,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplyRowForce",
+    ["ApplyRowForce"] = {
         params = {
             {param = "dir_x", explain = "", type = ""},
             {param = "dir_z", explain = "", type = ""},
@@ -258,8 +238,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplyForce",
+    ["ApplyForce"] = {
         params = {
             {param = "dir_x", explain = "", type = ""},
             {param = "dir_z", explain = "", type = ""},
@@ -273,8 +252,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaxVelocity",
+    ["GetMaxVelocity"] = {
         params = {
 
         },
@@ -285,8 +263,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTotalAnchorDrag",
+    ["GetTotalAnchorDrag"] = {
         params = {
 
         },
@@ -297,8 +274,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBoatDrag",
+    ["GetBoatDrag"] = {
         params = {
             {param = "velocity", explain = "", type = ""},
             {param = "total_anchor_drag", explain = "", type = ""},
@@ -311,8 +287,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAnchorSailForceModifier",
+    ["GetAnchorSailForceModifier"] = {
         params = {
 
         },
@@ -323,8 +298,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRudderTurnSpeed",
+    ["GetRudderTurnSpeed"] = {
         params = {
 
         },
@@ -335,8 +309,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanSteeringRotate",
+    ["SetCanSteeringRotate"] = {
         params = {
             {param = "can_rotate", explain = "", type = ""},
 
@@ -348,8 +321,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplyDrag",
+    ["ApplyDrag"] = {
         params = {
             {param = "dt", explain = "", type = ""},
             {param = "total_drag", explain = "", type = ""},
@@ -365,8 +337,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplySailForce",
+    ["ApplySailForce"] = {
         params = {
             {param = "dt", explain = "", type = ""},
             {param = "sail_force", explain = "", type = ""},
@@ -381,8 +352,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplyMagnetForce",
+    ["ApplyMagnetForce"] = {
         params = {
             {param = "dt", explain = "", type = ""},
             {param = "magnet_force", explain = "", type = ""},
@@ -398,8 +368,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -411,8 +380,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddEmergencyBrakeSource",
+    ["AddEmergencyBrakeSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -424,8 +392,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveEmergencyBrakeSource",
+    ["RemoveEmergencyBrakeSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -437,8 +404,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHalting",
+    ["SetHalting"] = {
         params = {
             {param = "halt", explain = "", type = ""},
 
@@ -450,8 +416,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -462,8 +427,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUpdating",
+    ["StartUpdating"] = {
         params = {
 
         },
@@ -474,8 +438,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopUpdating",
+    ["StopUpdating"] = {
         params = {
 
         },
@@ -486,8 +449,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CloseAllSails",
+    ["CloseAllSails"] = {
         params = {
 
         },
@@ -498,8 +460,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -511,3 +472,4 @@ data = {
     },
         
 }
+return data

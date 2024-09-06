@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnIncinerateFn",
+    ["SetOnIncinerateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShouldIncinerateItemFn",
+    ["SetShouldIncinerateItemFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Incinerate",
+    ["Incinerate"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldIncinerateItem",
+    ["ShouldIncinerateItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -53,3 +49,4 @@ data = {
     },
         
 }
+return data

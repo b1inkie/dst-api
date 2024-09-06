@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNameOverride",
+    ["SetNameOverride"] = {
         params = {
             {param = "nameoverride", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RecordViews",
+    ["RecordViews"] = {
         params = {
             {param = "state", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetStatus",
+    ["GetStatus"] = {
         params = {
             {param = "viewer", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDescription",
+    ["GetDescription"] = {
         params = {
             {param = "viewer", explain = "", type = ""},
 
@@ -65,3 +60,4 @@ data = {
     },
         
 }
+return data

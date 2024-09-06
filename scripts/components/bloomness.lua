@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetLevel",
+    ["SetLevel"] = {
         params = {
             {param = "level", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDurations",
+    ["SetDurations"] = {
         params = {
             {param = "stage", explain = "", type = ""},
             {param = "full", explain = "", type = ""},
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLevel",
+    ["GetLevel"] = {
         params = {
 
         },
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateRate",
+    ["UpdateRate"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Fertilize",
+    ["Fertilize"] = {
         params = {
             {param = "value", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -128,3 +118,4 @@ data = {
     },
         
 }
+return data

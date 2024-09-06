@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "PickNewName",
+    ["PickNewName"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetName",
+    ["SetName"] = {
         params = {
             {param = "name", explain = "", type = ""},
             {param = "author", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -52,3 +48,4 @@ data = {
     },
         
 }
+return data

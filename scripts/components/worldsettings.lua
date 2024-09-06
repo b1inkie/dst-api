@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetSetting",
+    ["GetSetting"] = {
         params = {
             {param = "setting", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSetting",
+    ["SetSetting"] = {
         params = {
             {param = "setting", explain = "", type = ""},
             {param = "value", explain = "", type = ""},
@@ -28,3 +26,4 @@ data = {
     },
         
 }
+return data

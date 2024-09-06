@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnTransformFn",
+    ["SetOnTransformFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnRevertFn",
+    ["SetOnRevertFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetObjectData",
+    ["SetObjectData"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetObjectData",
+    ["GetObjectData"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveSleepEvents",
+    ["RemoveSleepEvents"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRevertEvent",
+    ["SetRevertEvent"] = {
         params = {
             {param = "event", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTransformEvent",
+    ["SetTransformEvent"] = {
         params = {
             {param = "event", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRevertWorldEvent",
+    ["SetRevertWorldEvent"] = {
         params = {
             {param = "event", explain = "", type = ""},
             {param = "value", explain = "", type = ""},
@@ -117,8 +108,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTransformWorldEvent",
+    ["SetTransformWorldEvent"] = {
         params = {
             {param = "event", explain = "", type = ""},
             {param = "value", explain = "", type = ""},
@@ -131,8 +121,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnLoadCheck",
+    ["SetOnLoadCheck"] = {
         params = {
             {param = "check", explain = "", type = ""},
 
@@ -144,8 +133,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Transform",
+    ["Transform"] = {
         params = {
 
         },
@@ -156,8 +144,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransformOnSleep",
+    ["TransformOnSleep"] = {
         params = {
 
         },
@@ -168,8 +155,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTransform",
+    ["StartTransform"] = {
         params = {
 
         },
@@ -180,8 +166,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Revert",
+    ["Revert"] = {
         params = {
 
         },
@@ -192,8 +177,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RevertOnSleep",
+    ["RevertOnSleep"] = {
         params = {
 
         },
@@ -204,8 +188,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartRevert",
+    ["StartRevert"] = {
         params = {
 
         },
@@ -216,8 +199,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -228,8 +210,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -241,8 +222,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "ents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -256,3 +236,4 @@ data = {
     },
         
 }
+return data

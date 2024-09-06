@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddSource",
+    ["AddSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveSource",
+    ["RemoveSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

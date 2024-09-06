@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnTakeDrowningDamageFn",
+    ["SetOnTakeDrowningDamageFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCustomTuningsFn",
+    ["SetCustomTuningsFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsOverWater",
+    ["IsOverWater"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldDrown",
+    ["ShouldDrown"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Teleport",
+    ["Teleport"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWashingAshoreTeleportSpot",
+    ["GetWashingAshoreTeleportSpot"] = {
         params = {
             {param = "excludeclosest", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WashAshore",
+    ["WashAshore"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldDropItems",
+    ["ShouldDropItems"] = {
         params = {
 
         },
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnFallInOcean",
+    ["OnFallInOcean"] = {
         params = {
             {param = "shore_x", explain = "", type = ""},
             {param = "shore_y", explain = "", type = ""},
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeDrowningDamage",
+    ["TakeDrowningDamage"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropInventory",
+    ["DropInventory"] = {
         params = {
 
         },
@@ -139,3 +128,4 @@ data = {
     },
         
 }
+return data

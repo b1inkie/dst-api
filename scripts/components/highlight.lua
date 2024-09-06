@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetAddColour",
+    ["SetAddColour"] = {
         params = {
             {param = "col", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Flash",
+    ["Flash"] = {
         params = {
             {param = "toadd", explain = "", type = ""},
             {param = "timein", explain = "", type = ""},
@@ -28,8 +26,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplyColour",
+    ["ApplyColour"] = {
         params = {
 
         },
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Highlight",
+    ["Highlight"] = {
         params = {
             {param = "r", explain = "", type = ""},
             {param = "g", explain = "", type = ""},
@@ -68,8 +63,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnHighlight",
+    ["UnHighlight"] = {
         params = {
 
         },
@@ -80,8 +74,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -93,3 +86,4 @@ data = {
     },
         
 }
+return data

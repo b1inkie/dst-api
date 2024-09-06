@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDSPTables",
+    ["GetDSPTables"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateDSPTables",
+    ["UpdateDSPTables"] = {
         params = {
 
         },
@@ -25,3 +23,4 @@ data = {
     },
         
 }
+return data

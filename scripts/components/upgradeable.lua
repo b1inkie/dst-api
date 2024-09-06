@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnUpgradeFn",
+    ["SetOnUpgradeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanUpgradeFn",
+    ["SetCanUpgradeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetStage",
+    ["GetStage"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStage",
+    ["SetStage"] = {
         params = {
             {param = "num", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AdvanceStage",
+    ["AdvanceStage"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanUpgrade",
+    ["CanUpgrade"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Upgrade",
+    ["Upgrade"] = {
         params = {
             {param = "obj", explain = "", type = ""},
             {param = "upgrade_performer", explain = "", type = ""},
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -115,3 +106,4 @@ data = {
     },
         
 }
+return data

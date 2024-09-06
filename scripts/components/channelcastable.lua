@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetStrafing",
+    ["SetStrafing"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStartChannelingFn",
+    ["SetOnStartChannelingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStopChannelingFn",
+    ["SetOnStopChannelingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsUserChanneling",
+    ["IsUserChanneling"] = {
         params = {
             {param = "user", explain = "", type = ""},
 
@@ -52,8 +48,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAnyUserChanneling",
+    ["IsAnyUserChanneling"] = {
         params = {
 
         },
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStartChanneling",
+    ["OnStartChanneling"] = {
         params = {
             {param = "user", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStopChanneling",
+    ["OnStopChanneling"] = {
         params = {
             {param = "user", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopChanneling",
+    ["StopChanneling"] = {
         params = {
 
         },
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -115,3 +106,4 @@ data = {
     },
         
 }
+return data

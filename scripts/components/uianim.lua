@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "UpdateWhilePaused",
+    ["UpdateWhilePaused"] = {
         params = {
             {param = "update_while_paused", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FinishCurrentTint",
+    ["FinishCurrentTint"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelTintTo",
+    ["CancelTintTo"] = {
         params = {
             {param = "run_complete_fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TintTo",
+    ["TintTo"] = {
         params = {
             {param = "start", explain = "", type = ""},
             {param = "dest", explain = "", type = ""},
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FinishCurrentScale",
+    ["FinishCurrentScale"] = {
         params = {
 
         },
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelScaleTo",
+    ["CancelScaleTo"] = {
         params = {
             {param = "run_complete_fn", explain = "", type = ""},
 
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ScaleTo",
+    ["ScaleTo"] = {
         params = {
             {param = "start", explain = "", type = ""},
             {param = "dest", explain = "", type = ""},
@@ -95,8 +88,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelMoveTo",
+    ["CancelMoveTo"] = {
         params = {
             {param = "run_complete_fn", explain = "", type = ""},
 
@@ -108,8 +100,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MoveTo",
+    ["MoveTo"] = {
         params = {
             {param = "start", explain = "", type = ""},
             {param = "dest", explain = "", type = ""},
@@ -124,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelRotateTo",
+    ["CancelRotateTo"] = {
         params = {
             {param = "run_complete_fn", explain = "", type = ""},
 
@@ -137,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RotateTo",
+    ["RotateTo"] = {
         params = {
             {param = "start", explain = "", type = ""},
             {param = "dest", explain = "", type = ""},
@@ -154,8 +143,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnWallUpdate",
+    ["OnWallUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -168,3 +156,4 @@ data = {
     },
         
 }
+return data

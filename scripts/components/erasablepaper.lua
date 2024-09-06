@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetErasedPrefab",
+    ["SetErasedPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStackSize",
+    ["SetStackSize"] = {
         params = {
             {param = "size", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoErase",
+    ["DoErase"] = {
         params = {
             {param = "eraser", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -41,3 +38,4 @@ data = {
     },
         
 }
+return data

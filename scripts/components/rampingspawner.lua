@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTrackingSpawn",
+    ["StopTrackingSpawn"] = {
         params = {
             {param = "spawn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSpawnDeath",
+    ["OnSpawnDeath"] = {
         params = {
             {param = "spawn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TrackSpawn",
+    ["TrackSpawn"] = {
         params = {
             {param = "spawn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentWave",
+    ["GetCurrentWave"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWaveSize",
+    ["GetWaveSize"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoWave",
+    ["DoWave"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSpawnPos",
+    ["GetSpawnPos"] = {
         params = {
 
         },
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSpawnRot",
+    ["GetSpawnRot"] = {
         params = {
 
         },
@@ -111,8 +102,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnEntity",
+    ["SpawnEntity"] = {
         params = {
 
         },
@@ -123,8 +113,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsActive",
+    ["IsActive"] = {
         params = {
 
         },
@@ -135,8 +124,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Start",
+    ["Start"] = {
         params = {
 
         },
@@ -147,8 +135,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
 
         },
@@ -159,8 +146,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
 
         },
@@ -171,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -183,8 +168,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -196,8 +180,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "ents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -211,3 +194,4 @@ data = {
     },
         
 }
+return data

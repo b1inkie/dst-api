@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Row",
+    ["Row"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "pos", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RowFail",
+    ["RowFail"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -28,3 +26,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnEatSoulFn",
+    ["SetOnEatSoulFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EatSoul",
+    ["EatSoul"] = {
         params = {
             {param = "soul", explain = "", type = ""},
 
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

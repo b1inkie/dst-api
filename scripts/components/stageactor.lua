@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "performedplay",
+    ["performedplay"] = {
         params = {
             {param = "story_id", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "performplay",
+    ["performplay"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStoryBeginFn",
+    ["SetOnStoryBeginFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStoryOverFn",
+    ["SetOnStoryOverFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTellingStory",
+    ["IsTellingStory"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AbortStory",
+    ["AbortStory"] = {
         params = {
             {param = "reason", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDone",
+    ["OnDone"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStoryTick",
+    ["OnStoryTick"] = {
         params = {
 
         },
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TellStory",
+    ["TellStory"] = {
         params = {
             {param = "storyprop", explain = "", type = ""},
             {param = "story", explain = "", type = ""},
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStage",
+    ["SetStage"] = {
         params = {
             {param = "stage", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetStage",
+    ["GetStage"] = {
         params = {
             {param = "stage", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -164,8 +151,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -178,3 +164,4 @@ data = {
     },
         
 }
+return data

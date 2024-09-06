@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDefaultTests",
+    ["SetDefaultTests"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTesting",
+    ["StopTesting"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNocturnal",
+    ["SetNocturnal"] = {
         params = {
             {param = "b", explain = "", type = ""},
 
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWakeTest",
+    ["SetWakeTest"] = {
         params = {
             {param = "fn", explain = "", type = ""},
             {param = "time", explain = "", type = ""},
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSleepTest",
+    ["SetSleepTest"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetResistance",
+    ["SetResistance"] = {
         params = {
             {param = "resist", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTesting",
+    ["StartTesting"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAsleep",
+    ["IsAsleep"] = {
         params = {
 
         },
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsHibernating",
+    ["IsHibernating"] = {
         params = {
 
         },
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsInDeepSleep",
+    ["IsInDeepSleep"] = {
         params = {
 
         },
@@ -162,8 +149,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeAwake",
+    ["GetTimeAwake"] = {
         params = {
 
         },
@@ -174,8 +160,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeAsleep",
+    ["GetTimeAsleep"] = {
         params = {
 
         },
@@ -186,8 +171,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -198,8 +182,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddSleepiness",
+    ["AddSleepiness"] = {
         params = {
             {param = "sleepiness", explain = "", type = ""},
             {param = "sleeptime", explain = "", type = ""},
@@ -212,8 +195,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetExtraResist",
+    ["SetExtraResist"] = {
         params = {
             {param = "resist", explain = "", type = ""},
 
@@ -225,8 +207,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSleepTimeMultiplier",
+    ["GetSleepTimeMultiplier"] = {
         params = {
 
         },
@@ -237,8 +218,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GoToSleep",
+    ["GoToSleep"] = {
         params = {
             {param = "sleeptime", explain = "", type = ""},
 
@@ -250,8 +230,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTest",
+    ["SetTest"] = {
         params = {
             {param = "fn", explain = "", type = ""},
             {param = "time", explain = "", type = ""},
@@ -264,8 +243,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WakeUp",
+    ["WakeUp"] = {
         params = {
 
         },
@@ -276,8 +254,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -288,8 +265,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -302,3 +278,4 @@ data = {
     },
         
 }
+return data

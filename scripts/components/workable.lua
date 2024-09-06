@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRequiresToughWork",
+    ["SetRequiresToughWork"] = {
         params = {
             {param = "tough", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWorkAction",
+    ["SetWorkAction"] = {
         params = {
             {param = "act", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWorkAction",
+    ["GetWorkAction"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Destroy",
+    ["Destroy"] = {
         params = {
             {param = "destroyer", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWorkable",
+    ["SetWorkable"] = {
         params = {
             {param = "able", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWorkLeft",
+    ["SetWorkLeft"] = {
         params = {
             {param = "work", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWorkLeft",
+    ["GetWorkLeft"] = {
         params = {
 
         },
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanBeWorked",
+    ["CanBeWorked"] = {
         params = {
 
         },
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnLoadFn",
+    ["SetOnLoadFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxWork",
+    ["SetMaxWork"] = {
         params = {
             {param = "work", explain = "", type = ""},
 
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -163,8 +150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -176,8 +162,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WorkedBy",
+    ["WorkedBy"] = {
         params = {
             {param = "worker", explain = "", type = ""},
             {param = "numworks", explain = "", type = ""},
@@ -190,8 +175,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WorkedBy_Internal",
+    ["WorkedBy_Internal"] = {
         params = {
             {param = "worker", explain = "", type = ""},
             {param = "numworks", explain = "", type = ""},
@@ -204,8 +188,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnWorkCallback",
+    ["SetOnWorkCallback"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -217,8 +200,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnFinishCallback",
+    ["SetOnFinishCallback"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -230,8 +212,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWorkMultiplierFn",
+    ["SetWorkMultiplierFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -243,8 +224,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShouldRecoilFn",
+    ["SetShouldRecoilFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -256,8 +236,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldRecoil",
+    ["ShouldRecoil"] = {
         params = {
             {param = "worker", explain = "", type = ""},
             {param = "tool", explain = "", type = ""},
@@ -272,3 +251,4 @@ data = {
     },
         
 }
+return data

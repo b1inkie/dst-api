@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPrize",
+    ["SetPrize"] = {
         params = {
             {param = "prize_prefab", explain = "", type = ""},
             {param = "prize_count", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanShave",
+    ["CanShave"] = {
         params = {
             {param = "shaver", explain = "", type = ""},
             {param = "shaving_implement", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Shave",
+    ["Shave"] = {
         params = {
             {param = "shaver", explain = "", type = ""},
             {param = "shaving_implement", explain = "", type = ""},
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -92,3 +85,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "CanStartBundling",
+    ["CanStartBundling"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBundling",
+    ["IsBundling"] = {
         params = {
             {param = "bundlinginst", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartBundling",
+    ["StartBundling"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopBundling",
+    ["StopBundling"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FinishBundling",
+    ["FinishBundling"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnFinishBundling",
+    ["OnFinishBundling"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -100,3 +92,4 @@ data = {
     },
         
 }
+return data

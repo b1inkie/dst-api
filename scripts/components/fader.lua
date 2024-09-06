@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Fade",
+    ["Fade"] = {
         params = {
             {param = "startval", explain = "", type = ""},
             {param = "endval", explain = "", type = ""},
@@ -18,8 +17,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopAll",
+    ["StopAll"] = {
         params = {
 
         },
@@ -30,8 +28,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -44,3 +41,4 @@ data = {
     },
         
 }
+return data

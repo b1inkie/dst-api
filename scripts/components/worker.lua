@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetEffectiveness",
+    ["GetEffectiveness"] = {
         params = {
             {param = "action", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAction",
+    ["SetAction"] = {
         params = {
             {param = "action", explain = "", type = ""},
             {param = "effectiveness", explain = "", type = ""},
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDoAction",
+    ["CanDoAction"] = {
         params = {
             {param = "action", explain = "", type = ""},
 
@@ -41,3 +38,4 @@ data = {
     },
         
 }
+return data

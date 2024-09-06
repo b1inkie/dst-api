@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AttachClassified",
+    ["AttachClassified"] = {
         params = {
             {param = "classified", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DetachClassified",
+    ["DetachClassified"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SubmitVote",
+    ["SubmitVote"] = {
         params = {
             {param = "sel", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSelection",
+    ["SetSelection"] = {
         params = {
             {param = "sel", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSelection",
+    ["GetSelection"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasVoted",
+    ["HasVoted"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanVote",
+    ["CanVote"] = {
         params = {
 
         },
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSquelched",
+    ["SetSquelched"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSquelched",
+    ["IsSquelched"] = {
         params = {
 
         },
@@ -125,3 +115,4 @@ data = {
     },
         
 }
+return data

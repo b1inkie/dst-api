@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetTimeToNextSpawn",
+    ["GetTimeToNextSpawn"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeToNextRegen",
+    ["GetTimeToNextRegen"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartRegen",
+    ["StartRegen"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRareChild",
+    ["SetRareChild"] = {
         params = {
             {param = "childname", explain = "", type = ""},
             {param = "chance", explain = "", type = ""},
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopRegen",
+    ["StopRegen"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpawnPeriod",
+    ["SetSpawnPeriod"] = {
         params = {
             {param = "period", explain = "", type = ""},
             {param = "variance", explain = "", type = ""},
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRegenPeriod",
+    ["SetRegenPeriod"] = {
         params = {
             {param = "period", explain = "", type = ""},
             {param = "variance", explain = "", type = ""},
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEmergencyRadius",
+    ["SetEmergencyRadius"] = {
         params = {
             {param = "rad", explain = "", type = ""},
 
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFull",
+    ["IsFull"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NumChildren",
+    ["NumChildren"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsEmergencyFull",
+    ["IsEmergencyFull"] = {
         params = {
 
         },
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NumEmergencyChildren",
+    ["NumEmergencyChildren"] = {
         params = {
 
         },
@@ -163,8 +150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoRegen",
+    ["DoRegen"] = {
         params = {
 
         },
@@ -175,8 +161,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -188,8 +173,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldUpdate",
+    ["ShouldUpdate"] = {
         params = {
 
         },
@@ -200,8 +184,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUpdate",
+    ["StartUpdate"] = {
         params = {
 
         },
@@ -212,8 +195,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryStopUpdate",
+    ["TryStopUpdate"] = {
         params = {
 
         },
@@ -224,8 +206,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartSpawning",
+    ["StartSpawning"] = {
         params = {
 
         },
@@ -236,8 +217,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopSpawning",
+    ["StopSpawning"] = {
         params = {
 
         },
@@ -248,8 +228,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOccupiedFn",
+    ["SetOccupiedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -261,8 +240,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpawnedFn",
+    ["SetSpawnedFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -274,8 +252,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnTakeOwnershipFn",
+    ["SetOnTakeOwnershipFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -287,8 +264,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGoHomeFn",
+    ["SetGoHomeFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -300,8 +276,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetVacateFn",
+    ["SetVacateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -313,8 +288,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnChildKilledFn",
+    ["SetOnChildKilledFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -326,8 +300,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnAddChildFn",
+    ["SetOnAddChildFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -339,8 +312,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CountChildrenOutside",
+    ["CountChildrenOutside"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -352,8 +324,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxChildren",
+    ["SetMaxChildren"] = {
         params = {
             {param = "max", explain = "", type = ""},
 
@@ -365,8 +336,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxEmergencyChildren",
+    ["SetMaxEmergencyChildren"] = {
         params = {
             {param = "max", explain = "", type = ""},
 
@@ -378,8 +348,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -390,8 +359,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -402,8 +370,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -415,8 +382,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoTakeOwnership",
+    ["DoTakeOwnership"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -428,8 +394,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeOwnership",
+    ["TakeOwnership"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -441,8 +406,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TakeEmergencyOwnership",
+    ["TakeEmergencyOwnership"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -454,8 +418,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -468,8 +431,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoSpawnChild",
+    ["DoSpawnChild"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "prefab", explain = "", type = ""},
@@ -483,8 +445,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "QueueSpawnChild",
+    ["QueueSpawnChild"] = {
         params = {
 
         },
@@ -495,8 +456,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -507,8 +467,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoQueuedSpawn",
+    ["DoQueuedSpawn"] = {
         params = {
 
         },
@@ -519,8 +478,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnChild",
+    ["SpawnChild"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "prefab", explain = "", type = ""},
@@ -534,8 +492,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnEmergencyChild",
+    ["SpawnEmergencyChild"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "prefab", explain = "", type = ""},
@@ -549,8 +506,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdateMaxEmergencyCommit",
+    ["UpdateMaxEmergencyCommit"] = {
         params = {
 
         },
@@ -561,8 +517,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TrySpawnEmergencyChild",
+    ["TrySpawnEmergencyChild"] = {
         params = {
 
         },
@@ -573,8 +528,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GoHome",
+    ["GoHome"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -586,8 +540,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanSpawnOffscreenOrAwake",
+    ["CanSpawnOffscreenOrAwake"] = {
         params = {
 
         },
@@ -598,8 +551,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanSpawn",
+    ["CanSpawn"] = {
         params = {
 
         },
@@ -610,8 +562,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanEmergencySpawn",
+    ["CanEmergencySpawn"] = {
         params = {
 
         },
@@ -622,8 +573,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnChildKilled",
+    ["OnChildKilled"] = {
         params = {
             {param = "child", explain = "", type = ""},
 
@@ -635,8 +585,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReleaseAllChildren",
+    ["ReleaseAllChildren"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "prefab", explain = "", type = ""},
@@ -650,8 +599,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddChildrenInside",
+    ["AddChildrenInside"] = {
         params = {
             {param = "count", explain = "", type = ""},
 
@@ -663,8 +611,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddEmergencyChildrenInside",
+    ["AddEmergencyChildrenInside"] = {
         params = {
             {param = "count", explain = "", type = ""},
 
@@ -676,8 +623,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -690,3 +636,4 @@ data = {
     },
         
 }
+return data

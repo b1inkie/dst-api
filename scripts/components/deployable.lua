@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDeployMode",
+    ["SetDeployMode"] = {
         params = {
             {param = "mode", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDeploySpacing",
+    ["SetDeploySpacing"] = {
         params = {
             {param = "spacing", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUseGridPlacer",
+    ["SetUseGridPlacer"] = {
         params = {
             {param = "usegridplacer", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DeploySpacingRadius",
+    ["DeploySpacingRadius"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDeployTossSymbolOverride",
+    ["SetDeployTossSymbolOverride"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDeployable",
+    ["IsDeployable"] = {
         params = {
             {param = "deployer", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDeploy",
+    ["CanDeploy"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "mouseover", explain = "", type = ""},
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Deploy",
+    ["Deploy"] = {
         params = {
             {param = "pt", explain = "", type = ""},
             {param = "deployer", explain = "", type = ""},
@@ -121,3 +112,4 @@ data = {
     },
         
 }
+return data

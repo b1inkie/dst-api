@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "IncrementPowerLevel",
+    ["IncrementPowerLevel"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPowerLevel",
+    ["GetPowerLevel"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryToSetDayWalkerJunkPile",
+    ["TryToSetDayWalkerJunkPile"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldShakeJunk",
+    ["ShouldShakeJunk"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanSpawnFromJunk",
+    ["CanSpawnFromJunk"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDayChange",
+    ["OnDayChange"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WatchDaywalker",
+    ["WatchDaywalker"] = {
         params = {
             {param = "daywalker", explain = "", type = ""},
 
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasDaywalker",
+    ["HasDaywalker"] = {
         params = {
 
         },
@@ -97,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPostInit",
+    ["OnPostInit"] = {
         params = {
 
         },
@@ -109,8 +100,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -121,8 +111,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -134,8 +123,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "ents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -149,3 +137,4 @@ data = {
     },
         
 }
+return data

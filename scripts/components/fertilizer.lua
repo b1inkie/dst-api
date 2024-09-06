@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHealingAmount",
+    ["SetHealingAmount"] = {
         params = {
             {param = "health", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNutrients",
+    ["SetNutrients"] = {
         params = {
             {param = "nutrient1", explain = "", type = ""},
             {param = "nutrient2", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnApplied",
+    ["OnApplied"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Heal",
+    ["Heal"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -68,3 +63,4 @@ data = {
     },
         
 }
+return data

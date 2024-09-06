@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetRestingLength",
+    ["SetRestingLength"] = {
         params = {
             {param = "length", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWidthRatio",
+    ["SetWidthRatio"] = {
         params = {
             {param = "ratio", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStretchTarget",
+    ["SetStretchTarget"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -77,3 +71,4 @@ data = {
     },
         
 }
+return data

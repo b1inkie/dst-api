@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "CanStartConstruction",
+    ["CanStartConstruction"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsConstructing",
+    ["IsConstructing"] = {
         params = {
             {param = "constructioninst", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsConstructingAny",
+    ["IsConstructingAny"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartConstruction",
+    ["StartConstruction"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopConstruction",
+    ["StopConstruction"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FinishConstruction",
+    ["FinishConstruction"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnFinishConstruction",
+    ["OnFinishConstruction"] = {
         params = {
 
         },
@@ -86,8 +79,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -98,8 +90,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -112,3 +103,4 @@ data = {
     },
         
 }
+return data

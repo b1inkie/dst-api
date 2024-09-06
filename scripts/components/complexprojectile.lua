@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHorizontalSpeed",
+    ["SetHorizontalSpeed"] = {
         params = {
             {param = "speed", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHorizontalSpeedForDistance",
+    ["SetHorizontalSpeedForDistance"] = {
         params = {
             {param = "desired_horizontal_distance", explain = "", type = ""},
             {param = "fallback", explain = "", type = ""},
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGravity",
+    ["SetGravity"] = {
         params = {
             {param = "g", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLaunchOffset",
+    ["SetLaunchOffset"] = {
         params = {
             {param = "offset", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTargetOffset",
+    ["SetTargetOffset"] = {
         params = {
             {param = "offset", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnLaunch",
+    ["SetOnLaunch"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnHit",
+    ["SetOnHit"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnUpdate",
+    ["SetOnUpdate"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -129,8 +119,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalculateMinimumSpeedForDistance",
+    ["CalculateMinimumSpeedForDistance"] = {
         params = {
             {param = "desired_horizontal_distance", explain = "", type = ""},
 
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalculateTrajectory",
+    ["CalculateTrajectory"] = {
         params = {
             {param = "startPos", explain = "", type = ""},
             {param = "endPos", explain = "", type = ""},
@@ -157,8 +145,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Launch",
+    ["Launch"] = {
         params = {
             {param = "targetPos", explain = "", type = ""},
             {param = "attacker", explain = "", type = ""},
@@ -172,8 +159,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Cancel",
+    ["Cancel"] = {
         params = {
 
         },
@@ -184,8 +170,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Hit",
+    ["Hit"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -197,8 +182,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -211,3 +195,4 @@ data = {
     },
         
 }
+return data

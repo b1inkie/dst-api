@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddTargetPrefab",
+    ["AddTargetPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "constructionprefab", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveTargetPrefab",
+    ["RemoveTargetPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartConstruction",
+    ["StartConstruction"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -53,3 +49,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetCanSummon",
+    ["SetCanSummon"] = {
         params = {
             {param = "cansummon", explain = "", type = ""},
 
@@ -14,3 +13,4 @@ data = {
     },
         
 }
+return data

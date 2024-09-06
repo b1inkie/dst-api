@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnPet",
+    ["OnPet"] = {
         params = {
             {param = "petter", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTracking",
+    ["StartTracking"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IncTracker",
+    ["IncTracker"] = {
         params = {
             {param = "name", explain = "", type = ""},
             {param = "multiplier", explain = "", type = ""},
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DecayTraits",
+    ["DecayTraits"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDominantTrait",
+    ["SetDominantTrait"] = {
         params = {
             {param = "trait", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDominantTrait",
+    ["IsDominantTrait"] = {
         params = {
             {param = "trait", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RefreshDominantTrait",
+    ["RefreshDominantTrait"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -127,3 +117,4 @@ data = {
     },
         
 }
+return data

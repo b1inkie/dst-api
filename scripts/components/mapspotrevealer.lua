@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGetTargetFn",
+    ["SetGetTargetFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPreRevealFn",
+    ["SetPreRevealFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RevealMap",
+    ["RevealMap"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -52,3 +48,4 @@ data = {
     },
         
 }
+return data

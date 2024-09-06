@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetCanBeRevivedByFn",
+    ["SetCanBeRevivedByFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanBeRevivedBy",
+    ["CanBeRevivedBy"] = {
         params = {
             {param = "reviver", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetReviveSpeedMult",
+    ["SetReviveSpeedMult"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetReviveSpeedMultForTag",
+    ["SetReviveSpeedMultForTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
             {param = "mult", explain = "", type = ""},
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetReviveSpeedMult",
+    ["GetReviveSpeedMult"] = {
         params = {
             {param = "reviver", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCorpse",
+    ["SetCorpse"] = {
         params = {
             {param = "corpse", explain = "", type = ""},
 
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Revive",
+    ["Revive"] = {
         params = {
             {param = "reviver", explain = "", type = ""},
 
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetReviveHealthPercent",
+    ["SetReviveHealthPercent"] = {
         params = {
             {param = "percent", explain = "", type = ""},
 
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetReviveHealthPercent",
+    ["GetReviveHealthPercent"] = {
         params = {
 
         },
@@ -118,3 +109,4 @@ data = {
     },
         
 }
+return data

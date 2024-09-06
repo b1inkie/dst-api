@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "EstablishLink",
+    ["EstablishLink"] = {
         params = {
             {param = "altars", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BreakLink",
+    ["BreakLink"] = {
         params = {
 
         },
@@ -26,3 +24,4 @@ data = {
     },
         
 }
+return data

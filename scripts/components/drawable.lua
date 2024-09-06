@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanDraw",
+    ["SetCanDraw"] = {
         params = {
             {param = "candraw", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDraw",
+    ["CanDraw"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnDrawnFn",
+    ["SetOnDrawnFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnDrawn",
+    ["OnDrawn"] = {
         params = {
             {param = "imagename", explain = "", type = ""},
             {param = "imagesource", explain = "", type = ""},
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetImage",
+    ["GetImage"] = {
         params = {
 
         },
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAtlas",
+    ["GetAtlas"] = {
         params = {
 
         },
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBGImage",
+    ["GetBGImage"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBGAtlas",
+    ["GetBGAtlas"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -141,3 +130,4 @@ data = {
     },
         
 }
+return data

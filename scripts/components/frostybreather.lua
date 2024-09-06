@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartBreath",
+    ["StartBreath"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopBreath",
+    ["StopBreath"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Disable",
+    ["Disable"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnTemperatureChanged",
+    ["OnTemperatureChanged"] = {
         params = {
             {param = "temperature", explain = "", type = ""},
 
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EmitOnce",
+    ["EmitOnce"] = {
         params = {
 
         },
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceBreathOn",
+    ["ForceBreathOn"] = {
         params = {
 
         },
@@ -97,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForceBreathOff",
+    ["ForceBreathOff"] = {
         params = {
 
         },
@@ -109,8 +100,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOffset",
+    ["SetOffset"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOffsetFn",
+    ["SetOffsetFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -137,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOffset",
+    ["GetOffset"] = {
         params = {
 
         },
@@ -150,3 +138,4 @@ data = {
     },
         
 }
+return data

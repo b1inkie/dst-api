@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddOnUpdateFn",
+    ["AddOnUpdateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveOnUpdateFn",
+    ["RemoveOnUpdateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddLongUpdateFn",
+    ["AddLongUpdateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveLongUpdateFn",
+    ["RemoveLongUpdateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddOnWallUpdateFn",
+    ["AddOnWallUpdateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveOnWallUpdateFn",
+    ["RemoveOnWallUpdateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnWallUpdate",
+    ["OnWallUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddPostUpdateFn",
+    ["AddPostUpdateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -154,8 +142,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemovePostUpdateFn",
+    ["RemovePostUpdateFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -168,3 +155,4 @@ data = {
     },
         
 }
+return data

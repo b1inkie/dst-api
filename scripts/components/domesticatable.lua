@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDomesticationTrigger",
+    ["SetDomesticationTrigger"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetObedience",
+    ["GetObedience"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDomestication",
+    ["GetDomestication"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Validate",
+    ["Validate"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckForChanges",
+    ["CheckForChanges"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BecomeDomesticated",
+    ["BecomeDomesticated"] = {
         params = {
 
         },
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DeltaObedience",
+    ["DeltaObedience"] = {
         params = {
             {param = "delta", explain = "", type = ""},
 
@@ -98,8 +90,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DeltaDomestication",
+    ["DeltaDomestication"] = {
         params = {
             {param = "delta", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DeltaTendency",
+    ["DeltaTendency"] = {
         params = {
             {param = "tendency", explain = "", type = ""},
             {param = "delta", explain = "", type = ""},
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PauseDomesticationDecay",
+    ["PauseDomesticationDecay"] = {
         params = {
             {param = "pause", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryBecomeDomesticated",
+    ["TryBecomeDomesticated"] = {
         params = {
 
         },
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelTask",
+    ["CancelTask"] = {
         params = {
 
         },
@@ -163,8 +150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckAndStartTask",
+    ["CheckAndStartTask"] = {
         params = {
 
         },
@@ -175,8 +161,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDomesticated",
+    ["SetDomesticated"] = {
         params = {
             {param = "domesticated", explain = "", type = ""},
 
@@ -188,8 +173,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDomesticated",
+    ["IsDomesticated"] = {
         params = {
 
         },
@@ -200,8 +184,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMinObedience",
+    ["SetMinObedience"] = {
         params = {
             {param = "min", explain = "", type = ""},
 
@@ -213,8 +196,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -225,8 +207,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "newents", explain = "", type = ""},
@@ -239,8 +220,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -252,3 +232,4 @@ data = {
     },
         
 }
+return data

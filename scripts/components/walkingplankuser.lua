@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetCurrentPlank",
+    ["SetCurrentPlank"] = {
         params = {
             {param = "plank", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Dismount",
+    ["Dismount"] = {
         params = {
 
         },
@@ -26,3 +24,4 @@ data = {
     },
         
 }
+return data

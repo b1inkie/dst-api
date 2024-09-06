@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TimeSinceLastRide",
+    ["TimeSinceLastRide"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRequiredObedience",
+    ["SetRequiredObedience"] = {
         params = {
             {param = "required", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCustomRiderTest",
+    ["SetCustomRiderTest"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TestObedience",
+    ["TestObedience"] = {
         params = {
 
         },
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TestRider",
+    ["TestRider"] = {
         params = {
             {param = "potential_rider", explain = "", type = ""},
 
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSaddle",
+    ["SetSaddle"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "newsaddle", explain = "", type = ""},
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSaddleable",
+    ["SetSaddleable"] = {
         params = {
             {param = "saddleable", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSaddled",
+    ["IsSaddled"] = {
         params = {
 
         },
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRider",
+    ["SetRider"] = {
         params = {
             {param = "rider", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRider",
+    ["GetRider"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBeingRidden",
+    ["IsBeingRidden"] = {
         params = {
 
         },
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Buck",
+    ["Buck"] = {
         params = {
             {param = "gentle", explain = "", type = ""},
 
@@ -164,8 +151,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetShouldSave",
+    ["SetShouldSave"] = {
         params = {
             {param = "shouldsave", explain = "", type = ""},
 
@@ -177,8 +163,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldSave",
+    ["ShouldSave"] = {
         params = {
 
         },
@@ -189,8 +174,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSaveDomesticatable",
+    ["OnSaveDomesticatable"] = {
         params = {
 
         },
@@ -201,8 +185,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoadDomesticatable",
+    ["OnLoadDomesticatable"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "newents", explain = "", type = ""},
@@ -215,8 +198,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -228,3 +210,4 @@ data = {
     },
         
 }
+return data

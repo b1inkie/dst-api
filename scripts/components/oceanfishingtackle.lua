@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetCastingData",
+    ["SetCastingData"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "projectile_prefab", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetupLure",
+    ["SetupLure"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSingleUse",
+    ["IsSingleUse"] = {
         params = {
 
         },
@@ -40,3 +37,4 @@ data = {
     },
         
 }
+return data

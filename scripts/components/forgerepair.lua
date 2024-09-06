@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetRepairMaterial",
+    ["SetRepairMaterial"] = {
         params = {
             {param = "material", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnRepaired",
+    ["SetOnRepaired"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRepair",
+    ["OnRepair"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -41,3 +38,4 @@ data = {
     },
         
 }
+return data

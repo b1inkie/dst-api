@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetAOERadius",
+    ["SetAOERadius"] = {
         params = {
             {param = "radius", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPreLeapFn",
+    ["SetOnPreLeapFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnLeaptFn",
+    ["SetOnLeaptFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoLeap",
+    ["DoLeap"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "startingpos", explain = "", type = ""},
@@ -55,3 +51,4 @@ data = {
     },
         
 }
+return data

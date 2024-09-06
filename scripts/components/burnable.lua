@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetBurningFX",
+    ["SetBurningFX"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBurnTime",
+    ["SetBurnTime"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBurning",
+    ["IsBurning"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSmoldering",
+    ["IsSmoldering"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddBurnFX",
+    ["AddBurnFX"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "offset", explain = "", type = ""},
@@ -68,8 +63,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OverrideBurnFXBuild",
+    ["OverrideBurnFXBuild"] = {
         params = {
             {param = "build", explain = "", type = ""},
 
@@ -81,8 +75,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OverrideBurnFXFinalOffset",
+    ["OverrideBurnFXFinalOffset"] = {
         params = {
             {param = "offs", explain = "", type = ""},
 
@@ -94,8 +87,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OverrideBurnFXRadius",
+    ["OverrideBurnFXRadius"] = {
         params = {
             {param = "radius_levels", explain = "", type = ""},
 
@@ -107,8 +99,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFXOffset",
+    ["SetFXOffset"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -122,8 +113,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFXLevel",
+    ["SetFXLevel"] = {
         params = {
             {param = "level", explain = "", type = ""},
             {param = "percent", explain = "", type = ""},
@@ -136,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLargestLightRadius",
+    ["GetLargestLightRadius"] = {
         params = {
 
         },
@@ -148,8 +137,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -160,8 +148,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -172,8 +159,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartWildfire",
+    ["StartWildfire"] = {
         params = {
 
         },
@@ -184,8 +170,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsControlledBurn",
+    ["IsControlledBurn"] = {
         params = {
 
         },
@@ -196,8 +181,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetControlledBurn",
+    ["GetControlledBurn"] = {
         params = {
 
         },
@@ -208,8 +192,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Ignite",
+    ["Ignite"] = {
         params = {
             {param = "immediate", explain = "", type = ""},
             {param = "source", explain = "", type = ""},
@@ -223,8 +206,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CalculateControlledBurnDuration",
+    ["CalculateControlledBurnDuration"] = {
         params = {
 
         },
@@ -235,8 +217,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ExtendBurning",
+    ["ExtendBurning"] = {
         params = {
 
         },
@@ -247,8 +228,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -260,8 +240,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SmotherSmolder",
+    ["SmotherSmolder"] = {
         params = {
             {param = "smotherer", explain = "", type = ""},
 
@@ -273,8 +252,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopSmoldering",
+    ["StopSmoldering"] = {
         params = {
             {param = "heatpct", explain = "", type = ""},
 
@@ -286,8 +264,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Extinguish",
+    ["Extinguish"] = {
         params = {
             {param = "resetpropagator", explain = "", type = ""},
             {param = "heatpct", explain = "", type = ""},
@@ -301,8 +278,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnFX",
+    ["SpawnFX"] = {
         params = {
             {param = "immediate", explain = "", type = ""},
 
@@ -314,8 +290,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FixFX",
+    ["FixFX"] = {
         params = {
 
         },
@@ -326,8 +301,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "KillFX",
+    ["KillFX"] = {
         params = {
 
         },
@@ -338,8 +312,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasEndothermicHeat",
+    ["HasEndothermicHeat"] = {
         params = {
 
         },
@@ -350,8 +323,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasExothermicHeat",
+    ["HasExothermicHeat"] = {
         params = {
 
         },
@@ -362,8 +334,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -375,3 +346,4 @@ data = {
     },
         
 }
+return data

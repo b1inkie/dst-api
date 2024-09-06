@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "IsEnabled",
+    ["IsEnabled"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Enable",
+    ["Enable"] = {
         params = {
             {param = "enable", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveOnDespawn",
+    ["RemoveOnDespawn"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetFollowSymbol",
+    ["SetFollowSymbol"] = {
         params = {
             {param = "symbol", explain = "", type = ""},
             {param = "x", explain = "", type = ""},
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasDebuff",
+    ["HasDebuff"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebuff",
+    ["GetDebuff"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddDebuff",
+    ["AddDebuff"] = {
         params = {
             {param = "name", explain = "", type = ""},
             {param = "prefab", explain = "", type = ""},
@@ -94,8 +87,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveDebuff",
+    ["RemoveDebuff"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -107,8 +99,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -119,8 +110,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -132,8 +122,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -145,8 +134,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -158,3 +146,4 @@ data = {
     },
         
 }
+return data

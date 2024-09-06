@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Fertilize",
+    ["Fertilize"] = {
         params = {
             {param = "fertilizer", explain = "", type = ""},
 
@@ -14,3 +13,4 @@ data = {
     },
         
 }
+return data

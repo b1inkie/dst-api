@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "MarkPosition",
+    ["MarkPosition"] = {
         params = {
             {param = "recall_x", explain = "", type = ""},
             {param = "recall_y", explain = "", type = ""},
@@ -16,8 +15,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Copy",
+    ["Copy"] = {
         params = {
             {param = "rhs", explain = "", type = ""},
 
@@ -29,8 +27,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsMarked",
+    ["IsMarked"] = {
         params = {
 
         },
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsMarkedForSameShard",
+    ["IsMarkedForSameShard"] = {
         params = {
 
         },
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMarkedPosition",
+    ["GetMarkedPosition"] = {
         params = {
 
         },
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -91,3 +84,4 @@ data = {
     },
         
 }
+return data

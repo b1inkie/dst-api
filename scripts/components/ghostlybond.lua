@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBondTimeMultiplier",
+    ["SetBondTimeMultiplier"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "mult", explain = "", type = ""},
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResumeBonding",
+    ["ResumeBonding"] = {
         params = {
 
         },
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PauseBonding",
+    ["PauseBonding"] = {
         params = {
 
         },
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBondLevel",
+    ["SetBondLevel"] = {
         params = {
             {param = "level", explain = "", type = ""},
             {param = "time", explain = "", type = ""},
@@ -131,8 +121,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Init",
+    ["Init"] = {
         params = {
             {param = "ghost_prefab", explain = "", type = ""},
             {param = "bond_levelup_time", explain = "", type = ""},
@@ -145,8 +134,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnGhost",
+    ["SpawnGhost"] = {
         params = {
 
         },
@@ -157,8 +145,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Summon",
+    ["Summon"] = {
         params = {
             {param = "summoningitem", explain = "", type = ""},
 
@@ -170,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SummonComplete",
+    ["SummonComplete"] = {
         params = {
 
         },
@@ -182,8 +168,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Recall",
+    ["Recall"] = {
         params = {
             {param = "was_killed", explain = "", type = ""},
 
@@ -195,8 +180,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RecallComplete",
+    ["RecallComplete"] = {
         params = {
 
         },
@@ -207,8 +191,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ChangeBehaviour",
+    ["ChangeBehaviour"] = {
         params = {
 
         },
@@ -219,8 +202,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -232,3 +214,4 @@ data = {
     },
         
 }
+return data

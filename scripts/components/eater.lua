@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDiet",
+    ["SetDiet"] = {
         params = {
             {param = "caneat", explain = "", type = ""},
             {param = "preferseating", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAbsorptionModifiers",
+    ["SetAbsorptionModifiers"] = {
         params = {
             {param = "health", explain = "", type = ""},
             {param = "hunger", explain = "", type = ""},
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TimeSinceLastEating",
+    ["TimeSinceLastEating"] = {
         params = {
 
         },
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasBeen",
+    ["HasBeen"] = {
         params = {
             {param = "time", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanEatHorrible",
+    ["SetCanEatHorrible"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanEatGears",
+    ["SetCanEatGears"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanEatNitre",
+    ["SetCanEatNitre"] = {
         params = {
             {param = "can_eat", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanEatRaw",
+    ["SetCanEatRaw"] = {
         params = {
 
         },
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPrefersEatingTag",
+    ["SetPrefersEatingTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStrongStomach",
+    ["SetStrongStomach"] = {
         params = {
             {param = "is_strong", explain = "", type = ""},
 
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanEatRawMeat",
+    ["SetCanEatRawMeat"] = {
         params = {
             {param = "can_eat", explain = "", type = ""},
 
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIgnoresSpoilage",
+    ["SetIgnoresSpoilage"] = {
         params = {
             {param = "ignores", explain = "", type = ""},
 
@@ -192,8 +177,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRefusesSpoiledFood",
+    ["SetRefusesSpoiledFood"] = {
         params = {
             {param = "refuses", explain = "", type = ""},
 
@@ -205,8 +189,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnEatFn",
+    ["SetOnEatFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -218,8 +201,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoFoodEffects",
+    ["DoFoodEffects"] = {
         params = {
             {param = "food", explain = "", type = ""},
 
@@ -231,8 +213,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEdibleTags",
+    ["GetEdibleTags"] = {
         params = {
 
         },
@@ -243,8 +224,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Eat",
+    ["Eat"] = {
         params = {
             {param = "food", explain = "", type = ""},
             {param = "feeder", explain = "", type = ""},
@@ -257,8 +237,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TestFood",
+    ["TestFood"] = {
         params = {
             {param = "food", explain = "", type = ""},
             {param = "testvalues", explain = "", type = ""},
@@ -271,8 +250,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PrefersToEat",
+    ["PrefersToEat"] = {
         params = {
             {param = "food", explain = "", type = ""},
 
@@ -284,8 +262,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanEat",
+    ["CanEat"] = {
         params = {
             {param = "food", explain = "", type = ""},
 
@@ -298,3 +275,4 @@ data = {
     },
         
 }
+return data

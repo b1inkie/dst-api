@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "RefreshDefeatedMutationsTable",
+    ["RefreshDefeatedMutationsTable"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsWagstaffSpawned",
+    ["IsWagstaffSpawned"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumDefeatedMutations",
+    ["GetNumDefeatedMutations"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasDefeatedAllMutations",
+    ["HasDefeatedAllMutations"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_CanCorpseMutate",
+    ["_CanCorpseMutate"] = {
         params = {
             {param = "ent", explain = "", type = ""},
 
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TryMutate",
+    ["TryMutate"] = {
         params = {
             {param = "ent", explain = "", type = ""},
             {param = "corpseprefab", explain = "", type = ""},
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasDefeatedThisMutation",
+    ["HasDefeatedThisMutation"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMutationDefeated",
+    ["SetMutationDefeated"] = {
         params = {
             {param = "ent", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TriggerWagstaffAppearance",
+    ["TriggerWagstaffAppearance"] = {
         params = {
             {param = "ent", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ShouldGiveReward",
+    ["ShouldGiveReward"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTaskCompleted",
+    ["IsTaskCompleted"] = {
         params = {
 
         },
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRewardGiven",
+    ["OnRewardGiven"] = {
         params = {
 
         },
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -162,8 +149,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -175,8 +161,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -188,3 +173,4 @@ data = {
     },
         
 }
+return data

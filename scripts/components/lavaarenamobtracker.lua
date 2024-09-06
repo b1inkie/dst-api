@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "StartTracking",
+    ["StartTracking"] = {
         params = {
             {param = "ent", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTracking",
+    ["StopTracking"] = {
         params = {
             {param = "ent", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNumMobs",
+    ["GetNumMobs"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAllMobs",
+    ["GetAllMobs"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FindMobs",
+    ["FindMobs"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -69,8 +64,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForEachMob",
+    ["ForEachMob"] = {
         params = {
             {param = "cb", explain = "", type = ""},
             {param = "params", explain = "", type = ""},
@@ -84,3 +78,4 @@ data = {
     },
         
 }
+return data

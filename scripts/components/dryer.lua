@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStartDryingFn",
+    ["SetStartDryingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDoneDryingFn",
+    ["SetDoneDryingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnHarvestFn",
+    ["SetOnHarvestFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanDry",
+    ["CanDry"] = {
         params = {
             {param = "dryable", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDrying",
+    ["IsDrying"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDone",
+    ["IsDone"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeToDry",
+    ["GetTimeToDry"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeToSpoil",
+    ["GetTimeToSpoil"] = {
         params = {
 
         },
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPaused",
+    ["IsPaused"] = {
         params = {
 
         },
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartDrying",
+    ["StartDrying"] = {
         params = {
             {param = "dryable", explain = "", type = ""},
 
@@ -137,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopDrying",
+    ["StopDrying"] = {
         params = {
             {param = "reason", explain = "", type = ""},
 
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Pause",
+    ["Pause"] = {
         params = {
 
         },
@@ -162,8 +149,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Resume",
+    ["Resume"] = {
         params = {
 
         },
@@ -174,8 +160,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DropItem",
+    ["DropItem"] = {
         params = {
 
         },
@@ -186,8 +171,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Harvest",
+    ["Harvest"] = {
         params = {
             {param = "harvester", explain = "", type = ""},
 
@@ -199,8 +183,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -212,8 +195,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -224,8 +206,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -237,8 +218,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -250,3 +230,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Apply",
+    ["Apply"] = {
         params = {
             {param = "doer", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

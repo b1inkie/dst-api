@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "cleartimers",
+    ["cleartimers"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AdvanceQueue",
+    ["AdvanceQueue"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnVoice",
+    ["SpawnVoice"] = {
         params = {
             {param = "pos", explain = "", type = ""},
             {param = "comment", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AbortContest",
+    ["AbortContest"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveTrainer",
+    ["RemoveTrainer"] = {
         params = {
             {param = "trainer", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveTempTrainer",
+    ["RemoveTempTrainer"] = {
         params = {
             {param = "trainer", explain = "", type = ""},
 
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveTempBeef",
+    ["RemoveTempBeef"] = {
         params = {
             {param = "beefalo", explain = "", type = ""},
 
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "MakeRandomBeef",
+    ["MakeRandomBeef"] = {
         params = {
             {param = "post", explain = "", type = ""},
             {param = "name", explain = "", type = ""},
@@ -106,8 +98,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableContest",
+    ["EnableContest"] = {
         params = {
 
         },
@@ -118,8 +109,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DisableContest",
+    ["DisableContest"] = {
         params = {
 
         },
@@ -130,8 +120,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TestStartContest",
+    ["TestStartContest"] = {
         params = {
             {param = "starter", explain = "", type = ""},
 
@@ -143,8 +132,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Start_fail",
+    ["Start_fail"] = {
         params = {
             {param = "result", explain = "", type = ""},
 
@@ -156,8 +144,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartContest",
+    ["StartContest"] = {
         params = {
             {param = "starter", explain = "", type = ""},
 
@@ -169,8 +156,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Start_phase2",
+    ["Start_phase2"] = {
         params = {
 
         },
@@ -181,8 +167,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Start_phase3",
+    ["Start_phase3"] = {
         params = {
 
         },
@@ -193,8 +178,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetParameterLine",
+    ["GetParameterLine"] = {
         params = {
             {param = "category", explain = "", type = ""},
 
@@ -206,8 +190,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StateParameters",
+    ["StateParameters"] = {
         params = {
 
         },
@@ -218,8 +201,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StateParameters_Phase2",
+    ["StateParameters_Phase2"] = {
         params = {
 
         },
@@ -230,8 +212,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "unhighlitepost",
+    ["unhighlitepost"] = {
         params = {
             {param = "post", explain = "", type = ""},
 
@@ -243,8 +224,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "highlitepost",
+    ["highlitepost"] = {
         params = {
             {param = "post", explain = "", type = ""},
 
@@ -256,8 +236,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckForMarks",
+    ["CheckForMarks"] = {
         params = {
             {param = "post", explain = "", type = ""},
             {param = "doer", explain = "", type = ""},
@@ -270,8 +249,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBeefScore",
+    ["GetBeefScore"] = {
         params = {
             {param = "beef", explain = "", type = ""},
 
@@ -283,8 +261,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetClosest",
+    ["GetClosest"] = {
         params = {
             {param = "values", explain = "", type = ""},
 
@@ -296,8 +273,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFurthest",
+    ["GetFurthest"] = {
         params = {
             {param = "values", explain = "", type = ""},
 
@@ -309,8 +285,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRandom",
+    ["GetRandom"] = {
         params = {
 
         },
@@ -321,8 +296,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetComment",
+    ["GetComment"] = {
         params = {
             {param = "post", explain = "", type = ""},
 
@@ -334,8 +308,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BuildSuspense",
+    ["BuildSuspense"] = {
         params = {
 
         },
@@ -346,8 +319,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpawnVoiceName",
+    ["SpawnVoiceName"] = {
         params = {
             {param = "rank", explain = "", type = ""},
             {param = "speech", explain = "", type = ""},
@@ -360,8 +332,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DeclareWinner",
+    ["DeclareWinner"] = {
         params = {
 
         },
@@ -372,8 +343,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Tossprize",
+    ["Tossprize"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "pattern", explain = "", type = ""},
@@ -387,8 +357,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Tossprizes",
+    ["Tossprizes"] = {
         params = {
 
         },
@@ -399,8 +368,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AwardVictors",
+    ["AwardVictors"] = {
         params = {
 
         },
@@ -411,8 +379,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Give_consoleprizes",
+    ["Give_consoleprizes"] = {
         params = {
 
         },
@@ -423,8 +390,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Give_Patterns",
+    ["Give_Patterns"] = {
         params = {
 
         },
@@ -435,8 +401,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EndContest",
+    ["EndContest"] = {
         params = {
             {param = "reason", explain = "", type = ""},
 
@@ -448,8 +413,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EndContest_phase2",
+    ["EndContest_phase2"] = {
         params = {
 
         },
@@ -460,8 +424,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "appraisedoll",
+    ["appraisedoll"] = {
         params = {
             {param = "doll", explain = "", type = ""},
 
@@ -473,8 +436,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "appraisedoll2",
+    ["appraisedoll2"] = {
         params = {
 
         },
@@ -485,8 +447,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetParameterLineDoll",
+    ["GetParameterLineDoll"] = {
         params = {
             {param = "category", explain = "", type = ""},
 
@@ -498,8 +459,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "appraisedoll3",
+    ["appraisedoll3"] = {
         params = {
 
         },
@@ -510,8 +470,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Endppraisedoll",
+    ["Endppraisedoll"] = {
         params = {
 
         },
@@ -522,8 +481,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "ents", explain = "", type = ""},
             {param = "data", explain = "", type = ""},
@@ -537,3 +495,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetLoad",
+    ["SetLoad"] = {
         params = {
             {param = "_load", explain = "", type = ""},
             {param = "idle", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetLoad",
+    ["GetLoad"] = {
         params = {
 
         },
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsIdle",
+    ["IsIdle"] = {
         params = {
 
         },
@@ -39,3 +36,4 @@ data = {
     },
         
 }
+return data

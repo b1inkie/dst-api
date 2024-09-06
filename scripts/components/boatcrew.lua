@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "TestForLootToSteal",
+    ["TestForLootToSteal"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TestForVictory",
+    ["TestForVictory"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CrewCheer",
+    ["CrewCheer"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CountPirateLoot",
+    ["CountPirateLoot"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CountCrew",
+    ["CountCrew"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -84,8 +77,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMemberTag",
+    ["SetMemberTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -97,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "areAllCrewOnBoat",
+    ["areAllCrewOnBoat"] = {
         params = {
 
         },
@@ -109,8 +100,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHeadingNormal",
+    ["GetHeadingNormal"] = {
         params = {
 
         },
@@ -121,8 +111,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHeading",
+    ["SetHeading"] = {
         params = {
             {param = "heading", explain = "", type = ""},
 
@@ -134,8 +123,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTarget",
+    ["SetTarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -147,8 +135,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUpdateRange",
+    ["SetUpdateRange"] = {
         params = {
             {param = "range", explain = "", type = ""},
 
@@ -160,8 +147,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAddMemberFn",
+    ["SetAddMemberFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -173,8 +159,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRemoveMemberFn",
+    ["SetRemoveMemberFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -186,8 +171,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCaptain",
+    ["SetCaptain"] = {
         params = {
             {param = "captain", explain = "", type = ""},
 
@@ -199,8 +183,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddMember",
+    ["AddMember"] = {
         params = {
             {param = "inst", explain = "", type = ""},
             {param = "setcaptain", explain = "", type = ""},
@@ -213,8 +196,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveMember",
+    ["RemoveMember"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -226,8 +208,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "checktinkertarget",
+    ["checktinkertarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -239,8 +220,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "reserveinkertarget",
+    ["reserveinkertarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -252,8 +232,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "removeinkertarget",
+    ["removeinkertarget"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -265,8 +244,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsCrewOnDeck",
+    ["IsCrewOnDeck"] = {
         params = {
 
         },
@@ -277,8 +255,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
 
         },
@@ -289,8 +266,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -301,8 +277,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -316,3 +291,4 @@ data = {
     },
         
 }
+return data

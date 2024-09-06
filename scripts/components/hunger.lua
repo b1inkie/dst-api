@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOverrideStarveFn",
+    ["SetOverrideStarveFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Pause",
+    ["Pause"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Resume",
+    ["Resume"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPaused",
+    ["IsPaused"] = {
         params = {
 
         },
@@ -87,8 +80,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -99,8 +91,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMax",
+    ["SetMax"] = {
         params = {
             {param = "amount", explain = "", type = ""},
 
@@ -112,8 +103,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsStarving",
+    ["IsStarving"] = {
         params = {
 
         },
@@ -124,8 +114,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "delta", explain = "", type = ""},
             {param = "overtime", explain = "", type = ""},
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "p", explain = "", type = ""},
             {param = "overtime", explain = "", type = ""},
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDec",
+    ["DoDec"] = {
         params = {
             {param = "dt", explain = "", type = ""},
             {param = "ignore_damage", explain = "", type = ""},
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetKillRate",
+    ["SetKillRate"] = {
         params = {
             {param = "rate", explain = "", type = ""},
 
@@ -192,8 +177,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRate",
+    ["SetRate"] = {
         params = {
             {param = "rate", explain = "", type = ""},
 
@@ -205,8 +189,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -219,3 +202,4 @@ data = {
     },
         
 }
+return data

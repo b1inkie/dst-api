@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "LearnItem",
+    ["LearnItem"] = {
         params = {
             {param = "itemname", explain = "", type = ""},
             {param = "recipetouse", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "KnowsItem",
+    ["KnowsItem"] = {
         params = {
             {param = "itemname", explain = "", type = ""},
 
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetItems",
+    ["GetItems"] = {
         params = {
 
         },
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRecipes",
+    ["GetRecipes"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForgetItem",
+    ["ForgetItem"] = {
         params = {
             {param = "itemname", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ForgetAllItems",
+    ["ForgetAllItems"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -102,3 +94,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetRandomTimes",
+    ["SetRandomTimes"] = {
         params = {
             {param = "basetime", explain = "", type = ""},
             {param = "variance", explain = "", type = ""},
@@ -15,8 +14,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDensityInRange",
+    ["SetDensityInRange"] = {
         params = {
             {param = "range", explain = "", type = ""},
             {param = "density", explain = "", type = ""},
@@ -29,8 +27,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMinimumSpacing",
+    ["SetMinimumSpacing"] = {
         params = {
             {param = "spacing", explain = "", type = ""},
 
@@ -42,8 +39,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnlySpawnOffscreen",
+    ["SetOnlySpawnOffscreen"] = {
         params = {
             {param = "offscreen", explain = "", type = ""},
 
@@ -55,8 +51,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnSpawnFn",
+    ["SetOnSpawnFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -68,8 +63,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpawnTestFn",
+    ["SetSpawnTestFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -81,8 +75,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetGetSpawnPointFn",
+    ["SetGetSpawnPointFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -94,8 +87,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIgnoreFlotsamGenerator",
+    ["SetIgnoreFlotsamGenerator"] = {
         params = {
             {param = "ignores", explain = "", type = ""},
 
@@ -107,8 +99,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Start",
+    ["Start"] = {
         params = {
             {param = "timeoverride", explain = "", type = ""},
 
@@ -120,8 +111,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SafeStart",
+    ["SafeStart"] = {
         params = {
             {param = "timeoverride", explain = "", type = ""},
 
@@ -133,8 +123,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
 
         },
@@ -145,8 +134,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TrySpawn",
+    ["TrySpawn"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -158,8 +146,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoSpawn",
+    ["DoSpawn"] = {
         params = {
 
         },
@@ -170,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -183,8 +169,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -195,8 +180,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -208,8 +192,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -221,3 +204,4 @@ data = {
     },
         
 }
+return data

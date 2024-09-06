@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Initialize",
+    ["Initialize"] = {
         params = {
             {param = "has_ocean", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPostInit",
+    ["OnPostInit"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnWallUpdate",
+    ["OnWallUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnPhaseChanged",
+    ["OnPhaseChanged"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "phase", explain = "", type = ""},
@@ -53,3 +49,4 @@ data = {
     },
         
 }
+return data

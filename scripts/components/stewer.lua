@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsDone",
+    ["IsDone"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSpoiling",
+    ["IsSpoiling"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsCooking",
+    ["IsCooking"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeToCook",
+    ["GetTimeToCook"] = {
         params = {
 
         },
@@ -60,8 +55,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeToSpoil",
+    ["GetTimeToSpoil"] = {
         params = {
 
         },
@@ -72,8 +66,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanCook",
+    ["CanCook"] = {
         params = {
 
         },
@@ -84,8 +77,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRecipeForProduct",
+    ["GetRecipeForProduct"] = {
         params = {
 
         },
@@ -96,8 +88,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartCooking",
+    ["StartCooking"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -109,8 +100,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopCooking",
+    ["StopCooking"] = {
         params = {
             {param = "reason", explain = "", type = ""},
 
@@ -122,8 +112,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -134,8 +123,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -147,8 +135,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -159,8 +146,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Harvest",
+    ["Harvest"] = {
         params = {
             {param = "harvester", explain = "", type = ""},
 
@@ -172,8 +158,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -186,3 +171,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "_TestArea",
+    ["_TestArea"] = {
         params = {
             {param = "pt_x", explain = "", type = ""},
             {param = "pt_z", explain = "", type = ""},
@@ -28,8 +26,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UpdatePosition",
+    ["UpdatePosition"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -43,8 +40,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -56,8 +52,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUpdateDist",
+    ["SetUpdateDist"] = {
         params = {
             {param = "dist", explain = "", type = ""},
 
@@ -69,8 +64,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetCurrentArea",
+    ["GetCurrentArea"] = {
         params = {
 
         },
@@ -81,8 +75,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CurrentlyInTag",
+    ["CurrentlyInTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -94,8 +87,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -106,8 +98,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartCheckingPosition",
+    ["StartCheckingPosition"] = {
         params = {
             {param = "checkinterval", explain = "", type = ""},
 
@@ -119,8 +110,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartWatchingTile",
+    ["StartWatchingTile"] = {
         params = {
             {param = "tile_id", explain = "", type = ""},
 
@@ -132,8 +122,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopWatchingTile",
+    ["StopWatchingTile"] = {
         params = {
             {param = "tile_id", explain = "", type = ""},
 
@@ -146,3 +135,4 @@ data = {
     },
         
 }
+return data

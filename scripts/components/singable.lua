@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnSing",
+    ["SetOnSing"] = {
         params = {
             {param = "onsingfn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Sing",
+    ["Sing"] = {
         params = {
             {param = "singer", explain = "", type = ""},
 
@@ -27,3 +25,4 @@ data = {
     },
         
 }
+return data

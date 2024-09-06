@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TimerExists",
+    ["TimerExists"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTimer",
+    ["StartTimer"] = {
         params = {
             {param = "name", explain = "", type = ""},
             {param = "time", explain = "", type = ""},
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTimer",
+    ["StopTimer"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsPaused",
+    ["IsPaused"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "PauseTimer",
+    ["PauseTimer"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -92,8 +85,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ResumeTimer",
+    ["ResumeTimer"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -105,8 +97,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeLeft",
+    ["GetTimeLeft"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -118,8 +109,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTimeLeft",
+    ["SetTimeLeft"] = {
         params = {
             {param = "name", explain = "", type = ""},
             {param = "time", explain = "", type = ""},
@@ -132,8 +122,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTimeElapsed",
+    ["GetTimeElapsed"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -145,8 +134,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -157,8 +145,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -170,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -183,8 +169,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -197,3 +182,4 @@ data = {
     },
         
 }
+return data

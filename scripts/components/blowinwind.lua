@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartSoundLoop",
+    ["StartSoundLoop"] = {
         params = {
 
         },
@@ -36,8 +33,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopSoundLoop",
+    ["StopSoundLoop"] = {
         params = {
 
         },
@@ -48,8 +44,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Start",
+    ["Start"] = {
         params = {
             {param = "ang", explain = "", type = ""},
             {param = "vel", explain = "", type = ""},
@@ -62,8 +57,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
 
         },
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ChangeDirection",
+    ["ChangeDirection"] = {
         params = {
             {param = "ang", explain = "", type = ""},
             {param = "vel", explain = "", type = ""},
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMaxSpeedMult",
+    ["SetMaxSpeedMult"] = {
         params = {
             {param = "spd", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMinSpeedMult",
+    ["SetMinSpeedMult"] = {
         params = {
             {param = "spd", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAverageSpeed",
+    ["SetAverageSpeed"] = {
         params = {
             {param = "spd", explain = "", type = ""},
 
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSpeed",
+    ["GetSpeed"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -165,3 +152,4 @@ data = {
     },
         
 }
+return data

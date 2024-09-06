@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnNewDay",
+    ["OnNewDay"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStageBuilt",
+    ["OnStageBuilt"] = {
         params = {
             {param = "stage", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnStageDestroyed",
+    ["OnStageDestroyed"] = {
         params = {
             {param = "stage", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnContestCheckPoint",
+    ["OnContestCheckPoint"] = {
         params = {
             {param = "stage", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsContestActive",
+    ["IsContestActive"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsContestEnabled",
+    ["IsContestEnabled"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetContestEnabled",
+    ["SetContestEnabled"] = {
         params = {
             {param = "setting", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "EnableContest",
+    ["EnableContest"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnContestBegun",
+    ["OnContestBegun"] = {
         params = {
             {param = "active_stage", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnContestEnded",
+    ["OnContestEnded"] = {
         params = {
 
         },
@@ -125,8 +115,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetActiveStage",
+    ["GetActiveStage"] = {
         params = {
 
         },
@@ -137,8 +126,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -149,8 +137,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
             {param = "newents", explain = "", type = ""},
             {param = "savedata", explain = "", type = ""},
@@ -164,3 +151,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetSkinMode",
+    ["GetSkinMode"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSkinMode",
+    ["SetSkinMode"] = {
         params = {
             {param = "skintype", explain = "", type = ""},
             {param = "default_build", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetupNonPlayerData",
+    ["SetupNonPlayerData"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSkinName",
+    ["SetSkinName"] = {
         params = {
             {param = "skin_name", explain = "", type = ""},
             {param = "skip_beard_setup", explain = "", type = ""},
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMonkeyCurse",
+    ["SetMonkeyCurse"] = {
         params = {
             {param = "monkey_curse", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMonkeyCurse",
+    ["GetMonkeyCurse"] = {
         params = {
 
         },
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearMonkeyCurse",
+    ["ClearMonkeyCurse"] = {
         params = {
 
         },
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetClothing",
+    ["SetClothing"] = {
         params = {
             {param = "name", explain = "", type = ""},
 
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetClothing",
+    ["GetClothing"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HideAllClothing",
+    ["HideAllClothing"] = {
         params = {
             {param = "anim_state", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearAllClothing",
+    ["ClearAllClothing"] = {
         params = {
 
         },
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ClearClothing",
+    ["ClearClothing"] = {
         params = {
             {param = "type", explain = "", type = ""},
 
@@ -153,8 +141,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CopySkinsFromPlayer",
+    ["CopySkinsFromPlayer"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -178,8 +164,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -192,3 +177,4 @@ data = {
     },
         
 }
+return data

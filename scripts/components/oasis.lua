@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "IsEntityInOasis",
+    ["IsEntityInOasis"] = {
         params = {
             {param = "ent", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetProximityLevel",
+    ["GetProximityLevel"] = {
         params = {
             {param = "ent", explain = "", type = ""},
             {param = "range", explain = "", type = ""},
@@ -28,3 +26,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIsSlipperyAtPoint",
+    ["SetIsSlipperyAtPoint"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsSlipperyAtPosition",
+    ["IsSlipperyAtPosition"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSlipperyRate",
+    ["SetSlipperyRate"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSlipperyRate",
+    ["GetSlipperyRate"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -67,3 +62,4 @@ data = {
     },
         
 }
+return data

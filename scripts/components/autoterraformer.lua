@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "FinishTerraforming",
+    ["FinishTerraforming"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -15,8 +14,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoTerraform",
+    ["DoTerraform"] = {
         params = {
             {param = "px", explain = "", type = ""},
             {param = "py", explain = "", type = ""},
@@ -32,8 +30,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTerraforming",
+    ["StartTerraforming"] = {
         params = {
 
         },
@@ -44,8 +41,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopTerraforming",
+    ["StopTerraforming"] = {
         params = {
 
         },
@@ -56,8 +52,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -70,3 +65,4 @@ data = {
     },
         
 }
+return data

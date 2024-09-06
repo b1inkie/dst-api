@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetSwaps",
+    ["SetSwaps"] = {
         params = {
             {param = "build", explain = "", type = ""},
             {param = "symbol", explain = "", type = ""},
@@ -15,8 +14,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBonusDamage",
+    ["SetBonusDamage"] = {
         params = {
             {param = "damage", explain = "", type = ""},
 
@@ -28,8 +26,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBonusSpeedMult",
+    ["SetBonusSpeedMult"] = {
         params = {
             {param = "mult", explain = "", type = ""},
 
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAbsorption",
+    ["SetAbsorption"] = {
         params = {
             {param = "percent", explain = "", type = ""},
 
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBonusDamage",
+    ["GetBonusDamage"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBonusSpeedMult",
+    ["GetBonusSpeedMult"] = {
         params = {
 
         },
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAbsorption",
+    ["GetAbsorption"] = {
         params = {
 
         },
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetDiscardedCallback",
+    ["SetDiscardedCallback"] = {
         params = {
             {param = "cb", explain = "", type = ""},
 
@@ -104,8 +96,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ApplyDamage",
+    ["ApplyDamage"] = {
         params = {
             {param = "damage", explain = "", type = ""},
             {param = "attacker", explain = "", type = ""},
@@ -121,3 +112,4 @@ data = {
     },
         
 }
+return data

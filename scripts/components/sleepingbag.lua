@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetSleepPhase",
+    ["SetSleepPhase"] = {
         params = {
             {param = "phase", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSleepPhase",
+    ["GetSleepPhase"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetTemperatureTickFn",
+    ["SetTemperatureTickFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoSleep",
+    ["DoSleep"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoWakeUp",
+    ["DoWakeUp"] = {
         params = {
             {param = "nostatechange", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "InUse",
+    ["InUse"] = {
         params = {
 
         },
@@ -77,3 +71,4 @@ data = {
     },
         
 }
+return data

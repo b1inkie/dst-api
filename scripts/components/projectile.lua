@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSpeed",
+    ["SetSpeed"] = {
         params = {
             {param = "speed", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStimuli",
+    ["SetStimuli"] = {
         params = {
             {param = "stimuli", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetRange",
+    ["SetRange"] = {
         params = {
             {param = "range", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHitDist",
+    ["SetHitDist"] = {
         params = {
             {param = "dist", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnThrownFn",
+    ["SetOnThrownFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnHitFn",
+    ["SetOnHitFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnPreHitFn",
+    ["SetOnPreHitFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnCaughtFn",
+    ["SetOnCaughtFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnMissFn",
+    ["SetOnMissFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetCanCatch",
+    ["SetCanCatch"] = {
         params = {
             {param = "cancatch", explain = "", type = ""},
 
@@ -154,8 +142,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetHoming",
+    ["SetHoming"] = {
         params = {
             {param = "homing", explain = "", type = ""},
 
@@ -167,8 +154,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetLaunchOffset",
+    ["SetLaunchOffset"] = {
         params = {
             {param = "offset", explain = "", type = ""},
 
@@ -180,8 +166,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsThrown",
+    ["IsThrown"] = {
         params = {
 
         },
@@ -192,8 +177,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Throw",
+    ["Throw"] = {
         params = {
             {param = "owner", explain = "", type = ""},
             {param = "target", explain = "", type = ""},
@@ -207,8 +191,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Catch",
+    ["Catch"] = {
         params = {
             {param = "catcher", explain = "", type = ""},
 
@@ -220,8 +203,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Miss",
+    ["Miss"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -233,8 +215,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
 
         },
@@ -245,8 +226,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Hit",
+    ["Hit"] = {
         params = {
             {param = "target", explain = "", type = ""},
 
@@ -258,8 +238,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -270,8 +249,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -282,8 +260,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -295,8 +272,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RotateToTarget",
+    ["RotateToTarget"] = {
         params = {
             {param = "dest", explain = "", type = ""},
 
@@ -308,8 +284,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DelayVisibility",
+    ["DelayVisibility"] = {
         params = {
             {param = "duration", explain = "", type = ""},
 
@@ -321,8 +296,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetBounced",
+    ["SetBounced"] = {
         params = {
             {param = "bounced", explain = "", type = ""},
 
@@ -334,8 +308,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsBounced",
+    ["IsBounced"] = {
         params = {
 
         },
@@ -347,3 +320,4 @@ data = {
     },
         
 }
+return data

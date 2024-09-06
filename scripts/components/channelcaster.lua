@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetOnStartChannelingFn",
+    ["SetOnStartChannelingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStopChannelingFn",
+    ["SetOnStopChannelingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsChannelingItem",
+    ["IsChannelingItem"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsChanneling",
+    ["IsChanneling"] = {
         params = {
 
         },
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartChanneling",
+    ["StartChanneling"] = {
         params = {
             {param = "item", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopChanneling",
+    ["StopChanneling"] = {
         params = {
 
         },
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -89,3 +82,4 @@ data = {
     },
         
 }
+return data

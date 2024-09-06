@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetLastStage",
+    ["SetLastStage"] = {
         params = {
             {param = "last_stage", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Grow",
+    ["Grow"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartGrowing",
+    ["StartGrowing"] = {
         params = {
 
         },
@@ -38,3 +35,4 @@ data = {
     },
         
 }
+return data

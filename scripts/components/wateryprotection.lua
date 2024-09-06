@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "AddIgnoreTag",
+    ["AddIgnoreTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpreadProtectionAtPoint",
+    ["SpreadProtectionAtPoint"] = {
         params = {
             {param = "x", explain = "", type = ""},
             {param = "y", explain = "", type = ""},
@@ -30,8 +28,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpreadProtection",
+    ["SpreadProtection"] = {
         params = {
             {param = "inst", explain = "", type = ""},
             {param = "dist", explain = "", type = ""},
@@ -46,3 +43,4 @@ data = {
     },
         
 }
+return data

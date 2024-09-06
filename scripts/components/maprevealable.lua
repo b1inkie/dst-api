@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetIcon",
+    ["SetIcon"] = {
         params = {
             {param = "iconname", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIconPriority",
+    ["SetIconPriority"] = {
         params = {
             {param = "priority", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetIconPrefab",
+    ["SetIconPrefab"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -39,8 +36,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddRevealSource",
+    ["AddRevealSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
             {param = "restriction", explain = "", type = ""},
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveRevealSource",
+    ["RemoveRevealSource"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -66,8 +61,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RefreshRevealSources",
+    ["RefreshRevealSources"] = {
         params = {
 
         },
@@ -78,8 +72,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartRevealing",
+    ["StartRevealing"] = {
         params = {
             {param = "restriction", explain = "", type = ""},
 
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopRevealing",
+    ["StopRevealing"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Refresh",
+    ["Refresh"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Start",
+    ["Start"] = {
         params = {
             {param = "delay", explain = "", type = ""},
 
@@ -128,8 +118,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Stop",
+    ["Stop"] = {
         params = {
 
         },
@@ -140,8 +129,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -153,3 +141,4 @@ data = {
     },
         
 }
+return data

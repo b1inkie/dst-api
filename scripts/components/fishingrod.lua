@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWaitTimes",
+    ["SetWaitTimes"] = {
         params = {
             {param = "min", explain = "", type = ""},
             {param = "max", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetStrainTimes",
+    ["SetStrainTimes"] = {
         params = {
             {param = "min", explain = "", type = ""},
             {param = "max", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -53,8 +49,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsFishing",
+    ["IsFishing"] = {
         params = {
 
         },
@@ -65,8 +60,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasHookedFish",
+    ["HasHookedFish"] = {
         params = {
 
         },
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasCaughtFish",
+    ["HasCaughtFish"] = {
         params = {
 
         },
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "FishIsBiting",
+    ["FishIsBiting"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartFishing",
+    ["StartFishing"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "fisherman", explain = "", type = ""},
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "WaitForFish",
+    ["WaitForFish"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CancelFishTask",
+    ["CancelFishTask"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopFishing",
+    ["StopFishing"] = {
         params = {
 
         },
@@ -151,8 +139,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Hook",
+    ["Hook"] = {
         params = {
 
         },
@@ -163,8 +150,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Release",
+    ["Release"] = {
         params = {
 
         },
@@ -175,8 +161,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Reel",
+    ["Reel"] = {
         params = {
 
         },
@@ -187,8 +172,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Collect",
+    ["Collect"] = {
         params = {
 
         },
@@ -200,3 +184,4 @@ data = {
     },
         
 }
+return data

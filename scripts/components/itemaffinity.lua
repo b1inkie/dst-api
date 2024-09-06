@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SortAffinities",
+    ["SortAffinities"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddAffinity",
+    ["AddAffinity"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "tag", explain = "", type = ""},
@@ -28,8 +26,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveAffinity",
+    ["RemoveAffinity"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RefreshAffinity",
+    ["RefreshAffinity"] = {
         params = {
 
         },
@@ -54,3 +50,4 @@ data = {
     },
         
 }
+return data

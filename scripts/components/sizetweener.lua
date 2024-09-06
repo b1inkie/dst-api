@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "EndTween",
+    ["EndTween"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartTween",
+    ["StartTween"] = {
         params = {
             {param = "size", explain = "", type = ""},
             {param = "time", explain = "", type = ""},
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -41,3 +38,4 @@ data = {
     },
         
 }
+return data

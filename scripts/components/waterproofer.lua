@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEffectiveness",
+    ["GetEffectiveness"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetEffectiveness",
+    ["SetEffectiveness"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -38,3 +35,4 @@ data = {
     },
         
 }
+return data

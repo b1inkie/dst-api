@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "OnRemoveEntity",
+    ["OnRemoveEntity"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAttunableTag",
+    ["GetAttunableTag"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAttunableTag",
+    ["SetAttunableTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnAttuneCostFn",
+    ["SetOnAttuneCostFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnLinkFn",
+    ["SetOnLinkFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnUnlinkFn",
+    ["SetOnUnlinkFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsAttuned",
+    ["IsAttuned"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanAttune",
+    ["CanAttune"] = {
         params = {
             {param = "player", explain = "", type = ""},
 
@@ -102,8 +94,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LinkToPlayer",
+    ["LinkToPlayer"] = {
         params = {
             {param = "player", explain = "", type = ""},
             {param = "isloading", explain = "", type = ""},
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "UnlinkFromPlayer",
+    ["UnlinkFromPlayer"] = {
         params = {
             {param = "player", explain = "", type = ""},
             {param = "isloading", explain = "", type = ""},
@@ -130,8 +120,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -142,8 +131,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -155,8 +143,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -168,3 +155,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "StartShedding",
+    ["StartShedding"] = {
         params = {
             {param = "interval", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopShedding",
+    ["StopShedding"] = {
         params = {
 
         },
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoSingleShed",
+    ["DoSingleShed"] = {
         params = {
 
         },
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoMultiShed",
+    ["DoMultiShed"] = {
         params = {
             {param = "max", explain = "", type = ""},
             {param = "random", explain = "", type = ""},
@@ -52,3 +48,4 @@ data = {
     },
         
 }
+return data

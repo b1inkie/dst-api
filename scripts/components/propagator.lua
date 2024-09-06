@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "CalculateHeatCap",
+    ["CalculateHeatCap"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnRemoveFromEntity",
+    ["OnRemoveFromEntity"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnFlashPoint",
+    ["SetOnFlashPoint"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopUpdating",
+    ["StopUpdating"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUpdating",
+    ["StartUpdating"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartSpreading",
+    ["StartSpreading"] = {
         params = {
             {param = "source", explain = "", type = ""},
 
@@ -74,8 +68,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopSpreading",
+    ["StopSpreading"] = {
         params = {
             {param = "reset", explain = "", type = ""},
             {param = "heatpct", explain = "", type = ""},
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetHeatResistance",
+    ["GetHeatResistance"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddHeat",
+    ["AddHeat"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "source", explain = "", type = ""},
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Flash",
+    ["Flash"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -152,3 +140,4 @@ data = {
     },
         
 }
+return data

@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "StopDataRegen",
+    ["StopDataRegen"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetData",
+    ["GetData"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SpendData",
+    ["SpendData"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
             {param = "newents", explain = "", type = ""},
@@ -65,3 +60,4 @@ data = {
     },
         
 }
+return data

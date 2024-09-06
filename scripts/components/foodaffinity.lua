@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SortAffinitiesByBonus",
+    ["SortAffinitiesByBonus"] = {
         params = {
             {param = "affinities", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddTagAffinity",
+    ["AddTagAffinity"] = {
         params = {
             {param = "tag", explain = "", type = ""},
             {param = "bonus", explain = "", type = ""},
@@ -27,8 +25,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddPrefabAffinity",
+    ["AddPrefabAffinity"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
             {param = "bonus", explain = "", type = ""},
@@ -41,8 +38,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddFoodtypeAffinity",
+    ["AddFoodtypeAffinity"] = {
         params = {
             {param = "foodtype", explain = "", type = ""},
             {param = "bonus", explain = "", type = ""},
@@ -55,8 +51,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveTagAffinity",
+    ["RemoveTagAffinity"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -68,8 +63,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemovePrefabAffinity",
+    ["RemovePrefabAffinity"] = {
         params = {
             {param = "prefab", explain = "", type = ""},
 
@@ -81,8 +75,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveFoodtypeAffinity",
+    ["RemoveFoodtypeAffinity"] = {
         params = {
             {param = "foodtype", explain = "", type = ""},
 
@@ -94,8 +87,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasAffinity",
+    ["HasAffinity"] = {
         params = {
             {param = "food", explain = "", type = ""},
 
@@ -107,8 +99,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFoodBasePrefab",
+    ["GetFoodBasePrefab"] = {
         params = {
             {param = "food", explain = "", type = ""},
 
@@ -120,8 +111,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasPrefabAffinity",
+    ["HasPrefabAffinity"] = {
         params = {
             {param = "food", explain = "", type = ""},
 
@@ -133,8 +123,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAffinity",
+    ["GetAffinity"] = {
         params = {
             {param = "food", explain = "", type = ""},
 
@@ -147,3 +136,4 @@ data = {
     },
         
 }
+return data

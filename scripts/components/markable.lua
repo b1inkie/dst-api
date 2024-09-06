@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "getid",
+    ["getid"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "returnid",
+    ["returnid"] = {
         params = {
             {param = "id", explain = "", type = ""},
 
@@ -25,8 +23,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Mark",
+    ["Mark"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Unmarkall",
+    ["Unmarkall"] = {
         params = {
 
         },
@@ -50,8 +46,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMarkable",
+    ["SetMarkable"] = {
         params = {
             {param = "markable", explain = "", type = ""},
 
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanMark",
+    ["CanMark"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -76,8 +70,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasMarked",
+    ["HasMarked"] = {
         params = {
             {param = "doer", explain = "", type = ""},
 
@@ -89,8 +82,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -115,3 +106,4 @@ data = {
     },
         
 }
+return data

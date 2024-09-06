@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "Reset",
+    ["Reset"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -24,8 +22,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -37,8 +34,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LoadPostPass",
+    ["LoadPostPass"] = {
         params = {
 
         },
@@ -49,8 +45,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasCaughtItem",
+    ["HasCaughtItem"] = {
         params = {
 
         },
@@ -61,8 +56,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasFishEscaped",
+    ["HasFishEscaped"] = {
         params = {
 
         },
@@ -73,8 +67,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsLowered",
+    ["IsLowered"] = {
         params = {
 
         },
@@ -85,8 +78,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Lower",
+    ["Lower"] = {
         params = {
 
         },
@@ -97,8 +89,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOceanTrawlerSpawnChanceModifier",
+    ["GetOceanTrawlerSpawnChanceModifier"] = {
         params = {
             {param = "spawnpoint", explain = "", type = ""},
 
@@ -110,8 +101,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetBait",
+    ["GetBait"] = {
         params = {
             {param = "eater", explain = "", type = ""},
 
@@ -123,8 +113,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ReleaseOverflowFish",
+    ["ReleaseOverflowFish"] = {
         params = {
 
         },
@@ -135,8 +124,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Raise",
+    ["Raise"] = {
         params = {
 
         },
@@ -147,8 +135,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "Fix",
+    ["Fix"] = {
         params = {
 
         },
@@ -159,8 +146,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StopUpdating",
+    ["StopUpdating"] = {
         params = {
 
         },
@@ -171,8 +157,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "StartUpdate",
+    ["StartUpdate"] = {
         params = {
 
         },
@@ -183,8 +168,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CheckForMalbatross",
+    ["CheckForMalbatross"] = {
         params = {
 
         },
@@ -195,8 +179,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SimulateCatchFish",
+    ["SimulateCatchFish"] = {
         params = {
 
         },
@@ -207,8 +190,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntitySleep",
+    ["OnEntitySleep"] = {
         params = {
 
         },
@@ -219,8 +201,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnEntityWake",
+    ["OnEntityWake"] = {
         params = {
 
         },
@@ -231,8 +212,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -245,3 +225,4 @@ data = {
     },
         
 }
+return data

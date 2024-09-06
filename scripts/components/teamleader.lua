@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "GetTeamSize",
+    ["GetTeamSize"] = {
         params = {
 
         },
@@ -12,8 +11,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetUp",
+    ["SetUp"] = {
         params = {
             {param = "target", explain = "", type = ""},
             {param = "first_member", explain = "", type = ""},
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTeamFull",
+    ["IsTeamFull"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ValidMember",
+    ["ValidMember"] = {
         params = {
             {param = "member", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DisbandTeam",
+    ["DisbandTeam"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TeamSizeControl",
+    ["TeamSizeControl"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NewTeammate",
+    ["NewTeammate"] = {
         params = {
             {param = "member", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "BroadcastDistress",
+    ["BroadcastDistress"] = {
         params = {
             {param = "member", explain = "", type = ""},
 
@@ -101,8 +93,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLostTeammate",
+    ["OnLostTeammate"] = {
         params = {
             {param = "member", explain = "", type = ""},
 
@@ -114,8 +105,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CanAttack",
+    ["CanAttack"] = {
         params = {
 
         },
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CenterLeader",
+    ["CenterLeader"] = {
         params = {
 
         },
@@ -138,8 +127,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetFormationPositions",
+    ["GetFormationPositions"] = {
         params = {
 
         },
@@ -150,8 +138,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GiveOrders",
+    ["GiveOrders"] = {
         params = {
             {param = "order", explain = "", type = ""},
             {param = "num", explain = "", type = ""},
@@ -164,8 +151,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GiveOrdersToAllWithOrder",
+    ["GiveOrdersToAllWithOrder"] = {
         params = {
             {param = "order", explain = "", type = ""},
             {param = "oldorder", explain = "", type = ""},
@@ -178,8 +164,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AllInState",
+    ["AllInState"] = {
         params = {
             {param = "state", explain = "", type = ""},
 
@@ -191,8 +176,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsTeamEmpty",
+    ["IsTeamEmpty"] = {
         params = {
 
         },
@@ -203,8 +187,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetNewThreat",
+    ["SetNewThreat"] = {
         params = {
             {param = "threat", explain = "", type = ""},
 
@@ -216,8 +199,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetTheta",
+    ["GetTheta"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -229,8 +211,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetAttackGrpSize",
+    ["SetAttackGrpSize"] = {
         params = {
             {param = "val", explain = "", type = ""},
 
@@ -242,8 +223,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "NumberToAttack",
+    ["NumberToAttack"] = {
         params = {
 
         },
@@ -254,8 +234,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ManageChase",
+    ["ManageChase"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -267,8 +246,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ValidateTeam",
+    ["ValidateTeam"] = {
         params = {
 
         },
@@ -279,8 +257,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -293,3 +270,4 @@ data = {
     },
         
 }
+return data

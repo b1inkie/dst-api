@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "SetIgnoreAcidRainTicks",
+    ["SetIgnoreAcidRainTicks"] = {
         params = {
             {param = "ignoreacidrainticks", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOverrideAcidRainTickFn",
+    ["SetOverrideAcidRainTickFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetOverrideAcidRainTickFn",
+    ["GetOverrideAcidRainTickFn"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnIsAcidRaining",
+    ["OnIsAcidRaining"] = {
         params = {
             {param = "isacidraining", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnIsRaining",
+    ["OnIsRaining"] = {
         params = {
             {param = "israining", explain = "", type = ""},
 
@@ -64,8 +59,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStartIsAcidRainingFn",
+    ["SetOnStartIsAcidRainingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -77,8 +71,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStopIsAcidRainingFn",
+    ["SetOnStopIsAcidRainingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -90,8 +83,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStartIsRainingFn",
+    ["SetOnStartIsRainingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetOnStopIsRainingFn",
+    ["SetOnStopIsRainingFn"] = {
         params = {
             {param = "fn", explain = "", type = ""},
 
@@ -116,8 +107,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "delta", explain = "", type = ""},
 
@@ -129,8 +119,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPercent",
+    ["GetPercent"] = {
         params = {
 
         },
@@ -141,8 +130,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "percent", explain = "", type = ""},
 
@@ -154,8 +142,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -166,8 +153,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -179,8 +165,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -192,3 +177,4 @@ data = {
     },
         
 }
+return data

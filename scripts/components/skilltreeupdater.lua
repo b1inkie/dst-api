@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "IsActivated",
+    ["IsActivated"] = {
         params = {
             {param = "skill", explain = "", type = ""},
 
@@ -13,8 +12,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsValidSkill",
+    ["IsValidSkill"] = {
         params = {
             {param = "skill", explain = "", type = ""},
 
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSkillXP",
+    ["GetSkillXP"] = {
         params = {
 
         },
@@ -38,8 +35,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPointsForSkillXP",
+    ["GetPointsForSkillXP"] = {
         params = {
             {param = "skillxp", explain = "", type = ""},
 
@@ -51,8 +47,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetAvailableSkillPoints",
+    ["GetAvailableSkillPoints"] = {
         params = {
 
         },
@@ -63,8 +58,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetPlayerSkillSelection",
+    ["GetPlayerSkillSelection"] = {
         params = {
 
         },
@@ -75,8 +69,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetNamesFromSkillSelection",
+    ["GetNamesFromSkillSelection"] = {
         params = {
             {param = "skillselection", explain = "", type = ""},
 
@@ -88,8 +81,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetActivatedSkills",
+    ["GetActivatedSkills"] = {
         params = {
 
         },
@@ -100,8 +92,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "CountSkillTag",
+    ["CountSkillTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -113,8 +104,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "HasSkillTag",
+    ["HasSkillTag"] = {
         params = {
             {param = "tag", explain = "", type = ""},
 
@@ -126,8 +116,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ActivateSkill_Client",
+    ["ActivateSkill_Client"] = {
         params = {
             {param = "skill", explain = "", type = ""},
 
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ActivateSkill_Server",
+    ["ActivateSkill_Server"] = {
         params = {
             {param = "skill", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "ActivateSkill",
+    ["ActivateSkill"] = {
         params = {
             {param = "skill", explain = "", type = ""},
             {param = "prefab", explain = "", type = ""},
@@ -167,8 +154,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DeactivateSkill_Client",
+    ["DeactivateSkill_Client"] = {
         params = {
             {param = "skill", explain = "", type = ""},
 
@@ -180,8 +166,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DeactivateSkill_Server",
+    ["DeactivateSkill_Server"] = {
         params = {
             {param = "skill", explain = "", type = ""},
 
@@ -193,8 +178,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DeactivateSkill",
+    ["DeactivateSkill"] = {
         params = {
             {param = "skill", explain = "", type = ""},
             {param = "prefab", explain = "", type = ""},
@@ -208,8 +192,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddSkillXP_Client",
+    ["AddSkillXP_Client"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "total", explain = "", type = ""},
@@ -222,8 +205,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddSkillXP_Server",
+    ["AddSkillXP_Server"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "total", explain = "", type = ""},
@@ -236,8 +218,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddSkillXP",
+    ["AddSkillXP"] = {
         params = {
             {param = "amount", explain = "", type = ""},
             {param = "prefab", explain = "", type = ""},
@@ -251,8 +232,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSilent",
+    ["SetSilent"] = {
         params = {
             {param = "silent", explain = "", type = ""},
 
@@ -264,8 +244,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetSkipValidation",
+    ["SetSkipValidation"] = {
         params = {
             {param = "skip", explain = "", type = ""},
 
@@ -277,8 +256,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -289,8 +267,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -302,8 +279,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPlayerSkillSelection",
+    ["SetPlayerSkillSelection"] = {
         params = {
             {param = "skillselection", explain = "", type = ""},
 
@@ -315,8 +291,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SendFromSkillTreeBlob",
+    ["SendFromSkillTreeBlob"] = {
         params = {
             {param = "inst", explain = "", type = ""},
 
@@ -328,8 +303,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -342,3 +316,4 @@ data = {
     },
         
 }
+return data

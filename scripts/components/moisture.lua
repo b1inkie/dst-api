@@ -1,7 +1,6 @@
 data = {
 
-    {
-        method = "ForceDry",
+    ["ForceDry"] = {
         params = {
             {param = "force", explain = "", type = ""},
             {param = "source", explain = "", type = ""},
@@ -14,8 +13,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDebugString",
+    ["GetDebugString"] = {
         params = {
 
         },
@@ -26,8 +24,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AnnounceMoisture",
+    ["AnnounceMoisture"] = {
         params = {
             {param = "oldSegs", explain = "", type = ""},
             {param = "newSegs", explain = "", type = ""},
@@ -40,8 +37,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "DoDelta",
+    ["DoDelta"] = {
         params = {
             {param = "num", explain = "", type = ""},
             {param = "no_announce", explain = "", type = ""},
@@ -54,8 +50,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetMoistureLevel",
+    ["SetMoistureLevel"] = {
         params = {
             {param = "num", explain = "", type = ""},
 
@@ -67,8 +62,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsWet",
+    ["IsWet"] = {
         params = {
 
         },
@@ -79,8 +73,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMaxMoisture",
+    ["GetMaxMoisture"] = {
         params = {
 
         },
@@ -91,8 +84,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMoisture",
+    ["GetMoisture"] = {
         params = {
 
         },
@@ -103,8 +95,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMoisturePercent",
+    ["GetMoisturePercent"] = {
         params = {
 
         },
@@ -115,8 +106,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWaterproofInventory",
+    ["GetWaterproofInventory"] = {
         params = {
 
         },
@@ -127,8 +117,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "IsForceDry",
+    ["IsForceDry"] = {
         params = {
 
         },
@@ -139,8 +128,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetWaterproofInventory",
+    ["SetWaterproofInventory"] = {
         params = {
             {param = "waterproof", explain = "", type = ""},
 
@@ -152,8 +140,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetPercent",
+    ["SetPercent"] = {
         params = {
             {param = "per", explain = "", type = ""},
 
@@ -165,8 +152,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "SetInherentWaterproofness",
+    ["SetInherentWaterproofness"] = {
         params = {
             {param = "waterproofness", explain = "", type = ""},
 
@@ -178,8 +164,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSegs",
+    ["GetSegs"] = {
         params = {
 
         },
@@ -190,8 +175,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetWaterproofness",
+    ["GetWaterproofness"] = {
         params = {
 
         },
@@ -202,8 +186,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetMoistureRate",
+    ["GetMoistureRate"] = {
         params = {
 
         },
@@ -214,8 +197,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetEquippedMoistureRate",
+    ["GetEquippedMoistureRate"] = {
         params = {
             {param = "dryingrate", explain = "", type = ""},
 
@@ -227,8 +209,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetDryingRate",
+    ["GetDryingRate"] = {
         params = {
             {param = "moisturerate", explain = "", type = ""},
 
@@ -240,8 +221,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetSleepingBagDryingRate",
+    ["GetSleepingBagDryingRate"] = {
         params = {
 
         },
@@ -252,8 +232,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRate",
+    ["GetRate"] = {
         params = {
 
         },
@@ -264,8 +243,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRateScale",
+    ["GetRateScale"] = {
         params = {
 
         },
@@ -276,8 +254,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "AddRateBonus",
+    ["AddRateBonus"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "bonus", explain = "", type = ""},
@@ -291,8 +268,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "RemoveRateBonus",
+    ["RemoveRateBonus"] = {
         params = {
             {param = "src", explain = "", type = ""},
             {param = "key", explain = "", type = ""},
@@ -305,8 +281,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "GetRateBonus",
+    ["GetRateBonus"] = {
         params = {
 
         },
@@ -317,8 +292,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnUpdate",
+    ["OnUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -330,8 +304,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "LongUpdate",
+    ["LongUpdate"] = {
         params = {
             {param = "dt", explain = "", type = ""},
 
@@ -343,8 +316,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnSave",
+    ["OnSave"] = {
         params = {
 
         },
@@ -355,8 +327,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "OnLoad",
+    ["OnLoad"] = {
         params = {
             {param = "data", explain = "", type = ""},
 
@@ -368,8 +339,7 @@ data = {
         author = "",
     },
         
-    {
-        method = "TransferComponent",
+    ["TransferComponent"] = {
         params = {
             {param = "newinst", explain = "", type = ""},
 
@@ -382,3 +352,4 @@ data = {
     },
         
 }
+return data
