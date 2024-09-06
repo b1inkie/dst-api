@@ -13,14 +13,21 @@ data = {
         
     ["SetDamage"] = {
         params = {
-            {param = "dmg", explain = "", type = ""},
+            {
+                param = "dmg", explain = "伤害值或伤害函数", type = "number|function",
+                pfparams = {
+                    {param = "inst", explain = "组件的inst", type = "table"},
+                    {param = "attacker", explain = "攻击者的inst", type = "table"},
+                    {param = "target", explain = "攻击目标的inst", type = "table"},
+                },
+            },
 
         },
         returns = {
-            
+            nil,
         },
-        tips = "",
-        author = "",
+        tips = "如果dmg为函数型参数，show me等信息模组无法显示正确的攻击力",
+        author = "Runar",
     },
         
     ["SetRange"] = {
