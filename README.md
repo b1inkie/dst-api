@@ -10,6 +10,9 @@ edited by lan
 
 ps: 由于都是批量处理,难免会有些问题,可以向我反馈
 
+gitee:
+https://gitee.com/b1inkie/dst-api
+
 ## 成为贡献者:
 
 1. `scripts/components` 中,可以看到用lua的表形式创建的*组件方法表*
