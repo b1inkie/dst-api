@@ -1,7 +1,55 @@
 data = [
     {
-        "method": "StopTrackingDistance",
+        "method": "IsSoldier",
         "params": [
+            {"param": "ent", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveSoldier",
+        "params": [
+            {"param": "ent", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DropAllSoldierTargets",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetTrackingDistance",
+        "params": [
+            {"param": "dist", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddSoldier",
+        "params": [
+            {"param": "ent", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,9 +72,8 @@ data = [
         "author": "",
     },
     {
-        "method": "ShareTargetToAllSoldiers",
+        "method": "GetDebugString",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,7 +83,18 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "StopTrackingDistance",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsAnySoldierNotAlert",
         "params": [
 
         ],
@@ -58,17 +116,6 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "StartTrackingDistance",
         "params": [
 
@@ -80,21 +127,9 @@ data = [
         "author": "",
     },
     {
-        "method": "AddSoldier",
+        "method": "ShareTargetToAllSoldiers",
         "params": [
-            {"param": "ent", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetTrackingDistance",
-        "params": [
-            {"param": "dist", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -116,55 +151,20 @@ data = [
         "author": "",
     },
     {
-        "method": "IsSoldier",
-        "params": [
-            {"param": "ent", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsAnySoldierNotAlert",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DropAllSoldierTargets",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveSoldier",
-        "params": [
-            {"param": "ent", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetNumSoldiers",
         "params": [
             {"param": "prefab", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

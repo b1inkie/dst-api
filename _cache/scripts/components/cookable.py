@@ -1,9 +1,8 @@
 data = [
     {
-        "method": "Cook",
+        "method": "SetOnCookedFn",
         "params": [
-            {"param": "cooker", "explain": "", "type": ""},
-            {"param": "chef", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -13,9 +12,10 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnCookedFn",
+        "method": "Cook",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "cooker", "explain": "", "type": ""},
+            {"param": "chef", "explain": "", "type": ""},
 
         ],
         "returns": [

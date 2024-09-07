@@ -23,8 +23,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetDefaultLevel",
         "params": [
+            {"param": "level", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,9 +35,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetDefaultLevel",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "level", "explain": "", "type": ""},
 
         ],
         "returns": [

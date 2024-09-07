@@ -1,19 +1,8 @@
 data = [
     {
-        "method": "StartMonster",
+        "method": "OnUpdate",
         "params": [
-            {"param": "starttime", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnEntitySleep",
-        "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,6 +13,17 @@ data = [
     },
     {
         "method": "OnEntityWake",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnEntitySleep",
         "params": [
 
         ],
@@ -45,9 +45,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "StartMonster",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "starttime", "explain": "", "type": ""},
 
         ],
         "returns": [

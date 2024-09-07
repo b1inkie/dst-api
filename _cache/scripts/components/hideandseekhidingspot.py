@@ -1,7 +1,31 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "OnRemoveEntity",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Abort",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+            {"param": "newents", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,45 +58,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SearchHidingSpot",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetHider",
         "params": [
             {"param": "hider", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-            {"param": "newents", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -94,7 +82,19 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveEntity",
+        "method": "SearchHidingSpot",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
         "params": [
 
         ],
@@ -105,7 +105,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Abort",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

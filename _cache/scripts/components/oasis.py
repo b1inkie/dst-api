@@ -1,9 +1,8 @@
 data = [
     {
-        "method": "GetProximityLevel",
+        "method": "IsEntityInOasis",
         "params": [
             {"param": "ent", "explain": "", "type": ""},
-            {"param": "range", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -13,9 +12,10 @@ data = [
         "author": "",
     },
     {
-        "method": "IsEntityInOasis",
+        "method": "GetProximityLevel",
         "params": [
             {"param": "ent", "explain": "", "type": ""},
+            {"param": "range", "explain": "", "type": ""},
 
         ],
         "returns": [

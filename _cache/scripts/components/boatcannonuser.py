@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "GetCannon",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "DetachClassified",
         "params": [
 
@@ -22,43 +33,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetReticule",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnCannonChanged",
+        "method": "SetCannon",
         "params": [
             {"param": "cannon", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetCannon",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AttachClassified",
-        "params": [
-            {"param": "classified", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -91,7 +68,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCannon",
+        "method": "AttachClassified",
+        "params": [
+            {"param": "classified", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnCannonChanged",
         "params": [
             {"param": "cannon", "explain": "", "type": ""},
 
@@ -106,6 +95,17 @@ data = [
         "method": "SetClassified",
         "params": [
             {"param": "classified", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetReticule",
+        "params": [
 
         ],
         "returns": [

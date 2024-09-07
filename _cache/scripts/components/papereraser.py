@@ -1,7 +1,9 @@
 data = [
     {
-        "method": "OnRemoveFromEntity",
+        "method": "DoErase",
         "params": [
+            {"param": "paper", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,10 +13,8 @@ data = [
         "author": "",
     },
     {
-        "method": "DoErase",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "paper", "explain": "", "type": ""},
-            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [

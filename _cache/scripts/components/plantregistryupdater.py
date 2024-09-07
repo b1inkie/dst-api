@@ -1,17 +1,5 @@
 data = [
     {
-        "method": "LearnFertilizer",
-        "params": [
-            {"param": "fertilizer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "LearnPlantStage",
         "params": [
             {"param": "plant", "explain": "", "type": ""},
@@ -31,6 +19,18 @@ data = [
             {"param": "weight", "explain": "", "type": ""},
             {"param": "beardskin", "explain": "", "type": ""},
             {"param": "beardlength", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LearnFertilizer",
+        "params": [
+            {"param": "fertilizer", "explain": "", "type": ""},
 
         ],
         "returns": [

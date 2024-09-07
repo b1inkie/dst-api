@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetSpawnPoint",
+        "method": "SetSpawnTimes",
         "params": [
-            {"param": "pt", "explain": "", "type": ""},
+            {"param": "times", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,9 +36,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetSpawnTimes",
+        "method": "GetSpawnPoint",
         "params": [
-            {"param": "times", "explain": "", "type": ""},
+            {"param": "pt", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "PacifySpiders",
+        "method": "Stop",
         "params": [
 
         ],
@@ -34,7 +34,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Stop",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -45,7 +45,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "PacifySpiders",
         "params": [
 
         ],

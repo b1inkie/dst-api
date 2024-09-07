@@ -1,62 +1,5 @@
 data = [
     {
-        "method": "IsGrazing",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetValidAareaCheckFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsAnyEntityAsleep",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsAHerdAlertTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "UpdateDeerHerdingStatus",
         "params": [
 
@@ -68,19 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "UpdateHerdLocation",
-        "params": [
-            {"param": "radius", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CalcIsHerdSpooked",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -114,8 +45,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "UpdateHerdLocation",
         "params": [
+            {"param": "radius", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -125,10 +57,9 @@ data = [
         "author": "",
     },
     {
-        "method": "LoadPostPass",
+        "method": "IsActiveInHerd",
         "params": [
-            {"param": "newents", "explain": "", "type": ""},
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "deer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -138,9 +69,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "CalcIsHerdSpooked",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -153,6 +83,29 @@ data = [
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetValidAareaCheckFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsAnyEntityAsleep",
+        "params": [
 
         ],
         "returns": [
@@ -175,6 +128,42 @@ data = [
         "author": "",
     },
     {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LoadPostPass",
+        "params": [
+            {"param": "newents", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetClosestHerdAlertTarget",
         "params": [
             {"param": "deer", "explain": "", "type": ""},
@@ -187,9 +176,20 @@ data = [
         "author": "",
     },
     {
-        "method": "IsActiveInHerd",
+        "method": "IsAHerdAlertTarget",
         "params": [
-            {"param": "deer", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsGrazing",
+        "params": [
 
         ],
         "returns": [

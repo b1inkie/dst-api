@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "RemoveMast",
         "params": [
             {"param": "mast", "explain": "", "type": ""},
@@ -23,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "AddMast",
+        "method": "GetTargetRudderDirection",
         "params": [
-            {"param": "mast", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -35,19 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveMagnet",
-        "params": [
-            {"param": "magnet", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetVelocity",
+        "method": "GetRudderTurnSpeed",
         "params": [
 
         ],
@@ -69,103 +45,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetMoveDirection",
+        "method": "SetHalting",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetRudderDirection",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddBoatDrag",
-        "params": [
-            {"param": "boatdraginst", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetForceDampening",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ApplyMagnetForce",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-            {"param": "magnet_force", "explain": "", "type": ""},
-            {"param": "magnet_direction", "explain": "", "type": ""},
-            {"param": "cur_velocity", "explain": "", "type": ""},
-            {"param": "max_velocity", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetTargetRudderDirection",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CloseAllSails",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnEntitySleep",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetCanSteeringRotate",
-        "params": [
-            {"param": "can_rotate", "explain": "", "type": ""},
+            {"param": "halt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -189,12 +71,9 @@ data = [
         "author": "",
     },
     {
-        "method": "ApplySailForce",
+        "method": "RemoveEmergencyBrakeSource",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
-            {"param": "sail_force", "explain": "", "type": ""},
-            {"param": "cur_velocity", "explain": "", "type": ""},
-            {"param": "max_velocity", "explain": "", "type": ""},
+            {"param": "source", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -204,21 +83,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetMaxVelocity",
+        "method": "OnEntitySleep",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetTargetRudderDirection",
-        "params": [
-            {"param": "dir_x", "explain": "", "type": ""},
-            {"param": "dir_z", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -251,7 +117,31 @@ data = [
         "author": "",
     },
     {
-        "method": "AddAnchorCmp",
+        "method": "SetTargetRudderDirection",
+        "params": [
+            {"param": "dir_x", "explain": "", "type": ""},
+            {"param": "dir_z", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetAnchorSailForceModifier",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveAnchorCmp",
         "params": [
             {"param": "anchor", "explain": "", "type": ""},
 
@@ -275,6 +165,63 @@ data = [
         "author": "",
     },
     {
+        "method": "AddAnchorCmp",
+        "params": [
+            {"param": "anchor", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CloseAllSails",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetCanSteeringRotate",
+        "params": [
+            {"param": "can_rotate", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetMoveDirection",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetForceDampening",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetTotalAnchorDrag",
         "params": [
 
@@ -286,7 +233,46 @@ data = [
         "author": "",
     },
     {
-        "method": "GetAnchorSailForceModifier",
+        "method": "RemoveMagnet",
+        "params": [
+            {"param": "magnet", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ApplySailForce",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+            {"param": "sail_force", "explain": "", "type": ""},
+            {"param": "cur_velocity", "explain": "", "type": ""},
+            {"param": "max_velocity", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddMast",
+        "params": [
+            {"param": "mast", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
         "params": [
 
         ],
@@ -324,8 +310,13 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "ApplyMagnetForce",
         "params": [
+            {"param": "dt", "explain": "", "type": ""},
+            {"param": "magnet_force", "explain": "", "type": ""},
+            {"param": "magnet_direction", "explain": "", "type": ""},
+            {"param": "cur_velocity", "explain": "", "type": ""},
+            {"param": "max_velocity", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -335,7 +326,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetRudderTurnSpeed",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -358,10 +349,32 @@ data = [
         "author": "",
     },
     {
-        "method": "GetBoatDrag",
+        "method": "StartUpdating",
         "params": [
-            {"param": "velocity", "explain": "", "type": ""},
-            {"param": "total_anchor_drag", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddBoatDrag",
+        "params": [
+            {"param": "boatdraginst", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -387,9 +400,10 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveEmergencyBrakeSource",
+        "method": "GetBoatDrag",
         "params": [
-            {"param": "source", "explain": "", "type": ""},
+            {"param": "velocity", "explain": "", "type": ""},
+            {"param": "total_anchor_drag", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -399,55 +413,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetHalting",
+        "method": "GetMaxVelocity",
         "params": [
-            {"param": "halt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetNormalizedVelocities",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartUpdating",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveAnchorCmp",
-        "params": [
-            {"param": "anchor", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -462,6 +429,39 @@ data = [
             {"param": "dir_x", "explain": "", "type": ""},
             {"param": "dir_z", "explain": "", "type": ""},
             {"param": "force", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetVelocity",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetRudderDirection",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetNormalizedVelocities",
+        "params": [
 
         ],
         "returns": [

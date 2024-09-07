@@ -1,5 +1,17 @@
 data = [
     {
+        "method": "SetIsSlipperyAtPoint",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetSlipperyRate",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
@@ -12,9 +24,11 @@ data = [
         "author": "",
     },
     {
-        "method": "SetIsSlipperyAtPoint",
+        "method": "IsSlipperyAtPosition",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "x", "explain": "", "type": ""},
+            {"param": "y", "explain": "", "type": ""},
+            {"param": "z", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -38,20 +52,6 @@ data = [
     {
         "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsSlipperyAtPosition",
-        "params": [
-            {"param": "x", "explain": "", "type": ""},
-            {"param": "y", "explain": "", "type": ""},
-            {"param": "z", "explain": "", "type": ""},
 
         ],
         "returns": [

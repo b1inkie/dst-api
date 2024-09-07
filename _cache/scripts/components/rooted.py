@@ -12,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "AddSource",
         "params": [
+            {"param": "src", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,9 +24,8 @@ data = [
         "author": "",
     },
     {
-        "method": "AddSource",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "src", "explain": "", "type": ""},
 
         ],
         "returns": [

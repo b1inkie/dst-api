@@ -34,7 +34,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "GetHome",
         "params": [
 
         ],
@@ -45,8 +45,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetHome",
+        "method": "GoHome",
         "params": [
+            {"param": "shouldrun", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -67,9 +68,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GoHome",
+        "method": "GetDebugString",
         "params": [
-            {"param": "shouldrun", "explain": "", "type": ""},
 
         ],
         "returns": [

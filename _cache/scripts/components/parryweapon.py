@@ -1,24 +1,8 @@
 data = [
     {
-        "method": "SetOnPreParryFn",
+        "method": "SetParryArc",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TryParry",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-            {"param": "attacker", "explain": "", "type": ""},
-            {"param": "damage", "explain": "", "type": ""},
-            {"param": "weapon", "explain": "", "type": ""},
-            {"param": "stimuli", "explain": "", "type": ""},
+            {"param": "arc", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -66,8 +50,13 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "TryParry",
         "params": [
+            {"param": "doer", "explain": "", "type": ""},
+            {"param": "attacker", "explain": "", "type": ""},
+            {"param": "damage", "explain": "", "type": ""},
+            {"param": "weapon", "explain": "", "type": ""},
+            {"param": "stimuli", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -77,9 +66,20 @@ data = [
         "author": "",
     },
     {
-        "method": "SetParryArc",
+        "method": "SetOnPreParryFn",
         "params": [
-            {"param": "arc", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

@@ -1,108 +1,6 @@
 data = [
     {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsBeaconOnSameBoat",
-        "params": [
-            {"param": "beacon", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsActivated",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "PairedBeacon",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "FindNearestBeacon",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "PairWithBeacon",
-        "params": [
-            {"param": "beacon", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetFollowTarget",
+        "method": "CalcMagnetForce",
         "params": [
 
         ],
@@ -125,8 +23,99 @@ data = [
         "author": "",
     },
     {
-        "method": "CalcMagnetForce",
+        "method": "PairWithBeacon",
         "params": [
+            {"param": "beacon", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "PairedBeacon",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CalcMagnetDirection",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveEntity",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetFollowTarget",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsBeaconOnSameBoat",
+        "params": [
+            {"param": "beacon", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -148,7 +137,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CalcMagnetDirection",
+        "method": "CalcMaxVelocity",
         "params": [
 
         ],
@@ -159,7 +148,18 @@ data = [
         "author": "",
     },
     {
-        "method": "CalcMaxVelocity",
+        "method": "IsActivated",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "FindNearestBeacon",
         "params": [
 
         ],
@@ -181,7 +181,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveEntity",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

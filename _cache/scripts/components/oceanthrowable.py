@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "SetOnAddProjectileFn",
+        "method": "AddProjectile",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,8 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "AddProjectile",
+        "method": "SetOnAddProjectileFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

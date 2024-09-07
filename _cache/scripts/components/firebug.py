@@ -1,5 +1,17 @@
 data = [
     {
+        "method": "Enable",
+        "params": [
+            {"param": "enable", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetDebugString",
         "params": [
 
@@ -25,18 +37,6 @@ data = [
     {
         "method": "Disable",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Enable",
-        "params": [
-            {"param": "enable", "explain": "", "type": ""},
 
         ],
         "returns": [

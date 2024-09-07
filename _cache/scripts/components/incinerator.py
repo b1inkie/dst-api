@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "Incinerate",
+        "method": "SetOnIncinerateFn",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,7 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnIncinerateFn",
+        "method": "SetShouldIncinerateItemFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -36,9 +36,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetShouldIncinerateItemFn",
+        "method": "Incinerate",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [

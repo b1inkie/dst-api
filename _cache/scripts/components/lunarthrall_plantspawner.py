@@ -1,32 +1,20 @@
 data = [
     {
-        "method": "SpawnPlant",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SpawnGestalt",
         "params": [
             {"param": "target", "explain": "", "type": ""},
             {"param": "rift", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "FindPlant",
+        "params": [
 
         ],
         "returns": [
@@ -58,9 +46,21 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "SpawnPlant",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "setHerdsOnPlantable",
+        "params": [
+            {"param": "plantable", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -71,17 +71,6 @@ data = [
     },
     {
         "method": "FindHerd",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "FindPlant",
         "params": [
 
         ],
@@ -104,18 +93,6 @@ data = [
         "author": "",
     },
     {
-        "method": "InvadeTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "LoadPostPass",
         "params": [
             {"param": "newents", "explain": "", "type": ""},
@@ -129,9 +106,9 @@ data = [
         "author": "",
     },
     {
-        "method": "MoveGestaltToPlant",
+        "method": "OnLoad",
         "params": [
-            {"param": "thrall", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -141,9 +118,32 @@ data = [
         "author": "",
     },
     {
-        "method": "setHerdsOnPlantable",
+        "method": "InvadeTarget",
         "params": [
-            {"param": "plantable", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "MoveGestaltToPlant",
+        "params": [
+            {"param": "thrall", "explain": "", "type": ""},
 
         ],
         "returns": [

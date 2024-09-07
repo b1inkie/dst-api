@@ -1,29 +1,5 @@
 data = [
     {
-        "method": "SetMiasmaSpeedMultiplier",
-        "params": [
-            {"param": "mult", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddMiasmaSource",
-        "params": [
-            {"param": "src", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "RemoveMiasmaSource",
         "params": [
             {"param": "src", "explain": "", "type": ""},
@@ -36,7 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "IsInMiasma",
         "params": [
 
         ],
@@ -59,8 +35,21 @@ data = [
         "author": "",
     },
     {
-        "method": "IsInMiasma",
+        "method": "AddMiasmaSource",
         "params": [
+            {"param": "src", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetMiasmaSpeedMultiplier",
+        "params": [
+            {"param": "mult", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -71,6 +60,17 @@ data = [
     },
     {
         "method": "UpdateMiasmaWalkSpeed",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "ClearAllClothing",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "reloadclothing",
         "params": [
             {"param": "clothing", "explain": "", "type": ""},
@@ -34,9 +23,10 @@ data = [
         "author": "",
     },
     {
-        "method": "SetClothing",
+        "method": "ApplyTargetSkins",
         "params": [
-            {"param": "name", "explain": "", "type": ""},
+            {"param": "skins", "explain": "", "type": ""},
+            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,10 +36,8 @@ data = [
         "author": "",
     },
     {
-        "method": "ApplyTargetSkins",
+        "method": "GetClothing",
         "params": [
-            {"param": "skins", "explain": "", "type": ""},
-            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -83,8 +71,20 @@ data = [
         "author": "",
     },
     {
-        "method": "GetClothing",
+        "method": "ClearAllClothing",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetClothing",
+        "params": [
+            {"param": "name", "explain": "", "type": ""},
 
         ],
         "returns": [

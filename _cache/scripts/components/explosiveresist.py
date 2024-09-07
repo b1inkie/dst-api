@@ -1,7 +1,21 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "OnUpdate",
         "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnExplosiveDamage",
+        "params": [
+            {"param": "damage", "explain": "", "type": ""},
+            {"param": "src", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -35,44 +49,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetResistance",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetDebugString",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnExplosiveDamage",
-        "params": [
-            {"param": "damage", "explain": "", "type": ""},
-            {"param": "src", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -85,6 +63,28 @@ data = [
         "method": "SetResistance",
         "params": [
             {"param": "resistance", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetResistance",
+        "params": [
 
         ],
         "returns": [

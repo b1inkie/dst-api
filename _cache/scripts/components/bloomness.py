@@ -1,28 +1,5 @@
 data = [
     {
-        "method": "Fertilize",
-        "params": [
-            {"param": "value", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -39,17 +16,6 @@ data = [
         "params": [
             {"param": "stage", "explain": "", "type": ""},
             {"param": "full", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateRate",
-        "params": [
 
         ],
         "returns": [
@@ -83,8 +49,32 @@ data = [
         "author": "",
     },
     {
+        "method": "LongUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetLevel",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Fertilize",
+        "params": [
+            {"param": "value", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -105,9 +95,19 @@ data = [
         "author": "",
     },
     {
-        "method": "LongUpdate",
+        "method": "OnSave",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "UpdateRate",
+        "params": [
 
         ],
         "returns": [

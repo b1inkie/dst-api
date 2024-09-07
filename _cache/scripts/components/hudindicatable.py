@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "OnRemoveFromEntity",
+        "method": "RegisterWithWorldComponent",
         "params": [
 
         ],
@@ -23,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "RegisterWithWorldComponent",
+        "method": "UnRegisterWithWorldComponent",
         "params": [
 
         ],
@@ -34,7 +34,7 @@ data = [
         "author": "",
     },
     {
-        "method": "UnRegisterWithWorldComponent",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

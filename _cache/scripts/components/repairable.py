@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "SetHealthRepairable",
+        "method": "SetWorkRepairable",
         "params": [
             {"param": "repairable", "explain": "", "type": ""},
 
@@ -12,7 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetFiniteUsesRepairable",
+        "method": "SetHealthRepairable",
         "params": [
             {"param": "repairable", "explain": "", "type": ""},
 
@@ -37,7 +37,18 @@ data = [
         "author": "",
     },
     {
-        "method": "SetWorkRepairable",
+        "method": "NeedsRepairs",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetFiniteUsesRepairable",
         "params": [
             {"param": "repairable", "explain": "", "type": ""},
 
@@ -50,17 +61,6 @@ data = [
     },
     {
         "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "NeedsRepairs",
         "params": [
 
         ],

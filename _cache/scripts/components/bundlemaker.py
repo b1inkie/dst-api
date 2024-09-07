@@ -12,10 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetSkinData",
+        "method": "SetOnStartBundlingFn",
         "params": [
-            {"param": "skinname", "explain": "", "type": ""},
-            {"param": "skin_id", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -25,9 +24,10 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnStartBundlingFn",
+        "method": "SetSkinData",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "skinname", "explain": "", "type": ""},
+            {"param": "skin_id", "explain": "", "type": ""},
 
         ],
         "returns": [

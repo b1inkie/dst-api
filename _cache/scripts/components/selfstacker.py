@@ -1,6 +1,17 @@
 data = [
     {
-        "method": "FindItemToStackWith",
+        "method": "OnRemoveEntity",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanSelfStack",
         "params": [
 
         ],
@@ -34,29 +45,18 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanSelfStack",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnEntityWake",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "FindItemToStackWith",
         "params": [
 
         ],

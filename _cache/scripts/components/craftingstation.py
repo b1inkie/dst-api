@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "GetRecipes",
+        "method": "OnLoad",
         "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -14,17 +15,6 @@ data = [
         "method": "KnowsItem",
         "params": [
             {"param": "itemname", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
 
         ],
         "returns": [
@@ -59,18 +49,6 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "ForgetAllItems",
         "params": [
 
@@ -83,6 +61,28 @@ data = [
     },
     {
         "method": "GetItems",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetRecipes",
         "params": [
 
         ],

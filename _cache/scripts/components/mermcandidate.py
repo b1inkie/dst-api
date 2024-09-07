@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "AddCalories",
+        "method": "ResetCalories",
         "params": [
-            {"param": "food", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +11,20 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "ShouldTransform",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddCalories",
+        "params": [
+            {"param": "food", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -35,19 +45,9 @@ data = [
         "author": "",
     },
     {
-        "method": "ResetCalories",
+        "method": "OnLoad",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ShouldTransform",
-        "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [

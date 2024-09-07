@@ -1,6 +1,17 @@
 data = [
     {
-        "method": "SetAcceptStacks",
+        "method": "Enable",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -23,8 +34,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Disable",
+        "method": "SetOnAccept",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,18 +46,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
+        "method": "SetAcceptStacks",
         "params": [
 
         ],
@@ -70,7 +71,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnAccept",
+        "method": "SetOnRefuse",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetAbleToAcceptTest",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -87,6 +100,17 @@ data = [
             {"param": "item", "explain": "", "type": ""},
             {"param": "giver", "explain": "", "type": ""},
             {"param": "count", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Disable",
+        "params": [
 
         ],
         "returns": [
@@ -122,18 +146,6 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnRefuse",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "IsAcceptingStacks",
         "params": [
 
@@ -145,19 +157,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetAbleToAcceptTest",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Enable",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

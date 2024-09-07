@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "SetDefaultDamage",
+        "method": "SetReflectDamageFn",
         "params": [
-            {"param": "value", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetReflectDamageFn",
+        "method": "SetDefaultDamage",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "value", "explain": "", "type": ""},
 
         ],
         "returns": [

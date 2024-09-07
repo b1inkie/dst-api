@@ -1,27 +1,5 @@
 data = [
     {
-        "method": "GetActiveRadius",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Disable",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
         "params": [
 
@@ -33,18 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetTemperature",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
+        "method": "GetActiveRadius",
         "params": [
 
         ],
@@ -92,7 +59,40 @@ data = [
         "author": "",
     },
     {
+        "method": "Disable",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetTemperature",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "Enable",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

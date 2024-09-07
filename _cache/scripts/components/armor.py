@@ -1,18 +1,5 @@
 data = [
     {
-        "method": "CanResist",
-        "params": [
-            {"param": "attacker", "explain": "", "type": ""},
-            {"param": "weapon", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetKeepOnFinished",
         "params": [
             {"param": "keep", "explain": "", "type": ""},
@@ -25,18 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetPercent",
+        "method": "Repair",
         "params": [
             {"param": "amount", "explain": "", "type": ""},
 
@@ -60,7 +36,18 @@ data = [
         "author": "",
     },
     {
-        "method": "InitIndestructible",
+        "method": "IsDamaged",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetAbsorption",
         "params": [
             {"param": "absorb_percent", "explain": "", "type": ""},
 
@@ -72,7 +59,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCondition",
+        "method": "RemoveWeakness",
+        "params": [
+            {"param": "tag", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetPercent",
         "params": [
             {"param": "amount", "explain": "", "type": ""},
 
@@ -96,9 +95,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "GetPercent",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -108,9 +106,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnFinished",
+        "method": "GetDebugString",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -133,55 +130,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetAbsorption",
-        "params": [
-            {"param": "absorb_percent", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "InitCondition",
-        "params": [
-            {"param": "amount", "explain": "", "type": ""},
-            {"param": "absorb_percent", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Repair",
-        "params": [
-            {"param": "amount", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetBonusDamage",
+        "method": "CanResist",
         "params": [
             {"param": "attacker", "explain": "", "type": ""},
             {"param": "weapon", "explain": "", "type": ""},
@@ -207,8 +156,10 @@ data = [
         "author": "",
     },
     {
-        "method": "IsDamaged",
+        "method": "GetBonusDamage",
         "params": [
+            {"param": "attacker", "explain": "", "type": ""},
+            {"param": "weapon", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -218,20 +169,9 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveWeakness",
+        "method": "InitIndestructible",
         "params": [
-            {"param": "tag", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetPercent",
-        "params": [
+            {"param": "absorb_percent", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -243,6 +183,66 @@ data = [
     {
         "method": "IsIndestructible",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "InitCondition",
+        "params": [
+            {"param": "amount", "explain": "", "type": ""},
+            {"param": "absorb_percent", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnFinished",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetCondition",
+        "params": [
+            {"param": "amount", "explain": "", "type": ""},
 
         ],
         "returns": [

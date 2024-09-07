@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "TendTo",
+        "method": "SetTendable",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "tendable", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetTendable",
+        "method": "OnLoad",
         "params": [
-            {"param": "tendable", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -35,9 +35,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "TendTo",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [

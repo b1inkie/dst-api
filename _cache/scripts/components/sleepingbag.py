@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "SetSleepPhase",
+        "method": "GetSleepPhase",
         "params": [
-            {"param": "phase", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,9 +23,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetTemperatureTickFn",
+        "method": "InUse",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,8 +34,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetSleepPhase",
+        "method": "SetSleepPhase",
         "params": [
+            {"param": "phase", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -59,8 +58,9 @@ data = [
         "author": "",
     },
     {
-        "method": "InUse",
+        "method": "SetTemperatureTickFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

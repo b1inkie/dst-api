@@ -53,4 +53,42 @@ function tools:getFileName(directory)
     return filenames
 end
 
+
+local function escape_string(s)
+    -- 转义字符串中的特殊字符
+    return string.gsub(s, '"', "\\'")
+end
+
+function tools:table2string(t, indent)
+    local s = "{\n"
+    indent = indent or "\t"
+    for k, v in pairs(t) do
+        local new_indent = indent .. "\t"
+        if type(v) == "table" then
+            s = s .. new_indent .. "[\"" .. escape_string(tostring(k)) .. "\"] = " .. self:table2string(v, new_indent) .. ",\n"
+        else
+            s = s .. new_indent .. "[\"" .. escape_string(tostring(k)) .. "\"] = \"" .. escape_string(tostring(v)) .. "\",\n"
+        end
+    end
+    s = s .. indent .. "}"
+    return s
+end
+
+function tools:mergeSeveral(merge_target_folder,target_filename_without_extension,new_tbl)
+    -- @param merge_target_folder: 合并的目标文件夹
+    -- @param target_filename_without_extension: 目标文件文件名（不包括扩展名）
+    -- @param new_tbl: 新增的数据表
+    local data = require(merge_target_folder..'/'..target_filename_without_extension)
+    for k,v in pairs(new_tbl) do
+        data[k] = v
+    end
+    local table_string = "return\n" .. self:table2string(data)
+    -- print(table_string)
+    local file = io.open(merge_target_folder..'/'..target_filename_without_extension..".lua", "w")
+    if file then
+        file:write(table_string)
+        file:close()
+    end
+end
+
 return tools

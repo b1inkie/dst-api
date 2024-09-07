@@ -1,6 +1,18 @@
 data = [
     {
-        "method": "SpawnResidue",
+        "method": "ApplyCooldown",
+        "params": [
+            {"param": "duration", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DoRoseInspectionOnPoint",
         "params": [
 
         ],
@@ -11,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "SpawnResidue",
         "params": [
 
         ],
@@ -35,66 +47,9 @@ data = [
         "author": "",
     },
     {
-        "method": "LongUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRoseInpectionOnTarget",
+        "method": "TryToDoRoseInspectionOnTarget",
         "params": [
             {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsInCooldown",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRoseInpectionOnPoint",
-        "params": [
-            {"param": "point", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ForceDecayResidue",
-        "params": [
 
         ],
         "returns": [
@@ -116,9 +71,8 @@ data = [
         "author": "",
     },
     {
-        "method": "TryToDoRoseInspectionOnTarget",
+        "method": "ForceDecayResidue",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -128,9 +82,32 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCooldownTime",
+        "method": "LongUpdate",
         "params": [
-            {"param": "cooldowntime", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnCooldown",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetRoseInpectionOnTarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -163,30 +140,31 @@ data = [
         "author": "",
     },
     {
+        "method": "SetRoseInpectionOnPoint",
+        "params": [
+            {"param": "point", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetCooldownTime",
+        "params": [
+            {"param": "cooldowntime", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ApplyCooldown",
-        "params": [
-            {"param": "duration", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DoRoseInspectionOnPoint",
         "params": [
 
         ],
@@ -209,7 +187,29 @@ data = [
         "author": "",
     },
     {
-        "method": "OnCooldown",
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsInCooldown",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

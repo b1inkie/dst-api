@@ -1,50 +1,5 @@
 data = [
     {
-        "method": "IsTellingStory",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnStoryOverFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnDone",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "performplay",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "performedplay",
         "params": [
             {"param": "story_id", "explain": "", "type": ""},
@@ -57,7 +12,31 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetOnStoryBeginFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetStage",
+        "params": [
+            {"param": "stage", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnStoryTick",
         "params": [
 
         ],
@@ -80,56 +59,9 @@ data = [
         "author": "",
     },
     {
-        "method": "TellStory",
+        "method": "SetOnStoryOverFn",
         "params": [
-            {"param": "storyprop", "explain": "", "type": ""},
-            {"param": "story", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnStoryTick",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetStage",
-        "params": [
-            {"param": "stage", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetStage",
-        "params": [
-            {"param": "stage", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -151,9 +83,77 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnStoryBeginFn",
+        "method": "SetStage",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "stage", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TellStory",
+        "params": [
+            {"param": "storyprop", "explain": "", "type": ""},
+            {"param": "story", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "performplay",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnDone",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsTellingStory",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

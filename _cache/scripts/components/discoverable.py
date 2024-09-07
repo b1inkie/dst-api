@@ -23,6 +23,17 @@ data = [
         "author": "",
     },
     {
+        "method": "Hide",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetIcons",
         "params": [
             {"param": "undiscovered", "explain": "", "type": ""},
@@ -39,17 +50,6 @@ data = [
         "method": "OnSave",
         "params": [
             {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Hide",
-        "params": [
 
         ],
         "returns": [

@@ -1,5 +1,17 @@
 data = [
     {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetCurrentAct",
         "params": [
             {"param": "act", "explain": "", "type": ""},
@@ -14,18 +26,6 @@ data = [
     {
         "method": "OnSave",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [

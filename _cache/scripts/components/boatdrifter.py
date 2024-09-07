@@ -1,39 +1,6 @@
 data = [
     {
-        "method": "IsDrifting",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartWakeTests",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnEntityWake",
         "params": [
 
         ],
@@ -55,6 +22,17 @@ data = [
         "author": "",
     },
     {
+        "method": "OnEntityWake",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnEntitySleep",
         "params": [
 
@@ -66,18 +44,7 @@ data = [
         "author": "",
     },
     {
-        "method": "StartBoatPhysics",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnStopMoving",
+        "method": "IsDrifting",
         "params": [
 
         ],
@@ -99,7 +66,40 @@ data = [
         "author": "",
     },
     {
+        "method": "IsMoving",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "StopBoatPhysics",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartWakeTests",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnStopMoving",
         "params": [
 
         ],
@@ -121,7 +121,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsMoving",
+        "method": "OnStartDrifting",
         "params": [
 
         ],
@@ -132,7 +132,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnStartDrifting",
+        "method": "StartBoatPhysics",
         "params": [
 
         ],

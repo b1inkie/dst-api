@@ -1,52 +1,5 @@
 data = [
     {
-        "method": "RemoveObject",
-        "params": [
-            {"param": "obj", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddPlayerOnPlatform",
-        "params": [
-            {"param": "player", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemovePlayerOnPlatform",
-        "params": [
-            {"param": "player", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetUID",
         "params": [
 
@@ -58,30 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DespawnPlayerCollision",
+        "method": "DestroyObjectsOnPlatform",
         "params": [
 
         ],
@@ -103,7 +33,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SpawnPlayerCollision",
+        "method": "RemoveObject",
+        "params": [
+            {"param": "obj", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetPlayersOnPlatform",
         "params": [
 
         ],
@@ -114,7 +56,64 @@ data = [
         "author": "",
     },
     {
-        "method": "SetEntitiesOnPlatform",
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveEntity",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemovePlayerOnPlatform",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StopUpdating",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartUpdating",
         "params": [
 
         ],
@@ -137,7 +136,7 @@ data = [
         "author": "",
     },
     {
-        "method": "StopUpdating",
+        "method": "DespawnPlayerCollision",
         "params": [
 
         ],
@@ -159,29 +158,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetPlayersOnPlatform",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartUpdating",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DestroyObjectsOnPlatform",
+        "method": "SetEntitiesOnPlatform",
         "params": [
 
         ],
@@ -197,6 +174,29 @@ data = [
             {"param": "embarker_x", "explain": "", "type": ""},
             {"param": "embarker_z", "explain": "", "type": ""},
             {"param": "embarker_min_dist", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SpawnPlayerCollision",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddPlayerOnPlatform",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [

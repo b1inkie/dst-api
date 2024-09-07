@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "StopBoatCameraZooms",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
         "params": [
 
@@ -22,7 +11,18 @@ data = [
         "author": "",
     },
     {
-        "method": "StartBoatMusicTest",
+        "method": "StartBoatCameraZooms",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StopBoatMusicTest",
         "params": [
 
         ],
@@ -55,29 +55,29 @@ data = [
         "author": "",
     },
     {
-        "method": "StopBoatMusicTest",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TestForPlatform",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetOffPlatform",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartBoatMusicTest",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StopBoatCameraZooms",
         "params": [
 
         ],
@@ -100,7 +100,7 @@ data = [
         "author": "",
     },
     {
-        "method": "StartBoatCameraZooms",
+        "method": "TestForPlatform",
         "params": [
 
         ],

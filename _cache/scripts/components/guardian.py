@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "DismissGuardian",
+        "method": "OnGuardianDeath",
         "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,9 +12,21 @@ data = [
         "author": "",
     },
     {
-        "method": "DoDelta",
+        "method": "Decay",
         "params": [
             {"param": "d", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,43 +60,20 @@ data = [
         "author": "",
     },
     {
-        "method": "StartDecay",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetGuardian",
         "params": [
             {"param": "guardian", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartDecay",
+        "params": [
 
         ],
         "returns": [
@@ -104,7 +94,30 @@ data = [
         "author": "",
     },
     {
-        "method": "Decay",
+        "method": "DismissGuardian",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SummonGuardian",
+        "params": [
+            {"param": "override", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DoDelta",
         "params": [
             {"param": "d", "explain": "", "type": ""},
 
@@ -128,9 +141,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SummonGuardian",
+        "method": "SummonsAtMin",
         "params": [
-            {"param": "override", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -151,19 +163,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnGuardianDeath",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SummonsAtMin",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

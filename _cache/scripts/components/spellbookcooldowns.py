@@ -1,32 +1,8 @@
 data = [
     {
-        "method": "RestartSpellCooldown",
+        "method": "RegisterSpellbookCooldown",
         "params": [
-            {"param": "spellname", "explain": "", "type": ""},
-            {"param": "duration", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetSpellCooldownPercent",
-        "params": [
-            {"param": "spellname", "explain": "", "type": ""},
+            {"param": "cd", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -48,9 +24,33 @@ data = [
         "author": "",
     },
     {
-        "method": "RegisterSpellbookCooldown",
+        "method": "RestartSpellCooldown",
         "params": [
-            {"param": "cd", "explain": "", "type": ""},
+            {"param": "spellname", "explain": "", "type": ""},
+            {"param": "duration", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetSpellCooldownPercent",
+        "params": [
+            {"param": "spellname", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
 
         ],
         "returns": [

@@ -1,18 +1,6 @@
 data = [
     {
-        "method": "MountPlank",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Retract",
+        "method": "Extend",
         "params": [
 
         ],
@@ -34,18 +22,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Extend",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
+        "method": "Retract",
         "params": [
 
         ],
@@ -59,6 +36,29 @@ data = [
         "method": "AbandonShip",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "MountPlank",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

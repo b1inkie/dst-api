@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "IsComposting",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -23,7 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "IsComposting",
         "params": [
 
         ],
@@ -34,9 +23,9 @@ data = [
         "author": "",
     },
     {
-        "method": "AddCompostable",
+        "method": "Refresh",
         "params": [
-            {"param": "item", "explain": "", "type": ""},
+            {"param": "cycle_completed", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,18 +35,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsFull",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
+        "method": "GetMaterialTotal",
         "params": [
 
         ],
@@ -81,9 +59,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Refresh",
+        "method": "IsFull",
         "params": [
-            {"param": "cycle_completed", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -93,7 +70,30 @@ data = [
         "author": "",
     },
     {
-        "method": "GetMaterialTotal",
+        "method": "AddCompostable",
+        "params": [
+            {"param": "item", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

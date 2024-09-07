@@ -12,8 +12,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnAttack",
         "params": [
+            {"param": "owner", "explain": "", "type": ""},
+            {"param": "attack_data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,10 +25,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnAttack",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "owner", "explain": "", "type": ""},
-            {"param": "attack_data", "explain": "", "type": ""},
 
         ],
         "returns": [

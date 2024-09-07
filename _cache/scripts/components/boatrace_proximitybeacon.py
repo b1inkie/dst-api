@@ -12,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetBoatraceFinishedFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,9 +24,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetBoatraceFinishedFn",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

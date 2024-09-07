@@ -12,10 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "AddMultiplier",
+        "method": "RemoveMultiplier",
         "params": [
             {"param": "action", "explain": "", "type": ""},
-            {"param": "multiplier", "explain": "", "type": ""},
             {"param": "source", "explain": "", "type": ""},
 
         ],
@@ -26,9 +25,10 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveMultiplier",
+        "method": "AddMultiplier",
         "params": [
             {"param": "action", "explain": "", "type": ""},
+            {"param": "multiplier", "explain": "", "type": ""},
             {"param": "source", "explain": "", "type": ""},
 
         ],

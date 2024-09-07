@@ -1,42 +1,8 @@
 data = [
     {
-        "method": "IncrementPowerLevel",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "WatchDaywalker",
         "params": [
             {"param": "daywalker", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
 
         ],
         "returns": [
@@ -57,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnPostInit",
+        "method": "OnDayChange",
         "params": [
 
         ],
@@ -81,7 +47,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CanSpawnFromJunk",
+        "method": "IncrementPowerLevel",
         "params": [
 
         ],
@@ -92,7 +58,30 @@ data = [
         "author": "",
     },
     {
-        "method": "GetPowerLevel",
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TryToSetDayWalkerJunkPile",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanSpawnFromJunk",
         "params": [
 
         ],
@@ -114,7 +103,7 @@ data = [
         "author": "",
     },
     {
-        "method": "TryToSetDayWalkerJunkPile",
+        "method": "OnPostInit",
         "params": [
 
         ],
@@ -125,7 +114,18 @@ data = [
         "author": "",
     },
     {
-        "method": "OnDayChange",
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetPowerLevel",
         "params": [
 
         ],

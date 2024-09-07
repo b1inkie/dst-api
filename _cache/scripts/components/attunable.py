@@ -1,41 +1,5 @@
 data = [
     {
-        "method": "GetAttunableTag",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanAttune",
-        "params": [
-            {"param": "player", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "LinkToPlayer",
-        "params": [
-            {"param": "player", "explain": "", "type": ""},
-            {"param": "isloading", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
         "params": [
 
@@ -47,20 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetAttunableTag",
+        "method": "SetOnLinkFn",
         "params": [
-            {"param": "tag", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -94,8 +47,68 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "GetAttunableTag",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetAttunableTag",
+        "params": [
+            {"param": "tag", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanAttune",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsAttuned",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LinkToPlayer",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
+            {"param": "isloading", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -118,21 +131,8 @@ data = [
         "author": "",
     },
     {
-        "method": "IsAttuned",
+        "method": "OnSave",
         "params": [
-            {"param": "player", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnLinkFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

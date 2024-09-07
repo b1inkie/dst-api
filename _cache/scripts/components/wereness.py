@@ -1,9 +1,7 @@
 data = [
     {
-        "method": "DoDelta",
+        "method": "GetPercent",
         "params": [
-            {"param": "delta", "explain": "", "type": ""},
-            {"param": "overtime", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -13,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetWereMode",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -36,7 +34,67 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "StopDraining",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetWereMode",
+        "params": [
+            {"param": "weremode", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DoDelta",
+        "params": [
+            {"param": "delta", "explain": "", "type": ""},
+            {"param": "overtime", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
         "params": [
 
         ],
@@ -60,42 +118,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetPercent",
+        "method": "GetWereMode",
         "params": [
 
         ],
@@ -108,29 +131,6 @@ data = [
     {
         "method": "StartDraining",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopDraining",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetWereMode",
-        "params": [
-            {"param": "weremode", "explain": "", "type": ""},
 
         ],
         "returns": [

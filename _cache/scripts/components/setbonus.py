@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "_HasSetBonus",
         "params": [
             {"param": "inventory", "explain": "", "type": ""},
@@ -23,20 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "GetDebugString",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnDisabledFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -49,6 +26,17 @@ data = [
         "method": "IsEnabled",
         "params": [
             {"param": "setname", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [
@@ -74,6 +62,18 @@ data = [
         "params": [
             {"param": "inventory", "explain": "", "type": ""},
             {"param": "isequipping", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnDisabledFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

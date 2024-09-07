@@ -1,28 +1,5 @@
 data = [
     {
-        "method": "DespawnShadows",
-        "params": [
-            {"param": "ignore_entity_sleep", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GenerateCanopyShadowPositions",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
         "params": [
 
@@ -45,6 +22,17 @@ data = [
         "author": "",
     },
     {
+        "method": "GenerateCanopyShadowPositions",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "RemoveCanopyShadowPositions",
         "params": [
 
@@ -56,7 +44,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntitySleep",
+        "method": "SpawnShadows",
         "params": [
 
         ],
@@ -67,7 +55,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SpawnShadows",
+        "method": "DespawnShadows",
+        "params": [
+            {"param": "ignore_entity_sleep", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnEntitySleep",
         "params": [
 
         ],

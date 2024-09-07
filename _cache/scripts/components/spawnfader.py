@@ -23,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "FadeIn",
         "params": [
 
         ],
@@ -34,7 +34,7 @@ data = [
         "author": "",
     },
     {
-        "method": "FadeIn",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

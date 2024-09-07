@@ -1,9 +1,7 @@
 data = [
     {
-        "method": "SetLoad",
+        "method": "IsIdle",
         "params": [
-            {"param": "_load", "explain": "", "type": ""},
-            {"param": "idle", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -13,8 +11,10 @@ data = [
         "author": "",
     },
     {
-        "method": "IsIdle",
+        "method": "SetLoad",
         "params": [
+            {"param": "_load", "explain": "", "type": ""},
+            {"param": "idle", "explain": "", "type": ""},
 
         ],
         "returns": [

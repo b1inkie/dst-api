@@ -1,30 +1,6 @@
 data = [
     {
-        "method": "CanWorkout",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetConsumption",
-        "params": [
-            {"param": "consumption", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DoAttackWorkout",
+        "method": "DoWorkout",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
 
@@ -48,7 +24,19 @@ data = [
         "author": "",
     },
     {
-        "method": "StartWorkout",
+        "method": "SetConsumption",
+        "params": [
+            {"param": "consumption", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CheckEfficiency",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
 
@@ -72,7 +60,19 @@ data = [
         "author": "",
     },
     {
-        "method": "DoWorkout",
+        "method": "CanWorkout",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DoAttackWorkout",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
 
@@ -98,7 +98,7 @@ data = [
         "author": "",
     },
     {
-        "method": "StopWorkout",
+        "method": "StartWorkout",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
 
@@ -110,7 +110,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CheckEfficiency",
+        "method": "StopWorkout",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
 

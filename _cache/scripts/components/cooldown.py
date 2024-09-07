@@ -1,7 +1,64 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "GetTimeToCharged",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "FinishCharging",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsCharging",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsCharged",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LongUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartCharging",
+        "params": [
+            {"param": "time", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,7 +91,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetTimeToCharged",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -46,63 +103,6 @@ data = [
     },
     {
         "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsCharging",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "FinishCharging",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartCharging",
-        "params": [
-            {"param": "time", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "LongUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsCharged",
         "params": [
 
         ],

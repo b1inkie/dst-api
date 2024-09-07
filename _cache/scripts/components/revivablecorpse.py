@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "SetCanBeRevivedByFn",
+        "method": "SetReviveHealthPercent",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "percent", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,9 +24,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetReviveHealthPercent",
+        "method": "SetCanBeRevivedByFn",
         "params": [
-            {"param": "percent", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,9 +36,21 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCorpse",
+        "method": "GetReviveSpeedMult",
         "params": [
-            {"param": "corpse", "explain": "", "type": ""},
+            {"param": "reviver", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanBeRevivedBy",
+        "params": [
+            {"param": "reviver", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -71,9 +83,9 @@ data = [
         "author": "",
     },
     {
-        "method": "CanBeRevivedBy",
+        "method": "SetCorpse",
         "params": [
-            {"param": "reviver", "explain": "", "type": ""},
+            {"param": "corpse", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -87,18 +99,6 @@ data = [
         "params": [
             {"param": "tag", "explain": "", "type": ""},
             {"param": "mult", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetReviveSpeedMult",
-        "params": [
-            {"param": "reviver", "explain": "", "type": ""},
 
         ],
         "returns": [

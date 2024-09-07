@@ -1,6 +1,17 @@
 data = [
     {
-        "method": "AddPostUpdateFn",
+        "method": "OnRemoveEntity",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveLongUpdateFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -24,65 +35,19 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveOnUpdateFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "LongUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddOnUpdateFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "RemovePostUpdateFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddPostUpdateFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -118,6 +83,18 @@ data = [
         "author": "",
     },
     {
+        "method": "AddOnUpdateFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnWallUpdate",
         "params": [
             {"param": "dt", "explain": "", "type": ""},
@@ -130,9 +107,9 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveLongUpdateFn",
+        "method": "LongUpdate",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -145,6 +122,29 @@ data = [
         "method": "AddLongUpdateFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveOnUpdateFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

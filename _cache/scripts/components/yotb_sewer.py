@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -23,7 +12,18 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "GetTimeToSew",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsSewing",
         "params": [
 
         ],
@@ -36,29 +36,6 @@ data = [
     {
         "method": "IsDone",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartSewing",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -92,7 +69,18 @@ data = [
         "author": "",
     },
     {
-        "method": "GetTimeToSew",
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
         "params": [
 
         ],
@@ -114,7 +102,19 @@ data = [
         "author": "",
     },
     {
-        "method": "IsSewing",
+        "method": "StartSewing",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

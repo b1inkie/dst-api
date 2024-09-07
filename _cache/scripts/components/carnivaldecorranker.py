@@ -12,17 +12,6 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "AddDecor",
         "params": [
             {"param": "decor", "explain": "", "type": ""},
@@ -38,6 +27,17 @@ data = [
         "method": "RemoveDecor",
         "params": [
             {"param": "decor", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
 
         ],
         "returns": [

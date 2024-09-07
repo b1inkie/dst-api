@@ -1,29 +1,5 @@
 data = [
     {
-        "method": "DoTargetAttack",
-        "params": [
-            {"param": "targetinfo", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateTarget",
-        "params": [
-            {"param": "targetinfo", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -36,41 +12,18 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DoTargetWarning",
-        "params": [
-            {"param": "targetinfo", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "PushRemoteTargets",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "StopSinkholes",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -93,7 +46,30 @@ data = [
         "author": "",
     },
     {
+        "method": "UpdateTarget",
+        "params": [
+            {"param": "targetinfo", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "PushRemoteTargets",
         "params": [
 
         ],
@@ -107,6 +83,30 @@ data = [
         "method": "SpawnSinkhole",
         "params": [
             {"param": "spawnpt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DoTargetWarning",
+        "params": [
+            {"param": "targetinfo", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DoTargetAttack",
+        "params": [
+            {"param": "targetinfo", "explain": "", "type": ""},
 
         ],
         "returns": [

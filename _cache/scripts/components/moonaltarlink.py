@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "EstablishLink",
+        "method": "BreakLink",
         "params": [
-            {"param": "altars", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,8 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "BreakLink",
+        "method": "EstablishLink",
         "params": [
+            {"param": "altars", "explain": "", "type": ""},
 
         ],
         "returns": [

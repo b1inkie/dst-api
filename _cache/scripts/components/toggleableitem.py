@@ -12,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "ToggleItem",
+        "method": "SetOnToggleFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,9 +24,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnToggleFn",
+        "method": "ToggleItem",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

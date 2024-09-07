@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "SetLastStage",
+        "method": "StartGrowing",
         "params": [
-            {"param": "last_stage", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,8 +22,9 @@ data = [
         "author": "",
     },
     {
-        "method": "StartGrowing",
+        "method": "SetLastStage",
         "params": [
+            {"param": "last_stage", "explain": "", "type": ""},
 
         ],
         "returns": [

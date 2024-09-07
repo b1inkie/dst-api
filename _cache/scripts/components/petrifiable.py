@@ -12,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "OnLoad",
         "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,9 +24,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "Petrify",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "immediate", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -57,7 +58,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -68,9 +69,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Petrify",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "immediate", "explain": "", "type": ""},
 
         ],
         "returns": [

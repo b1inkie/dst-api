@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "GetFireDamageScale",
         "params": [
 
         ],
@@ -11,8 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetMaxDamageTakenPerHit",
         "params": [
+            {"param": "maxdamagetakenperhit", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -22,12 +23,8 @@ data = [
         "author": "",
     },
     {
-        "method": "AddRegenSource",
+        "method": "GetPenaltyPercent",
         "params": [
-            {"param": "source", "explain": "", "type": ""},
-            {"param": "amount", "explain": "", "type": ""},
-            {"param": "period", "explain": "", "type": ""},
-            {"param": "key", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -49,23 +46,11 @@ data = [
         "author": "",
     },
     {
-        "method": "SetVal",
-        "params": [
-            {"param": "val", "explain": "", "type": ""},
-            {"param": "cause", "explain": "", "type": ""},
-            {"param": "afflicter", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetAbsorptionAmountFromPlayer",
+        "method": "StartRegen",
         "params": [
             {"param": "amount", "explain": "", "type": ""},
+            {"param": "period", "explain": "", "type": ""},
+            {"param": "interruptcurrentregen", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -75,7 +60,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetPercentWithPenalty",
+        "method": "GetPercent",
         "params": [
 
         ],
@@ -99,34 +84,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetMinHealth",
+        "method": "RecalculatePenalty",
         "params": [
-            {"param": "amount", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetMaxWithPenalty",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartRegen",
-        "params": [
-            {"param": "amount", "explain": "", "type": ""},
-            {"param": "period", "explain": "", "type": ""},
-            {"param": "interruptcurrentregen", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -162,6 +121,32 @@ data = [
         "author": "",
     },
     {
+        "method": "SetVal",
+        "params": [
+            {"param": "val", "explain": "", "type": ""},
+            {"param": "cause", "explain": "", "type": ""},
+            {"param": "afflicter", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetMaxHealth",
+        "params": [
+            {"param": "amount", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "DoDelta",
         "params": [
             {"param": "amount", "explain": "", "type": ""},
@@ -179,7 +164,7 @@ data = [
         "author": "",
     },
     {
-        "method": "RecalculatePenalty",
+        "method": "GetMaxWithPenalty",
         "params": [
 
         ],
@@ -190,7 +175,55 @@ data = [
         "author": "",
     },
     {
-        "method": "GetFireDamageScale",
+        "method": "SetAbsorptionAmountFromPlayer",
+        "params": [
+            {"param": "amount", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TransferComponent",
+        "params": [
+            {"param": "newinst", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ForceUpdateHUD",
+        "params": [
+            {"param": "overtime", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetCurrentHealth",
+        "params": [
+            {"param": "amount", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
         "params": [
 
         ],
@@ -201,7 +234,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetPenaltyPercent",
+        "method": "GetPercentWithPenalty",
         "params": [
 
         ],
@@ -212,7 +245,105 @@ data = [
         "author": "",
     },
     {
-        "method": "IsDead",
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsHurt",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetPercent",
+        "params": [
+            {"param": "percent", "explain": "", "type": ""},
+            {"param": "overtime", "explain": "", "type": ""},
+            {"param": "cause", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddRegenSource",
+        "params": [
+            {"param": "source", "explain": "", "type": ""},
+            {"param": "amount", "explain": "", "type": ""},
+            {"param": "period", "explain": "", "type": ""},
+            {"param": "key", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StopRegen",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Kill",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetMinHealth",
+        "params": [
+            {"param": "amount", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -246,19 +377,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
+        "method": "IsDead",
         "params": [
 
         ],
@@ -269,127 +388,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Kill",
+        "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TransferComponent",
-        "params": [
-            {"param": "newinst", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetPercent",
-        "params": [
-            {"param": "percent", "explain": "", "type": ""},
-            {"param": "overtime", "explain": "", "type": ""},
-            {"param": "cause", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsHurt",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetMaxDamageTakenPerHit",
-        "params": [
-            {"param": "maxdamagetakenperhit", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopRegen",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetPercent",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetMaxHealth",
-        "params": [
-            {"param": "amount", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ForceUpdateHUD",
-        "params": [
-            {"param": "overtime", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetCurrentHealth",
-        "params": [
-            {"param": "amount", "explain": "", "type": ""},
 
         ],
         "returns": [

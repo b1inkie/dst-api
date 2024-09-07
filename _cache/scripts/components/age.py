@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "ResumeAging",
+        "method": "OnLoad",
         "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,29 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "RestartPeriodicSync",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetAgeInDays",
+        "method": "CancelPeriodicSync",
         "params": [
 
         ],
@@ -55,9 +34,52 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "GetDebugString",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetAge",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetAgeInDays",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDisplayAgeInDays",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RestartPeriodicSync",
+        "params": [
 
         ],
         "returns": [
@@ -90,29 +112,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetAge",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDisplayAgeInDays",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CancelPeriodicSync",
+        "method": "ResumeAging",
         "params": [
 
         ],

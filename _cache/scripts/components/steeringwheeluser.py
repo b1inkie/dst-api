@@ -1,5 +1,18 @@
 data = [
     {
+        "method": "Steer",
+        "params": [
+            {"param": "pos_x", "explain": "", "type": ""},
+            {"param": "pos_z", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetSteeringWheel",
         "params": [
             {"param": "steering_wheel", "explain": "", "type": ""},
@@ -39,19 +52,6 @@ data = [
         "method": "OnUpdate",
         "params": [
             {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Steer",
-        "params": [
-            {"param": "pos_x", "explain": "", "type": ""},
-            {"param": "pos_z", "explain": "", "type": ""},
 
         ],
         "returns": [

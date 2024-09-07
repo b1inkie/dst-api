@@ -11,6 +11,17 @@ data = [
         "author": "",
     },
     {
+        "method": "OnUpdate",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "StartUpdating",
         "params": [
 
@@ -23,17 +34,6 @@ data = [
     },
     {
         "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
         "params": [
 
         ],

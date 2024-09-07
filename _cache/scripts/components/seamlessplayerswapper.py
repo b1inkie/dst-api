@@ -23,8 +23,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "OnSeamlessCharacterSwap",
         "params": [
+            {"param": "old_player", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,7 +35,7 @@ data = [
         "author": "",
     },
     {
-        "method": "DoMonkeyChange",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -56,7 +57,7 @@ data = [
         "author": "",
     },
     {
-        "method": "PostTransformSetup",
+        "method": "DoMonkeyChange",
         "params": [
 
         ],
@@ -79,9 +80,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSeamlessCharacterSwap",
+        "method": "PostTransformSetup",
         "params": [
-            {"param": "old_player", "explain": "", "type": ""},
 
         ],
         "returns": [

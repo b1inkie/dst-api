@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "SetOnAbandonQuest",
+        "method": "OnLoad",
         "params": [
-            {"param": "on_abandon_quest", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,31 +24,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanAbandonQuest",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -71,8 +47,32 @@ data = [
         "author": "",
     },
     {
+        "method": "AbandonQuest",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "CompleteQuest",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanAbandonQuest",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -94,6 +94,17 @@ data = [
         "author": "",
     },
     {
+        "method": "OnRemoveFromEntity",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetOnBeginQuest",
         "params": [
             {"param": "on_begin_quest", "explain": "", "type": ""},
@@ -106,20 +117,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "SetOnAbandonQuest",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AbandonQuest",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "on_abandon_quest", "explain": "", "type": ""},
 
         ],
         "returns": [

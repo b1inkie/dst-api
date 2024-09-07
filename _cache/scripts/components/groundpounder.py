@@ -1,30 +1,5 @@
 data = [
     {
-        "method": "GroundPound",
-        "params": [
-            {"param": "pt", "explain": "", "type": ""},
-            {"param": "ents_hit", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GroundPound_Offscreen",
-        "params": [
-            {"param": "position", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetPoints",
         "params": [
             {"param": "pt", "explain": "", "type": ""},
@@ -37,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "GroundPound_Offscreen",
         "params": [
+            {"param": "position", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -76,6 +52,17 @@ data = [
         "author": "",
     },
     {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "DestroyRing",
         "params": [
             {"param": "pt", "explain": "", "type": ""},
@@ -88,6 +75,19 @@ data = [
             {"param": "spawnfx", "explain": "", "type": ""},
             {"param": "ents_hit", "explain": "", "type": ""},
             {"param": "platforms_hit", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GroundPound",
+        "params": [
+            {"param": "pt", "explain": "", "type": ""},
+            {"param": "ents_hit", "explain": "", "type": ""},
 
         ],
         "returns": [

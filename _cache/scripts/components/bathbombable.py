@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "Reset",
+        "method": "DisableBathBombing",
         "params": [
 
         ],
@@ -36,7 +36,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "Reset",
         "params": [
 
         ],
@@ -47,7 +47,7 @@ data = [
         "author": "",
     },
     {
-        "method": "DisableBathBombing",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

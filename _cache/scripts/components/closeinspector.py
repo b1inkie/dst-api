@@ -1,6 +1,19 @@
 data = [
     {
-        "method": "SetInspectPointFn",
+        "method": "CloseInspectPoint",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+            {"param": "pt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetInspectTargetFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -25,20 +38,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CloseInspectPoint",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-            {"param": "pt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetInspectTargetFn",
+        "method": "SetInspectPointFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 

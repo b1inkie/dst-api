@@ -1,17 +1,6 @@
 data = [
     {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SaveCurrentStatsAsBaseline",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -46,7 +35,19 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "ModifySpeed",
+        "params": [
+            {"param": "point_mod", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetBestStats",
         "params": [
 
         ],
@@ -60,40 +61,6 @@ data = [
         "method": "DegradePoints",
         "params": [
             {"param": "num_points", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetNumStatPoints",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetSpeedModifier",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ModifySpeed",
-        "params": [
-            {"param": "point_mod", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -126,7 +93,29 @@ data = [
         "author": "",
     },
     {
-        "method": "GetBestStats",
+        "method": "GetSpeedModifier",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetNumStatPoints",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SaveCurrentStatsAsBaseline",
         "params": [
 
         ],
@@ -161,7 +150,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDirectionModifier",
+        "method": "GetReactionModifier",
         "params": [
 
         ],
@@ -172,7 +161,18 @@ data = [
         "author": "",
     },
     {
-        "method": "GetReactionModifier",
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDirectionModifier",
         "params": [
 
         ],

@@ -1,19 +1,8 @@
 data = [
     {
-        "method": "SetLastDomesticator",
+        "method": "OnLoad",
         "params": [
-            {"param": "player", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetLastDomesticator",
-        "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,9 +23,20 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "SetLastDomesticator",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "player", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetLastDomesticator",
+        "params": [
 
         ],
         "returns": [

@@ -1,18 +1,8 @@
 data = [
     {
-        "method": "SpawnAllLights",
+        "method": "SpawnLight",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
+            {"param": "location", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,9 +24,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SpawnLight",
+        "method": "SpawnAllLights",
         "params": [
-            {"param": "location", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
 
         ],
         "returns": [

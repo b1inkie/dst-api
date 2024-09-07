@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "GetRealEntityPrefabName",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetRealEntityPrefabName",
         "params": [
             {"param": "name", "explain": "", "type": ""},
@@ -12,8 +23,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetRealEntityPrefabName",
+        "method": "SetRealEntityGUID",
         "params": [
+            {"param": "guid", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -25,18 +37,6 @@ data = [
     {
         "method": "GetRealEntityGUID",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRealEntityGUID",
-        "params": [
-            {"param": "guid", "explain": "", "type": ""},
 
         ],
         "returns": [

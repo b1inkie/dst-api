@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "ForcePetrify",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "Start",
         "params": [
 
@@ -23,17 +34,6 @@ data = [
     },
     {
         "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ForcePetrify",
         "params": [
 
         ],

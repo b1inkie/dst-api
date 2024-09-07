@@ -1,5 +1,17 @@
 data = [
     {
+        "method": "HookFish",
+        "params": [
+            {"param": "fisherman", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -12,9 +24,33 @@ data = [
         "author": "",
     },
     {
-        "method": "ReleaseFish",
+        "method": "SetRespawnTime",
+        "params": [
+            {"param": "time", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveFish",
         "params": [
             {"param": "fish", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddFish",
+        "params": [
+            {"param": "prefab", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,29 +83,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetFishPercent",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveFish",
+        "method": "ReleaseFish",
         "params": [
             {"param": "fish", "explain": "", "type": ""},
 
@@ -81,7 +95,29 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "Unfreeze",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsFrozenOver",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetFishPercent",
         "params": [
 
         ],
@@ -103,53 +139,6 @@ data = [
         "author": "",
     },
     {
-        "method": "HookFish",
-        "params": [
-            {"param": "fisherman", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRespawnTime",
-        "params": [
-            {"param": "time", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Unfreeze",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddFish",
-        "params": [
-            {"param": "prefab", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "Freeze",
         "params": [
 
@@ -161,7 +150,18 @@ data = [
         "author": "",
     },
     {
-        "method": "IsFrozenOver",
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

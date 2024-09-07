@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "SpawnLightrays",
+        "method": "OnRemoveEntity",
         "params": [
 
         ],
@@ -22,7 +22,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveEntity",
+        "method": "SpawnLightrays",
         "params": [
 
         ],

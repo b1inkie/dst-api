@@ -1,27 +1,5 @@
 data = [
     {
-        "method": "Disconnect",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "NumConnectedNodes",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
         "params": [
 
@@ -33,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsEnabled",
+        "method": "NumConnectedNodes",
         "params": [
 
         ],
@@ -56,9 +34,19 @@ data = [
         "author": "",
     },
     {
-        "method": "ConnectTo",
+        "method": "IsEnabled",
         "params": [
-            {"param": "tag", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsConnected",
+        "params": [
 
         ],
         "returns": [
@@ -71,6 +59,29 @@ data = [
         "method": "ForEachNode",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Disconnect",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddNode",
+        "params": [
+            {"param": "node", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -104,18 +115,6 @@ data = [
         "author": "",
     },
     {
-        "method": "AddNode",
-        "params": [
-            {"param": "node", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetOnConnectFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
@@ -128,8 +127,9 @@ data = [
         "author": "",
     },
     {
-        "method": "IsConnected",
+        "method": "ConnectTo",
         "params": [
+            {"param": "tag", "explain": "", "type": ""},
 
         ],
         "returns": [

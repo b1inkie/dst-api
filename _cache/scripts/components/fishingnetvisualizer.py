@@ -1,8 +1,18 @@
 data = [
     {
-        "method": "UpdateWhenOpening",
+        "method": "BeginOpening",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "BeginFinalPickup",
+        "params": [
 
         ],
         "returns": [
@@ -38,29 +48,7 @@ data = [
         "author": "",
     },
     {
-        "method": "BeginOpening",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "BeginRetrieving",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateWhenRetrieving",
+        "method": "UpdateWhenOpening",
         "params": [
             {"param": "dt", "explain": "", "type": ""},
 
@@ -72,8 +60,11 @@ data = [
         "author": "",
     },
     {
-        "method": "BeginFinalPickup",
+        "method": "CalculateY",
         "params": [
+            {"param": "x", "explain": "", "type": ""},
+            {"param": "x_span", "explain": "", "type": ""},
+            {"param": "scale", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -98,11 +89,20 @@ data = [
         "author": "",
     },
     {
-        "method": "CalculateY",
+        "method": "BeginRetrieving",
         "params": [
-            {"param": "x", "explain": "", "type": ""},
-            {"param": "x_span", "explain": "", "type": ""},
-            {"param": "scale", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "UpdateWhenRetrieving",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [

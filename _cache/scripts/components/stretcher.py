@@ -12,19 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntitySleep",
+        "method": "SetWidthRatio",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnEntityWake",
-        "params": [
+            {"param": "ratio", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,9 +36,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetWidthRatio",
+        "method": "OnEntitySleep",
         "params": [
-            {"param": "ratio", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -61,6 +50,17 @@ data = [
         "method": "SetStretchTarget",
         "params": [
             {"param": "inst", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnEntityWake",
+        "params": [
 
         ],
         "returns": [

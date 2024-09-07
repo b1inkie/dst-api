@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "GetPerishRateMultiplier",
+        "method": "SetPerishRateMultiplier",
         "params": [
-            {"param": "item", "explain": "", "type": ""},
+            {"param": "rate", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetPerishRateMultiplier",
+        "method": "GetPerishRateMultiplier",
         "params": [
-            {"param": "rate", "explain": "", "type": ""},
+            {"param": "item", "explain": "", "type": ""},
 
         ],
         "returns": [

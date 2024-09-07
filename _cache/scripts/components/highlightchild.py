@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "SetOwner",
+        "method": "OnRemoveEntity",
         "params": [
-            {"param": "owner", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,8 +23,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveEntity",
+        "method": "SetOwner",
         "params": [
+            {"param": "owner", "explain": "", "type": ""},
 
         ],
         "returns": [

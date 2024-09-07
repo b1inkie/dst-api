@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "SerializeLocations",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "ForgetLocation",
         "params": [
             {"param": "name", "explain": "", "type": ""},
@@ -23,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "GetLocation",
         "params": [
+            {"param": "name", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,7 +36,21 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "RememberLocation",
+        "params": [
+            {"param": "name", "explain": "", "type": ""},
+            {"param": "pos", "explain": "", "type": ""},
+            {"param": "dont_overwrite", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
         "params": [
 
         ],
@@ -69,9 +73,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetLocation",
+        "method": "SerializeLocations",
         "params": [
-            {"param": "name", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -81,11 +84,8 @@ data = [
         "author": "",
     },
     {
-        "method": "RememberLocation",
+        "method": "GetDebugString",
         "params": [
-            {"param": "name", "explain": "", "type": ""},
-            {"param": "pos", "explain": "", "type": ""},
-            {"param": "dont_overwrite", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -12,42 +12,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "StartTraining",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Train",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetTrainFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "inst", "explain": "", "type": ""},
+            {"param": "time", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -70,6 +38,28 @@ data = [
     },
     {
         "method": "RemoveTrainee",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Train",
         "params": [
 
         ],
@@ -105,6 +95,17 @@ data = [
         "author": "",
     },
     {
+        "method": "PushMontage",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetOnRemoveTraineeFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
@@ -117,10 +118,9 @@ data = [
         "author": "",
     },
     {
-        "method": "StartTraining",
+        "method": "SetTrainFn",
         "params": [
-            {"param": "inst", "explain": "", "type": ""},
-            {"param": "time", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -141,7 +141,7 @@ data = [
         "author": "",
     },
     {
-        "method": "PushMontage",
+        "method": "OnSave",
         "params": [
 
         ],

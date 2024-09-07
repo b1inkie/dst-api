@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "TryActivate",
+        "method": "RemoveFromOwner",
         "params": [
-            {"param": "isloading", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,8 +23,9 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveFromOwner",
+        "method": "SetRequiredSlots",
         "params": [
+            {"param": "slots", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,9 +46,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetRequiredSlots",
+        "method": "TryActivate",
         "params": [
-            {"param": "slots", "explain": "", "type": ""},
+            {"param": "isloading", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,103 +1,8 @@
 data = [
     {
-        "method": "IsSinging",
+        "method": "GetActiveSong",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDetachRadius",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DoDelta",
-        "params": [
-            {"param": "delta", "explain": "", "type": ""},
-            {"param": "forceupdate", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetMaxInspiration",
-        "params": [
-            {"param": "max", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanAddSong",
-        "params": [
-            {"param": "songdata", "explain": "", "type": ""},
-            {"param": "inst", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetPercent",
-        "params": [
-            {"param": "percent", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetMaxInspiration",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetValidVictimFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetCalcAvailableSlotsForInspirationFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "slot_num", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -118,9 +23,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRidingTick",
+        "method": "OnLoad",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -141,9 +46,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetActiveSong",
+        "method": "IsSongActive",
         "params": [
-            {"param": "slot_num", "explain": "", "type": ""},
+            {"param": "songdata", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -153,9 +58,21 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "OnAttacked",
         "params": [
             {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRidingTick",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -179,6 +96,18 @@ data = [
         "author": "",
     },
     {
+        "method": "SetPercent",
+        "params": [
+            {"param": "percent", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "PopSong",
         "params": [
 
@@ -190,7 +119,30 @@ data = [
         "author": "",
     },
     {
-        "method": "DisplayFx",
+        "method": "GetDetachRadius",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetValidVictimFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetPercent",
         "params": [
 
         ],
@@ -212,10 +164,32 @@ data = [
         "author": "",
     },
     {
-        "method": "OnAddInstantSong",
+        "method": "SetCalcAvailableSlotsForInspirationFn",
         "params": [
-            {"param": "songdata", "explain": "", "type": ""},
-            {"param": "inst", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnHitOther",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetMaxInspiration",
+        "params": [
 
         ],
         "returns": [
@@ -226,18 +200,6 @@ data = [
     },
     {
         "method": "InstantInspire",
-        "params": [
-            {"param": "songdata", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsSongActive",
         "params": [
             {"param": "songdata", "explain": "", "type": ""},
 
@@ -261,7 +223,32 @@ data = [
         "author": "",
     },
     {
-        "method": "GetPercent",
+        "method": "OnAddInstantSong",
+        "params": [
+            {"param": "songdata", "explain": "", "type": ""},
+            {"param": "inst", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetMaxInspiration",
+        "params": [
+            {"param": "max", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsSinging",
         "params": [
 
         ],
@@ -272,9 +259,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnHitOther",
+        "method": "DisplayFx",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -284,9 +270,23 @@ data = [
         "author": "",
     },
     {
-        "method": "OnAttacked",
+        "method": "DoDelta",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "delta", "explain": "", "type": ""},
+            {"param": "forceupdate", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanAddSong",
+        "params": [
+            {"param": "songdata", "explain": "", "type": ""},
+            {"param": "inst", "explain": "", "type": ""},
 
         ],
         "returns": [

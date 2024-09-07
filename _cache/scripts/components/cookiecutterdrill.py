@@ -1,5 +1,27 @@
 data = [
     {
+        "method": "GetIsDoneDrilling",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ResumeDrilling",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "ResetDrilling",
         "params": [
 
@@ -11,29 +33,7 @@ data = [
         "author": "",
     },
     {
-        "method": "PauseDrilling",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnEntitySleep",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "FinishDrilling",
         "params": [
 
         ],
@@ -56,7 +56,7 @@ data = [
         "author": "",
     },
     {
-        "method": "ResumeDrilling",
+        "method": "PauseDrilling",
         "params": [
 
         ],
@@ -67,7 +67,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetIsDoneDrilling",
+        "method": "FinishDrilling",
         "params": [
 
         ],

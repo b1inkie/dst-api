@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "SetRepairedTime",
+        "method": "SetBoat",
         "params": [
-            {"param": "time", "explain": "", "type": ""},
+            {"param": "boat", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,10 +12,21 @@ data = [
         "author": "",
     },
     {
-        "method": "ChangeToRepaired",
+        "method": "Repair",
         "params": [
-            {"param": "repair_build_name", "explain": "", "type": ""},
-            {"param": "sndoverride", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
+            {"param": "patch_item", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetRemainingRepairedTime",
+        "params": [
 
         ],
         "returns": [
@@ -50,45 +61,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetRemainingRepairedTime",
+        "method": "IsFinishedSpawning",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetBoat",
-        "params": [
-            {"param": "boat", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Repair",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-            {"param": "patch_item", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetPlugged",
-        "params": [
-            {"param": "setting", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -110,8 +84,9 @@ data = [
         "author": "",
     },
     {
-        "method": "IsFinishedSpawning",
+        "method": "SetRepairedTime",
         "params": [
+            {"param": "time", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -124,6 +99,31 @@ data = [
         "method": "OnSave",
         "params": [
             {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ChangeToRepaired",
+        "params": [
+            {"param": "repair_build_name", "explain": "", "type": ""},
+            {"param": "sndoverride", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetPlugged",
+        "params": [
+            {"param": "setting", "explain": "", "type": ""},
 
         ],
         "returns": [

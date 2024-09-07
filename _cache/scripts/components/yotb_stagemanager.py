@@ -1,6 +1,40 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "EnableContest",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnContestBegun",
+        "params": [
+            {"param": "active_stage", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsContestActive",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnContestEnded",
         "params": [
 
         ],
@@ -23,41 +57,6 @@ data = [
         "author": "",
     },
     {
-        "method": "OnContestCheckPoint",
-        "params": [
-            {"param": "stage", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnContestBegun",
-        "params": [
-            {"param": "active_stage", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnContestEnded",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnNewDay",
         "params": [
 
@@ -69,8 +68,20 @@ data = [
         "author": "",
     },
     {
-        "method": "GetActiveStage",
+        "method": "IsContestEnabled",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnContestCheckPoint",
+        "params": [
+            {"param": "stage", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -93,7 +104,19 @@ data = [
         "author": "",
     },
     {
-        "method": "EnableContest",
+        "method": "SetContestEnabled",
+        "params": [
+            {"param": "setting", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetActiveStage",
         "params": [
 
         ],
@@ -104,18 +127,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsContestEnabled",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsContestActive",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -129,18 +141,6 @@ data = [
         "method": "OnStageDestroyed",
         "params": [
             {"param": "stage", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetContestEnabled",
-        "params": [
-            {"param": "setting", "explain": "", "type": ""},
 
         ],
         "returns": [

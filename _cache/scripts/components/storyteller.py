@@ -1,28 +1,5 @@
 data = [
     {
-        "method": "IsTellingStory",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnStoryOverFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnDone",
         "params": [
 
@@ -46,8 +23,20 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnStoryTick",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnStoryOverFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -69,17 +58,6 @@ data = [
         "author": "",
     },
     {
-        "method": "OnStoryTick",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "TellStory",
         "params": [
             {"param": "storyprop", "explain": "", "type": ""},
@@ -92,9 +70,31 @@ data = [
         "author": "",
     },
     {
+        "method": "IsTellingStory",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "AbortStory",
         "params": [
             {"param": "reason", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

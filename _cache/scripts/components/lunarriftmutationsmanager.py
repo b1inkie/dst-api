@@ -1,63 +1,6 @@
 data = [
     {
-        "method": "SetMutationDefeated",
-        "params": [
-            {"param": "ent", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasDefeatedAllMutations",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RefreshDefeatedMutationsTable",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "_CanCorpseMutate",
-        "params": [
-            {"param": "ent", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetNumDefeatedMutations",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
+        "method": "IsWagstaffSpawned",
         "params": [
 
         ],
@@ -80,6 +23,40 @@ data = [
         "author": "",
     },
     {
+        "method": "_CanCorpseMutate",
+        "params": [
+            {"param": "ent", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RefreshDefeatedMutationsTable",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasDefeatedAllMutations",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnSave",
         "params": [
 
@@ -91,31 +68,8 @@ data = [
         "author": "",
     },
     {
-        "method": "ShouldGiveReward",
+        "method": "GetDebugString",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRewardGiven",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TriggerWagstaffAppearance",
-        "params": [
-            {"param": "ent", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -136,7 +90,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsWagstaffSpawned",
+        "method": "ShouldGiveReward",
         "params": [
 
         ],
@@ -163,6 +117,52 @@ data = [
         "params": [
             {"param": "ent", "explain": "", "type": ""},
             {"param": "corpseprefab", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetMutationDefeated",
+        "params": [
+            {"param": "ent", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TriggerWagstaffAppearance",
+        "params": [
+            {"param": "ent", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRewardGiven",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetNumDefeatedMutations",
+        "params": [
 
         ],
         "returns": [

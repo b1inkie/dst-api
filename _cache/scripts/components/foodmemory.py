@@ -12,29 +12,6 @@ data = [
         "author": "",
     },
     {
-        "method": "RememberFood",
-        "params": [
-            {"param": "prefab", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetMultipliers",
         "params": [
             {"param": "mults", "explain": "", "type": ""},
@@ -59,20 +36,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetDuration",
+        "method": "RememberFood",
         "params": [
-            {"param": "duration", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
+            {"param": "prefab", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -85,6 +51,40 @@ data = [
         "method": "GetMemoryCount",
         "params": [
             {"param": "prefab", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetDuration",
+        "params": [
+            {"param": "duration", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "GetNextID",
+        "method": "OnLoad",
         "params": [
-            {"param": "prefabname", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "GetNextID",
         "params": [
+            {"param": "prefabname", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,9 +35,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "GetDebugString",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [

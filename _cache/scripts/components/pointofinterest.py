@@ -1,18 +1,8 @@
 data = [
     {
-        "method": "TriggerPulse",
+        "method": "UpdateRemovePulse",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CreateWorldIndicator",
-        "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,6 +13,17 @@ data = [
     },
     {
         "method": "DebugForceShowIndicator",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveEntity",
         "params": [
 
         ],
@@ -44,7 +45,87 @@ data = [
         "author": "",
     },
     {
+        "method": "SetShouldShowFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetHeight",
+        "params": [
+            {"param": "height", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveHudIndicator",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TriggerRemove",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnEntityWake",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveEverything",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CreateWorldIndicator",
         "params": [
 
         ],
@@ -68,77 +149,8 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveEverything",
+        "method": "TriggerPulse",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TriggerRemove",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TryStartUpdating",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetShouldShowFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateRemovePulse",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -160,19 +172,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetHeight",
-        "params": [
-            {"param": "height", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveHudIndicator",
+        "method": "TryStartUpdating",
         "params": [
 
         ],

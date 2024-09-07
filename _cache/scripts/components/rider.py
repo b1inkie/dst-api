@@ -1,20 +1,8 @@
 data = [
     {
-        "method": "Mount",
+        "method": "StopTracking",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
-            {"param": "instant", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetSaddle",
-        "params": [
+            {"param": "mount", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,7 +24,7 @@ data = [
         "author": "",
     },
     {
-        "method": "ActualDismount",
+        "method": "IsRiding",
         "params": [
 
         ],
@@ -47,7 +35,42 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Dismount",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Mount",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "instant", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetMount",
         "params": [
 
         ],
@@ -70,7 +93,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "ActualDismount",
         "params": [
 
         ],
@@ -81,7 +104,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetMount",
+        "method": "GetSaddle",
         "params": [
 
         ],
@@ -92,31 +115,8 @@ data = [
         "author": "",
     },
     {
-        "method": "IsRiding",
+        "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Dismount",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopTracking",
-        "params": [
-            {"param": "mount", "explain": "", "type": ""},
 
         ],
         "returns": [

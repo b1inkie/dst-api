@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "GetDebugString",
+        "method": "Enable",
         "params": [
+            {"param": "val", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -22,9 +23,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Enable",
+        "method": "GetDebugString",
         "params": [
-            {"param": "val", "explain": "", "type": ""},
 
         ],
         "returns": [

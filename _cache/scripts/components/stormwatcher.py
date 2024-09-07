@@ -1,17 +1,5 @@
 data = [
     {
-        "method": "GetCurrentStorm",
-        "params": [
-            {"param": "inst", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "CheckStorms",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -24,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetStormLevel",
+        "method": "UpdateStorms",
         "params": [
-            {"param": "stormtype", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,9 +24,9 @@ data = [
         "author": "",
     },
     {
-        "method": "UpdateStorms",
+        "method": "GetCurrentStorm",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "inst", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -62,6 +50,18 @@ data = [
     {
         "method": "UpdateStormLevel",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetStormLevel",
+        "params": [
+            {"param": "stormtype", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,9 +1,32 @@
 data = [
     {
-        "method": "Unlock",
+        "method": "LoadPostPass",
         "params": [
-            {"param": "key", "explain": "", "type": ""},
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "newents", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsStuck",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -25,9 +48,20 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "OnSave",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CompatableKey",
+        "params": [
+            {"param": "keytype", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,8 +94,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "Unlock",
         "params": [
+            {"param": "key", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -83,7 +119,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "IsLocked",
         "params": [
 
         ],
@@ -97,19 +133,6 @@ data = [
         "method": "TestForUnlock",
         "params": [
             {"param": "key", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "LoadPostPass",
-        "params": [
-            {"param": "newents", "explain": "", "type": ""},
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -143,30 +166,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsStuck",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CompatableKey",
-        "params": [
-            {"param": "keytype", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsLocked",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

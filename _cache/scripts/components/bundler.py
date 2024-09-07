@@ -1,31 +1,7 @@
 data = [
     {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "CanStartBundling",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartBundling",
-        "params": [
-            {"param": "item", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,8 +22,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnFinishBundling",
+        "method": "OnLoad",
         "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -58,6 +35,17 @@ data = [
     },
     {
         "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnFinishBundling",
         "params": [
 
         ],
@@ -82,6 +70,18 @@ data = [
     {
         "method": "FinishBundling",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartBundling",
+        "params": [
+            {"param": "item", "explain": "", "type": ""},
 
         ],
         "returns": [

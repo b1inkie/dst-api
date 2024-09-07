@@ -11,6 +11,17 @@ data = [
         "author": "",
     },
     {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "RemoveKitcoon",
         "params": [
             {"param": "kitcoon", "explain": "", "type": ""},
@@ -37,17 +48,6 @@ data = [
     },
     {
         "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
         "params": [
 
         ],

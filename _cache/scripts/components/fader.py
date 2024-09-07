@@ -1,8 +1,13 @@
 data = [
     {
-        "method": "OnUpdate",
+        "method": "Fade",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "startval", "explain": "", "type": ""},
+            {"param": "endval", "explain": "", "type": ""},
+            {"param": "time", "explain": "", "type": ""},
+            {"param": "setter", "explain": "", "type": ""},
+            {"param": "atend", "explain": "", "type": ""},
+            {"param": "id", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,14 +17,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Fade",
+        "method": "OnUpdate",
         "params": [
-            {"param": "startval", "explain": "", "type": ""},
-            {"param": "endval", "explain": "", "type": ""},
-            {"param": "time", "explain": "", "type": ""},
-            {"param": "setter", "explain": "", "type": ""},
-            {"param": "atend", "explain": "", "type": ""},
-            {"param": "id", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [

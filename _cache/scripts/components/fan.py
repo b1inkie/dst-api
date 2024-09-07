@@ -1,5 +1,40 @@
 data = [
     {
+        "method": "Fan",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Channel",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsChanneling",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetOnChannelingFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
@@ -12,8 +47,9 @@ data = [
         "author": "",
     },
     {
-        "method": "IsChanneling",
+        "method": "SetCanUseFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,44 +83,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Channel",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Fan",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetCanUseFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,6 +1,18 @@
 data = [
     {
-        "method": "CalcaulteTargetAlpha",
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnEntityWake",
         "params": [
 
         ],
@@ -11,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "CalcaulteTargetAlpha",
         "params": [
 
         ],
@@ -33,7 +45,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntityWake",
+        "method": "ForceUpdate",
         "params": [
 
         ],
@@ -57,20 +69,8 @@ data = [
         "author": "",
     },
     {
-        "method": "ForceUpdate",
+        "method": "GetDebugString",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,5 +1,17 @@
 data = [
     {
+        "method": "SetAOERadius",
+        "params": [
+            {"param": "radius", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "DoLeap",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
@@ -14,19 +26,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetAOERadius",
-        "params": [
-            {"param": "radius", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnLeaptFn",
+        "method": "SetOnPreLeapFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -38,7 +38,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnPreLeapFn",
+        "method": "SetOnLeaptFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 

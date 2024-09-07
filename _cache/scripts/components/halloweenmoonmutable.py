@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "SetOnMutateFn",
+        "method": "SetPrefabMutated",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "prefab", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetPrefabMutated",
+        "method": "Mutate",
         "params": [
-            {"param": "prefab", "explain": "", "type": ""},
+            {"param": "overrideprefab", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,8 +36,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetOnMutateFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,9 +48,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Mutate",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "overrideprefab", "explain": "", "type": ""},
 
         ],
         "returns": [

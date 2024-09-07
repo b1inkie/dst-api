@@ -1,6 +1,42 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "AddPlayerData",
+        "params": [
+            {"param": "save", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddNameData",
+        "params": [
+            {"param": "save", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddBaseSkinData",
+        "params": [
+            {"param": "save", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetData",
         "params": [
 
         ],
@@ -14,6 +50,18 @@ data = [
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetData",
+        "params": [
+            {"param": "client_obj", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,65 +95,6 @@ data = [
         "author": "",
     },
     {
-        "method": "AddPlayerData",
-        "params": [
-            {"param": "save", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetData",
-        "params": [
-            {"param": "client_obj", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetData",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddBaseSkinData",
-        "params": [
-            {"param": "save", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddNameData",
-        "params": [
-            {"param": "save", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetAllowEmptyName",
         "params": [
             {"param": "allow", "explain": "", "type": ""},
@@ -118,9 +107,9 @@ data = [
         "author": "",
     },
     {
-        "method": "AddAgeData",
+        "method": "SetAllowBurnt",
         "params": [
-            {"param": "save", "explain": "", "type": ""},
+            {"param": "allow", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -130,9 +119,20 @@ data = [
         "author": "",
     },
     {
-        "method": "SetAllowBurnt",
+        "method": "OnSave",
         "params": [
-            {"param": "allow", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddAgeData",
+        "params": [
+            {"param": "save", "explain": "", "type": ""},
 
         ],
         "returns": [

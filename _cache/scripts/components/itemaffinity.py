@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "RefreshAffinity",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "RemoveAffinity",
         "params": [
             {"param": "prefab", "explain": "", "type": ""},
@@ -13,17 +24,6 @@ data = [
     },
     {
         "method": "SortAffinities",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RefreshAffinity",
         "params": [
 
         ],

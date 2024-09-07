@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
         "params": [
 
@@ -22,8 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "Search",
         "params": [
+            {"param": "searcher", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -45,9 +35,19 @@ data = [
         "author": "",
     },
     {
-        "method": "Search",
+        "method": "OnSave",
         "params": [
-            {"param": "searcher", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
 
         ],
         "returns": [

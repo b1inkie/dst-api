@@ -1,6 +1,42 @@
 data = [
     {
-        "method": "StopTimeEffect",
+        "method": "GetPercent",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetTimeEffectMultiplier",
+        "params": [
+            {"param": "multiplier", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartTimeEffect",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+            {"param": "delta_b", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -23,7 +59,31 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "DoDelta",
+        "params": [
+            {"param": "delta", "explain": "", "type": ""},
+            {"param": "overtime", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsStarving",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
         "params": [
 
         ],
@@ -47,68 +107,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "StopTimeEffect",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartTimeEffect",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-            {"param": "delta_b", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetTimeEffectMultiplier",
-        "params": [
-            {"param": "multiplier", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetPercent",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsStarving",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DoDelta",
-        "params": [
-            {"param": "delta", "explain": "", "type": ""},
-            {"param": "overtime", "explain": "", "type": ""},
 
         ],
         "returns": [

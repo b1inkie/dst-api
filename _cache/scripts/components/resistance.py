@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "AddResistance",
+        "method": "ResistDamage",
         "params": [
-            {"param": "tag", "explain": "", "type": ""},
+            {"param": "damage_amount", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,7 +24,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "ShouldResistDamage",
         "params": [
 
         ],
@@ -47,9 +47,8 @@ data = [
         "author": "",
     },
     {
-        "method": "ResistDamage",
+        "method": "GetDebugString",
         "params": [
-            {"param": "damage_amount", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -59,9 +58,21 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnResistDamageFn",
+        "method": "SetShouldResistFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddResistance",
+        "params": [
+            {"param": "tag", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -84,18 +95,7 @@ data = [
         "author": "",
     },
     {
-        "method": "ShouldResistDamage",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetShouldResistFn",
+        "method": "SetOnResistDamageFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 

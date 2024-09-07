@@ -12,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetEnabled",
         "params": [
+            {"param": "enabled", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,9 +24,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetEnabled",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "enabled", "explain": "", "type": ""},
 
         ],
         "returns": [

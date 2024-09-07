@@ -1,8 +1,9 @@
 data = [
     {
-        "method": "SetRepairMaterial",
+        "method": "OnRepair",
         "params": [
-            {"param": "material", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,10 +25,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRepair",
+        "method": "SetRepairMaterial",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "material", "explain": "", "type": ""},
 
         ],
         "returns": [

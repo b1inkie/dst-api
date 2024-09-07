@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "RemoveRotator",
+        "method": "OnLoad",
         "params": [
-            {"param": "rotator", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,10 +12,20 @@ data = [
         "author": "",
     },
     {
-        "method": "GetBumperAtPoint",
+        "method": "GetNumSegments",
         "params": [
-            {"param": "x", "explain": "", "type": ""},
-            {"param": "z", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveBumper",
+        "params": [
+            {"param": "bumper", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,31 +46,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRotationDirection",
-        "params": [
-            {"param": "dir", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetRotationDirection",
+        "method": "OnDeath",
         "params": [
 
         ],
@@ -95,6 +81,29 @@ data = [
         "author": "",
     },
     {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveRotator",
+        "params": [
+            {"param": "rotator", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnUpdate",
         "params": [
             {"param": "dt", "explain": "", "type": ""},
@@ -107,8 +116,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "SetRotationDirection",
         "params": [
+            {"param": "dir", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -118,8 +128,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnDeath",
+        "method": "GetBumperAtPoint",
         "params": [
+            {"param": "x", "explain": "", "type": ""},
+            {"param": "z", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -129,20 +141,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetNumSegments",
+        "method": "GetRotationDirection",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveBumper",
-        "params": [
-            {"param": "bumper", "explain": "", "type": ""},
 
         ],
         "returns": [

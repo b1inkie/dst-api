@@ -12,10 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoved",
+        "method": "SetOnRemovedFn",
         "params": [
-            {"param": "lock", "explain": "", "type": ""},
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -38,8 +37,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnRemoved",
         "params": [
+            {"param": "lock", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -49,9 +50,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnRemovedFn",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

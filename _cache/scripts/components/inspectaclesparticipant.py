@@ -1,50 +1,5 @@
 data = [
     {
-        "method": "CreateNewAndOrShowCurrentGame",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsParticipantClose",
-        "params": [
-            {"param": "range", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateBox",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetCurrentGame",
         "params": [
             {"param": "gameid", "explain": "", "type": ""},
@@ -59,7 +14,7 @@ data = [
         "author": "",
     },
     {
-        "method": "ShowCurrentGame",
+        "method": "NetworkCurrentGame",
         "params": [
 
         ],
@@ -93,7 +48,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetSERVERDetails",
+        "method": "OnSignalPulse",
         "params": [
 
         ],
@@ -104,7 +59,18 @@ data = [
         "author": "",
     },
     {
-        "method": "OnCooldownFinished",
+        "method": "UpdateBox",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ShouldStopGameInteractions",
         "params": [
 
         ],
@@ -127,9 +93,9 @@ data = [
         "author": "",
     },
     {
-        "method": "ApplyCooldown",
+        "method": "CheckGameSolution",
         "params": [
-            {"param": "overridetime", "explain": "", "type": ""},
+            {"param": "solution", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -139,7 +105,120 @@ data = [
         "author": "",
     },
     {
-        "method": "FinishCurrentGame",
+        "method": "GetCLIENTDetails",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsParticipantClose",
+        "params": [
+            {"param": "range", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ShowCurrentGame",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CreateNewAndOrShowCurrentGame",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsUpgradedBox",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanCreateGameInWorld",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnInspectaclesGameChanged",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnClosePopup",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GrantRewards",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
         "params": [
 
         ],
@@ -161,19 +240,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CheckGameSolution",
-        "params": [
-            {"param": "solution", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanCreateGameInWorld",
+        "method": "FinishCurrentGame",
         "params": [
 
         ],
@@ -184,9 +251,42 @@ data = [
         "author": "",
     },
     {
-        "method": "OnClosePopup",
+        "method": "GetPuzzleData",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "puzzle", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsInCooldown",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetSERVERDetails",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "UpdateInspectacles",
+        "params": [
 
         ],
         "returns": [
@@ -210,86 +310,9 @@ data = [
         "author": "",
     },
     {
-        "method": "ShouldStopGameInteractions",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "NetworkCurrentGame",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsUpgradedBox",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSignalPulse",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetCLIENTDetails",
-        "params": [
 
         ],
         "returns": [
@@ -311,7 +334,19 @@ data = [
         "author": "",
     },
     {
-        "method": "IsInCooldown",
+        "method": "ApplyCooldown",
+        "params": [
+            {"param": "overridetime", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnCooldownFinished",
         "params": [
 
         ],
@@ -322,43 +357,8 @@ data = [
         "author": "",
     },
     {
-        "method": "UpdateInspectacles",
+        "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GrantRewards",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetPuzzleData",
-        "params": [
-            {"param": "puzzle", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnInspectaclesGameChanged",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [

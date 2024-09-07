@@ -1,18 +1,6 @@
 data = [
     {
-        "method": "WatchDaywalker",
-        "params": [
-            {"param": "daywalker", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IncrementPowerLevel",
+        "method": "TryToSpawnDayWalkerArena",
         "params": [
 
         ],
@@ -23,82 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UnregisterDayWalkerSpawningPoint",
-        "params": [
-            {"param": "spawnpoint", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SpawnDayWalkerArena",
-        "params": [
-            {"param": "x", "explain": "", "type": ""},
-            {"param": "y", "explain": "", "type": ""},
-            {"param": "z", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RegisterDayWalkerSpawningPoint",
-        "params": [
-            {"param": "spawnpoint", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsValidSpawningPoint",
-        "params": [
-            {"param": "x", "explain": "", "type": ""},
-            {"param": "y", "explain": "", "type": ""},
-            {"param": "z", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnPostInit",
+        "method": "OnDayChange",
         "params": [
 
         ],
@@ -122,7 +35,56 @@ data = [
         "author": "",
     },
     {
-        "method": "FindBestSpawningPoint",
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RegisterDayWalkerSpawningPoint",
+        "params": [
+            {"param": "spawnpoint", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsValidSpawningPoint",
+        "params": [
+            {"param": "x", "explain": "", "type": ""},
+            {"param": "y", "explain": "", "type": ""},
+            {"param": "z", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IncrementPowerLevel",
         "params": [
 
         ],
@@ -144,7 +106,31 @@ data = [
         "author": "",
     },
     {
-        "method": "OnDayChange",
+        "method": "WatchDaywalker",
+        "params": [
+            {"param": "daywalker", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "UnregisterDayWalkerSpawningPoint",
+        "params": [
+            {"param": "spawnpoint", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "FindBestSpawningPoint",
         "params": [
 
         ],
@@ -155,8 +141,22 @@ data = [
         "author": "",
     },
     {
-        "method": "TryToSpawnDayWalkerArena",
+        "method": "OnPostInit",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SpawnDayWalkerArena",
+        "params": [
+            {"param": "x", "explain": "", "type": ""},
+            {"param": "y", "explain": "", "type": ""},
+            {"param": "z", "explain": "", "type": ""},
 
         ],
         "returns": [

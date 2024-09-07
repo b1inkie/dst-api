@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "ResetMood",
+        "method": "Enable",
         "params": [
+            {"param": "enabled", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "OnLoad",
         "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -22,7 +24,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CheckForMoodChange",
+        "method": "ValidateMood",
         "params": [
 
         ],
@@ -44,8 +46,9 @@ data = [
         "author": "",
     },
     {
-        "method": "ValidateMood",
+        "method": "SetLeaveMoodFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -56,6 +59,17 @@ data = [
     },
     {
         "method": "IsInMood",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CheckForMoodChange",
         "params": [
 
         ],
@@ -90,30 +104,6 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetLeaveMoodFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetMoodTimeInDays",
         "params": [
             {"param": "length", "explain": "", "type": ""},
@@ -131,9 +121,19 @@ data = [
         "author": "",
     },
     {
-        "method": "Enable",
+        "method": "OnSave",
         "params": [
-            {"param": "enabled", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ResetMood",
+        "params": [
 
         ],
         "returns": [

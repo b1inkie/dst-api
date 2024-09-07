@@ -11,6 +11,18 @@ data = [
         "author": "",
     },
     {
+        "method": "IsOccupiedBy",
+        "params": [
+            {"param": "occupier", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "IsOccupied",
         "params": [
 
@@ -23,18 +35,6 @@ data = [
     },
     {
         "method": "SetOccupier",
-        "params": [
-            {"param": "occupier", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsOccupiedBy",
         "params": [
             {"param": "occupier", "explain": "", "type": ""},
 

@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "DoWorkout",
+        "method": "StopWorkout",
         "params": [
-            {"param": "gym", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,8 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "StopWorkout",
+        "method": "DoWorkout",
         "params": [
+            {"param": "gym", "explain": "", "type": ""},
 
         ],
         "returns": [

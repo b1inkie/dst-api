@@ -1,18 +1,6 @@
 data = [
     {
-        "method": "DetachChild",
-        "params": [
-            {"param": "child", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
+        "method": "OnClearBloomEffectHandle",
         "params": [
 
         ],
@@ -23,19 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "AttachChild",
-        "params": [
-            {"param": "child", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
+        "method": "GetCurrentFxAndPriority",
         "params": [
 
         ],
@@ -58,21 +34,7 @@ data = [
         "author": "",
     },
     {
-        "method": "PushBloom",
-        "params": [
-            {"param": "source", "explain": "", "type": ""},
-            {"param": "fx", "explain": "", "type": ""},
-            {"param": "priority", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnClearBloomEffectHandle",
+        "method": "GetCurrentFX",
         "params": [
 
         ],
@@ -96,7 +58,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetCurrentFX",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -107,7 +69,45 @@ data = [
         "author": "",
     },
     {
-        "method": "GetCurrentFxAndPriority",
+        "method": "PushBloom",
+        "params": [
+            {"param": "source", "explain": "", "type": ""},
+            {"param": "fx", "explain": "", "type": ""},
+            {"param": "priority", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AttachChild",
+        "params": [
+            {"param": "child", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DetachChild",
+        "params": [
+            {"param": "child", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

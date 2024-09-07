@@ -1,6 +1,17 @@
 data = [
     {
-        "method": "IsLifting",
+        "method": "IsLiftingAny",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanLift",
         "params": [
             {"param": "dumbbell", "explain": "", "type": ""},
 
@@ -46,20 +57,9 @@ data = [
         "author": "",
     },
     {
-        "method": "CanLift",
+        "method": "IsLifting",
         "params": [
             {"param": "dumbbell", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsLiftingAny",
-        "params": [
 
         ],
         "returns": [

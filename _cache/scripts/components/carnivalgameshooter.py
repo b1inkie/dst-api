@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "Initialize",
+        "method": "SetAim",
         "params": [
 
         ],
@@ -23,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetAim",
+        "method": "Shoot",
         "params": [
 
         ],
@@ -34,7 +34,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Shoot",
+        "method": "Initialize",
         "params": [
 
         ],

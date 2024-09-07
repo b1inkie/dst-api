@@ -1,5 +1,28 @@
 data = [
     {
+        "method": "SetHauntValue",
+        "params": [
+            {"param": "val", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartShaderFx",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetOnUnHauntFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
@@ -24,9 +47,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnHauntFn",
+        "method": "StopShaderFX",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -48,30 +70,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetOnHauntFn",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopFX",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopShaderFX",
-        "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -93,9 +94,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetHauntValue",
+        "method": "StartFX",
         "params": [
-            {"param": "val", "explain": "", "type": ""},
+            {"param": "noflicker", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -105,7 +106,7 @@ data = [
         "author": "",
     },
     {
-        "method": "StartShaderFx",
+        "method": "StopFX",
         "params": [
 
         ],
@@ -127,9 +128,8 @@ data = [
         "author": "",
     },
     {
-        "method": "StartFX",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "noflicker", "explain": "", "type": ""},
 
         ],
         "returns": [

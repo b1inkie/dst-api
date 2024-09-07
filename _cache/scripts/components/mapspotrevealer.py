@@ -1,17 +1,5 @@
 data = [
     {
-        "method": "SetPreRevealFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "RevealMap",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
@@ -24,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetPreRevealFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -38,6 +27,17 @@ data = [
         "method": "SetGetTargetFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

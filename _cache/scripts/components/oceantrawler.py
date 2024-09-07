@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "HasCaughtItem",
+        "method": "ReleaseOverflowFish",
         "params": [
 
         ],
@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "CheckForMalbatross",
         "params": [
 
         ],
@@ -22,7 +22,18 @@ data = [
         "author": "",
     },
     {
-        "method": "StartUpdate",
+        "method": "OnEntityWake",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Reset",
         "params": [
 
         ],
@@ -56,39 +67,6 @@ data = [
         "author": "",
     },
     {
-        "method": "LoadPostPass",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Raise",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CheckForMalbatross",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -101,7 +79,29 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntityWake",
+        "method": "StartUpdate",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasCaughtItem",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Lower",
         "params": [
 
         ],
@@ -124,17 +124,6 @@ data = [
         "author": "",
     },
     {
-        "method": "SimulateCatchFish",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnEntitySleep",
         "params": [
 
@@ -146,7 +135,18 @@ data = [
         "author": "",
     },
     {
-        "method": "Reset",
+        "method": "IsLowered",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SimulateCatchFish",
         "params": [
 
         ],
@@ -158,39 +158,6 @@ data = [
     },
     {
         "method": "StopUpdating",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasFishEscaped",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ReleaseOverflowFish",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Lower",
         "params": [
 
         ],
@@ -213,7 +180,40 @@ data = [
         "author": "",
     },
     {
-        "method": "IsLowered",
+        "method": "Raise",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasFishEscaped",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LoadPostPass",
         "params": [
 
         ],

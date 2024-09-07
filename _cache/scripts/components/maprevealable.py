@@ -13,9 +13,54 @@ data = [
         "author": "",
     },
     {
-        "method": "SetIcon",
+        "method": "RemoveRevealSource",
         "params": [
-            {"param": "iconname", "explain": "", "type": ""},
+            {"param": "source", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RefreshRevealSources",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Refresh",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartRevealing",
+        "params": [
+            {"param": "restriction", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [
@@ -36,8 +81,9 @@ data = [
         "author": "",
     },
     {
-        "method": "StopRevealing",
+        "method": "SetIcon",
         "params": [
+            {"param": "iconname", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -59,31 +105,8 @@ data = [
         "author": "",
     },
     {
-        "method": "RefreshRevealSources",
+        "method": "StopRevealing",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveRevealSource",
-        "params": [
-            {"param": "source", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -108,29 +131,6 @@ data = [
         "method": "SetIconPrefab",
         "params": [
             {"param": "prefab", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Refresh",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartRevealing",
-        "params": [
-            {"param": "restriction", "explain": "", "type": ""},
 
         ],
         "returns": [

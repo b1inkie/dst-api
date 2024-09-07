@@ -1,18 +1,6 @@
 data = [
     {
-        "method": "FindForm",
-        "params": [
-            {"param": "name", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
+        "method": "GetCurrentForm",
         "params": [
 
         ],
@@ -35,8 +23,33 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "CheckForMorph",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "FindForm",
+        "params": [
+            {"param": "name", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "MorphToForm",
+        "params": [
+            {"param": "form", "explain": "", "type": ""},
+            {"param": "instant", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -69,7 +82,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CheckForMorph",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -80,21 +93,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetCurrentForm",
+        "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "MorphToForm",
-        "params": [
-            {"param": "form", "explain": "", "type": ""},
-            {"param": "instant", "explain": "", "type": ""},
 
         ],
         "returns": [

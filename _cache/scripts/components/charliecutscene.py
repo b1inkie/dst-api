@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "ClientLockCamera",
+        "method": "Start",
         "params": [
 
         ],
@@ -11,8 +11,20 @@ data = [
         "author": "",
     },
     {
-        "method": "IsGateRepaired",
+        "method": "ClientUnlockCamera",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -33,9 +45,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "IsGateRepaired",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -67,29 +78,18 @@ data = [
         "author": "",
     },
     {
+        "method": "FindCharlieSpawnPoint",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "FindSceneCameraAngle",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Start",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RepairGate",
         "params": [
 
         ],
@@ -112,7 +112,7 @@ data = [
         "author": "",
     },
     {
-        "method": "FindCharlieSpawnPoint",
+        "method": "RepairGate",
         "params": [
 
         ],
@@ -123,10 +123,8 @@ data = [
         "author": "",
     },
     {
-        "method": "StartRepairingGateWithDelay",
+        "method": "ClientLockCamera",
         "params": [
-            {"param": "delay", "explain": "", "type": ""},
-            {"param": "delay_to_fix", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -136,7 +134,7 @@ data = [
         "author": "",
     },
     {
-        "method": "ClientUnlockCamera",
+        "method": "Finish",
         "params": [
 
         ],
@@ -158,8 +156,10 @@ data = [
         "author": "",
     },
     {
-        "method": "Finish",
+        "method": "StartRepairingGateWithDelay",
         "params": [
+            {"param": "delay", "explain": "", "type": ""},
+            {"param": "delay_to_fix", "explain": "", "type": ""},
 
         ],
         "returns": [

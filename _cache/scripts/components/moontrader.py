@@ -1,8 +1,9 @@
 data = [
     {
-        "method": "SetOnAcceptFn",
+        "method": "AcceptOffering",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "giver", "explain": "", "type": ""},
+            {"param": "item", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,10 +25,9 @@ data = [
         "author": "",
     },
     {
-        "method": "AcceptOffering",
+        "method": "SetOnAcceptFn",
         "params": [
-            {"param": "giver", "explain": "", "type": ""},
-            {"param": "item", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

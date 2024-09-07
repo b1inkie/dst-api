@@ -1,17 +1,5 @@
 data = [
     {
-        "method": "StopIgnoringAll",
-        "params": [
-            {"param": "source", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "ShutUp",
         "params": [
 
@@ -23,9 +11,20 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOffsetFn",
+        "method": "IgnoreAll",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "source", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "MakeChatter",
+        "params": [
 
         ],
         "returns": [
@@ -56,9 +55,8 @@ data = [
         "author": "",
     },
     {
-        "method": "IgnoreAll",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "source", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -68,8 +66,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "StopIgnoringAll",
         "params": [
+            {"param": "source", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -95,8 +94,9 @@ data = [
         "author": "",
     },
     {
-        "method": "MakeChatter",
+        "method": "SetOffsetFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

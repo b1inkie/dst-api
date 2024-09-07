@@ -1,8 +1,9 @@
 data = [
     {
-        "method": "SetStackSize",
+        "method": "DoErase",
         "params": [
-            {"param": "size", "explain": "", "type": ""},
+            {"param": "eraser", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,10 +13,9 @@ data = [
         "author": "",
     },
     {
-        "method": "DoErase",
+        "method": "SetStackSize",
         "params": [
-            {"param": "eraser", "explain": "", "type": ""},
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "size", "explain": "", "type": ""},
 
         ],
         "returns": [

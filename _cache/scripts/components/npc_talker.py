@@ -37,14 +37,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Chatter",
+        "method": "donextline",
         "params": [
-            {"param": "strtbl", "explain": "", "type": ""},
-            {"param": "index", "explain": "", "type": ""},
-            {"param": "chatpriority", "explain": "", "type": ""},
-            {"param": "override", "explain": "", "type": ""},
-            {"param": "stompable", "explain": "", "type": ""},
-            {"param": "sound", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -54,8 +48,14 @@ data = [
         "author": "",
     },
     {
-        "method": "donextline",
+        "method": "Chatter",
         "params": [
+            {"param": "strtbl", "explain": "", "type": ""},
+            {"param": "index", "explain": "", "type": ""},
+            {"param": "chatpriority", "explain": "", "type": ""},
+            {"param": "override", "explain": "", "type": ""},
+            {"param": "stompable", "explain": "", "type": ""},
+            {"param": "sound", "explain": "", "type": ""},
 
         ],
         "returns": [

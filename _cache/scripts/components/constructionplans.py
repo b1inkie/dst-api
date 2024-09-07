@@ -1,9 +1,19 @@
 data = [
     {
-        "method": "AddTargetPrefab",
+        "method": "RemoveTargetPrefab",
         "params": [
             {"param": "prefab", "explain": "", "type": ""},
-            {"param": "constructionprefab", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [
@@ -25,20 +35,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveTargetPrefab",
+        "method": "AddTargetPrefab",
         "params": [
             {"param": "prefab", "explain": "", "type": ""},
+            {"param": "constructionprefab", "explain": "", "type": ""},
 
         ],
         "returns": [

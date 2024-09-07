@@ -1,28 +1,5 @@
 data = [
     {
-        "method": "CanStartConstruction",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsConstructing",
-        "params": [
-            {"param": "constructioninst", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -46,8 +23,20 @@ data = [
         "author": "",
     },
     {
-        "method": "IsConstructingAny",
+        "method": "FinishConstruction",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsConstructing",
+        "params": [
+            {"param": "constructioninst", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -69,6 +58,28 @@ data = [
         "author": "",
     },
     {
+        "method": "StopConstruction",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanStartConstruction",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnSave",
         "params": [
 
@@ -80,18 +91,7 @@ data = [
         "author": "",
     },
     {
-        "method": "FinishConstruction",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopConstruction",
+        "method": "IsConstructingAny",
         "params": [
 
         ],

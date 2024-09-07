@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "Pause",
+        "method": "StopTracking",
         "params": [
-            {"param": "time", "explain": "", "type": ""},
+            {"param": "reset", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,7 +12,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SetShouldKeepTrackingFn",
+        "method": "IsTracking",
+        "params": [
+            {"param": "testtarget", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnResetTarget",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -24,7 +36,76 @@ data = [
         "author": "",
     },
     {
+        "method": "TrackTarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetOnPauseFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetTimeTracking",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnResumeFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasTarget",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetShouldKeepTrackingFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -48,9 +129,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnResetTarget",
+        "method": "OnUpdate",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,76 +141,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetTimeTracking",
+        "method": "Pause",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasTarget",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsCloningTarget",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsPaused",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TrackTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnResumeFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "time", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -152,30 +166,6 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopTracking",
-        "params": [
-            {"param": "reset", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetTimeTracking",
         "params": [
             {"param": "time", "explain": "", "type": ""},
@@ -188,9 +178,19 @@ data = [
         "author": "",
     },
     {
-        "method": "IsTracking",
+        "method": "IsPaused",
         "params": [
-            {"param": "testtarget", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsCloningTarget",
+        "params": [
 
         ],
         "returns": [

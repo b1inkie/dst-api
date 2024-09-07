@@ -12,7 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "HasMarked",
+        "method": "Mark",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
 
@@ -24,7 +24,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Mark",
+        "method": "HasMarked",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
 

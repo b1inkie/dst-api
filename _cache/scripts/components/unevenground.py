@@ -11,17 +11,6 @@ data = [
         "author": "",
     },
     {
-        "method": "Disable",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnEntityWake",
         "params": [
 
@@ -34,6 +23,17 @@ data = [
     },
     {
         "method": "Stop",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Disable",
         "params": [
 
         ],

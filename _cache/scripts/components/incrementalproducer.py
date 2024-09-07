@@ -11,17 +11,6 @@ data = [
         "author": "",
     },
     {
-        "method": "CanProduce",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "DoProduce",
         "params": [
 
@@ -34,6 +23,17 @@ data = [
     },
     {
         "method": "TryProduce",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanProduce",
         "params": [
 
         ],

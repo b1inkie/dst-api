@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "StopShedding",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "DoSingleShed",
         "params": [
 
@@ -15,17 +26,6 @@ data = [
         "params": [
             {"param": "max", "explain": "", "type": ""},
             {"param": "random", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopShedding",
-        "params": [
 
         ],
         "returns": [

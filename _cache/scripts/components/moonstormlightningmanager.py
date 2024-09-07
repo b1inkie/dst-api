@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "GetDebugString",
+        "method": "OnUpdate",
         "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "GetDebugString",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [

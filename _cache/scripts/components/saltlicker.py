@@ -1,29 +1,39 @@
 data = [
     {
-        "method": "SetUp",
-        "params": [
-            {"param": "uses_per_lick", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Stop",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LoadPostPass",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],
@@ -46,7 +56,7 @@ data = [
         "author": "",
     },
     {
-        "method": "LoadPostPass",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -57,19 +67,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Stop",
+        "method": "SetUp",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
+            {"param": "uses_per_lick", "explain": "", "type": ""},
 
         ],
         "returns": [

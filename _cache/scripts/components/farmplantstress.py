@@ -1,10 +1,19 @@
 data = [
     {
-        "method": "SetStressed",
+        "method": "GetFinalStressState",
         "params": [
-            {"param": "name", "explain": "", "type": ""},
-            {"param": "stressed", "explain": "", "type": ""},
-            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CopyFrom",
+        "params": [
+            {"param": "rhs", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -27,6 +36,31 @@ data = [
     },
     {
         "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetStressed",
+        "params": [
+            {"param": "name", "explain": "", "type": ""},
+            {"param": "stressed", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
         "params": [
 
         ],
@@ -63,40 +97,6 @@ data = [
         "author": "",
     },
     {
-        "method": "Reset",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CopyFrom",
-        "params": [
-            {"param": "rhs", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnInteractWith",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
@@ -109,7 +109,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetFinalStressState",
+        "method": "CalcFinalStressState",
         "params": [
 
         ],
@@ -120,7 +120,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CalcFinalStressState",
+        "method": "Reset",
         "params": [
 
         ],

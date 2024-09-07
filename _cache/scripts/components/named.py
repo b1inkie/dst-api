@@ -1,18 +1,8 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "OnLoad",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "PickNewName",
-        "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -35,9 +25,19 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "OnSave",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "PickNewName",
+        "params": [
 
         ],
         "returns": [

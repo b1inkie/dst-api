@@ -1,8 +1,19 @@
 data = [
     {
-        "method": "SetSanityPenaltyMultiplier",
+        "method": "SetAspiringBookworm",
         "params": [
-            {"param": "mult", "explain": "", "type": ""},
+            {"param": "bookworm", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsAspiringBookworm",
+        "params": [
 
         ],
         "returns": [
@@ -24,9 +35,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnReadFn",
+        "method": "SetSanityPenaltyMultiplier",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "mult", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,9 +58,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetAspiringBookworm",
+        "method": "SetOnReadFn",
         "params": [
-            {"param": "bookworm", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,17 +71,6 @@ data = [
     },
     {
         "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsAspiringBookworm",
         "params": [
 
         ],

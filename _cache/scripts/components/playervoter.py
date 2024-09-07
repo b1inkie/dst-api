@@ -23,8 +23,9 @@ data = [
         "author": "",
     },
     {
-        "method": "CanVote",
+        "method": "SetSelection",
         "params": [
+            {"param": "sel", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,7 +35,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "HasVoted",
         "params": [
 
         ],
@@ -68,6 +69,17 @@ data = [
         "author": "",
     },
     {
+        "method": "CanVote",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SubmitVote",
         "params": [
             {"param": "sel", "explain": "", "type": ""},
@@ -80,30 +92,18 @@ data = [
         "author": "",
     },
     {
-        "method": "HasVoted",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetSelection",
-        "params": [
-            {"param": "sel", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetSelection",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

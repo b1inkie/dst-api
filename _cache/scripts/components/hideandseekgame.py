@@ -1,17 +1,5 @@
 data = [
     {
-        "method": "RegisterHidingSpot",
-        "params": [
-            {"param": "hiding_spot", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
         "params": [
 
@@ -23,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "Abort",
         "params": [
 
         ],
@@ -56,10 +44,8 @@ data = [
         "author": "",
     },
     {
-        "method": "AddSeeker",
+        "method": "GetDebugString",
         "params": [
-            {"param": "seeker", "explain": "", "type": ""},
-            {"param": "started_game", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -81,21 +67,10 @@ data = [
         "author": "",
     },
     {
-        "method": "LoadPostPass",
+        "method": "AddSeeker",
         "params": [
-            {"param": "newents", "explain": "", "type": ""},
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetNumHiding",
-        "params": [
+            {"param": "seeker", "explain": "", "type": ""},
+            {"param": "started_game", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -116,7 +91,30 @@ data = [
         "author": "",
     },
     {
+        "method": "RegisterHidingSpot",
+        "params": [
+            {"param": "hiding_spot", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetNumFound",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetNumHiding",
         "params": [
 
         ],
@@ -138,8 +136,10 @@ data = [
         "author": "",
     },
     {
-        "method": "Abort",
+        "method": "LoadPostPass",
         "params": [
+            {"param": "newents", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "DelayWither",
+        "method": "Enable",
         "params": [
-            {"param": "delay", "explain": "", "type": ""},
+            {"param": "enable", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,8 +12,20 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "IsWithered",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DelayWither",
+        "params": [
+            {"param": "delay", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -35,7 +47,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "IsProtected",
         "params": [
 
         ],
@@ -57,7 +69,18 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Start",
         "params": [
 
         ],
@@ -71,28 +94,6 @@ data = [
         "method": "DelayRejuvenate",
         "params": [
             {"param": "delay", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsWithered",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanRejuvenate",
-        "params": [
 
         ],
         "returns": [
@@ -124,7 +125,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Start",
+        "method": "CanRejuvenate",
         "params": [
 
         ],
@@ -146,7 +147,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsProtected",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -157,9 +158,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Enable",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "enable", "explain": "", "type": ""},
 
         ],
         "returns": [

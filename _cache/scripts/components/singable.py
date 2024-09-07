@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "SetOnSing",
+        "method": "Sing",
         "params": [
-            {"param": "onsingfn", "explain": "", "type": ""},
+            {"param": "singer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Sing",
+        "method": "SetOnSing",
         "params": [
-            {"param": "singer", "explain": "", "type": ""},
+            {"param": "onsingfn", "explain": "", "type": ""},
 
         ],
         "returns": [

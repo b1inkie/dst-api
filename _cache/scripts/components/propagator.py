@@ -1,50 +1,5 @@
 data = [
     {
-        "method": "SetOnFlashPoint",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CalculateHeatCap",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetHeatResistance",
         "params": [
 
@@ -56,9 +11,10 @@ data = [
         "author": "",
     },
     {
-        "method": "StartSpreading",
+        "method": "StopSpreading",
         "params": [
-            {"param": "source", "explain": "", "type": ""},
+            {"param": "reset", "explain": "", "type": ""},
+            {"param": "heatpct", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -69,6 +25,28 @@ data = [
     },
     {
         "method": "StopUpdating",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartUpdating",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -91,6 +69,17 @@ data = [
         "author": "",
     },
     {
+        "method": "Flash",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "AddHeat",
         "params": [
             {"param": "amount", "explain": "", "type": ""},
@@ -104,7 +93,19 @@ data = [
         "author": "",
     },
     {
-        "method": "StartUpdating",
+        "method": "SetOnFlashPoint",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CalculateHeatCap",
         "params": [
 
         ],
@@ -115,8 +116,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Flash",
+        "method": "StartSpreading",
         "params": [
+            {"param": "source", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -126,10 +128,8 @@ data = [
         "author": "",
     },
     {
-        "method": "StopSpreading",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "reset", "explain": "", "type": ""},
-            {"param": "heatpct", "explain": "", "type": ""},
 
         ],
         "returns": [

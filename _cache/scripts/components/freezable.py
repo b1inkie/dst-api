@@ -1,45 +1,6 @@
 data = [
     {
-        "method": "AddShatterFX",
-        "params": [
-            {"param": "prefab", "explain": "", "type": ""},
-            {"param": "offset", "explain": "", "type": ""},
-            {"param": "followsymbol", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetExtraResist",
-        "params": [
-            {"param": "resist", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetShatterFXLevel",
-        "params": [
-            {"param": "level", "explain": "", "type": ""},
-            {"param": "percent", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
+        "method": "IsFrozen",
         "params": [
 
         ],
@@ -62,6 +23,43 @@ data = [
         "author": "",
     },
     {
+        "method": "SetRedirectFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetTimeToWearOff",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddShatterFX",
+        "params": [
+            {"param": "prefab", "explain": "", "type": ""},
+            {"param": "offset", "explain": "", "type": ""},
+            {"param": "followsymbol", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "Thaw",
         "params": [
             {"param": "thawtime", "explain": "", "type": ""},
@@ -74,7 +72,42 @@ data = [
         "author": "",
     },
     {
-        "method": "GetTimeToWearOff",
+        "method": "Unfreeze",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SpawnShatterFX",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetShatterFXLevel",
+        "params": [
+            {"param": "level", "explain": "", "type": ""},
+            {"param": "percent", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Reset",
         "params": [
 
         ],
@@ -108,7 +141,31 @@ data = [
         "author": "",
     },
     {
-        "method": "IsFrozen",
+        "method": "Freeze",
+        "params": [
+            {"param": "freezetime", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ResolveWearOffTime",
+        "params": [
+            {"param": "t", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsThawing",
         "params": [
 
         ],
@@ -119,9 +176,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetRedirectFn",
+        "method": "SetExtraResist",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "resist", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -131,18 +188,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ResolveResistance",
+        "method": "UpdateTint",
         "params": [
 
         ],
@@ -165,65 +211,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetDefaultWearOffTime",
-        "params": [
-            {"param": "wearofftime", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Freeze",
-        "params": [
-            {"param": "freezetime", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Reset",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Unfreeze",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ResolveWearOffTime",
-        "params": [
-            {"param": "t", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateTint",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -248,7 +236,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsThawing",
+        "method": "ResolveResistance",
         "params": [
 
         ],
@@ -259,7 +247,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SpawnShatterFX",
+        "method": "SetDefaultWearOffTime",
+        "params": [
+            {"param": "wearofftime", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

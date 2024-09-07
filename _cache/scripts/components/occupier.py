@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "SetOwner",
+        "method": "GetOwner",
         "params": [
-            {"param": "owner", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,8 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetOwner",
+        "method": "SetOwner",
         "params": [
+            {"param": "owner", "explain": "", "type": ""},
 
         ],
         "returns": [

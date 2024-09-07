@@ -1,6 +1,18 @@
 data = [
     {
-        "method": "OnTarget",
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ResumeSpell",
         "params": [
 
         ],
@@ -11,8 +23,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "OnUpdate",
         "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -33,8 +46,9 @@ data = [
         "author": "",
     },
     {
-        "method": "StartSpell",
+        "method": "SetVariables",
         "params": [
+            {"param": "variables", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -69,55 +83,41 @@ data = [
         "author": "",
     },
     {
+        "method": "StartSpell",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnTarget",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnFinish",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetVariables",
-        "params": [
-            {"param": "variables", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ResumeSpell",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [

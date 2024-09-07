@@ -1,5 +1,27 @@
 data = [
     {
+        "method": "GetPhysicsState",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "MakeSmallObstacle",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetOnPhysicsStateChangedFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
@@ -23,9 +45,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnStartFallingFn",
+        "method": "IsObstacle",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,42 +67,21 @@ data = [
         "author": "",
     },
     {
-        "method": "IsObstacle",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddFallingStates",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnStopFallingFn",
+        "method": "SetOnStartFallingFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetRadius",
+        "params": [
+            {"param": "radius", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -103,8 +103,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetPhysicsState",
+        "method": "SetOnStopFallingFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -126,7 +127,7 @@ data = [
         "author": "",
     },
     {
-        "method": "MakeSmallObstacle",
+        "method": "AddFallingStates",
         "params": [
 
         ],
@@ -137,9 +138,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetRadius",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "radius", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,149 +1,6 @@
 data = [
     {
-        "method": "GetThrone",
-        "params": [
-            {"param": "merm", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CreateMermKing",
-        "params": [
-            {"param": "candidate", "explain": "", "type": ""},
-            {"param": "throne", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "FindMermCandidate",
-        "params": [
-            {"param": "throne", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasPauldronAnywhere",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetCandidate",
-        "params": [
-            {"param": "throne", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasCrownAnywhere",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetMainThrone",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "LoadPostPass",
-        "params": [
-            {"param": "newents", "explain": "", "type": ""},
-            {"param": "savedata", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsCandidateAtThrone",
-        "params": [
-            {"param": "candidate", "explain": "", "type": ""},
-            {"param": "throne", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsThroneCandidate",
-        "params": [
-            {"param": "merm", "explain": "", "type": ""},
-            {"param": "throne", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasKingLocal",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsThroneValid",
+        "method": "OnThroneDestroyed",
         "params": [
             {"param": "throne", "explain": "", "type": ""},
 
@@ -168,7 +25,31 @@ data = [
         "author": "",
     },
     {
-        "method": "HasTridentAnywhere",
+        "method": "ShouldTransform",
+        "params": [
+            {"param": "merm", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetThrone",
+        "params": [
+            {"param": "merm", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasKingLocal",
         "params": [
 
         ],
@@ -179,31 +60,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnThroneDestroyed",
+        "method": "IsThroneCandidate",
         "params": [
-            {"param": "throne", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasPauldronLocal",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsThrone",
-        "params": [
+            {"param": "merm", "explain": "", "type": ""},
             {"param": "throne", "explain": "", "type": ""},
 
         ],
@@ -225,9 +84,30 @@ data = [
         "author": "",
     },
     {
-        "method": "IsCandidate",
+        "method": "GetMainThrone",
         "params": [
-            {"param": "merm", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetKing",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
 
         ],
         "returns": [
@@ -238,6 +118,89 @@ data = [
     },
     {
         "method": "HasTridentLocal",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LoadPostPass",
+        "params": [
+            {"param": "newents", "explain": "", "type": ""},
+            {"param": "savedata", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CreateMermKing",
+        "params": [
+            {"param": "candidate", "explain": "", "type": ""},
+            {"param": "throne", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasPauldronAnywhere",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsThroneValid",
+        "params": [
+            {"param": "throne", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "FindMermCandidate",
+        "params": [
+            {"param": "throne", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasCrownAnywhere",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasPauldronLocal",
         "params": [
 
         ],
@@ -270,8 +233,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetKing",
+        "method": "IsCandidate",
         "params": [
+            {"param": "merm", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -281,9 +245,45 @@ data = [
         "author": "",
     },
     {
-        "method": "ShouldTransform",
+        "method": "IsCandidateAtThrone",
         "params": [
-            {"param": "merm", "explain": "", "type": ""},
+            {"param": "candidate", "explain": "", "type": ""},
+            {"param": "throne", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsThrone",
+        "params": [
+            {"param": "throne", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetCandidate",
+        "params": [
+            {"param": "throne", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasTridentAnywhere",
+        "params": [
 
         ],
         "returns": [

@@ -1,11 +1,8 @@
 data = [
     {
-        "method": "SetFollowSymbol",
+        "method": "Enable",
         "params": [
-            {"param": "symbol", "explain": "", "type": ""},
-            {"param": "x", "explain": "", "type": ""},
-            {"param": "y", "explain": "", "type": ""},
-            {"param": "z", "explain": "", "type": ""},
+            {"param": "enable", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -15,20 +12,20 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebuff",
+        "method": "RemoveDebuff",
         "params": [
             {"param": "name", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveOnDespawn",
+        "params": [
 
         ],
         "returns": [
@@ -49,8 +46,12 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "SetFollowSymbol",
         "params": [
+            {"param": "symbol", "explain": "", "type": ""},
+            {"param": "x", "explain": "", "type": ""},
+            {"param": "y", "explain": "", "type": ""},
+            {"param": "z", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,7 +61,7 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveOnDespawn",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -95,19 +96,7 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveDebuff",
-        "params": [
-            {"param": "name", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasDebuff",
+        "method": "GetDebuff",
         "params": [
             {"param": "name", "explain": "", "type": ""},
 
@@ -133,9 +122,20 @@ data = [
         "author": "",
     },
     {
-        "method": "Enable",
+        "method": "OnSave",
         "params": [
-            {"param": "enable", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasDebuff",
+        "params": [
+            {"param": "name", "explain": "", "type": ""},
 
         ],
         "returns": [

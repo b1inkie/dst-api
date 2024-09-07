@@ -1,10 +1,8 @@
 data = [
     {
-        "method": "SpawnObject",
+        "method": "TakeOwnership",
         "params": [
             {"param": "obj", "explain": "", "type": ""},
-            {"param": "linked_skinname", "explain": "", "type": ""},
-            {"param": "skin_id", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -14,9 +12,11 @@ data = [
         "author": "",
     },
     {
-        "method": "TakeOwnership",
+        "method": "SpawnObject",
         "params": [
             {"param": "obj", "explain": "", "type": ""},
+            {"param": "linked_skinname", "explain": "", "type": ""},
+            {"param": "skin_id", "explain": "", "type": ""},
 
         ],
         "returns": [

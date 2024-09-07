@@ -1,8 +1,11 @@
 data = [
     {
-        "method": "OnUpdate",
+        "method": "Setup",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "dir_x", "explain": "", "type": ""},
+            {"param": "dir_z", "explain": "", "type": ""},
+            {"param": "velocity", "explain": "", "type": ""},
+            {"param": "acceleration", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,12 +15,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Setup",
+        "method": "OnUpdate",
         "params": [
-            {"param": "dir_x", "explain": "", "type": ""},
-            {"param": "dir_z", "explain": "", "type": ""},
-            {"param": "velocity", "explain": "", "type": ""},
-            {"param": "acceleration", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -12,6 +12,54 @@ data = [
         "author": "",
     },
     {
+        "method": "SetSanityMode",
+        "params": [
+            {"param": "mode", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetFullAuraImmunity",
+        "params": [
+            {"param": "immunity", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddSanityAuraImmunity",
+        "params": [
+            {"param": "tag", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Recalc",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "IsSane",
         "params": [
 
@@ -23,9 +71,8 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveSanityAuraImmunity",
+        "method": "GetAuraMultipliers",
         "params": [
-            {"param": "tag", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,7 +93,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsCrazy",
+        "method": "GetPercent",
         "params": [
 
         ],
@@ -57,9 +104,168 @@ data = [
         "author": "",
     },
     {
-        "method": "Recalc",
+        "method": "RecalculatePenalty",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveSanityPenalty",
+        "params": [
+            {"param": "key", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "EnableLunacy",
+        "params": [
+            {"param": "enable", "explain": "", "type": ""},
+            {"param": "source", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetMaxWithPenalty",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsEnlightened",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsInsanityMode",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetRateScale",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TransferComponent",
+        "params": [
+            {"param": "newinst", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetRealPercent",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsInsane",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetPlayerGhostImmunity",
+        "params": [
+            {"param": "immunity", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetPercentWithPenalty",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -82,61 +288,6 @@ data = [
         "author": "",
     },
     {
-        "method": "IsInsane",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetPercentWithPenalty",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetRealPercent",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsInsanityMode",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetMaxWithPenalty",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetLightDrainImmune",
         "params": [
             {"param": "immunity", "explain": "", "type": ""},
@@ -149,9 +300,8 @@ data = [
         "author": "",
     },
     {
-        "method": "TransferComponent",
+        "method": "RecalcGhostDrain",
         "params": [
-            {"param": "newinst", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -174,8 +324,9 @@ data = [
         "author": "",
     },
     {
-        "method": "IsLunacyMode",
+        "method": "OnUpdate",
         "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -211,100 +362,7 @@ data = [
         "author": "",
     },
     {
-        "method": "AddSanityAuraImmunity",
-        "params": [
-            {"param": "tag", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetFullAuraImmunity",
-        "params": [
-            {"param": "immunity", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetAuraMultipliers",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetSanityMode",
-        "params": [
-            {"param": "mode", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveSanityPenalty",
-        "params": [
-            {"param": "key", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetRateScale",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RecalcGhostDrain",
+        "method": "IsLunacyMode",
         "params": [
 
         ],
@@ -326,67 +384,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "IsCrazy",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "EnableLunacy",
-        "params": [
-            {"param": "enable", "explain": "", "type": ""},
-            {"param": "source", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsEnlightened",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetPercent",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetPlayerGhostImmunity",
-        "params": [
-            {"param": "immunity", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -408,8 +407,9 @@ data = [
         "author": "",
     },
     {
-        "method": "RecalculatePenalty",
+        "method": "RemoveSanityAuraImmunity",
         "params": [
+            {"param": "tag", "explain": "", "type": ""},
 
         ],
         "returns": [

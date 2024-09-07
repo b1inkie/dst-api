@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetTrueKey",
         "params": [
+            {"param": "truekey", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetTrueKey",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "truekey", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "CanDodge",
+        "method": "SetCooldownTime",
         "params": [
-            {"param": "attacker", "explain": "", "type": ""},
+            {"param": "n", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,8 +36,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "CanDodge",
         "params": [
+            {"param": "attacker", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,9 +48,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCooldownTime",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "n", "explain": "", "type": ""},
 
         ],
         "returns": [

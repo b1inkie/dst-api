@@ -1,103 +1,9 @@
 data = [
     {
-        "method": "ForceScrapMonoleVision",
+        "method": "SetCustomCCTable",
         "params": [
-            {"param": "force", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "PushForcedNightVision",
-        "params": [
-            {"param": "source", "explain": "", "type": ""},
-            {"param": "priority", "explain": "", "type": ""},
-            {"param": "customcctable", "explain": "", "type": ""},
+            {"param": "cctable", "explain": "", "type": ""},
             {"param": "blend", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ForceNightVision",
-        "params": [
-            {"param": "force", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateCCTable",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasInspectaclesVision",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasScrapMonoleVision",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ForceInspectaclesVision",
-        "params": [
-            {"param": "force", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetGhostVision",
-        "params": [
-            {"param": "enabled", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasGoggleVision",
-        "params": [
 
         ],
         "returns": [
@@ -130,7 +36,7 @@ data = [
         "author": "",
     },
     {
-        "method": "HasNightVision",
+        "method": "HasRoseGlassesVision",
         "params": [
 
         ],
@@ -141,30 +47,9 @@ data = [
         "author": "",
     },
     {
-        "method": "HasGhostVision",
+        "method": "ForceScrapMonoleVision",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasNutrientsVision",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetCCTable",
-        "params": [
+            {"param": "force", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -186,10 +71,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCustomCCTable",
+        "method": "HasNutrientsVision",
         "params": [
-            {"param": "cctable", "explain": "", "type": ""},
-            {"param": "blend", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -199,8 +82,20 @@ data = [
         "author": "",
     },
     {
-        "method": "HasRoseGlassesVision",
+        "method": "GetCCPhaseFn",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ForceInspectaclesVision",
+        "params": [
+            {"param": "force", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -222,8 +117,103 @@ data = [
         "author": "",
     },
     {
-        "method": "GetCCPhaseFn",
+        "method": "HasScrapMonoleVision",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ForceGoggleVision",
+        "params": [
+            {"param": "force", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasGhostVision",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasNightVision",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "PushForcedNightVision",
+        "params": [
+            {"param": "source", "explain": "", "type": ""},
+            {"param": "priority", "explain": "", "type": ""},
+            {"param": "customcctable", "explain": "", "type": ""},
+            {"param": "blend", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetGhostVision",
+        "params": [
+            {"param": "enabled", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasInspectaclesVision",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasGoggleVision",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ForceNightVision",
+        "params": [
+            {"param": "force", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -245,9 +235,19 @@ data = [
         "author": "",
     },
     {
-        "method": "ForceGoggleVision",
+        "method": "UpdateCCTable",
         "params": [
-            {"param": "force", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetCCTable",
+        "params": [
 
         ],
         "returns": [

@@ -1,32 +1,10 @@
 data = [
     {
-        "method": "OnDetach",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetDetachedFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ChangeFollowSymbol",
+        "method": "Extend",
         "params": [
             {"param": "followsymbol", "explain": "", "type": ""},
             {"param": "followoffset", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,18 +14,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Stop",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetChangeFollowSymbolFn",
+        "method": "SetAttachedFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -75,7 +42,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetAttachedFn",
+        "method": "SetExtendedFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -87,11 +54,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Extend",
+        "method": "SetDetachedFn",
         "params": [
-            {"param": "followsymbol", "explain": "", "type": ""},
-            {"param": "followoffset", "explain": "", "type": ""},
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -101,7 +66,42 @@ data = [
         "author": "",
     },
     {
-        "method": "SetExtendedFn",
+        "method": "Stop",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ChangeFollowSymbol",
+        "params": [
+            {"param": "followsymbol", "explain": "", "type": ""},
+            {"param": "followoffset", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnDetach",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetChangeFollowSymbolFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 

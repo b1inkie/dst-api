@@ -1,17 +1,6 @@
 data = [
     {
-        "method": "IsCooking",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsSpoiling",
+        "method": "GetTimeToSpoil",
         "params": [
 
         ],
@@ -34,29 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsDone",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
+        "method": "IsSpoiling",
         "params": [
 
         ],
@@ -79,6 +46,18 @@ data = [
         "author": "",
     },
     {
+        "method": "StartCooking",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "Harvest",
         "params": [
             {"param": "harvester", "explain": "", "type": ""},
@@ -91,7 +70,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetTimeToSpoil",
+        "method": "IsDone",
         "params": [
 
         ],
@@ -102,7 +81,18 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "GetRecipeForProduct",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -125,6 +115,17 @@ data = [
         "author": "",
     },
     {
+        "method": "IsCooking",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetTimeToCook",
         "params": [
 
@@ -136,30 +137,29 @@ data = [
         "author": "",
     },
     {
-        "method": "StartCooking",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetRecipeForProduct",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "CanCook",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

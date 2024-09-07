@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "Dismount",
+        "method": "SetCurrentPlank",
         "params": [
+            {"param": "plank", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCurrentPlank",
+        "method": "Dismount",
         "params": [
-            {"param": "plank", "explain": "", "type": ""},
 
         ],
         "returns": [

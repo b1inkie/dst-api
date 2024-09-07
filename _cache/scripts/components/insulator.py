@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "SetInsulation",
+        "method": "SetSummer",
         "params": [
-            {"param": "val", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,18 +22,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetSummer",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetType",
+        "method": "SetWinter",
         "params": [
 
         ],
@@ -57,7 +45,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SetWinter",
+        "method": "SetInsulation",
+        "params": [
+            {"param": "val", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetType",
         "params": [
 
         ],

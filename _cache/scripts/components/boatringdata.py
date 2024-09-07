@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "IsRotating",
+        "method": "SetRadius",
         "params": [
+            {"param": "radius", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,7 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetRadius",
+        "method": "GetNumSegments",
         "params": [
 
         ],
@@ -34,32 +35,31 @@ data = [
         "author": "",
     },
     {
+        "method": "IsRotating",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetRadius",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetNumSegments",
         "params": [
             {"param": "segments", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRadius",
-        "params": [
-            {"param": "radius", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetNumSegments",
-        "params": [
 
         ],
         "returns": [

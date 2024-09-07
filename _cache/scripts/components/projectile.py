@@ -1,30 +1,6 @@
 data = [
     {
-        "method": "SetCanCatch",
-        "params": [
-            {"param": "cancatch", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetHoming",
-        "params": [
-            {"param": "homing", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnEntitySleep",
+        "method": "IsThrown",
         "params": [
 
         ],
@@ -35,7 +11,90 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetOnThrownFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetStimuli",
+        "params": [
+            {"param": "stimuli", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnCaughtFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnHitFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetSpeed",
+        "params": [
+            {"param": "speed", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DelayVisibility",
+        "params": [
+            {"param": "duration", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnEntityWake",
         "params": [
 
         ],
@@ -58,32 +117,9 @@ data = [
         "author": "",
     },
     {
-        "method": "IsBounced",
+        "method": "SetLaunchOffset",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnMissFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DelayVisibility",
-        "params": [
-            {"param": "duration", "explain": "", "type": ""},
+            {"param": "offset", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -105,78 +141,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetStimuli",
-        "params": [
-            {"param": "stimuli", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnEntityWake",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnHitFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "Hit",
         "params": [
             {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Stop",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
 
         ],
         "returns": [
@@ -198,9 +165,19 @@ data = [
         "author": "",
     },
     {
-        "method": "Catch",
+        "method": "OnEntitySleep",
         "params": [
-            {"param": "catcher", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsBounced",
+        "params": [
 
         ],
         "returns": [
@@ -222,11 +199,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Throw",
+        "method": "Catch",
         "params": [
-            {"param": "owner", "explain": "", "type": ""},
-            {"param": "target", "explain": "", "type": ""},
-            {"param": "attacker", "explain": "", "type": ""},
+            {"param": "catcher", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -236,7 +211,54 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnThrownFn",
+        "method": "SetCanCatch",
+        "params": [
+            {"param": "cancatch", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetHoming",
+        "params": [
+            {"param": "homing", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Stop",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnMissFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -260,8 +282,11 @@ data = [
         "author": "",
     },
     {
-        "method": "IsThrown",
+        "method": "Throw",
         "params": [
+            {"param": "owner", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "attacker", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -283,33 +308,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnCaughtFn",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetLaunchOffset",
-        "params": [
-            {"param": "offset", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetSpeed",
-        "params": [
-            {"param": "speed", "explain": "", "type": ""},
 
         ],
         "returns": [

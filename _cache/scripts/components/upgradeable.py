@@ -1,40 +1,5 @@
 data = [
     {
-        "method": "SetStage",
-        "params": [
-            {"param": "num", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetCanUpgradeFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "Upgrade",
         "params": [
             {"param": "obj", "explain": "", "type": ""},
@@ -48,8 +13,20 @@ data = [
         "author": "",
     },
     {
-        "method": "CanUpgrade",
+        "method": "GetStage",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetStage",
+        "params": [
+            {"param": "num", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -71,17 +48,6 @@ data = [
         "author": "",
     },
     {
-        "method": "GetStage",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -94,7 +60,41 @@ data = [
         "author": "",
     },
     {
+        "method": "SetCanUpgradeFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "AdvanceStage",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanUpgrade",
         "params": [
 
         ],

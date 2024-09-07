@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "TransferComponent",
+        "method": "OnUpdate",
         "params": [
-            {"param": "newinst", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "TransferComponent",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "newinst", "explain": "", "type": ""},
 
         ],
         "returns": [

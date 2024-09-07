@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "SetOnStopTeleportFn",
+        "method": "SetItemTeleportRadius",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "radius", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,7 +24,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCanActivateFn",
+        "method": "SetCheckDestinationFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -36,9 +36,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Teleport_GetNearbyItems",
+        "method": "SetOnStopTeleportFn",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -65,19 +65,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnStartTeleport",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnStartTeleportFn",
+        "method": "SetCanActivateFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -89,9 +77,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetItemTeleportRadius",
+        "method": "SetNearbyItems",
         "params": [
-            {"param": "radius", "explain": "", "type": ""},
+            {"param": "nearbyitems", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -114,9 +102,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetNearbyItems",
+        "method": "Teleport_GetNearbyItems",
         "params": [
-            {"param": "nearbyitems", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -150,7 +138,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCheckDestinationFn",
+        "method": "OnStartTeleport",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnStartTeleportFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 

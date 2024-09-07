@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "OnRemoveEntity",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnUpdate",
         "params": [
             {"param": "dt", "explain": "", "type": ""},
@@ -16,17 +27,6 @@ data = [
         "params": [
             {"param": "width", "explain": "", "type": ""},
             {"param": "height", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveEntity",
-        "params": [
 
         ],
         "returns": [

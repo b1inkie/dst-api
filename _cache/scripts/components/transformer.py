@@ -1,62 +1,5 @@
 data = [
     {
-        "method": "StartTransform",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetObjectData",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnTransformFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnRevertFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Transform",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetObjectData",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -69,20 +12,10 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveSleepEvents",
+        "method": "SetTransformWorldEvent",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "event", "explain": "", "type": ""},
+            {"param": "value", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -103,20 +36,7 @@ data = [
         "author": "",
     },
     {
-        "method": "LoadPostPass",
-        "params": [
-            {"param": "ents", "explain": "", "type": ""},
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
+        "method": "Transform",
         "params": [
 
         ],
@@ -140,19 +60,9 @@ data = [
         "author": "",
     },
     {
-        "method": "StartRevert",
+        "method": "SetOnLoadCheck",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RevertOnSleep",
-        "params": [
+            {"param": "check", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -186,9 +96,65 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnLoadCheck",
+        "method": "OnSave",
         "params": [
-            {"param": "check", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartRevert",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveSleepEvents",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartTransform",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnRevertFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -209,10 +175,31 @@ data = [
         "author": "",
     },
     {
-        "method": "SetTransformWorldEvent",
+        "method": "SetOnTransformFn",
         "params": [
-            {"param": "event", "explain": "", "type": ""},
-            {"param": "value", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetObjectData",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RevertOnSleep",
+        "params": [
 
         ],
         "returns": [
@@ -226,6 +213,19 @@ data = [
         "params": [
             {"param": "event", "explain": "", "type": ""},
             {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LoadPostPass",
+        "params": [
+            {"param": "ents", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [

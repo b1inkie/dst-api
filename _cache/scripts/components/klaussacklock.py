@@ -12,8 +12,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "UseKey",
         "params": [
+            {"param": "key", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,10 +25,8 @@ data = [
         "author": "",
     },
     {
-        "method": "UseKey",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "key", "explain": "", "type": ""},
-            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -12,7 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "GetEffectiveness",
         "params": [
 
         ],
@@ -23,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetEffectiveness",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

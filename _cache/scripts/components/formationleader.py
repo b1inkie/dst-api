@@ -1,19 +1,6 @@
 data = [
     {
-        "method": "SetUp",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-            {"param": "first_member", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsFormationEmpty",
+        "method": "IsFormationFull",
         "params": [
 
         ],
@@ -24,8 +11,43 @@ data = [
         "author": "",
     },
     {
-        "method": "GetFormationSize",
+        "method": "OrganizeFormations",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetFormationPositions",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLostFormationMember",
+        "params": [
+            {"param": "member", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -58,9 +80,19 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "GetFormationSize",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DisbandFormation",
+        "params": [
 
         ],
         "returns": [
@@ -82,18 +114,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetFormationPositions",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OrganizeFormations",
+        "method": "FormationSizeControl",
         "params": [
 
         ],
@@ -116,7 +137,7 @@ data = [
         "author": "",
     },
     {
-        "method": "FormationSizeControl",
+        "method": "IsFormationEmpty",
         "params": [
 
         ],
@@ -127,31 +148,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLostFormationMember",
+        "method": "SetUp",
         "params": [
-            {"param": "member", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsFormationFull",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DisbandFormation",
-        "params": [
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "first_member", "explain": "", "type": ""},
 
         ],
         "returns": [

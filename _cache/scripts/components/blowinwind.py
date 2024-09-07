@@ -1,6 +1,19 @@
 data = [
     {
-        "method": "SetMaxSpeedMult",
+        "method": "Start",
+        "params": [
+            {"param": "ang", "explain": "", "type": ""},
+            {"param": "vel", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetMinSpeedMult",
         "params": [
             {"param": "spd", "explain": "", "type": ""},
 
@@ -14,6 +27,40 @@ data = [
     {
         "method": "OnEntitySleep",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StopSoundLoop",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -45,32 +92,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Start",
-        "params": [
-            {"param": "ang", "explain": "", "type": ""},
-            {"param": "vel", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
+        "method": "GetSpeed",
         "params": [
 
         ],
@@ -81,8 +103,21 @@ data = [
         "author": "",
     },
     {
-        "method": "StartSoundLoop",
+        "method": "SetAverageSpeed",
         "params": [
+            {"param": "spd", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetMaxSpeedMult",
+        "params": [
+            {"param": "spd", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -105,42 +140,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetSpeed",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetMinSpeedMult",
-        "params": [
-            {"param": "spd", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetAverageSpeed",
-        "params": [
-            {"param": "spd", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopSoundLoop",
+        "method": "StartSoundLoop",
         "params": [
 
         ],

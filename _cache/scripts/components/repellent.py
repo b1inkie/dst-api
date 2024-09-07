@@ -1,17 +1,5 @@
 data = [
     {
-        "method": "SetOnRepelFollowerFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "AddRepelTag",
         "params": [
             {"param": "tag", "explain": "", "type": ""},
@@ -24,19 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "AddIgnoreTag",
-        "params": [
-            {"param": "tag", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveIgnoreTag",
+        "method": "RemoveRepelTag",
         "params": [
             {"param": "tag", "explain": "", "type": ""},
 
@@ -60,9 +36,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnlyRepelsFollowers",
+        "method": "SetOnRepelFollowerFn",
         "params": [
-            {"param": "enabled", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -84,7 +60,19 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveRepelTag",
+        "method": "SetRadius",
+        "params": [
+            {"param": "radius", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveIgnoreTag",
         "params": [
             {"param": "tag", "explain": "", "type": ""},
 
@@ -96,9 +84,21 @@ data = [
         "author": "",
     },
     {
-        "method": "SetRadius",
+        "method": "AddIgnoreTag",
         "params": [
-            {"param": "radius", "explain": "", "type": ""},
+            {"param": "tag", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnlyRepelsFollowers",
+        "params": [
+            {"param": "enabled", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,6 +1,31 @@
 data = [
     {
-        "method": "EmitOnce",
+        "method": "Enable",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOffset",
+        "params": [
+            {"param": "x", "explain": "", "type": ""},
+            {"param": "y", "explain": "", "type": ""},
+            {"param": "z", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetOffset",
         "params": [
 
         ],
@@ -23,28 +48,6 @@ data = [
         "author": "",
     },
     {
-        "method": "Disable",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ForceBreathOff",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "ForceBreathOn",
         "params": [
 
@@ -56,7 +59,18 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "StartBreath",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "EmitOnce",
         "params": [
 
         ],
@@ -90,7 +104,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetOffset",
+        "method": "ForceBreathOff",
         "params": [
 
         ],
@@ -101,21 +115,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOffset",
-        "params": [
-            {"param": "x", "explain": "", "type": ""},
-            {"param": "y", "explain": "", "type": ""},
-            {"param": "z", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartBreath",
+        "method": "Disable",
         "params": [
 
         ],
@@ -126,7 +126,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Enable",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

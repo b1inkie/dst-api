@@ -1,9 +1,12 @@
 data = [
     {
-        "method": "RemoveMultiplier",
+        "method": "ResolveSpecialWorkAmount",
         "params": [
             {"param": "action", "explain": "", "type": ""},
-            {"param": "source", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "tool", "explain": "", "type": ""},
+            {"param": "numworks", "explain": "", "type": ""},
+            {"param": "recoil", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -13,13 +16,9 @@ data = [
         "author": "",
     },
     {
-        "method": "ResolveSpecialWorkAmount",
+        "method": "SetSpecialMultiplierFn",
         "params": [
-            {"param": "action", "explain": "", "type": ""},
-            {"param": "target", "explain": "", "type": ""},
-            {"param": "tool", "explain": "", "type": ""},
-            {"param": "numworks", "explain": "", "type": ""},
-            {"param": "recoil", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -41,10 +40,9 @@ data = [
         "author": "",
     },
     {
-        "method": "AddMultiplier",
+        "method": "RemoveMultiplier",
         "params": [
             {"param": "action", "explain": "", "type": ""},
-            {"param": "multiplier", "explain": "", "type": ""},
             {"param": "source", "explain": "", "type": ""},
 
         ],
@@ -55,9 +53,11 @@ data = [
         "author": "",
     },
     {
-        "method": "SetSpecialMultiplierFn",
+        "method": "AddMultiplier",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "action", "explain": "", "type": ""},
+            {"param": "multiplier", "explain": "", "type": ""},
+            {"param": "source", "explain": "", "type": ""},
 
         ],
         "returns": [

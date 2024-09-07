@@ -1,18 +1,8 @@
 data = [
     {
-        "method": "IsAmmoLoaded",
+        "method": "LoadAmmo",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
+            {"param": "projectileprefab", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,6 +24,28 @@ data = [
         "author": "",
     },
     {
+        "method": "IsAmmoLoaded",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StopAiming",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetOnStopAimingFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
@@ -46,7 +58,19 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "StartAiming",
+        "params": [
+            {"param": "operator", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Shoot",
         "params": [
 
         ],
@@ -69,7 +93,7 @@ data = [
         "author": "",
     },
     {
-        "method": "StopAiming",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -80,31 +104,7 @@ data = [
         "author": "",
     },
     {
-        "method": "StartAiming",
-        "params": [
-            {"param": "operator", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "LoadAmmo",
-        "params": [
-            {"param": "projectileprefab", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Shoot",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

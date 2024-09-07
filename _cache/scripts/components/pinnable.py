@@ -1,52 +1,6 @@
 data = [
     {
-        "method": "SpawnShatterFX",
-        "params": [
-            {"param": "ratio", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetDefaultWearOffTime",
-        "params": [
-            {"param": "wearofftime", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Unstick",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemainingRatio",
+        "method": "IsStuck",
         "params": [
 
         ],
@@ -59,18 +13,6 @@ data = [
     {
         "method": "UpdateStuckStatus",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartWearingOff",
-        "params": [
-            {"param": "wearofftime", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -104,7 +46,65 @@ data = [
         "author": "",
     },
     {
-        "method": "IsStuck",
+        "method": "SpawnShatterFX",
+        "params": [
+            {"param": "ratio", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Unstick",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartWearingOff",
+        "params": [
+            {"param": "wearofftime", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemainingRatio",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetDefaultWearOffTime",
+        "params": [
+            {"param": "wearofftime", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

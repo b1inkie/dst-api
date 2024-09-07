@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "Salvage",
+        "method": "GetSunkenObject",
         "params": [
 
         ],
@@ -23,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "Salvage",
         "params": [
 
         ],
@@ -34,7 +34,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetSunkenObject",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

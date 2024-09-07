@@ -1,52 +1,5 @@
 data = [
     {
-        "method": "GetBaseDamage",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetBonus",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetMultiplier",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddMultiplier",
-        "params": [
-            {"param": "src", "explain": "", "type": ""},
-            {"param": "mult", "explain": "", "type": ""},
-            {"param": "key", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetDamage",
         "params": [
 
@@ -69,10 +22,32 @@ data = [
         "author": "",
     },
     {
+        "method": "GetBaseDamage",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "RemoveBonus",
         "params": [
             {"param": "src", "explain": "", "type": ""},
             {"param": "key", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetBonus",
+        "params": [
 
         ],
         "returns": [
@@ -111,6 +86,31 @@ data = [
         "method": "RemoveMultiplier",
         "params": [
             {"param": "src", "explain": "", "type": ""},
+            {"param": "key", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetMultiplier",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddMultiplier",
+        "params": [
+            {"param": "src", "explain": "", "type": ""},
+            {"param": "mult", "explain": "", "type": ""},
             {"param": "key", "explain": "", "type": ""},
 
         ],

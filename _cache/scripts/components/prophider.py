@@ -1,66 +1,8 @@
 data = [
     {
-        "method": "ClearHideTask",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HideWithProp",
-        "params": [
-            {"param": "duration", "explain": "", "type": ""},
-            {"param": "counter", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetWillUnhideFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GenerateHideTime",
-        "params": [
 
         ],
         "returns": [
@@ -82,7 +24,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetPropCreationFn",
+        "method": "SetOnHideFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -105,8 +47,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntityWake",
+        "method": "SetWillUnhideFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -116,8 +59,10 @@ data = [
         "author": "",
     },
     {
-        "method": "ShowFromProp",
+        "method": "HideWithProp",
         "params": [
+            {"param": "duration", "explain": "", "type": ""},
+            {"param": "counter", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -127,7 +72,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnHideFn",
+        "method": "SetPropCreationFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -142,6 +87,61 @@ data = [
         "method": "SetOnUnhideFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ClearHideTask",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GenerateHideTime",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnEntityWake",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ShowFromProp",
+        "params": [
 
         ],
         "returns": [

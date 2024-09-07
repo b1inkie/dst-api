@@ -12,34 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "LoadPostPass",
+        "method": "AddFollower",
         "params": [
-            {"param": "newents", "explain": "", "type": ""},
-            {"param": "savedata", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveAllFollowers",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveFollowersByTag",
-        "params": [
-            {"param": "tag", "explain": "", "type": ""},
-            {"param": "validateremovefn", "explain": "", "type": ""},
+            {"param": "follower", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,8 +35,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "LoadPostPass",
         "params": [
+            {"param": "newents", "explain": "", "type": ""},
+            {"param": "savedata", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -71,7 +48,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -95,9 +72,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnAttacked",
+        "method": "IsBeingFollowedBy",
         "params": [
-            {"param": "attacker", "explain": "", "type": ""},
+            {"param": "prefabName", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -107,9 +84,20 @@ data = [
         "author": "",
     },
     {
-        "method": "IsBeingFollowedBy",
+        "method": "IsTargetedByFollowers",
         "params": [
-            {"param": "prefabName", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HaveFollowersCachePlayerLeader",
+        "params": [
 
         ],
         "returns": [
@@ -131,7 +119,7 @@ data = [
         "author": "",
     },
     {
-        "method": "HaveFollowersCachePlayerLeader",
+        "method": "RemoveAllFollowers",
         "params": [
 
         ],
@@ -142,7 +130,32 @@ data = [
         "author": "",
     },
     {
-        "method": "IsTargetedByFollowers",
+        "method": "OnAttacked",
+        "params": [
+            {"param": "attacker", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveFollowersByTag",
+        "params": [
+            {"param": "tag", "explain": "", "type": ""},
+            {"param": "validateremovefn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnNewTarget",
         "params": [
             {"param": "target", "explain": "", "type": ""},
 
@@ -165,21 +178,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnNewTarget",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddFollower",
-        "params": [
-            {"param": "follower", "explain": "", "type": ""},
 
         ],
         "returns": [

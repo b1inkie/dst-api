@@ -11,31 +11,20 @@ data = [
         "author": "",
     },
     {
-        "method": "GetMinScale",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnUpdate",
         "params": [
             {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Stop",
+        "params": [
 
         ],
         "returns": [
@@ -57,6 +46,18 @@ data = [
         "author": "",
     },
     {
+        "method": "GetSpeed",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetMinSpeed",
         "params": [
 
@@ -68,7 +69,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Stop",
+        "method": "GetMinScale",
         "params": [
 
         ],
@@ -79,9 +80,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetSpeed",
+        "method": "GetDebugString",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [

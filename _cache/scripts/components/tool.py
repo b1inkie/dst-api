@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "CanDoAction",
+        "method": "GetEffectiveness",
         "params": [
             {"param": "action", "explain": "", "type": ""},
 
@@ -12,20 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "EnableToughWork",
+        "method": "CanDoAction",
         "params": [
-            {"param": "tough", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanDoToughWork",
-        "params": [
+            {"param": "action", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -48,7 +37,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "CanDoToughWork",
         "params": [
 
         ],
@@ -59,9 +48,20 @@ data = [
         "author": "",
     },
     {
-        "method": "GetEffectiveness",
+        "method": "EnableToughWork",
         "params": [
-            {"param": "action", "explain": "", "type": ""},
+            {"param": "tough", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

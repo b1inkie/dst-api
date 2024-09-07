@@ -1,40 +1,6 @@
 data = [
     {
-        "method": "JoinSquad",
-        "params": [
-            {"param": "squadname", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetSquadName",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsInSquad",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
+        "method": "GetOtherMembers",
         "params": [
 
         ],
@@ -56,7 +22,41 @@ data = [
         "author": "",
     },
     {
-        "method": "GetOtherMembers",
+        "method": "IsInSquad",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetSquadName",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "JoinSquad",
+        "params": [
+            {"param": "squadname", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],

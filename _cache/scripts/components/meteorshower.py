@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "StartCooldown",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "IsShowering",
         "params": [
 
@@ -11,7 +22,30 @@ data = [
         "author": "",
     },
     {
-        "method": "StartCooldown",
+        "method": "SpawnMeteor",
+        "params": [
+            {"param": "mod", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsCoolingDown",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -34,29 +68,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopShower",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsCoolingDown",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -79,20 +91,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "StopShower",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SpawnMeteor",
-        "params": [
-            {"param": "mod", "explain": "", "type": ""},
 
         ],
         "returns": [

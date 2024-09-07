@@ -1,18 +1,5 @@
 data = [
     {
-        "method": "LinkEntity",
-        "params": [
-            {"param": "ent", "explain": "", "type": ""},
-            {"param": "lightoverride", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetBuilder",
         "params": [
             {"param": "builder", "explain": "", "type": ""},
@@ -27,21 +14,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "LinkEntity",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnWallUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "ent", "explain": "", "type": ""},
+            {"param": "lightoverride", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -64,6 +40,30 @@ data = [
     {
         "method": "TestCanBuild",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnWallUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [

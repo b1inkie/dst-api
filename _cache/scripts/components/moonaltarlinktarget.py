@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "TryEstablishLink",
         "params": [
 
         ],
@@ -22,7 +22,7 @@ data = [
         "author": "",
     },
     {
-        "method": "TryEstablishLink",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "OnRemoveFromEntity",
+        "method": "Read",
         "params": [
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Read",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [

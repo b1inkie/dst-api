@@ -1,27 +1,5 @@
 data = [
     {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GatherNearbyMembers",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetOnEmptyFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
@@ -46,7 +24,19 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetOnFullFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -57,7 +47,18 @@ data = [
         "author": "",
     },
     {
-        "method": "SetGatherRange",
+        "method": "MergeNearbyHerds",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetUpdateRange",
         "params": [
             {"param": "range", "explain": "", "type": ""},
 
@@ -69,7 +70,30 @@ data = [
         "author": "",
     },
     {
-        "method": "IsFull",
+        "method": "SetMemberTag",
+        "params": [
+            {"param": "tag", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveEntity",
         "params": [
 
         ],
@@ -92,67 +116,9 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveMember",
+        "method": "AddMember",
         "params": [
             {"param": "inst", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetUpdateRange",
-        "params": [
-            {"param": "range", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetAddMemberFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnFullFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -186,7 +152,19 @@ data = [
         "author": "",
     },
     {
-        "method": "MergeNearbyHerds",
+        "method": "SetGatherRange",
+        "params": [
+            {"param": "range", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GatherNearbyMembers",
         "params": [
 
         ],
@@ -197,7 +175,7 @@ data = [
         "author": "",
     },
     {
-        "method": "AddMember",
+        "method": "RemoveMember",
         "params": [
             {"param": "inst", "explain": "", "type": ""},
 
@@ -209,9 +187,31 @@ data = [
         "author": "",
     },
     {
-        "method": "SetMemberTag",
+        "method": "IsFull",
         "params": [
-            {"param": "tag", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetAddMemberFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

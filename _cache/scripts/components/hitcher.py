@@ -1,5 +1,17 @@
 data = [
     {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetHitched",
         "params": [
             {"param": "target", "explain": "", "type": ""},
@@ -23,30 +35,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "Unhitch",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetHitched",
         "params": [
 
         ],
@@ -60,6 +49,17 @@ data = [
         "method": "Lock",
         "params": [
             {"param": "setting", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetHitched",
+        "params": [
 
         ],
         "returns": [

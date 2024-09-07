@@ -1,9 +1,20 @@
 data = [
     {
-        "method": "HookupResidue",
+        "method": "SetOnResidueCreated",
         "params": [
-            {"param": "residueowner", "explain": "", "type": ""},
-            {"param": "residue", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetForcedInduceCooldownOnActivate",
+        "params": [
+            {"param": "bool", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -25,33 +36,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnResidueCreated",
+        "method": "SetCanResidueBeSpawnedBy",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanResidueBeSpawnedBy",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "WillInduceCooldownOnActivate",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -85,9 +72,10 @@ data = [
         "author": "",
     },
     {
-        "method": "SetForcedInduceCooldownOnActivate",
+        "method": "HookupResidue",
         "params": [
-            {"param": "bool", "explain": "", "type": ""},
+            {"param": "residueowner", "explain": "", "type": ""},
+            {"param": "residue", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -97,9 +85,21 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCanResidueBeSpawnedBy",
+        "method": "CanResidueBeSpawnedBy",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "WillInduceCooldownOnActivate",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [

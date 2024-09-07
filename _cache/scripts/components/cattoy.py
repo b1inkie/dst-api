@@ -1,8 +1,9 @@
 data = [
     {
-        "method": "SetOnPlay",
+        "method": "Play",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
+            {"param": "is_airborne", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,10 +13,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Play",
+        "method": "SetOnPlay",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
-            {"param": "is_airborne", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

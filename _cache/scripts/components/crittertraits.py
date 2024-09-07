@@ -1,18 +1,6 @@
 data = [
     {
-        "method": "SetDominantTrait",
-        "params": [
-            {"param": "trait", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
+        "method": "RefreshDominantTrait",
         "params": [
 
         ],
@@ -23,9 +11,22 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "IncTracker",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "name", "explain": "", "type": ""},
+            {"param": "multiplier", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnPet",
+        "params": [
+            {"param": "petter", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,7 +48,7 @@ data = [
         "author": "",
     },
     {
-        "method": "RefreshDominantTrait",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -80,9 +81,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnPet",
+        "method": "OnLoad",
         "params": [
-            {"param": "petter", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -92,10 +93,9 @@ data = [
         "author": "",
     },
     {
-        "method": "IncTracker",
+        "method": "SetDominantTrait",
         "params": [
-            {"param": "name", "explain": "", "type": ""},
-            {"param": "multiplier", "explain": "", "type": ""},
+            {"param": "trait", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -105,7 +105,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "OnSave",
         "params": [
 
         ],

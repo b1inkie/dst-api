@@ -12,7 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Reset",
+        "method": "IsStuck",
         "params": [
 
         ],
@@ -23,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsStuck",
+        "method": "Reset",
         "params": [
 
         ],

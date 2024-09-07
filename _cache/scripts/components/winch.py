@@ -1,51 +1,6 @@
 data = [
     {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartRaising",
-        "params": [
-            {"param": "loading_in", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopDepthTesting",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnStartRaisingFn",
+        "method": "SetOverrideGetCurrentDepthFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -57,44 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "StartLowering",
-        "params": [
-            {"param": "loading_in", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "FullyRaised",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetLoweringSpeedMultiplier",
-        "params": [
-            {"param": "mult", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -127,7 +46,19 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "SetOnStartRaisingFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetCurrentDepth",
         "params": [
 
         ],
@@ -138,9 +69,20 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOverrideGetCurrentDepthFn",
+        "method": "StartDepthTesting",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "is_raising", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
 
         ],
         "returns": [
@@ -162,7 +104,19 @@ data = [
         "author": "",
     },
     {
-        "method": "GetCurrentDepth",
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StopDepthTesting",
         "params": [
 
         ],
@@ -197,9 +151,20 @@ data = [
         "author": "",
     },
     {
-        "method": "StartDepthTesting",
+        "method": "GetDebugString",
         "params": [
-            {"param": "is_raising", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetUnloadFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -221,9 +186,44 @@ data = [
         "author": "",
     },
     {
-        "method": "SetUnloadFn",
+        "method": "StartLowering",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "loading_in", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartRaising",
+        "params": [
+            {"param": "loading_in", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetLoweringSpeedMultiplier",
+        "params": [
+            {"param": "mult", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

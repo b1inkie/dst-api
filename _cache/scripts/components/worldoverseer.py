@@ -1,115 +1,7 @@
 data = [
     {
-        "method": "DumpSessionStats",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnCyclesChanged",
-        "params": [
-            {"param": "cycles", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RecordPlayerLeft",
-        "params": [
-            {"param": "player", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RecordPlayerJoined",
-        "params": [
-            {"param": "player", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetWorldRecipeItems",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CalcIndividualPlayerStats",
-        "params": [
-            {"param": "player", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnClockTick",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "QuitAll",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnPlayerChangedSkin",
-        "params": [
-            {"param": "player", "explain": "", "type": ""},
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnPlayerDeath",
-        "params": [
-            {"param": "player", "explain": "", "type": ""},
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -132,8 +24,10 @@ data = [
         "author": "",
     },
     {
-        "method": "Heartbeat",
+        "method": "OnPlayerChangedSkin",
         "params": [
+            {"param": "player", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -143,7 +37,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SendClientQuit",
+        "method": "SendClientJoin",
         "params": [
             {"param": "userid", "explain": "", "type": ""},
             {"param": "data", "explain": "", "type": ""},
@@ -156,7 +50,128 @@ data = [
         "author": "",
     },
     {
-        "method": "SendClientHeartBeat",
+        "method": "OnCyclesChanged",
+        "params": [
+            {"param": "cycles", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "QuitAll",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnPlayerDeath",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUnequipSkinnedItem",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnClockTick",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DumpPlayerStats",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RecordPlayerJoined",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DumpIndividualPlayerStats",
+        "params": [
+            {"param": "stat", "explain": "", "type": ""},
+            {"param": "event", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HeartbeatPoll",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnEquipSkinnedItem",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SendClientQuit",
         "params": [
             {"param": "userid", "explain": "", "type": ""},
             {"param": "data", "explain": "", "type": ""},
@@ -182,18 +197,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CalcPlayerStats",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SendClientJoin",
+        "method": "SendClientHeartBeat",
         "params": [
             {"param": "userid", "explain": "", "type": ""},
             {"param": "data", "explain": "", "type": ""},
@@ -206,8 +210,20 @@ data = [
         "author": "",
     },
     {
-        "method": "HeartbeatPoll",
+        "method": "Heartbeat",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RecordPlayerLeft",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -230,10 +246,20 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEquipSkinnedItem",
+        "method": "DumpSessionStats",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CalcIndividualPlayerStats",
         "params": [
             {"param": "player", "explain": "", "type": ""},
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -243,33 +269,7 @@ data = [
         "author": "",
     },
     {
-        "method": "DumpIndividualPlayerStats",
-        "params": [
-            {"param": "stat", "explain": "", "type": ""},
-            {"param": "event", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUnequipSkinnedItem",
-        "params": [
-            {"param": "player", "explain": "", "type": ""},
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DumpPlayerStats",
+        "method": "CalcPlayerStats",
         "params": [
 
         ],

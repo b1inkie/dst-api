@@ -12,7 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "LeaveFormation",
+        "method": "OnEntityWake",
         "params": [
 
         ],
@@ -23,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "StopUpdating",
+        "method": "LeaveFormation",
         "params": [
 
         ],
@@ -45,8 +45,20 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "StopUpdating",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SearchForFormation",
+        "params": [
+            {"param": "override_find_entities", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -67,20 +79,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntityWake",
+        "method": "GetDebugString",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SearchForFormation",
-        "params": [
-            {"param": "override_find_entities", "explain": "", "type": ""},
 
         ],
         "returns": [

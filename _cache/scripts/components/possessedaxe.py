@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "Revert",
         "params": [
 
@@ -22,9 +11,8 @@ data = [
         "author": "",
     },
     {
-        "method": "LinkToPlayer",
+        "method": "Drop",
         "params": [
-            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -57,8 +45,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "LinkToPlayer",
         "params": [
+            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -68,7 +57,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Drop",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -83,6 +72,17 @@ data = [
         "params": [
             {"param": "userid", "explain": "", "type": ""},
             {"param": "delay", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
 
         ],
         "returns": [

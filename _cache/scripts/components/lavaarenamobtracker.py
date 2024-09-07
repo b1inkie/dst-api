@@ -1,5 +1,17 @@
 data = [
     {
+        "method": "StopTracking",
+        "params": [
+            {"param": "ent", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "FindMobs",
         "params": [
             {"param": "x", "explain": "", "type": ""},
@@ -30,6 +42,17 @@ data = [
         "author": "",
     },
     {
+        "method": "GetNumMobs",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetAllMobs",
         "params": [
 
@@ -45,29 +68,6 @@ data = [
         "params": [
             {"param": "cb", "explain": "", "type": ""},
             {"param": "params", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetNumMobs",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopTracking",
-        "params": [
-            {"param": "ent", "explain": "", "type": ""},
 
         ],
         "returns": [

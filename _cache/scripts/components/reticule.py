@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "DestroyReticule",
+        "method": "UpdateColour",
         "params": [
 
         ],
@@ -11,8 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "ShouldHide",
+        "method": "PingReticuleAt",
         "params": [
+            {"param": "pos", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -22,18 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "ClearTwinStickOverrides",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateTwinStickMode2",
+        "method": "CreateReticule",
         "params": [
 
         ],
@@ -55,7 +45,63 @@ data = [
         "author": "",
     },
     {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "UpdateTwinStickMode1",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ClearTwinStickOverrides",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DestroyReticule",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "UpdateTwinStickMode2",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ShouldHide",
         "params": [
 
         ],
@@ -78,55 +124,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "UpdatePosition",
         "params": [
             {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CreateReticule",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateColour",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "PingReticuleAt",
-        "params": [
-            {"param": "pos", "explain": "", "type": ""},
 
         ],
         "returns": [

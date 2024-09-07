@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "GetCurrentVec3",
+        "method": "GetCurrentAngle",
         "params": [
 
         ],
@@ -22,7 +22,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetCurrentAngle",
+        "method": "GetCurrentVec3",
         "params": [
 
         ],

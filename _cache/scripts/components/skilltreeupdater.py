@@ -1,139 +1,8 @@
 data = [
     {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DeactivateSkill_Client",
-        "params": [
-            {"param": "skill", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsActivated",
-        "params": [
-            {"param": "skill", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetSilent",
-        "params": [
-            {"param": "silent", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SendFromSkillTreeBlob",
-        "params": [
-            {"param": "inst", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetPlayerSkillSelection",
-        "params": [
-            {"param": "skillselection", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ActivateSkill_Server",
-        "params": [
-            {"param": "skill", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "ActivateSkill_Client",
         "params": [
             {"param": "skill", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasSkillTag",
-        "params": [
-            {"param": "tag", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetAvailableSkillPoints",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetActivatedSkills",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ActivateSkill",
-        "params": [
-            {"param": "skill", "explain": "", "type": ""},
-            {"param": "prefab", "explain": "", "type": ""},
-            {"param": "fromrpc", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -155,21 +24,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "GetActivatedSkills",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetSkipValidation",
-        "params": [
-            {"param": "skip", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -191,8 +47,106 @@ data = [
         "author": "",
     },
     {
-        "method": "GetSkillXP",
+        "method": "AddSkillXP_Client",
         "params": [
+            {"param": "amount", "explain": "", "type": ""},
+            {"param": "total", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TransferComponent",
+        "params": [
+            {"param": "newinst", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetPointsForSkillXP",
+        "params": [
+            {"param": "skillxp", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddSkillXP",
+        "params": [
+            {"param": "amount", "explain": "", "type": ""},
+            {"param": "prefab", "explain": "", "type": ""},
+            {"param": "fromrpc", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetAvailableSkillPoints",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsActivated",
+        "params": [
+            {"param": "skill", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DeactivateSkill_Server",
+        "params": [
+            {"param": "skill", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -213,10 +167,9 @@ data = [
         "author": "",
     },
     {
-        "method": "AddSkillXP_Server",
+        "method": "SendFromSkillTreeBlob",
         "params": [
-            {"param": "amount", "explain": "", "type": ""},
-            {"param": "total", "explain": "", "type": ""},
+            {"param": "inst", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -226,10 +179,56 @@ data = [
         "author": "",
     },
     {
-        "method": "AddSkillXP_Client",
+        "method": "ActivateSkill_Server",
         "params": [
-            {"param": "amount", "explain": "", "type": ""},
-            {"param": "total", "explain": "", "type": ""},
+            {"param": "skill", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetPlayerSkillSelection",
+        "params": [
+            {"param": "skillselection", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetSkillXP",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetSkipValidation",
+        "params": [
+            {"param": "skip", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasSkillTag",
+        "params": [
+            {"param": "tag", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -265,11 +264,10 @@ data = [
         "author": "",
     },
     {
-        "method": "AddSkillXP",
+        "method": "AddSkillXP_Server",
         "params": [
             {"param": "amount", "explain": "", "type": ""},
-            {"param": "prefab", "explain": "", "type": ""},
-            {"param": "fromrpc", "explain": "", "type": ""},
+            {"param": "total", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -279,7 +277,7 @@ data = [
         "author": "",
     },
     {
-        "method": "DeactivateSkill_Server",
+        "method": "DeactivateSkill_Client",
         "params": [
             {"param": "skill", "explain": "", "type": ""},
 
@@ -291,9 +289,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetPointsForSkillXP",
+        "method": "SetSilent",
         "params": [
-            {"param": "skillxp", "explain": "", "type": ""},
+            {"param": "silent", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -303,9 +301,11 @@ data = [
         "author": "",
     },
     {
-        "method": "TransferComponent",
+        "method": "ActivateSkill",
         "params": [
-            {"param": "newinst", "explain": "", "type": ""},
+            {"param": "skill", "explain": "", "type": ""},
+            {"param": "prefab", "explain": "", "type": ""},
+            {"param": "fromrpc", "explain": "", "type": ""},
 
         ],
         "returns": [

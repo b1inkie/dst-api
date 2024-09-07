@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "Row",
+        "method": "Enable",
         "params": [
+            {"param": "enabled", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,7 +12,19 @@ data = [
         "author": "",
     },
     {
-        "method": "Shouldrow",
+        "method": "SetBoat",
+        "params": [
+            {"param": "boat", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetBoat",
         "params": [
 
         ],
@@ -33,7 +46,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "Shouldrow",
         "params": [
 
         ],
@@ -44,9 +57,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetBoat",
+        "method": "Row",
         "params": [
-            {"param": "boat", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -78,20 +90,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetBoat",
+        "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Enable",
-        "params": [
-            {"param": "enabled", "explain": "", "type": ""},
 
         ],
         "returns": [

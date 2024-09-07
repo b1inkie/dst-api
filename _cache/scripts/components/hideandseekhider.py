@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "Abort",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GoHide",
         "params": [
             {"param": "hiding_spot", "explain": "", "type": ""},
@@ -14,7 +25,18 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "IsHidden",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -47,8 +69,9 @@ data = [
         "author": "",
     },
     {
-        "method": "IsHidden",
+        "method": "Found",
         "params": [
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -58,7 +81,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -73,29 +96,6 @@ data = [
         "params": [
             {"param": "newents", "explain": "", "type": ""},
             {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Found",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Abort",
-        "params": [
 
         ],
         "returns": [

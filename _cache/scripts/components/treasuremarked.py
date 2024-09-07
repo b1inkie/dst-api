@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "TurnOn",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "TurnOff",
         "params": [
 
@@ -35,7 +24,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -46,7 +35,18 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "TurnOn",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "OnLoad",
         "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnCycleFn",
+        "method": "OnSave",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,11 +36,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetStep",
+        "method": "SetOnCycleFn",
         "params": [
-            {"param": "step", "explain": "", "type": ""},
-            {"param": "doer", "explain": "", "type": ""},
-            {"param": "ignore_callback", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -50,9 +48,11 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "SetStep",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "step", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
+            {"param": "ignore_callback", "explain": "", "type": ""},
 
         ],
         "returns": [

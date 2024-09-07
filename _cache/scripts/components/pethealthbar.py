@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "GetPercent",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetMaxHealth",
         "params": [
 
@@ -25,30 +36,32 @@ data = [
         "author": "",
     },
     {
-        "method": "GetOverTime",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ResetPulse",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetDebugString",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetMaxHealth",
+        "params": [
+            {"param": "max_health", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -81,9 +94,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "ResetPulse",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -93,7 +105,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetPercent",
+        "method": "GetPulse",
         "params": [
 
         ],
@@ -116,20 +128,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetPulse",
+        "method": "GetOverTime",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetMaxHealth",
-        "params": [
-            {"param": "max_health", "explain": "", "type": ""},
 
         ],
         "returns": [

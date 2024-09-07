@@ -1,48 +1,8 @@
 data = [
     {
-        "method": "_TestArea",
+        "method": "SetUpdateDist",
         "params": [
-            {"param": "pt_x", "explain": "", "type": ""},
-            {"param": "pt_z", "explain": "", "type": ""},
-            {"param": "on_land", "explain": "", "type": ""},
-            {"param": "r", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdatePosition",
-        "params": [
-            {"param": "x", "explain": "", "type": ""},
-            {"param": "y", "explain": "", "type": ""},
-            {"param": "z", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CurrentlyInTag",
-        "params": [
-            {"param": "tag", "explain": "", "type": ""},
+            {"param": "dist", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -55,6 +15,18 @@ data = [
         "method": "StartWatchingTile",
         "params": [
             {"param": "tile_id", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CurrentlyInTag",
+        "params": [
+            {"param": "tag", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -99,6 +71,21 @@ data = [
         "author": "",
     },
     {
+        "method": "_TestArea",
+        "params": [
+            {"param": "pt_x", "explain": "", "type": ""},
+            {"param": "pt_z", "explain": "", "type": ""},
+            {"param": "on_land", "explain": "", "type": ""},
+            {"param": "r", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "StopWatchingTile",
         "params": [
             {"param": "tile_id", "explain": "", "type": ""},
@@ -122,9 +109,22 @@ data = [
         "author": "",
     },
     {
-        "method": "SetUpdateDist",
+        "method": "UpdatePosition",
         "params": [
-            {"param": "dist", "explain": "", "type": ""},
+            {"param": "x", "explain": "", "type": ""},
+            {"param": "y", "explain": "", "type": ""},
+            {"param": "z", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

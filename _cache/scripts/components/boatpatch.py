@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "OnRemoveFromEntity",
+        "method": "GetPatchType",
         "params": [
 
         ],
@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetPatchType",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "OnRemoveFromEntity",
+        "method": "ChargeFrom",
         "params": [
+            {"param": "charge_target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "ChargeFrom",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "charge_target", "explain": "", "type": ""},
 
         ],
         "returns": [

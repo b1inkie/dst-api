@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "OnIsDay",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "LoadPostPass",
         "params": [
             {"param": "newents", "explain": "", "type": ""},
@@ -24,8 +13,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "OnPlayerLeft",
         "params": [
+            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -35,9 +25,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnPlayerJoined",
+        "method": "OnIsDay",
         "params": [
-            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -72,10 +61,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GenerateCrumbPoints",
+        "method": "OnPlayerJoined",
         "params": [
-            {"param": "origin_pt", "explain": "", "type": ""},
-            {"param": "amount", "explain": "", "type": ""},
+            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -85,9 +73,21 @@ data = [
         "author": "",
     },
     {
-        "method": "OnPlayerLeft",
+        "method": "OnSave",
         "params": [
-            {"param": "player", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GenerateCrumbPoints",
+        "params": [
+            {"param": "origin_pt", "explain": "", "type": ""},
+            {"param": "amount", "explain": "", "type": ""},
 
         ],
         "returns": [

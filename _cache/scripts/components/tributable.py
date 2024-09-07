@@ -1,17 +1,6 @@
 data = [
     {
-        "method": "HasPendingReward",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
+        "method": "OnRefuse",
         "params": [
 
         ],
@@ -34,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "HasPendingReward",
         "params": [
 
         ],
@@ -58,7 +47,18 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRefuse",
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],

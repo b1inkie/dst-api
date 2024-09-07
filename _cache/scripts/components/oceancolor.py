@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "Initialize",
+        "method": "OnWallUpdate",
         "params": [
-            {"param": "has_ocean", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnWallUpdate",
+        "method": "OnPostInit",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -37,8 +36,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnPostInit",
+        "method": "Initialize",
         "params": [
+            {"param": "has_ocean", "explain": "", "type": ""},
 
         ],
         "returns": [

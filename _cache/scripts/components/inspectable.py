@@ -1,5 +1,17 @@
 data = [
     {
+        "method": "GetDescription",
+        "params": [
+            {"param": "viewer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetNameOverride",
         "params": [
             {"param": "nameoverride", "explain": "", "type": ""},
@@ -38,18 +50,6 @@ data = [
     {
         "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDescription",
-        "params": [
-            {"param": "viewer", "explain": "", "type": ""},
 
         ],
         "returns": [

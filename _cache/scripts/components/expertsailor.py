@@ -1,28 +1,5 @@
 data = [
     {
-        "method": "SetAnchorRaisingSpeed",
-        "params": [
-            {"param": "speed", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetRowExtraMaxVelocity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetRowForceMultiplier",
         "params": [
             {"param": "force", "explain": "", "type": ""},
@@ -47,8 +24,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetAnchorRaisingSpeed",
+        "method": "SetAnchorRaisingSpeed",
         "params": [
+            {"param": "speed", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -58,9 +36,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetRowExtraMaxVelocity",
+        "method": "GetRowExtraMaxVelocity",
         "params": [
-            {"param": "vel", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -83,6 +60,29 @@ data = [
     {
         "method": "GetLowerSailStrength",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetAnchorRaisingSpeed",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetRowExtraMaxVelocity",
+        "params": [
+            {"param": "vel", "explain": "", "type": ""},
 
         ],
         "returns": [

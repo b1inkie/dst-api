@@ -1,10 +1,8 @@
 data = [
     {
-        "method": "Ignite",
+        "method": "OverrideBurnFXFinalOffset",
         "params": [
-            {"param": "immediate", "explain": "", "type": ""},
-            {"param": "source", "explain": "", "type": ""},
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "offs", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -14,9 +12,91 @@ data = [
         "author": "",
     },
     {
-        "method": "SetBurnTime",
+        "method": "OverrideBurnFXBuild",
         "params": [
-            {"param": "time", "explain": "", "type": ""},
+            {"param": "build", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SmotherSmolder",
+        "params": [
+            {"param": "smotherer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetFXLevel",
+        "params": [
+            {"param": "level", "explain": "", "type": ""},
+            {"param": "percent", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasExothermicHeat",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetBurningFX",
+        "params": [
+            {"param": "name", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LongUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetLargestLightRadius",
+        "params": [
 
         ],
         "returns": [
@@ -40,63 +120,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetBurningFX",
-        "params": [
-            {"param": "name", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetLargestLightRadius",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasEndothermicHeat",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartWildfire",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsSmoldering",
+        "method": "GetControlledBurn",
         "params": [
 
         ],
@@ -119,9 +143,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SmotherSmolder",
+        "method": "HasEndothermicHeat",
         "params": [
-            {"param": "smotherer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsBurning",
+        "params": [
 
         ],
         "returns": [
@@ -142,56 +176,6 @@ data = [
         "author": "",
     },
     {
-        "method": "ExtendBurning",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetFXLevel",
-        "params": [
-            {"param": "level", "explain": "", "type": ""},
-            {"param": "percent", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SpawnFX",
-        "params": [
-            {"param": "immediate", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Extinguish",
-        "params": [
-            {"param": "resetpropagator", "explain": "", "type": ""},
-            {"param": "heatpct", "explain": "", "type": ""},
-            {"param": "smotherer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
         "params": [
 
@@ -203,8 +187,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "SetBurnTime",
         "params": [
+            {"param": "time", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -214,9 +199,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OverrideBurnFXFinalOffset",
+        "method": "IsControlledBurn",
         "params": [
-            {"param": "offs", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -229,6 +213,29 @@ data = [
         "method": "StopSmoldering",
         "params": [
             {"param": "heatpct", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartWildfire",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SpawnFX",
+        "params": [
+            {"param": "immediate", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -255,7 +262,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetControlledBurn",
+        "method": "IsSmoldering",
         "params": [
 
         ],
@@ -266,9 +273,22 @@ data = [
         "author": "",
     },
     {
-        "method": "LongUpdate",
+        "method": "ExtendBurning",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Extinguish",
+        "params": [
+            {"param": "resetpropagator", "explain": "", "type": ""},
+            {"param": "heatpct", "explain": "", "type": ""},
+            {"param": "smotherer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -289,8 +309,11 @@ data = [
         "author": "",
     },
     {
-        "method": "IsBurning",
+        "method": "Ignite",
         "params": [
+            {"param": "immediate", "explain": "", "type": ""},
+            {"param": "source", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -311,30 +334,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsControlledBurn",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OverrideBurnFXBuild",
-        "params": [
-            {"param": "build", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasExothermicHeat",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

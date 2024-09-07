@@ -11,6 +11,18 @@ data = [
         "author": "",
     },
     {
+        "method": "DoWakeUp",
+        "params": [
+            {"param": "nostatechange", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "DoSleep",
         "params": [
             {"param": "bed", "explain": "", "type": ""},
@@ -35,17 +47,6 @@ data = [
         "author": "",
     },
     {
-        "method": "ShouldSleep",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetSanityBonusMult",
         "params": [
             {"param": "bonus", "explain": "", "type": ""},
@@ -58,9 +59,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetHungerBonusMult",
+        "method": "ShouldSleep",
         "params": [
-            {"param": "bonus", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -70,9 +70,9 @@ data = [
         "author": "",
     },
     {
-        "method": "DoWakeUp",
+        "method": "SetHungerBonusMult",
         "params": [
-            {"param": "nostatechange", "explain": "", "type": ""},
+            {"param": "bonus", "explain": "", "type": ""},
 
         ],
         "returns": [

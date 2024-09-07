@@ -15,9 +15,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnPlanarAttackUndefended",
+        "method": "OnResistNonPlanarAttack",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
+            {"param": "attacker", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -27,9 +27,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnResistNonPlanarAttack",
+        "method": "OnPlanarAttackUndefended",
         "params": [
-            {"param": "attacker", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "IsExhausted",
+        "method": "SetRaceStartPoint",
         "params": [
+            {"param": "start_point_entity", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,52 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntitySleep",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRaceFinishedFn",
-        "params": [
-            {"param": "race_finished_fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RecoverStamina",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetRaceDistance",
+        "method": "_FindNextCheckPoint",
         "params": [
 
         ],
@@ -79,9 +35,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnAllRacersFinished",
+        "method": "SetRaceBegunFn",
         "params": [
-            {"param": "prize_table", "explain": "", "type": ""},
+            {"param": "race_begun_fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -102,9 +58,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetRaceOverFn",
+        "method": "OnAllRacersFinished",
         "params": [
-            {"param": "race_over_fn", "explain": "", "type": ""},
+            {"param": "prize_table", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -125,33 +81,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetRaceStartPoint",
+        "method": "OnEntitySleep",
         "params": [
-            {"param": "start_point_entity", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRaceBegunFn",
-        "params": [
-            {"param": "race_begun_fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AbortRace",
-        "params": [
-            {"param": "prize_table", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -162,6 +93,40 @@ data = [
     },
     {
         "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetRaceDistance",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetRaceFinishedFn",
+        "params": [
+            {"param": "race_finished_fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RecoverStamina",
         "params": [
 
         ],
@@ -184,29 +149,7 @@ data = [
         "author": "",
     },
     {
-        "method": "FinishRace",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "CollectPrize",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "_FindNextCheckPoint",
         "params": [
 
         ],
@@ -221,6 +164,63 @@ data = [
         "params": [
             {"param": "checkpoint", "explain": "", "type": ""},
             {"param": "is_starting_line", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsExhausted",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AbortRace",
+        "params": [
+            {"param": "prize_table", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "FinishRace",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetRaceOverFn",
+        "params": [
+            {"param": "race_over_fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

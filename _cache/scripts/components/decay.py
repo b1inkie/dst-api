@@ -1,8 +1,10 @@
 data = [
     {
-        "method": "DoDelta",
+        "method": "SetTimeDelta",
         "params": [
             {"param": "amount", "explain": "", "type": ""},
+            {"param": "pause", "explain": "", "type": ""},
+            {"param": "num", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,11 +14,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetTimeDelta",
+        "method": "DoDelta",
         "params": [
             {"param": "amount", "explain": "", "type": ""},
-            {"param": "pause", "explain": "", "type": ""},
-            {"param": "num", "explain": "", "type": ""},
 
         ],
         "returns": [

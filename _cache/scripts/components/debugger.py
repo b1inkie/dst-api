@@ -1,10 +1,7 @@
 data = [
     {
-        "method": "SetOrigin",
+        "method": "OnUpdate",
         "params": [
-            {"param": "key", "explain": "", "type": ""},
-            {"param": "x", "explain": "", "type": ""},
-            {"param": "y", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -19,6 +16,21 @@ data = [
             {"param": "key", "explain": "", "type": ""},
             {"param": "x", "explain": "", "type": ""},
             {"param": "y", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetAll",
+        "params": [
+            {"param": "key", "explain": "", "type": ""},
+            {"param": "origin", "explain": "", "type": ""},
+            {"param": "tar", "explain": "", "type": ""},
+            {"param": "colour", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -44,35 +56,23 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetAll",
-        "params": [
-            {"param": "key", "explain": "", "type": ""},
-            {"param": "origin", "explain": "", "type": ""},
-            {"param": "tar", "explain": "", "type": ""},
-            {"param": "colour", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetZ",
         "params": [
             {"param": "val", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOrigin",
+        "params": [
+            {"param": "key", "explain": "", "type": ""},
+            {"param": "x", "explain": "", "type": ""},
+            {"param": "y", "explain": "", "type": ""},
 
         ],
         "returns": [

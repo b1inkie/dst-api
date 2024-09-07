@@ -1,10 +1,21 @@
 data = [
     {
-        "method": "SetNutrients",
+        "method": "SetHealingAmount",
         "params": [
-            {"param": "nutrient1", "explain": "", "type": ""},
-            {"param": "nutrient2", "explain": "", "type": ""},
-            {"param": "nutrient3", "explain": "", "type": ""},
+            {"param": "health", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnApplied",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -26,9 +37,11 @@ data = [
         "author": "",
     },
     {
-        "method": "SetHealingAmount",
+        "method": "SetNutrients",
         "params": [
-            {"param": "health", "explain": "", "type": ""},
+            {"param": "nutrient1", "explain": "", "type": ""},
+            {"param": "nutrient2", "explain": "", "type": ""},
+            {"param": "nutrient3", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -40,19 +53,6 @@ data = [
     {
         "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnApplied",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [

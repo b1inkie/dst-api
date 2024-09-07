@@ -1,8 +1,147 @@
 data = [
     {
+        "method": "SetSpeedModMultiplier",
+        "params": [
+            {"param": "mult", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ResetGrogginess",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetResistance",
+        "params": [
+            {"param": "resist", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetDecayRate",
         "params": [
             {"param": "rate", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TransferComponent",
+        "params": [
+            {"param": "newinst", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsKnockedOut",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasGrogginess",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ExtendKnockout",
+        "params": [
+            {"param": "knockoutduration", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetPercent",
+        "params": [
+            {"param": "percent", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetKnockOutTest",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "MaximizeGrogginess",
+        "params": [
 
         ],
         "returns": [
@@ -37,68 +176,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetSpeedModMultiplier",
+        "method": "ComeTo",
         "params": [
-            {"param": "mult", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetResistance",
-        "params": [
-            {"param": "resist", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddGrogginess",
-        "params": [
-            {"param": "grogginess", "explain": "", "type": ""},
-            {"param": "knockoutduration", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasGrogginess",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TransferComponent",
-        "params": [
-            {"param": "newinst", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -119,7 +198,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CapToResistance",
+        "method": "IsGroggy",
         "params": [
 
         ],
@@ -130,9 +209,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetPercent",
+        "method": "MakeGrogginessAtLeast",
         "params": [
-            {"param": "percent", "explain": "", "type": ""},
+            {"param": "min", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -154,87 +233,20 @@ data = [
         "author": "",
     },
     {
-        "method": "ComeTo",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ExtendKnockout",
-        "params": [
-            {"param": "knockoutduration", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetResistance",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetDefaultTests",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsKnockedOut",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ResetGrogginess",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetEnableSpeedMod",
         "params": [
             {"param": "enable", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CapToResistance",
+        "params": [
 
         ],
         "returns": [
@@ -268,9 +280,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "AddGrogginess",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "grogginess", "explain": "", "type": ""},
+            {"param": "knockoutduration", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -280,19 +293,7 @@ data = [
         "author": "",
     },
     {
-        "method": "MakeGrogginessAtLeast",
-        "params": [
-            {"param": "min", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "MaximizeGrogginess",
+        "method": "GetResistance",
         "params": [
 
         ],
@@ -303,9 +304,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetKnockOutTest",
+        "method": "SetDefaultTests",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -315,7 +315,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsGroggy",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

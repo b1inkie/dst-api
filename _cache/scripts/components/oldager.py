@@ -1,33 +1,5 @@
 data = [
     {
-        "method": "GetCurrentYearPercent",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnTakeDamage",
-        "params": [
-            {"param": "amount", "explain": "", "type": ""},
-            {"param": "overtime", "explain": "", "type": ""},
-            {"param": "cause", "explain": "", "type": ""},
-            {"param": "ignore_invincible", "explain": "", "type": ""},
-            {"param": "afflicter", "explain": "", "type": ""},
-            {"param": "ignore_absorb", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnUpdate",
         "params": [
             {"param": "dt", "explain": "", "type": ""},
@@ -40,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "StopDamageOverTime",
+        "method": "AddValidHealingCause",
         "params": [
+            {"param": "cause_name", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -74,9 +47,36 @@ data = [
         "author": "",
     },
     {
-        "method": "AddValidHealingCause",
+        "method": "GetCurrentYearPercent",
         "params": [
-            {"param": "cause_name", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StopDamageOverTime",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnTakeDamage",
+        "params": [
+            {"param": "amount", "explain": "", "type": ""},
+            {"param": "overtime", "explain": "", "type": ""},
+            {"param": "cause", "explain": "", "type": ""},
+            {"param": "ignore_invincible", "explain": "", "type": ""},
+            {"param": "afflicter", "explain": "", "type": ""},
+            {"param": "ignore_absorb", "explain": "", "type": ""},
 
         ],
         "returns": [

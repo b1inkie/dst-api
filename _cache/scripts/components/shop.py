@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetStartTab",
+        "method": "SetTitle",
         "params": [
-            {"param": "tab", "explain": "", "type": ""},
+            {"param": "title", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,9 +24,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetTitle",
+        "method": "SetStartTab",
         "params": [
-            {"param": "title", "explain": "", "type": ""},
+            {"param": "tab", "explain": "", "type": ""},
 
         ],
         "returns": [

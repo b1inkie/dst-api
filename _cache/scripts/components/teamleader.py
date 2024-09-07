@@ -1,32 +1,20 @@
 data = [
     {
-        "method": "GetTheta",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DisbandTeam",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GiveOrdersToAllWithOrder",
         "params": [
             {"param": "order", "explain": "", "type": ""},
             {"param": "oldorder", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetFormationPositions",
+        "params": [
 
         ],
         "returns": [
@@ -47,34 +35,8 @@ data = [
         "author": "",
     },
     {
-        "method": "ValidMember",
+        "method": "DisbandTeam",
         "params": [
-            {"param": "member", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GiveOrders",
-        "params": [
-            {"param": "order", "explain": "", "type": ""},
-            {"param": "num", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetNewThreat",
-        "params": [
-            {"param": "threat", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -86,6 +48,30 @@ data = [
     {
         "method": "IsTeamEmpty",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetTheta",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -107,20 +93,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetUp",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-            {"param": "first_member", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TeamSizeControl",
+        "method": "NumberToAttack",
         "params": [
 
         ],
@@ -143,7 +116,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsTeamFull",
+        "method": "CanAttack",
         "params": [
 
         ],
@@ -154,7 +127,7 @@ data = [
         "author": "",
     },
     {
-        "method": "NewTeammate",
+        "method": "OnLostTeammate",
         "params": [
             {"param": "member", "explain": "", "type": ""},
 
@@ -166,7 +139,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CanAttack",
+        "method": "TeamSizeControl",
         "params": [
 
         ],
@@ -188,7 +161,32 @@ data = [
         "author": "",
     },
     {
-        "method": "NumberToAttack",
+        "method": "GiveOrders",
+        "params": [
+            {"param": "order", "explain": "", "type": ""},
+            {"param": "num", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ValidMember",
+        "params": [
+            {"param": "member", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsTeamFull",
         "params": [
 
         ],
@@ -211,32 +209,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "SetNewThreat",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLostTeammate",
-        "params": [
-            {"param": "member", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetFormationPositions",
-        "params": [
+            {"param": "threat", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -260,6 +235,31 @@ data = [
     {
         "method": "CenterLeader",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "NewTeammate",
+        "params": [
+            {"param": "member", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetUp",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "first_member", "explain": "", "type": ""},
 
         ],
         "returns": [

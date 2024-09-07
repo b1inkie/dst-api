@@ -1,9 +1,8 @@
 data = [
     {
-        "method": "RemoveStock",
+        "method": "FullyRestockItem",
         "params": [
             {"param": "recipe", "explain": "", "type": ""},
-            {"param": "allow_restock", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -13,20 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "HasAnyStock",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,7 +34,45 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetupItem",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+            {"param": "start_restock_timer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveStock",
+        "params": [
+            {"param": "recipe", "explain": "", "type": ""},
+            {"param": "allow_restock", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveAllStock",
+        "params": [
+            {"param": "allow_restock", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
 
@@ -71,9 +96,8 @@ data = [
         "author": "",
     },
     {
-        "method": "FullyRestockItem",
+        "method": "OnSave",
         "params": [
-            {"param": "recipe", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -83,33 +107,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetupItem",
+        "method": "OnRemoveFromEntity",
         "params": [
             {"param": "data", "explain": "", "type": ""},
-            {"param": "start_restock_timer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasAnyStock",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveAllStock",
-        "params": [
-            {"param": "allow_restock", "explain": "", "type": ""},
 
         ],
         "returns": [

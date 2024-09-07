@@ -1,6 +1,31 @@
 data = [
     {
-        "method": "IsChanneling",
+        "method": "StartChanneling",
+        "params": [
+            {"param": "channeler", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetChannelingFn",
+        "params": [
+            {"param": "startfn", "explain": "", "type": ""},
+            {"param": "stopfn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -23,9 +48,20 @@ data = [
         "author": "",
     },
     {
-        "method": "StartChanneling",
+        "method": "StopChanneling",
         "params": [
-            {"param": "channeler", "explain": "", "type": ""},
+            {"param": "aborted", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsChanneling",
+        "params": [
 
         ],
         "returns": [
@@ -47,44 +83,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopChanneling",
-        "params": [
-            {"param": "aborted", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetChannelingFn",
-        "params": [
-            {"param": "startfn", "explain": "", "type": ""},
-            {"param": "stopfn", "explain": "", "type": ""},
 
         ],
         "returns": [

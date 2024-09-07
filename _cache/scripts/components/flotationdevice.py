@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "IsEnabled",
+        "method": "OnPreventDrowningDamage",
         "params": [
 
         ],
@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnPreventDrowningDamage",
+        "method": "IsEnabled",
         "params": [
 
         ],

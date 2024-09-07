@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "SetOnTeachFn",
+        "method": "Teach",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Teach",
+        "method": "SetOnTeachFn",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

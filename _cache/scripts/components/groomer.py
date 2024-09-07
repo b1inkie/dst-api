@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "ActivateChanging",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
@@ -36,9 +25,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCanBeShared",
+        "method": "SetCanUseAction",
         "params": [
-            {"param": "canbeshared", "explain": "", "type": ""},
+            {"param": "canuseaction", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,9 +49,44 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCanUseAction",
+        "method": "EndChanging",
         "params": [
-            {"param": "canuseaction", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Enable",
+        "params": [
+            {"param": "enable", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetRange",
+        "params": [
+            {"param": "range", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -84,9 +108,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -108,20 +131,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnUpdate",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "EndChanging",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -144,9 +156,33 @@ data = [
         "author": "",
     },
     {
-        "method": "Enable",
+        "method": "OnLoad",
         "params": [
-            {"param": "enable", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanBeginChanging",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOccupant",
+        "params": [
+            {"param": "occupant", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -170,56 +206,20 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanBeginChanging",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRange",
-        "params": [
-            {"param": "range", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOccupant",
-        "params": [
-            {"param": "occupant", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "EndAllChanging",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetCanBeShared",
+        "params": [
+            {"param": "canbeshared", "explain": "", "type": ""},
 
         ],
         "returns": [

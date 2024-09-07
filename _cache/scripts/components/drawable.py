@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "GetBGAtlas",
+        "method": "GetBGImage",
         "params": [
 
         ],
@@ -11,30 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetImage",
+        "method": "SetCanDraw",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanDraw",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
+            {"param": "candraw", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,8 +39,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetAtlas",
+        "method": "SetOnDrawnFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -83,6 +63,17 @@ data = [
         "author": "",
     },
     {
+        "method": "CanDraw",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnSave",
         "params": [
 
@@ -94,19 +85,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCanDraw",
-        "params": [
-            {"param": "candraw", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetBGImage",
+        "method": "GetBGAtlas",
         "params": [
 
         ],
@@ -117,9 +96,30 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnDrawnFn",
+        "method": "GetImage",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetAtlas",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

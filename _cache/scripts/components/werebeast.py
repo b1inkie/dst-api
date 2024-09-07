@@ -1,6 +1,52 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "SetTriggerLimit",
+        "params": [
+            {"param": "limit", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetNormal",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnWereFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsInWereState",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -23,51 +69,6 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetTriggerLimit",
-        "params": [
-            {"param": "limit", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetNormal",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -80,7 +81,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsInWereState",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -114,9 +115,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnWereFn",
+        "method": "TriggerDelta",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "amount", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -126,9 +127,8 @@ data = [
         "author": "",
     },
     {
-        "method": "TriggerDelta",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "amount", "explain": "", "type": ""},
 
         ],
         "returns": [

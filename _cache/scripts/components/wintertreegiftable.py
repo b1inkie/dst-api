@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "OnLoad",
+        "method": "OnGiftGiven",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnGiftGiven",
+        "method": "GetDaysSinceLastGift",
         "params": [
 
         ],
@@ -34,8 +33,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDaysSinceLastGift",
+        "method": "OnLoad",
         "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [

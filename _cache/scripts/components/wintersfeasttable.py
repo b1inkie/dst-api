@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "GetDebugString",
+        "method": "CancelFeasting",
         "params": [
 
         ],
@@ -34,7 +34,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CancelFeasting",
+        "method": "GetDebugString",
         "params": [
 
         ],

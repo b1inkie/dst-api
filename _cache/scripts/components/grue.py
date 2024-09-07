@@ -1,18 +1,5 @@
 data = [
     {
-        "method": "SetSounds",
-        "params": [
-            {"param": "warn", "explain": "", "type": ""},
-            {"param": "attack", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
         "params": [
 
@@ -35,17 +22,6 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetResistance",
         "params": [
             {"param": "resistance", "explain": "", "type": ""},
@@ -58,7 +34,31 @@ data = [
         "author": "",
     },
     {
-        "method": "Start",
+        "method": "OnUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddImmunity",
+        "params": [
+            {"param": "source", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Stop",
         "params": [
 
         ],
@@ -69,9 +69,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "SetSounds",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "warn", "explain": "", "type": ""},
+            {"param": "attack", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -105,9 +106,8 @@ data = [
         "author": "",
     },
     {
-        "method": "AddImmunity",
+        "method": "Start",
         "params": [
-            {"param": "source", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -117,7 +117,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Stop",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

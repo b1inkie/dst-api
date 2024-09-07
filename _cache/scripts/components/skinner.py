@@ -1,5 +1,28 @@
 data = [
     {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetSkinMode",
         "params": [
             {"param": "skintype", "explain": "", "type": ""},
@@ -13,7 +36,31 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "CopySkinsFromPlayer",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ClearClothing",
+        "params": [
+            {"param": "type", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetupNonPlayerData",
         "params": [
 
         ],
@@ -24,9 +71,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetMonkeyCurse",
+        "method": "HideAllClothing",
         "params": [
-            {"param": "monkey_curse", "explain": "", "type": ""},
+            {"param": "anim_state", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,9 +83,42 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "GetClothing",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetClothing",
+        "params": [
+            {"param": "name", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ClearMonkeyCurse",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetMonkeyCurse",
+        "params": [
 
         ],
         "returns": [
@@ -62,43 +142,9 @@ data = [
         "author": "",
     },
     {
-        "method": "HideAllClothing",
+        "method": "SetMonkeyCurse",
         "params": [
-            {"param": "anim_state", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetupNonPlayerData",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ClearClothing",
-        "params": [
-            {"param": "type", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ClearMonkeyCurse",
-        "params": [
+            {"param": "monkey_curse", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -119,54 +165,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetClothing",
-        "params": [
-            {"param": "name", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetSkinMode",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetClothing",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetMonkeyCurse",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CopySkinsFromPlayer",
-        "params": [
-            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -11,31 +11,20 @@ data = [
         "author": "",
     },
     {
+        "method": "HasGift",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetGiftMachine",
         "params": [
             {"param": "inst", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OpenNextGift",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnStartOpenGift",
-        "params": [
 
         ],
         "returns": [
@@ -57,7 +46,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnStartOpenGift",
         "params": [
 
         ],
@@ -68,7 +57,18 @@ data = [
         "author": "",
     },
     {
-        "method": "HasGift",
+        "method": "OpenNextGift",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

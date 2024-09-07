@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "DoLightningStrike",
+        "method": "SetBlockRange",
         "params": [
-            {"param": "pos", "explain": "", "type": ""},
+            {"param": "newrange", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,8 +24,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "DoLightningStrike",
         "params": [
+            {"param": "pos", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -35,9 +36,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetBlockRange",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "newrange", "explain": "", "type": ""},
 
         ],
         "returns": [

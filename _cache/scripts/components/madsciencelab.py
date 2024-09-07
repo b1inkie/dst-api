@@ -1,9 +1,7 @@
 data = [
     {
-        "method": "SetStage",
+        "method": "IsMakingScience",
         "params": [
-            {"param": "stage", "explain": "", "type": ""},
-            {"param": "time_override", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -25,7 +23,19 @@ data = [
         "author": "",
     },
     {
-        "method": "IsMakingScience",
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -36,9 +46,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "SetStage",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "stage", "explain": "", "type": ""},
+            {"param": "time_override", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,7 +71,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -72,17 +83,6 @@ data = [
     },
     {
         "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
         "params": [
 
         ],

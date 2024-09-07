@@ -12,20 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "HasSpellFn",
+        "method": "SetItems",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanBeUsedBy",
-        "params": [
-            {"param": "user", "explain": "", "type": ""},
+            {"param": "items", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,9 +36,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnOpenFn",
+        "method": "HasSpellFn",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -71,19 +59,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetRadius",
-        "params": [
-            {"param": "radius", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnCloseFn",
+        "method": "SetOnOpenFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -106,9 +82,56 @@ data = [
         "author": "",
     },
     {
+        "method": "GetSpellName",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnCloseFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetSpellName",
         "params": [
             {"param": "name", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetRadius",
+        "params": [
+            {"param": "radius", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetFocusRadius",
+        "params": [
+            {"param": "radius", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -130,17 +153,6 @@ data = [
         "author": "",
     },
     {
-        "method": "GetSpellName",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SelectSpell",
         "params": [
             {"param": "id", "explain": "", "type": ""},
@@ -153,9 +165,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetItems",
+        "method": "CanBeUsedBy",
         "params": [
-            {"param": "items", "explain": "", "type": ""},
+            {"param": "user", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -168,18 +180,6 @@ data = [
         "method": "OpenSpellBook",
         "params": [
             {"param": "user", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetFocusRadius",
-        "params": [
-            {"param": "radius", "explain": "", "type": ""},
 
         ],
         "returns": [

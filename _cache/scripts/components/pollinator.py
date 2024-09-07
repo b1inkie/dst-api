@@ -1,5 +1,17 @@
 data = [
     {
+        "method": "Pollinate",
+        "params": [
+            {"param": "flower", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetDebugString",
         "params": [
 
@@ -11,8 +23,9 @@ data = [
         "author": "",
     },
     {
-        "method": "CheckFlowerDensity",
+        "method": "CanPollinate",
         "params": [
+            {"param": "flower", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -22,9 +35,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Pollinate",
+        "method": "CheckFlowerDensity",
         "params": [
-            {"param": "flower", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -58,18 +70,6 @@ data = [
     {
         "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanPollinate",
-        "params": [
-            {"param": "flower", "explain": "", "type": ""},
 
         ],
         "returns": [

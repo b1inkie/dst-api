@@ -1,7 +1,9 @@
 data = [
     {
-        "method": "OnRemoveFromEntity",
+        "method": "AddTrigger",
         "params": [
+            {"param": "amount", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,10 +13,8 @@ data = [
         "author": "",
     },
     {
-        "method": "AddTrigger",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "amount", "explain": "", "type": ""},
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

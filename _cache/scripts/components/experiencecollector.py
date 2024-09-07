@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "UpdateXp",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetTask",
         "params": [
             {"param": "time", "explain": "", "type": ""},
@@ -24,31 +35,20 @@ data = [
         "author": "",
     },
     {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "LongUpdate",
         "params": [
             {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateXp",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
 
         ],
         "returns": [

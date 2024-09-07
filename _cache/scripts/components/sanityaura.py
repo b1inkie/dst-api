@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "OnRemoveFromEntity",
+        "method": "GetAura",
         "params": [
+            {"param": "observer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetAura",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "observer", "explain": "", "type": ""},
 
         ],
         "returns": [

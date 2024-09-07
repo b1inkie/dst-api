@@ -1,6 +1,30 @@
 data = [
     {
-        "method": "Pause",
+        "method": "SetMax",
+        "params": [
+            {"param": "amount", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetRate",
+        "params": [
+            {"param": "rate", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -11,7 +35,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "Pause",
         "params": [
 
         ],
@@ -34,31 +58,6 @@ data = [
         "author": "",
     },
     {
-        "method": "SetKillRate",
-        "params": [
-            {"param": "rate", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetPercent",
-        "params": [
-            {"param": "p", "explain": "", "type": ""},
-            {"param": "overtime", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "IsStarving",
         "params": [
 
@@ -70,7 +69,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Resume",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -81,10 +80,9 @@ data = [
         "author": "",
     },
     {
-        "method": "DoDec",
+        "method": "SetOverrideStarveFn",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
-            {"param": "ignore_damage", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -117,30 +115,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetMax",
-        "params": [
-            {"param": "amount", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRate",
+        "method": "SetKillRate",
         "params": [
             {"param": "rate", "explain": "", "type": ""},
 
@@ -152,8 +127,10 @@ data = [
         "author": "",
     },
     {
-        "method": "GetPercent",
+        "method": "DoDec",
         "params": [
+            {"param": "dt", "explain": "", "type": ""},
+            {"param": "ignore_damage", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -177,9 +154,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOverrideStarveFn",
+        "method": "TransferComponent",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "newinst", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -189,9 +166,32 @@ data = [
         "author": "",
     },
     {
-        "method": "TransferComponent",
+        "method": "SetPercent",
         "params": [
-            {"param": "newinst", "explain": "", "type": ""},
+            {"param": "p", "explain": "", "type": ""},
+            {"param": "overtime", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetPercent",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Resume",
+        "params": [
 
         ],
         "returns": [

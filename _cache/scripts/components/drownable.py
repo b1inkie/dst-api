@@ -1,28 +1,5 @@
 data = [
     {
-        "method": "GetWashingAshoreTeleportSpot",
-        "params": [
-            {"param": "excludeclosest", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsOverWater",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "WashAshore",
         "params": [
 
@@ -34,19 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "DropInventory",
+        "method": "GetWashingAshoreTeleportSpot",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TakeDrowningDamage",
-        "params": [
+            {"param": "excludeclosest", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -79,7 +46,7 @@ data = [
         "author": "",
     },
     {
-        "method": "ShouldDropItems",
+        "method": "DropInventory",
         "params": [
 
         ],
@@ -104,7 +71,7 @@ data = [
         "author": "",
     },
     {
-        "method": "ShouldDrown",
+        "method": "TakeDrowningDamage",
         "params": [
 
         ],
@@ -118,6 +85,39 @@ data = [
         "method": "SetCustomTuningsFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsOverWater",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ShouldDropItems",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ShouldDrown",
+        "params": [
 
         ],
         "returns": [

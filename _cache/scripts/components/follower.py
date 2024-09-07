@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "StartLeashing",
+        "method": "GetLeader",
         "params": [
 
         ],
@@ -11,8 +11,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "CachePlayerLeader",
         "params": [
+            {"param": "userid", "explain": "", "type": ""},
+            {"param": "timeleft", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -33,18 +35,7 @@ data = [
         "author": "",
     },
     {
-        "method": "StopFollowing",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -57,6 +48,18 @@ data = [
     {
         "method": "ClearCachedPlayerLeader",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LongUpdate",
+        "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -100,7 +103,53 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "AddLoyaltyTime",
+        "params": [
+            {"param": "time", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetLeader",
+        "params": [
+            {"param": "new_leader", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartLeashing",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "KeepLeaderOnAttacked",
         "params": [
 
         ],
@@ -123,79 +172,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetLeader",
-        "params": [
-            {"param": "new_leader", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsNearLeader",
-        "params": [
-            {"param": "dist", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CachePlayerLeader",
-        "params": [
-            {"param": "userid", "explain": "", "type": ""},
-            {"param": "timeleft", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetLeader",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "LongUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddLoyaltyTime",
-        "params": [
-            {"param": "time", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "KeepLeaderOnAttacked",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -208,6 +185,29 @@ data = [
     {
         "method": "CancelLoyaltyTask",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StopFollowing",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsNearLeader",
+        "params": [
+            {"param": "dist", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,8 +1,9 @@
 data = [
     {
-        "method": "CanWorkout",
+        "method": "SetWeightSymbol",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "weight", "explain": "", "type": ""},
+            {"param": "slot", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +13,8 @@ data = [
         "author": "",
     },
     {
-        "method": "CharacterExitGym",
+        "method": "CalcWeight",
         "params": [
-            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,20 +24,9 @@ data = [
         "author": "",
     },
     {
-        "method": "CharacterEnterGym",
+        "method": "CalculateMightiness",
         "params": [
-            {"param": "player", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "InUse",
-        "params": [
+            {"param": "perfect", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,6 +49,29 @@ data = [
         "author": "",
     },
     {
+        "method": "CharacterExitGym",
+        "params": [
+            {"param": "player", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CheckForWeight",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetLevelArt",
         "params": [
             {"param": "level", "explain": "", "type": ""},
@@ -73,44 +85,9 @@ data = [
         "author": "",
     },
     {
-        "method": "CalcWeight",
+        "method": "CharacterEnterGym",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UnloadWeight",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartWorkout",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "LoadWeight",
-        "params": [
-            {"param": "weight", "explain": "", "type": ""},
-            {"param": "slot", "explain": "", "type": ""},
+            {"param": "player", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -133,7 +110,41 @@ data = [
         "author": "",
     },
     {
-        "method": "SetWeightSymbol",
+        "method": "CanWorkout",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "UnloadWeight",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "InUse",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LoadWeight",
         "params": [
             {"param": "weight", "explain": "", "type": ""},
             {"param": "slot", "explain": "", "type": ""},
@@ -146,9 +157,9 @@ data = [
         "author": "",
     },
     {
-        "method": "CalculateMightiness",
+        "method": "StartWorkout",
         "params": [
-            {"param": "perfect", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -159,17 +170,6 @@ data = [
     },
     {
         "method": "StopWorkout",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CheckForWeight",
         "params": [
 
         ],

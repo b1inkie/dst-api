@@ -1,17 +1,5 @@
 data = [
     {
-        "method": "Extinguish",
-        "params": [
-            {"param": "fast", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
         "params": [
 
@@ -23,7 +11,18 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntityWake",
+        "method": "OnEntitySleep",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "UpdateRadius",
         "params": [
 
         ],
@@ -46,9 +45,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetPercentInLevel",
+        "method": "GetLevelRadius",
         "params": [
-            {"param": "percent", "explain": "", "type": ""},
+            {"param": "level", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -84,7 +83,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntitySleep",
+        "method": "OnEntityWake",
         "params": [
 
         ],
@@ -95,9 +94,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetLevelRadius",
+        "method": "Extinguish",
         "params": [
-            {"param": "level", "explain": "", "type": ""},
+            {"param": "fast", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -107,8 +106,9 @@ data = [
         "author": "",
     },
     {
-        "method": "UpdateRadius",
+        "method": "SetPercentInLevel",
         "params": [
+            {"param": "percent", "explain": "", "type": ""},
 
         ],
         "returns": [

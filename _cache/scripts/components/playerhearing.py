@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "UpdateDSPTables",
+        "method": "GetDSPTables",
         "params": [
 
         ],
@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDSPTables",
+        "method": "UpdateDSPTables",
         "params": [
 
         ],

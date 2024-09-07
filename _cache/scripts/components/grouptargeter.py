@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "OnPickTarget",
+        "method": "StopTracking",
         "params": [
             {"param": "target", "explain": "", "type": ""},
 
@@ -12,7 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "GetTargets",
         "params": [
 
         ],
@@ -23,7 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetTargets",
+        "method": "GetTotalWeight",
         "params": [
 
         ],
@@ -45,32 +45,20 @@ data = [
         "author": "",
     },
     {
-        "method": "TryGetNewTarget",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartTracking",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "RemoveTarget",
         "params": [
             {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TryGetNewTarget",
+        "params": [
 
         ],
         "returns": [
@@ -92,7 +80,19 @@ data = [
         "author": "",
     },
     {
-        "method": "StopTracking",
+        "method": "StartTracking",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnPickTarget",
         "params": [
             {"param": "target", "explain": "", "type": ""},
 
@@ -116,7 +116,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetTotalWeight",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

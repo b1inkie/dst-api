@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "DoUpdate",
+        "method": "EndTween",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,8 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "EndTween",
+        "method": "DoUpdate",
         "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [

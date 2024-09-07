@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnFinishRace",
         "params": [
 
         ],
@@ -22,7 +22,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnFinishRace",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

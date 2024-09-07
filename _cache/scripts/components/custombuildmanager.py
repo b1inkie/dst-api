@@ -1,20 +1,7 @@
 data = [
     {
-        "method": "SetCanSwapSymbol",
+        "method": "refreshart",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetGroups",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,20 +23,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "SetGroups",
         "params": [
             {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "refreshart",
-        "params": [
 
         ],
         "returns": [
@@ -63,6 +39,30 @@ data = [
         "params": [
             {"param": "group", "explain": "", "type": ""},
             {"param": "build", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetCanSwapSymbol",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

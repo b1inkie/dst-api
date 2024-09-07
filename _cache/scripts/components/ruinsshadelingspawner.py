@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "TrySpawnShadeling",
+        "method": "LongUpdate",
         "params": [
-            {"param": "chair", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "LongUpdate",
+        "method": "TrySpawnShadeling",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "chair", "explain": "", "type": ""},
 
         ],
         "returns": [

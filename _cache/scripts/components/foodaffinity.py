@@ -1,20 +1,8 @@
 data = [
     {
-        "method": "RemovePrefabAffinity",
+        "method": "RemoveFoodtypeAffinity",
         "params": [
-            {"param": "prefab", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SortAffinitiesByBonus",
-        "params": [
-            {"param": "affinities", "explain": "", "type": ""},
+            {"param": "foodtype", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -37,10 +25,21 @@ data = [
         "author": "",
     },
     {
-        "method": "AddPrefabAffinity",
+        "method": "HasPrefabAffinity",
         "params": [
-            {"param": "prefab", "explain": "", "type": ""},
-            {"param": "bonus", "explain": "", "type": ""},
+            {"param": "food", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SortAffinitiesByBonus",
+        "params": [
+            {"param": "affinities", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -62,34 +61,10 @@ data = [
         "author": "",
     },
     {
-        "method": "AddFoodtypeAffinity",
+        "method": "AddPrefabAffinity",
         "params": [
-            {"param": "foodtype", "explain": "", "type": ""},
+            {"param": "prefab", "explain": "", "type": ""},
             {"param": "bonus", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasPrefabAffinity",
-        "params": [
-            {"param": "food", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetFoodBasePrefab",
-        "params": [
-            {"param": "food", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -123,9 +98,34 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveFoodtypeAffinity",
+        "method": "AddFoodtypeAffinity",
         "params": [
             {"param": "foodtype", "explain": "", "type": ""},
+            {"param": "bonus", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemovePrefabAffinity",
+        "params": [
+            {"param": "prefab", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetFoodBasePrefab",
+        "params": [
+            {"param": "food", "explain": "", "type": ""},
 
         ],
         "returns": [

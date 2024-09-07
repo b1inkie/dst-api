@@ -11,6 +11,28 @@ data = [
         "author": "",
     },
     {
+        "method": "Stop",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetWindAngle",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnUpdate",
         "params": [
             {"param": "dt", "explain": "", "type": ""},
@@ -24,28 +46,6 @@ data = [
     },
     {
         "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Stop",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetWindAngle",
         "params": [
 
         ],

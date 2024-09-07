@@ -1,10 +1,20 @@
 data = [
     {
-        "method": "ApplyTargetSkins",
+        "method": "Enable",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
-            {"param": "doer", "explain": "", "type": ""},
-            {"param": "skins", "explain": "", "type": ""},
+            {"param": "enable", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetRange",
+        "params": [
+            {"param": "range", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -26,10 +36,8 @@ data = [
         "author": "",
     },
     {
-        "method": "ActivateChanging",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
-            {"param": "skins", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -51,6 +59,18 @@ data = [
         "author": "",
     },
     {
+        "method": "SetCanUseAction",
+        "params": [
+            {"param": "canuseaction", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetCanBeDressed",
         "params": [
             {"param": "canbedressed", "explain": "", "type": ""},
@@ -63,18 +83,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "EndChanging",
+        "method": "BeginChanging",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
 
@@ -99,32 +108,9 @@ data = [
         "author": "",
     },
     {
-        "method": "EndAllChanging",
+        "method": "EndChanging",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Enable",
-        "params": [
-            {"param": "enable", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetCanBeShared",
-        "params": [
-            {"param": "canbeshared", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -146,9 +132,11 @@ data = [
         "author": "",
     },
     {
-        "method": "SetRange",
+        "method": "ApplyTargetSkins",
         "params": [
-            {"param": "range", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
+            {"param": "skins", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -158,9 +146,10 @@ data = [
         "author": "",
     },
     {
-        "method": "BeginChanging",
+        "method": "ActivateChanging",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
+            {"param": "skins", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -170,9 +159,20 @@ data = [
         "author": "",
     },
     {
-        "method": "SetCanUseAction",
+        "method": "EndAllChanging",
         "params": [
-            {"param": "canuseaction", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetCanBeShared",
+        "params": [
+            {"param": "canbeshared", "explain": "", "type": ""},
 
         ],
         "returns": [

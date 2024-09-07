@@ -1,5 +1,41 @@
 data = [
     {
+        "method": "Enable",
+        "params": [
+            {"param": "enabled", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetDefaultRewards",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetLevelRewards",
         "params": [
             {"param": "data", "explain": "", "type": ""},
@@ -23,9 +59,8 @@ data = [
         "author": "",
     },
     {
-        "method": "DoRewards",
+        "method": "GetDebugString",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,21 +82,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "GetLevel",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "LoadPostPass",
-        "params": [
-            {"param": "newents", "explain": "", "type": ""},
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -84,9 +106,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "DoRewards",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -107,32 +129,10 @@ data = [
         "author": "",
     },
     {
-        "method": "GetLevel",
+        "method": "LoadPostPass",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetDefaultRewards",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Enable",
-        "params": [
-            {"param": "enabled", "explain": "", "type": ""},
+            {"param": "newents", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "SetValue",
+        "method": "Enable",
         "params": [
-            {"param": "percent", "explain": "", "type": ""},
+            {"param": "enable", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Enable",
+        "method": "SetValue",
         "params": [
-            {"param": "enable", "explain": "", "type": ""},
+            {"param": "percent", "explain": "", "type": ""},
 
         ],
         "returns": [

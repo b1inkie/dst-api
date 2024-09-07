@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "GetPet",
+        "method": "SetPetFn",
         "params": [
+            {"param": "petfn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetPetFn",
+        "method": "GetPet",
         "params": [
-            {"param": "petfn", "explain": "", "type": ""},
 
         ],
         "returns": [

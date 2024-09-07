@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "Stun",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetDamageInPeriod",
         "params": [
 
@@ -14,17 +25,6 @@ data = [
         "method": "TakeDamage",
         "params": [
             {"param": "damage", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Stun",
-        "params": [
 
         ],
         "returns": [

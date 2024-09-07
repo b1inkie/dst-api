@@ -1,5 +1,17 @@
 data = [
     {
+        "method": "OnStopChanneling",
+        "params": [
+            {"param": "user", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "IsAnyUserChanneling",
         "params": [
 
@@ -23,8 +35,9 @@ data = [
         "author": "",
     },
     {
-        "method": "StopChanneling",
+        "method": "IsUserChanneling",
         "params": [
+            {"param": "user", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,9 +47,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnStartChannelingFn",
+        "method": "StopChanneling",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -58,32 +70,20 @@ data = [
         "author": "",
     },
     {
+        "method": "SetOnStartChannelingFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetDebugString",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsUserChanneling",
-        "params": [
-            {"param": "user", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnStopChanneling",
-        "params": [
-            {"param": "user", "explain": "", "type": ""},
 
         ],
         "returns": [

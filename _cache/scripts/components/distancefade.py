@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "OnEntitySleep",
+        "method": "OnUpdate",
         "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -22,9 +23,21 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "Setup",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "range", "explain": "", "type": ""},
+            {"param": "fadedist", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnEntitySleep",
+        "params": [
 
         ],
         "returns": [
@@ -37,19 +50,6 @@ data = [
         "method": "SetExtraFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Setup",
-        "params": [
-            {"param": "range", "explain": "", "type": ""},
-            {"param": "fadedist", "explain": "", "type": ""},
 
         ],
         "returns": [

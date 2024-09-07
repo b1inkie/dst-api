@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "TransferComponent",
         "params": [
+            {"param": "newinst", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,7 +47,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -57,9 +58,8 @@ data = [
         "author": "",
     },
     {
-        "method": "TransferComponent",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "newinst", "explain": "", "type": ""},
 
         ],
         "returns": [

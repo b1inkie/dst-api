@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "OnRemoveFromEntity",
+        "method": "Use",
         "params": [
 
         ],
@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Use",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

@@ -13,8 +13,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetOnLightFn",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,9 +25,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnLightFn",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

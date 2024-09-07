@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "removeinkertarget",
         "params": [
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,7 +12,19 @@ data = [
         "author": "",
     },
     {
-        "method": "CrewCheer",
+        "method": "checktinkertarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TestForLootToSteal",
         "params": [
 
         ],
@@ -34,7 +47,100 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "TestForVictory",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CountPirateLoot",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetMemberTag",
+        "params": [
+            {"param": "tag", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LoadPostPass",
+        "params": [
+            {"param": "newents", "explain": "", "type": ""},
+            {"param": "savedata", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveEntity",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "reserveinkertarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetAddMemberFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetHeadingNormal",
         "params": [
 
         ],
@@ -58,7 +164,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CountCrew",
+        "method": "IsCrewOnDeck",
         "params": [
 
         ],
@@ -81,149 +187,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetUpdateRange",
-        "params": [
-            {"param": "range", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "LoadPostPass",
-        "params": [
-            {"param": "newents", "explain": "", "type": ""},
-            {"param": "savedata", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetCaptain",
-        "params": [
-            {"param": "captain", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetHeadingNormal",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetMemberTag",
-        "params": [
-            {"param": "tag", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CountPirateLoot",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetAddMemberFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "reserveinkertarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "areAllCrewOnBoat",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TestForVictory",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "checktinkertarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -244,8 +209,9 @@ data = [
         "author": "",
     },
     {
-        "method": "TestForLootToSteal",
+        "method": "SetUpdateRange",
         "params": [
+            {"param": "range", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -255,7 +221,7 @@ data = [
         "author": "",
     },
     {
-        "method": "removeinkertarget",
+        "method": "SetTarget",
         "params": [
             {"param": "target", "explain": "", "type": ""},
 
@@ -279,7 +245,41 @@ data = [
         "author": "",
     },
     {
-        "method": "IsCrewOnDeck",
+        "method": "CountCrew",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetCaptain",
+        "params": [
+            {"param": "captain", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CrewCheer",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

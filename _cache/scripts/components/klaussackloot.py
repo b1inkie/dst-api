@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "GetLoot",
         "params": [
 
         ],
@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetLoot",
+        "method": "OnSave",
         "params": [
 
         ],

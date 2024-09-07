@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "PairedMagnet",
+        "method": "OnRemoveEntity",
         "params": [
 
         ],
@@ -11,19 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "UnpairWithMagnet",
+        "method": "PairWithMagnet",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
+            {"param": "magnet", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -45,7 +35,18 @@ data = [
         "author": "",
     },
     {
-        "method": "TurnOnBeacon",
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsTurnedOff",
         "params": [
 
         ],
@@ -68,7 +69,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "GetBoat",
         "params": [
 
         ],
@@ -79,9 +80,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetBoat",
+        "method": "OnDeath",
         "params": [
-            {"param": "boat", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -91,7 +91,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "UnpairWithMagnet",
         "params": [
 
         ],
@@ -124,7 +124,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetBoat",
+        "method": "PairedMagnet",
         "params": [
 
         ],
@@ -135,7 +135,7 @@ data = [
         "author": "",
     },
     {
-        "method": "IsTurnedOff",
+        "method": "TurnOnBeacon",
         "params": [
 
         ],
@@ -146,9 +146,9 @@ data = [
         "author": "",
     },
     {
-        "method": "PairWithMagnet",
+        "method": "SetBoat",
         "params": [
-            {"param": "magnet", "explain": "", "type": ""},
+            {"param": "boat", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -158,7 +158,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnDeath",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -169,7 +169,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveEntity",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

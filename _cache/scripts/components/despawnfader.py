@@ -11,8 +11,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnUpdate",
         "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -22,9 +23,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [

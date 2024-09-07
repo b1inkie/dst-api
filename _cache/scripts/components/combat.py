@@ -1,6 +1,32 @@
 data = [
     {
-        "method": "GetLastAttackedTime",
+        "method": "DropTarget",
+        "params": [
+            {"param": "hasnexttarget", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetAreaDamage",
+        "params": [
+            {"param": "range", "explain": "", "type": ""},
+            {"param": "percent", "explain": "", "type": ""},
+            {"param": "areahitcheck", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TryRetarget",
         "params": [
 
         ],
@@ -11,49 +37,8 @@ data = [
         "author": "",
     },
     {
-        "method": "CalcReflectedDamage",
+        "method": "OnEntityWake",
         "params": [
-            {"param": "targ", "explain": "", "type": ""},
-            {"param": "dmg", "explain": "", "type": ""},
-            {"param": "weapon", "explain": "", "type": ""},
-            {"param": "stimuli", "explain": "", "type": ""},
-            {"param": "reflect_list", "explain": "", "type": ""},
-            {"param": "spdmg", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "BattleCry",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TryAttack",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StopTrackingTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -75,31 +60,7 @@ data = [
         "author": "",
     },
     {
-        "method": "TargetHasFriendlyLeader",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "EnableAreaDamage",
-        "params": [
-            {"param": "enable", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetWeapon",
+        "method": "HasTarget",
         "params": [
 
         ],
@@ -110,22 +71,8 @@ data = [
         "author": "",
     },
     {
-        "method": "CanTarget",
+        "method": "GetLastAttackedTime",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetImpactSound",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-            {"param": "weapon", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -147,8 +94,11 @@ data = [
         "author": "",
     },
     {
-        "method": "ForceAttack",
+        "method": "CalcDamage",
         "params": [
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "weapon", "explain": "", "type": ""},
+            {"param": "multiplier", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -158,8 +108,9 @@ data = [
         "author": "",
     },
     {
-        "method": "TryRetarget",
+        "method": "SetNoAggroTags",
         "params": [
+            {"param": "tags", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -169,8 +120,34 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntitySleep",
+        "method": "RemoveNoAggroTag",
         "params": [
+            {"param": "tag", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetDefaultDamage",
+        "params": [
+            {"param": "damage", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanLightTarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "weapon", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -192,7 +169,7 @@ data = [
         "author": "",
     },
     {
-        "method": "TargetIs",
+        "method": "RemoveShouldAvoidAggro",
         "params": [
             {"param": "target", "explain": "", "type": ""},
 
@@ -204,31 +181,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SuggestTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetLastTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ValidateTarget",
+        "method": "GiveUp",
         "params": [
 
         ],
@@ -239,21 +192,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "OverrideCooldown",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRange",
-        "params": [
-            {"param": "attack", "explain": "", "type": ""},
-            {"param": "hit", "explain": "", "type": ""},
+            {"param": "cd", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -288,13 +229,31 @@ data = [
         "author": "",
     },
     {
-        "method": "ShareTarget",
+        "method": "RestartCooldown",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
-            {"param": "range", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ClearAttackTemps",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnHit",
+        "params": [
             {"param": "fn", "explain": "", "type": ""},
-            {"param": "maxnum", "explain": "", "type": ""},
-            {"param": "musttags", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -304,7 +263,7 @@ data = [
         "author": "",
     },
     {
-        "method": "StartTrackingTarget",
+        "method": "StopTrackingTarget",
         "params": [
             {"param": "target", "explain": "", "type": ""},
 
@@ -316,9 +275,33 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "CanAttack",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetCooldown",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetImpactSound",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "weapon", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -339,19 +322,7 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveShouldAvoidAggro",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetHitRange",
+        "method": "ForceAttack",
         "params": [
 
         ],
@@ -362,55 +333,7 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveNoAggroTag",
-        "params": [
-            {"param": "tag", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetAttackPeriod",
-        "params": [
-            {"param": "period", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetBattleCryString",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetShouldAvoidAggro",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "HasTarget",
+        "method": "ValidateTarget",
         "params": [
 
         ],
@@ -421,56 +344,13 @@ data = [
         "author": "",
     },
     {
-        "method": "CancelAttack",
+        "method": "GetAttacked",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanHitTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
+            {"param": "attacker", "explain": "", "type": ""},
+            {"param": "damage", "explain": "", "type": ""},
             {"param": "weapon", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DropTarget",
-        "params": [
-            {"param": "hasnexttarget", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OverrideCooldown",
-        "params": [
-            {"param": "cd", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "InCooldown",
-        "params": [
+            {"param": "stimuli", "explain": "", "type": ""},
+            {"param": "spdamage", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -492,10 +372,32 @@ data = [
         "author": "",
     },
     {
-        "method": "CanExtinguishTarget",
+        "method": "SetPlayerStunlock",
+        "params": [
+            {"param": "stunlock", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CancelAttack",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartTrackingTarget",
         "params": [
             {"param": "target", "explain": "", "type": ""},
-            {"param": "weapon", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -505,32 +407,153 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RestartCooldown",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ShouldAggro",
+        "method": "SetLastTarget",
         "params": [
             {"param": "target", "explain": "", "type": ""},
-            {"param": "ignore_forbidden", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnEntitySleep",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetGiveUpString",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CalcHitRangeSq",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "BattleCry",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ShareTarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "range", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
+            {"param": "maxnum", "explain": "", "type": ""},
+            {"param": "musttags", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ResetBattleCryCooldown",
+        "params": [
+            {"param": "t", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TargetHasFriendlyLeader",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsValidTarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetWeapon",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartAttack",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "EnableAreaDamage",
+        "params": [
+            {"param": "enable", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsRecentTarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -569,8 +592,220 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnHit",
+        "method": "GetDamageReflect",
         "params": [
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "damage", "explain": "", "type": ""},
+            {"param": "weapon", "explain": "", "type": ""},
+            {"param": "stimuli", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TryAttack",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetShouldAvoidAggro",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "TargetIs",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanTarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "InCooldown",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetBattleCryString",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanExtinguishTarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "weapon", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetAttackPeriod",
+        "params": [
+            {"param": "period", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetHitRange",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetRange",
+        "params": [
+            {"param": "attack", "explain": "", "type": ""},
+            {"param": "hit", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetAttackRange",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CalcReflectedDamage",
+        "params": [
+            {"param": "targ", "explain": "", "type": ""},
+            {"param": "dmg", "explain": "", "type": ""},
+            {"param": "weapon", "explain": "", "type": ""},
+            {"param": "stimuli", "explain": "", "type": ""},
+            {"param": "reflect_list", "explain": "", "type": ""},
+            {"param": "spdmg", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanBeAttacked",
+        "params": [
+            {"param": "attacker", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CanHitTarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "weapon", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SuggestTarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetRetargetFunction",
+        "params": [
+            {"param": "period", "explain": "", "type": ""},
             {"param": "fn", "explain": "", "type": ""},
 
         ],
@@ -581,12 +816,21 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDamageReflect",
+        "method": "AddNoAggroTag",
+        "params": [
+            {"param": "tag", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetTarget",
         "params": [
             {"param": "target", "explain": "", "type": ""},
-            {"param": "damage", "explain": "", "type": ""},
-            {"param": "weapon", "explain": "", "type": ""},
-            {"param": "stimuli", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -614,10 +858,10 @@ data = [
         "author": "",
     },
     {
-        "method": "CanLightTarget",
+        "method": "ShouldAggro",
         "params": [
             {"param": "target", "explain": "", "type": ""},
-            {"param": "weapon", "explain": "", "type": ""},
+            {"param": "ignore_forbidden", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -627,11 +871,9 @@ data = [
         "author": "",
     },
     {
-        "method": "CalcDamage",
+        "method": "OnUpdate",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
-            {"param": "weapon", "explain": "", "type": ""},
-            {"param": "multiplier", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -641,250 +883,8 @@ data = [
         "author": "",
     },
     {
-        "method": "ClearAttackTemps",
+        "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CalcHitRangeSq",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetAttackRange",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanAttack",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddNoAggroTag",
-        "params": [
-            {"param": "tag", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartAttack",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ResetBattleCryCooldown",
-        "params": [
-            {"param": "t", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetAttacked",
-        "params": [
-            {"param": "attacker", "explain": "", "type": ""},
-            {"param": "damage", "explain": "", "type": ""},
-            {"param": "weapon", "explain": "", "type": ""},
-            {"param": "stimuli", "explain": "", "type": ""},
-            {"param": "spdamage", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GiveUp",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetDefaultDamage",
-        "params": [
-            {"param": "damage", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetGiveUpString",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsValidTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetPlayerStunlock",
-        "params": [
-            {"param": "stunlock", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetCooldown",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetNoAggroTags",
-        "params": [
-            {"param": "tags", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CanBeAttacked",
-        "params": [
-            {"param": "attacker", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsRecentTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnEntityWake",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetRetargetFunction",
-        "params": [
-            {"param": "period", "explain": "", "type": ""},
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetAreaDamage",
-        "params": [
-            {"param": "range", "explain": "", "type": ""},
-            {"param": "percent", "explain": "", "type": ""},
-            {"param": "areahitcheck", "explain": "", "type": ""},
 
         ],
         "returns": [

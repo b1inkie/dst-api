@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "GetDebugString",
+        "method": "PrepareDisappear",
         "params": [
 
         ],
@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "PrepareDisappear",
+        "method": "StopDisappear",
         "params": [
 
         ],
@@ -33,7 +33,7 @@ data = [
         "author": "",
     },
     {
-        "method": "StopDisappear",
+        "method": "GetDebugString",
         "params": [
 
         ],

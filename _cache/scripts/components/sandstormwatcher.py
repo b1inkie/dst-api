@@ -1,8 +1,43 @@
 data = [
     {
+        "method": "UpdateSandstormLevel",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetSandstormSpeedMultiplier",
+        "params": [
+            {"param": "mult", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "UpdateSandstormWalkSpeed_Internal",
         "params": [
             {"param": "level", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ToggleSandstorms",
+        "params": [
+            {"param": "active", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,43 +69,8 @@ data = [
         "author": "",
     },
     {
-        "method": "ToggleSandstorms",
-        "params": [
-            {"param": "active", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateSandstormLevel",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetSandstormSpeedMultiplier",
-        "params": [
-            {"param": "mult", "explain": "", "type": ""},
 
         ],
         "returns": [

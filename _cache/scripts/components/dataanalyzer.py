@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "SpendData",
         "params": [
+            {"param": "prefab", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,7 +25,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SpendData",
+        "method": "GetData",
         "params": [
             {"param": "prefab", "explain": "", "type": ""},
 
@@ -36,9 +37,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetData",
+        "method": "OnSave",
         "params": [
-            {"param": "prefab", "explain": "", "type": ""},
 
         ],
         "returns": [

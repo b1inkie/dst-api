@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "UpdateNightLightPosition",
+        "method": "OnRegisterNightLight",
         "params": [
             {"param": "nightlight", "explain": "", "type": ""},
 
@@ -25,18 +25,6 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRegisterNightLight",
-        "params": [
-            {"param": "nightlight", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "IsNightLightDataInAnyTag",
         "params": [
             {"param": "nightlightdata", "explain": "", "type": ""},
@@ -50,8 +38,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "FindClosestNightLightFromListToInst",
         "params": [
+            {"param": "nightlights", "explain": "", "type": ""},
+            {"param": "inst", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -61,10 +51,20 @@ data = [
         "author": "",
     },
     {
-        "method": "FindClosestNightLightFromListToInst",
+        "method": "UpdateNightLightPosition",
         "params": [
-            {"param": "nightlights", "explain": "", "type": ""},
-            {"param": "inst", "explain": "", "type": ""},
+            {"param": "nightlight", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

@@ -16,9 +16,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnHitFn",
+        "method": "SetWorkActions",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "...", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -28,9 +28,10 @@ data = [
         "author": "",
     },
     {
-        "method": "SetTags",
+        "method": "OnHit",
         "params": [
-            {"param": "...", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -52,10 +53,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnHit",
+        "method": "SetDamage",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
-            {"param": "target", "explain": "", "type": ""},
+            {"param": "dmg", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -112,9 +112,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetDamage",
+        "method": "SetOnHitFn",
         "params": [
-            {"param": "dmg", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -124,7 +124,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetWorkActions",
+        "method": "SetTags",
         "params": [
             {"param": "...", "explain": "", "type": ""},
 

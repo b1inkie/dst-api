@@ -1,22 +1,9 @@
 data = [
     {
-        "method": "IsCursable",
+        "method": "ApplyCurse",
         "params": [
             {"param": "item", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveCurse",
-        "params": [
             {"param": "curse", "explain": "", "type": ""},
-            {"param": "numofitems", "explain": "", "type": ""},
-            {"param": "dropitems", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -38,21 +25,9 @@ data = [
         "author": "",
     },
     {
-        "method": "ApplyCurse",
+        "method": "ForceOntoOwner",
         "params": [
             {"param": "item", "explain": "", "type": ""},
-            {"param": "curse", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
 
         ],
         "returns": [
@@ -73,9 +48,34 @@ data = [
         "author": "",
     },
     {
-        "method": "ForceOntoOwner",
+        "method": "IsCursable",
         "params": [
             {"param": "item", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveCurse",
+        "params": [
+            {"param": "curse", "explain": "", "type": ""},
+            {"param": "numofitems", "explain": "", "type": ""},
+            {"param": "dropitems", "explain": "", "type": ""},
 
         ],
         "returns": [

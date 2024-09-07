@@ -1,17 +1,5 @@
 data = [
     {
-        "method": "OnUpdate",
-        "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "Hit",
         "params": [
             {"param": "target", "explain": "", "type": ""},
@@ -24,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetGravity",
+        "method": "SetOnHit",
         "params": [
-            {"param": "g", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -37,41 +25,6 @@ data = [
     },
     {
         "method": "Cancel",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetHorizontalSpeedForDistance",
-        "params": [
-            {"param": "desired_horizontal_distance", "explain": "", "type": ""},
-            {"param": "fallback", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
         "params": [
 
         ],
@@ -96,11 +49,22 @@ data = [
         "author": "",
     },
     {
-        "method": "CalculateTrajectory",
+        "method": "SetLaunchOffset",
         "params": [
-            {"param": "startPos", "explain": "", "type": ""},
-            {"param": "endPos", "explain": "", "type": ""},
-            {"param": "speed", "explain": "", "type": ""},
+            {"param": "offset", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetHorizontalSpeedForDistance",
+        "params": [
+            {"param": "desired_horizontal_distance", "explain": "", "type": ""},
+            {"param": "fallback", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -122,9 +86,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnHit",
+        "method": "GetDebugString",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -134,9 +97,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetHorizontalSpeed",
+        "method": "OnUpdate",
         "params": [
-            {"param": "speed", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -158,21 +121,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnLaunch",
+        "method": "SetGravity",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetLaunchOffset",
-        "params": [
-            {"param": "offset", "explain": "", "type": ""},
+            {"param": "g", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -185,6 +136,55 @@ data = [
         "method": "SetTargetOffset",
         "params": [
             {"param": "offset", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CalculateTrajectory",
+        "params": [
+            {"param": "startPos", "explain": "", "type": ""},
+            {"param": "endPos", "explain": "", "type": ""},
+            {"param": "speed", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetHorizontalSpeed",
+        "params": [
+            {"param": "speed", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnLaunch",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

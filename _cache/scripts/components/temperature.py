@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "IsOverheating",
+        "method": "RemoveModifier",
         "params": [
+            {"param": "name", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,20 +12,10 @@ data = [
         "author": "",
     },
     {
-        "method": "GetMoisturePenalty",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DoDelta",
+        "method": "SetTemperatureInBelly",
         "params": [
             {"param": "delta", "explain": "", "type": ""},
+            {"param": "duration", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,7 +25,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetInsulation",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -45,7 +36,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "GetCurrent",
         "params": [
 
         ],
@@ -56,67 +47,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetTemperature",
+        "method": "TransferComponent",
         "params": [
-            {"param": "value", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetTemp",
-        "params": [
-            {"param": "temp", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsFreezing",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOverheatHurtRate",
-        "params": [
-            {"param": "rate", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLoad",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetMax",
-        "params": [
+            {"param": "newinst", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -149,10 +82,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetModifier",
+        "method": "SetTemp",
         "params": [
-            {"param": "name", "explain": "", "type": ""},
-            {"param": "value", "explain": "", "type": ""},
+            {"param": "temp", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -162,10 +94,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetTemperatureInBelly",
+        "method": "OnLoad",
         "params": [
-            {"param": "delta", "explain": "", "type": ""},
-            {"param": "duration", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -175,9 +106,8 @@ data = [
         "author": "",
     },
     {
-        "method": "IgnoreTags",
+        "method": "IsOverheating",
         "params": [
-            {"param": "...", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -187,8 +117,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetCurrent",
+        "method": "SetOverheatHurtRate",
         "params": [
+            {"param": "rate", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -211,9 +142,33 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveModifier",
+        "method": "GetMoisturePenalty",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetTemperature",
+        "params": [
+            {"param": "value", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetModifier",
         "params": [
             {"param": "name", "explain": "", "type": ""},
+            {"param": "value", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -223,7 +178,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "GetInsulation",
         "params": [
 
         ],
@@ -234,9 +189,54 @@ data = [
         "author": "",
     },
     {
-        "method": "TransferComponent",
+        "method": "DoDelta",
         "params": [
-            {"param": "newinst", "explain": "", "type": ""},
+            {"param": "delta", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsFreezing",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetMax",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IgnoreTags",
+        "params": [
+            {"param": "...", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

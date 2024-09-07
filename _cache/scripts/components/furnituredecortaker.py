@@ -35,19 +35,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetEnabled",
-        "params": [
-            {"param": "enabled", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AbleToAcceptDecor",
+        "method": "AcceptDecor",
         "params": [
             {"param": "item", "explain": "", "type": ""},
             {"param": "giver", "explain": "", "type": ""},
@@ -71,8 +59,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "AbleToAcceptDecor",
         "params": [
+            {"param": "item", "explain": "", "type": ""},
+            {"param": "giver", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -82,10 +72,20 @@ data = [
         "author": "",
     },
     {
-        "method": "AcceptDecor",
+        "method": "SetEnabled",
         "params": [
-            {"param": "item", "explain": "", "type": ""},
-            {"param": "giver", "explain": "", "type": ""},
+            {"param": "enabled", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

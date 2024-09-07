@@ -12,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "CanBeUsed",
         "params": [
+            {"param": "user", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,9 +24,8 @@ data = [
         "author": "",
     },
     {
-        "method": "CanBeUsed",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "user", "explain": "", "type": ""},
 
         ],
         "returns": [

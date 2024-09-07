@@ -1,5 +1,51 @@
 data = [
     {
+        "method": "OnLoad",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CopyFrom",
+        "params": [
+            {"param": "rhs", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetMoistureRate",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "UpdateMoistureTime",
         "params": [
             {"param": "is_soil_moist", "explain": "", "type": ""},
@@ -24,9 +70,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "OnSoilMoistureStateChange",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "cur_state", "explain": "", "type": ""},
+            {"param": "prev_state", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,18 +83,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
+        "method": "CalcPercentTimeHydrated",
         "params": [
 
         ],
@@ -69,43 +105,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CopyFrom",
-        "params": [
-            {"param": "rhs", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSoilMoistureStateChange",
-        "params": [
-            {"param": "cur_state", "explain": "", "type": ""},
-            {"param": "prev_state", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetMoistureRate",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CalcPercentTimeHydrated",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

@@ -1,16 +1,5 @@
 data = [
     {
-        "method": "GetDestPosition",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetDestPositionFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
@@ -23,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetDestTargetFn",
+        "method": "GetDestPosition",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -37,6 +25,18 @@ data = [
     {
         "method": "GetDestTarget",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetDestTargetFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

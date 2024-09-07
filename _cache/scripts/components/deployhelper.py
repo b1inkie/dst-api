@@ -1,8 +1,18 @@
 data = [
     {
-        "method": "AddRecipeFilter",
+        "method": "OnWallUpdate",
         "params": [
-            {"param": "recipename", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnEntityWake",
+        "params": [
 
         ],
         "returns": [
@@ -34,31 +44,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntityWake",
+        "method": "AddRecipeFilter",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnWallUpdate",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "AddKeyFilter",
-        "params": [
-            {"param": "key", "explain": "", "type": ""},
+            {"param": "recipename", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -72,6 +60,18 @@ data = [
         "params": [
             {"param": "recipename", "explain": "", "type": ""},
             {"param": "placerinst", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddKeyFilter",
+        "params": [
+            {"param": "key", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -12,8 +12,12 @@ data = [
         "author": "",
     },
     {
-        "method": "DeploySpacingRadius",
+        "method": "CanDeploy",
         "params": [
+            {"param": "pt", "explain": "", "type": ""},
+            {"param": "mouseover", "explain": "", "type": ""},
+            {"param": "deployer", "explain": "", "type": ""},
+            {"param": "rot", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -35,32 +39,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "SetDeployTossSymbolOverride",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetDeploySpacing",
-        "params": [
-            {"param": "spacing", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetUseGridPlacer",
-        "params": [
-            {"param": "usegridplacer", "explain": "", "type": ""},
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -84,12 +65,8 @@ data = [
         "author": "",
     },
     {
-        "method": "CanDeploy",
+        "method": "DeploySpacingRadius",
         "params": [
-            {"param": "pt", "explain": "", "type": ""},
-            {"param": "mouseover", "explain": "", "type": ""},
-            {"param": "deployer", "explain": "", "type": ""},
-            {"param": "rot", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -99,9 +76,32 @@ data = [
         "author": "",
     },
     {
-        "method": "SetDeployTossSymbolOverride",
+        "method": "SetUseGridPlacer",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+            {"param": "usegridplacer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetDeploySpacing",
+        "params": [
+            {"param": "spacing", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

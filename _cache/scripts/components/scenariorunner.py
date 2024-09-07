@@ -1,18 +1,8 @@
 data = [
     {
-        "method": "Reset",
+        "method": "SetScript",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
+            {"param": "name", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,19 +24,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetScript",
-        "params": [
-            {"param": "name", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ClearScenario",
+        "method": "Reset",
         "params": [
 
         ],
@@ -58,6 +36,28 @@ data = [
     },
     {
         "method": "Run",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ClearScenario",
         "params": [
 
         ],

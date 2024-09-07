@@ -1,5 +1,38 @@
 data = [
     {
+        "method": "GetLureFunctions",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsLineTensionGood",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "UpdateTensionRating",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "Cast",
         "params": [
             {"param": "fisher", "explain": "", "type": ""},
@@ -28,54 +61,7 @@ data = [
         "author": "",
     },
     {
-        "method": "UpdateClientMaxCastDistance",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CatchFish",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "CalcCatchDest",
-        "params": [
-            {"param": "src_pos", "explain": "", "type": ""},
-            {"param": "dest_pos", "explain": "", "type": ""},
-            {"param": "catch_dist", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetLureData",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsLineTensionHigh",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -99,19 +85,6 @@ data = [
         "author": "",
     },
     {
-        "method": "_CacheTackleData",
-        "params": [
-            {"param": "bobber", "explain": "", "type": ""},
-            {"param": "lure", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "_LaunchCastingProjectile",
         "params": [
             {"param": "source", "explain": "", "type": ""},
@@ -126,7 +99,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetLureFunctions",
+        "method": "GetLureData",
         "params": [
 
         ],
@@ -137,7 +110,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "GetExtraStaminaDrain",
         "params": [
 
         ],
@@ -148,7 +121,44 @@ data = [
         "author": "",
     },
     {
-        "method": "IsLineTensionGood",
+        "method": "_CacheTackleData",
+        "params": [
+            {"param": "bobber", "explain": "", "type": ""},
+            {"param": "lure", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StopFishing",
+        "params": [
+            {"param": "reason", "explain": "", "type": ""},
+            {"param": "lost_tackle", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CatchFish",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Reel",
         "params": [
 
         ],
@@ -173,8 +183,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetExtraStaminaDrain",
+        "method": "OnUpdate",
         "params": [
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -184,10 +195,8 @@ data = [
         "author": "",
     },
     {
-        "method": "StopFishing",
+        "method": "UpdateClientMaxCastDistance",
         "params": [
-            {"param": "reason", "explain": "", "type": ""},
-            {"param": "lost_tackle", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -209,31 +218,11 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "CalcCatchDest",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Reel",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "UpdateTensionRating",
-        "params": [
+            {"param": "src_pos", "explain": "", "type": ""},
+            {"param": "dest_pos", "explain": "", "type": ""},
+            {"param": "catch_dist", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -255,6 +244,17 @@ data = [
     },
     {
         "method": "GetTensionRating",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsLineTensionHigh",
         "params": [
 
         ],

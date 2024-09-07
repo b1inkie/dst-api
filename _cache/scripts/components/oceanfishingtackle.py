@@ -1,5 +1,17 @@
 data = [
     {
+        "method": "SetupLure",
+        "params": [
+            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "IsSingleUse",
         "params": [
 
@@ -15,18 +27,6 @@ data = [
         "params": [
             {"param": "data", "explain": "", "type": ""},
             {"param": "projectile_prefab", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetupLure",
-        "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [

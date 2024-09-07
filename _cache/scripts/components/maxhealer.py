@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "Heal",
+        "method": "SetHealthAmount",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
+            {"param": "health", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetHealthAmount",
+        "method": "Heal",
         "params": [
-            {"param": "health", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [

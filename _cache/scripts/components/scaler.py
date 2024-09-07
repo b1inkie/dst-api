@@ -12,8 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "OnLoad",
         "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,9 +35,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "OnSave",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,7 +1,8 @@
 data = [
     {
-        "method": "OnRemoveFromEntity",
+        "method": "Teach",
         "params": [
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,9 +12,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Teach",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,12 +1,8 @@
 data = [
     {
-        "method": "DoTerraform",
+        "method": "OnUpdate",
         "params": [
-            {"param": "px", "explain": "", "type": ""},
-            {"param": "py", "explain": "", "type": ""},
-            {"param": "pz", "explain": "", "type": ""},
-            {"param": "x", "explain": "", "type": ""},
-            {"param": "y", "explain": "", "type": ""},
+            {"param": "dt", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -41,9 +37,13 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUpdate",
+        "method": "DoTerraform",
         "params": [
-            {"param": "dt", "explain": "", "type": ""},
+            {"param": "px", "explain": "", "type": ""},
+            {"param": "py", "explain": "", "type": ""},
+            {"param": "pz", "explain": "", "type": ""},
+            {"param": "x", "explain": "", "type": ""},
+            {"param": "y", "explain": "", "type": ""},
 
         ],
         "returns": [

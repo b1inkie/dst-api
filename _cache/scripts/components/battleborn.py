@@ -1,8 +1,8 @@
 data = [
     {
-        "method": "SetDecayTime",
+        "method": "SetSanityEnabled",
         "params": [
-            {"param": "time", "explain": "", "type": ""},
+            {"param": "enabled", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -12,9 +12,21 @@ data = [
         "author": "",
     },
     {
-        "method": "SetBattlebornBonus",
+        "method": "SetOnTriggerFn",
         "params": [
-            {"param": "bonus", "explain": "", "type": ""},
+            {"param": "ontriggerfn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetDecayTime",
+        "params": [
+            {"param": "time", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,21 +59,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetStoreTime",
+        "method": "SetBattlebornBonus",
         "params": [
-            {"param": "time", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetHealthEnabled",
-        "params": [
-            {"param": "enabled", "explain": "", "type": ""},
+            {"param": "bonus", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -95,30 +95,6 @@ data = [
         "author": "",
     },
     {
-        "method": "SetClampMin",
-        "params": [
-            {"param": "min", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetSanityEnabled",
-        "params": [
-            {"param": "enabled", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetClampMax",
         "params": [
             {"param": "max", "explain": "", "type": ""},
@@ -131,9 +107,33 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnTriggerFn",
+        "method": "SetHealthEnabled",
         "params": [
-            {"param": "ontriggerfn", "explain": "", "type": ""},
+            {"param": "enabled", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetClampMin",
+        "params": [
+            {"param": "min", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetStoreTime",
+        "params": [
+            {"param": "time", "explain": "", "type": ""},
 
         ],
         "returns": [

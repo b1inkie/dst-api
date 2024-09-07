@@ -1,17 +1,6 @@
 data = [
     {
-        "method": "IsEmpty",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
+        "method": "IsFertile",
         "params": [
 
         ],
@@ -35,8 +24,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "Reset",
         "params": [
+            {"param": "reason", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,7 +36,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -60,51 +50,6 @@ data = [
         "method": "RemoveCrop",
         "params": [
             {"param": "crop", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsFertile",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetFertilePercent",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsFullFertile",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Reset",
-        "params": [
-            {"param": "reason", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -131,6 +76,61 @@ data = [
         "params": [
             {"param": "obj", "explain": "", "type": ""},
             {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsFullFertile",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetFertilePercent",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsEmpty",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

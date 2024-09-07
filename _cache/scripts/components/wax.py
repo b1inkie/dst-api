@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "SetIsSpray",
+        "method": "GetIsSpray",
         "params": [
 
         ],
@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetIsSpray",
+        "method": "SetIsSpray",
         "params": [
 
         ],

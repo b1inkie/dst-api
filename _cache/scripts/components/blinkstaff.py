@@ -1,7 +1,9 @@
 data = [
     {
-        "method": "ResetSoundFX",
+        "method": "SetFX",
         "params": [
+            {"param": "front", "explain": "", "type": ""},
+            {"param": "back", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -11,9 +13,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SpawnEffect",
+        "method": "ResetSoundFX",
         "params": [
-            {"param": "inst", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,10 +37,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Blink",
+        "method": "SpawnEffect",
         "params": [
-            {"param": "pt", "explain": "", "type": ""},
-            {"param": "caster", "explain": "", "type": ""},
+            {"param": "inst", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -49,10 +49,10 @@ data = [
         "author": "",
     },
     {
-        "method": "SetFX",
+        "method": "Blink",
         "params": [
-            {"param": "front", "explain": "", "type": ""},
-            {"param": "back", "explain": "", "type": ""},
+            {"param": "pt", "explain": "", "type": ""},
+            {"param": "caster", "explain": "", "type": ""},
 
         ],
         "returns": [

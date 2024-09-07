@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "OnUpdate",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "ShouldRemoveIndicator",
         "params": [
             {"param": "target", "explain": "", "type": ""},
@@ -25,17 +36,6 @@ data = [
     },
     {
         "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
         "params": [
 
         ],

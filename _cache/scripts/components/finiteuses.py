@@ -1,54 +1,10 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "OnUsedAsItem",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Use",
-        "params": [
-            {"param": "num", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetDoesNotStartFull",
-        "params": [
-            {"param": "enabled", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetMaxUses",
-        "params": [
-            {"param": "val", "explain": "", "type": ""},
+            {"param": "action", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -82,7 +38,19 @@ data = [
         "author": "",
     },
     {
-        "method": "GetUses",
+        "method": "SetDoesNotStartFull",
+        "params": [
+            {"param": "enabled", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
         "params": [
 
         ],
@@ -93,8 +61,9 @@ data = [
         "author": "",
     },
     {
-        "method": "IgnoresCombatDurabilityLoss",
+        "method": "OnLoad",
         "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -128,9 +97,21 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnFinished",
+        "method": "SetIgnoreCombatDurabilityLoss",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "value", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetMaxUses",
+        "params": [
+            {"param": "val", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -163,11 +144,8 @@ data = [
         "author": "",
     },
     {
-        "method": "OnUsedAsItem",
+        "method": "IgnoresCombatDurabilityLoss",
         "params": [
-            {"param": "action", "explain": "", "type": ""},
-            {"param": "doer", "explain": "", "type": ""},
-            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -177,9 +155,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetIgnoreCombatDurabilityLoss",
+        "method": "Use",
         "params": [
-            {"param": "value", "explain": "", "type": ""},
+            {"param": "num", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -189,9 +167,31 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "GetUses",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnFinished",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

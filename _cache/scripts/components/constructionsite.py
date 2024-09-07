@@ -1,27 +1,5 @@
 data = [
     {
-        "method": "HasBuilder",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Disable",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetMaterialCount",
         "params": [
             {"param": "prefab", "explain": "", "type": ""},
@@ -34,19 +12,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetConstructionPrefab",
-        "params": [
-            {"param": "prefab", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnStartConstruction",
+        "method": "OnStopConstruction",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
 
@@ -70,20 +36,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Enable",
+        "method": "IsComplete",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DropAllMaterials",
-        "params": [
-            {"param": "drop_pos", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -104,7 +58,63 @@ data = [
         "author": "",
     },
     {
-        "method": "RemoveMaterial",
+        "method": "SetOnStartConstructionFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "HasBuilder",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Disable",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ForceStopConstruction",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "AddMaterial",
         "params": [
             {"param": "prefab", "explain": "", "type": ""},
             {"param": "num", "explain": "", "type": ""},
@@ -128,31 +138,34 @@ data = [
         "author": "",
     },
     {
+        "method": "SetConstructionPrefab",
+        "params": [
+            {"param": "prefab", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveMaterial",
+        "params": [
+            {"param": "prefab", "explain": "", "type": ""},
+            {"param": "num", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnLoad",
         "params": [
             {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsComplete",
-        "params": [
 
         ],
         "returns": [
@@ -175,7 +188,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnStartConstructionFn",
+        "method": "SetOnStopConstructionFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -187,10 +200,21 @@ data = [
         "author": "",
     },
     {
-        "method": "AddMaterial",
+        "method": "GetSlotCount",
         "params": [
-            {"param": "prefab", "explain": "", "type": ""},
-            {"param": "num", "explain": "", "type": ""},
+            {"param": "slot", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "DropAllMaterials",
+        "params": [
+            {"param": "drop_pos", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -212,7 +236,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnStopConstruction",
+        "method": "OnStartConstruction",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
 
@@ -224,32 +248,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnStopConstructionFn",
+        "method": "Enable",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ForceStopConstruction",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetSlotCount",
-        "params": [
-            {"param": "slot", "explain": "", "type": ""},
 
         ],
         "returns": [

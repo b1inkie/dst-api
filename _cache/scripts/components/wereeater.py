@@ -1,6 +1,17 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "GetDebugString",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ResetFoodMemory",
         "params": [
 
         ],
@@ -23,8 +34,9 @@ data = [
         "author": "",
     },
     {
-        "method": "ResetFoodMemory",
+        "method": "EatMosterFood",
         "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,17 +58,6 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "ForceTransformToWere",
         "params": [
             {"param": "mode", "explain": "", "type": ""},
@@ -69,7 +70,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -80,9 +81,8 @@ data = [
         "author": "",
     },
     {
-        "method": "EatMosterFood",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [

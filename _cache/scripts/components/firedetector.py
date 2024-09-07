@@ -1,55 +1,7 @@
 data = [
     {
-        "method": "SetOnBeginEmergencyFn",
+        "method": "DetectFire",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ResetEmergencyCooldown",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnEndEmergencyFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnBeginWarningFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetOnFindFireFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -82,9 +34,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Activate",
+        "method": "SetOnBeginEmergencyFn",
         "params": [
-            {"param": "randomizedStartTime", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -94,7 +46,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnEndWarningFn",
+        "method": "SetOnUpdateWarningFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -117,7 +69,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnUpdateWarningFn",
+        "method": "SetOnFindFireFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -129,19 +81,7 @@ data = [
         "author": "",
     },
     {
-        "method": "LowerEmergencyLevel",
-        "params": [
-            {"param": "numlevels", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetEmergencyLevel",
+        "method": "IsEmergency",
         "params": [
 
         ],
@@ -164,7 +104,7 @@ data = [
         "author": "",
     },
     {
-        "method": "DetectFire",
+        "method": "ResetEmergencyCooldown",
         "params": [
 
         ],
@@ -175,8 +115,21 @@ data = [
         "author": "",
     },
     {
-        "method": "IsEmergency",
+        "method": "LowerEmergencyLevel",
         "params": [
+            {"param": "numlevels", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Activate",
+        "params": [
+            {"param": "randomizedStartTime", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -197,8 +150,55 @@ data = [
         "author": "",
     },
     {
+        "method": "GetEmergencyLevel",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetMaxEmergencyLevel",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnEndWarningFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnBeginWarningFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnEndEmergencyFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

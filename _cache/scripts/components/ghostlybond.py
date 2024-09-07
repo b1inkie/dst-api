@@ -1,7 +1,43 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "RecallComplete",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SpawnGhost",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Init",
+        "params": [
+            {"param": "ghost_prefab", "explain": "", "type": ""},
+            {"param": "bond_levelup_time", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Summon",
+        "params": [
+            {"param": "summoningitem", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,32 +70,7 @@ data = [
         "author": "",
     },
     {
-        "method": "LoadPostPass",
-        "params": [
-            {"param": "newents", "explain": "", "type": ""},
-            {"param": "data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Recall",
-        "params": [
-            {"param": "was_killed", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RecallComplete",
+        "method": "ResumeBonding",
         "params": [
 
         ],
@@ -70,7 +81,7 @@ data = [
         "author": "",
     },
     {
-        "method": "SpawnGhost",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -92,44 +103,9 @@ data = [
         "author": "",
     },
     {
-        "method": "ResumeBonding",
+        "method": "OnLoad",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetBondLevel",
-        "params": [
-            {"param": "level", "explain": "", "type": ""},
-            {"param": "time", "explain": "", "type": ""},
-            {"param": "isloading", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "ChangeBehaviour",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
+            {"param": "data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -162,31 +138,6 @@ data = [
         "author": "",
     },
     {
-        "method": "Summon",
-        "params": [
-            {"param": "summoningitem", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Init",
-        "params": [
-            {"param": "ghost_prefab", "explain": "", "type": ""},
-            {"param": "bond_levelup_time", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetBondTimeMultiplier",
         "params": [
             {"param": "src", "explain": "", "type": ""},
@@ -201,8 +152,57 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLoad",
+        "method": "GetDebugString",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ChangeBehaviour",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetBondLevel",
+        "params": [
+            {"param": "level", "explain": "", "type": ""},
+            {"param": "time", "explain": "", "type": ""},
+            {"param": "isloading", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Recall",
+        "params": [
+            {"param": "was_killed", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "LoadPostPass",
+        "params": [
+            {"param": "newents", "explain": "", "type": ""},
             {"param": "data", "explain": "", "type": ""},
 
         ],

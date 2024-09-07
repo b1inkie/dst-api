@@ -1,42 +1,20 @@
 data = [
     {
-        "method": "SetDriedBuildFile",
-        "params": [
-            {"param": "dried_buildfile", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetProduct",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetProduct",
         "params": [
             {"param": "product", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetDriedBuildFile",
+        "params": [
+            {"param": "dried_buildfile", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -94,6 +72,28 @@ data = [
         "method": "SetBuildFile",
         "params": [
             {"param": "buildfile", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetProduct",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

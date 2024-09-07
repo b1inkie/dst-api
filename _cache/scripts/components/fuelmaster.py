@@ -12,9 +12,10 @@ data = [
         "author": "",
     },
     {
-        "method": "SetBonusFn",
+        "method": "GetBonusMult",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "item", "explain": "", "type": ""},
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -24,10 +25,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetBonusMult",
+        "method": "SetBonusFn",
         "params": [
-            {"param": "item", "explain": "", "type": ""},
-            {"param": "target", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

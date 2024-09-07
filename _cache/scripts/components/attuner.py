@@ -1,5 +1,29 @@
 data = [
     {
+        "method": "TransferComponent",
+        "params": [
+            {"param": "newinst", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "UnregisterAttunedSource",
+        "params": [
+            {"param": "proxy", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "RegisterAttunedSource",
         "params": [
             {"param": "proxy", "explain": "", "type": ""},
@@ -24,18 +48,6 @@ data = [
         "author": "",
     },
     {
-        "method": "GetAttunedTarget",
-        "params": [
-            {"param": "tag", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "GetDebugString",
         "params": [
 
@@ -47,21 +59,9 @@ data = [
         "author": "",
     },
     {
-        "method": "UnregisterAttunedSource",
+        "method": "GetAttunedTarget",
         "params": [
-            {"param": "proxy", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TransferComponent",
-        "params": [
-            {"param": "newinst", "explain": "", "type": ""},
+            {"param": "tag", "explain": "", "type": ""},
 
         ],
         "returns": [

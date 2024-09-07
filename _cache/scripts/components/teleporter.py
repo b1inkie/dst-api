@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "OnSave",
+        "method": "IsTargetBusy",
         "params": [
 
         ],
@@ -11,8 +11,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "UseTemporaryExit",
         "params": [
+            {"param": "doer", "explain": "", "type": ""},
+            {"param": "temporaryexit", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -33,9 +35,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Target",
+        "method": "UnregisterTeleportee",
         "params": [
-            {"param": "otherTeleporter", "explain": "", "type": ""},
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,31 +62,7 @@ data = [
         "author": "",
     },
     {
-        "method": "UnregisterTeleportee",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Teleport",
-        "params": [
-            {"param": "obj", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetEnabled",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -108,55 +86,8 @@ data = [
         "author": "",
     },
     {
-        "method": "IsTargetBusy",
+        "method": "OnSave",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsActive",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RegisterTeleportee",
-        "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "LoadPostPass",
-        "params": [
-            {"param": "newents", "explain": "", "type": ""},
-            {"param": "savedata", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -179,10 +110,10 @@ data = [
         "author": "",
     },
     {
-        "method": "ReceiveItem",
+        "method": "LoadPostPass",
         "params": [
-            {"param": "item", "explain": "", "type": ""},
-            {"param": "source", "explain": "", "type": ""},
+            {"param": "newents", "explain": "", "type": ""},
+            {"param": "savedata", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -192,7 +123,7 @@ data = [
         "author": "",
     },
     {
-        "method": "PushDoneTeleporting",
+        "method": "Teleport",
         "params": [
             {"param": "obj", "explain": "", "type": ""},
 
@@ -216,9 +147,9 @@ data = [
         "author": "",
     },
     {
-        "method": "Activate",
+        "method": "Target",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
+            {"param": "otherTeleporter", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -239,10 +170,79 @@ data = [
         "author": "",
     },
     {
-        "method": "UseTemporaryExit",
+        "method": "Activate",
         "params": [
             {"param": "doer", "explain": "", "type": ""},
-            {"param": "temporaryexit", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetEnabled",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "PushDoneTeleporting",
+        "params": [
+            {"param": "obj", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RegisterTeleportee",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ReceiveItem",
+        "params": [
+            {"param": "item", "explain": "", "type": ""},
+            {"param": "source", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsActive",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnRemoveFromEntity",
+        "params": [
 
         ],
         "returns": [

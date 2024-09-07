@@ -1,45 +1,8 @@
 data = [
     {
-        "method": "SetBankSwapOnFloat",
+        "method": "SetSwapData",
         "params": [
-            {"param": "should_bank_swap", "explain": "", "type": ""},
-            {"param": "float_index", "explain": "", "type": ""},
             {"param": "swap_data", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Erode",
-        "params": [
-            {"param": "erode_time", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetSize",
-        "params": [
-            {"param": "size", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsFloating",
-        "params": [
 
         ],
         "returns": [
@@ -61,19 +24,11 @@ data = [
         "author": "",
     },
     {
-        "method": "OnNoLongerLandedClient",
+        "method": "SetBankSwapOnFloat",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnLandedClient",
-        "params": [
+            {"param": "should_bank_swap", "explain": "", "type": ""},
+            {"param": "float_index", "explain": "", "type": ""},
+            {"param": "swap_data", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -95,9 +50,19 @@ data = [
         "author": "",
     },
     {
-        "method": "SetScale",
+        "method": "OnLandedServer",
         "params": [
-            {"param": "scale", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnNoLongerLandedClient",
+        "params": [
 
         ],
         "returns": [
@@ -118,9 +83,20 @@ data = [
         "author": "",
     },
     {
-        "method": "SetSwapData",
+        "method": "SetIsObstacle",
         "params": [
-            {"param": "swap_data", "explain": "", "type": ""},
+            {"param": "bool", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "IsFloating",
+        "params": [
 
         ],
         "returns": [
@@ -141,8 +117,32 @@ data = [
         "author": "",
     },
     {
-        "method": "OnLandedServer",
+        "method": "Erode",
         "params": [
+            {"param": "erode_time", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLandedClient",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetSize",
+        "params": [
+            {"param": "size", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -163,9 +163,9 @@ data = [
         "author": "",
     },
     {
-        "method": "AttachEffect",
+        "method": "SetScale",
         "params": [
-            {"param": "effect", "explain": "", "type": ""},
+            {"param": "scale", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -175,9 +175,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetIsObstacle",
+        "method": "AttachEffect",
         "params": [
-            {"param": "bool", "explain": "", "type": ""},
+            {"param": "effect", "explain": "", "type": ""},
 
         ],
         "returns": [

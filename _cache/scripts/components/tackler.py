@@ -1,17 +1,5 @@
 data = [
     {
-        "method": "SetStructureDamageMultiplier",
-        "params": [
-            {"param": "mult", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "SetOnStartTackleFn",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
@@ -24,9 +12,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnCollideFn",
+        "method": "SetStructureDamageMultiplier",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+            {"param": "mult", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,6 +48,18 @@ data = [
         "author": "",
     },
     {
+        "method": "SetDistance",
+        "params": [
+            {"param": "distance", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetRadius",
         "params": [
             {"param": "radius", "explain": "", "type": ""},
@@ -84,8 +84,9 @@ data = [
         "author": "",
     },
     {
-        "method": "CheckEdge",
+        "method": "CheckCollision",
         "params": [
+            {"param": "ignores", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -95,9 +96,8 @@ data = [
         "author": "",
     },
     {
-        "method": "CheckCollision",
+        "method": "CheckEdge",
         "params": [
-            {"param": "ignores", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -119,9 +119,9 @@ data = [
         "author": "",
     },
     {
-        "method": "SetDistance",
+        "method": "SetOnCollideFn",
         "params": [
-            {"param": "distance", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

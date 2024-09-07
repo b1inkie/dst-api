@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "IsHoundThief",
+        "method": "GetTargetWeight",
         "params": [
 
         ],
@@ -11,7 +11,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetTargetWeight",
+        "method": "IsHoundThief",
         "params": [
 
         ],

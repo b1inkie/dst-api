@@ -1,17 +1,5 @@
 data = [
     {
-        "method": "SetInit",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "OnRemoveEntity",
         "params": [
 
@@ -35,18 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Cancel",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetCancel",
+        "method": "SetInit",
         "params": [
             {"param": "fn", "explain": "", "type": ""},
 
@@ -70,17 +47,6 @@ data = [
         "author": "",
     },
     {
-        "method": "OnFinish",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "Play",
         "params": [
             {"param": "lines", "explain": "", "type": ""},
@@ -94,6 +60,40 @@ data = [
     },
     {
         "method": "OnClick",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetCancel",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Cancel",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnFinish",
         "params": [
 
         ],

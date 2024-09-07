@@ -1,43 +1,18 @@
 data = [
     {
+        "method": "OnRemoveEntity",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetHeadingNormal",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetCaptain",
-        "params": [
-            {"param": "captain", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveMemberListeners",
-        "params": [
-            {"param": "member", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -60,8 +35,44 @@ data = [
         "author": "",
     },
     {
-        "method": "OnSave",
+        "method": "AddMemberListeners",
         "params": [
+            {"param": "member", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "RemoveMember",
+        "params": [
+            {"param": "member", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnUpdate",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetTarget",
+        "params": [
+            {"param": "target", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -84,7 +95,7 @@ data = [
         "author": "",
     },
     {
-        "method": "AddMemberListeners",
+        "method": "RemoveMemberListeners",
         "params": [
             {"param": "member", "explain": "", "type": ""},
 
@@ -96,7 +107,19 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveEntity",
+        "method": "SetCaptain",
+        "params": [
+            {"param": "captain", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
         "params": [
 
         ],
@@ -109,29 +132,6 @@ data = [
     {
         "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnUpdate",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "RemoveMember",
-        "params": [
-            {"param": "member", "explain": "", "type": ""},
 
         ],
         "returns": [

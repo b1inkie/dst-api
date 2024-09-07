@@ -1,9 +1,8 @@
 data = [
     {
-        "method": "ShouldTransition",
+        "method": "SetEnterWaterFn",
         "params": [
-            {"param": "x", "explain": "", "type": ""},
-            {"param": "z", "explain": "", "type": ""},
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -36,18 +35,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntityWake",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnExitOcean",
+        "method": "GetDebugString",
         "params": [
 
         ],
@@ -70,20 +58,8 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "OnEntityWake",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetEnterWaterFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -95,6 +71,30 @@ data = [
     {
         "method": "OnEnterOcean",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnExitOcean",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "ShouldTransition",
+        "params": [
+            {"param": "x", "explain": "", "type": ""},
+            {"param": "z", "explain": "", "type": ""},
 
         ],
         "returns": [

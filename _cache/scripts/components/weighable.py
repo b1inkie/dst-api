@@ -1,17 +1,6 @@
 data = [
     {
-        "method": "GetWeightPercent",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
+        "method": "GetWeight",
         "params": [
 
         ],
@@ -34,19 +23,7 @@ data = [
         "author": "",
     },
     {
-        "method": "CopyWeighable",
-        "params": [
-            {"param": "src_weighable", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetDebugString",
+        "method": "GetWeightPercent",
         "params": [
 
         ],
@@ -60,17 +37,6 @@ data = [
         "method": "SetWeight",
         "params": [
             {"param": "weight", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetWeight",
-        "params": [
 
         ],
         "returns": [
@@ -96,6 +62,40 @@ data = [
         "params": [
             {"param": "min_weight", "explain": "", "type": ""},
             {"param": "max_weight", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "CopyWeighable",
+        "params": [
+            {"param": "src_weighable", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnSave",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "GetDebugString",
+        "params": [
 
         ],
         "returns": [

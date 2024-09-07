@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "Enable",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "StartInspiring",
         "params": [
 
@@ -23,17 +34,6 @@ data = [
     },
     {
         "method": "Disable",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "Enable",
         "params": [
 
         ],

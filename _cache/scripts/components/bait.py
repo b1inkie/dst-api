@@ -1,5 +1,16 @@
 data = [
     {
+        "method": "IsFree",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "GetDebugString",
         "params": [
 
@@ -12,17 +23,6 @@ data = [
     },
     {
         "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsFree",
         "params": [
 
         ],

@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "OnLanded",
+        "method": "Submerge",
         "params": [
 
         ],
@@ -12,6 +12,17 @@ data = [
     },
     {
         "method": "GetUnderwaterObject",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnLanded",
         "params": [
 
         ],
@@ -49,7 +60,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Submerge",
+        "method": "OnSave",
         "params": [
 
         ],
@@ -61,17 +72,6 @@ data = [
     },
     {
         "method": "OnRemoveFromEntity",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
         "params": [
 
         ],

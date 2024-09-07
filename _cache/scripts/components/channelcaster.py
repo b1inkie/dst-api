@@ -1,31 +1,8 @@
 data = [
     {
-        "method": "SetOnStartChannelingFn",
-        "params": [
-            {"param": "fn", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "StartChanneling",
         "params": [
             {"param": "item", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "IsChanneling",
-        "params": [
 
         ],
         "returns": [
@@ -46,8 +23,32 @@ data = [
         "author": "",
     },
     {
+        "method": "SetOnStartChannelingFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "StopChanneling",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetOnStopChannelingFn",
+        "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -69,9 +70,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnStopChannelingFn",
+        "method": "IsChanneling",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

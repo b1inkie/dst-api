@@ -1,8 +1,7 @@
 data = [
     {
-        "method": "TurnOn",
+        "method": "GetTechTrees",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -37,8 +36,9 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "TurnOn",
         "params": [
+            {"param": "doer", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -48,7 +48,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetTechTrees",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

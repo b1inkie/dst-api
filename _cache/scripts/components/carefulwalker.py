@@ -12,6 +12,17 @@ data = [
         "author": "",
     },
     {
+        "method": "IsCarefulWalking",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetCarefulWalkingSpeedMultiplier",
         "params": [
             {"param": "mult", "explain": "", "type": ""},
@@ -36,8 +47,11 @@ data = [
         "author": "",
     },
     {
-        "method": "IsCarefulWalking",
+        "method": "TrackTarget",
         "params": [
+            {"param": "target", "explain": "", "type": ""},
+            {"param": "radius", "explain": "", "type": ""},
+            {"param": "duration", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -49,20 +63,6 @@ data = [
     {
         "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "TrackTarget",
-        "params": [
-            {"param": "target", "explain": "", "type": ""},
-            {"param": "radius", "explain": "", "type": ""},
-            {"param": "duration", "explain": "", "type": ""},
 
         ],
         "returns": [

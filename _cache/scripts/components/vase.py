@@ -1,9 +1,7 @@
 data = [
     {
-        "method": "Decorate",
+        "method": "Enable",
         "params": [
-            {"param": "giver", "explain": "", "type": ""},
-            {"param": "item", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -35,8 +33,10 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "Decorate",
         "params": [
+            {"param": "giver", "explain": "", "type": ""},
+            {"param": "item", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,7 +46,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Enable",
+        "method": "OnRemoveFromEntity",
         "params": [
 
         ],

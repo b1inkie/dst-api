@@ -11,6 +11,18 @@ data = [
         "author": "",
     },
     {
+        "method": "SetBoat",
+        "params": [
+            {"param": "boat", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "SetRotationDirection",
         "params": [
             {"param": "dir", "explain": "", "type": ""},
@@ -36,18 +48,6 @@ data = [
     {
         "method": "OnRemoveFromEntity",
         "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "SetBoat",
-        "params": [
-            {"param": "boat", "explain": "", "type": ""},
 
         ],
         "returns": [

@@ -1,6 +1,6 @@
 data = [
     {
-        "method": "GetNextStage",
+        "method": "GetCurrentStageData",
         "params": [
 
         ],
@@ -11,8 +11,20 @@ data = [
         "author": "",
     },
     {
-        "method": "OnEntitySleep",
+        "method": "GetDebugString",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "Pause",
+        "params": [
+            {"param": "reason", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -34,53 +46,7 @@ data = [
         "author": "",
     },
     {
-        "method": "ExtendGrowTime",
-        "params": [
-            {"param": "extra_time", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
         "method": "StopGrowing",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartGrowing",
-        "params": [
-            {"param": "time", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "DoGrowth",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "GetStage",
         "params": [
 
         ],
@@ -102,8 +68,9 @@ data = [
         "author": "",
     },
     {
-        "method": "GetCurrentStageData",
+        "method": "ExtendGrowTime",
         "params": [
+            {"param": "extra_time", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -125,7 +92,7 @@ data = [
         "author": "",
     },
     {
-        "method": "GetDebugString",
+        "method": "GetStage",
         "params": [
 
         ],
@@ -148,8 +115,42 @@ data = [
         "author": "",
     },
     {
+        "method": "DoGrowth",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
         "method": "OnEntityWake",
         "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "OnEntitySleep",
+        "params": [
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartGrowing",
+        "params": [
+            {"param": "time", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -171,9 +172,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Resume",
+        "method": "GetNextStage",
         "params": [
-            {"param": "reason", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -183,7 +183,7 @@ data = [
         "author": "",
     },
     {
-        "method": "Pause",
+        "method": "Resume",
         "params": [
             {"param": "reason", "explain": "", "type": ""},
 

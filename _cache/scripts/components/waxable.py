@@ -12,8 +12,10 @@ data = [
         "author": "",
     },
     {
-        "method": "NeedsSpray",
+        "method": "Wax",
         "params": [
+            {"param": "doer", "explain": "", "type": ""},
+            {"param": "waxitem", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -23,7 +25,7 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "NeedsSpray",
         "params": [
 
         ],
@@ -46,10 +48,8 @@ data = [
         "author": "",
     },
     {
-        "method": "Wax",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
-            {"param": "waxitem", "explain": "", "type": ""},
 
         ],
         "returns": [

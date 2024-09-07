@@ -1,19 +1,8 @@
 data = [
     {
-        "method": "CanInteract",
+        "method": "SetOnStopUseFn",
         "params": [
-            {"param": "doer", "explain": "", "type": ""},
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "StartUsingItem",
-        "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -46,7 +35,19 @@ data = [
         "author": "",
     },
     {
-        "method": "OnRemoveFromEntity",
+        "method": "CanInteract",
+        "params": [
+            {"param": "doer", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "StartUsingItem",
         "params": [
 
         ],
@@ -57,9 +58,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnStopUseFn",
+        "method": "OnRemoveFromEntity",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [

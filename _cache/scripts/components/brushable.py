@@ -1,17 +1,6 @@
 data = [
     {
-        "method": "GetDebugString",
-        "params": [
-
-        ],
-        "returns": [
-
-        ],
-        "tips": "",
-        "author": "",
-    },
-    {
-        "method": "OnSave",
+        "method": "CalculateNumPrizes",
         "params": [
 
         ],
@@ -34,10 +23,8 @@ data = [
         "author": "",
     },
     {
-        "method": "SetBrushable",
+        "method": "GetDebugString",
         "params": [
-            {"param": "brushable", "explain": "", "type": ""},
-            {"param": "reset", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -47,8 +34,9 @@ data = [
         "author": "",
     },
     {
-        "method": "CalculateNumPrizes",
+        "method": "SetOnBrushed",
         "params": [
+            {"param": "fn", "explain": "", "type": ""},
 
         ],
         "returns": [
@@ -71,9 +59,21 @@ data = [
         "author": "",
     },
     {
-        "method": "SetOnBrushed",
+        "method": "OnSave",
         "params": [
-            {"param": "fn", "explain": "", "type": ""},
+
+        ],
+        "returns": [
+
+        ],
+        "tips": "",
+        "author": "",
+    },
+    {
+        "method": "SetBrushable",
+        "params": [
+            {"param": "brushable", "explain": "", "type": ""},
+            {"param": "reset", "explain": "", "type": ""},
 
         ],
         "returns": [
