@@ -10,6 +10,9 @@ edited by lan
 
 ps: 由于都是批量处理,难免会有些问题,可以向我反馈
 
+gitee:
+https://gitee.com/b1inkie/dst-api
+
 ## 成为贡献者:
 
 *`scripts/`* 目录下,存放着所有需要进行注释的lua文件!
