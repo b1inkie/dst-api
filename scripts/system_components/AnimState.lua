@@ -9,7 +9,7 @@ data = {
 
         },
         tips = "添加新build",
-        author = "",
+        author = "Runar",
     },
     
     ["AnimDone"] = {
@@ -17,23 +17,23 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "boolean"},
+            {explain = "动画是否结束播放", type = "boolean"},
 
         },
         tips = "判断动画是否播放完",
-        author = "",
+        author = "Runar",
     },
     
     ["AnimateWhilePaused"] = {
         params = {
-            {param = "bool", explain = "", type = "boolean"},
+            {param = "bool", explain = "是否播放动画", type = "boolean"},
    
         },
         returns = {
 
         },
         tips = "暂停时是否也播放动画",
-        author = "",
+        author = "Runar",
     },
     
     ["AssignItemSkins"] = {
@@ -58,11 +58,11 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "boolean"},
+            {explain = "是否有给定通道", type = "boolean"},
 
         },
         tips = "当前build下是否有对应通道",
-        author = "",
+        author = "Runar",
     },
     
     ["ClearAllOverrideSymbols"] = {
@@ -73,7 +73,7 @@ data = {
 
         },
         tips = "清除所有覆盖通道",
-        author = "",
+        author = "Runar",
     },
     
     ["ClearBloomEffectHandle"] = {
@@ -84,7 +84,7 @@ data = {
 
         },
         tips = "清除泛光效果句柄",
-        author = "",
+        author = "Runar",
     },
     
     ["ClearDefaultEffectHandle"] = {
@@ -95,7 +95,7 @@ data = {
 
         },
         tips = "清除默认效果句柄",
-        author = "",
+        author = "Runar",
     },
     
     ["ClearOverrideBuild"] = {
@@ -106,7 +106,7 @@ data = {
 
         },
         tips = "清除覆盖的build",
-        author = "",
+        author = "Runar",
     },
     
     ["ClearOverrideSymbol"] = {
@@ -118,19 +118,19 @@ data = {
 
         },
         tips = "清除覆盖的通道",
-        author = "",
+        author = "Runar",
     },
     
     ["ClearSymbolBloom"] = {
         params = {
-            {param = "symbol", explain = "", type = "string"},
+            {param = "symbol", explain = "通道名", type = "string"},
    
         },
         returns = {
 
         },
         tips = "清除通道泛光",
-        author = "",
+        author = "Runar",
     },
     
     ["ClearSymbolExchanges"] = {
@@ -141,7 +141,7 @@ data = {
 
         },
         tips = "清除所有覆盖通道",
-        author = "",
+        author = "Runar",
     },
     
     ["CompareSymbolBuilds"] = {
@@ -175,14 +175,14 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
+            {explain = "红色通道(0~1)", type = "number"},
+            {explain = "绿色通道(0~1)", type = "number"},
+            {explain = "蓝色通道(0~1)", type = "number"},
+            {explain = "不透明度(0~1)", type = "number"},
 
         },
         tips = "获取叠加的颜色，返回r,g,b,a",
-        author = "",
+        author = "Runar",
     },
     
     ["GetBrightness"] = {
@@ -201,11 +201,11 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "string"},
+            {explain = "build名", type = "string"},
 
         },
         tips = "获取build名",
-        author = "",
+        author = "Runar",
     },
     
     ["GetCurrentAnimationFrame"] = {
@@ -213,11 +213,11 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "number"},
+            {explain = "时间(帧)", type = "number"},
 
         },
         tips = "获取当前动画帧数",
-        author = "",
+        author = "Runar",
     },
     
     ["GetCurrentAnimationLength"] = {
@@ -225,11 +225,11 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "number"},
+            {explain = "时间(秒)", type = "number"},
 
         },
         tips = "动画总长度，单位：秒，1 帧是 1/30 秒，0.33333 秒",
-        author = "",
+        author = "Runar",
     },
     
     ["GetCurrentAnimationTime"] = {
@@ -249,11 +249,11 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "number"},
+            {explain = "朝向的值", type = "number"},
 
         },
         tips = "获取当前动画的朝向，返回0，1，2，3，分别代表什么方向就需要进游戏测试了",
-        author = "",
+        author = "Runar",
     },
     
     ["GetHue"] = {
@@ -283,14 +283,14 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
+            {explain = "红色通道(0~1)", type = "number"},
+            {explain = "绿色通道(0~1)", type = "number"},
+            {explain = "蓝色通道(0~1)", type = "number"},
+            {explain = "不透明度(0~1)", type = "number"},
 
         },
         tips = "获取叠乘的颜色，返回r,g,b,a",
-        author = "",
+        author = "Runar",
     },
     
     ["GetSaturation"] = {
@@ -309,11 +309,11 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "string"},
+            {explain = "皮肤当前的build", type = "string"},
 
         },
         tips = "获取当前皮肤的build",
-        author = "",
+        author = "Runar",
     },
     
     ["GetSortOrder"] = {
@@ -332,14 +332,14 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
+            {explain = "红色通道(0~1)", type = "number"},
+            {explain = "绿色通道(0~1)", type = "number"},
+            {explain = "蓝色通道(0~1)", type = "number"},
+            {explain = "不透明度(0~1)", type = "number"},
 
         },
         tips = "获取通道叠加的颜色，返回r,g,b,a",
-        author = "",
+        author = "Runar",
     },
     
     ["GetSymbolHSB"] = {
@@ -358,14 +358,14 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
-            {explain = "", type = "number"},
+            {explain = "红色通道(0~1)", type = "number"},
+            {explain = "绿色通道(0~1)", type = "number"},
+            {explain = "蓝色通道(0~1)", type = "number"},
+            {explain = "不透明度(0~1)", type = "number"},
 
         },
         tips = "获取通道叠乘的颜色，返回r,g,b,a",
-        author = "",
+        author = "Runar",
     },
     
     ["GetSymbolOverride"] = {
@@ -374,38 +374,38 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "string"},
+            {explain = "覆盖通道名", type = "string"},
 
         },
         tips = "获取覆盖通道名",
-        author = "",
+        author = "Runar",
     },
     
     ["GetSymbolPosition"] = {
         params = {
             {param = "symbolname", explain = "通道名", type = "string"},
-            {param = "offset_x", explain = "", type = "number"},
-            {param = "offset_y", explain = "", type = "number"},
-            {param = "offset_z", explain = "", type = "number"},
+            {param = "offset_x", explain = "偏移量x", type = "number"},
+            {param = "offset_y", explain = "偏移量y", type = "number"},
+            {param = "offset_z", explain = "偏移量z", type = "number"},
    
         },
         returns = {
 
         },
         tips = "获取通道的位置坐标，四个参数，第一个是通道名，后面三个是x,y,z坐标的偏移量",
-        author = "",
+        author = "Runar",
     },
     
     ["Hide"] = {
         params = {
-            {param = "layername", explain = "层名", type = "string"},
+            {param = "layername", explain = "图层名", type = "string"},
    
         },
         returns = {
 
         },
         tips = "隐藏图层(Layer)",
-        author = "",
+        author = "Runar",
     },
     
     ["HideSymbol"] = {
@@ -417,7 +417,7 @@ data = {
 
         },
         tips = "隐藏通道",
-        author = "",
+        author = "Runar",
     },
     
     ["IsCurrentAnimation"] = {
@@ -426,11 +426,11 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "boolean"},
+            {explain = "是否为该动画", type = "boolean"},
 
         },
-        tips = "当前是否是当前动画名",
-        author = "",
+        tips = "当前动画是否为给出名动画",
+        author = "Runar",
     },
     
     ["IsSymbolOverridden"] = {
@@ -438,11 +438,11 @@ data = {
    
         },
         returns = {
-            {explain = "", type = "boolean"},
+            {explain = "是否被覆盖", type = "boolean"},
 
         },
         tips = "通道是否被覆盖",
-        author = "",
+        author = "Runar",
     },
     
     ["OverrideBrightness"] = {
@@ -485,17 +485,17 @@ data = {
     
     ["OverrideMultColour"] = {
         params = {
-            {param = "r", explain = "", type = "number"},
-            {param = "g", explain = "", type = "number"},
-            {param = "b", explain = "", type = "number"},
-            {param = "a", explain = "", type = "number"},
+            {param = "r", explain = "红色通道(0~1)", type = "number"},
+            {param = "g", explain = "绿色通道(0~1)", type = "number"},
+            {param = "b", explain = "蓝色通道(0~1)", type = "number"},
+            {param = "a", explain = "不透明度(0~1)", type = "number"},
    
         },
         returns = {
 
         },
         tips = "覆盖叠乘的颜色",
-        author = "",
+        author = "Runar",
     },
     
     ["OverrideSaturation"] = {
@@ -523,30 +523,30 @@ data = {
     
     ["OverrideSkinSymbol"] = {
         params = {
-            {param = "oldsymbol", explain = "", type = "string"},
-            {param = "skin_build", explain = "", type = "string"},
-            {param = "newsymbol", explain = "", type = "string"},
+            {param = "oldsymbol", explain = "通道名", type = "string"},
+            {param = "skin_build", explain = "覆盖通道所在的build", type = "string"},
+            {param = "newsymbol", explain = "覆盖通道", type = "string"},
    
         },
         returns = {
 
         },
         tips = "覆盖皮肤通道，与OverrideSymbol用法一致",
-        author = "",
+        author = "Runar",
     },
     
     ["OverrideSymbol"] = {
         params = {
-            {param = "oldsymbol", explain = "", type = "string"},
-            {param = "newbuild", explain = "", type = "string"},
-            {param = "newsymbol", explain = "", type = "string"},
+            {param = "oldsymbol", explain = "通道名", type = "string"},
+            {param = "newbuild", explain = "覆盖通道所在的build", type = "string"},
+            {param = "newsymbol", explain = "覆盖通道", type = "string"},
    
         },
         returns = {
 
         },
         tips = "覆盖旧通道",
-        author = "",
+        author = "Runar",
     },
     
     ["Pause"] = {
@@ -557,7 +557,7 @@ data = {
 
         },
         tips = "暂停动画，无参",
-        author = "",
+        author = "Runar",
     },
     
     ["PlayAnimation"] = {
@@ -594,47 +594,47 @@ data = {
 
         },
         tips = "恢复暂停的动画，无参",
-        author = "",
+        author = "Runar",
     },
     
     ["SetAddColour"] = {
         params = {
-            {param = "r", explain = "", type = "number"},
-            {param = "g", explain = "", type = "number"},
-            {param = "b", explain = "", type = "number"},
-            {param = "a", explain = "", type = "number"},
+            {param = "r", explain = "红色通道(0~1)", type = "number"},
+            {param = "g", explain = "绿色通道(0~1)", type = "number"},
+            {param = "b", explain = "蓝色通道(0~1)", type = "number"},
+            {param = "a", explain = "不透明度(0~1)", type = "number"},
    
         },
         returns = {
 
         },
         tips = "颜色叠加，几乎不受原图颜色影响，参数 0-1",
-        author = "",
+        author = "Runar",
     },
     
     ["SetBank"] = {
         params = {
-            {param = "name", explain = "", type = "string"},
+            {param = "name", explain = "动画父节点名", type = "string"},
    
         },
         returns = {
 
         },
         tips = "Spriter 里动画的父级节点的名字",
-        author = "",
+        author = "Runar",
     },
     
     ["SetBankAndPlayAnimation"] = {
         params = {
-            {param = "bankname", explain = "", type = "string"},
-            {param = "animname", explain = "", type = "string"},
+            {param = "bankname", explain = "动画父节点名", type = "string"},
+            {param = "animname", explain = "动画名", type = "string"},
    
         },
         returns = {
 
         },
         tips = "看名字能猜到是 SetBank()与PlayAnimation()两个方法的结合",
-        author = "",
+        author = "Runar",
     },
     
     ["SetBloomEffectHandle"] = {
@@ -646,7 +646,7 @@ data = {
 
         },
         tips = "设置泛光效果句柄",
-        author = "",
+        author = "Runar",
     },
     
     ["SetBrightness"] = {
@@ -663,14 +663,14 @@ data = {
     
     ["SetBuild"] = {
         params = {
-            {param = "buildname", explain = "", type = "string"},
+            {param = "buildname", explain = "build名", type = "string"},
    
         },
         returns = {
 
         },
         tips = "buildname 就是 scml 文件的名字",
-        author = "",
+        author = "Runar",
     },
     
     ["SetClientSideBuildOverrideFlag"] = {
@@ -709,19 +709,19 @@ data = {
 
         },
         tips = "设置默认效果句柄",
-        author = "",
+        author = "Runar",
     },
     
     ["SetDeltaTimeMultiplier"] = {
         params = {
-            {param = "speed", explain = "", type = "number"},
+            {param = "speed", explain = "倍率", type = "number"},
    
         },
         returns = {
 
         },
         tips = "动画播放速度（速度倍数）",
-        author = "",
+        author = "Runar",
     },
     
     ["SetDepthBias"] = {
@@ -898,17 +898,17 @@ data = {
     
     ["SetMultColour"] = {
         params = {
-            {param = "r", explain = "", type = "number"},
-            {param = "g", explain = "", type = "number"},
-            {param = "b", explain = "", type = "number"},
-            {param = "a", explain = "", type = "number"},
+            {param = "r", explain = "红色通道(0~1)", type = "number"},
+            {param = "g", explain = "绿色通道(0~1)", type = "number"},
+            {param = "b", explain = "蓝色通道(0~1)", type = "number"},
+            {param = "a", explain = "不透明度(0~1)", type = "number"},
    
         },
         returns = {
 
         },
-        tips = "颜色叠乘，受原图颜色影响，参数 0-1",
-        author = "",
+        tips = "颜色叠乘，受原图颜色影响",
+        author = "Runar",
     },
     
     ["SetMultiSymbolExchange"] = {
@@ -938,14 +938,14 @@ data = {
     
     ["SetOrientation"] = {
         params = {
-            {param = "ANIM_ORIENTATION", explain = "", type = "number"},
+            {param = "ANIM_ORIENTATION", explain = "动画朝向", type = "number"},
    
         },
         returns = {
 
         },
         tips = "设置动画的方向，参数从constants.lua里取ANIM_ORIENTATION",
-        author = "",
+        author = "Runar",
     },
     
     ["SetPercent"] = {
@@ -1038,17 +1038,17 @@ data = {
     
     ["SetSymbolAddColour"] = {
         params = {
-            {param = "r", explain = "", type = "number"},
-            {param = "g", explain = "", type = "number"},
-            {param = "b", explain = "", type = "number"},
-            {param = "a", explain = "", type = "number"},
+            {param = "r", explain = "红色通道(0~1)", type = "number"},
+            {param = "g", explain = "绿色通道(0~1)", type = "number"},
+            {param = "b", explain = "蓝色通道(0~1)", type = "number"},
+            {param = "a", explain = "不透明度(0~1)", type = "number"},
    
         },
         returns = {
 
         },
         tips = "设置通道叠加颜色",
-        author = "",
+        author = "Runar",
     },
     
     ["SetSymbolBloom"] = {
@@ -1078,15 +1078,15 @@ data = {
     
     ["SetSymbolExchange"] = {
         params = {
-            {param = "symbol1", explain = "", type = "string"},
-            {param = "symbol2", explain = "", type = "string"},
+            {param = "symbol1", explain = "通道1", type = "string"},
+            {param = "symbol2", explain = "通道2", type = "string"},
    
         },
         returns = {
 
         },
-        tips = "把symbol2放到symbol1前",
-        author = "",
+        tips = "把通道2放到通道1前",
+        author = "Runar",
     },
     
     ["SetSymbolHue"] = {
@@ -1117,42 +1117,42 @@ data = {
     
     ["SetSymbolMultColour"] = {
         params = {
-            {param = "r", explain = "", type = "number"},
-            {param = "g", explain = "", type = "number"},
-            {param = "b", explain = "", type = "number"},
-            {param = "a", explain = "", type = "number"},
+            {param = "r", explain = "红色通道(0~1)", type = "number"},
+            {param = "g", explain = "绿色通道(0~1)", type = "number"},
+            {param = "b", explain = "蓝色通道(0~1)", type = "number"},
+            {param = "a", explain = "不透明度(0~1)", type = "number"},
    
         },
         returns = {
 
         },
         tips = "设置通道叠乘颜色",
-        author = "",
+        author = "Runar",
     },
     
     ["SetSymbolSaturation"] = {
         params = {
-            {param = "symbol", explain = "", type = "string"},
-            {param = "saturation", explain = "", type = "number"},
+            {param = "symbol", explain = "通道名", type = "string"},
+            {param = "saturation", explain = "饱和度", type = "number"},
    
         },
         returns = {
 
         },
-        tips = "UNKNOWN",
-        author = "",
+        tips = "设置通道饱和度",
+        author = "Runar",
     },
     
     ["SetTime"] = {
         params = {
-            {param = "time", explain = "", type = "number"},
+            {param = "time", explain = "时间(秒)", type = "number"},
    
         },
         returns = {
 
         },
         tips = "设置当前动画从第几秒开始播放（秒）",
-        author = "",
+        author = "Runar",
     },
     
     ["SetUILightParams"] = {
@@ -1186,26 +1186,26 @@ data = {
     
     ["Show"] = {
         params = {
-            {param = "layername", explain = "", type = "string"},
+            {param = "layername", explain = "图层名", type = "string"},
    
         },
         returns = {
 
         },
         tips = "显示图层(Layer)",
-        author = "",
+        author = "Runar",
     },
     
     ["ShowSymbol"] = {
         params = {
-            {param = "symbolname", explain = "", type = "string"},
+            {param = "symbolname", explain = "通道名", type = "string"},
    
         },
         returns = {
 
         },
         tips = "显示通道，与HideSymbol对应",
-        author = "",
+        author = "Runar",
     },
     
     ["UseColourCube"] = {
