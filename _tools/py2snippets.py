@@ -11,7 +11,7 @@ def load_module(module_path, module_name):
     spec.loader.exec_module(module)
     return module.data
 
-def main(folder_input,folder_output,files_lst=[]):
+def main(folder_input,folder_output,prefix_of_bodyandprefix='',prefix_of_key='',files_lst=[]):
     if len(files_lst)==0:
         files_lst=list_files(folder_input)
     
@@ -52,9 +52,9 @@ def main(folder_input,folder_output,files_lst=[]):
                 
                 
                 res += f"""
-    "{item.get('method')}:{item.get('tips')}": {{
-        "prefix": "{module_name}:{item.get('method')}",
-        "body": "{body}",
+    "{prefix_of_key}{item.get('method')}:{item.get('tips')}": {{
+        "prefix": "{prefix_of_bodyandprefix}{module_name}:{item.get('method')}",
+        "body": "{prefix_of_bodyandprefix}{module_name}:{body}",
         "description": "{desc} 贡献者:@{item.get('author')}",
     }},
                 """
