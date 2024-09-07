@@ -2,6 +2,8 @@
 
 Don't Starve Together API Complete for VSCode
 
+---
+
 **插件下载**: 请于VSCode的插件市场中搜索关键字: **dst**
 
 特别感谢月佬的分享!
