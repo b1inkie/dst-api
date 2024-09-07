@@ -1,17 +1,22 @@
 local tools = {}
 
+local function escape_string(s)
+    -- 转义字符串中的特殊字符
+    return string.gsub(s, '"', "\\'")
+end
+
 function tools:decodeComponents(data_lst,output_dir) -- 解析数据
     local s1 = "data = [\n"
 
     for method,v in pairs(data_lst) do
         local _s = ""
         for index,param in pairs(v.params) do
-            _s = _s .. "            {\"param\": \""..param.param.."\", \"explain\": \""..param.explain.."\", \"type\": \""..param.type.."\"},\n"
+            _s = _s .. "            {\"param\": \""..param.param.."\", \"explain\": \""..escape_string(param.explain).."\", \"type\": \""..param.type.."\"},\n"
         end
 
         local _r = ""
         for index,param in pairs(v.returns) do
-            _r = _r .. "            {\"explain\": \""..param.explain.."\", \"type\": \""..param.type.."\"},\n"
+            _r = _r .. "            {\"explain\": \""..escape_string(param.explain).."\", \"type\": \""..param.type.."\"},\n"
         end
 
         s1 = s1 .. string.format([[
@@ -26,7 +31,7 @@ function tools:decodeComponents(data_lst,output_dir) -- 解析数据
         "tips": "%s",
         "author": "%s",
     },
-]], method, _s, _r, v.tips, v.author)
+]], method, _s, _r, escape_string(v.tips), escape_string(v.author))
     end
 
     s1 = s1 .. "]"
@@ -54,10 +59,7 @@ function tools:getFileName(directory)
 end
 
 
-local function escape_string(s)
-    -- 转义字符串中的特殊字符
-    return string.gsub(s, '"', "\\'")
-end
+
 
 function tools:table2string(t, indent)
     local s = "{\n"

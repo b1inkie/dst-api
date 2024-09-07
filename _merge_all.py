@@ -1,6 +1,16 @@
 import os,re,importlib.util,json
 
+# 一口气写的 因此有待优化
 
+# 合并
+# _lua2py | scripts -> _cache | 转py 方便后续操作 | _cache为python字典
+# _py2sn | _cache -> _temp
+# _merge_temp | _temp -> _snippets | 该文件夹_temp处理后,应该删除内容
+# _merge_all
+
+# 非git提交
+# _merge_single | scripts -> scripts
+# 后续一致
 
 def _merge_all(path_lst):
     res = {}
