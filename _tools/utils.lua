@@ -1,7 +1,7 @@
 local tools = {}
 
 function tools:decodeComponents(data_lst,output_dir) -- 解析数据
-    local s1 = "data = {\n"
+    local s1 = "data = [\n"
 
     for method,v in pairs(data_lst) do
         local _s = ""
@@ -23,11 +23,13 @@ function tools:decodeComponents(data_lst,output_dir) -- 解析数据
         "returns": [
 %s
         ],
+        "tips": "%s",
+        "author": "%s",
     },
-]], method, _s, _r)
+]], method, _s, _r, v.tips, v.author)
     end
 
-    s1 = s1 .. "}"
+    s1 = s1 .. "]"
 
     local f = io.open(output_dir,"w")
     if f then 
