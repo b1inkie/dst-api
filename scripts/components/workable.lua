@@ -51,7 +51,7 @@ data = {
 
         },
         returns = {
-            {explain = "被触发的动作类型", type = "action"}
+            {explain = "被触发的动作类型", type = "table"}
         },
         tips = "返回这个对象可以被哪种动作触发，比如建筑一般可以被锤子锤，那就会返回 ACTIONS.HAMMER",
         author = "御坂十七号",

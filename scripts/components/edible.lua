@@ -203,7 +203,7 @@ data = {
         
     ["DoFoodEffects"] = {
         params = {
-            {param = "food", explain = "食物对象", type = "entity"},
+            {param = "food", explain = "食物对象", type = "table"},
 
         },
         returns = {
@@ -226,8 +226,8 @@ data = {
         
     ["Eat"] = {
         params = {
-            {param = "food", explain = "食物对象", type = "entity"},
-            {param = "feeder", explain = "喂食者对象", type = "entity"},
+            {param = "food", explain = "食物对象", type = "table"},
+            {param = "feeder", explain = "喂食者对象", type = "table"},
 
         },
         returns = {
@@ -239,7 +239,7 @@ data = {
         
     ["TestFood"] = {
         params = {
-            {param = "food", explain = "食物对象", type = "entity"},
+            {param = "food", explain = "食物对象", type = "table"},
             {param = "testvalues", explain = "测试值", type = "table"},
 
         },
@@ -252,7 +252,7 @@ data = {
         
     ["PrefersToEat"] = {
         params = {
-            {param = "food", explain = "食物对象", type = "entity"},
+            {param = "food", explain = "食物对象", type = "table"},
 
         },
         returns = {
@@ -264,7 +264,7 @@ data = {
         
     ["CanEat"] = {
         params = {
-            {param = "food", explain = "食物对象", type = "entity"},
+            {param = "food", explain = "食物对象", type = "table"},
 
         },
         returns = {

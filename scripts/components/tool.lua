@@ -48,7 +48,7 @@ data = {
         
     ["SetAction"] = {
         params = {
-            {param = "action", explain = "工具动作类型", type = "ACTION"},
+            {param = "action", explain = "工具动作类型", type = "table"},
             {param = "effectiveness", explain = "效率", type = "number"},
 
         },
@@ -61,7 +61,7 @@ data = {
         
     ["CanDoAction"] = {
         params = {
-            {param = "action", explain = "工具动作类型", type = "ACTION"},
+            {param = "action", explain = "工具动作类型", type = "table"},
 
         },
         returns = {

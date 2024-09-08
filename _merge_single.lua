@@ -40,8 +40,8 @@ local data = {
         
     ["Heal"] = {
         params = {
-            {param = "target", explain = "治疗目标", type = "实体对象"},
-            {param = "doer", explain = "使用者", type = "触发治疗的对象，一般是玩家。"},
+            {param = "target", explain = "治疗目标", type = "table"},
+            {param = "doer", explain = "使用者，触发治疗的对象，一般是玩家。", type = "table"},
 
         },
         returns = {

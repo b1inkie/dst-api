@@ -27,8 +27,10 @@ https://gitee.com/b1inkie/dst-api
 ```lua
     ["SetConsumption"] = { -- 方法名:已自动生成,请勿改动
         params = {
-            -- param: 参数名(自动生成) explain: 参数说明(万能的群友们,请帮我注释吧) type: 参数类型
-            {param = "action", explain = "动作id", type = "全局变量"}, 
+            -- param: 参数名(自动生成) explain: 参数说明(万能的群友们,请帮我注释吧)
+            -- type: 参数类型<nil|boolean|number|string|function|thread|table|any>
+            ---------------<空值|  布尔  | 数值 | 字符串 |  函数  | 线程 |  表  |不定>
+            {param = "action", explain = "动作id", type = "any"}, 
             {param = "uses", explain = "剩余使用次数", type = "number"},
 
         },

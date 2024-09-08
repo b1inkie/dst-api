@@ -15,8 +15,8 @@ data = {
         params = {
             {
                 param = "dmg", explain = "伤害值或伤害函数", type = "number|function",
-                pfparams = {
-                    {param = "inst", explain = "组件的inst", type = "table"},
+                params = {
+                    {param = "inst", explain = "武器的inst", type = "table"},
                     {param = "attacker", explain = "攻击者的inst", type = "table"},
                     {param = "target", explain = "攻击目标的inst", type = "table"},
                 },
