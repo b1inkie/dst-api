@@ -20,6 +20,6 @@ paths = [
     '_temp'
 ]
 
-_merge_temp(paths,'components')
+_merge_temp(paths,'var_name')
 
 
