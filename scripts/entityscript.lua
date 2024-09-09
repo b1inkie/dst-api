@@ -1,5 +1,32 @@
 return {
 
+	["GetSaveRecord"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["Hide"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["Show"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
 	["StackableSkinHack"] = {
 		params = {
 			{param = "target", explain = "", type = ""},
@@ -10,9 +37,45 @@ return {
 		author = "",
 	},      
 
+	["IsInLimbo"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
 	["ForceOutOfLimbo"] = {
 		params = {
 			{param = "state", explain = "", type = ""},
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["RemoveFromScene"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["ReturnToScene"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["__tostring"] = {
+		params = {
 
 		},
 		returns = {},
@@ -33,6 +96,15 @@ return {
 	["RemoveInherentAction"] = {
 		params = {
 			{param = "act", explain = "", type = ""},
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetTimeAlive"] = {
+		params = {
 
 		},
 		returns = {},
@@ -182,6 +254,69 @@ return {
 		author = "",
 	},      
 
+	["GetBasicDisplayName"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetAdjectivedName"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetDisplayName"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetIsWet"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["IsAcidSizzling"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetSkinBuild"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetSkinName"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
 	["SetPrefabName"] = {
 		params = {
 			{param = "name", explain = "", type = ""},
@@ -292,6 +427,42 @@ return {
 		author = "",
 	},      
 
+	["GetPlatformFollowers"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetBrainString"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetDebugString"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["KillTasks"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
 	["StartThread"] = {
 		params = {
 			{param = "fn", explain = "", type = ""},
@@ -305,6 +476,24 @@ return {
 	["RunScript"] = {
 		params = {
 			{param = "name", explain = "", type = ""},
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["RestartBrain"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["StopBrain"] = {
+		params = {
 
 		},
 		returns = {},
@@ -332,11 +521,8 @@ return {
 		author = "",
 	},      
 
-	["ListenForEvent"] = {
+	["ClearStateGraph"] = {
 		params = {
-			{param = "event", explain = "", type = ""},
-			{param = "fn", explain = "", type = ""},
-			{param = "source", explain = "", type = ""},
 
 		},
 		returns = {},
@@ -344,11 +530,35 @@ return {
 		author = "",
 	},      
 
+	["ListenForEvent"] = {
+		params = {
+			{param = "event", explain = "事件", type = "string"},
+			{param = "fn", explain = "", type = "function", fn_params = {
+				{param = "inst", explain = "被监听对象", type = ""},
+				{param = "data", explain = "传递过来的表", type = "table"},
+			}},
+			{param = "source", explain = "监听对象,不填则监听自身", type = ""},
+
+		},
+		returns = {},
+		tips = "监听事件",
+		author = "lan",
+	},      
+
 	["RemoveEventCallback"] = {
 		params = {
-			{param = "event", explain = "", type = ""},
-			{param = "fn", explain = "", type = ""},
-			{param = "source", explain = "", type = ""},
+			{param = "event", explain = "事件", type = "string"},
+			{param = "fn", explain = "函数名", type = ""},
+			{param = "source", explain = "移除的对象,不填则是自身", type = ""},
+
+		},
+		returns = {},
+		tips = "移除监听器",
+		author = "lan(显而易见,如果ListenForEvent中使用的是匿名函数,则无法移除)",
+	},      
+
+	["RemoveAllEventCallbacks"] = {
+		params = {
 
 		},
 		returns = {},
@@ -378,15 +588,24 @@ return {
 		author = "",
 	},      
 
-	["PushEvent"] = {
+	["StopAllWatchingWorldStates"] = {
 		params = {
-			{param = "event", explain = "", type = ""},
-			{param = "data", explain = "", type = ""},
 
 		},
 		returns = {},
 		tips = "",
 		author = "",
+	},      
+
+	["PushEvent"] = {
+		params = {
+			{param = "event", explain = "推送的事件", type = "string"},
+			{param = "data", explain = "推送时传入的表,可不填", type = "table"},
+
+		},
+		returns = {},
+		tips = "推送事件",
+		author = "lan",
 	},      
 
 	["SetPhysicsRadiusOverride"] = {
@@ -402,6 +621,33 @@ return {
 	["GetPhysicsRadius"] = {
 		params = {
 			{param = "default", explain = "", type = ""},
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetBoatIntersectingPhysics"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetPosition"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetRotation"] = {
+		params = {
 
 		},
 		returns = {},
@@ -531,6 +777,24 @@ return {
 		author = "",
 	},      
 
+	["IsAsleep"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["CancelAllPendingTasks"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
 	["DoStaticPeriodicTask"] = {
 		params = {
 			{param = "time", explain = "", type = ""},
@@ -625,9 +889,27 @@ return {
 		author = "",
 	},      
 
+	["ClearBufferedAction"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
 	["PreviewBufferedAction"] = {
 		params = {
 			{param = "bufferedaction", explain = "", type = ""},
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["PerformPreviewBufferedAction"] = {
+		params = {
 
 		},
 		returns = {},
@@ -645,6 +927,24 @@ return {
 		author = "",
 	},      
 
+	["PerformBufferedAction"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetBufferedAction"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
 	["OnBuilt"] = {
 		params = {
 			{param = "builder", explain = "", type = ""},
@@ -653,6 +953,24 @@ return {
 		returns = {},
 		tips = "",
 		author = "",
+	},      
+
+	["Remove"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["IsValid"] = {
+		params = {
+
+		},
+		returns = {{explain = "实体是有效的", type = "boolean"},},
+		tips = "判断实体是否有效",
+		author = "lan(非常非常重要且常用的判断,无论是扫实体,还是判断对象存活,等等都应该加上这个判断)",
 	},      
 
 	["CanInteractWith"] = {
@@ -687,6 +1005,15 @@ return {
 		author = "",
 	},      
 
+	["IsOnValidGround"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
 	["IsOnPassablePoint"] = {
 		params = {
 			{param = "include_water", explain = "", type = ""},
@@ -708,9 +1035,36 @@ return {
 		author = "",
 	},      
 
+	["GetCurrentPlatform"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetCurrentTileType"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
 	["PutBackOnGround"] = {
 		params = {
 			{param = "radius", explain = "", type = ""},
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetPersistData"] = {
+		params = {
 
 		},
 		returns = {},
@@ -733,6 +1087,15 @@ return {
 		params = {
 			{param = "data", explain = "", type = ""},
 			{param = "newents", explain = "", type = ""},
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["GetAdjective"] = {
+		params = {
 
 		},
 		returns = {},
@@ -783,6 +1146,15 @@ return {
 		author = "",
 	},      
 
+	["HasClientSideInventoryImageOverrides"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
 	["GetClientSideInventoryImageOverride"] = {
 		params = {
 			{param = "imagenamehash", explain = "", type = ""},
@@ -804,9 +1176,27 @@ return {
 		author = "",
 	},      
 
+	["IsInLight"] = {
+		params = {
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
 	["IsLightGreaterThan"] = {
 		params = {
 			{param = "lightThresh", explain = "", type = ""},
+
+		},
+		returns = {},
+		tips = "",
+		author = "",
+	},      
+
+	["DebuffsEnabled"] = {
+		params = {
 
 		},
 		returns = {},

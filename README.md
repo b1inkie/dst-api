@@ -2,6 +2,8 @@
 
 Don't Starve Together API Complete for VSCode
 
+"Don't Starve Together" version: 619045
+
 ---
 
 **插件下载**: 请于VSCode的插件市场中搜索关键字: **dst**
