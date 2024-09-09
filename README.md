@@ -28,8 +28,8 @@ https://gitee.com/b1inkie/dst-api
     ["SetConsumption"] = { -- 方法名:已自动生成,请勿改动
         params = {
             -- param: 参数名(自动生成) explain: 参数说明(万能的群友们,请帮我注释吧)
-            -- type: 参数类型<nil|boolean|number|string|function|thread|table|any>
-            -------------- <空值|  布尔  | 数值 | 字符串 |  函数  | 线程 |  表  |不定>
+            -- type: 参数类型<nil|boolean|number|string|function|thread|table|any|Vector3>
+            -------------- <空值|  布尔  | 数值 | 字符串 |  函数  | 线程 |  表 |不定|Vector3>
             -- 参数类型详细说明 -- 空值: 个别参数为nil, 方法仍有意义时需要添加; 
             ------------------- 表: 实体也是表
             {param = "action", explain = "动作id", type = "any"}, 

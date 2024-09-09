@@ -70,50 +70,59 @@ data = {
         
     ["SetOnProjectileLaunch"] = {
         params = {
-            {param = "fn", explain = "", type = ""},
+            {param = "fn", explain = "回调函数", type = "function", fn_params = {
+                {param = "inst", explain = "武器", type = ""},
+                {param = "attacker", explain = "攻击者", type = ""},
+                {param = "target", explain = "目标", type = ""},
+            }},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "发射投射物造成伤害前的回调函数",
+        author = "lan",
     },
         
     ["SetOnProjectileLaunched"] = {
         params = {
-            {param = "fn", explain = "", type = ""},
+            {param = "fn", explain = "回调函数", type = "function", fn_params = {
+                {param = "inst", explain = "武器", type = ""},
+                {param = "attacker", explain = "攻击者", type = ""},
+                {param = "target", explain = "目标", type = ""},
+                {param = "proj", explain = "投射物", type = ""},
+            }},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "发射投射物造成伤害后的回调函数",
+        author = "lan",
     },
         
     ["SetProjectile"] = {
         params = {
-            {param = "projectile", explain = "", type = ""},
+            {param = "projectile", explain = "投射物prefab", type = "string"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "设置投射物(添加远程攻击)",
+        author = "lan",
     },
         
     ["SetProjectileOffset"] = {
         params = {
-            {param = "offset", explain = "", type = ""},
+            {param = "offset", explain = "偏移向量", type = "Vector3"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "设置投射物偏移",
+        author = "lan(攻击者到目标的方向向量乘以这个offset)",
     },
         
     ["SetElectric"] = {
@@ -146,10 +155,10 @@ data = {
 
         },
         returns = {
-            
+            {explain = "可以远程攻击", type = "boolean"}
         },
-        tips = "",
-        author = "",
+        tips = "判断是否可以远程攻击(判断有没有projectile)",
+        author = "lan",
     },
         
     ["SetAttackCallback"] = {
@@ -198,21 +207,21 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "组件.combat:DoAttack中调用",
+        author = "lan(触发回调函数,扣耐久等)",
     },
         
     ["LaunchProjectile"] = {
         params = {
-            {param = "attacker", explain = "", type = ""},
-            {param = "target", explain = "", type = ""},
+            {param = "attacker", explain = "攻击者", type = ""},
+            {param = "target", explain = "目标", type = ""},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "发射投掷物(需先设置投射物)",
+        author = "lan",
     },
         
 }
