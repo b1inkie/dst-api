@@ -7,20 +7,22 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "移除trader以及alltrader标签",
+        author = "超能力拓芙铁拳",
     },
         
     ["IsTryingToTradeWithMe"] = {
         params = {
-            {param = "inst", explain = "", type = ""},
+            {param = "inst", explain = "玩家", type = ""},
 
         },
-        returns = {
+        returns = { boolean
             
         },
-        tips = "",
-        author = "",
+        tips = "正在尝试与当前 Trader 实例进行交易",
+        author = "超能力拓芙铁拳 ",
+        
+       
     },
         
     ["IsAcceptingStacks"] = {
@@ -30,8 +32,8 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "检查self.acceptstacks的值",
+       author = "超能力拓芙铁拳",
     },
         
     ["Enable"] = {
@@ -41,8 +43,8 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "设置self.enabled = true",
+        author = "超能力拓芙铁拳",
     },
         
     ["Disable"] = {
@@ -52,20 +54,20 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "设置self.enabled = false",
+       author = "超能力拓芙铁拳",
     },
         
     ["SetAcceptTest"] = {
         params = {
-            {param = "fn", explain = "", type = ""},
+            {param = "fn", explain = "判断物品是否可交易", type = "判断函数"},
 
         },
-        returns = {
+        returns = {boolean
             
         },
-        tips = "",
-        author = "",
+        tips = "在AbleToAccept通过后执行，用于进一步判断是否接受某个物品",
+        author = "超能力拓芙铁拳",
     },
         
     ["SetAbleToAcceptTest"] = {
@@ -76,8 +78,8 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "可以用来覆盖 AbleToAccept 测试",
+       author = "超能力拓芙铁拳",
     },
         
     ["SetOnAccept"] = {
@@ -88,8 +90,8 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "交易成功回调函数",
+       author = "超能力拓芙铁拳",
     },
         
     ["SetOnRefuse"] = {
@@ -100,8 +102,8 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "交易失败回调函数",
+       author = "超能力拓芙铁拳",
     },
         
     ["SetAcceptStacks"] = {
@@ -111,13 +113,13 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "设置self.acceptstacks = true",
+       author = "超能力拓芙铁拳",
     },
         
     ["AbleToAccept"] = {
         params = {
-            {param = "item", explain = "", type = ""},
+            {param = "item", explain = "交易物品", type = ""},
             {param = "giver", explain = "", type = ""},
             {param = "count", explain = "", type = ""},
 
@@ -125,8 +127,8 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "检查交易者是否具备物理上的能力来接受物品，例如是否在战斗中、是否在睡觉、或者是否已经死亡。",
+       author = "超能力拓芙铁拳",
     },
         
     ["WantsToAccept"] = {
@@ -139,8 +141,8 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "判断交易者是否愿意接受某个物品",
+       author = "超能力拓芙铁拳",
     },
         
     ["AcceptGift"] = {
@@ -153,8 +155,8 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "检查是否能够和愿意接受物品，根据堆叠处理，最后根据配决定是否删除物品或放入库存。触发回调函数/交易失败回调函数",
+       author = "超能力拓芙铁拳",
     },
         
     ["GetDebugString"] = {
@@ -164,8 +166,8 @@ data = {
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "调试时快速检查 Trader 对象的交易功能是否启用。",
+       author = "超能力拓芙铁拳",
     },
         
 }
