@@ -29,10 +29,10 @@ data = {
 
         },
         returns = {
-            
+            {explain = "容器中装有物品的格子数", type = "number"}
         },
-        tips = "",
-        author = "",
+        tips = "返回容器中装有物品的格子数",
+        author = "Runar",
     },
         
     ["IsFull"] = {
@@ -40,10 +40,10 @@ data = {
 
         },
         returns = {
-            
+            {explain = "容器为满", type = "boolean"}
         },
-        tips = "",
-        author = "",
+        tips = "返回容器是否为满",
+        author = "Runar",
     },
         
     ["IsEmpty"] = {
@@ -51,10 +51,10 @@ data = {
 
         },
         returns = {
-            
+            {explain = "容器为空", type = "boolean"}
         },
-        tips = "",
-        author = "",
+        tips = "返回容器是否为空",
+        author = "Runar",
     },
         
     ["SetNumSlots"] = {
@@ -125,14 +125,14 @@ data = {
         
     ["DropItem"] = {
         params = {
-            {param = "itemtodrop", explain = "", type = ""},
+            {param = "itemtodrop", explain = "要抛出的物品", type = "entity"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "原地抛出指定物品",
+        author = "Runar",
     },
         
     ["DropOverstackedExcess"] = {
@@ -149,42 +149,42 @@ data = {
         
     ["DropItemAt"] = {
         params = {
-            {param = "itemtodrop", explain = "", type = ""},
-            {param = "x", explain = "", type = ""},
-            {param = "y", explain = "", type = ""},
-            {param = "z", explain = "", type = ""},
+            {param = "itemtodrop", explain = "要抛出的物品", type = "entity"},
+            {param = "x", explain = "", type = "number"},
+            {param = "y", explain = "", type = "number"},
+            {param = "z", explain = "", type = "number"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "指定坐标抛出指定物品",
+        author = "Runar",
     },
         
     ["CanTakeItemInSlot"] = {
         params = {
-            {param = "item", explain = "", type = ""},
-            {param = "slot", explain = "", type = ""},
+            {param = "item", explain = "要放入的物品", type = "entity"},
+            {param = "slot", explain = "栏序号", type = "number"},
 
         },
         returns = {
-            
+            {explain = "可放入", type = "boolean"}
         },
-        tips = "",
-        author = "",
+        tips = "检测物品能否放入指定序号的栏位",
+        author = "Runar",
     },
         
     ["GetSpecificSlotForItem"] = {
         params = {
-            {param = "item", explain = "", type = ""},
+            {param = "item", explain = "要放入的物品", type = "entity"},
 
         },
         returns = {
-            
+            {explain = "可放入的栏序号", type = "number"}            
         },
-        tips = "",
-        author = "",
+        tips = "在【特定栏位指定物品】容器中寻找可放入指定物品的栏序号",
+        author = "Runar",
     },
         
     ["ShouldPrioritizeContainer"] = {
@@ -204,10 +204,10 @@ data = {
 
         },
         returns = {
-            
+            {explain = "接受物品堆叠", type = "boolean"}
         },
-        tips = "",
-        author = "",
+        tips = "容器是否接受放入物品产生堆叠",
+        author = "Runar",
     },
         
     ["IsSideWidget"] = {
@@ -215,35 +215,62 @@ data = {
 
         },
         returns = {
-            
+            {explain = "是侧边栏", type = "boolean"}
         },
-        tips = "",
-        author = "",
+        tips = "容器是否为侧边栏容器",
+        author = "Runar",
     },
         
     ["DestroyContents"] = {
         params = {
-            {param = "onpredestroyitemcallbackfn", explain = "", type = ""},
+            {
+                param = "onpredestroyitemcallbackfn", explain = "物品销毁预回调函数", type = "function|nil",
+                fn_params = {
+                    {param = "inst", explain = "容器", type = "entity"},
+                    {param = "item", explain = "要销毁的物品", type = "entity"},
+                },
+                fn_returns = {
+
+                },
+            },
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "无条件销毁容器内所有物品",
+        author = "Runar",
     },
         
     ["DestroyContentsConditionally"] = {
         params = {
-            {param = "filterfn", explain = "", type = ""},
-            {param = "onpredestroyitemcallbackfn", explain = "", type = ""},
+            {
+                param = "filterfn", explain = "销毁条件", type = "funtion|nil",
+                fn_params = {
+                    {param = "inst", explain = "容器", type = "entity"},
+                    {param = "item", explain = "要测试的物品", type = "entity"},
+                },
+                fn_returns = {
+
+                },
+            },
+            {
+                param = "onpredestroyitemcallbackfn", explain = "物品销毁预回调函数", type = "function|nil",
+                fn_params = {
+                    {param = "inst", explain = "容器", type = "entity"},
+                    {param = "item", explain = "要销毁的物品", type = "entity"},
+                },
+                fn_returns = {
+
+                },
+            },
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "销毁容器内满足条件的所有物品",
+        author = "Runar",
     },
         
     ["CanAcceptCount"] = {
