@@ -1,31 +1,30 @@
-# dst-api 
-
-Don't Starve Together API Complete for VSCode
-
-"Don't Starve Together" version: 619045
+# Don't Starve Together API Complete
 
 ---
 
-**插件下载**: 请于VSCode的插件市场中搜索关键字: **dst**
+## 插件下载
+- 在 VSCode 的插件市场中搜索关键字 **dst** 即可找到并安装本插件。
 
-特别感谢月佬的分享!
+## 版本兼容性
+- 同步 "Don't Starve Together" 版本 619045。
 
-edited by lan
+## 项目地址(注释项目)
+- Git: https://gitee.com/b1inkie/dst-api
 
-ps: 由于都是批量处理,难免会有些问题,可以向我反馈
+## 成为贡献者
 
-gitee:
-https://gitee.com/b1inkie/dst-api
+### lan的话:
+注释模板的语法已修改成`lua`,方便大家补充.
 
-## 成为贡献者:
+### 目录结构
+`scripts`目录中存放所有需要注释的 `Lua` 文件
+- `scripts/`: 全局方法,常用词汇等
+  - `scripts/components/`: 组件
+  - `scripts/system_components/`: 系统组件
 
-*`scripts/`* 目录下,存放着所有需要进行注释的lua文件!
+### 示例
+#### 组件方法示例
 
-1. `scripts/components` 中,可以看到用lua的表形式创建的*组件方法表*
-
-让我们来看一个例子:
-`scripts/components/finiteuses.lua`
-这是耐久度组件的其中一个方法:
 ```lua
     ["SetConsumption"] = { -- 方法名:已自动生成,请勿改动
         params = {
@@ -48,7 +47,11 @@ https://gitee.com/b1inkie/dst-api
         tips = "设置对应动作的消耗次数", -- 简明扼要的说明方法的用途
         author = "lan", -- 贡献者id (填上您的名字,作为贡献者,你的名字会出现在补全提示中)
     },
+```
 
+#### 带函数参数的方法示例
+
+```lua
     -- 参数为函数的参数写法
     ["SetOnAttack"] = {
         params = {
@@ -60,55 +63,60 @@ https://gitee.com/b1inkie/dst-api
                     {param = "attacker", explain = "攻击者的inst", type = "table"},
                     {param = "target", explain = "攻击目标的inst", type = "table"},
                 },
-                -- 函数参数的返回值
+                -- 函数参数的返回值,没有请留白
                 fn_returns = {
-                    nil,
+                    -- {explain = "", type = ""},
                 }
             },
 
         },
         returns = {
-            nil,
+            -- {explain = "", type = ""}
         },
         tips = "设置武器击中回调函数, 同SetAttackCallback",
         author = "Runar",
     },
-
 ```
 
-补全预览(只要注释够详细,补全能当文档用):
+#### github抽风了?
+看下图:
+直接键入 `contri+components` 生成注释模板,注释好后丢给我即可.(加我的小群,或者大群 *@我* 都可以)
+![注释吧](_images/contribute_hint.png)
 
+
+## 补全预览:
+
+(只要注释够详细,补全能当文档用)
 ![补全预览](_images/preview_snippets.png)
 
 ![进来写两句注释吧](_images/soyo_01.png)
 
-登不上github? 看下图:
-直接键入 `contri+components` 生成注释模板,注释好后丢给我即可.(加我的小群,或者大群 *@我* 都可以)
 
-![进来写两句注释吧](_images/contribute_hint.png)
 
-2. 系统组件:Animstate `scripts/system_components/AnimState.lua`
+## Extra:
 
-## 已有的补全:
+- Lua 语法高亮:
 
-1. 所有components组件方法补全(不含注释)
-2. physics补全
-3. Image类补全
-...
-0. 常用api补全
+- 自动生成注释模板(注意本功能是基于monokai主题的配色,其他主题可能视觉效果不佳):
+
+    + 键入: `com+param`
+    <span style="color: #88846f;">---</span><span style="color: #52d9ce;">\$</span><span style="color: #f92749;">param</span><span style="color: #52d9ce;">:</span> <span style="color: #f1d70b;">(</span><span style="color: #fd8921;">param</span><span style="color: #f1d70b;">)</span> <span style="color: #ae81ff;"><</span><span style="color: #66d9ef;">type</span><span style="color: #ae81ff;">></span> <span style="color: #88846f;">[</span><span style="color: #e6db74;">desc</span><span style="color: #88846f;">]</span> {others}
+    + 键入: `com+return`
+    <span style="color: #88846f;">---</span><span style="color: #52d9ce;">\$</span><span style="color: #f92749;">return</span><span style="color: #52d9ce;">:</span>  <span style="color: #ae81ff;"><</span><span style="color: #66d9ef;">type</span><span style="color: #ae81ff;">></span> <span style="color: #88846f;">[</span><span style="color: #e6db74;">desc</span><span style="color: #88846f;">]</span>
+
+- 新增用户注释模板:
+    + <span style="color: #88846f;">--</span> <span style="color: #52d9ce;">@</span><span style="color: #8ae22e;">V2C</span>: <span style="color: #88846f;">wat's this?</span>
 
 ## Todo:
 
 1. 快捷输入RGB颜色值(0~1)
 例如 输入color.red 自动补全为 1,0,0
 
-0. 创建一个git仓库 方便集思广益
 
-*Q群*:
+## 社区:
 
-五年一班: 620984175
-
-龙飞群: 559477977 (入群口令 LongFei_Gamer)
-
-我的代码交流小群(勿灌水): 855512521
+- *Q群*:
+    + 五年一班: 620984175
+    + 龙飞群: 559477977 (入群口令 LongFei_Gamer)
+    + 我的代码交流小群(勿灌水): 855512521
 
