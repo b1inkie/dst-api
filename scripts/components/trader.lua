@@ -16,8 +16,8 @@ data = {
             {param = "inst", explain = "玩家", type = ""},
 
         },
-        returns = { boolean
-            
+        returns = { 
+            {explain = "", type = "boolean"},
         },
         tips = "正在尝试与当前 Trader 实例进行交易",
         author = "超能力拓芙铁拳 ",
@@ -63,7 +63,7 @@ data = {
             {param = "fn", explain = "判断物品是否可交易", type = "判断函数"},
 
         },
-        returns = {boolean
+        returns = {
             
         },
         tips = "在AbleToAccept通过后执行，用于进一步判断是否接受某个物品",
