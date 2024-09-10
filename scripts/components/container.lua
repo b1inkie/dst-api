@@ -275,30 +275,30 @@ data = {
         
     ["CanAcceptCount"] = {
         params = {
-            {param = "item", explain = "", type = ""},
-            {param = "maxcount", explain = "", type = ""},
+            {param = "item", explain = "要放入的物品", type = "entity"},
+            {param = "maxcount", explain = "最大接受数量", type = "number|nil"},
 
         },
         returns = {
-            
+            {explain = "接受数量", type = "number"}
         },
-        tips = "",
-        author = "",
+        tips = "检测可接受放入指定物品的数量",
+        author = "Runar",
     },
         
     ["GiveItem"] = {
         params = {
-            {param = "item", explain = "", type = ""},
-            {param = "slot", explain = "", type = ""},
-            {param = "src_pos", explain = "", type = ""},
-            {param = "drop_on_fail", explain = "", type = ""},
+            {param = "item", explain = "要放入的物品", type = "entity"},
+            {param = "slot", explain = "栏序号", type = "number|nil"},
+            {param = "src_pos", explain = "物品来源坐标", type = "Vector3|nil"},
+            {param = "drop_on_fail", explain = "不为false时失败掉落", type = "boolean|nil"},
 
         },
         returns = {
-            
+            {explain = "成功", type = "boolean"}
         },
-        tips = "",
-        author = "",
+        tips = "把指定物品添加到容器中",
+        author = "Runar",
     },
         
     ["RemoveItemBySlot"] = {
@@ -319,10 +319,10 @@ data = {
 
         },
         returns = {
-            
+            {explain = "容器内所有物品", type = "table"}
         },
-        tips = "",
-        author = "",
+        tips = "移除容器内所有物品",
+        author = "Runar",
     },
         
     ["GetNumSlots"] = {
@@ -338,26 +338,26 @@ data = {
         
     ["GetItemInSlot"] = {
         params = {
-            {param = "slot", explain = "", type = ""},
+            {param = "slot", explain = "栏序号", type = "number"},
 
         },
         returns = {
-            
+            {explain = "物品", type = "entity"}
         },
-        tips = "",
-        author = "",
+        tips = "根据栏号获取物品",
+        author = "Runar",
     },
         
     ["GetItemSlot"] = {
         params = {
-            {param = "item", explain = "", type = ""},
+            {param = "item", explain = "指定物品", type = "entity"},
 
         },
         returns = {
-            
+            {explain = "栏序号", type = "number"}
         },
-        tips = "",
-        author = "",
+        tips = "获取指定物品所在的栏号",
+        author = "Runar",
     },
         
     ["GetAllItems"] = {
@@ -365,34 +365,34 @@ data = {
 
         },
         returns = {
-            
+            {explain = "容器内所有物品", type = "table"}
         },
-        tips = "",
-        author = "",
+        tips = "获取容器内所有物品的表",
+        author = "Runar",
     },
         
     ["Open"] = {
         params = {
-            {param = "doer", explain = "", type = ""},
+            {param = "doer", explain = "执行者", type = "entity"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "为doer打开容器",
+        author = "Runar",
     },
         
     ["Close"] = {
         params = {
-            {param = "doer", explain = "", type = ""},
+            {param = "doer", explain = "执行者", type = "entity"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "由doer关闭容器",
+        author = "Runar",
     },
         
     ["IsOpen"] = {
@@ -400,34 +400,35 @@ data = {
 
         },
         returns = {
-            
+            {explain = "容器打开中", type = "boolean"}
         },
-        tips = "",
-        author = "",
+        tips = "容器是否打开",
+        author = "Runar",
     },
         
     ["IsOpenedBy"] = {
         params = {
-            {param = "guy", explain = "", type = ""},
+            {param = "guy", explain = "指定目标", type = "entity"},
 
         },
         returns = {
-            
+            {explain = "容器由指定目标打开", type = "boolean"}            
         },
-        tips = "",
-        author = "",
+        tips = "容器是否由指定目标打开",
+        author = "Runar",
     },
         
     ["IsOpenedByOthers"] = {
         params = {
-            {param = "guy", explain = "", type = ""},
+            {param = "guy", explain = "指定目标", type = "entity"},
 
         },
         returns = {
+            {explain = "容器由非指定目标打开", type = "boolean"}            
             
         },
-        tips = "",
-        author = "",
+        tips = "容器是否由非指定目标打开",
+        author = "Runar",
     },
         
     ["CanOpen"] = {
