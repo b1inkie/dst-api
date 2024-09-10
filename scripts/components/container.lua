@@ -2,15 +2,15 @@ data = {
 
     ["WidgetSetup"] = {
         params = {
-            {param = "prefab", explain = "", type = ""},
-            {param = "data", explain = "", type = ""},
+            {param = "prefab", explain = "需要绑定的容器UI", type = "str"},
+            {param = "data", explain = "不用填(容器UI信息,不填则在params[prefab]里找)", type = "tbl"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "绑定容器UI",
+        author = "lan",
     },
         
     ["GetWidget"] = {
@@ -18,10 +18,10 @@ data = {
 
         },
         returns = {
-            
+            {explain = "容器UI", type = "tbl"},
         },
-        tips = "",
-        author = "",
+        tips = "获取容器UI",
+        author = "lan",
     },
         
     ["NumItems"] = {
@@ -85,42 +85,42 @@ data = {
         
     ["DropEverythingWithTag"] = {
         params = {
-            {param = "tag", explain = "", type = ""},
-            {param = "drop_pos", explain = "", type = ""},
-            {param = "keepoverstacked", explain = "", type = ""},
+            {param = "tag", explain = "物品拥有的tag", type = "str"},
+            {param = "drop_pos", explain = "掉落位置", type = "V3"},
+            {param = "keepoverstacked", explain = "保持物品堆叠状态", type = "bool"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "丢出所有具有指定tag的物品",
+        author = "lan",
     },
         
     ["DropEverything"] = {
         params = {
-            {param = "drop_pos", explain = "", type = ""},
-            {param = "keepoverstacked", explain = "", type = ""},
+            {param = "drop_pos", explain = "掉落位置", type = "V3"},
+            {param = "keepoverstacked", explain = "保持物品堆叠状态", type = "bool"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "丢出所有物品",
+        author = "lan(多在容器被摧毁时调用)",
     },
         
     ["DropEverythingUpToMaxStacks"] = {
         params = {
-            {param = "maxstacks", explain = "", type = ""},
-            {param = "drop_pos", explain = "", type = ""},
+            {param = "maxstacks", explain = "最大堆数", type = "num"},
+            {param = "drop_pos", explain = "掉落位置", type = "V3"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "从容器中丢弃物品直到达到指定的最大堆数",
+        author = "lan",
     },
         
     ["DropItem"] = {
@@ -137,14 +137,14 @@ data = {
         
     ["DropOverstackedExcess"] = {
         params = {
-            {param = "item", explain = "", type = ""},
+            {param = "item", explain = "指定物品", type = "ent"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "将超过最大堆叠数量的超出部分丢弃",
+        author = "lan",
     },
         
     ["DropItemAt"] = {
@@ -282,7 +282,7 @@ data = {
         returns = {
             {explain = "接受数量", type = "number"}
         },
-        tips = "检测可接受放入指定物品的数量",
+        tips = "容器可以从某个物品堆中接收多少数量",
         author = "Runar",
     },
         
