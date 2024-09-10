@@ -1,9 +1,13 @@
-# Don't Starve Together API Complete
+# Don't Starve Together API Complete Extension For VSCode
+
+![version](https://img.shields.io/visual-studio-marketplace/v/lan.dst-lan)
+![installs](https://img.shields.io/visual-studio-marketplace/i/lan.dst-lan)
+![downloads](https://img.shields.io/visual-studio-marketplace/d/lan.dst-lan)
 
 ---
 
-## 插件下载
-- 在 VSCode 的插件市场中搜索关键字 **dst** 即可找到并安装本插件。
+## 🎮插件下载
+- 在 **`VSCode`** 的 **`插件市场`** 中搜索关键字  **`dst-lan`** 即可找到并安装本插件。
 
 ## 版本兼容性
 - 同步 "Don't Starve Together" 版本 619045。
@@ -11,9 +15,9 @@
 ## 项目地址(注释项目)
 - Git: https://gitee.com/b1inkie/dst-api
 
-## 成为贡献者
+## 😎成为贡献者
 
-### lan的话:
+### 💖lan的话:
 注释模板的语法已修改成`lua`,方便大家补充.
 
 ### 目录结构
@@ -86,7 +90,7 @@
 ![注释吧](_images/contribute_hint.png)
 
 
-## 补全预览:
+## 🎬补全预览:
 
 (只要注释够详细,补全能当文档用)
 ![补全预览](_images/preview_snippets.png)
@@ -95,7 +99,7 @@
 
 
 
-## Extra:
+## ✨Extra:
 
 - Lua 语法高亮:
 
@@ -109,13 +113,13 @@
 - 新增用户注释模板:
     + <span style="color: #88846f;">--</span> <span style="color: #52d9ce;">@</span><span style="color: #8ae22e;">V2C</span>: <span style="color: #88846f;">wat's this?</span>
 
-## Todo:
+## 📝Todo:
 
 1. 快捷输入RGB颜色值(0~1)
 例如 输入color.red 自动补全为 1,0,0
 
 
-## 社区:
+## 🏡社区:
 
 - *Q群*:
     + 五年一班: 620984175
