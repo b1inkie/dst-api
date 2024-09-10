@@ -436,10 +436,10 @@ data = {
 
         },
         returns = {
-            
+            {explain = "可打开", type = "boolean"}            
         },
-        tips = "",
-        author = "",
+        tips = "容器可被打开",
+        author = "Runar",
     },
         
     ["GetOpeners"] = {
@@ -447,60 +447,83 @@ data = {
 
         },
         returns = {
-            
+            {explain = "打开者列表", type = "table"}
         },
-        tips = "",
-        author = "",
+        tips = "获取容器打开者列表",
+        author = "Runar",
     },
         
     ["IsHolding"] = {
         params = {
-            {param = "item", explain = "", type = ""},
-            {param = "checkcontainer", explain = "", type = ""},
+            {param = "item", explain = "指定物品", type = "entity"},
+            {param = "checkcontainer", explain = "检测容器内容器", type = "boolean"},
 
         },
         returns = {
-            
+            {explain = "容器持有指定物品", type = "boolean"}
         },
-        tips = "",
-        author = "",
+        tips = "容器是否持有指定物品",
+        author = "Runar",
     },
         
     ["FindItem"] = {
         params = {
-            {param = "fn", explain = "", type = ""},
-
+            {
+                param = "fn", explain = "测试函数", type = "function",
+                fn_params = {
+                    {param = "item", explain = "容器内物品", type = "entity"}
+                },
+                fn_returns = {
+                    {explain = "满足条件", type = "boolean"}
+                },
+            },
         },
         returns = {
-            
+            {explain = "满足条件的第一个物品", type = "entity"}          
         },
-        tips = "",
-        author = "",
+        tips = "寻找容器内满足条件的一格物品",
+        author = "Runar",
     },
         
     ["FindItems"] = {
         params = {
-            {param = "fn", explain = "", type = ""},
-
+            {
+                param = "fn", explain = "测试函数", type = "function",
+                fn_params = {
+                    {param = "item", explain = "容器内物品", type = "entity"}
+                },
+                fn_returns = {
+                    {explain = "满足条件", type = "boolean"}
+                },
+            },
         },
         returns = {
-            
+            {explain = "满足条件的所有物品", type = "table"}
         },
-        tips = "",
-        author = "",
+        tips = "寻找容器内满足条件的所有物品",
+        author = "Runar",
     },
         
     ["ForEachItem"] = {
         params = {
-            {param = "fn", explain = "", type = ""},
-            {param = "...", explain = "", type = ""},
+            {
+                param = "fn", explain = "操作函数fn(item, ...)", type = "function",
+                fn_params = {
+                    {param = "item", explain = "容器内物品", type = "entity"},
+                    {param = "...", explain = "可变参数", type = "any|nil"},
+                },
+                fn_returns = {
+
+                }
+            },
+            {param = "...", explain = "可变参数", type = "any|nil"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "对容器内所有物品执行fn, 传递可变参数",
+        author = "Runar",
     },
         
     ["Has"] = {

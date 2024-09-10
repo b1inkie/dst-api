@@ -35,12 +35,14 @@
             -- param: 参数名(自动生成) explain: 参数说明(万能的群友们,请帮我注释吧)
             -- type: 参数类型(括号中为简写)  
             -- <nil|boolean(bool)|number(num)|string(str)|function(fn)|thread|table(tbl)|any|>
-            -- <空值|     布尔    |    数值   |   字符串   |    函数    | 线程  |   表    |不定|>
+            -- <空值|     布尔    |    数值    |   字符串   |    函数    |  线程  |    表    |不定|>
             -- type: 专有参数类型(括号中为简写)
             -- <entity(ent)|Vector3(V3)>
-            -- <    实体   |三维向量>
-            -- 参数类型详细说明 -- 空值: 个别参数为nil, 方法仍有意义时需要添加; 
-            ------------------- 实体: 表, 但特指预制物
+            -- <    实体   |  三维向量  >
+            -- 参数类型详细说明 -- 空值 nil: 个别参数为nil, 方法仍有意义时需要添加; 
+            ------------------- 实体 (entity|ent): 表, 但特指预制物
+            ------------------- 三维向量 (Vector3|V3): 元素键名为x,y,z的表
+            ------------------- 可变参数: param = "..." 的参数, 建议使用 "any|nil" 作为type
             {param = "action", explain = "动作id", type = "any"}, 
             {param = "uses", explain = "剩余使用次数", type = "number"},
 
@@ -65,9 +67,9 @@
                 param = "fn", explain = "击中后执行的函数", type = "function", -- 当type中含有function时
                 -- 函数参数的参数
                 fn_params = { -- 除了键名不同，写法与父表一致
-                    {param = "inst", explain = "武器的inst", type = "table"}, -- 实体也是表, 只需在explain中说明是什么表
-                    {param = "attacker", explain = "攻击者的inst", type = "table"},
-                    {param = "target", explain = "攻击目标的inst", type = "table"},
+                    {param = "inst", explain = "武器的inst", type = "entity"},
+                    {param = "attacker", explain = "攻击者的inst", type = "entity"},
+                    {param = "target", explain = "攻击目标的inst", type = "entity"},
                 },
                 -- 函数参数的返回值,没有请留白
                 fn_returns = {
