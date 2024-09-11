@@ -1,4 +1,20 @@
-local tools = {}
+local tools = {
+    -- 小写type
+    param_type = {
+        ['nil'] = 'nil',
+        ['boolean'] = 'bool',
+        ['number'] = 'num',
+        ['string'] = 'str',
+        ['function'] = 'fn',
+        ['table'] = 'tbl',
+        ['thread'] = 'thread',
+        ['table'] = 'tbl',
+        ['any'] = 'any',
+        -- custom
+        ['entity'] = 'ent',
+        ['vector3'] = 'V3',
+    }
+}
 
 local function escape_string(s)
     -- 转义字符串中的特殊字符
@@ -118,6 +134,22 @@ function tools:create_folder(path)
     end
 end
 
+function tools:fix_param_type(string_types)
+    local types = ''
+    -- 分割|
+    for each_type in string.gmatch(string_types, '[^|]+') do
+        -- 去两端空格
+        strip_string = string.gsub(each_type, "^%s*(.-)%s*$", "%1")
+        -- 缩写
+        strip_string = self.param_type[string.lower(strip_string)] or strip_string
+
+        types = types..strip_string.."|"
+    end
+    -- 去掉最后一个|
+    types = string.sub(types, 1, -2)
+    return types
+end
+
 function tools:direct2sn_in_temp(data_lst,output_file_name,prefix_key,prefix_prefix,prefix_body,middle)
     prefix_key = prefix_key or ""
     prefix_prefix = prefix_prefix or ""
@@ -142,16 +174,23 @@ function tools:direct2sn_in_temp(data_lst,output_file_name,prefix_key,prefix_pre
             fix_body = fix_body.."${"..index_member..":"..member.param.."},"
 
             if member.fn_params then
-                fix_desc_param = fix_desc_param.."("..member.param..")".."<"..member.type..">".."["..member.explain.."]"
+                -- fix参数type
+                fixed_types = self:fix_param_type(member.type)
+                --
+                fix_desc_param = fix_desc_param.."("..member.param..")".."<"..fixed_types..">".."["..member.explain.."]"
                 fix_desc_param = fix_desc_param.."{参数:"
                 for _,fn_param in pairs(member.fn_params or {}) do
-                    fix_desc_param = fix_desc_param.."("..fn_param.param..")".."<"..fn_param.type..">".."["..fn_param.explain.."] "
+                    -- fix参数type
+                    fixed_types = self:fix_param_type(fn_param.type)
+                    fix_desc_param = fix_desc_param.."("..fn_param.param..")".."<"..fixed_types..">".."["..fn_param.explain.."] "
                 end
 
                 if member.fn_returns then
                     fix_desc_param = fix_desc_param.."返回:"
                     for _,fn_return in pairs(member.fn_returns or {}) do
-                        fix_desc_param = fix_desc_param.."<"..fn_return.type..">".."["..fn_return.explain.."] "
+                        -- fix参数type
+                        fixed_types = self:fix_param_type(fn_return.type)
+                        fix_desc_param = fix_desc_param.."<"..fixed_types..">".."["..fn_return.explain.."] "
                     end
                 end
 
@@ -163,7 +202,9 @@ function tools:direct2sn_in_temp(data_lst,output_file_name,prefix_key,prefix_pre
 
                 fix_desc_param = fix_desc_param.."} "
             else
-                fix_desc_param = fix_desc_param.."("..member.param..")".."<"..member.type..">".."["..member.explain.."] "
+                -- fix参数type
+                fixed_types = self:fix_param_type(member.type)
+                fix_desc_param = fix_desc_param.."("..member.param..")".."<"..fixed_types..">".."["..member.explain.."] "
             end
         end 
         -- 查找最后一个逗号的位置
@@ -174,7 +215,9 @@ function tools:direct2sn_in_temp(data_lst,output_file_name,prefix_key,prefix_pre
         fix_body = fix_body..")"
         --遍历返回表
         for index_member,member in pairs(v.returns or {}) do
-            fix_desc_return = fix_desc_return.."<"..member.type..">".."["..member.explain.."] "
+            -- fix参数type
+            fixed_types = self:fix_param_type(member.type)
+            fix_desc_return = fix_desc_return.."<"..fixed_types..">".."["..member.explain.."] "
         end
 
         fix_desc = fix_desc_param..fix_desc_return.."※说明: "..v.tips.." ※贡献者: @"..v.author

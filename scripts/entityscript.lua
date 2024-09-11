@@ -562,8 +562,8 @@ return {
 
 		},
 		returns = {},
-		tips = "",
-		author = "",
+		tips = "移除所有监听",
+		author = "lan",
 	},      
 
 	["WatchWorldState"] = {

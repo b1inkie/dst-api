@@ -245,7 +245,7 @@ data = {
     ["DestroyContentsConditionally"] = {
         params = {
             {
-                param = "filterfn", explain = "销毁条件", type = "funtion|nil",
+                param = "filterfn", explain = "销毁条件", type = "function|nil",
                 fn_params = {
                     {param = "inst", explain = "容器", type = "entity"},
                     {param = "item", explain = "要测试的物品", type = "entity"},

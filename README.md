@@ -7,12 +7,15 @@
 ---
 
 ## 🎮插件下载
+
 - 在 **`VSCode`** 的 **`插件市场`** 中搜索关键字  **`dst-lan`** 即可找到并安装本插件。
 
 ## 版本兼容性
+
 - 同步 "Don't Starve Together" 版本 619045。
 
 ## 项目地址(注释项目)
+
 - Git: https://gitee.com/b1inkie/dst-api
 
 ## 😎成为贡献者
@@ -21,7 +24,9 @@
 注释模板的语法已修改成`lua`,方便大家补充.
 
 ### 目录结构
+
 `scripts`目录中存放所有需要注释的 `Lua` 文件
+
 - `scripts/`: 全局方法,常用词汇等
   - `scripts/components/`: 组件
   - `scripts/system_components/`: 系统组件
@@ -87,14 +92,17 @@
 ```
 
 #### github抽风了?
+
 看下图:
 直接键入 `contri+components` 生成注释模板,注释好后丢给我即可.(加我的小群,或者大群 *@我* 都可以)
+
 ![注释吧](_images/contribute_hint.png)
 
 
 ## 🎬补全预览:
 
 (只要注释够详细,补全能当文档用)
+
 ![补全预览](_images/preview_snippets.png)
 
 ![进来写两句注释吧](_images/soyo_01.png)
@@ -118,7 +126,7 @@
 ## 📝Todo:
 
 1. 快捷输入RGB颜色值(0~1)
-例如 输入color.red 自动补全为 1,0,0
+    例如 输入color.red 自动补全为 1,0,0
 
 
 ## 🏡社区:
@@ -127,4 +135,5 @@
     + 五年一班: 620984175
     + 龙飞群: 559477977 (入群口令 LongFei_Gamer)
     + 我的代码交流小群(勿灌水): 855512521
+
 
