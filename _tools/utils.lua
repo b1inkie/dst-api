@@ -8,7 +8,6 @@ local tools = {
         ['function'] = 'fn',
         ['table'] = 'tbl',
         ['thread'] = 'thread',
-        ['table'] = 'tbl',
         ['any'] = 'any',
         -- custom
         ['entity'] = 'ent',
@@ -74,7 +73,29 @@ function tools:getFileName(directory)
     return filenames
 end
 
+function tools:getAllFilePathAndName(directory)
+---$param: (directory) <str> [目录] {}
+---$return: <tbl> [{完整目录,文件名}]
+    local function scanDir(dir)
+        local command = 'dir "' .. dir .. '" /B /A-D /S /C'
+        local file = io.popen(command)
+        local filenames = {}
+        for line in file:lines() do
+            -- 去除最后一行的总文件数信息
+            if not string.match(line, '%d File') then
+                -- 提取文件名
+                local filepath = line
+                local filename = line:match('([^\\]*).lua')
+                -- 构造新的表并插入
+                table.insert(filenames, {filepath, filename})
+            end
+        end
+        file:close()
+        return filenames
+    end
 
+    return scanDir(directory)
+end
 
 
 function tools:table2string(t, indent)
