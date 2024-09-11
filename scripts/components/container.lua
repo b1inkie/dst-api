@@ -528,80 +528,91 @@ data = {
         
     ["Has"] = {
         params = {
-            {param = "item", explain = "", type = ""},
-            {param = "amount", explain = "", type = ""},
-            {param = "iscrafting", explain = "", type = ""},
+            {param = "item", explain = "物品prefab名", type = "string"},
+            {param = "amount", explain = "最低数量", type = "number"},
+            {param = "iscrafting", explain = "区分标签nocrafting", type = "boolean|nil"},
 
         },
         returns = {
-            
+            {explain = "容器内有指定数量的指定物品", type = "boolean"},
+            {explain = "库存数量", type = "number"},
         },
-        tips = "",
-        author = "",
+        tips = "容器内是否有指定数量的指定物品及其数目",
+        author = "Runar",
     },
         
     ["HasItemThatMatches"] = {
         params = {
-            {param = "fn", explain = "", type = ""},
-            {param = "amount", explain = "", type = ""},
+            {
+                param = "fn", explain = "物品测试函数", type = "function",
+                fn_params = {
+                    {param = "item", explain = "物品", type = "entity"}
+                },
+                fn_returns = {
+                    {explain = "符合条件", type = "boolean"}
+                },
+            },
+            {param = "amount", explain = "最低累计数量", type = "number"},
 
         },
         returns = {
-            
+            {explain = "容器内有指定数量的指定物品", type = "boolean"},
+            {explain = "库存数量", type = "number"},
         },
-        tips = "",
-        author = "",
+        tips = "容器内是否有指定数量的指定物品及其数目",
+        author = "Runar",
     },
         
     ["HasItemWithTag"] = {
         params = {
-            {param = "tag", explain = "", type = ""},
-            {param = "amount", explain = "", type = ""},
+            {param = "tag", explain = "标签", type = "string"},
+            {param = "amount", explain = "最低累计数量", type = "number"},
 
         },
         returns = {
-            
+            {explain = "容器内有指定数量的指定物品", type = "boolean"},
+            {explain = "库存数量", type = "number"},
         },
-        tips = "",
-        author = "",
+        tips = "容器内是否有指定数量的指定物品及其数目",
+        author = "Runar",
     },
         
     ["GetItemsWithTag"] = {
         params = {
-            {param = "tag", explain = "", type = ""},
+            {param = "tag", explain = "标签", type = "string"},
 
         },
         returns = {
-            
+            {explain = "符合条件的物品列表", type = "table"}
         },
-        tips = "",
-        author = "",
+        tips = "获取容器内指定标签的物品列表",
+        author = "Runar",
     },
         
     ["GetItemByName"] = {
         params = {
-            {param = "item", explain = "", type = ""},
-            {param = "amount", explain = "", type = ""},
+            {param = "item", explain = "物品prefab名", type = "string"},
+            {param = "amount", explain = "所需库存数量", type = "number"},
 
         },
         returns = {
-            
+            {explain = "物品inst为键, 值为获取数量的表", type = "table"}
         },
-        tips = "",
-        author = "",
+        tips = "获取容器内指名物品列表",
+        author = "Runar",
     },
         
     ["ConsumeByName"] = {
         params = {
-            {param = "item", explain = "", type = ""},
-            {param = "amount", explain = "", type = ""},
+            {param = "item", explain = "物品prefab名", type = "string"},
+            {param = "amount", explain = "扣除数量", type = "number"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "按数量扣除指名物品",
+        author = "Runar",
     },
         
     ["OnSave"] = {
@@ -815,14 +826,14 @@ data = {
         
     ["EnableInfiniteStackSize"] = {
         params = {
-            {param = "enable", explain = "", type = ""},
+            {param = "enable", explain = "启用无限堆叠", type = "boolean"},
 
         },
         returns = {
             
         },
-        tips = "",
-        author = "",
+        tips = "启用或关闭容器无限堆叠",
+        author = "Runar",
     },
         
 }
