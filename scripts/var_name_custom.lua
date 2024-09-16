@@ -1,3 +1,4 @@
 return {
-    components = "组件",
+    attacker = "攻击者",
+    target = "目标",
 }
