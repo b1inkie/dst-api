@@ -20,7 +20,7 @@ return {
 	area_trigger = "",
 	area_unlock = "",
 	armor = "",
-	attackdodger = "",
+	-- attackdodger = "",
 	attunable = "",
 	attuner = "",
 	aura = "",

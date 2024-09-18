@@ -264,4 +264,98 @@ function tools:direct2sn_in_temp(data_lst,output_file_name,prefix_key,prefix_pre
 
 end
 
+-- 分行
+function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key,prefix_prefix,prefix_body,middle)
+    prefix_key = prefix_key or ""
+    prefix_prefix = prefix_prefix or ""
+    prefix_body = prefix_body or ""
+    middle = middle or ""
+
+    local target_folder = "_temp"
+    -- self:create_folder(target_folder)
+
+    local res = "data = {\n"
+
+    for method,v in pairs(data_lst) do
+
+        fix_prefix = prefix_prefix..middle..method
+        fix_body = prefix_body..middle..method.."("
+        fix_desc = ""
+
+        fix_desc_param = " ※参数: "
+        fix_desc_return = "\\n ※返回: "
+        -- 遍历参数表
+        for index_member,member in pairs(v.params or {}) do
+            fix_body = fix_body.."${"..index_member..":"..member.param.."},"
+
+            if member.fn_params then
+                -- fix参数type
+                fixed_types = self:fix_param_type(member.type)
+                --
+                fix_desc_param = fix_desc_param.."("..member.param..")".."<"..fixed_types..">".."["..member.explain.."]"
+                fix_desc_param = fix_desc_param.."\\n   {参数:"
+                for _,fn_param in pairs(member.fn_params or {}) do
+                    -- fix参数type
+                    fixed_types = self:fix_param_type(fn_param.type)
+                    fix_desc_param = fix_desc_param.."\\n      ("..fn_param.param..")".."<"..fixed_types..">".."["..fn_param.explain.."] "
+                end
+
+                if member.fn_returns then
+                    fix_desc_param = fix_desc_param.."\\n   返回:"
+                    for _,fn_return in pairs(member.fn_returns or {}) do
+                        -- fix参数type
+                        fixed_types = self:fix_param_type(fn_return.type)
+                        fix_desc_param = fix_desc_param.."\\n      <"..fixed_types..">".."["..fn_return.explain.."] "
+                    end
+                end
+
+                -- 去空格
+                local space_pos = string.find(fix_desc_param, " ", -1)
+                if space_pos then
+                    fix_desc_param = string.sub(fix_desc_param, 1, space_pos - 1)
+                end
+
+                fix_desc_param = fix_desc_param.."} "
+            else
+                -- fix参数type
+                fixed_types = self:fix_param_type(member.type)
+                fix_desc_param = fix_desc_param.."\\n   ("..member.param..")".."<"..fixed_types..">".."["..member.explain.."] "
+            end
+        end 
+        -- 查找最后一个逗号的位置
+        local comma_pos = string.find(fix_body, ",", -1)
+        if comma_pos then
+            fix_body = string.sub(fix_body, 1, comma_pos - 1)
+        end
+        fix_body = fix_body..")"
+        --遍历返回表
+        for index_member,member in pairs(v.returns or {}) do
+            -- fix参数type
+            fixed_types = self:fix_param_type(member.type)
+            fix_desc_return = fix_desc_return.."<"..fixed_types..">".."["..member.explain.."] "
+        end
+
+        fix_desc = fix_desc_param..fix_desc_return.."\\n ※说明: "..v.tips.."\\n ※贡献者: @"..v.author
+
+
+        
+        res = res .. string.format([[
+    "%s%s:%s": {
+        "prefix": "%s",
+        "body": "%s",
+        "description": "%s"
+    },
+]],escape_string(prefix_key),escape_string(method),escape_string(v.tips) or "",escape_string(fix_prefix),escape_string(fix_body),escape_string(fix_desc))
+    end
+
+    res = res .. "\n}"
+
+    local f = io.open(target_folder.."/"..output_file_name..".py","w")
+    if f then 
+        f:write(res)
+        f:close()
+    end
+
+end
+
 return tools

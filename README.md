@@ -16,7 +16,7 @@
 
 ## 项目地址(注释项目)
 
-- Git: https://gitee.com/b1inkie/dst-api
+- Git: https://github.com/b1inkie/dst-api
 
 ## 😎成为贡献者
 
@@ -103,7 +103,7 @@
 
 (只要注释够详细,补全能当文档用)
 
-![补全预览](_images/preview_snippets.png)
+![补全预览](_images/preview_snippets_new.png)
 
 ![进来写两句注释吧](_images/soyo_01.png)
 

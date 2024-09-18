@@ -19,7 +19,8 @@ def _merge_temp(path_lst,output_name_in_snippets):
 paths = [
     '_temp'
 ]
-
-_merge_temp(paths,'components')
+# components
+# var_name
+_merge_temp(paths,'var_name')
 
 
