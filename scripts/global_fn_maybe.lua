@@ -1,5 +1,3 @@
--- @lan: 扫了scripts下的所有全局函数(不知道获取的对不对) 返回的键是文件名,方法的line代表所在的行数
-
 return {
 	["actions"] = {
 
@@ -95,6 +93,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 11",
+            hidden = true,
         },
             
         ["SetOvalPortraitTexture"] = {
@@ -109,6 +108,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 31",
+            hidden = true,
         },
             
         ["SetHeroNameTexture_Grey"] = {
@@ -123,6 +123,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 42",
+            hidden = true,
         },
             
         ["SetHeroNameTexture_Gold"] = {
@@ -137,6 +138,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 53",
+            hidden = true,
         },
             
         ["GetCharacterAvatarTextureLocation"] = {
@@ -150,6 +152,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 72",
+            hidden = true,
         },
             
         ["GetCharacterTitle"] = {
@@ -164,6 +167,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 96",
+            
         },
             
         ["GetKilledByFromMorgueRow"] = {
@@ -191,6 +195,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 127",
+            hidden = true,
         },
             
 	},
@@ -294,9 +299,10 @@ return {
             returns = {
             
             },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 2577",
+            tips = "为某组件绑定动作.默认是为组件添加装备栏类型动作.",
+            author = "月",
+            line = "所在行数: 2580",
+            replace_body = "AddComponentAction(\\\"${1:EQUIPPED}\\\", \\\"${2:componentname}\\\", function(inst, doer, target, actions, right)\\n \\tif right then\\n \\t\\ttable.insert(actions, ACTIONS.xxx)\\n \\tend\\nend)"
         },
             
 	},
@@ -445,15 +451,16 @@ return {
             
         ["ConsoleWorldPosition"] = {
             params = {
-			{param = "", explain = "", type = ""},
+			-- {param = "", explain = "", type = ""},
 
             },
             returns = {
-            
+                {explain = "指针位置的世界坐标", type = "V3"},
             },
-            tips = "UNKNOWN",
-            author = "",
+            tips = "获取指针位置的世界坐标(客户端)",
+            author = "lan(若需要服务器知悉该坐标,则需要发RPC等方法,注意返回的是Vector3,可用:Get()方法来获取x,y,z)",
             line = "所在行数: 6",
+            replace_body = "ConsoleWorldPosition()"
         },
             
         ["ConsoleWorldEntityUnderMouse"] = {
@@ -3993,7 +4000,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 2388",
+            line = "所在行数: 2401",
         },
             
         ["d_createscrapbookdata"] = {
@@ -4007,7 +4014,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 2475",
+            line = "所在行数: 2488",
         },
             
         ["d_unlockscrapbook"] = {
@@ -4020,7 +4027,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3326",
+            line = "所在行数: 3344",
         },
             
         ["d_erasescrapbookentrydata"] = {
@@ -4033,7 +4040,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3330",
+            line = "所在行数: 3348",
         },
             
         ["d_waxplant"] = {
@@ -4046,7 +4053,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3342",
+            line = "所在行数: 3360",
         },
             
         ["d_checkmissingscrapbookentries"] = {
@@ -4059,7 +4066,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3366",
+            line = "所在行数: 3384",
         },
             
         ["d_testhashes_random"] = {
@@ -4073,7 +4080,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3422",
+            line = "所在行数: 3440",
         },
             
         ["d_testhashes_prefabs"] = {
@@ -4086,7 +4093,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3450",
+            line = "所在行数: 3468",
         },
             
         ["d_require"] = {
@@ -4099,7 +4106,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3467",
+            line = "所在行数: 3485",
         },
             
         ["d_mapstatistics"] = {
@@ -4114,7 +4121,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3472",
+            line = "所在行数: 3490",
         },
             
         ["d_testdps"] = {
@@ -4128,7 +4135,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3560",
+            line = "所在行数: 3578",
         },
             
         ["d_timeddebugprefab"] = {
@@ -4145,7 +4152,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3586",
+            line = "所在行数: 3604",
         },
             
         ["d_prizepouch"] = {
@@ -4159,7 +4166,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3597",
+            line = "所在行数: 3615",
         },
             
         ["d_boatracepointers"] = {
@@ -4172,7 +4179,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3616",
+            line = "所在行数: 3634",
         },
             
         ["d_testsound"] = {
@@ -4187,7 +4194,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3630",
+            line = "所在行数: 3648",
         },
             
         ["d_stopsound"] = {
@@ -4200,7 +4207,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3642",
+            line = "所在行数: 3660",
         },
             
         ["d_spell"] = {
@@ -4214,7 +4221,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 3654",
+            line = "所在行数: 3672",
         },
             
 	},
@@ -8431,7 +8438,7 @@ return {
 
         ["checkbool"] = {
             params = {
-			{param = "val) return val == nil or type(val", explain = "", type = ""},
+			{param = "val", explain = "", type = ""},
 
             },
             returns = {
@@ -8444,7 +8451,7 @@ return {
             
         ["checknumber"] = {
             params = {
-			{param = "val) return type(val", explain = "", type = ""},
+			{param = "val", explain = "", type = ""},
 
             },
             returns = {
@@ -8457,7 +8464,7 @@ return {
             
         ["checkuint"] = {
             params = {
-			{param = "val) return type(val) == "number" and tostring(val):find("%D"", explain = "", type = ""},
+			{param = "val", explain = "", type = ""},
 
             },
             returns = {
@@ -8470,7 +8477,7 @@ return {
             
         ["checkstring"] = {
             params = {
-			{param = "val) return type(val", explain = "", type = ""},
+			{param = "val", explain = "", type = ""},
 
             },
             returns = {
@@ -8483,7 +8490,7 @@ return {
             
         ["checkentity"] = {
             params = {
-			{param = "val) return type(val", explain = "", type = ""},
+			{param = "val", explain = "", type = ""},
 
             },
             returns = {
@@ -8496,7 +8503,7 @@ return {
             
         ["optnumber"] = {
             params = {
-			{param = "val) return val == nil or type(val", explain = "", type = ""},
+			{param = "val", explain = "", type = ""},
 
             },
             returns = {
@@ -8509,7 +8516,7 @@ return {
             
         ["optuint"] = {
             params = {
-			{param = "val) return val == nil or (type(val) == "number" and tostring(val):find("%D") == nil", explain = "", type = ""},
+			{param = "val", explain = "", type = ""},
 
             },
             returns = {
@@ -8522,7 +8529,7 @@ return {
             
         ["optstring"] = {
             params = {
-			{param = "val) return val == nil or type(val", explain = "", type = ""},
+			{param = "val", explain = "", type = ""},
 
             },
             returns = {
@@ -8535,7 +8542,7 @@ return {
             
         ["optentity"] = {
             params = {
-			{param = "val) return val == nil or type(val", explain = "", type = ""},
+			{param = "val", explain = "", type = ""},
 
             },
             returns = {
@@ -9117,7 +9124,7 @@ return {
         ["Networking_KickMetricsEvent"] = {
             params = {
 			{param = "caller", explain = "", type = ""},
-			{param = "target) -- source", explain = "", type = ""},
+			{param = "target", explain = "", type = ""},
 
             },
             returns = {
@@ -9131,7 +9138,7 @@ return {
         ["Networking_BanMetricsEvent"] = {
             params = {
 			{param = "caller", explain = "", type = ""},
-			{param = "target) -- source", explain = "", type = ""},
+			{param = "target", explain = "", type = ""},
 
             },
             returns = {
@@ -9144,7 +9151,7 @@ return {
             
         ["Networking_RollbackMetricsEvent"] = {
             params = {
-			{param = "caller) -- source", explain = "", type = ""},
+			{param = "caller", explain = "", type = ""},
 
             },
             returns = {
@@ -9157,7 +9164,7 @@ return {
             
         ["Networking_RegenerateMetricsEvent"] = {
             params = {
-			{param = "caller) -- source", explain = "", type = ""},
+			{param = "caller", explain = "", type = ""},
 
             },
             returns = {
@@ -12945,7 +12952,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 178",
+            line = "所在行数: 181",
         },
             
         ["IsRecipeValid"] = {
@@ -12958,7 +12965,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 186",
+            line = "所在行数: 189",
         },
             
         ["RemoveAllRecipes"] = {
@@ -12971,7 +12978,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 190",
+            line = "所在行数: 193",
         },
             
 	},
@@ -13503,7 +13510,7 @@ return {
         ["Shard_SyncBossDefeated"] = {
             params = {
 			{param = "bossprefab", explain = "", type = ""},
-			{param = "shardid) -- NOTES(JBK", explain = "", type = ""},
+			{param = "shardid", explain = "", type = ""},
 
             },
             returns = {
@@ -13517,7 +13524,7 @@ return {
         ["Shard_SyncMermKingExists"] = {
             params = {
 			{param = "exists", explain = "", type = ""},
-			{param = "shardid) -- NOTES(JBK", explain = "", type = ""},
+			{param = "shardid", explain = "", type = ""},
 
             },
             returns = {
@@ -14118,7 +14125,7 @@ return {
         ["SpringCombatMod"] = {
             params = {
 			{param = "amount", explain = "", type = ""},
-			{param = "forced) -- NOTES(JBK", explain = "", type = ""},
+			{param = "forced", explain = "", type = ""},
 
             },
             returns = {
@@ -14132,7 +14139,7 @@ return {
         ["SpringGrowthMod"] = {
             params = {
 			{param = "amount", explain = "", type = ""},
-			{param = "forced) -- NOTES(JBK", explain = "", type = ""},
+			{param = "forced", explain = "", type = ""},
 
             },
             returns = {
@@ -17702,7 +17709,7 @@ return {
             line = "所在行数: 1591",
         },
             
-        ["AddToRegrowthManager"] = {
+        ["RemoveFromRegrowthManager"] = {
             params = {
 			{param = "inst", explain = "", type = ""},
 
@@ -17713,6 +17720,19 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 1606",
+        },
+            
+        ["AddToRegrowthManager"] = {
+            params = {
+			{param = "inst", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 1611",
         },
             
         ["MakeForgeRepairable"] = {
@@ -17728,7 +17748,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 1613",
+            line = "所在行数: 1619",
         },
             
         ["MakeWaxablePlant"] = {
@@ -17741,7 +17761,7 @@ return {
             },
             tips = "UNKNOWN",
             author = "",
-            line = "所在行数: 1650",
+            line = "所在行数: 1656",
         },
             
 	},
@@ -19199,7 +19219,7 @@ return {
             
         ["isbadnumber"] = {
             params = {
-			{param = "x) return isinf(x) or isnan(x", explain = "", type = ""},
+			{param = "x", explain = "", type = ""},
 
             },
             returns = {
@@ -20873,6 +20893,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 71",
+            hidden = true,
         },
             
         ["WorldSettings_ChildSpawner_SpawnPeriod"] = {
@@ -20888,6 +20909,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 87",
+            hidden = true,
         },
             
         ["WorldSettings_ChildSpawner_RegenPeriod"] = {
@@ -20903,6 +20925,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 106",
+            hidden = true,
         },
             
         ["WorldSettings_Timer_PreLoad"] = {
@@ -20919,6 +20942,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 132",
+            hidden = true,
         },
             
         ["WorldSettings_Timer_PreLoad_Fix"] = {
@@ -20935,6 +20959,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 143",
+            hidden = true,
         },
             
         ["WorldSettings_Spawner_PreLoad"] = {
@@ -20950,6 +20975,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 182",
+            hidden = true,
         },
             
         ["WorldSettings_Spawner_SpawnDelay"] = {
@@ -20965,6 +20991,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 193",
+            hidden = true,
         },
             
         ["WorldSettings_Pickable_PreLoad"] = {
@@ -20980,6 +21007,7 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 241",
+            hidden = true,
         },
             
         ["WorldSettings_Pickable_RegenTime"] = {
@@ -20995,7 +21023,9 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 252",
+            hidden = true,
         },
+
             
 	},
 	["worldsettings_overrides"] = {
@@ -21085,4 +21115,4 @@ return {
             
 	},
 
-},
+}

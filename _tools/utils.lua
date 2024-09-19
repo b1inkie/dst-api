@@ -20,6 +20,10 @@ local function escape_string(s)
     return string.gsub(s, '"', "\\'")
 end
 
+function tools:sleep(seconds)
+    os.execute("ping -n " .. math.floor(seconds) .. " localhost > nul")
+end
+
 function tools:decodeComponents(data_lst,output_dir) -- 解析数据
     local s1 = "data = [\n"
 
@@ -265,11 +269,19 @@ function tools:direct2sn_in_temp(data_lst,output_file_name,prefix_key,prefix_pre
 end
 
 -- 分行
-function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key,prefix_prefix,prefix_body,middle)
+---$param: (data_lst) <tbl> [数据源列表] {others}
+---$param: (output_file_name) <str> [输出文件名称] {others}
+---$param: (prefix_key) <str> [补全字典的键名 的前缀] {others}
+---$param: (prefix_prefix) <str> [补全触发的 前缀] {others}
+---$param: (prefix_body) <str> [补全主体的 前缀] {others}
+---$param: (middle) <str> [补全触发和补全主体的 中间名] {others}
+---$param: (prefix_when_hidden) <str> [当为不常用补全时的 补全触发的 前缀] {others}
+function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key,prefix_prefix,prefix_body,middle,prefix_when_hidden)
     prefix_key = prefix_key or ""
     prefix_prefix = prefix_prefix or ""
     prefix_body = prefix_body or ""
     middle = middle or ""
+    prefix_when_hidden = prefix_when_hidden or ""
 
     local target_folder = "_temp"
     -- self:create_folder(target_folder)
@@ -337,15 +349,26 @@ function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key
 
         fix_desc = fix_desc_param..fix_desc_return.."\\n ※说明: "..v.tips.."\\n ※贡献者: @"..v.author
 
+        -- 是否有提供的补全
+        if v.replace_body ~= nil and v.replace_body ~= '' then 
+            fix_body = prefix_body..middle..v.replace_body
+        end
+        -- 是否有标记路径和行数
+        if v.filepath ~= nil then
+            fix_desc = fix_desc.."\\n ※路径: "..v.filepath.." "..(v.line or '')
+        end
+        -- 是否归类为不常用补全
+        if v.hidden then
+            fix_prefix = prefix_when_hidden..middle..method
+        end
 
-        
         res = res .. string.format([[
     "%s%s:%s": {
         "prefix": "%s",
         "body": "%s",
         "description": "%s"
     },
-]],escape_string(prefix_key),escape_string(method),escape_string(v.tips) or "",escape_string(fix_prefix),escape_string(fix_body),escape_string(fix_desc))
+]],escape_string(prefix_key),escape_string(method),escape_string(v.tips) or "",escape_string(fix_prefix),fix_body,escape_string(fix_desc))
     end
 
     res = res .. "\n}"

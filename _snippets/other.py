@@ -504,36 +504,7 @@ data = {
         "body": "CreateEntity",
         "description": "dst-未定义的"
     },
-    "Physics": {
-        "prefix": "Physics",
-        "body": "Physics",
-        "description": "dst-未定义的"
-    },
-    "AnimState": {
-        "prefix": "AnimState",
-        "body": "AnimState",
-        "description": "dst-未定义的"
-    },
-    "Transform": {
-        "prefix": "Transform",
-        "body": "Transform",
-        "description": "dst-未定义的"
-    },
-    "Light": {
-        "prefix": "Light",
-        "body": "Light",
-        "description": "dst-未定义的"
-    },
-    "Network": {
-        "prefix": "Network",
-        "body": "Network",
-        "description": "dst-未定义的"
-    },
-    "SoundEmitter": {
-        "prefix": "SoundEmitter",
-        "body": "SoundEmitter",
-        "description": "dst-未定义的"
-    },
+
     "GetWorldPosition": {
         "prefix": "GetWorldPosition",
         "body": "GetWorldPosition",

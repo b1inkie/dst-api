@@ -1231,6 +1231,110 @@ data = {
         tips = "UNKNOWN",
         author = "",
     },
+    -------------------------------
+    ["SetFrame"] = {
+        params = {
+            {param = "frame", explain = "第多少帧", type = "num"},
+   
+        },
+        returns = {
+
+        },
+        tips = "设置动画到第多少帧",
+        author = "lan",
+    },
+    ["GetHistoryData"] = {
+        params = {
+            -- {param = "", explain = "", type = ""},
+   
+        },
+        returns = {
+
+        },
+        tips = "UNKNOWN",
+        author = "",
+    },
+    ["GetVisualBB"] = {
+        params = {
+            -- {param = "", explain = "", type = ""},
+   
+        },
+        returns = {
+            -- bbx1, bby1, bbx2, bby2
+            {explain = "bbx1", type = "num"},
+            {explain = "bby1", type = "num"},
+            {explain = "bbx2", type = "num"},
+            {explain = "bby2", type = "num"},
+        },
+        tips = "获取可视化边界",
+        author = "lan (bbx1-bbx2)取绝对值是宽,y是高",
+    },
+    ["UseHeadHatExchange"] = {
+        params = {
+            -- {param = "", explain = "", type = ""},
+   
+        },
+        returns = {
+
+        },
+        tips = "UNKNOWN",
+        author = "",
+    },
+    ["GetBankHash"] = {
+        params = {
+            -- {param = "", explain = "", type = ""},
+   
+        },
+        returns = {
+
+        },
+        tips = "UNKNOWN",
+        author = "",
+    },
+    ["GetLayer"] = {
+        params = {
+            -- {param = "", explain = "", type = ""},
+   
+        },
+        returns = {
+
+        },
+        tips = "UNKNOWN",
+        author = "",
+    },
+    ["GetCurrentBankName"] = {
+        params = {
+            -- {param = "", explain = "", type = ""},
+   
+        },
+        returns = {
+
+        },
+        tips = "",
+        author = "lan 开发者注释:该方法在开发环境以外使用可能会出错",
+    },
+    ["GetCurrentAnimationNumFrames"] = {
+        params = {
+            -- {param = "", explain = "", type = ""},
+   
+        },
+        returns = {
+            {explain = "总帧数", type = "num"},
+        },
+        tips = "获取当前动画的总帧数",
+        author = "lan",
+    },
+    ["MakeFacingDirty"] = {
+        params = {
+            -- {param = "", explain = "", type = ""},
+   
+        },
+        returns = {
+
+        },
+        tips = "UNKNOWN",
+        author = "",
+    },
     
 }
 return data

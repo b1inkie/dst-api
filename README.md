@@ -18,6 +18,12 @@
 
 - Git: https://github.com/b1inkie/dst-api
 
+## 📖help(重要)
+
+安装插件后,直接键入`help`,点击提示框中的`help`补全的右尖括号,将可以看到详细信息:
+
+![help](_images/help.png)
+
 ## 😎成为贡献者
 
 ### 💖lan的话:
@@ -115,9 +121,9 @@
 
 - 自动生成注释模板(注意本功能是基于monokai主题的配色,其他主题可能视觉效果不佳):
 
-    + 键入: `com+param`
+    + 键入: `lan+param`
     <span style="color: #88846f;">---</span><span style="color: #52d9ce;">\$</span><span style="color: #f92749;">param</span><span style="color: #52d9ce;">:</span> <span style="color: #f1d70b;">(</span><span style="color: #fd8921;">param</span><span style="color: #f1d70b;">)</span> <span style="color: #ae81ff;"><</span><span style="color: #66d9ef;">type</span><span style="color: #ae81ff;">></span> <span style="color: #88846f;">[</span><span style="color: #e6db74;">desc</span><span style="color: #88846f;">]</span> {others}
-    + 键入: `com+return`
+    + 键入: `lan+return`
     <span style="color: #88846f;">---</span><span style="color: #52d9ce;">\$</span><span style="color: #f92749;">return</span><span style="color: #52d9ce;">:</span>  <span style="color: #ae81ff;"><</span><span style="color: #66d9ef;">type</span><span style="color: #ae81ff;">></span> <span style="color: #88846f;">[</span><span style="color: #e6db74;">desc</span><span style="color: #88846f;">]</span>
 
 - 新增用户注释模板:
