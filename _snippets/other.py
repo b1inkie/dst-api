@@ -164,96 +164,96 @@ data = {
         "body": "local ${1:ClassName} = Class(function(self, inst)\n\tself.inst = inst\nend,\nnil,\n{\n})",
         "description": "local ClassName = Class(function(self, inst)\n\tself.inst = inst\nend,\nnil,\n{\n})"
     },
-    "修改类API": {
-        "prefix": "AddClassPostConstruct",
-        "body": "AddClassPostConstruct(\"${1:package}\", function(self)\n\t${0}\nend)",
-        "description": "添加修改类API通用函数片段"
-    },
-    "修改组件API": {
-        "prefix": "AddComponentPostInit",
-        "body": "AddComponentPostInit(\"${1:ComponentName}\", function(self)\n\t${0}\nend)",
-        "description": "添加修改组件API通用函数片段"
-    },
-    "修改预制体API": {
-        "prefix": "AddPrefabPostInit",
-        "body": "AddPrefabPostInit(\"${1:PrefabName}\", function(inst)\n\t${0}\nend)",
-        "description": "添加修改预制体API通用函数片段"
-    },
-    "修改玩家API": {
-        "prefix": "AddPlayerPostInit",
-        "body": "AddPlayerPostInit(function(inst)\n\t${0}\nend)",
-        "description": "添加修改玩家API通用函数片段"
-    },
-    "修改大脑API": {
-        "prefix": "AddBrainPostInit",
-        "body": "AddBrainPostInit(\"${1:BrainName}\", function(self)\n\t${0}\nend)",
-        "description": "添加修改修改大脑API通用函数片段"
-    },
-    "修改状态图API": {
-        "prefix": "AddStategraphPostInit",
-        "body": "AddStategraphPostInit(\"${1:StateGraph}\", function(self)\n\t${0}\nend)",
-        "description": "添加修改修改状态图(SG)API通用函数片段,初始化时最后执行"
-    },
-    "添加或覆盖SG的事件监听器API": {
-        "prefix": "AddStategraphEvent",
-        "body": "AddStategraphEvent(\"${1:StateGraph}\", EventHandler(\"event\", function(inst)\n\nend))",
-        "description": "添加SG的事件监听器API通用函数片段"
-    },
-    "添加或覆盖SG的状态API": {
-        "prefix": "AddStategraphState",
-        "body": "AddStategraphState(\"${1:StateGraph}\", State{\n\tname = ${2:statename},\n \ttags = {},\n \tonenter = function(inst)\n \t\tinst:PerformBufferedAction()\n \tend,\n \ttimeline=\n\t{\n\t\tTimeEvent(1*FRAMES, function(inst) end),\n\t},\n \tonexit = function(inst)\n \t\tinst.sg:GoToState(\"idle\") \n\tend\n})",
-        "description": "添加SG的状态API通用函数片段"
-    },
-    "添加或覆盖SG的动作触发器API": {
-        "prefix": "AddStategraphActionHandler",
-        "body": "AddStategraphActionHandler(\"${1:StateGraph}\", ActionHandler(ACTIONS.${2:XXX}, \"give\"))",
-        "description": "添加SG的动作触发器API通用函数片段"
-    },
-    "修改配方API": {
-        "prefix": "AddRecipePostInit",
-        "body": "AddRecipePostInit(\"${1:RecipeName}\", function(self)\n\t${0}\nend)",
-        "description": "添加修改修改配方API通用函数片段"
-    },
-    "自定义原型机API": {
-        "prefix": "AddPrototyperDef",
-        "body": "AddPrototyperDef(\"${1:prefab}\", {\n \ticon_atlas = \"images/xxxx.xml\",\n \ticon_image = \"xxxx.tex\",\n \tis_crafting_station = true,\n \taction_str = \"制作\",\n \tfilter_text = \"过滤器名称\"\n})",
-        "description": "添加自定义原型机API通用函数片段,is_crafting_station在附近才能制作"
-    },
-    "分解配方API": {
-        "prefix": "AddDeconstructRecipe",
-        "body": "AddDeconstructRecipe(\"${1:prefab}\", {Ingredient(\"${2:prefab}\", 1)})",
-        "description": "添加分解配方API,供[分解法杖]拆解"
-    },
-    "动作API": {
-        "prefix": "AddAction",
-        "body": "AddAction(\"${1:id}\", \"动作名称\", function(act)\n\tlocal inst = act.doer\n \tlocal target = act.target\n \tlocal invobject = act.invobject\n \tlocal pos = act.pos\n\n \treturn true\nend)",
-        "description": "添加动作API"
-    },
-    "组件动作API": {
-        "prefix": "AddComponentAction",
-        "body": "AddComponentAction(\"${1:EQUIPPED}\", \"${2:componentname}\", function(inst, doer, target, actions, right)\n \tif right then\n \t\ttable.insert(actions, ACTIONS.xxx)\n \tend\nend)",
-        "description": "为某组件绑定动作.默认是为组件添加装备栏类型动作."
-    },
-    "添加Mod角色API": {
-        "prefix": "AddModCharacter",
-        "body": "AddModCharacter(name, gender, modes)",
-        "description": "添加Mod角色API"
-    },
-    "小地图图标API": {
-        "prefix": "AddMinimapAtlas",
-        "body": "AddMinimapAtlas(\"minimap/${1:prefab}.xml\")",
-        "description": "添加小地图图标API"
-    },
-    "获取mod设置": {
-        "prefix": "GetModConfigData",
-        "body": "local ${1:name} = GetModConfigData(\"${2:$1}\")",
-        "description": "获取当前mod配置项的值"
-    },
-    "修改世界配置API": {
-        "prefix": "AddLevelPreInitAny",
-        "body": "AddLevelPreInitAny(function(self)\n\t${0}\nend)",
-        "description": "添加修改世界配置API通用函数片段"
-    },
+    # "修改类API": {
+    #     "prefix": "AddClassPostConstruct",
+    #     "body": "AddClassPostConstruct(\"${1:package}\", function(self)\n\t${0}\nend)",
+    #     "description": "添加修改类API通用函数片段"
+    # },
+    # "修改组件API": {
+    #     "prefix": "AddComponentPostInit",
+    #     "body": "AddComponentPostInit(\"${1:ComponentName}\", function(self)\n\t${0}\nend)",
+    #     "description": "添加修改组件API通用函数片段"
+    # },
+    # "修改预制体API": {
+    #     "prefix": "AddPrefabPostInit",
+    #     "body": "AddPrefabPostInit(\"${1:PrefabName}\", function(inst)\n\t${0}\nend)",
+    #     "description": "添加修改预制体API通用函数片段"
+    # },
+    # "修改玩家API": {
+    #     "prefix": "AddPlayerPostInit",
+    #     "body": "AddPlayerPostInit(function(inst)\n\t${0}\nend)",
+    #     "description": "添加修改玩家API通用函数片段"
+    # },
+    # "修改大脑API": {
+    #     "prefix": "AddBrainPostInit",
+    #     "body": "AddBrainPostInit(\"${1:BrainName}\", function(self)\n\t${0}\nend)",
+    #     "description": "添加修改修改大脑API通用函数片段"
+    # },
+    # "修改状态图API": {
+    #     "prefix": "AddStategraphPostInit",
+    #     "body": "AddStategraphPostInit(\"${1:StateGraph}\", function(self)\n\t${0}\nend)",
+    #     "description": "添加修改修改状态图(SG)API通用函数片段,初始化时最后执行"
+    # },
+    # "添加或覆盖SG的事件监听器API": {
+    #     "prefix": "AddStategraphEvent",
+    #     "body": "AddStategraphEvent(\"${1:StateGraph}\", EventHandler(\"event\", function(inst)\n\nend))",
+    #     "description": "添加SG的事件监听器API通用函数片段"
+    # },
+    # "添加或覆盖SG的状态API": {
+    #     "prefix": "AddStategraphState",
+    #     "body": "AddStategraphState(\"${1:StateGraph}\", State{\n\tname = ${2:statename},\n \ttags = {},\n \tonenter = function(inst)\n \t\tinst:PerformBufferedAction()\n \tend,\n \ttimeline=\n\t{\n\t\tTimeEvent(1*FRAMES, function(inst) end),\n\t},\n \tonexit = function(inst)\n \t\tinst.sg:GoToState(\"idle\") \n\tend\n})",
+    #     "description": "添加SG的状态API通用函数片段"
+    # },
+    # "添加或覆盖SG的动作触发器API": {
+    #     "prefix": "AddStategraphActionHandler",
+    #     "body": "AddStategraphActionHandler(\"${1:StateGraph}\", ActionHandler(ACTIONS.${2:XXX}, \"give\"))",
+    #     "description": "添加SG的动作触发器API通用函数片段"
+    # },
+    # "修改配方API": {
+    #     "prefix": "AddRecipePostInit",
+    #     "body": "AddRecipePostInit(\"${1:RecipeName}\", function(self)\n\t${0}\nend)",
+    #     "description": "添加修改修改配方API通用函数片段"
+    # },
+    # "自定义原型机API": {
+    #     "prefix": "AddPrototyperDef",
+    #     "body": "AddPrototyperDef(\"${1:prefab}\", {\n \ticon_atlas = \"images/xxxx.xml\",\n \ticon_image = \"xxxx.tex\",\n \tis_crafting_station = true,\n \taction_str = \"制作\",\n \tfilter_text = \"过滤器名称\"\n})",
+    #     "description": "添加自定义原型机API通用函数片段,is_crafting_station在附近才能制作"
+    # },
+    # "分解配方API": {
+    #     "prefix": "AddDeconstructRecipe",
+    #     "body": "AddDeconstructRecipe(\"${1:prefab}\", {Ingredient(\"${2:prefab}\", 1)})",
+    #     "description": "添加分解配方API,供[分解法杖]拆解"
+    # },
+    # "动作API": {
+    #     "prefix": "AddAction",
+    #     "body": "AddAction(\"${1:id}\", \"动作名称\", function(act)\n\tlocal inst = act.doer\n \tlocal target = act.target\n \tlocal invobject = act.invobject\n \tlocal pos = act.pos\n\n \treturn true\nend)",
+    #     "description": "添加动作API"
+    # },
+    # "组件动作API": {
+    #     "prefix": "AddComponentAction",
+    #     "body": "AddComponentAction(\"${1:EQUIPPED}\", \"${2:componentname}\", function(inst, doer, target, actions, right)\n \tif right then\n \t\ttable.insert(actions, ACTIONS.xxx)\n \tend\nend)",
+    #     "description": "为某组件绑定动作.默认是为组件添加装备栏类型动作."
+    # },
+    # "添加Mod角色API": {
+    #     "prefix": "AddModCharacter",
+    #     "body": "AddModCharacter(name, gender, modes)",
+    #     "description": "添加Mod角色API"
+    # },
+    # "小地图图标API": {
+    #     "prefix": "AddMinimapAtlas",
+    #     "body": "AddMinimapAtlas(\"minimap/${1:prefab}.xml\")",
+    #     "description": "添加小地图图标API"
+    # },
+    # "获取mod设置": {
+    #     "prefix": "GetModConfigData",
+    #     "body": "local ${1:name} = GetModConfigData(\"${2:$1}\")",
+    #     "description": "获取当前mod配置项的值"
+    # },
+    # "修改世界配置API": {
+    #     "prefix": "AddLevelPreInitAny",
+    #     "body": "AddLevelPreInitAny(function(self)\n\t${0}\nend)",
+    #     "description": "添加修改世界配置API通用函数片段"
+    # },
     "实体添加某组件": {
         "prefix": "inst:AddComponent",
         "body": "inst:AddComponent(\"${1:ComponentName}\")",
@@ -329,36 +329,36 @@ data = {
         "body": "GLOBAL",
         "description": "指向饥荒本体环境的全局表"
     },
-    "注册服务器rpc": {
-        "prefix": "AddModRPCHandler",
-        "body": "AddModRPCHandler(\"${1:name}\",\"${2:$1}\", function(player, str)\n\tif player == nil or str == nil then return end\n\tlocal success, savedata = RunInSandboxSafe(str)\n\tif success then\n\n\telse\n\t\tprint(\"服务器接收RPC失败\")\n\tend\nend)",
-        "description": "参数1:命名空间;参数2:RPC名称;参数3:执行函数(形参1:玩家<code>是发起的客机对之服务器玩家</code>, ...).前两个是唯一标识符"
-    },
-    "发送服务器RPC调用": {
-        "prefix": "SendModRPCToServer",
-        "body": "SendModRPCToServer(GetModRPC(\"${1:name}\", \"${2:$1}\"), DataDumper({\"参数\"}, nil, true))",
-        "description": "从客机发送指令给主机.参数1:通过GetModRPC(形参1:命名空间,形参2:RPC名称)获取对应RPC;参数2:附带参数对应str"
-    },
-    "注册客户端rpc": {
-        "prefix": "AddClientModRPCHandler",
-        "body": "AddClientModRPCHandler(\"${1:name}\",\"${2:$1}\", function(str)\n\tif str == nil then return end\n\tlocal success, savedata = RunInSandboxSafe(str)\n\tif success then\n\n\telse\n\t\tprint(\"客户端接收RPC失败\")\n\tend\nend)",
-        "description": "参数1:命名空间;参数2:RPC名称;参数3:执行函数(...).前两个是唯一标识符"
-    },
-    "发送客户端RPC调用": {
-        "prefix": "SendModRPCToClient",
-        "body": "SendModRPCToClient(GetClientModRPC(\"${1:name}\", \"${2:$1}\"), userid or nil, DataDumper({\"参数\"}, nil, true))",
-        "description": "从主机发送指令给客机.参数1:GetClientModRPC(形参1:命名空间,形参2:RPC名称)获取对应RPC;参数2:userid<code>可为nil|字符串|字符串表</code>;参数3:附带参数对应str"
-    },
-    "注册服务器分片rpc": {
-        "prefix": "AddShardModRPCHandler",
-        "body": "AddShardModRPCHandler(\"${1:name}\",\"${2:$1}\", function(wordid, str)\n\tif wordid == nil or str == nil then return end\n\tlocal success, savedata = RunInSandboxSafe(str)\n\tif success then\n\n\telse\n\t\tprint(\"分片接收RPC失败\")\n\tend\nend)",
-        "description": "参数1:命名空间;参数2:RPC名称;参数3:执行函数(...).前两个是唯一标识符"
-    },
-    "发送服务器其他世界RPC调用": {
-        "prefix": "SendModRPCToShard",
-        "body": "SendModRPCToShard(GetShardModRPC(\"${1:name}\", \"${2:$1}\"), sender_list or nil, DataDumper({\"参数\"}, nil, true))",
-        "description": "从主机分片发送指令给主机其他分片.参数1:GetShardModRPC(形参1:命名空间,形参2:RPC名称)获取对应RPC;参数2:sender_list<code>可为nil|字符串|字符串表</code>;参数3:附带参数对应str"
-    },
+    # "注册服务器rpc": {
+    #     "prefix": "AddModRPCHandler",
+    #     "body": "AddModRPCHandler(\"${1:name}\",\"${2:$1}\", function(player, str)\n\tif player == nil or str == nil then return end\n\tlocal success, savedata = RunInSandboxSafe(str)\n\tif success then\n\n\telse\n\t\tprint(\"服务器接收RPC失败\")\n\tend\nend)",
+    #     "description": "参数1:命名空间;参数2:RPC名称;参数3:执行函数(形参1:玩家<code>是发起的客机对之服务器玩家</code>, ...).前两个是唯一标识符"
+    # },
+    # "发送服务器RPC调用": {
+    #     "prefix": "SendModRPCToServer",
+    #     "body": "SendModRPCToServer(GetModRPC(\"${1:name}\", \"${2:$1}\"), DataDumper({\"参数\"}, nil, true))",
+    #     "description": "从客机发送指令给主机.参数1:通过GetModRPC(形参1:命名空间,形参2:RPC名称)获取对应RPC;参数2:附带参数对应str"
+    # },
+    # "注册客户端rpc": {
+    #     "prefix": "AddClientModRPCHandler",
+    #     "body": "AddClientModRPCHandler(\"${1:name}\",\"${2:$1}\", function(str)\n\tif str == nil then return end\n\tlocal success, savedata = RunInSandboxSafe(str)\n\tif success then\n\n\telse\n\t\tprint(\"客户端接收RPC失败\")\n\tend\nend)",
+    #     "description": "参数1:命名空间;参数2:RPC名称;参数3:执行函数(...).前两个是唯一标识符"
+    # },
+    # "发送客户端RPC调用": {
+    #     "prefix": "SendModRPCToClient",
+    #     "body": "SendModRPCToClient(GetClientModRPC(\"${1:name}\", \"${2:$1}\"), userid or nil, DataDumper({\"参数\"}, nil, true))",
+    #     "description": "从主机发送指令给客机.参数1:GetClientModRPC(形参1:命名空间,形参2:RPC名称)获取对应RPC;参数2:userid<code>可为nil|字符串|字符串表</code>;参数3:附带参数对应str"
+    # },
+    # "注册服务器分片rpc": {
+    #     "prefix": "AddShardModRPCHandler",
+    #     "body": "AddShardModRPCHandler(\"${1:name}\",\"${2:$1}\", function(wordid, str)\n\tif wordid == nil or str == nil then return end\n\tlocal success, savedata = RunInSandboxSafe(str)\n\tif success then\n\n\telse\n\t\tprint(\"分片接收RPC失败\")\n\tend\nend)",
+    #     "description": "参数1:命名空间;参数2:RPC名称;参数3:执行函数(...).前两个是唯一标识符"
+    # },
+    # "发送服务器其他世界RPC调用": {
+    #     "prefix": "SendModRPCToShard",
+    #     "body": "SendModRPCToShard(GetShardModRPC(\"${1:name}\", \"${2:$1}\"), sender_list or nil, DataDumper({\"参数\"}, nil, true))",
+    #     "description": "从主机分片发送指令给主机其他分片.参数1:GetShardModRPC(形参1:命名空间,形参2:RPC名称)获取对应RPC;参数2:sender_list<code>可为nil|字符串|字符串表</code>;参数3:附带参数对应str"
+    # },
     "网络变量": {
         "prefix": "net_bool",
         "body": "inst.${1:_xx} = net_bool(inst.GUID, \"${2:$1}\",\"${3:$1}\")",
@@ -528,11 +528,6 @@ data = {
     "require": {
         "prefix": "require",
         "body": "require",
-        "description": "dst-未定义的"
-    },
-    "modimport": {
-        "prefix": "modimport",
-        "body": "modimport",
         "description": "dst-未定义的"
     },
     "GUID": {

@@ -290,17 +290,27 @@ return {
 
         ["AddComponentAction"] = {
             params = {
-			{param = "actiontype", explain = "", type = ""},
-			{param = "component", explain = "", type = ""},
-			{param = "fn", explain = "", type = ""},
-			{param = "modname", explain = "", type = ""},
-
+                {param = "actiontype", explain = "动作类型", type = "str"},
+                {param = "component", explain = "组件", type = "str"},
+                {param = "fn", explain = "", type = "fn",
+                    fn_params = {
+                        {param = "inst", explain = "", type = ""},
+                        {param = "doer", explain = "", type = ""},
+                        {param = "pos", explain = "", type = "V3"},
+                        {param = "target", explain = "", type = ""},
+                        {param = "actions", explain = "", type = ""},
+                        {param = "right", explain = "右键动作", type = "bool"},
+                    },
+                    fn_returns = {
+                    }
+                },
+                {param = "modname", explain = "", type = ""},
             },
             returns = {
             
             },
-            tips = "为某组件绑定动作.默认是为组件添加装备栏类型动作.",
-            author = "月",
+            tips = "组件绑定动作",
+            author = "lan\\n\\tSCENE args: inst, doer, actions, right 点击物品栏物品或世界上的物品时执行\\n\\tUSEITEM args: inst, doer, target, actions, right 拿起某物品放到另一物品上执行\\n\\tPOINT args: inst, doer, pos, actions, right 对地面执行\\n\\tEQUIPPED args: inst, doer, target, actions, right 装备某物品后激活,如装备火把点火\\n\\tINVENTORY args: inst, doer, actions, right 右键物品栏执行",
             line = "所在行数: 2580",
             replace_body = "AddComponentAction(\\\"${1:EQUIPPED}\\\", \\\"${2:componentname}\\\", function(inst, doer, target, actions, right)\\n \\tif right then\\n \\t\\ttable.insert(actions, ACTIONS.xxx)\\n \\tend\\nend)"
         },
@@ -2362,20 +2372,20 @@ return {
 	},
 	["cooking"] = {
 
-        ["AddCookerRecipe"] = {
-            params = {
-			{param = "cooker", explain = "", type = ""},
-			{param = "recipe", explain = "", type = ""},
-			{param = "is_mod_food", explain = "", type = ""},
+        -- ["AddCookerRecipe"] = {
+        --     params = {
+		-- 	{param = "cooker", explain = "", type = ""},
+		-- 	{param = "recipe", explain = "", type = ""},
+		-- 	{param = "is_mod_food", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 9",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 9",
+        -- },
             
         ["AddRecipeCard"] = {
             params = {
@@ -2391,21 +2401,21 @@ return {
             line = "所在行数: 33",
         },
             
-        ["AddIngredientValues"] = {
-            params = {
-			{param = "names", explain = "", type = ""},
-			{param = "tags", explain = "", type = ""},
-			{param = "cancook", explain = "", type = ""},
-			{param = "candry", explain = "", type = ""},
+        -- ["AddIngredientValues"] = {
+        --     params = {
+		-- 	{param = "names", explain = "", type = ""},
+		-- 	{param = "tags", explain = "", type = ""},
+		-- 	{param = "cancook", explain = "", type = ""},
+		-- 	{param = "candry", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 46",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 46",
+        -- },
             
         ["IsModCookingProduct"] = {
             params = {
@@ -5429,19 +5439,19 @@ return {
 	},
 	["gamemodes"] = {
 
-        ["AddGameMode"] = {
-            params = {
-			{param = "game_mode", explain = "", type = ""},
-			{param = "game_mode_text", explain = "", type = ""},
+        -- ["AddGameMode"] = {
+        --     params = {
+		-- 	{param = "game_mode", explain = "", type = ""},
+		-- 	{param = "game_mode_text", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 186",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 186",
+        -- },
             
         ["GetGameModeProperty"] = {
             params = {
@@ -8347,6 +8357,19 @@ return {
             author = "",
             line = "所在行数: 896",
         },
+        -----------------------------
+        ["modimport"] = {
+            params = {
+			{param = "modulename", explain = "lua文件路径", type = "str"},
+
+            },
+            returns = {
+            
+            },
+            tips = "导入指定lua文件中的所有代码",
+            author = "lan",
+            line = "所在行数: 332",
+        },
             
 	},
 	["modutil"] = {
@@ -8377,20 +8400,20 @@ return {
             line = "所在行数: 18",
         },
             
-        ["GetModConfigData"] = {
-            params = {
-			{param = "optionname", explain = "", type = ""},
-			{param = "modname", explain = "", type = ""},
-			{param = "get_local_config", explain = "", type = ""},
+        -- ["GetModConfigData"] = {
+        --     params = {
+		-- 	{param = "optionname", explain = "", type = ""},
+		-- 	{param = "modname", explain = "", type = ""},
+		-- 	{param = "get_local_config", explain = "", type = ""},
 
-            },
-            returns = {
-            
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 34",
-        },
+        --     },
+        --     returns = {
+        --         {explain = "", type = "any"},
+        --     },
+        --     tips = "",
+        --     author = "",
+        --     line = "所在行数: 34",
+        -- },
             
         ["moderror"] = {
             params = {
@@ -8431,6 +8454,1364 @@ return {
             tips = "UNKNOWN",
             author = "",
             line = "所在行数: 128",
+        },
+        ---------------------------------------
+        ["ReloadFrontEndAssets"] = {
+            params = {
+			{param = "", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 187",
+        },
+            
+        ["ReloadPreloadAssets"] = {
+            params = {
+			{param = "", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 203",
+        },
+            
+        ["AddCustomizeGroup"] = {
+            params = {
+			{param = "category", explain = "", type = ""},
+			{param = "name", explain = "", type = ""},
+			{param = "text", explain = "", type = ""},
+			{param = "desc", explain = "", type = ""},
+			{param = "atlas", explain = "", type = ""},
+			{param = "order", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 212",
+        },
+            
+        ["RemoveCustomizeGroup"] = {
+            params = {
+			{param = "category", explain = "", type = ""},
+			{param = "name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 217",
+        },
+            
+        ["AddCustomizeItem"] = {
+            params = {
+			{param = "category", explain = "", type = ""},
+			{param = "group", explain = "", type = ""},
+			{param = "name", explain = "", type = ""},
+			{param = "itemsettings", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 222",
+        },
+            
+        ["RemoveCustomizeItem"] = {
+            params = {
+			{param = "category", explain = "", type = ""},
+			{param = "name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 227",
+        },
+            
+        ["GetCustomizeDescription"] = {
+            params = {
+			{param = "description", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 232",
+        },
+            
+        ["AddLevelPreInit"] = {
+            params = {
+			{param = "levelid", explain = "", type = ""},
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 238",
+        },
+            
+        ["AddLevelPreInitAny"] = {
+            params = {
+			{param = "fn", explain = "", type = "fn"},
+
+            },
+            returns = {
+            
+            },
+            tips = "添加修改世界配置API通用函数片段",
+            author = "月",
+            line = "所在行数: 246",
+            replace_body = "AddLevelPreInitAny(function(self)\\n\\t${0}\\nend)"
+        },
+            
+        ["AddTaskSetPreInit"] = {
+            params = {
+			{param = "tasksetname", explain = "", type = ""},
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 251",
+        },
+            
+        ["AddTaskSetPreInitAny"] = {
+            params = {
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 259",
+        },
+            
+        ["AddTaskPreInit"] = {
+            params = {
+			{param = "taskname", explain = "", type = ""},
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 267",
+        },
+            
+        ["AddRoomPreInit"] = {
+            params = {
+			{param = "roomname", explain = "", type = ""},
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 275",
+        },
+            
+        ["AddLocation"] = {
+            params = {
+			{param = "arg1", explain = "", type = ""},
+			{param = "...", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 283",
+        },
+            
+        ["AddLevel"] = {
+            params = {
+			{param = "arg1", explain = "", type = ""},
+			{param = "arg2", explain = "", type = ""},
+			{param = "...", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 287",
+        },
+            
+        ["AddTaskSet"] = {
+            params = {
+			{param = "arg1", explain = "", type = ""},
+			{param = "...", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 294",
+        },
+            
+        ["AddTask"] = {
+            params = {
+			{param = "arg1", explain = "", type = ""},
+			{param = "...", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 298",
+        },
+            
+        ["AddRoom"] = {
+            params = {
+			{param = "arg1", explain = "", type = ""},
+			{param = "...", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 302",
+        },
+            
+        ["AddStartLocation"] = {
+            params = {
+			{param = "arg1", explain = "", type = ""},
+			{param = "...", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 306",
+        },
+            
+        ["AddGameMode"] = {
+            params = {
+			{param = "game_mode", explain = "", type = ""},
+			{param = "game_mode_text", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 311",
+        },
+            
+        ["GetModConfigData"] = {
+            params = {
+			{param = "optionname", explain = "配置项", type = "str"},
+			{param = "get_local_config", explain = "是否获取本地设置,一般不填", type = "any"},
+
+            },
+            returns = {
+                {explain = "value", type = "any"},
+            },
+            tips = "获取当前mod配置项的值",
+            author = "lan",
+            line = "所在行数: 329",
+        },
+            
+        ["AddGamePostInit"] = {
+            params = {
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 335",
+        },
+            
+        ["AddSimPostInit"] = {
+            params = {
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 341",
+        },
+            
+        ["AddGlobalClassPostConstruct"] = {
+            params = {
+			{param = "package", explain = "", type = ""},
+			{param = "classname", explain = "", type = ""},
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 346",
+        },
+            
+        ["AddClassPostConstruct"] = {
+            params = {
+			{param = "package", explain = "", type = "str"},
+			{param = "fn", explain = "", type = "fn"},
+
+            },
+            returns = {
+            
+            },
+            tips = "添加修改类API通用函数片段",
+            author = "月",
+            line = "所在行数: 351",
+            replace_body = "AddClassPostConstruct(\\\"${1:package}\\\", function(self)\\n\\t${0}\\nend)",
+        },
+            
+        ["RegisterTileRange"] = {
+            params = {
+			{param = "range_name", explain = "", type = ""},
+			{param = "range_start", explain = "", type = ""},
+			{param = "range_end", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 357",
+        },
+            
+        ["AddTile"] = {
+            params = {
+			{param = "tile_name", explain = "", type = ""},
+			{param = "tile_range", explain = "", type = ""},
+			{param = "tile_data", explain = "", type = ""},
+			{param = "ground_tile_def", explain = "", type = ""},
+			{param = "minimap_tile_def", explain = "", type = ""},
+			{param = "turf_def", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 364",
+        },
+            
+        ["ChangeTileRenderOrder"] = {
+            params = {
+			{param = "tile_id", explain = "", type = ""},
+			{param = "target_tile_id", explain = "", type = ""},
+			{param = "moveafter", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 378",
+        },
+            
+        ["SetTileProperty"] = {
+            params = {
+			{param = "tile_id", explain = "", type = ""},
+			{param = "propertyname", explain = "", type = ""},
+			{param = "value", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 385",
+        },
+            
+        ["ChangeMiniMapTileRenderOrder"] = {
+            params = {
+			{param = "tile_id", explain = "", type = ""},
+			{param = "target_tile_id", explain = "", type = ""},
+			{param = "moveafter", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 392",
+        },
+            
+        ["SetMiniMapTileProperty"] = {
+            params = {
+			{param = "tile_id", explain = "", type = ""},
+			{param = "propertyname", explain = "", type = ""},
+			{param = "value", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 399",
+        },
+            
+        ["AddFalloffTexture"] = {
+            params = {
+			{param = "falloff_id", explain = "", type = ""},
+			{param = "falloff_def", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 406",
+        },
+            
+        ["ChangeFalloffRenderOrder"] = {
+            params = {
+			{param = "falloff_id", explain = "", type = ""},
+			{param = "falloff_id_id", explain = "", type = ""},
+			{param = "moveafter", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 413",
+        },
+            
+        ["SetFalloffProperty"] = {
+            params = {
+			{param = "falloff_id", explain = "", type = ""},
+			{param = "propertyname", explain = "", type = ""},
+			{param = "value", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 420",
+        },
+            
+        ["AddAction"] = {
+            params = {
+                {param = "id", explain = "动作id", type = "str"},
+                {param = "str", explain = "动作译名", type = "str"},
+                {param = "fn", explain = "", type = "fn",
+                    fn_params = {
+                        {param = "act", explain = "", type = "tbl"},
+                    },
+                    fn_returns = {
+                    }
+                },
+            },
+            returns = {
+            
+            },
+            tips = "添加动作API",
+            author = "lan",
+            line = "所在行数: 442",
+            replace_body = "AddAction(\\\"${1:id}\\\", \\\"${2:动作译名}\\\", function(act)\\n\\tlocal doer = act.doer\\n\\tlocal tar = act.target\\n\\tlocal invobj = act.invobject\\n\\tlocal pos = act.pos\\n\\t$3\\n\\treturn true\\nend)"
+        },
+            
+        -- ["AddComponentAction"] = {
+        --     params = {
+        --         {param = "actiontype", explain = "动作类型", type = "str"},
+        --         {param = "component", explain = "组件", type = "str"},
+        --         {param = "fn", explain = "", type = "fn",
+        --             fn_params = {
+        --                 {param = "inst", explain = "", type = "ent"},
+        --                 {param = "doer", explain = "", type = "ent"},
+        --                 {param = "target", explain = "", type = "ent"},
+        --                 {param = "actions", explain = "", type = "ent"},
+        --                 {param = "right", explain = "", type = "ent"},
+        --             },
+        --             fn_returns = {
+        --             }
+        --         },
+        --     },
+        --     returns = {
+            
+        --     },
+        --     tips = "组件绑定动作",
+        --     author = "lan",
+        --     line = "所在行数: 478",
+        --     replace_body = "AddComponentAction(\\\"${1:EQUIPPED}\\\", \\\"${2:componentname}\\\", function(inst, doer, target, actions, right)\\n \\tif right then\\n \\t\\ttable.insert(actions, ACTIONS.xxx)\\n \\tend\\nend)"
+        -- },
+            
+        ["AddPopup"] = {
+            params = {
+			{param = "id", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 483",
+        },
+            
+        ["AddMinimapAtlas"] = {
+            params = {
+			{param = "atlaspath", explain = "路径", type = "str"},
+
+            },
+            returns = {
+            
+            },
+            tips = "添加小地图图标",
+            author = "lan",
+            line = "所在行数: 512",
+            replace_body = "AddMinimapAtlas(\\\"map_icons/${1:prefab}.xml\\\")"
+        },
+            
+        ["AddStategraphActionHandler"] = {
+            params = {
+			{param = "stategraph", explain = "", type = ""},
+			{param = "handler", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "添加SG的动作触发器API通用函数片段",
+            author = "月",
+            line = "所在行数: 518",
+            replace_body = "AddStategraphActionHandler(\\\"${1:StateGraph}\\\", ActionHandler(ACTIONS.${2:XXX}, \\\"give\\\"))"
+        },
+            
+        ["AddStategraphState"] = {
+            params = {
+			{param = "stategraph", explain = "", type = ""},
+			{param = "state", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "添加SG的状态API通用函数片段",
+            author = "月",
+            line = "所在行数: 527",
+            replace_body = "AddStategraphState(\\\"${1:StateGraph}\\\", State{\\n\\tname = ${2:statename},\\n \\ttags = {},\\n \\tonenter = function(inst)\\n \\t\\tinst:PerformBufferedAction()\\n \\tend,\\n \\ttimeline=\\n\\t{\\n\\t\\tTimeEvent(1*FRAMES, function(inst) end),\\n\\t},\\n \\tonexit = function(inst)\\n \\t\\tinst.sg:GoToState(\\\"idle\\\") \\n\\tend\\n})"
+        },
+            
+        ["AddStategraphEvent"] = {
+            params = {
+			{param = "stategraph", explain = "", type = ""},
+			{param = "event", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "添加SG的事件监听器API通用函数片段",
+            author = "月",
+            line = "所在行数: 536",
+            replace_body = "AddStategraphEvent(\\\"${1:StateGraph}\\\", EventHandler(\\\"event\\\", function(inst)\\n\\nend))"
+        },
+            
+        ["AddModShadersInit"] = {
+            params = {
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 545",
+        },
+            
+        ["AddModShadersSortAndEnable"] = {
+            params = {
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 551",
+        },
+            
+        ["AddStategraphPostInit"] = {
+            params = {
+			{param = "stategraph", explain = "", type = ""},
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "添加修改修改状态图(SG)API通用函数片段,初始化时最后执行",
+            author = "月",
+            line = "所在行数: 557",
+            replace_body = "AddStategraphPostInit(\\\"${1:StateGraph}\\\", function(self)\\n\\t${0}\\nend)",
+        },
+            
+        ["AddComponentPostInit"] = {
+            params = {
+			{param = "component", explain = "", type = ""},
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "修改已有的组件的初始化API",
+            author = "lan",
+            line = "所在行数: 567",
+            replace_body = "AddComponentPostInit(\\\"${1:component}\\\", function(self)\\n\\t${0}\\nend)"
+        },
+            
+        ["AddPrefabPostInitAny"] = {
+            params = {
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 580",
+        },
+            
+        ["AddPlayerPostInit"] = {
+            params = {
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "修改玩家",
+            author = "lan",
+            line = "所在行数: 586",
+            replace_body = "AddPlayerPostInit(function(inst)\\n\\t${0}\\nend)",
+        },
+            
+        ["AddPrefabPostInit"] = {
+            params = {
+			{param = "prefab", explain = "", type = ""},
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "修改已有的预制物的初始化API",
+            author = "lan",
+            line = "所在行数: 593",
+            replace_body = "AddPrefabPostInit(\\\"${1:PrefabName}\\\", function(inst)\\n\\t${0}\\nend)"
+        },
+            
+        ["AddRecipePostInitAny"] = {
+            params = {
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 602",
+        },
+            
+        ["AddRecipePostInit"] = {
+            params = {
+			{param = "recipename", explain = "", type = ""},
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "修改配方API",
+            author = "lan",
+            line = "所在行数: 613",
+            replace_body = "AddRecipePostInit(\\\"${1:recipename}\\\", function(self)\\n\\t${0}\\nend)",
+        },
+            
+        ["AddBrainPostInit"] = {
+            params = {
+			{param = "brain", explain = "", type = ""},
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "修改脑子API",
+            author = "lan",
+            line = "所在行数: 627",
+            replace_body = "AddBrainPostInit(\\\"${1:brain}\\\", function(self)\\n\\t${0}\\nend)",
+        },
+            
+        ["AddIngredientValues"] = {
+            params = {
+			{param = "names", explain = "", type = ""},
+			{param = "tags", explain = "", type = ""},
+			{param = "cancook", explain = "", type = ""},
+			{param = "candry", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 636",
+        },
+            
+        ["AddCookerRecipe"] = {
+            params = {
+			{param = "cooker", explain = "", type = ""},
+			{param = "recipe", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 643",
+        },
+            
+        ["AddModCharacter"] = {
+            params = {
+			{param = "name", explain = "", type = ""},
+			{param = "gender", explain = "", type = ""},
+			{param = "modes", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "添加Mod角色API",
+            author = "lan 所有MOD角色都要注册",
+            line = "所在行数: 655",
+        },
+            
+        ["AddPrototyperDef"] = {
+            params = {
+			{param = "prototyper_prefab", explain = "", type = ""},
+			{param = "data", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "添加自定义原型机API通用函数片段,is_crafting_station在附近才能制作",
+            author = "月",
+            line = "所在行数: 666",
+            replace_body = "AddPrototyperDef(\\\"${1:prefab}\\\", {\\n \\ticon_atlas = \\\"images/xxxx.xml\\\",\\n \\ticon_image = \\\"xxxx.tex\\\",\\n \\tis_crafting_station = true,\\n \\taction_str = \\\"制作\\\",\\n \\tfilter_text = \\\"过滤器名称\\\"\\n})"
+        },
+            
+        ["AddRecipeFilter"] = {
+            params = {
+			{param = "filter_def", explain = "", type = ""},
+			{param = "index", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 674",
+        },
+            
+        ["AddRecipeToFilter"] = {
+            params = {
+			{param = "recipe_name", explain = "", type = ""},
+			{param = "filter_name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 713",
+        },
+            
+        ["RemoveRecipeFromFilter"] = {
+            params = {
+			{param = "recipe_name", explain = "", type = ""},
+			{param = "filter_name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 722",
+        },
+            
+        ["AddRecipe2"] = {
+            params = {
+			{param = "name", explain = "", type = ""},
+			{param = "ingredients", explain = "", type = ""},
+			{param = "tech", explain = "", type = ""},
+			{param = "config", explain = "", type = ""},
+			{param = "filters", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 732",
+        },
+            
+        ["AddCharacterRecipe"] = {
+            params = {
+			{param = "name", explain = "", type = ""},
+			{param = "ingredients", explain = "", type = ""},
+			{param = "tech", explain = "", type = ""},
+			{param = "config", explain = "", type = ""},
+			{param = "extra_filters", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 758",
+        },
+            
+        ["AddDeconstructRecipe"] = {
+            params = {
+			{param = "name", explain = "", type = ""},
+			{param = "return_ingredients", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "添加分解配方API,供分解法杖拆解",
+            author = "月",
+            line = "所在行数: 784",
+            replace_body = "AddDeconstructRecipe(\\\"${1:prefab}\\\", {Ingredient(\\\"${2:prefab}\\\", 1)})"
+        },
+            
+        ["AddRecipe"] = {
+            params = {
+			{param = "arg1", explain = "", type = ""},
+			{param = "...", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 794",
+        },
+            
+        ["Recipe"] = {
+            params = {
+			{param = "...", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 818",
+        },
+            
+        ["AddRecipeTab"] = {
+            params = {
+			{param = "rec_str", explain = "", type = ""},
+			{param = "rec_sort", explain = "", type = ""},
+			{param = "rec_atlas", explain = "", type = ""},
+			{param = "rec_icon", explain = "", type = ""},
+			{param = "rec_owner_tag", explain = "", type = ""},
+			{param = "rec_crafting_station", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 823",
+        },
+            
+        ["LoadPOFile"] = {
+            params = {
+			{param = "path", explain = "", type = ""},
+			{param = "lang", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 836",
+        },
+            
+        ["RemapSoundEvent"] = {
+            params = {
+			{param = "name", explain = "", type = ""},
+			{param = "new_name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 842",
+        },
+            
+        ["RemoveRemapSoundEvent"] = {
+            params = {
+			{param = "name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 847",
+        },
+            
+        ["AddReplicableComponent"] = {
+            params = {
+			{param = "name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 852",
+        },
+            
+        ["AddModRPCHandler"] = {
+            params = {
+                {param = "namespace", explain = "命名空间(写mod名即可)", type = "str"},
+                {param = "name", explain = "当前命名空间下的rpc名字", type = "str"},
+                {param = "", explain = "", type = "function",
+                    fn_params = {
+                        {param = "player", explain = "发rpc的玩家", type = "ent"},
+                        {param = "...", explain = "接收的数据", type = "any"},
+                    },
+                },
+            },
+            returns = {
+            
+            },
+            tips = "注册服务器ModRPC",
+            author = "lan",
+            line = "所在行数: 857",
+            replace_body = "AddModRPCHandler(${1:namespace}, ${2:name}, function(player)\\n\\tif player and player:IsValid() and not player:HasTag(\\\"playerghost\\\") then\\n\\t\\t$3\\n\\tend\\nend)"
+        },
+            
+        ["AddClientModRPCHandler"] = {
+            params = {
+                {param = "namespace", explain = "命名空间(写mod名即可)", type = "str"},
+                {param = "name", explain = "当前命名空间下的rpc名字", type = "str"},
+                {param = "", explain = "", type = "function",
+                    fn_params = {
+                        {param = "player", explain = "发rpc的玩家", type = "ent"},
+                        {param = "...", explain = "接收的数据", type = "any"},
+                    },
+                },
+
+            },
+            returns = {
+            
+            },
+            tips = "注册客户端rpc,接收服务器的数据用的",
+            author = "lan",
+            line = "所在行数: 862",
+            replace_body = "AddClientModRPCHandler(${1:namespace}, ${2:name}, function(player)\\n\\tif player and player:IsValid() and not player:HasTag(\\\"playerghost\\\") then\\n\\t\\t$3\\n\\tend\\nend)"
+        },
+            
+        ["AddShardModRPCHandler"] = {
+            params = {
+			{param = "namespace", explain = "", type = ""},
+			{param = "name", explain = "", type = ""},
+			{param = "fn", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "注册服务器分片rpc",
+            author = "月 \\n\\t参数1:命名空间;参数2:RPC名称;参数3:执行函数(...).前两个是唯一标识符",
+            line = "所在行数: 867",
+            replace_body = "AddShardModRPCHandler(\\\"${1:name}\\\",\\\"${2:$1}\\\", function(wordid, str)\\n\\tif wordid == nil or str == nil then return end\\n\\tlocal success, savedata = RunInSandboxSafe(str)\\n\\tif success then\\n\\n\\telse\\n\\t\\tprint(\\\"分片接收RPC失败\\\")\\n\\tend\\nend)"
+        },
+            
+        ["GetModRPCHandler"] = {
+            params = {
+			{param = "namespace", explain = "", type = ""},
+			{param = "name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 872",
+        },
+            
+        ["GetClientModRPCHandler"] = {
+            params = {
+			{param = "namespace", explain = "", type = ""},
+			{param = "name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 877",
+        },
+            
+        ["GetShardModRPCHandler"] = {
+            params = {
+			{param = "namespace", explain = "", type = ""},
+			{param = "name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 882",
+        },
+            
+        ["SendModRPCToServer"] = {
+            params = {
+                {param = "id_table", explain = "MOD_RPC[命名空间][rpcID]", type = ""},
+                {param = "...", explain = "要传到服务器的数据,不可以是表,可不填", type = "any"},
+
+            },
+            returns = {
+            
+            },
+            tips = "向服务器发RPC",
+            author = "lan",
+            line = "所在行数: 887",
+            replace_body = "SendModRPCToServer(MOD_RPC[${1:namespace}][${2:name}])"
+        },
+            
+        ["SendModRPCToClient"] = {
+            params = {
+                {param = "id_table", explain = "MOD_RPC[命名空间][rpcID]", type = ""},
+                {param = "...", explain = "要传到客户端的数据,不可以是表,可不填", type = "any"},
+
+            },
+            returns = {
+            
+            },
+            tips = "服务器向客户端发RPC",
+            author = "lan",
+            line = "所在行数: 892",
+            replace_body = "SendModRPCToClient(MOD_RPC[${1:namespace}][${2:name}])"
+        },
+            
+        ["SendModRPCToShard"] = {
+            params = {
+			{param = "id_table", explain = "", type = ""},
+			{param = "...", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "发送服务器其他世界RPC调用",
+            author = "月 \\n\\t从主机分片发送指令给主机其他分片.参数1:GetShardModRPC(形参1:命名空间,形参2:RPC名称)获取对应RPC;参数2:sender_list<code>可为nil|字符串|字符串表</code>;参数3:附带参数对应str",
+            line = "所在行数: 897",
+            replace_body = "SendModRPCToShard(GetShardModRPC(\\\"${1:name}\\\", \\\"${2:$1}\\\"), sender_list or nil, DataDumper({\\\"参数\\\"}, nil, true))"
+        },
+            
+        ["GetModRPC"] = {
+            params = {
+			{param = "namespace", explain = "", type = ""},
+			{param = "name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 906",
+        },
+            
+        ["GetClientModRPC"] = {
+            params = {
+			{param = "namespace", explain = "", type = ""},
+			{param = "name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 910",
+        },
+            
+        ["GetShardModRPC"] = {
+            params = {
+			{param = "namespace", explain = "", type = ""},
+			{param = "name", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 914",
+        },
+            
+        ["SetModHUDFocus"] = {
+            params = {
+			{param = "focusid", explain = "", type = ""},
+			{param = "hasfocus", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 919",
+        },
+            
+        ["AddUserCommand"] = {
+            params = {
+			{param = "command_name", explain = "", type = ""},
+			{param = "data", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 928",
+        },
+            
+        ["AddVoteCommand"] = {
+            params = {
+			{param = "command_name", explain = "", type = ""},
+			{param = "init_options_fn", explain = "", type = ""},
+			{param = "process_result_fn", explain = "", type = ""},
+			{param = "vote_timeout", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 933",
+        },
+            
+        ["ExcludeClothingSymbolForModCharacter"] = {
+            params = {
+			{param = "name", explain = "", type = ""},
+			{param = "symbol", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 942",
+        },
+            
+        ["RegisterInventoryItemAtlas"] = {
+            params = {
+			{param = "atlas", explain = "", type = ""},
+			{param = "prefabname", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 954",
+        },
+            
+        ["RegisterScrapbookIconAtlas"] = {
+            params = {
+			{param = "atlas", explain = "", type = ""},
+			{param = "tex", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 959",
+        },
+            
+        ["RegisterSkilltreeBGForCharacter"] = {
+            params = {
+			{param = "atlas", explain = "", type = ""},
+			{param = "charactername", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 964",
+        },
+            
+        ["RegisterSkilltreeIconsAtlas"] = {
+            params = {
+			{param = "atlas", explain = "", type = ""},
+			{param = "tex", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 969",
+        },
+            
+        ["AddLoadingTip"] = {
+            params = {
+			{param = "stringtable", explain = "", type = ""},
+			{param = "id", explain = "", type = ""},
+			{param = "tipstring", explain = "", type = ""},
+			{param = "controltipdata", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 975",
+        },
+            
+        ["RemoveLoadingTip"] = {
+            params = {
+			{param = "stringtable", explain = "", type = ""},
+			{param = "id", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 990",
+        },
+            
+        ["SetLoadingTipCategoryWeights"] = {
+            params = {
+			{param = "weighttable", explain = "", type = ""},
+			{param = "weightdata", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 1002",
+        },
+            
+        ["SetLoadingTipCategoryIcon"] = {
+            params = {
+			{param = "category", explain = "", type = ""},
+			{param = "categoryatlas", explain = "", type = ""},
+			{param = "categoryicon", explain = "", type = ""},
+
+            },
+            returns = {
+            
+            },
+            tips = "UNKNOWN",
+            author = "",
+            line = "所在行数: 1008",
         },
             
 	},
@@ -8668,92 +10049,92 @@ return {
             line = "所在行数: 1425",
         },
             
-        ["AddModRPCHandler"] = {
-            params = {
-			{param = "namespace", explain = "", type = ""},
-			{param = "name", explain = "", type = ""},
-			{param = "fn", explain = "", type = ""},
+        -- ["AddModRPCHandler"] = {
+        --     params = {
+		-- 	{param = "namespace", explain = "", type = ""},
+		-- 	{param = "name", explain = "", type = ""},
+		-- 	{param = "fn", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1461",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1461",
+        -- },
             
-        ["AddClientModRPCHandler"] = {
-            params = {
-			{param = "namespace", explain = "", type = ""},
-			{param = "name", explain = "", type = ""},
-			{param = "fn", explain = "", type = ""},
+        -- ["AddClientModRPCHandler"] = {
+        --     params = {
+		-- 	{param = "namespace", explain = "", type = ""},
+		-- 	{param = "name", explain = "", type = ""},
+		-- 	{param = "fn", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1478",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1478",
+        -- },
             
-        ["AddShardModRPCHandler"] = {
-            params = {
-			{param = "namespace", explain = "", type = ""},
-			{param = "name", explain = "", type = ""},
-			{param = "fn", explain = "", type = ""},
+        -- ["AddShardModRPCHandler"] = {
+        --     params = {
+		-- 	{param = "namespace", explain = "", type = ""},
+		-- 	{param = "name", explain = "", type = ""},
+		-- 	{param = "fn", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1493",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1493",
+        -- },
             
-        ["SendModRPCToServer"] = {
-            params = {
-			{param = "id_table", explain = "", type = ""},
-			{param = "...", explain = "", type = ""},
+        -- ["SendModRPCToServer"] = {
+        --     params = {
+		-- 	{param = "id_table", explain = "", type = ""},
+		-- 	{param = "...", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1508",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1508",
+        -- },
             
-        ["SendModRPCToClient"] = {
-            params = {
-			{param = "id_table", explain = "", type = ""},
-			{param = "...", explain = "", type = ""},
+        -- ["SendModRPCToClient"] = {
+        --     params = {
+		-- 	{param = "id_table", explain = "", type = ""},
+		-- 	{param = "...", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1513",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1513",
+        -- },
             
-        ["SendModRPCToShard"] = {
-            params = {
-			{param = "id_table", explain = "", type = ""},
-			{param = "...", explain = "", type = ""},
+        -- ["SendModRPCToShard"] = {
+        --     params = {
+		-- 	{param = "id_table", explain = "", type = ""},
+		-- 	{param = "...", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1518",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1518",
+        -- },
             
         ["HandleModRPC"] = {
             params = {
@@ -8805,89 +10186,89 @@ return {
             line = "所在行数: 1570",
         },
             
-        ["GetModRPCHandler"] = {
-            params = {
-			{param = "namespace", explain = "", type = ""},
-			{param = "name", explain = "", type = ""},
+        -- ["GetModRPCHandler"] = {
+        --     params = {
+		-- 	{param = "namespace", explain = "", type = ""},
+		-- 	{param = "name", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1583",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1583",
+        -- },
             
-        ["GetClientModRPCHandler"] = {
-            params = {
-			{param = "namespace", explain = "", type = ""},
-			{param = "name", explain = "", type = ""},
+        -- ["GetClientModRPCHandler"] = {
+        --     params = {
+		-- 	{param = "namespace", explain = "", type = ""},
+		-- 	{param = "name", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1587",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1587",
+        -- },
             
-        ["GetShardModRPCHandler"] = {
-            params = {
-			{param = "namespace", explain = "", type = ""},
-			{param = "name", explain = "", type = ""},
+        -- ["GetShardModRPCHandler"] = {
+        --     params = {
+		-- 	{param = "namespace", explain = "", type = ""},
+		-- 	{param = "name", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1591",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1591",
+        -- },
             
-        ["GetModRPC"] = {
-            params = {
-			{param = "namespace", explain = "", type = ""},
-			{param = "name", explain = "", type = ""},
+        -- ["GetModRPC"] = {
+        --     params = {
+		-- 	{param = "namespace", explain = "", type = ""},
+		-- 	{param = "name", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1595",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1595",
+        -- },
             
-        ["GetClientModRPC"] = {
-            params = {
-			{param = "namespace", explain = "", type = ""},
-			{param = "name", explain = "", type = ""},
+        -- ["GetClientModRPC"] = {
+        --     params = {
+		-- 	{param = "namespace", explain = "", type = ""},
+		-- 	{param = "name", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1599",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1599",
+        -- },
             
-        ["GetShardModRPC"] = {
-            params = {
-			{param = "namespace", explain = "", type = ""},
-			{param = "name", explain = "", type = ""},
+        -- ["GetShardModRPC"] = {
+        --     params = {
+		-- 	{param = "namespace", explain = "", type = ""},
+		-- 	{param = "name", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 1603",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 1603",
+        -- },
             
         ["MarkUserIDRPC"] = {
             params = {
@@ -14220,19 +15601,19 @@ return {
             line = "所在行数: 596",
         },
             
-        ["RegisterInventoryItemAtlas"] = {
-            params = {
-			{param = "atlas", explain = "", type = ""},
-			{param = "imagename", explain = "", type = ""},
+        -- ["RegisterInventoryItemAtlas"] = {
+        --     params = {
+		-- 	{param = "atlas", explain = "", type = ""},
+		-- 	{param = "imagename", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 610",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 610",
+        -- },
             
         ["GetInventoryItemAtlas_Internal"] = {
             params = {
@@ -14288,19 +15669,19 @@ return {
             line = "所在行数: 661",
         },
             
-        ["RegisterScrapbookIconAtlas"] = {
-            params = {
-			{param = "atlas", explain = "", type = ""},
-			{param = "imagename", explain = "", type = ""},
+        -- ["RegisterScrapbookIconAtlas"] = {
+        --     params = {
+		-- 	{param = "atlas", explain = "", type = ""},
+		-- 	{param = "imagename", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 680",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 680",
+        -- },
             
         ["GetScrapbookIconAtlas_Internal"] = {
             params = {
@@ -14368,19 +15749,19 @@ return {
             line = "所在行数: 745",
         },
             
-        ["RegisterSkilltreeIconsAtlas"] = {
-            params = {
-			{param = "atlas", explain = "", type = ""},
-			{param = "imagename", explain = "", type = ""},
+        -- ["RegisterSkilltreeIconsAtlas"] = {
+        --     params = {
+		-- 	{param = "atlas", explain = "", type = ""},
+		-- 	{param = "imagename", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 762",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 762",
+        -- },
             
         ["GetSkilltreeIconAtlas_Internal"] = {
             params = {
@@ -18595,19 +19976,19 @@ return {
             line = "所在行数: 99",
         },
             
-        ["AddUserCommand"] = {
-            params = {
-			{param = "name", explain = "", type = ""},
-			{param = "data", explain = "", type = ""},
+        -- ["AddUserCommand"] = {
+        --     params = {
+		-- 	{param = "name", explain = "", type = ""},
+		-- 	{param = "data", explain = "", type = ""},
 
-            },
-            returns = {
+        --     },
+        --     returns = {
             
-            },
-            tips = "UNKNOWN",
-            author = "",
-            line = "所在行数: 516",
-        },
+        --     },
+        --     tips = "UNKNOWN",
+        --     author = "",
+        --     line = "所在行数: 516",
+        -- },
             
         ["RailUserCommandInject"] = {
             params = {

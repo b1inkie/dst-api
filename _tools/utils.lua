@@ -304,20 +304,20 @@ function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key
                 -- fix参数type
                 fixed_types = self:fix_param_type(member.type)
                 --
-                fix_desc_param = fix_desc_param.."("..member.param..")".."<"..fixed_types..">".."["..member.explain.."]"
-                fix_desc_param = fix_desc_param.."\\n   {参数:"
+                fix_desc_param = fix_desc_param.."\\n   ("..member.param..")".."<"..fixed_types..">".."["..member.explain.."]"
+                fix_desc_param = fix_desc_param.."\\n      {参数:"
                 for _,fn_param in pairs(member.fn_params or {}) do
                     -- fix参数type
                     fixed_types = self:fix_param_type(fn_param.type)
-                    fix_desc_param = fix_desc_param.."\\n      ("..fn_param.param..")".."<"..fixed_types..">".."["..fn_param.explain.."] "
+                    fix_desc_param = fix_desc_param.."\\n         ("..fn_param.param..")".."<"..fixed_types..">".."["..fn_param.explain.."] "
                 end
 
                 if member.fn_returns then
-                    fix_desc_param = fix_desc_param.."\\n   返回:"
+                    fix_desc_param = fix_desc_param.."\\n      返回:"
                     for _,fn_return in pairs(member.fn_returns or {}) do
                         -- fix参数type
                         fixed_types = self:fix_param_type(fn_return.type)
-                        fix_desc_param = fix_desc_param.."\\n      <"..fixed_types..">".."["..fn_return.explain.."] "
+                        fix_desc_param = fix_desc_param.."\\n         <"..fixed_types..">".."["..fn_return.explain.."] "
                     end
                 end
 
