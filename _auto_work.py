@@ -41,7 +41,7 @@ work_list = [
     [gen_dir('_work','_sys_components.lua'),'sys_components'],
     [gen_dir('_work','_components.lua'),'components'],
     [gen_dir('_work','_global_methods.lua'),'global_methods'],
-    [gen_dir('_var_name.lua'),'var_name'],
+    [gen_dir('_work','_var_name.lua'),'var_name'],
 ]
     
 if __name__ == '__main__':
