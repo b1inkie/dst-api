@@ -78,43 +78,57 @@ return {
 	["author"] = "",
 },
 ["GetRotation"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "获取实体面向角度",
 	["params"] = {
-		[1] = {
-			["type"] = "",
-			["param"] = "",
-			["explain"] = "",
-		},
+		
 	},
 	["returns"] = {
+		{
+			["type"] = "num",
+			["explain"] = "角度制角度",
+		},
 	},
-	["author"] = "",
+	["author"] = "lan 有正负 逆时针为正 0-180",
 },
 ["GetScale"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "获取缩放比",
 	["params"] = {
-		[1] = {
-			["type"] = "",
-			["param"] = "",
-			["explain"] = "",
-		},
 	},
 	["returns"] = {
+		{
+			["type"] = "num",
+			["explain"] = "x_scale",
+		},
+		{
+			["type"] = "num",
+			["explain"] = "y_scale",
+		},
+		{
+			["type"] = "num",
+			["explain"] = "z_scale",
+		},
 	},
-	["author"] = "",
+	["author"] = "lan",
 },
 ["GetWorldPosition"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "获取实体的世界坐标",
 	["params"] = {
-		[1] = {
-			["type"] = "",
-			["param"] = "",
-			["explain"] = "",
-		},
 	},
 	["returns"] = {
+		{
+			["type"] = "num",
+			["explain"] = "x",
+		},
+		{
+			["type"] = "num",
+			["explain"] = "y",
+		},
+		{
+			["type"] = "num",
+			["explain"] = "z",
+		},
 	},
-	["author"] = "",
+	["author"] = "lan",
 },
 ["LoadRotation"] = {
 	["tips"] = "UNKNOWN",
@@ -143,30 +157,20 @@ return {
 	["author"] = "",
 },
 ["SetEightFaced"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置8面向",
 	["params"] = {
-		[1] = {
-			["type"] = "",
-			["param"] = "",
-			["explain"] = "",
-		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "lan",
 },
 ["SetFourFaced"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置4面向",
 	["params"] = {
-		[1] = {
-			["type"] = "",
-			["param"] = "",
-			["explain"] = "",
-		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "lan",
 },
 ["SetFromProxy"] = {
 	["tips"] = "UNKNOWN",
@@ -208,30 +212,35 @@ return {
 	["author"] = "",
 },
 ["SetNoFaced"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置无面向",
 	["params"] = {
-		[1] = {
-			["type"] = "",
-			["param"] = "",
-			["explain"] = "",
-		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "lan",
 },
 ["SetPosition"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置实体坐标",
 	["params"] = {
-		[1] = {
-			["type"] = "",
-			["param"] = "",
+		{
+			["type"] = "num",
+			["param"] = "x",
+			["explain"] = "",
+		},
+		{
+			["type"] = "num",
+			["param"] = "y",
+			["explain"] = "",
+		},
+		{
+			["type"] = "num",
+			["param"] = "z",
 			["explain"] = "",
 		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "lan",
 },
 ["SetPredictedEightFaced"] = {
 	["tips"] = "UNKNOWN",
@@ -299,56 +308,58 @@ return {
 	["author"] = "",
 },
 ["SetRotation"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置旋转角度",
 	["params"] = {
-		[1] = {
-			["type"] = "",
-			["param"] = "",
-			["explain"] = "",
+		{
+			["type"] = "num",
+			["param"] = "angle",
+			["explain"] = "角度制角度",
 		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "lan 有正负 逆时针为正 0-180",
 },
 ["SetScale"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "按比例缩放",
 	["params"] = {
-		[1] = {
-			["type"] = "",
-			["param"] = "",
+		{
+			["type"] = "num",
+			["param"] = "x_scale",
+			["explain"] = "",
+		},
+		{
+			["type"] = "num",
+			["param"] = "y_scale",
+			["explain"] = "",
+		},
+		{
+			["type"] = "num",
+			["param"] = "z_scale",
 			["explain"] = "",
 		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "lan",
 },
 ["SetSixFaced"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置6面向",
 	["params"] = {
-		[1] = {
-			["type"] = "",
-			["param"] = "",
-			["explain"] = "",
-		},
+
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "lan",
 },
 ["SetTwoFaced"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置2面向",
 	["params"] = {
-		[1] = {
-			["type"] = "",
-			["param"] = "",
-			["explain"] = "",
-		},
+		
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "lan",
 },
 ["UpdateTransform"] = {
 	["tips"] = "UNKNOWN",
