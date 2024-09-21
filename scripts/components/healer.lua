@@ -3,7 +3,7 @@ return
 		["SetOnHealFn"] = {
 			["author"] = "御坂十七号",
 			["params"] = {
-				["1"] = {
+				[1] = {
 					["type"] = "function",
 					["param"] = "fn",
 					["explain"] = "方法",
@@ -16,7 +16,7 @@ return
 		["SetCanHealFn"] = {
 			["author"] = "御坂十七号",
 			["params"] = {
-				["1"] = {
+				[1] = {
 					["type"] = "function",
 					["param"] = "fn",
 					["explain"] = "方法",
@@ -29,7 +29,7 @@ return
 		["SetHealthAmount"] = {
 			["author"] = "御坂十七号",
 			["params"] = {
-				["1"] = {
+				[1] = {
 					["type"] = "number",
 					["param"] = "health",
 					["explain"] = "治疗量",
@@ -42,12 +42,12 @@ return
 		["Heal"] = {
 			["author"] = "御坂十七号",
 			["params"] = {
-				["1"] = {
+				[1] = {
 					["type"] = "实体对象",
 					["param"] = "target",
 					["explain"] = "治疗目标",
 				},
-				["2"] = {
+				[2] = {
 					["type"] = "触发治疗的对象，一般是玩家。",
 					["param"] = "doer",
 					["explain"] = "使用者",

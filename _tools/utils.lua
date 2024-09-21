@@ -102,19 +102,91 @@ function tools:getAllFilePathAndName(directory)
 end
 
 
+-- function tools:table2string(t, indent)
+--     local s = "{\n"
+--     indent = indent or "\t"
+--     for k, v in pairs(t) do
+--         local new_indent = indent .. "\t"
+--         if type(v) == "table" then
+--             s = s .. new_indent .. "[\"" .. escape_string(tostring(k)) .. "\"] = " .. self:table2string(v, new_indent) .. ",\n"
+--         else
+--             s = s .. new_indent .. "[\"" .. escape_string(tostring(k)) .. "\"] = \"" .. escape_string(tostring(v)) .. "\",\n"
+--         end
+--     end
+--     s = s .. indent .. "}"
+--     return s
+-- end
+
+
 function tools:table2string(t, indent)
+    -- 递归打印表
     local s = "{\n"
     indent = indent or "\t"
     for k, v in pairs(t) do
         local new_indent = indent .. "\t"
-        if type(v) == "table" then
-            s = s .. new_indent .. "[\"" .. escape_string(tostring(k)) .. "\"] = " .. self:table2string(v, new_indent) .. ",\n"
+        local _fix_k = tonumber(k)
+        local fix_k
+        if _fix_k ~= nil and type(_fix_k) == "number" then
+            fix_k = _fix_k
         else
-            s = s .. new_indent .. "[\"" .. escape_string(tostring(k)) .. "\"] = \"" .. escape_string(tostring(v)) .. "\",\n"
+            fix_k = "\"" .. escape_string(tostring(k)) .. "\""
+        end
+
+        if type(v) == "table" then
+            s = s .. new_indent .. "[" .. fix_k .. "] = " .. self:table2string(v, new_indent) .. ",\n"
+        else
+            s = s .. new_indent .. "[" .. fix_k .. "] = \"" .. escape_string(tostring(v)) .. "\",\n"
         end
     end
     s = s .. indent .. "}"
     return s
+end
+
+function tools:fix_escape(s)
+    -- 处理转义
+    local res = string.gsub(s,"\\\\","\\\\\\")
+    res = string.gsub(s,"([^\\])\\","%1\\\\")
+    return res
+end
+
+function tools:sortTbl2string(data_tbl) 
+    -- 排序表转成string
+
+    -- 构建排序表
+    local sort_tbl = {}
+    for k,v in pairs(data_tbl) do
+        table.insert(sort_tbl,k)
+    end
+    table.sort(sort_tbl)
+    --
+    local res = ''
+    for _,v in ipairs(sort_tbl) do
+        local _tmp = self:table2string(data_tbl[v],'')
+        res = res ..'["'..v..'"] = '.. _tmp .. ',\n'
+    end
+    return res
+end
+
+function tools:sortTbl2stringAndSave(luaname_without_path,...) -- 长参是文件夹名
+    -- 排序表转成string 并覆盖文件
+    -- 构建路径
+    local path = ''
+    for i,v in ipairs({...}) do path = path .. v .. '/' end
+    path = path .. luaname_without_path
+    -- 读取数据
+    local data_tbl = require(path)
+    -- 排序
+    local data_tbl_sorted = self:sortTbl2string(data_tbl)
+    -- 微调格式
+    data_tbl_sorted = 'return {\n' .. data_tbl_sorted .. '\n}'
+    -- 处理不转义
+    data_tbl_sorted = self:fix_escape(data_tbl_sorted)
+    -- 覆盖源文件
+    local file = io.open(path..".lua", "w")
+    if file then
+        file:write(data_tbl_sorted)
+        file:close()
+    end
 end
 
 function tools:mergeSeveral(merge_target_folder,target_filename_without_extension,new_tbl)
@@ -130,6 +202,47 @@ function tools:mergeSeveral(merge_target_folder,target_filename_without_extensio
     local file = io.open(merge_target_folder..'/'..target_filename_without_extension..".lua", "w")
     if file then
         file:write(table_string)
+        file:close()
+    end
+end
+
+---$param: (methods_tbl) <tbl> [方法表] {others}
+---$param: (filename_without_extension) <str> [文件名不带后缀] {others}
+---$param: (...) <str> [路径] {others}
+function tools:methods2lua(methods_tbl,filename_without_extension,...)
+    -- local methods_tbl = {
+    --     "SetTwoFaced",
+    --     "ClearPredictedFacingModel",
+    --     "SetPredictedSixFaced",
+    -- }
+    local path = {...}
+    local gen_path = ''
+    for i , v  in ipairs(path) do
+        gen_path = gen_path..v..'/'
+    end
+
+    local res = {}
+    
+    for k,v in pairs(methods_tbl) do
+        res[v] = {
+            params = {
+                {param = "", explain = "", type = ""},
+        
+            },
+            returns = {
+    
+            },
+            tips = "UNKNOWN",
+            author = "",
+        }
+    end
+    
+    local content = self:table2string(res)
+    content = 'return ' .. content
+    
+    local file = io.open(gen_path..filename_without_extension..".lua", "w")
+    if file then
+        file:write(content)
         file:close()
     end
 end
@@ -369,6 +482,24 @@ function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key
         "description": "%s"
     },
 ]],escape_string(prefix_key),escape_string(method),escape_string(v.tips) or "",escape_string(fix_prefix),fix_body,escape_string(fix_desc))
+
+        -- 启发模式
+        if v.inspire ~= nil and type(v.inspire) == 'table' and v.inspire.body ~= nil and type(v.inspire.body) == 'string' and v.inspire.body ~= '' then 
+            fix_body = prefix_body..middle..method..v.inspire.body
+            local inspire_desc = v.inspire.tips or ""
+            res = res .. string.format([[
+    "%s%s:%s+i": {
+        "prefix": "%s+i",
+        "body": "%s",
+        "description": "%s"
+    },
+]],escape_string(prefix_key),escape_string(method),escape_string(v.tips) or "",
+escape_string(fix_prefix),
+fix_body,
+escape_string(fix_desc).."\\n ※启发模式: "..escape_string(inspire_desc)
+)
+        end
+
     end
 
     res = res .. "\n}"
