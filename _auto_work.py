@@ -42,6 +42,8 @@ work_list = [
     [gen_dir('_work','_components.lua'),'components'],
     [gen_dir('_work','_global_methods.lua'),'global_methods'],
     [gen_dir('_work','_var_name.lua'),'var_name'],
+    [gen_dir('_work','_constant.lua'),'constant'],
+    [gen_dir('_work','_entityscript.lua'),'entityscript'],
 ]
     
 if __name__ == '__main__':

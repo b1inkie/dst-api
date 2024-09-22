@@ -29,13 +29,20 @@ local function scripts_var_name_to_temp(prefix_key,var_path_name)
     local var_name = require('scripts/'..var_path_name)
     local res = 'data = {\n'
     for k,v in pairs(var_name) do
+        local tips = v.tips or ""
+        local author = v.author or ""
+        local desc = " ※说明: "..tips.."\\n ※贡献者: "..author
         res = res .. string.format([[
         "%s": {
             "prefix": "%s",
             "body": "%s",
             "description": "%s"
         },
-    ]],prefix_key..k..v,k,k,v)
+    ]],
+        prefix_key..k..tips,
+        k,
+        k,
+        desc)
     end
     res = res .. '\n}'
     local f = io.open('_temp/'..var_path_name..'.py',"w")

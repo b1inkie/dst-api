@@ -165,16 +165,7 @@ data = {
         "description": "local ClassName = Class(function(self, inst)\n\tself.inst = inst\nend,\nnil,\n{\n})"
     },
     
-    "实体添加某组件": {
-        "prefix": "inst:AddComponent",
-        "body": "inst:AddComponent(\"${1:ComponentName}\")",
-        "description": "None"
-    },
-    "实体移除某组件": {
-        "prefix": "inst:RemoveComponent",
-        "body": "inst:RemoveComponent(\"${1:ComponentName}\")",
-        "description": "None"
-    },
+ 
     "检查全局变量": {
         "prefix": "rawget",
         "body": "if rawget(GLOBAL, \"${1:TheSim}\") then\n\t${0}\nend",
@@ -355,11 +346,6 @@ data = {
         "body": "GLOBAL.setmetatable(env,{__index=function(t,k) return GLOBAL.rawget(GLOBAL,k) end})",
         "description": "设置在mod环境中可以直接访问本体环境中的全局参数"
     },
-    "鼠标的世界坐标": {
-        "prefix": "mouse+",
-        "body": "TheInput:GetWorldPosition():Get()",
-        "description": "(仅客户端的)返回鼠标所在的世界坐标"
-    },
     "打印表": {
         "prefix": "dumptable",
         "body": "print(dumptable(${1:table}, 1, 5))",
@@ -390,16 +376,16 @@ data = {
     #     "body": "PushEvent(\"${1:事件名称}\", {})",
     #     "description": "添加触发事件"
     # },
-    "定时器": {
-        "prefix": "DoTaskInTime",
-        "body": "DoTaskInTime(${1:1},function()${0}end)",
-        "description": "添加定时器"
-    },
-    "周期定时器": {
-        "prefix": "DoPeriodicTask",
-        "body": "DoPeriodicTask(${1:1},function()${0}end,0)",
-        "description": "添加周期定时器"
-    },
+    # "定时器": {
+    #     "prefix": "DoTaskInTime",
+    #     "body": "DoTaskInTime(${1:1},function()${0}end)",
+    #     "description": "添加定时器"
+    # },
+    # "周期定时器": {
+    #     "prefix": "DoPeriodicTask",
+    #     "body": "DoPeriodicTask(${1:1},function()${0}end,0)",
+    #     "description": "添加周期定时器"
+    # },
     "BufferedAction": {
         "prefix": "BufferedAction",
         "body": "BufferedAction",
@@ -460,11 +446,6 @@ data = {
         "body": "GoToState",
         "description": "dst-未定义的"
     },
-    "HasTag": {
-        "prefix": "HasTag",
-        "body": "HasTag",
-        "description": "dst-未定义的"
-    },
     "HasStateTag": {
         "prefix": "HasStateTag",
         "body": "HasStateTag",
@@ -485,11 +466,7 @@ data = {
         "body": "OnSave",
         "description": "dst-未定义的"
     },
-    "Remove": {
-        "prefix": "Remove",
-        "body": "Remove",
-        "description": "dst-未定义的"
-    },
+
     "GetDebugString": {
         "prefix": "GetDebugString",
         "body": "GetDebugString",

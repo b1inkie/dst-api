@@ -65,6 +65,7 @@ folders_tree = {
         ]
     },
     '_f' : [
+        'constant-常量',
         'entityscript-实体方法',
         'global_fn_maybe-可能的全局方法',
         'var_name_components-组件名翻译',
