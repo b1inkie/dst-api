@@ -1,7 +1,9 @@
-import subprocess,os,shutil,time
+import subprocess,os,shutil,time,json
 
 import _merge_temp as _mt
 import _merge_all as _ma
+import _snippets.help as _snp_help
+import _help.auto_update_help_info as _help_update_info
 
 # 配置lua解释器路径
 LUA_PATH = 'D:\\lua-5.4.2_Win64_bin\\lua54.exe'
@@ -37,6 +39,10 @@ def lua2temp_and_merge(lua_path,merge_name):
 def merge_all():
     _ma.merge_all()
     
+def update_help(content):
+    with open(gen_dir('_snippets','help.py'),'w',encoding='utf-8') as f:
+        f.write('data = '+json.dumps(content,ensure_ascii=False,indent=4))
+    
 work_list = [
     [gen_dir('_work','_sys_components.lua'),'sys_components'],
     [gen_dir('_work','_components.lua'),'components'],
@@ -47,6 +53,15 @@ work_list = [
 ]
     
 if __name__ == '__main__':
+    # 更新帮助desc
+    get_snp = _snp_help.data
+    get_snp['dst-lan:帮助']['description'] = _help_update_info.update_help_info_desc()
+    # 更新帮助
+    update_help(get_snp)
+    
+    # 主线工作
     for work in work_list:
         lua2temp_and_merge(work[0],work[1])
+    
+    # 合并所有
     merge_all()
