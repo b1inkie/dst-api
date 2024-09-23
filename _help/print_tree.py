@@ -89,7 +89,7 @@ print(tree)
 snp = f"""    "dst-lan:帮助:tree": {{
         "prefix": "help+tree",
         "body": "{res}",
-        "description": "注释项目结构 {version}"
+        "description": "注释项目结构"
     }},
 """
 

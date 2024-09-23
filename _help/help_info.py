@@ -7,6 +7,7 @@ data = [
     ['※为避免登github,我后面会将补全提示和更新信息放在这里!'],
     SEPERATOR,
     ['※触发','补全'],
+    ['p+预制物id',r'预制物id补全,可以输中文译名查找'],
     ['g+方法名',r'不常用全局方法查询(常用的可以直接敲出来,不常用的会被丢进g+里)'],
     ['com+组件名',r'不常用组件查询'],
     ['正常触发方法+i',r'启发模式:提供一些快捷代码块'],
@@ -28,6 +29,20 @@ for items in data:
     res = res.rstrip('/')
     res += '\\n '
 
+#
+with open('./version.txt','r',encoding='utf-8') as f:
+    version = f.read()
+        
+version = 'v' + version.strip(' ')
+#
+res = ' ※插件版本: '+ version + '\\n' + res
 
-pyperclip.copy(res)
+snp = f"""
+    "dst-lan:帮助": {{
+        "prefix": "help",
+        "body": "help",
+        "description": "{res}"
+    }},
+"""
+pyperclip.copy(snp)
 print(res)

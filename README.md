@@ -24,6 +24,18 @@
 
 ![help](_images/help.png)
 
+### 💊特殊
+
+`p+预制物id` -> `预制物id补全,可以输中文译名查找` 隔段时间会更新
+
+![prefab_search](_images/prefab_search.png)
+
+![prefab_search_cn](_images/prefab_search_cn.png)
+
+`g+方法名` -> `不常用全局方法查询(常用的可以直接敲出来,不常用的会被丢进g+里)` 开发中...
+`正常触发方法+i` -> `启发模式:提供一些快捷代码块` 开发中...
+
+
 ## 😎成为贡献者
 
 ### 💖lan的话:
