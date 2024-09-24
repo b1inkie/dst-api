@@ -133,9 +133,9 @@ function tools:table2string(t, indent)
         end
 
         if type(v) == "table" then
-            s = s .. new_indent .. "[" .. fix_k .. "] = " .. self:table2string(v, new_indent) .. ",\n"
+            s = s .. indent .. "[" .. fix_k .. "] = " .. self:table2string(v, new_indent) .. ",\n"
         else
-            s = s .. new_indent .. "[" .. fix_k .. "] = \"" .. escape_string(tostring(v)) .. "\",\n"
+            s = s .. indent .. "[" .. fix_k .. "] = \"" .. escape_string(tostring(v)) .. "\",\n"
         end
     end
     s = s .. indent .. "}"
@@ -161,7 +161,7 @@ function tools:sortTbl2string(data_tbl)
     --
     local res = ''
     for _,v in ipairs(sort_tbl) do
-        local _tmp = self:table2string(data_tbl[v],'')
+        local _tmp = self:table2string(data_tbl[v],'\t')
         res = res ..'["'..v..'"] = '.. _tmp .. ',\n'
     end
     return res
@@ -197,7 +197,7 @@ function tools:mergeSeveral(merge_target_folder,target_filename_without_extensio
     for k,v in pairs(new_tbl) do
         data[k] = v
     end
-    local table_string = "return\n" .. self:table2string(data)
+    local table_string = "return\n" .. self:table2string(data,'')
     -- print(table_string)
     local file = io.open(merge_target_folder..'/'..target_filename_without_extension..".lua", "w")
     if file then
@@ -389,12 +389,14 @@ end
 ---$param: (prefix_body) <str> [补全主体的 前缀] {others}
 ---$param: (middle) <str> [补全触发和补全主体的 中间名] {others}
 ---$param: (prefix_when_hidden) <str> [当为不常用补全时的 补全触发的 前缀] {others}
-function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key,prefix_prefix,prefix_body,middle,prefix_when_hidden)
+---$param: (is_constant) <bool> [是否是常量] {是则不带()}
+function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key,prefix_prefix,prefix_body,middle,prefix_when_hidden,is_constant)
     prefix_key = prefix_key or ""
     prefix_prefix = prefix_prefix or ""
     prefix_body = prefix_body or ""
     middle = middle or ""
     prefix_when_hidden = prefix_when_hidden or ""
+    is_constant = is_constant or false
 
     local target_folder = "_temp"
     -- self:create_folder(target_folder)
@@ -461,6 +463,8 @@ function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key
         end
 
         fix_desc = fix_desc_param..fix_desc_return.."\\n ※说明: "..v.tips.."\\n ※贡献者: @"..v.author
+        -- :解释
+        local after_key = v.tips ~= nil and (":"..escape_string(v.tips)) or ""
 
         -- 是否有提供的补全
         if v.replace_body ~= nil and v.replace_body ~= '' then 
@@ -474,26 +478,31 @@ function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key
         if v.hidden then
             fix_prefix = prefix_when_hidden..middle..method
         end
+        -- 是否为常量
+        if is_constant then
+            after_key = ""
+            fix_body = string.sub(fix_body,1,-3)
+        end
 
         res = res .. string.format([[
-    "%s%s:%s": {
+    "%s%s%s": {
         "prefix": "%s",
         "body": "%s",
         "description": "%s"
     },
-]],escape_string(prefix_key),escape_string(method),escape_string(v.tips) or "",escape_string(fix_prefix),fix_body,escape_string(fix_desc))
+]],escape_string(prefix_key),escape_string(method),after_key,escape_string(fix_prefix),fix_body,escape_string(fix_desc))
 
         -- 启发模式
         if v.inspire ~= nil and type(v.inspire) == 'table' and v.inspire.body ~= nil and type(v.inspire.body) == 'string' and v.inspire.body ~= '' then 
-            fix_body = prefix_body..middle..method..v.inspire.body
+            fix_body = prefix_body..middle..v.inspire.body
             local inspire_desc = v.inspire.tips or ""
             res = res .. string.format([[
-    "%s%s:%s+i": {
+    "%s%s%s+i": {
         "prefix": "%s+i",
         "body": "%s",
         "description": "%s"
     },
-]],escape_string(prefix_key),escape_string(method),escape_string(v.tips) or "",
+]],escape_string(prefix_key),escape_string(method),after_key,
 escape_string(fix_prefix),
 fix_body,
 escape_string(fix_desc).."\\n ※启发模式: "..escape_string(inspire_desc)

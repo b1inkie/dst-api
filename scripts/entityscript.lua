@@ -206,52 +206,52 @@ return {
 
 	["HasTag"] = {
 		params = {
-			{param = "tag", explain = "", type = ""},
+			{param = "tag", explain = "标签", type = "str"},
 
 		},
 		returns = {},
-		tips = "",
-		author = "",
+		tips = "实体是否有某个标签",
+		author = "lan",
 	},      
 
 	["HasTags"] = {
 		params = {
-			{param = "...", explain = "", type = ""},
+			{param = "...", explain = "标签", type = "str"},
 
 		},
 		returns = {},
-		tips = "",
-		author = "",
+		tips = "实体是否有这些标签",
+		author = "lan",
 	},      
 
 	["HasOneOfTags"] = {
 		params = {
-			{param = "...", explain = "", type = ""},
+			{param = "...", explain = "标签", type = "str"},
 
 		},
 		returns = {},
-		tips = "",
-		author = "",
+		tips = "实体是否有其中一个标签",
+		author = "lan",
 	},      
 
 	["AddComponent"] = {
 		params = {
-			{param = "name", explain = "", type = ""},
+			{param = "name", explain = "组件名", type = "str"},
 
 		},
 		returns = {},
-		tips = "",
-		author = "",
+		tips = "实体添加组件",
+		author = "lan",
 	},      
 
 	["RemoveComponent"] = {
 		params = {
-			{param = "name", explain = "", type = ""},
+			{param = "name", explain = "组件名", type = "str"},
 
 		},
 		returns = {},
-		tips = "",
-		author = "",
+		tips = "实体移除组件",
+		author = "lan",
 	},      
 
 	["GetBasicDisplayName"] = {
@@ -818,31 +818,34 @@ return {
 		returns = {},
 		tips = "",
 		author = "",
+		
 	},      
 
 	["DoPeriodicTask"] = {
 		params = {
-			{param = "time", explain = "", type = ""},
-			{param = "fn", explain = "", type = ""},
-			{param = "initialdelay", explain = "", type = ""},
+			{param = "time", explain = "间隔/s", type = "num"},
+			{param = "fn", explain = "", type = "fn"},
+			{param = "initialdelay", explain = "计时器创建多少秒后执行,默认为1", type = "num"},
 			{param = "...", explain = "", type = ""},
 
 		},
 		returns = {},
-		tips = "",
-		author = "",
+		tips = "周期定时器",
+		author = "lan",
+		inspire = {body="DoPeriodicTask(${1:1},function()\\n\\t$2\\nend)",tips="周期定时器"}
 	},      
 
 	["DoTaskInTime"] = {
 		params = {
-			{param = "time", explain = "", type = ""},
-			{param = "fn", explain = "", type = ""},
+			{param = "time", explain = "倒计时多少秒", type = "num"},
+			{param = "fn", explain = "", type = "fn"},
 			{param = "...", explain = "", type = ""},
 
 		},
 		returns = {},
-		tips = "",
-		author = "",
+		tips = "倒计时",
+		author = "lan",
+		inspire = {body="DoTaskInTime(${1:1},function()\\n\\t$2\\nend)",tips="倒计时"}
 	},      
 
 	["PushEventInTime"] = {
@@ -960,8 +963,8 @@ return {
 
 		},
 		returns = {},
-		tips = "",
-		author = "",
+		tips = "实体移除",
+		author = "lan",
 	},      
 
 	["IsValid"] = {
