@@ -1,338 +1,335 @@
 return {
     ["CheckGridOffset"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["ClearCollidesWith"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["ClearCollisionMask"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "清除冲突面",
         ["params"] = {},
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "清除冲突面"
     },
     ["ClearLocalCollisionMask"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["ClearMotorVelOverride"] = {
-        ["author"] = "lan",
-        ["tips"] = "清除物理运行覆盖",
         ["params"] = {},
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "lan",
+        ["tips"] = "清除物理运行覆盖"
     },
     ["ClearTransformationHistory"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "清除转换历史记录",
         ["params"] = {},
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "清除转换历史记录"
     },
     ["CollidesWith"] = {
-        ["author"] = "lan",
-        ["tips"] = "增加碰撞(不会被撞退)",
-        ["params"] = {
-            [1] = {["explain"] = "", ["type"] = "", ["param"] = "COLLISION"}
-        },
         ["returns"] = {},
-        replace_body = "Physics:CollidesWith(${1:COLLISION.OBSTACLES})",
+        ["replace_body"] = "Physics:CollidesWith(${1:COLLISION.OBSTACLES})",
+        ["params"] = {
+            [1] = {["type"] = "", ["param"] = "COLLISION", ["explain"] = ""}
+        },
+        ["author"] = "lan",
+        ["tips"] = "增加碰撞(不会被撞退)"
     },
     ["ConstrainTo"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "将自己约束到目标实体身上",
         ["params"] = {
-            [1] = {["explain"] = "", ["type"] = "", ["param"] = "target.entity"}
+            [1] = {["type"] = "", ["param"] = "target.entity", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "将自己约束到目标实体身上"
     },
     ["GeoProbe"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["GetCollisionGroup"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["GetCollisionMask"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["GetHeight"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["GetMass"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "获取质量",
         ["params"] = {},
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "获取质量"
     },
     ["GetMotorSpeed"] = {
-        ["author"] = "lan",
-        ["tips"] = "获取当前速度",
         ["params"] = {},
-        ["returns"] = {{["explain"] = "", ["type"] = "num"}}
+        ["returns"] = {[1] = {["type"] = "num", ["explain"] = ""}},
+        ["author"] = "lan",
+        ["tips"] = "获取当前速度"
     },
     ["GetMotorVel"] = {
-        ["author"] = "lan",
-        ["tips"] = "获取当前三个方向上的速度分量",
         ["params"] = {},
         ["returns"] = {
-            {["explain"] = "v_x", ["type"] = "num"},
-            {["explain"] = "v_y", ["type"] = "num"},
-            {["explain"] = "v_z", ["type"] = "num"}
-        }
+            [1] = {["type"] = "num", ["explain"] = "v_x"},
+            [2] = {["type"] = "num", ["explain"] = "v_y"},
+            [3] = {["type"] = "num", ["explain"] = "v_z"}
+        },
+        ["author"] = "lan",
+        ["tips"] = "获取当前三个方向上的速度分量"
     },
     ["GetRadius"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "获取物理碰撞范围",
         ["params"] = {},
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "获取物理碰撞范围"
     },
     ["GetVelocity"] = {
-        ["author"] = "lan",
-        ["tips"] = "获取速度向量",
         ["params"] = {},
         ["returns"] = {
-            {["explain"] = "vx", ["type"] = "num"},
-            {["explain"] = "vy", ["type"] = "num"},
-            {["explain"] = "vz", ["type"] = "num"}
-        }
+            [1] = {["type"] = "num", ["explain"] = "vx"},
+            [2] = {["type"] = "num", ["explain"] = "vy"},
+            [3] = {["type"] = "num", ["explain"] = "vz"}
+        },
+        ["author"] = "lan",
+        ["tips"] = "获取速度向量"
     },
     ["IsActive"] = {
-        ["author"] = "lan",
-        ["tips"] = "逻辑判断物理机是否处于工作状态",
         ["params"] = {},
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "lan",
+        ["tips"] = "逻辑判断物理机是否处于工作状态"
     },
     ["IsPassable"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["SetActive"] = {
-        ["author"] = "lan",
-        ["tips"] = "关闭所有物理性(物理碰撞机全面暂停)",
         ["params"] = {
-            [1] = {["explain"] = "", ["type"] = "bool", ["param"] = "false"}
+            [1] = {["type"] = "bool", ["param"] = "false", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "lan",
+        ["tips"] = "关闭所有物理性(物理碰撞机全面暂停)"
     },
     ["SetCapsule"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "物理碰撞体积 碰撞高度",
         ["params"] = {
-            {["explain"] = "", ["type"] = "num", ["param"] = "rad"},
-
-            {["explain"] = "", ["type"] = "num", ["param"] = "1"}
+            [2] = {["type"] = "num", ["param"] = "1", ["explain"] = ""},
+            [1] = {["type"] = "num", ["param"] = "rad", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "物理碰撞体积 碰撞高度"
     },
     ["SetCollides"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "设置碰撞关闭 设定坐标后再开启碰撞",
         ["params"] = {
-            [1] = {["explain"] = "", ["type"] = "bool", ["param"] = "false"}
+            [1] = {["type"] = "bool", ["param"] = "false", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "设置碰撞关闭 设定坐标后再开启碰撞"
     },
     ["SetCollisionCallback"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "设置碰撞回调函数",
+        ["returns"] = {},
+        ["replace_body"] = "Physics:SetCollisionCallback(function(inst,other)\\n\\t$1\\nend)\\n",
         ["params"] = {
-            {
-                ["explain"] = "",
+            [1] = {
                 ["type"] = "fn",
                 ["param"] = "fn",
-                fn_params = {
-                    {
-                        ["explain"] = "碰撞者自己",
+                ["fn_params"] = {
+                    [2] = {
                         ["type"] = "ent",
-                        ["param"] = "inst"
+                        ["param"] = "other",
+                        ["explain"] = "被碰撞者"
                     },
-                    {
-                        ["explain"] = "被碰撞者",
+                    [1] = {
                         ["type"] = "ent",
-                        ["param"] = "other"
+                        ["param"] = "inst",
+                        ["explain"] = "碰撞者自己"
                     }
-                }
+                },
+                ["explain"] = ""
+            }
+        },
+        ["author"] = "不知名笔记",
+        ["tips"] = "设置碰撞回调函数"
+    },
+    ["SetCollisionGroup"] = {
+        ["params"] = {
+            [1] = {
+                ["type"] = "",
+                ["param"] = "COLLISION.ITEMS",
+                ["explain"] = ""
             }
         },
         ["returns"] = {},
-        replace_body = "Physics:SetCollisionCallback(function(inst,other)\\n\\t$1\\nend)\\n",
-    },
-    ["SetCollisionGroup"] = {
         ["author"] = "",
-        ["tips"] = "设置碰撞组",
-        ["params"] = {
-            [1] = {
-                ["explain"] = "",
-                ["type"] = "",
-                ["param"] = "COLLISION.ITEMS"
-            }
-        },
-        ["returns"] = {}
+        ["tips"] = "设置碰撞组"
     },
     ["SetCollisionMask"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["SetCylinder"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "中空类型的物理性",
         ["params"] = {
-            [1] = {["explain"] = "", ["type"] = "num", ["param"] = "radius"},
-
-            [2] = {["explain"] = "", ["type"] = "num", ["param"] = "3"}
+            [2] = {["type"] = "num", ["param"] = "3", ["explain"] = ""},
+            [1] = {["type"] = "num", ["param"] = "radius", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "中空类型的物理性"
     },
     ["SetDamping"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "设置阻尼 对速度的衰弱",
         ["params"] = {
-            [1] = {["explain"] = "", ["type"] = "num", ["param"] = "0"}
+            [1] = {["type"] = "num", ["param"] = "0", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "设置阻尼 对速度的衰弱"
     },
     ["SetDontRemoveOnSleep"] = {
-        ["author"] = "lan",
-        ["tips"] = "休眠状态下物理碰撞依旧生效",
         ["params"] = {
-            [1] = {["explain"] = "", ["type"] = "bool", ["param"] = "true"}
+            [1] = {["type"] = "bool", ["param"] = "true", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "lan",
+        ["tips"] = "休眠状态下物理碰撞依旧生效"
     },
     ["SetFriction"] = {
-        ["author"] = "lan",
-        ["tips"] = "设置摩擦",
         ["params"] = {
-            [1] = {["explain"] = "", ["type"] = "num", ["param"] = "F"}
+            [1] = {["type"] = "num", ["param"] = "F", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "lan",
+        ["tips"] = "设置摩擦"
     },
     ["SetLocalCollisionMask"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["SetMass"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "自由落体速率 0为不掉落，默认1质量",
         ["params"] = {
-            [1] = {["explain"] = "", ["type"] = "num", ["param"] = "0"}
+            [1] = {["type"] = "num", ["param"] = "0", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "自由落体速率 0为不掉落，默认1质量"
     },
     ["SetMotorVel"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["SetMotorVelOverride"] = {
-        ["author"] = "lan",
-        ["tips"] = "物理运行覆盖",
         ["params"] = {
-            {["explain"] = "", ["type"] = "num", ["param"] = "vx"},
-            {["explain"] = "", ["type"] = "num", ["param"] = "vy"},
-            {["explain"] = "", ["type"] = "num", ["param"] = "vz"}
+            [1] = {["type"] = "num", ["param"] = "vx", ["explain"] = ""},
+            [2] = {["type"] = "num", ["param"] = "vy", ["explain"] = ""},
+            [3] = {["type"] = "num", ["param"] = "vz", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "lan",
+        ["tips"] = "物理运行覆盖"
     },
     ["SetRestitution"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "设置恢复 落地反弹力 反作用力",
         ["params"] = {
-            [1] = {["explain"] = "", ["type"] = "num", ["param"] = ".5"}
+            [1] = {["type"] = "num", ["param"] = ".5", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "设置恢复 落地反弹力 反作用力"
     },
     ["SetSphere"] = {
-        ["author"] = "lan 球体",
-        ["tips"] = "物理范围",
         ["params"] = {
-            [1] = {["explain"] = "半径", ["type"] = "num", ["param"] = "r"}
+            [1] = {["type"] = "num", ["param"] = "r", ["explain"] = "半径"}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "lan 球体",
+        ["tips"] = "物理范围"
     },
     ["SetTempMass0"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["SetTriangleMesh"] = {
-        ["author"] = "不知名笔记",
-        ["tips"] = "设置三角形网格",
         ["params"] = {
             [1] = {
-                ["explain"] = "",
                 ["type"] = "",
-                ["param"] = "PLAYER_COLLISION_MESH"
+                ["param"] = "PLAYER_COLLISION_MESH",
+                ["explain"] = ""
             }
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "不知名笔记",
+        ["tips"] = "设置三角形网格"
     },
     ["SetVel"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["Stop"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["TEMPHACK_DisableSleepDeactivation"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["Teleport"] = {
-        ["author"] = "lan",
-        ["tips"] = "物理传送",
         ["params"] = {
-            {["explain"] = "", ["type"] = "", ["param"] = "x"},
-            {["explain"] = "", ["type"] = "", ["param"] = "y"},
-            {["explain"] = "", ["type"] = "", ["param"] = "z"}
-
+            [1] = {["type"] = "", ["param"] = "x", ["explain"] = ""},
+            [2] = {["type"] = "", ["param"] = "y", ["explain"] = ""},
+            [3] = {["type"] = "", ["param"] = "z", ["explain"] = ""}
         },
-        ["returns"] = {}
+        ["returns"] = {},
+        ["author"] = "lan",
+        ["tips"] = "物理传送"
     },
     ["TeleportOffset"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     },
     ["TeleportRespectingInterpolation"] = {
+        ["params"] = {[1] = {["type"] = "", ["param"] = "", ["explain"] = ""}},
+        ["returns"] = {},
         ["author"] = "",
-        ["tips"] = "UNKNOWN",
-        ["params"] = {[1] = {["explain"] = "", ["type"] = "", ["param"] = ""}},
-        ["returns"] = {}
+        ["tips"] = "UNKNOWN"
     }
 
 }

@@ -332,54 +332,5 @@ data = {
         "body": "persists",
         "description": "默认值为true.修改实体属性为false,那么不会被保存下来"
     },
-    "不可点击的": {
-        "prefix": "NOCLICK",
-        "body": "NOCLICK",
-        "description": "不可点击的<code>标签</code>"
-    },
-    "在库存中的": {
-        "prefix": "INLIMBO",
-        "body": "INLIMBO",
-        "description": "在库存中的<code>标签</code>"
-    },
-    "专饰的": {
-        "prefix": "DECOR",
-        "body": "DECOR",
-        "description": "专饰的<code>标签</code>"
-    },
-    "不会影响种植和部署": {
-        "prefix": "NOBLOCK",
-        "body": "NOBLOCK",
-        "description": "不会影响种植和部署<code>标签</code>"
-    },
-    "私密的": {
-        "prefix": "CLASSIFIED",
-        "body": "CLASSIFIED",
-        "description": "私密的<code>标签</code>"
-    },
-    "建筑物的": {
-        "prefix": "structure",
-        "body": "structure",
-        "description": "建筑物的<code>标签</code>"
-    },
-    "墙体": {
-        "prefix": "wall",
-        "body": "wall",
-        "description": "墙体<code>标签</code>"
-    },
-    "发热的": {
-        "prefix": "HASHEATER",
-        "body": "HASHEATER",
-        "description": "发热的<code>标签</code>"
-    },
-    "特效的": {
-        "prefix": "FX",
-        "body": "FX",
-        "description": "特效的<code>标签</code>"
-    },
-    "稀有的": {
-        "prefix": "irreplaceable",
-        "body": "irreplaceable",
-        "description": "稀有的<code>标签</code>"
-    },
+
 } 

@@ -50,6 +50,8 @@ work_list = [
     [gen_dir('_work','_var_name.lua'),'var_name'],
     [gen_dir('_work','_constant.lua'),'constant'],
     [gen_dir('_work','_entityscript.lua'),'entityscript'],
+    [gen_dir('_work','_utils.lua'),'utils'],
+    [gen_dir('_work','_tags.lua'),'tags'],
 ]
     
 if __name__ == '__main__':

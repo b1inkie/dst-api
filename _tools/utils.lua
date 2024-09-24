@@ -116,7 +116,13 @@ end
 --     s = s .. indent .. "}"
 --     return s
 -- end
-
+function tools:gen_file(path,content)
+    local file = io.open(path, "w")
+    if file then
+        file:write(content)
+        file:close()
+    end
+end
 
 function tools:table2string(t, indent)
     -- 递归打印表
@@ -162,7 +168,7 @@ function tools:sortTbl2string(data_tbl)
     local res = ''
     for _,v in ipairs(sort_tbl) do
         local _tmp = self:table2string(data_tbl[v],'\t')
-        res = res ..'["'..v..'"] = '.. _tmp .. ',\n'
+        res = res ..'["'..v..'"] = '.. _tmp  .. ',\n'
     end
     return res
 end
@@ -462,6 +468,9 @@ function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key
             fix_desc_return = fix_desc_return.."<"..fixed_types..">".."["..member.explain.."] "
         end
 
+        -- 没有params和returns的则不显示这两项
+        if v.params == nil or #v.params == 0 then fix_desc_param = "" end
+        if v.returns == nil or #v.returns == 0 then fix_desc_return = "" end
         fix_desc = fix_desc_param..fix_desc_return.."\\n ※说明: "..v.tips.."\\n ※贡献者: @"..v.author
         -- :解释
         local after_key = v.tips ~= nil and (":"..escape_string(v.tips)) or ""
@@ -520,5 +529,44 @@ escape_string(fix_desc).."\\n ※启发模式: "..escape_string(inspire_desc)
     end
 
 end
+
+function tools:tags_lua2temp()
+    local tags = require('scripts/tags')
+    local res = 'data = {\n'
+    for k,group in pairs(tags) do
+        local phase = [[
+    "tag:%s": {
+        "prefix": "tag+%s",
+        "body": "%s",
+        "description": "%s"
+    },
+]]      
+        local key = k
+        local desc = " "
+        if group.simple_tips then 
+            key = key .. ":" .. group.simple_tips
+            desc = desc .. "※译名: "..group.simple_tips.."\\n "
+        end
+        if group.class then
+            desc = desc.."※分类: "..group.class.."\\n "
+        end
+        if group.tips then
+            desc = desc.."※说明: "..group.tips.."\\n "
+        end
+        if group.author then
+            desc = desc.."※贡献者: "..group.author.."\\n "
+        end
+
+        res = res .. string.format(phase,
+        key,
+        k,
+        "\\\""..k.."\\\"",
+        desc
+        )
+    end
+    res = res .. "\n}"
+    self:gen_file('_temp/tags.py',res)
+end
+
 
 return tools
