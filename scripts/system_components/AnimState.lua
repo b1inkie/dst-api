@@ -1347,21 +1347,26 @@ return {
 	["tips"] = "设置通道叠加颜色",
 	["params"] = {
 		[1] = {
+			["explain"] = "通道名",
+			["param"] = "symbol",
+			["type"] = "string",
+		},
+		[2] = {
 			["explain"] = "红色通道(0~1)",
 			["param"] = "r",
 			["type"] = "number",
 		},
-		[2] = {
+		[3] = {
 			["explain"] = "绿色通道(0~1)",
 			["param"] = "g",
 			["type"] = "number",
 		},
-		[3] = {
+		[4] = {
 			["explain"] = "蓝色通道(0~1)",
 			["param"] = "b",
 			["type"] = "number",
 		},
-		[4] = {
+		[5] = {
 			["explain"] = "不透明度(0~1)",
 			["param"] = "a",
 			["type"] = "number",
@@ -1460,21 +1465,26 @@ return {
 	["tips"] = "设置通道叠乘颜色",
 	["params"] = {
 		[1] = {
+			["explain"] = "通道名",
+			["param"] = "symbol",
+			["type"] = "string",
+		},
+		[2] = {
 			["explain"] = "红色通道(0~1)",
 			["param"] = "r",
 			["type"] = "number",
 		},
-		[2] = {
+		[3] = {
 			["explain"] = "绿色通道(0~1)",
 			["param"] = "g",
 			["type"] = "number",
 		},
-		[3] = {
+		[4] = {
 			["explain"] = "蓝色通道(0~1)",
 			["param"] = "b",
 			["type"] = "number",
 		},
-		[4] = {
+		[5] = {
 			["explain"] = "不透明度(0~1)",
 			["param"] = "a",
 			["type"] = "number",
