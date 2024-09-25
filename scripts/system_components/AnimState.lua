@@ -75,7 +75,7 @@ return {
 	["params"] = {
 		[1] = {
 			["explain"] = "通道名",
-			["param"] = "symbolname",
+			["param"] = "symbol",
 			["type"] = "string",
 		},
 	},
@@ -124,7 +124,7 @@ return {
 	["params"] = {
 		[1] = {
 			["explain"] = "通道名",
-			["param"] = "symbolname",
+			["param"] = "symbol",
 			["type"] = "string",
 		},
 	},
@@ -221,12 +221,16 @@ return {
 	["author"] = "",
 },
 ["GetBrightness"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "获取动画光度",
 	["params"] = {
 	},
 	["returns"] = {
+		[1] = {
+			["explain"] = "光度(Brightness, 0~2)",
+			["type"] = "number",
+		},
 	},
-	["author"] = "",
+	["author"] = "Runar",
 },
 ["GetBuild"] = {
 	["tips"] = "获取build名",
@@ -317,12 +321,16 @@ return {
 	["author"] = "",
 },
 ["GetHue"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "获取动画色度(Hue)",
 	["params"] = {
 	},
 	["returns"] = {
+		[1] = {
+			["explain"] = "色度(0~1)",
+			["type"] = "number",
+		}
 	},
-	["author"] = "",
+	["author"] = "Runar",
 },
 ["GetInheritsSortKey"] = {
 	["tips"] = "UNKNOWN",
@@ -365,12 +373,16 @@ return {
 	["author"] = "Runar",
 },
 ["GetSaturation"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "获取动画饱和度",
 	["params"] = {
 	},
 	["returns"] = {
+		[1] = {
+			["explain"] = "饱和度(Saturation, 0~1)",
+			["type"] = "number",
+		}
 	},
-	["author"] = "",
+	["author"] = "Runar",
 },
 ["GetSkinBuild"] = {
 	["tips"] = "获取当前皮肤的build",
@@ -417,16 +429,38 @@ return {
 	["author"] = "Runar",
 },
 ["GetSymbolHSB"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "获取通道HSB颜色空间值",
 	["params"] = {
+		[1] = {
+			["explain"] = "通道名",
+			["param"] = "symbol",
+			["type"] = "string",
+		},
 	},
 	["returns"] = {
+		[1] = {
+			["explain"] = "色度(Hue, 0~1)",
+			["type"] = "number"
+		},
+		[2] = {
+			["explain"] = "饱和度(Saturation, 0~1)",
+			["type"] = "number"
+		},
+		[3] = {
+			["explain"] = "光度(Brightness, 0~2)",
+			["type"] = "number"
+		},
 	},
 	["author"] = "",
 },
 ["GetSymbolMultColour"] = {
 	["tips"] = "获取通道叠乘的颜色，返回r,g,b,a",
 	["params"] = {
+		[1] = {
+			["explain"] = "通道名",
+			["param"] = "symbol",
+			["type"] = "string",
+		},
 	},
 	["returns"] = {
 		[1] = {
@@ -453,7 +487,7 @@ return {
 	["params"] = {
 		[1] = {
 			["explain"] = "通道名",
-			["param"] = "symbolname",
+			["param"] = "symbol",
 			["type"] = "string",
 		},
 	},
@@ -470,7 +504,7 @@ return {
 	["params"] = {
 		[1] = {
 			["explain"] = "通道名",
-			["param"] = "symbolname",
+			["param"] = "symbol",
 			["type"] = "string",
 		},
 		[2] = {
@@ -539,7 +573,7 @@ return {
 	["params"] = {
 		[1] = {
 			["explain"] = "通道名",
-			["param"] = "symbolname",
+			["param"] = "symbol",
 			["type"] = "string",
 		},
 	},
@@ -601,37 +635,37 @@ return {
 	["author"] = "",
 },
 ["OverrideItemSkinSymbol"] = {
-	["tips"] = "参数是5个，用法与OverrideSymbol类似，最后一个参数不知道什么意思",
+	["tips"] = "覆盖物品皮肤通道",
 	["params"] = {
 		[1] = {
-			["explain"] = "",
+			["explain"] = "通道名",
 			["param"] = "oldsymbol",
 			["type"] = "string",
 		},
 		[2] = {
-			["explain"] = "",
-			["param"] = "skin_build",
+			["explain"] = "皮肤build",
+			["param"] = "skinbuild",
 			["type"] = "string",
 		},
 		[3] = {
-			["explain"] = "",
-			["param"] = "newsymbol",
+			["explain"] = "覆盖通道",
+			["param"] = "skinsymbol",
 			["type"] = "string",
 		},
 		[4] = {
-			["explain"] = "",
+			["explain"] = "inst.GUID",
 			["param"] = "guid",
-			["type"] = "any",
+			["type"] = "number|nil",
 		},
 		[5] = {
-			["explain"] = "",
-			["param"] = "abc",
-			["type"] = "any",
+			["explain"] = "原build",
+			["param"] = "oldbuild",
+			["type"] = "string|nil",
 		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "Runar",
 },
 ["OverrideMultColour"] = {
 	["tips"] = "覆盖叠乘的颜色",
@@ -853,17 +887,17 @@ return {
 	["author"] = "Runar",
 },
 ["SetBrightness"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置动画光度,0为亏曝,2为过曝",
 	["params"] = {
 		[1] = {
-			["explain"] = "",
-			["param"] = "num",
+			["explain"] = "光度(0~2)",
+			["param"] = "brightness",
 			["type"] = "number",
 		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "Runar",
 },
 ["SetBuild"] = {
 	["tips"] = "buildname 就是 scml 文件的名字",
@@ -1101,17 +1135,17 @@ return {
 	["author"] = "",
 },
 ["SetHue"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置动画色度",
 	["params"] = {
 		[1] = {
-			["explain"] = "",
+			["explain"] = "色度(0~1)",
 			["param"] = "hue",
 			["type"] = "number",
 		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "Runar",
 },
 ["SetInheritsSortKey"] = {
 	["tips"] = "UNKNOWN",
@@ -1264,17 +1298,17 @@ return {
 	["author"] = "",
 },
 ["SetSaturation"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置动画饱和度",
 	["params"] = {
 		[1] = {
-			["explain"] = "",
+			["explain"] = "饱和度(0~1)",
 			["param"] = "saturation",
 			["type"] = "number",
 		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "Runar",
 },
 ["SetScale"] = {
 	["tips"] = "贴图缩放",
@@ -1390,22 +1424,22 @@ return {
 	["author"] = "",
 },
 ["SetSymbolBrightness"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置通道光度,0为亏曝,2为过曝",
 	["params"] = {
 		[1] = {
-			["explain"] = "",
+			["explain"] = "通道名",
 			["param"] = "symbol",
 			["type"] = "string",
 		},
 		[2] = {
-			["explain"] = "",
+			["explain"] = "光度(0~2)",
 			["param"] = "brightness",
 			["type"] = "number",
 		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "Runar",
 },
 ["SetSymbolExchange"] = {
 	["tips"] = "把通道2放到通道1前",
@@ -1426,22 +1460,22 @@ return {
 	["author"] = "Runar",
 },
 ["SetSymbolHue"] = {
-	["tips"] = "UNKNOWN",
+	["tips"] = "设置通道色度",
 	["params"] = {
 		[1] = {
-			["explain"] = "",
+			["explain"] = "通道名",
 			["param"] = "symbol",
 			["type"] = "string",
 		},
 		[2] = {
-			["explain"] = "",
+			["explain"] = "色度(0~1)",
 			["param"] = "hue",
 			["type"] = "number",
 		},
 	},
 	["returns"] = {
 	},
-	["author"] = "",
+	["author"] = "Runar",
 },
 ["SetSymbolLightOverride"] = {
 	["tips"] = "UNKNOWN",
@@ -1594,7 +1628,7 @@ return {
 	["params"] = {
 		[1] = {
 			["explain"] = "通道名",
-			["param"] = "symbolname",
+			["param"] = "symbol",
 			["type"] = "string",
 		},
 	},
