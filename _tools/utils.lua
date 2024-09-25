@@ -418,7 +418,7 @@ function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key
         fix_desc_param = " ※参数: "
         fix_desc_return = "\\n ※返回: "
         -- 遍历参数表
-        for index_member,member in pairs(v.params or {}) do
+        for index_member,member in ipairs(v.params or {}) do
             fix_body = fix_body.."${"..index_member..":"..member.param.."},"
 
             if member.fn_params then
@@ -427,7 +427,7 @@ function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key
                 --
                 fix_desc_param = fix_desc_param.."\\n   ("..member.param..")".."<"..fixed_types..">".."["..member.explain.."]"
                 fix_desc_param = fix_desc_param.."\\n      {参数:"
-                for _,fn_param in pairs(member.fn_params or {}) do
+                for _,fn_param in ipairs(member.fn_params or {}) do
                     -- fix参数type
                     fixed_types = self:fix_param_type(fn_param.type)
                     fix_desc_param = fix_desc_param.."\\n         ("..fn_param.param..")".."<"..fixed_types..">".."["..fn_param.explain.."] "
@@ -435,7 +435,7 @@ function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key
 
                 if member.fn_returns then
                     fix_desc_param = fix_desc_param.."\\n      返回:"
-                    for _,fn_return in pairs(member.fn_returns or {}) do
+                    for _,fn_return in ipairs(member.fn_returns or {}) do
                         -- fix参数type
                         fixed_types = self:fix_param_type(fn_return.type)
                         fix_desc_param = fix_desc_param.."\\n         <"..fixed_types..">".."["..fn_return.explain.."] "
@@ -462,7 +462,7 @@ function tools:direct2sn_in_temp_linebyline(data_lst,output_file_name,prefix_key
         end
         fix_body = fix_body..")"
         --遍历返回表
-        for index_member,member in pairs(v.returns or {}) do
+        for index_member,member in ipairs(v.returns or {}) do
             -- fix参数type
             fixed_types = self:fix_param_type(member.type)
             fix_desc_return = fix_desc_return.."<"..fixed_types..">".."["..member.explain.."] "
