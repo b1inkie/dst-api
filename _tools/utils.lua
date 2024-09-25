@@ -124,6 +124,71 @@ function tools:gen_file(path,content)
     end
 end
 
+function tools:remove_extension(filepath)
+    return string.match(filepath, "^(.*)%.[^%.]*$")
+end
+
+function tools:splitPath(filepath,only_get_filename_without_extension)
+    local parts = {}
+    for part in string.gmatch(filepath, '([^/]+)') do
+        table.insert(parts, part)
+    end
+    if only_get_filename_without_extension then
+        return self:remove_extension(parts[#parts])
+    end
+    return parts
+end
+
+function tools:lua2standardcommet(inputfilepath,ouputpath)
+    local parts = self:splitPath(inputfilepath)
+    local raw = require(self:remove_extension(inputfilepath))
+    local res = ''
+    for method,group in pairs(raw) do
+        res = res .. string.format('---%s %s\n',method,group.tips or '')
+        local all_param_to_string,all_return_to_string = '',''
+        for _,param in ipairs(group.params or {}) do
+            all_param_to_string = all_param_to_string .. (param.param or '') .. ','
+            res = res .. string.format('---@param %s %s @%s\n',param.param or '',param.type and self:fix_param_type(param.type) or '',param.explain or '')
+            if (param.type == 'function' or param.type == 'fn') and param.fn_params ~= nil then
+                for _,fn_param in ipairs(param.fn_params or {}) do
+                    res = res .. string.format('---@param %s.%s %s @%s\n',param.param or '',fn_param.param or '',fn_param.type and self:fix_param_type(fn_param.type) or '',fn_param.explain or '')
+                end
+                for _,fn_return in ipairs(param.fn_returns or {}) do
+                    res = res .. string.format('---@param %s.return %s @%s\n',param.param or '',fn_returns.type and self:fix_param_type(fn_returns.type) or '',fn_returns.explain or '')
+                end
+            end
+        end
+        for _,param in ipairs(group.returns or {}) do
+            all_return_to_string = all_return_to_string .. (param.type or '') .. ','
+            res = res .. string.format('---@return %s @%s\n',param.type and self:fix_param_type(param.type) or '',param.explain or '')
+        end
+
+        -- if group.author ~= nil and type(group.author) == 'string' and #group.author>0 then
+        --     local split_author = ''
+        --     local count = 0
+        --     for details in string.gmatch(group.author,'%S+') do
+        --         count = count + 1
+        --         if count == 1 then 
+        --             split_author = '-- @'..details..': '
+        --         else
+        --             split_author = split_author .. details .. ' '
+        --         end
+        --     end
+        --     -- local split_author = string.gsub(group.author,'^(%S+)%s+(.*)','-- @%1: %2\n')
+        --     res = res .. split_author .. '\n'
+        -- end
+
+        if string.sub(all_param_to_string,-1) == ',' then 
+            all_param_to_string = string.sub(all_param_to_string,1,-2)
+        end
+        if string.sub(all_return_to_string,-1) == ',' then 
+            all_return_to_string = string.sub(all_return_to_string,1,-2)
+        end
+        res = res .. string.format('function %s(%s) end\n\n',method,all_param_to_string)
+    end
+    self:gen_file(ouputpath..parts[#parts],res)
+end
+
 function tools:table2string(t, indent)
     -- 递归打印表
     local s = "{\n"
