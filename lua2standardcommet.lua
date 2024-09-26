@@ -10,6 +10,6 @@ local tbl = {
     'scripts/system_components/Physics.lua',
 }
 for _,input_file in ipairs(tbl) do
-    Utils:lua2standardcommet(input_file, OUTPUT_DIR)
+    Utils:lua2standardcommet(input_file, OUTPUT_DIR, true)
 end
 

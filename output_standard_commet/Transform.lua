@@ -1,115 +1,115 @@
----GetRotation 获取实体面向角度
----@return num @角度制角度
-function GetRotation() end
-
----SetNoFaced 设置无面向
-function SetNoFaced() end
-
----SetPredictedNoFaced UNKNOWN
----@param   @
-function SetPredictedNoFaced() end
-
----GetFacingRotation UNKNOWN
----@param   @
-function GetFacingRotation() end
-
----OffsetPosition UNKNOWN
----@param   @
-function OffsetPosition() end
-
 ---ClearPredictedFacingModel UNKNOWN
 ---@param   @
-function ClearPredictedFacingModel() end
-
----GetWorldPosition 获取实体的世界坐标
----@return num @x
----@return num @y
----@return num @z
-function GetWorldPosition() end
-
----SetPredictedSixFaced UNKNOWN
----@param   @
-function SetPredictedSixFaced() end
-
----GetLocalPosition UNKNOWN
----@param   @
-function GetLocalPosition() end
-
----GetScale 获取缩放比
----@return num @x_scale
----@return num @y_scale
----@return num @z_scale
-function GetScale() end
-
----GetPredictionPosition UNKNOWN
----@param   @
-function GetPredictionPosition() end
-
----SetScale 按比例缩放
----@param x_scale num @
----@param y_scale num @
----@param z_scale num @
-function SetScale(x_scale,y_scale,z_scale) end
-
----SetTwoFaced 设置2面向
-function SetTwoFaced() end
-
----SetEightFaced 设置8面向
-function SetEightFaced() end
-
----SetPredictedEightFaced UNKNOWN
----@param   @
-function SetPredictedEightFaced() end
-
----UpdateTransform UNKNOWN
----@param   @
-function UpdateTransform() end
-
----SetRotation 设置旋转角度
----@param angle num @角度制角度
-function SetRotation(angle) end
+function Transform:ClearPredictedFacingModel() end
 
 ---GetFacing UNKNOWN
 ---@param   @
-function GetFacing() end
+function Transform:GetFacing() end
 
----SetPredictedFourFaced UNKNOWN
+---GetFacingRotation UNKNOWN
 ---@param   @
-function SetPredictedFourFaced() end
-
----SetPredictedTwoFaced UNKNOWN
----@param   @
-function SetPredictedTwoFaced() end
-
----SetFromProxy UNKNOWN
----@param   @
-function SetFromProxy() end
-
----SetIsOnPlatform UNKNOWN
----@param   @
-function SetIsOnPlatform() end
-
----SetInterpolateRotation UNKNOWN
----@param   @
-function SetInterpolateRotation() end
-
----SetPosition 设置实体坐标
----@param x num @
----@param y num @
----@param z num @
-function SetPosition(x,y,z) end
-
----LoadRotation UNKNOWN
----@param   @
-function LoadRotation() end
-
----SetSixFaced 设置6面向
-function SetSixFaced() end
-
----SetFourFaced 设置4面向
-function SetFourFaced() end
+function Transform:GetFacingRotation() end
 
 ---GetHistoryData UNKNOWN
 ---@param   @
-function GetHistoryData() end
+function Transform:GetHistoryData() end
+
+---GetLocalPosition UNKNOWN
+---@param   @
+function Transform:GetLocalPosition() end
+
+---GetPredictionPosition UNKNOWN
+---@param   @
+function Transform:GetPredictionPosition() end
+
+---GetRotation 获取实体面向角度
+---@return number @角度制角度
+function Transform:GetRotation() end
+
+---GetScale 获取缩放比
+---@return number @x_scale
+---@return number @y_scale
+---@return number @z_scale
+function Transform:GetScale() end
+
+---GetWorldPosition 获取实体的世界坐标
+---@return number @x
+---@return number @y
+---@return number @z
+function Transform:GetWorldPosition() end
+
+---LoadRotation UNKNOWN
+---@param   @
+function Transform:LoadRotation() end
+
+---OffsetPosition UNKNOWN
+---@param   @
+function Transform:OffsetPosition() end
+
+---SetEightFaced 设置8面向
+function Transform:SetEightFaced() end
+
+---SetFourFaced 设置4面向
+function Transform:SetFourFaced() end
+
+---SetFromProxy UNKNOWN
+---@param   @
+function Transform:SetFromProxy() end
+
+---SetInterpolateRotation UNKNOWN
+---@param   @
+function Transform:SetInterpolateRotation() end
+
+---SetIsOnPlatform UNKNOWN
+---@param   @
+function Transform:SetIsOnPlatform() end
+
+---SetNoFaced 设置无面向
+function Transform:SetNoFaced() end
+
+---SetPosition 设置实体坐标
+---@param x number @
+---@param y number @
+---@param z number @
+function Transform:SetPosition(x, y, z) end
+
+---SetPredictedEightFaced UNKNOWN
+---@param   @
+function Transform:SetPredictedEightFaced() end
+
+---SetPredictedFourFaced UNKNOWN
+---@param   @
+function Transform:SetPredictedFourFaced() end
+
+---SetPredictedNoFaced UNKNOWN
+---@param   @
+function Transform:SetPredictedNoFaced() end
+
+---SetPredictedSixFaced UNKNOWN
+---@param   @
+function Transform:SetPredictedSixFaced() end
+
+---SetPredictedTwoFaced UNKNOWN
+---@param   @
+function Transform:SetPredictedTwoFaced() end
+
+---SetRotation 设置旋转角度
+---@param angle number @角度制角度
+function Transform:SetRotation(angle) end
+
+---SetScale 按比例缩放
+---@param x_scale number @
+---@param y_scale number @
+---@param z_scale number @
+function Transform:SetScale(x_scale, y_scale, z_scale) end
+
+---SetSixFaced 设置6面向
+function Transform:SetSixFaced() end
+
+---SetTwoFaced 设置2面向
+function Transform:SetTwoFaced() end
+
+---UpdateTransform UNKNOWN
+---@param   @
+function Transform:UpdateTransform() end
 
