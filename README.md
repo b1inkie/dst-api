@@ -142,11 +142,17 @@
 - 新增用户注释模板:
     + <span style="color: #88846f;">--</span> <span style="color: #52d9ce;">@</span><span style="color: #8ae22e;">V2C</span>: <span style="color: #88846f;">wat's this?</span>
 
+- mod目录特别图标:
+    + 安装后,点击 `设置文件图标主题` 选择 `DST LAN ICON` 主题
+    ![special_icon](_images/special_icon.png)
+
+
 ## 📝Todo:
 
 1. 快捷输入RGB颜色值(0~1)
     例如 输入color.red 自动补全为 1,0,0
 
+2. 统计API频率
 
 ## 🏡社区:
 
