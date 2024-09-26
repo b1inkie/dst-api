@@ -2,7 +2,7 @@ data = {
     "dst-lan:帮助": {
         "prefix": "help",
         "body": "help",
-        "description": " ※插件版本: v0.3.6\n ※为避免登github,我后面会将补全提示和更新信息放在这里!\n --------------------\n ※触发/补全\n p+预制物id/预制物id补全,可以输中文译名查找\n tag+标签/tag补全,欢迎大家贡献注释,社区靠大家\n g+方法名/不常用全局方法查询(常用的可以直接敲出来,不常用的会被丢进g+里)\n com+组件名/不常用组件查询\n 正常触发方法+i/启发模式:提供一些快捷代码块\n  \n contri+components/成为贡献者!(注释模板)\n lan+param/方法形参注释---$param: (param) <type> [desc] {others}\n lan+return/方法返回注释---$return: <type> [desc]\n --------------------\n ※其他/...\n 用户自定义注释/-- @用户名: 注释\n ※Todo\n 收集模组代码,计算api的使用频率,过低的api直接放进不常用方法中\n "
+        "description": " ※插件版本: v0.3.7\n ※为避免登github,我后面会将补全提示和更新信息放在这里!\n --------------------\n ※触发/补全\n p+预制物id/预制物id补全,可以输中文译名查找\n tag+标签/tag补全,欢迎大家贡献注释,社区靠大家\n g+方法名/不常用全局方法查询(常用的可以直接敲出来,不常用的会被丢进g+里)\n com+组件名/不常用组件查询\n 正常触发方法+i/启发模式:提供一些快捷代码块\n  \n contri+components/成为贡献者!(注释模板)\n lan+param/方法形参注释---$param: (param) <type> [desc] {others}\n lan+return/方法返回注释---$return: <type> [desc]\n --------------------\n ※主题/...\n DST LAN ICON/单独为DST MOD文件夹做了图标\n --------------------\n ※其他/...\n 用户自定义注释/-- @用户名: 注释\n ※Todo\n 收集模组代码,计算api的使用频率,过低的api直接放进不常用方法中\n "
     },
     "成为贡献者:组件": {
         "prefix": "contri+components",
@@ -11,7 +11,7 @@ data = {
     },
     "dst-lan:帮助:tree": {
         "prefix": "help+tree",
-        "body": "scripts\n├── components-组件\n│   └── ...-所有组件\n├── system_components-系统组件\n│   ├── AnimState-动画\n│   └── Transform-形态\n├── constant-常量\n├── entityscript-实体方法\n├── global_fn_maybe-可能的全局方法\n├── var_name_components-组件名翻译\n└── var_name_custom-饥荒词汇翻译\n",
+        "body": "scripts\n├── components-组件\n│   └── ...-所有组件\n├── system_components-系统组件\n│   ├── AnimState-动画\n│   ├── Transform-形态\n│   ├── Physics-物理\n│   └── SoundEmitter-声音\n├── constant-常量\n├── entityscript-实体方法\n├── global_fn_maybe-可能的全局方法\n├── tags-标签\n├── var_name_components-组件名翻译\n└── var_name_custom-饥荒词汇翻译\n",
         "description": "注释项目结构"
     }
 }

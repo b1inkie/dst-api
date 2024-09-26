@@ -62,12 +62,18 @@ folders_tree = {
         '_f': [
             'AnimState-动画',
             'Transform-形态',
+            'Physics-物理',
+            'SoundEmitter-声音'
         ]
+    },
+    'utils-工具库': {
+        'math-数学'
     },
     '_f' : [
         'constant-常量',
         'entityscript-实体方法',
         'global_fn_maybe-可能的全局方法',
+        'tags-标签',
         'var_name_components-组件名翻译',
         'var_name_custom-饥荒词汇翻译',
     ]
