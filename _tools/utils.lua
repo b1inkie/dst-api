@@ -12,7 +12,23 @@ local tools = {
         -- custom
         ['entity'] = 'ent',
         ['vector3'] = 'V3',
-    }
+    },
+    -- 规范type
+    std_type = {
+        -- nil
+        ['bool'] = 'boolean',
+        ['num'] = 'number',
+        ['str'] = 'string',
+        ['fn'] = 'function',
+        ['tbl'] = 'table',
+        -- thread
+        -- any
+        -- custom
+        ['ent'] = 'table',
+        ['entity'] = 'table',
+        ['V3'] = 'table',
+        ['vector3'] = 'table',
+    },
 }
 
 local function escape_string(s)
@@ -139,15 +155,21 @@ function tools:splitPath(filepath,only_get_filename_without_extension)
     return parts
 end
 
-function tools:lua2standardcommet(inputfilepath,ouputpath)
+function tools:lua2standardcommet(inputfilepath,ouputpath,hasnamespace)
     local parts = self:splitPath(inputfilepath)
     local raw = require(self:remove_extension(inputfilepath))
     local res = ''
-    for method,group in pairs(raw) do
+    local keys = {}
+    for method, _ in pairs(raw) do
+        table.insert(keys, method)
+    end
+    table.sort(keys)
+    for _, method in ipairs(keys) do
+        local group = raw[method]
         res = res .. string.format('---%s %s\n',method,group.tips or '')
         local all_param_to_string,all_return_to_string = '',''
         for _,param in ipairs(group.params or {}) do
-            all_param_to_string = all_param_to_string .. (param.param or '') .. ','
+            all_param_to_string = all_param_to_string .. (param.param or '') .. ', '
             res = res .. string.format('---@param %s %s @%s\n',param.param or '',param.type and self:fix_param_type(param.type) or '',param.explain or '')
             if (param.type == 'function' or param.type == 'fn') and param.fn_params ~= nil then
                 for _,fn_param in ipairs(param.fn_params or {}) do
@@ -159,7 +181,7 @@ function tools:lua2standardcommet(inputfilepath,ouputpath)
             end
         end
         for _,param in ipairs(group.returns or {}) do
-            all_return_to_string = all_return_to_string .. (param.type or '') .. ','
+            all_return_to_string = all_return_to_string .. (param.type or '') .. ', '
             res = res .. string.format('---@return %s @%s\n',param.type and self:fix_param_type(param.type) or '',param.explain or '')
         end
 
@@ -178,13 +200,13 @@ function tools:lua2standardcommet(inputfilepath,ouputpath)
         --     res = res .. split_author .. '\n'
         -- end
 
-        if string.sub(all_param_to_string,-1) == ',' then 
-            all_param_to_string = string.sub(all_param_to_string,1,-2)
+        if string.sub(all_param_to_string,-2) == ', ' then 
+            all_param_to_string = string.sub(all_param_to_string,1,-3)
         end
-        if string.sub(all_return_to_string,-1) == ',' then 
-            all_return_to_string = string.sub(all_return_to_string,1,-2)
+        if string.sub(all_return_to_string,-2) == ', ' then 
+            all_return_to_string = string.sub(all_return_to_string,1,-3)
         end
-        res = res .. string.format('function %s(%s) end\n\n',method,all_param_to_string)
+        res = res .. string.format('function %s%s(%s) end\n\n', hasnamespace and parts[#parts]:sub(1, -5) .. ":" or '', method,all_param_to_string)
     end
     self:gen_file(ouputpath..parts[#parts],res)
 end
@@ -350,7 +372,7 @@ function tools:fix_param_type(string_types)
         -- 去两端空格
         strip_string = string.gsub(each_type, "^%s*(.-)%s*$", "%1")
         -- 缩写
-        strip_string = self.param_type[string.lower(strip_string)] or strip_string
+        strip_string = self.std_type[self.param_type[string.lower(strip_string)]] or self.std_type[string.lower(strip_string)] or self.param_type[string.lower(strip_string)] or strip_string
 
         types = types..strip_string.."|"
     end
