@@ -1,0 +1,7 @@
+u dont need to check this file!
+自定义代码块
+
+符号 -> 转义
+" -> \\\"
+\n -> \\n 
+, -> \\,

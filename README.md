@@ -4,155 +4,225 @@
 ![installs](https://img.shields.io/visual-studio-marketplace/i/lan.dst-lan)
 ![downloads](https://img.shields.io/visual-studio-marketplace/d/lan.dst-lan)
 
----
-
-## 🎮插件下载
+## 🎮插件下载/Extension Download
 
 - 在 **`VSCode`** 的 **`插件市场`** 中搜索关键字  **`dst-lan`** 即可找到并安装本插件。
+- To find and install this Extension, search keyword **`dst-lan`** in the **`VSCode Extension Marketplace`**.
 
-## 版本兼容性
+- 不再支持 `1.73.0` 以下版本的 `VSCode`
+- No longer supports `VSCode` versions below `1.73.0`
 
-- 同步 "Don't Starve Together" 版本 619045。
+## 👁‍🗨版本兼容性/Version Compatibility
 
-## 项目地址(注释项目)
+- 同步 "Don't Starve Together" 版本 `619045` 。
+- Synchronized with "Don't Starve Together" version `619045` .
+
+## 🗼注释项目地址/Comment Project URL
 
 - Git: https://github.com/b1inkie/dst-api
 
-## 📖help(重要)
+## 📖help
 
-安装插件后,直接键入`help`,点击提示框中的`help`补全的右尖括号,将可以看到详细信息:
+- 安装插件后,直接键入`help`,点击提示框中的`help`补全的右尖括号,将可以看到详细信息:
+- After installing the plugin, type `help` and click the right angle bracket for `help` in the prompt box to see detailed information:
 
 ![help](_images/help.png)
 
-### 💊特殊
+### 💊糖/suger
 
-`p+预制物id` -> `预制物id补全,可以输中文译名查找` 隔段时间会更新
+- `p+预制物ID` -> `预制物id补全,可以输中文译名查找` (隔段时间会更新)
+- `p+prefabID` -> `Prefab ID completion, can search by translated name` (Updated periodically)
 
-![prefab_search](_images/prefab_search.png)
+- `g+方法名` -> `不常用全局方法查询(常用的可以直接敲出来,不常用的会被丢进g+里)` (开发中...)
+- `g+method` -> `Less Frequently Used Global Method Lookup (Commonly used methods can be typed directly; less common ones are included here)` (WIP)
 
-![prefab_search_cn](_images/prefab_search_cn.png)
+- `正常触发方法+i` -> `启发模式:提供一些快捷代码块` (开发中...)
+- `Normal Trigger Method+i` -> `Inspiration Mode: Provides some quick code snippets` (WIP)
 
-`g+方法名` -> `不常用全局方法查询(常用的可以直接敲出来,不常用的会被丢进g+里)` 开发中...
-`正常触发方法+i` -> `启发模式:提供一些快捷代码块` 开发中...
+## 😎成为贡献者/Become a Contributor
+
+### 💖lan的话:/tips from lan:
+
+- 注释模板的语法已修改成`lua`,方便大家补充.
+- The syntax of the comment template has been modified to `lua` for easier contribution.
 
 
-## 😎成为贡献者
+- 当然,如果您有任何形式的注释文档(尽量有一定格式的,最好能用`正则`处理的),也可以直接丢给我,我会加以处理并整合到插件中,我会在`贡献者`中附上 **`您的名字`**
+- Of course, if you have any form of comment documentation (preferably with a certain format, ideally processable with `regex`), you can also send it to me. I will process and integrate it into the plugin, and I will include **`your name`** in the `Contributors` list.
 
-### 💖lan的话:
-注释模板的语法已修改成`lua`,方便大家补充.
-当然,如果您有任何形式的注释文档(尽量有一定格式的,最好能用`正则`处理的),也可以直接丢给我,我会加以处理并整合到插件中,我会在`贡献者`中附上 **`您的名字`**
+### 🧮目录结构/Directory Structure
 
-### 目录结构
+#### 中文:
 
-`scripts`目录中存放所有需要注释的 `Lua` 文件
+```txt
+scripts_cn
+├── components-组件
+│   └── ...-所有组件
+├── system_components-系统组件
+│   ├── AnimState-动画
+│   ├── Transform-形态
+│   ├── Physics-物理
+│   └── SoundEmitter-音效
+├── constant-常量
+├── entityscript-实体方法
+├── global_fn_maybe-可能的全局方法
+├── method_custom-找不到归宿的方法
+├── tags-标签
+├── var_name_components-组件名翻译
+├── var_name_dst-饥荒词汇翻译
+└── var_name_custom-自定义词汇
+```
 
-- `scripts/`: 全局方法,常用词汇等
-  - `scripts/components/`: 组件
-  - `scripts/system_components/`: 系统组件
+#### English:
 
-### 示例
-#### 组件方法示例
+```txt
+scripts_en
+├── components-Component
+│   └── ...-All Components
+├── system_components-System Components
+│   ├── AnimState-Animation
+│   ├── Transform-Transform
+│   ├── Physics-Physics
+│   └── SoundEmitter-Sound
+├── constant-Constant
+├── entityscript-Inst Method
+├── global_fn_maybe-Possible GLOBAL Methods
+├── method_custom-Can not find the parent
+├── tags-Tag
+├── var_name_components-Component Name Translate
+├── var_name_dst-DST Vocabulary Translate
+└── var_name_custom-Custom Vocabulary
+```
+
+### 🎈如何贡献/How to Contribute
+
+- `scripts_cn` 下放着所有要注释的文件,写好后, `pull request` 即可.
+- All files to be commented are placed under `scripts_en`. After you have written the comments, submit a `pull request`.
+
+### 💡格式/Format 
 
 ```lua
-    ["SetConsumption"] = { -- 方法名:已自动生成,请勿改动
-        params = {
-            -- param: 参数名(自动生成) explain: 参数说明(万能的群友们,请帮我注释吧)
-            -- type: 参数类型(括号中为简写)  
+-- 中文
+["SetCollisionCallback"] = { -- 方法名,已自动生成
+    ["params"] = { -- 参数
+        [1] = { -- 第几个参数
+            ["param"] = "fn", -- 参数名称
             -- <nil|boolean(bool)|number(num)|string(str)|function(fn)|thread|table(tbl)|any|>
             -- <空值|     布尔    |    数值    |   字符串   |    函数    |  线程  |    表    |不定|>
-            -- type: 专有参数类型(括号中为简写)
+
             -- <entity(ent)|Vector3(V3)>
             -- <    实体   |  三维向量  >
-            -- 参数类型详细说明 -- 空值 nil: 个别参数为nil, 方法仍有意义时需要添加; 
-            ------------------- 实体 (entity|ent): 表, 但特指预制物
-            ------------------- 三维向量 (Vector3|V3): 元素键名为x,y,z的表
-            ------------------- 可变参数: param = "..." 的参数, 建议使用 "any|nil" 作为type
-            {param = "action", explain = "动作id", type = "any"}, 
-            {param = "uses", explain = "剩余使用次数", type = "number"},
-
+            ["type"] = "fn", -- 参数类型
+            ["explain"] = "", -- 参数简述
+            ["fn_params"] = { -- 当参数是函数时,添加这一项
+                [1] = {
+                    ["type"] = "ent",
+                    ["param"] = "inst",
+                    ["explain"] = "碰撞者自己"
+                },
+                [2] = {
+                    ["type"] = "ent",
+                    ["param"] = "other",
+                    ["explain"] = "被碰撞者"
+                },
+            },
+            ["fn_returns"] = { -- 函数参数的返回值,没有请留白
+                -- [1] = {explain = "", type = ""},
+            },
         },
-        returns = {
-            -- 此处填返回值,如果无返回值,请留空
-            -- 返回格式 explain: 参数说明(万能的群友们,请帮我注释吧) type: 参数类型
-            -- {explain = "", type = ""}
-        },
-        tips = "设置对应动作的消耗次数", -- 简明扼要的说明方法的用途
-        author = "lan", -- 贡献者id (填上您的名字,作为贡献者,你的名字会出现在补全提示中)
     },
+    ["returns"] = { -- 返回
+        -- [1] = {explain = "", type = ""},
+    },
+    ["author"] = "", -- 您的名字(作为贡献者,您的名字会出现在补全提示中)
+    ["tips"] = "", -- 简述这个方法的作用
+    -----------------------------------------
+    --下面为特殊项(如果您不清楚语法,请勿添加) --
+    -----------------------------------------
+    ["replace_body"] = "", -- 这一项将直接替换补全的主体部分
+    ["inspire"] = { -- 启发模式:这一项不会影响原有的补全,而是新增一条补全,用+i来触发
+		["tips"] = "", -- 启发模式的代码块简述
+		["body"] = "", -- 启发模式的主体部分
+	},
+},
 ```
-
-#### 带函数参数的方法示例
 
 ```lua
-    -- 参数为函数的参数写法
-    ["SetOnAttack"] = {
-        params = {
-            {
-                param = "fn", explain = "击中后执行的函数", type = "function", -- 当type中含有function时
-                -- 函数参数的参数
-                fn_params = { -- 除了键名不同，写法与父表一致
-                    {param = "inst", explain = "武器的inst", type = "entity"},
-                    {param = "attacker", explain = "攻击者的inst", type = "entity"},
-                    {param = "target", explain = "攻击目标的inst", type = "entity"},
-                },
-                -- 函数参数的返回值,没有请留白
-                fn_returns = {
-                    -- {explain = "", type = ""},
-                }
-            },
+-- English Ver
+["SetCollisionCallback"] = { -- Method name, auto-generated
+    ["params"] = { -- Parameters
+        [1] = { -- Parameter index
+            ["param"] = "fn", -- Parameter name
+            -- <nil|boolean(bool)|number(num)|string(str)|function(fn)|thread|table(tbl)|any|>
 
+            -- <entity(ent)|Vector3(V3)>
+            ["type"] = "fn", -- Parameter type
+            ["explain"] = "", -- Parameter description
+            ["fn_params"] = { -- When the parameter is a function, add this item
+                [1] = {
+                    ["type"] = "ent",
+                    ["param"] = "inst",
+                    ["explain"] = "The colliding entity itself"
+                },
+                [2] = {
+                    ["type"] = "ent",
+                    ["param"] = "other",
+                    ["explain"] = "The entity being collided with"
+                },
+            },
+            ["fn_returns"] = { -- Return values of the function parameter, leave blank if none
+                -- [1] = {explain = "", type = ""},
+            },
         },
-        returns = {
-            -- {explain = "", type = ""}
-        },
-        tips = "设置武器击中回调函数, 同SetAttackCallback",
-        author = "Runar",
     },
+    ["returns"] = { -- Returns
+        -- [1] = {explain = "", type = ""},
+    },
+    ["author"] = "", -- Your name (as a contributor, your name will appear in the completion prompt)
+    ["tips"] = "", -- Brief description of what this method does
+    -------------------------------------------------------------------
+    -- special items (do not add if you are unsure about the syntax) --
+    -------------------------------------------------------------------
+    ["replace_body"] = "", -- This item will directly replace the completion body
+    ["inspire"] = { -- Inspiration mode: this item will not affect the original completion but adds a new one triggered by +i
+		["tips"] = "", -- Description of the inspiration mode code snippet
+		["body"] = "", -- Body of the inspiration mode
+	},
+},
 ```
 
-#### github抽风了?
-
-看下图:
-直接键入 `contri+components` 生成注释模板,注释好后丢给我即可.(加我的小群,或者大群 *@我* 都可以)
-
-![注释吧](_images/contribute_hint.png)
-
-
-## 🎬补全预览:
-
-(只要注释够详细,补全能当文档用)
+## 🎬补全预览:/Completion Preview:
 
 ![补全预览](_images/preview_snippets_new.png)
 
 ![进来写两句注释吧](_images/soyo_01.png)
 
+## 🥢切换到中文/🍴Switch To English
 
+`ctrl + shift + p` -> `dst-lan: toggle language`
+切换语言后,请务必点击重启/After switching the language, please make sure to click Restart.
+
+![toggle](_images/toggle.png)
 
 ## ✨Extra:
 
-- Lua 语法高亮:
+- Lua 语法高亮/Lua Syntax Highlighting:
 
-- 自动生成注释模板(注意本功能是基于monokai主题的配色,其他主题可能视觉效果不佳):
-
-    + 键入: `lan+param`
+- 自动生成注释模板/Comment Template:
+    + `lan+param`
     <span style="color: #88846f;">---</span><span style="color: #52d9ce;">\$</span><span style="color: #f92749;">param</span><span style="color: #52d9ce;">:</span> <span style="color: #f1d70b;">(</span><span style="color: #fd8921;">param</span><span style="color: #f1d70b;">)</span> <span style="color: #ae81ff;"><</span><span style="color: #66d9ef;">type</span><span style="color: #ae81ff;">></span> <span style="color: #88846f;">[</span><span style="color: #e6db74;">desc</span><span style="color: #88846f;">]</span> {others}
-    + 键入: `lan+return`
+    + `lan+return`
     <span style="color: #88846f;">---</span><span style="color: #52d9ce;">\$</span><span style="color: #f92749;">return</span><span style="color: #52d9ce;">:</span>  <span style="color: #ae81ff;"><</span><span style="color: #66d9ef;">type</span><span style="color: #ae81ff;">></span> <span style="color: #88846f;">[</span><span style="color: #e6db74;">desc</span><span style="color: #88846f;">]</span>
 
-- 新增用户注释模板:
+- 用户注释模板/Modder Comment Template:
     + <span style="color: #88846f;">--</span> <span style="color: #52d9ce;">@</span><span style="color: #8ae22e;">V2C</span>: <span style="color: #88846f;">wat's this?</span>
 
-- mod目录特别图标:
-    + 安装后,点击 `设置文件图标主题` 选择 `DST LAN ICON` 主题
+- mod目录特别图标/Special Icon for mod Directory:
+    + 安装后,点击 `设置文件图标主题` 选择 `DST LAN ICON` 主题/After installation, click on `Set File Icon Theme` and choose the `DST LAN ICON` theme
+
     ![special_icon](_images/special_icon.png)
 
-
 ## 📝Todo:
-
-1. 快捷输入RGB颜色值(0~1)
-    例如 输入color.red 自动补全为 1,0,0
-
-2. 统计API频率
 
 ## 🏡社区:
 
@@ -161,7 +231,7 @@
     + 龙飞群: 559477977 (入群口令 LongFei_Gamer)
     + 我的代码交流小群(勿灌水): 855512521
 
-## 🚩Contributors
+## 🚩贡献者/Contributors
 
 - 创建者
     + lan 
@@ -170,5 +240,4 @@
     + Runar
 
 - 其他贡献者
- 
-
+    + 卡得粉丝
