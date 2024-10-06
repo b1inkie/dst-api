@@ -543,6 +543,7 @@ return {
 		returns = {},
 		tips = "监听事件",
 		author = "lan",
+		replace_body = "ListenForEvent($1,${2:fn})",
 	},      
 
 	["RemoveEventCallback"] = {
@@ -606,6 +607,7 @@ return {
 		returns = {},
 		tips = "推送事件",
 		author = "lan",
+		replace_body = "PushEvent($1,${2:data})",
 	},      
 
 	["SetPhysicsRadiusOverride"] = {
@@ -832,7 +834,8 @@ return {
 		returns = {},
 		tips = "周期定时器",
 		author = "lan",
-		inspire = {body="DoPeriodicTask(${1:1},function()\\n\\t$2\\nend)",tips="周期定时器"}
+		replace_body = "DoPeriodicTask(${1:1},function($2)\\n\\t$3\\nend)",
+		-- inspire = {body="DoPeriodicTask(${1:1},function($2)\\n\\t$3\\nend)",tips="周期定时器"}
 	},      
 
 	["DoTaskInTime"] = {
@@ -845,7 +848,8 @@ return {
 		returns = {},
 		tips = "倒计时",
 		author = "lan",
-		inspire = {body="DoTaskInTime(${1:1},function()\\n\\t$2\\nend)",tips="倒计时"}
+		replace_body = "DoTaskInTime(${1:1},function($2)\\n\\t$3\\nend)",
+		-- inspire = {body="DoTaskInTime(${1:1},function($2)\\n\\t$3\\nend)",tips="倒计时"}
 	},      
 
 	["PushEventInTime"] = {

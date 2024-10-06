@@ -543,6 +543,7 @@ return {
 		returns = {},
 		tips = "监听事件",
 		author = "lan",
+		replace_body = 'ListenForEvent($1,${2:fn})'
 	},      
 
 	["RemoveEventCallback"] = {
@@ -606,6 +607,7 @@ return {
 		returns = {},
 		tips = "推送事件",
 		author = "lan",
+		replace_body = 'PushEvent($1,${2:data})'
 	},      
 
 	["SetPhysicsRadiusOverride"] = {

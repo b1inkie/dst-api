@@ -1,4 +1,4 @@
-import re,json,os,requests,warnings,importlib.util
+import re,json,os,requests,warnings,importlib.util,pyperclip
 import pandas as pd
 from jsonpath import jsonpath
 
@@ -55,7 +55,46 @@ TRANSLATE = {
     'component_translate': {'cn':'组件名翻译','en':'Component Name Translate'},
     'DST_TRANSLATE': {'cn':'饥荒词汇翻译','en':'DST Vocabulary Translate'},
     'custom_vocabulary': {'cn':'自定义词汇','en':'Custom Vocabulary'},
+
+    'commands': {'cn':'命令','en':'Command'},
+    'open_commands': {'cn':'输入dst-lan即可找到本插件指令','en':'Enter dst-lan to find all commands of this extension'},
+    'command_togglelang': {'cn':'切换语言','en':'Toggle Language'},
+    'command_delcomments': {'cn':'删除注释','en':'Delete Comments'},
 }
+
+def for_md(lang='cn'):
+    with open('./version.txt','r',encoding='utf-8') as f:
+        version = f.read()
+            
+    version = 'v' + version.strip(' ')
+    datas = [
+        '### ',TRANSLATE["version"][lang][1:],f' {version}','\\n',
+        '- ',TRANSLATE["hint"][lang][1:],'\\n\\n',
+        f'|{TRANSLATE["trigger"][lang][1:]}|-|{TRANSLATE["complete"][lang]}|','\\n',
+        '|-|-|-|\\n',
+        f'|{TRANSLATE["snippet_1"][lang]}|-|{TRANSLATE["snippet_1_c"][lang]}|','\\n',
+        f'|{TRANSLATE["snippet_2"][lang]}|-|{TRANSLATE["snippet_2_c"][lang]}|','\\n',
+        f'|{TRANSLATE["snippet_3"][lang]}|-|{TRANSLATE["snippet_3_c"][lang]}|','\\n',
+        f'|{TRANSLATE["snippet_4"][lang]}|-|{TRANSLATE["snippet_4_c"][lang]}|','\\n',
+        f'|{TRANSLATE["snippet_5"][lang]}|-|{TRANSLATE["snippet_5_c"][lang]}|','\\n',
+        f'|{TRANSLATE["snippet_6"][lang]}|-|{TRANSLATE["snippet_6_c"][lang]}|','\\n',
+        f'|{TRANSLATE["snippet_7"][lang]}|-|{TRANSLATE["snippet_7_c"][lang]}|','\\n',
+        f'|{TRANSLATE["snippet_8"][lang]}|-|{TRANSLATE["snippet_8_c"][lang]}|','\\n',
+        f'### {TRANSLATE["theme"][lang][1:]}\\n',
+        f'- {TRANSLATE["icon"][lang]}\\n\\n',
+        f'\\t{TRANSLATE["icon_details"][lang]}\\n',
+        f'### {TRANSLATE["other"][lang][1:]}\\n',
+        f'- {TRANSLATE["user_comment"][lang]}\\n\\n',
+        f'\\t{TRANSLATE["user_comment_details"][lang]}\\n',
+        f'### {TRANSLATE["commands"][lang]}(ctrl + shift + P)\\n',
+        f'- {TRANSLATE["command_togglelang"][lang]}\\n',
+        f'- {TRANSLATE["command_delcomments"][lang]}\\n',
+    ]
+    res = ''
+    for i in datas:
+        res += i
+    pyperclip.copy(res)
+    
 
 # 替换转义字符的函数
 def unescape(s):
@@ -70,14 +109,14 @@ def update_help_info_desc(lang='cn'):
         SEPERATOR,
         [TRANSLATE['trigger'][lang],TRANSLATE['complete'][lang]],
         [TRANSLATE['snippet_1'][lang],TRANSLATE['snippet_1_c'][lang]],
-        [TRANSLATE['snippet_2'][lang],TRANSLATE['snippet_2'][lang]],
-        [TRANSLATE['snippet_3'][lang],TRANSLATE['snippet_3'][lang]],
-        [TRANSLATE['snippet_4'][lang],TRANSLATE['snippet_4'][lang]],
-        [TRANSLATE['snippet_5'][lang],TRANSLATE['snippet_5'][lang]],
+        [TRANSLATE['snippet_2'][lang],TRANSLATE['snippet_2_c'][lang]],
+        [TRANSLATE['snippet_3'][lang],TRANSLATE['snippet_3_c'][lang]],
+        [TRANSLATE['snippet_4'][lang],TRANSLATE['snippet_4_c'][lang]],
+        [TRANSLATE['snippet_5'][lang],TRANSLATE['snippet_5_c'][lang]],
         BR,
-        [TRANSLATE['snippet_6'][lang],TRANSLATE['snippet_6'][lang]],
-        [TRANSLATE['snippet_7'][lang],TRANSLATE['snippet_7'][lang]],
-        [TRANSLATE['snippet_8'][lang],TRANSLATE['snippet_8'][lang]],
+        [TRANSLATE['snippet_6'][lang],TRANSLATE['snippet_6_c'][lang]],
+        [TRANSLATE['snippet_7'][lang],TRANSLATE['snippet_7_c'][lang]],
+        [TRANSLATE['snippet_8'][lang],TRANSLATE['snippet_8_c'][lang]],
         SEPERATOR,
         [TRANSLATE['theme'][lang],'...'],
         [TRANSLATE['icon'][lang],TRANSLATE['icon_details'][lang]],
@@ -194,10 +233,8 @@ def rewrite_help(content_dict,lang='cn'):
 
 # 获取tag表格地址
 def get_tag_excel_url():
-    url = r'https://docs.qq.com/v1/export/query_progress?operationId=144115210555677266_7fdb31b7-1a0a-2bdf-b807-3e4a0bd35db4'
+    url = r''
     headers = {
-        'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0',
-        'Cookie':'pgv_pvid=612035977; RK=eSH4748z11; ptcz=9f604ce58e74423efb6affb1a6552525ef316f4917330cb8cfaea425045684ee; fingerprint=20b89112747542d6a8ccc81afc83e0ba2; fqm_pvqid=3fd7f312-738b-4cc3-8751-0c4fbc899f62; _qimei_uuid42=18609101f1d1004e19046a209774d660ec7550b6fb; pac_uid=0_8b4HpEEcidXBZ; _qimei_fingerprint=d76ffa121263e51bcc8a2d5d73881a74; _qimei_q36=; _qimei_h38=b885922f19046a209774d66002000004018609; low_login_enable=1; adtag=9.9.3-17816; suid=user_0_8b4HpEEcidXBZ; optimal_cdn_domain=docs2.gtimg.com; backup_cdn_domain=docs.gtimg.com; adtag=9.9.3-17816; uid=144115210555677266; uid_key=EOP1mMQHGiw4ZWpFaW5ZeDd5ejFCZDVLL0lnUkxOMnFWaWNST3RsaC9XelgwbzFiR253PSKBAmV5SmhiR2NpT2lKQlEwTkJURWNpTENKMGVYQWlPaUpLVjFRaWZRLmV5SlVhVzU1U1VRaU9pSXhORFF4TVRVeU1UQTFOVFUyTnpjeU5qWWlMQ0pXWlhJaU9pSXhJaXdpUkc5dFlXbHVJam9pYzJGaGMxOTBiMk1pTENKU1ppSTZJbHBqVFdkcVdTSXNJbVY0Y0NJNk1UY3lPVEV6TlRreU1pd2lhV0YwSWpveE56STJOVFF6T1RJeUxDSnBjM01pT2lKVVpXNWpaVzUwSUVSdlkzTWlmUS4wazBUNWNaT0tsOWIwZUw4QWlvZURNTUZJdnNnYWtmd1MxT01LZXRNaDZjKLKKwrgGMAE4%2BcewMEIgNzg1MEU4NkQzQ0RENkNCMjY3NDVENTY5QTA2MEU3MDI%3D; utype=qq; DOC_QQ_APPID=101458937; DOC_QQ_OPENID=7850E86D3CDD6CB26745D569A060E702; env_id=gray-no3; gray_user=true; DOC_SID=a81479a7478e47cfb078370ad432b8f8fa7c3f7faf1b442f984711174820b4e0; SID=a81479a7478e47cfb078370ad432b8f8fa7c3f7faf1b442f984711174820b4e0; loginTime=1727160973708; traceid=634ec231ec; TOK=634ec231ecc3a583; hashkey=634ec231',
     }
     res = requests.get(url,headers=headers)
     if res.status_code == 200:
@@ -210,7 +247,7 @@ def get_tag_excel_url():
 # cn only 下载表格
 def dl_tag_excel_to_cache():
     # url = get_tag_excel_url()
-    url = r'https://docs-import-export-1251316161.cos.ap-guangzhou.myqcloud.com/export/xlsx/FPnEdntVFATq/904212092c2b30fa27d91a58e08c480f.json.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKID8GWineS8xy0uqtmhiaKxNiuwtywncHya%2F20240928%2Fap-guangzhou%2Fs3%2Faws4_request&X-Amz-Date=20240928T054834Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3Bfilename%3D%22.xlsx%22%3Bfilename%2A%3DUTF-8%27%27%25E6%25A0%2587%25E7%25AD%25BE%25E5%258A%259F%25E8%2583%25BD%25E7%25BB%259F%25E8%25AE%25A1.xlsx&X-Amz-Signature=7e3f8f6a7109ce329ee80f4deab1805dc84f8fc1a059f3a5bec716b16df21749'
+    url = r''
 
     res = requests.get(url)
     save_path = gen_path('_cache','tags.xlsx')
@@ -243,12 +280,12 @@ def replace_nbsp(df):
     return df
 
 # 下载的excel转成lua
-def convert_tags_excel_to_lua():
+def convert_tags_excel_to_lua(worksheet_name):
     warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
     # 读取 Excel 文件
     file_path = gen_path('_cache','tags.xlsx')
     # 读取默认第一个工作表
-    df = pd.read_excel(file_path)
+    df = pd.read_excel(file_path,sheet_name=worksheet_name)
     # 处理 NaN 和 \xa0
     df_converted = replace_nbsp(df)
     # 将 DataFrame 转换为列表
@@ -315,3 +352,6 @@ def print_tree(lang='cn'):
     folders_tree = path_for_tree(lang)
     print(gen_tree(folders_tree, prefix='', is_last=True, result=None))
     
+    
+if __name__ == '__main__':
+    for_md('en')

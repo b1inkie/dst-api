@@ -99,6 +99,9 @@ scripts_en
 - `scripts_cn` 下放着所有要注释的文件,写好后, `pull request` 即可.
 - All files to be commented are placed under `scripts_en`. After you have written the comments, submit a `pull request`.
 
+- 🪁注目: 由于 `scripts_en` 是从 `scripts_cn` 拷贝过来的, 所以包含了大量中文,如果您发现了中文部分,您可以删除,也可以修改为英文. 相反的,如果 `scripts_cn` 中您发现了大量英语内容,也可以将其翻译成中文.
+- 🪁Note: Since `scripts_en` is copied from `scripts_cn`, it contains a lot of Chinese text. If you find any Chinese content, you can delete it or translate it into English. Conversely, if you find a lot of English content in `scripts_cn` , you can translate it into Chinese.
+
 ### 💡格式/Format 
 
 ```lua

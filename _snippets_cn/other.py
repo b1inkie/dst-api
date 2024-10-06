@@ -201,31 +201,7 @@ data = {
         "body": "Vector3(${1:0}, ${2:$1}, ${3:$1})",
         "description": "创建三维向量"
     },
-    # "事件监听": {
-    #     "prefix": "ListenForEvent",
-    #     "body": "ListenForEvent(\"${1:事件名称}\", function(inst, data) end,inst)",
-    #     "description": "添加注册事件监听器"
-    # },
-    # "RemoveEventCallback": {
-    #     "prefix": "RemoveEventCallback",
-    #     "body": "RemoveEventCallback",
-    #     "description": "dst-未定义的"
-    # },
-    # "触发事件": {
-    #     "prefix": "PushEvent",
-    #     "body": "PushEvent(\"${1:事件名称}\", {})",
-    #     "description": "添加触发事件"
-    # },
-    # "定时器": {
-    #     "prefix": "DoTaskInTime",
-    #     "body": "DoTaskInTime(${1:1},function()${0}end)",
-    #     "description": "添加定时器"
-    # },
-    # "周期定时器": {
-    #     "prefix": "DoPeriodicTask",
-    #     "body": "DoPeriodicTask(${1:1},function()${0}end,0)",
-    #     "description": "添加周期定时器"
-    # },
+
     "BufferedAction": {
         "prefix": "BufferedAction",
         "body": "BufferedAction",

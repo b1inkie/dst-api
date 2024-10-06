@@ -6,7 +6,7 @@ data = {
 	},
 	"lua:定义函数": {
 		"prefix": "func",
-		"body": "function $1($2)\n\t$3\nend\n",
+		"body": "function $1($2)\n\t$3\nend",
 		"description": "定义一个新函数"
 	},
 	"lua:for循环": {

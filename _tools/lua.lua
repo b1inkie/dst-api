@@ -43,6 +43,7 @@ local tools = {
         constant = {cn='常量',en='Constant'},
         inst_method = {cn='实体方法',en='Inst Method'},
         globals = {cn='全局',en='Global'},
+        event = {cn='事件',en='Event'},
     }
 }
 
@@ -645,6 +646,7 @@ function tools:tags_lua2temp(lang)
     local tags = require('scripts_'..lang..'/tags')
     local res = 'data = {\n'
     for k,group in pairs(tags) do
+        -- if group.tips and group.tips ~= '' then
         local phase = [[
     "tag:%s": {
         "prefix": "tag+%s",
@@ -674,10 +676,35 @@ function tools:tags_lua2temp(lang)
         "\\\""..k.."\\\"",
         desc
         )
+        -- end
     end
     res = res .. "\n}"
     self:gen_file('_temp/tags.py',res)
 end
 
+function tools:event_to_regex(lang)
+    lang = lang or 'cn'
+    local data = require('scripts_'..lang..'/event')
+    local phase = [[{"label": "%s","documentation": "%s","author": "%s"},]]
+    local res = ''
+    for k,v in pairs(data) do
+        local desc = '## '..self.lang.event[lang]..'\\n- '..self.lang.desc[lang]..': '..(v.tips or '')..'\\n'
+        local desc_data = ''
+        if v.params and type(v.params) == 'table' and #v.params > 0 then
+            desc_data = desc_data..'- data'..(lang=='cn' and '表' or 'table')..': \\n|'..self.lang.params[lang]..'|'..self.lang.desc[lang]..'|\\n|-|-|\\n'
+            for _,param in ipairs(v.params or {}) do
+                desc_data = desc_data..'|'..(param.param or '')..'|'..(param.explain or '')..'|\\n'
+            end
+            -- for _,param in ipairs(v.params or {}) do
+            --     desc_data = desc_data..(param.param or '')..': '..(param.explain or '')..'\\n\\t'
+            -- end
+            -- desc_data = desc_data..'}\\n'
+        end
+        desc = desc..desc_data
+        res = res..string.format(phase,k,desc,v.author or '')
+    end
+
+    self:gen_file('_temp/event_'..lang..'.py',res:sub(1,-2))
+end
 
 return tools

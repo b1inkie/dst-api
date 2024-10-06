@@ -1,5 +1,25 @@
 return {
-    id = '',
-    API = '',
-
+    ['id'] = '',
+    ['API'] = '',
+    ['item'] = '',
+    ['nil'] = '',
+    ['true'] = '',
+    ['false'] = '',
+    ['boolean'] = '布尔',
+    ['number'] = '数字',
+    ['string'] = '字符串',
+    ['then'] = '',
+    ['owner'] = '主人',
+    ['inst'] = '',
+    ['data'] = '',
+    ['self'] = '',
+    ['replica'] = '客机组件',
+    ['widget'] = '用于构造UI的类',
+    ['images'] = '图片',
+    ['unique'] = '独一无二的',
+    ['pair'] = '',
+    ['pairs'] = '',
+    ['function'] = '函数',
+        ['object'] = '',
+        
 }
