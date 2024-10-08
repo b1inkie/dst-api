@@ -15,7 +15,8 @@ return {
         params = {}, 
         returns = {}, 
         tips = "UNKNOWN", 
-        author = ""
+        author = "",
+        replace_body = "Announce(${1:msg})"
     },
     ["AnnounceDeath"] = {
         params = {},

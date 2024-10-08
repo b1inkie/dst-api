@@ -20,7 +20,8 @@ return {
         }, 
         returns = {}, 
         tips = "发出公告", 
-        author = "lan"
+        author = "lan",
+        replace_body = "Announce(${1:msg})"
     },
     ["AnnounceDeath"] = {
         params = {},

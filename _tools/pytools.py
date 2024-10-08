@@ -23,10 +23,17 @@ TRANSLATE = {
     'snippet_5_c': {'cn':'启发模式:提供一些快捷代码块','en':'Inspire Mode: Provides some code blocks'},
     'snippet_6': {'cn':'contri+components','en':'contri+components'},
     'snippet_6_c': {'cn':'成为贡献者!(注释模板)','en':'Become a contributor!(comment template)'},
-    'snippet_7': {'cn':'lan+param','en':'lan+param'},
+    'snippet_7': {'cn':'LAN+param','en':'LAN+param'},
     'snippet_7_c': {'cn':r'方法形参注释---$param: (param) <type> [desc] {others}','en':r'Method parameter comment---$param: (param) <type> [desc] {others}'},
-    'snippet_8': {'cn':'lan+return','en':'lan+return'},
+    'snippet_8': {'cn':'LAN+return','en':'LAN+return'},
     'snippet_8_c': {'cn':r'方法返回注释---$return: <type> [desc]','en':r'Method return comment---$return: <type> [desc]'},
+    'snippet_gen_compo': {'cn':'LANcomponent','en':'LANcomponent'},
+    'snippet_gen_compo_c': {'cn':'插入空组件代码块','en':'Insert empty component code block'},
+    'snippet_gen_string': {'cn':'LANstring','en':'LANstring'},
+    'snippet_gen_string_c': {'cn':'选中一个预制物名生成翻译代码块','en':'Insert Prefab Translation Block'},
+    'select_to_upper': {'cn':'upper/lower','en':'upper/lower'},
+    'select_to_upper_c': {'cn':'选中字符串转大/小写','en':'select string to upper/lower'},
+    
     'theme': {'cn':'※主题','en':'※Theme'},
     'icon': {'cn':'DST LAN ICON','en':'DST LAN ICON'},
     'icon_details': {'cn':'单独为DST MOD文件夹做了图标','en':'Icon designed for DST MOD folders'},
@@ -60,6 +67,7 @@ TRANSLATE = {
     'open_commands': {'cn':'输入dst-lan即可找到本插件指令','en':'Enter dst-lan to find all commands of this extension'},
     'command_togglelang': {'cn':'切换语言','en':'Toggle Language'},
     'command_delcomments': {'cn':'删除注释','en':'Delete Comments'},
+    'command_compiler': {'cn':'打包当前mod中的动画','en':'Run Compiler'},
 }
 
 def for_md(lang='cn'):
@@ -80,6 +88,10 @@ def for_md(lang='cn'):
         f'|{TRANSLATE["snippet_6"][lang]}|-|{TRANSLATE["snippet_6_c"][lang]}|','\\n',
         f'|{TRANSLATE["snippet_7"][lang]}|-|{TRANSLATE["snippet_7_c"][lang]}|','\\n',
         f'|{TRANSLATE["snippet_8"][lang]}|-|{TRANSLATE["snippet_8_c"][lang]}|','\\n',
+        f'|{TRANSLATE["snippet_gen_compo"][lang]}|-|{TRANSLATE["snippet_gen_compo_c"][lang]}|','\\n',
+        f'|{TRANSLATE["snippet_gen_string"][lang]}|-|{TRANSLATE["snippet_gen_string_c"][lang]}|','\\n',
+        f'|{TRANSLATE["select_to_upper"][lang]}|-|{TRANSLATE["select_to_upper_c"][lang]}|','\\n',
+        
         f'### {TRANSLATE["theme"][lang][1:]}\\n',
         f'- {TRANSLATE["icon"][lang]}\\n\\n',
         f'\\t{TRANSLATE["icon_details"][lang]}\\n',
@@ -89,6 +101,7 @@ def for_md(lang='cn'):
         f'### {TRANSLATE["commands"][lang]}(ctrl + shift + P)\\n',
         f'- {TRANSLATE["command_togglelang"][lang]}\\n',
         f'- {TRANSLATE["command_delcomments"][lang]}\\n',
+        f'- {TRANSLATE["command_compiler"][lang]}\\n',
     ]
     res = ''
     for i in datas:

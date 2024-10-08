@@ -21,4 +21,5 @@ return {
     ['pairs'] = '',
     ['function'] = '',
         ['object'] = '',
+        ['doer'] = '',
 }

@@ -4,7 +4,7 @@ data = {
 		"body": "print($1)",
 		"description": "在控制台打印信息"
 	},
-	"lua:定义函数": {
+	"lua:定义函数": {	
 		"prefix": "func",
 		"body": "function $1($2)\n\t$3\nend",
 		"description": "定义一个新函数"

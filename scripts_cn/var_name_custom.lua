@@ -22,4 +22,6 @@ return {
     ['function'] = '函数',
         ['object'] = '',
         
+        ['doer'] = '',
+        
 }

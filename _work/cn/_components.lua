@@ -22,14 +22,16 @@ for _,v in pairs(files_tbl) do
     local ph = 'components'
     local componentname = file_name 
     local replica_pos = string.find(file_name, '_replica')
+    local prefix = Utils.lang.component[cur_lang]
     if replica_pos then
         ph = 'replica'
         componentname = string.sub(file_name, 1,replica_pos-1)
+        prefix = '客机'..prefix
     end
     Utils:direct2sn_in_temp_linebyline(
         require('scripts_'..cur_lang..'/components/'..file_name),
         file_name,
-        Utils.lang.component[cur_lang]..'.'..ph..':',
+        prefix..'.'..componentname..':',
         ph..'.',
         ph..'.',
         componentname..':',

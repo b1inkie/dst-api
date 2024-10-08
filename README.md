@@ -23,8 +23,8 @@
 
 ## 📖help
 
-- 安装插件后,直接键入`help`,点击提示框中的`help`补全的右尖括号,将可以看到详细信息:
-- After installing the plugin, type `help` and click the right angle bracket for `help` in the prompt box to see detailed information:
+- 安装插件后,直接键入`help?`(为了不污染全局补全环境,像是help之类的hint,需要用特殊符号触发):
+- After installing the plugin, type `help?`(To avoid polluting the global autocompletion environment, hints like help need to be triggered with special characters.):
 
 ![help](_images/help.png)
 
@@ -212,9 +212,9 @@ scripts_en
 - Lua 语法高亮/Lua Syntax Highlighting:
 
 - 自动生成注释模板/Comment Template:
-    + `lan+param`
+    + `LAN+param`
     <span style="color: #88846f;">---</span><span style="color: #52d9ce;">\$</span><span style="color: #f92749;">param</span><span style="color: #52d9ce;">:</span> <span style="color: #f1d70b;">(</span><span style="color: #fd8921;">param</span><span style="color: #f1d70b;">)</span> <span style="color: #ae81ff;"><</span><span style="color: #66d9ef;">type</span><span style="color: #ae81ff;">></span> <span style="color: #88846f;">[</span><span style="color: #e6db74;">desc</span><span style="color: #88846f;">]</span> {others}
-    + `lan+return`
+    + `LAN+return`
     <span style="color: #88846f;">---</span><span style="color: #52d9ce;">\$</span><span style="color: #f92749;">return</span><span style="color: #52d9ce;">:</span>  <span style="color: #ae81ff;"><</span><span style="color: #66d9ef;">type</span><span style="color: #ae81ff;">></span> <span style="color: #88846f;">[</span><span style="color: #e6db74;">desc</span><span style="color: #88846f;">]</span>
 
 - 用户注释模板/Modder Comment Template:
@@ -224,6 +224,11 @@ scripts_en
     + 安装后,点击 `设置文件图标主题` 选择 `DST LAN ICON` 主题/After installation, click on `Set File Icon Theme` and choose the `DST LAN ICON` theme
 
     ![special_icon](_images/special_icon.png)
+
+- 命令:执行打包/Command:Run Compiler
+    + `ctrl + shift + p` -> `dst-lan.compiler`
+    + 选择: 配置打包工具中scml.exe路径/Select: Settings DST modtools compiler scml.exe Path
+    + 选择: 运行打包即可/Select: Run compiler
 
 ## 📝Todo:
 
@@ -236,11 +241,11 @@ scripts_en
 
 ## 🚩贡献者/Contributors
 
-- 创建者
+- 创建者/Owner
     + lan 
 
-- 协作
+- 协作/Collaborators
     + Runar
 
-- 其他贡献者
+- 其他贡献者/Others
     + 卡得粉丝
