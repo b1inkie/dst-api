@@ -44,6 +44,7 @@ local tools = {
         inst_method = {cn='实体方法',en='Inst Method'},
         globals = {cn='全局',en='Global'},
         event = {cn='事件',en='Event'},
+        hasreplica = {cn='有无客机组件',en='Has Replica(client omponent)'},
     }
 }
 
@@ -705,6 +706,29 @@ function tools:event_to_regex(lang)
     end
 
     self:gen_file('_temp/event_'..lang..'.py',res:sub(1,-2))
+end
+
+
+function tools:for_addcomponent(lang)
+    lang = lang or 'cn'
+    local var_name = require('scripts_'..lang..'/'..'var_name_components')
+
+    local res = ''
+    for k,v in pairs(var_name) do
+        local replica_pos = string.find(k, '_replica')
+        local hasreplica = lang=='cn' and '无' or 'No'
+        if replica_pos == nil then
+            if var_name[k..'_replica'] then
+                hasreplica = lang=='cn' and '有' or 'Yes'
+            end
+            res = res .. string.format("{\"label\":\"%s\",\"documentation\":\"### %s\\n- %s: %s\\n- %s: %s\",\"author\": \"\"},",k,self.lang.component[lang],self.lang.desc[lang],v,self.lang.hasreplica[lang],hasreplica)
+        end
+    end
+    local f = io.open('for_addcomponent.json',"w")
+    if f then 
+        f:write(res)
+        f:close()
+    end
 end
 
 return tools

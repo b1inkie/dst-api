@@ -230,14 +230,24 @@ scripts_en
     + 选择: 配置打包工具中scml.exe路径/Select: Settings DST modtools compiler scml.exe Path
     + 选择: 运行打包即可/Select: Run compiler
 
+- 命令: 制作预制物动画和图片/Command: Make Prefab Anim and Img
+    + `ctrl + shift + p` -> `dst-lan.makeimg`
+    + 选择: 提取图片到_temp文件夹/Select: Extracting images to the _temp folder
+    + 选择: 我已制作好了_temp中的图片!/Select: finished making the images in _temp!
+    + 完成后`执行打包`即可/After that, you can `Run compiler`
+
 ## 📝Todo:
 
 ## 🏡社区:
 
-- *Q群*:
+- *插件Q群*:
+    + 饥荒mod制作交流及插件建议,贡献,问题反馈群(刚创的): 623398781
+
+- *其他推荐Q群*:
     + 五年一班: 620984175
     + 龙飞群: 559477977 (入群口令 LongFei_Gamer)
-    + 我的代码交流小群(勿灌水): 855512521
+    + 饥荒mod制作群: 557963863
+    
 
 ## 🚩贡献者/Contributors
 

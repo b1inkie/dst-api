@@ -1122,9 +1122,9 @@ return {
 
     ["bramble_resistant"] = {
         simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        tips = "免疫来自尖刺灌木、仙人掌、玫瑰的尖刺伤害",
+        class = "物品 | Inventory Item",
+        author = "Albe",
     },  
 
     ["brightmare"] = {
@@ -1499,7 +1499,7 @@ return {
     },  
 
     ["cattoy"] = {
-        simple_tips = "",
+        simple_tips = "猫玩具",
         tips = "",
         class = "",
         author = "",
@@ -1555,8 +1555,8 @@ return {
     },  
 
     ["character"] = {
-        simple_tips = "",
-        tips = "",
+        simple_tips = "角色",
+        tips = "不止是玩家角色，也包括牛、猪人什么的，用途很多，包括但不限于：1普遍用于生物仇恨，逃跑/恐慌AI之类的2",
         class = "",
         author = "",
     },  
@@ -2305,9 +2305,9 @@ return {
 
     ["electricdamageimmune"] = {
         simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        tips = "闪电伤害免疫",
+        class = "实体 | Prefab",
+        author = "Albe",
     },  
 
     ["elemental"] = {
@@ -2388,10 +2388,10 @@ return {
     },  
 
     ["equipmentmodel"] = {
-        simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        simple_tips = "假人",
+        tips = "假人和各种拳击袋",
+        class = "建筑 | Structure",
+        author = "Albe",
     },  
 
     ["event_trigger"] = {
@@ -2528,7 +2528,7 @@ return {
     },  
 
     ["fastpicker"] = {
-        simple_tips = "",
+        simple_tips = "快速采集",
         tips = "",
         class = "",
         author = "",
@@ -3081,7 +3081,7 @@ return {
     },  
 
     ["goggles"] = {
-        simple_tips = "",
+        simple_tips = "护目镜",
         tips = "护目镜效果，免疫沙尘暴、月亮风暴、黑暗瘴气的减速和视野降低",
         class = "物品 | Inventory Item",
         author = "",
@@ -3669,10 +3669,10 @@ return {
     },  
 
     ["insomniac"] = {
-        simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        simple_tips = "失眠",
+        tips = "薇克巴顿有这个标签",
+        class = "角色 | Character",
+        author = "Albe",
     },  
 
     ["inspectable"] = {
@@ -3753,10 +3753,10 @@ return {
     },  
 
     ["irreplaceable"] = {
-        simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        simple_tips = "不可替代",
+        tips = "玩家携带时下线会掉落在地上",
+        class = "物品 | Inventory Item",
+        author = "Albe",
     },  
 
     ["is_furling"] = {
@@ -4061,17 +4061,17 @@ return {
     },  
 
     ["lightningrod"] = {
-        simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        simple_tips = "避雷针",
+        tips = "会有避雷针的功能",
+        class = "实体 | Prefab",
+        author = "Albe",
     },  
 
     ["lightningtarget"] = {
-        simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        simple_tips = "闪电目标",
+        tips = "会被雷劈",
+        class = "实体 | Prefab",
+        author = "Albe",
     },  
 
     ["lightrays"] = {
@@ -4664,7 +4664,7 @@ return {
 
     ["monster"] = {
         simple_tips = "",
-        tips = "官方怪物的定义，不是所有boss都是怪物一般用于生物仇恨",
+        tips = "官方怪物的定义，不是所有boss都是怪物一般用于生物仇恨给角色这个标签的时候要一起给playermonster",
         class = "实体 | Prefab",
         author = "chihiro",
     },  
@@ -4936,10 +4936,10 @@ return {
     },  
 
     ["nightvision"] = {
-        simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        simple_tips = "夜视",
+        tips = "鼹鼠帽的夜视效果",
+        class = "物品 | Inventory Item",
+        author = "Albe",
     },  
 
     ["no_force_grow"] = {
@@ -6477,9 +6477,9 @@ return {
 
     ["scarytoprey"] = {
         simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        tips = "会吓跑兔子之类的小动物",
+        class = "物品 | Inventory Item",
+        author = "Albe",
     },  
 
     ["scientist"] = {
@@ -6630,10 +6630,10 @@ return {
     },  
 
     ["shadowdominance"] = {
-        simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        simple_tips = "暗影支配",
+        tips = "影怪不会主动攻击玩家",
+        class = "物品 | Inventory Item",
+        author = "Albe",
     },  
 
     ["shadowhand"] = {
@@ -6756,10 +6756,10 @@ return {
     },  
 
     ["show_spoilage"] = {
-        simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        simple_tips = "显示新鲜度",
+        tips = "显示新鲜度百分比",
+        class = "物品 | Inventory Item",
+        author = "Albe",
     },  
 
     ["show_spoiled"] = {
@@ -7071,10 +7071,10 @@ return {
     },  
 
     ["spiderdisguise"] = {
-        simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        simple_tips = "蜘蛛伪装",
+        tips = "不会被蜘蛛主动攻击",
+        class = "物品 | Inventory Item",
+        author = "Albe",
     },  
 
     ["spidermutator"] = {
@@ -7484,10 +7484,10 @@ return {
     },  
 
     ["thorny"] = {
-        simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        simple_tips = "有刺的",
+        tips = "尖刺灌木、仙人掌、玫瑰有这个标签",
+        class = "实体 | Prefab",
+        author = "Albe",
     },  
 
     ["throw_line"] = {
@@ -7541,7 +7541,7 @@ return {
 
     ["toughworker"] = {
         simple_tips = "强力开采者",
-        tips = "可以破坏绝望柱、绝望矿之类的一般用于生物，做工具不要用这个，工具组件里有另一个参数来赋予功能",
+        tips = "可以破坏绝望柱、绝望矿之类的一般用于生物，做工具不要用这个，工具组件里有另一个参数来赋予该功能",
         class = "生物 | Mobs",
         author = "lulu",
     },  
@@ -8240,10 +8240,10 @@ return {
     },  
 
     ["witherable"] = {
-        simple_tips = "",
-        tips = "",
-        class = "",
-        author = "",
+        simple_tips = "可枯萎",
+        tips = "像浆果丛一类会枯萎的植物有这个标签",
+        class = "实体 | Prefab",
+        author = "Albe",
     },  
 
     ["withered"] = {

@@ -240,8 +240,9 @@ return {
 
 		},
 		returns = {},
-		tips = "实体添加组件",
+		tips = "inst add component",
 		author = "lan",
+		replica_body = "AddComponent($1)"
 	},      
 
 	["RemoveComponent"] = {

@@ -1,12 +1,17 @@
 data = {
-    "Word:API": {
-        "prefix": "API",
-        "body": "API",
+    "Word:owner": {
+        "prefix": "owner",
+        "body": "owner",
         "description": " ※Description: "
     },
-    "Word:data": {
-        "prefix": "data",
-        "body": "data",
+    "Word:inst": {
+        "prefix": "inst",
+        "body": "inst",
+        "description": " ※Description: "
+    },
+    "Word:pairs": {
+        "prefix": "pairs",
+        "body": "pairs",
         "description": " ※Description: "
     },
     "Word:boolean": {
@@ -14,14 +19,9 @@ data = {
         "body": "boolean",
         "description": " ※Description: "
     },
-    "Word:nil": {
-        "prefix": "nil",
-        "body": "nil",
-        "description": " ※Description: "
-    },
-    "Word:id": {
-        "prefix": "id",
-        "body": "id",
+    "Word:string": {
+        "prefix": "string",
+        "body": "string",
         "description": " ※Description: "
     },
     "Word:doer": {
@@ -29,14 +29,34 @@ data = {
         "body": "doer",
         "description": " ※Description: "
     },
+    "Word:true": {
+        "prefix": "true",
+        "body": "true",
+        "description": " ※Description: "
+    },
     "Word:replica": {
         "prefix": "replica",
         "body": "replica",
         "description": " ※Description: "
     },
-    "Word:owner": {
-        "prefix": "owner",
-        "body": "owner",
+    "Word:id": {
+        "prefix": "id",
+        "body": "id",
+        "description": " ※Description: "
+    },
+    "Word:unique": {
+        "prefix": "unique",
+        "body": "unique",
+        "description": " ※Description: "
+    },
+    "Word:nil": {
+        "prefix": "nil",
+        "body": "nil",
+        "description": " ※Description: "
+    },
+    "Word:widget": {
+        "prefix": "widget",
+        "body": "widget",
         "description": " ※Description: "
     },
     "Word:self": {
@@ -49,39 +69,9 @@ data = {
         "body": "pair",
         "description": " ※Description: "
     },
-    "Word:then": {
-        "prefix": "then",
-        "body": "then",
-        "description": " ※Description: "
-    },
-    "Word:function": {
-        "prefix": "function",
-        "body": "function",
-        "description": " ※Description: "
-    },
-    "Word:inst": {
-        "prefix": "inst",
-        "body": "inst",
-        "description": " ※Description: "
-    },
-    "Word:images": {
-        "prefix": "images",
-        "body": "images",
-        "description": " ※Description: "
-    },
-    "Word:item": {
-        "prefix": "item",
-        "body": "item",
-        "description": " ※Description: "
-    },
-    "Word:number": {
-        "prefix": "number",
-        "body": "number",
-        "description": " ※Description: "
-    },
-    "Word:string": {
-        "prefix": "string",
-        "body": "string",
+    "Word:API": {
+        "prefix": "API",
+        "body": "API",
         "description": " ※Description: "
     },
     "Word:object": {
@@ -89,24 +79,34 @@ data = {
         "body": "object",
         "description": " ※Description: "
     },
-    "Word:pairs": {
-        "prefix": "pairs",
-        "body": "pairs",
+    "Word:then": {
+        "prefix": "then",
+        "body": "then",
         "description": " ※Description: "
     },
-    "Word:true": {
-        "prefix": "true",
-        "body": "true",
+    "Word:images": {
+        "prefix": "images",
+        "body": "images",
         "description": " ※Description: "
     },
-    "Word:unique": {
-        "prefix": "unique",
-        "body": "unique",
+    "Word:number": {
+        "prefix": "number",
+        "body": "number",
         "description": " ※Description: "
     },
-    "Word:widget": {
-        "prefix": "widget",
-        "body": "widget",
+    "Word:item": {
+        "prefix": "item",
+        "body": "item",
+        "description": " ※Description: "
+    },
+    "Word:data": {
+        "prefix": "data",
+        "body": "data",
+        "description": " ※Description: "
+    },
+    "Word:function": {
+        "prefix": "function",
+        "body": "function",
         "description": " ※Description: "
     },
     "Word:false": {

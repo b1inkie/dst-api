@@ -309,6 +309,7 @@ def convert_tags_excel_to_lua(worksheet_name):
     res = 'return {\n'
     for group in data_list:
         name = group[0].replace("\n","")
+        # print(name)
         if name == '': # 跳过空行
             continue
         if dict_tag.get(name) != None: # 重复的跳过

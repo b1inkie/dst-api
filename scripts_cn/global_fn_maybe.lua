@@ -6585,7 +6585,7 @@ return {
             tips = "生成预制物",
             author = "lan",
             line = "所在行数: 377", 
-            replace_body = "SpawnPrefab(${1:prefab_id})" -- @lan: 这么常用的方法,有这么多参数,统统不要
+            replace_body = "SpawnPrefab(${1:p})" -- @lan: 这么常用的方法,有这么多参数,统统不要
         },
             
         ["ReplacePrefab"] = {
